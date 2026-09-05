@@ -1,0 +1,272 @@
+{
+  "schema_version": "0.1.0",
+  "topic": "Budgeting untuk orang yang baru mulai mengatur uang",
+  "objective": "Membuat pembaca pemula memahami bahwa budgeting pada dasarnya adalah proses memberi tujuan pada uang sebelum uang tersebut habis tanpa arah.",
+  "initial_angle": "Budgeting tidak harus dimulai dari metode yang rumit.",
+  "raw_material": [
+    {
+      "id": "mat_01",
+      "type": "DEFINITION",
+      "content": "Budgeting dalam materi ini didefinisikan sebagai proses merencanakan bagaimana pendapatan atau uang yang tersedia akan digunakan untuk berbagai kebutuhan dan tujuan.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_02",
+      "type": "RESEARCH_NOTE",
+      "content": "Tujuan budgeting bukan sekadar mencatat transaksi yang sudah terjadi, tetapi membuat keputusan penggunaan uang sebelum seluruh uang tersebut terpakai.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_03",
+      "type": "RESEARCH_NOTE",
+      "content": "Mencatat pengeluaran tetap berguna karena membantu seseorang melihat pola penggunaan uang, tetapi pencatatan saja tidak otomatis berarti seseorang sudah memiliki rencana anggaran.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_04",
+      "type": "RESEARCH_NOTE",
+      "content": "Materi membagi kebutuhan menjadi kebutuhan rutin, kebutuhan fleksibel, dan tujuan keuangan agar proses perencanaan lebih mudah dilakukan.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_05",
+      "type": "EXAMPLE",
+      "content": "Kebutuhan rutin dapat berupa biaya tempat tinggal, transportasi rutin, biaya komunikasi, atau kebutuhan lain yang relatif dapat diperkirakan.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_06",
+      "type": "EXAMPLE",
+      "content": "Kebutuhan fleksibel dapat berupa makan di luar, hiburan, pembelian impulsif, atau aktivitas lain yang besarannya lebih mudah berubah.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_07",
+      "type": "EXAMPLE",
+      "content": "Tujuan keuangan dapat berupa dana darurat, membeli perangkat kerja, biaya pendidikan, perjalanan, atau tujuan lain yang membutuhkan uang di masa depan.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_08",
+      "type": "RESEARCH_NOTE",
+      "content": "Materi menyarankan agar seseorang mengetahui terlebih dahulu berapa uang yang benar-benar tersedia sebelum menetapkan alokasi.",
+      "source_ids": [
+        "src_02"
+      ]
+    },
+    {
+      "id": "mat_09",
+      "type": "RESEARCH_NOTE",
+      "content": "Jika pendapatan tidak tetap, budgeting dapat menggunakan estimasi konservatif atau baseline pendapatan yang dianggap lebih aman dibanding menggunakan angka terbaik yang pernah diterima.",
+      "source_ids": [
+        "src_02"
+      ]
+    },
+    {
+      "id": "mat_10",
+      "type": "RESEARCH_NOTE",
+      "content": "Budget yang terlalu ketat dapat menjadi sulit dipertahankan ketika tidak memberikan ruang untuk pengeluaran fleksibel yang memang masih dianggap penting oleh orang tersebut.",
+      "source_ids": [
+        "src_02"
+      ]
+    },
+    {
+      "id": "mat_11",
+      "type": "RESEARCH_NOTE",
+      "content": "Materi menekankan perlunya melakukan review terhadap budget karena rencana awal belum tentu sesuai dengan pola pengeluaran nyata.",
+      "source_ids": [
+        "src_02"
+      ]
+    },
+    {
+      "id": "mat_12",
+      "type": "RESEARCH_NOTE",
+      "content": "Budget dapat direvisi ketika kondisi pendapatan, kebutuhan, atau prioritas berubah.",
+      "source_ids": [
+        "src_02"
+      ]
+    },
+    {
+      "id": "mat_13",
+      "type": "RESEARCH_NOTE",
+      "content": "Tidak ada satu metode budgeting yang dalam materi ini diwajibkan cocok untuk semua orang.",
+      "source_ids": [
+        "src_03"
+      ]
+    },
+    {
+      "id": "mat_14",
+      "type": "RESEARCH_NOTE",
+      "content": "Metode persentase, pembagian kategori, zero-based budgeting, atau pendekatan lain diperlakukan sebagai alat bantu, bukan sebagai tujuan utama budgeting.",
+      "source_ids": [
+        "src_03"
+      ]
+    },
+    {
+      "id": "mat_15",
+      "type": "RESEARCH_NOTE",
+      "content": "Seseorang dapat memulai budgeting hanya dengan beberapa kategori besar terlebih dahulu dan menambah detail setelah terbiasa.",
+      "source_ids": [
+        "src_03"
+      ]
+    },
+    {
+      "id": "mat_16",
+      "type": "RESEARCH_NOTE",
+      "content": "Materi mengingatkan bahwa terlalu banyak kategori dapat meningkatkan beban pencatatan dan membuat proses terasa lebih rumit bagi pemula.",
+      "source_ids": [
+        "src_03"
+      ]
+    },
+    {
+      "id": "mat_17",
+      "type": "RESEARCH_NOTE",
+      "content": "Budget yang baik dalam materi ini bukan budget yang selalu sama setiap bulan, tetapi budget yang membantu seseorang membuat keputusan sesuai kondisi dan prioritasnya.",
+      "source_ids": [
+        "src_03"
+      ]
+    },
+    {
+      "id": "mat_18",
+      "type": "RESEARCH_NOTE",
+      "content": "Pemisahan rekening dapat digunakan sebagian orang sebagai alat operasional untuk membantu menjaga kategori uang, tetapi bukan requirement untuk melakukan budgeting.",
+      "source_ids": [
+        "src_03"
+      ]
+    },
+    {
+      "id": "mat_19",
+      "type": "RESEARCH_NOTE",
+      "content": "Spreadsheet, aplikasi pencatat uang, catatan manual, dan metode amplop adalah contoh alat yang dapat digunakan untuk membantu proses budgeting.",
+      "source_ids": [
+        "src_03"
+      ]
+    },
+    {
+      "id": "mat_20",
+      "type": "RESEARCH_NOTE",
+      "content": "Pemilihan alat sebaiknya tidak menjadi fokus utama jika masalah sebenarnya adalah belum adanya keputusan mengenai prioritas penggunaan uang.",
+      "source_ids": [
+        "src_03"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_01",
+      "title": "Mock Module — Budgeting Fundamentals",
+      "source": "Internal mock budgeting module created for Carousel Brief Engine testing",
+      "type": "INTERNAL_DOCUMENT",
+      "notes": "Mock source only."
+    },
+    {
+      "id": "src_02",
+      "title": "Mock Notes — Practical Budget Planning",
+      "source": "Internal mock workshop notes created for test fixtures",
+      "type": "INTERNAL_DOCUMENT",
+      "notes": "Mock source only."
+    },
+    {
+      "id": "src_03",
+      "title": "Mock Guide — Beginner Budget Systems",
+      "source": "Internal mock financial education guide created for system testing",
+      "type": "INTERNAL_DOCUMENT",
+      "notes": "Mock source only."
+    }
+  ],
+  "content_directives": [
+    {
+      "id": "dir_01",
+      "priority": "MUST_INCLUDE",
+      "content": "Perjelas bahwa budgeting adalah proses membuat keputusan terhadap penggunaan uang, bukan sekadar mencatat transaksi.",
+      "material_ids": [
+        "mat_01",
+        "mat_02",
+        "mat_03"
+      ]
+    },
+    {
+      "id": "dir_02",
+      "priority": "PREFER_INCLUDE",
+      "content": "Jika relevan dengan narrative, tunjukkan bahwa pemula tidak harus langsung menggunakan sistem yang kompleks.",
+      "material_ids": [
+        "mat_15",
+        "mat_16"
+      ]
+    },
+    {
+      "id": "dir_03",
+      "priority": "MUST_EXCLUDE",
+      "content": "Jangan menjadikan carousel sebagai perbandingan lengkap seluruh metode budgeting."
+    }
+  ],
+  "context": {
+    "audience": {
+      "mode": "MOCK",
+      "data": {
+        "age_range": "18-27",
+        "financial_knowledge": "beginner",
+        "profile": "mahasiswa akhir, fresh graduate, dan first-jobber"
+      }
+    },
+    "brand": {
+      "mode": "MOCK",
+      "data": {
+        "tone": [
+          "conversational",
+          "clear",
+          "non-judgmental"
+        ]
+      }
+    },
+    "visual": {
+      "mode": "MOCK",
+      "data": {
+        "direction": "illustration and infographic",
+        "text_density": "low",
+        "visual_variety": "allowed",
+        "paragraph_heavy_layout": "avoid"
+      }
+    },
+    "production": {
+      "mode": "MOCK",
+      "data": {
+        "design_tool": "Canva",
+        "manual_editing": "allowed",
+        "image_generation": "manual"
+      }
+    }
+  },
+  "constraints": {
+    "language": "id-ID",
+    "slide_count": {
+      "preferred_min": 5,
+      "preferred_max": 7,
+      "hard_max": 10
+    },
+    "canvas": {
+      "aspect_ratio": "3:4",
+      "width_px": 1080,
+      "height_px": 1440
+    },
+    "custom": [
+      "Jangan mencoba memasukkan seluruh raw material.",
+      "Prioritaskan editorial compression.",
+      "Carousel harus tetap mudah dipindai secara visual."
+    ]
+  }
+}

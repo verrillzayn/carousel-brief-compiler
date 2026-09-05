@@ -1,0 +1,75 @@
+{
+  "fixture": "fixtures/simple/emergency-fund.json",
+  "purpose": "Menguji kemampuan engine menangani input sederhana tanpa overcomplication.",
+  "expected_status": "NEEDS_REVIEW",
+
+  "must": [
+    {
+      "id": "SIMPLE_001",
+      "assertion": "Output harus memiliki satu central takeaway yang jelas mengenai fungsi dana darurat sebagai buffer terhadap kebutuhan mendadak."
+    },
+    {
+      "id": "SIMPLE_002",
+      "assertion": "Objective mengenai relevansi dana darurat bagi orang dengan pemasukan terbatas harus tetap dipertahankan."
+    },
+    {
+      "id": "SIMPLE_003",
+      "assertion": "Material mat_02 harus digunakan karena merupakan MUST_INCLUDE directive."
+    },
+    {
+      "id": "SIMPLE_004",
+      "assertion": "Carousel harus menggunakan contoh yang relevan dengan mahasiswa jika narrative memungkinkan."
+    },
+    {
+      "id": "SIMPLE_005",
+      "assertion": "Tidak boleh ada rekomendasi produk atau instrumen keuangan tertentu."
+    },
+    {
+      "id": "SIMPLE_006",
+      "assertion": "Output harus memiliki production-ready copy, visual direction, asset strategy, dan production instructions."
+    },
+    {
+      "id": "SIMPLE_007",
+      "assertion": "Important factual claims harus traceable ke source atau raw material yang tersedia."
+    }
+  ],
+
+  "must_not": [
+    {
+      "id": "SIMPLE_N001",
+      "assertion": "Engine tidak boleh menambahkan target nominal dana darurat yang tidak tersedia di raw material."
+    },
+    {
+      "id": "SIMPLE_N002",
+      "assertion": "Engine tidak boleh memperluas pembahasan menjadi investasi, asuransi, atau topik personal finance lain yang tidak diperlukan."
+    },
+    {
+      "id": "SIMPLE_N003",
+      "assertion": "Engine tidak boleh membuat carousel menjadi kompleks hanya untuk memenuhi jumlah slide tertentu."
+    }
+  ],
+
+  "should": [
+    {
+      "id": "SIMPLE_S001",
+      "assertion": "Jumlah slide sebaiknya berada dalam preferred range 5-7."
+    },
+    {
+      "id": "SIMPLE_S002",
+      "assertion": "Initial angle boleh dipertahankan atau direframe selama objective dan central takeaway tetap sama."
+    },
+    {
+      "id": "SIMPLE_S003",
+      "assertion": "Visual sebaiknya menggunakan konsep sederhana yang dekat dengan pengalaman mahasiswa."
+    }
+  ],
+
+  "flexible": [
+    "selected_angle",
+    "narrative_type",
+    "headline_wording",
+    "visual_metaphor",
+    "asset_strategy_per_slide",
+    "caption_wording"
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/input.schema.json",
+  "title": "Carousel Brief Engine Input",
+  "description": "Canonical input contract for carousel-brief-engine.",
+  "type": "object",
+  "additionalProperties": false,
+
+  "required": [
+    "schema_version",
+    "topic",
+    "objective",
+    "raw_material"
+  ],
+
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "description": "Version of this input contract.",
+      "const": "0.1.0"
+    },
+
+    "topic": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Topik utama dari satu content unit yang akan dikompilasi menjadi satu carousel."
+    },
+
+    "objective": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Core content objective. Engine boleh mengubah angle, framing, narrative, dan expression, tetapi tidak boleh diam-diam mengubah objective ini."
+    },
+
+    "initial_angle": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1,
+      "description": "Angle awal dari upstream jika tersedia. Bukan hard constraint kecuali dinyatakan melalui content_directives."
+    },
+
+    "raw_material": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Structured raw material blocks. Ini merupakan evidence/material utama yang boleh digunakan engine.",
+      "items": {
+        "$ref": "#/$defs/rawMaterialBlock"
+      }
+    },
+
+    "sources": {
+      "type": "array",
+      "description": "Daftar source yang mendukung raw material. Sources bersifat optional pada contract umum, tetapi ketiadaannya dapat menyebabkan WARNING atau BLOCKED tergantung kebutuhan factual grounding.",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+
+    "content_directives": {
+      "type": "array",
+      "description": "Explicit upstream directives mengenai informasi yang wajib dimasukkan, sebaiknya dimasukkan, atau wajib dikeluarkan.",
+      "items": {
+        "$ref": "#/$defs/contentDirective"
+      }
+    },
+
+    "context": {
+      "$ref": "#/$defs/context"
+    },
+
+    "constraints": {
+      "$ref": "#/$defs/constraints"
+    },
+
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Optional freeform notes dari upstream yang relevan terhadap run ini."
+    }
+  },
+
+  "$defs": {
+    "rawMaterialBlock": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "id",
+        "content"
+      ],
+
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^mat_[A-Za-z0-9_-]+$",
+          "description": "Stable identifier untuk raw material block, misalnya mat_01."
+        },
+
+        "type": {
+          "type": "string",
+          "enum": [
+            "RESEARCH_NOTE",
+            "SOURCE_EXTRACT",
+            "FACT",
+            "CLAIM",
+            "STATISTIC",
+            "DATA_POINT",
+            "DEFINITION",
+            "QUOTE",
+            "EXAMPLE",
+            "INTERNAL_NOTE",
+            "OTHER"
+          ],
+          "default": "RESEARCH_NOTE",
+          "description": "Semantic classification dari material block."
+        },
+
+        "content": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Isi material."
+        },
+
+        "source_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "description": "IDs dari sources yang mendukung material ini.",
+          "items": {
+            "type": "string",
+            "pattern": "^src_[A-Za-z0-9_-]+$"
+          }
+        },
+
+        "label": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Optional short human-readable label untuk material."
+        },
+
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Optional note mengenai penggunaan, konteks, atau keterbatasan material."
+        }
+      }
+    },
+
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "id",
+        "title",
+        "source"
+      ],
+
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^src_[A-Za-z0-9_-]+$",
+          "description": "Stable source identifier, misalnya src_01."
+        },
+
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Human-readable title atau nama source."
+        },
+
+        "source": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Deskripsi asal sumber. Dapat berupa nama orang, institusi, video, dokumen, laporan, buku, interview, atau bentuk provenance lain walaupun tidak memiliki URL."
+        },
+
+        "type": {
+          "type": "string",
+          "enum": [
+            "ARTICLE",
+            "REPORT",
+            "RESEARCH",
+            "BOOK",
+            "VIDEO",
+            "PODCAST",
+            "INTERVIEW",
+            "STATEMENT",
+            "REGULATION",
+            "WEBSITE",
+            "SOCIAL_MEDIA",
+            "INTERNAL_DOCUMENT",
+            "OTHER"
+          ],
+          "description": "Optional source classification."
+        },
+
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri",
+          "description": "Optional URL jika source tersedia secara online."
+        },
+
+        "publisher": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Optional publisher, institution, organization, or platform."
+        },
+
+        "author": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Optional author, speaker, researcher, or responsible entity."
+        },
+
+        "date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Optional publication/event date. Tidak dipaksa ke format tertentu pada V0 agar dapat menerima tanggal parsial seperti '2026' atau 'Agustus 2026'."
+        },
+
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Optional notes mengenai source."
+        }
+      }
+    },
+
+    "contentDirective": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "priority",
+        "content"
+      ],
+
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^dir_[A-Za-z0-9_-]+$",
+          "description": "Optional stable identifier untuk directive."
+        },
+
+        "priority": {
+          "type": "string",
+          "enum": [
+            "MUST_INCLUDE",
+            "PREFER_INCLUDE",
+            "MUST_EXCLUDE"
+          ],
+          "description": "Directive severity."
+        },
+
+        "content": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Informasi atau instruction yang dikenai directive."
+        },
+
+        "material_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "description": "Optional references ke raw material blocks yang terkait dengan directive ini.",
+          "items": {
+            "type": "string",
+            "pattern": "^mat_[A-Za-z0-9_-]+$"
+          }
+        },
+
+        "reason": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Optional reason mengapa directive diberikan."
+        }
+      }
+    },
+
+    "context": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Injected contexts. Setiap context dapat berasal dari MOCK atau PRODUCTION independently.",
+
+      "properties": {
+        "audience": {
+          "$ref": "#/$defs/contextEnvelope"
+        },
+
+        "brand": {
+          "$ref": "#/$defs/contextEnvelope"
+        },
+
+        "visual": {
+          "$ref": "#/$defs/contextEnvelope"
+        },
+
+        "production": {
+          "$ref": "#/$defs/contextEnvelope"
+        }
+      }
+    },
+
+    "contextEnvelope": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "mode",
+        "data"
+      ],
+
+      "properties": {
+        "mode": {
+          "type": "string",
+          "enum": [
+            "MOCK",
+            "PRODUCTION"
+          ],
+          "description": "Menandai apakah context merupakan temporary testing assumption atau actual production truth."
+        },
+
+        "data": {
+          "type": "object",
+          "description": "Context payload. Struktur spesifiknya belum dikunci pada V0 input contract dan dapat dikembangkan melalui context-specific schemas.",
+          "additionalProperties": true
+        },
+
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Optional notes mengenai context atau keterbatasannya."
+        }
+      }
+    },
+
+    "constraints": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Run-specific constraints. Menggabungkan machine-readable constraints dan freeform custom constraints.",
+
+      "properties": {
+        "language": {
+          "type": "string",
+          "default": "id-ID",
+          "description": "Target language/locale untuk carousel copy."
+        },
+
+        "slide_count": {
+          "$ref": "#/$defs/slideCountConstraint"
+        },
+
+        "canvas": {
+          "$ref": "#/$defs/canvasConstraint"
+        },
+
+        "custom": {
+          "type": "array",
+          "description": "Freeform constraints yang belum memiliki structured field.",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+
+    "slideCountConstraint": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "properties": {
+        "preferred_min": {
+          "type": "integer",
+          "minimum": 1,
+          "default": 5
+        },
+
+        "preferred_max": {
+          "type": "integer",
+          "minimum": 1,
+          "default": 7
+        },
+
+        "hard_max": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10,
+          "default": 10
+        }
+      }
+    },
+
+    "canvasConstraint": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "properties": {
+        "aspect_ratio": {
+          "type": "string",
+          "default": "3:4",
+          "description": "Target master aspect ratio."
+        },
+
+        "width_px": {
+          "type": "integer",
+          "minimum": 1,
+          "default": 1080
+        },
+
+        "height_px": {
+          "type": "integer",
+          "minimum": 1,
+          "default": 1440
+        }
+      }
+    }
+  }
+}

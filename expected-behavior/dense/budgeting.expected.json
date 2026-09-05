@@ -1,0 +1,88 @@
+{
+  "fixture": "fixtures/dense/budgeting.json",
+  "purpose": "Menguji editorial distillation, information selection, omission, dan compression pada material yang jauh lebih banyak daripada kapasitas satu carousel.",
+  "expected_status": "NEEDS_REVIEW",
+
+  "must": [
+    {
+      "id": "DENSE_001",
+      "assertion": "Engine harus memilih satu central takeaway dan tidak memperlakukan seluruh 20 material block sebagai informasi yang harus masuk carousel."
+    },
+    {
+      "id": "DENSE_002",
+      "assertion": "Perbedaan antara budgeting dan sekadar mencatat transaksi harus dipertahankan karena merupakan MUST_INCLUDE directive."
+    },
+    {
+      "id": "DENSE_003",
+      "assertion": "Output harus memiliki omitted_material yang substantif."
+    },
+    {
+      "id": "DENSE_004",
+      "assertion": "Major omitted material harus memiliki rationale editorial."
+    },
+    {
+      "id": "DENSE_005",
+      "assertion": "Engine harus memprioritaskan material yang langsung mendukung objective dibanding detail mengenai berbagai metode dan tools budgeting."
+    },
+    {
+      "id": "DENSE_006",
+      "assertion": "Carousel tidak boleh berubah menjadi katalog metode budgeting."
+    },
+    {
+      "id": "DENSE_007",
+      "assertion": "Setiap slide harus memiliki satu core message yang cukup jelas."
+    },
+    {
+      "id": "DENSE_008",
+      "assertion": "Output harus tetap berada pada atau di bawah hard maximum 10 slides."
+    },
+    {
+      "id": "DENSE_009",
+      "assertion": "Copy tidak boleh menyelesaikan density problem dengan memasukkan paragraf panjang."
+    }
+  ],
+
+  "must_not": [
+    {
+      "id": "DENSE_N001",
+      "assertion": "Engine tidak boleh menggunakan semua raw material hanya karena semuanya relevan dengan domain budgeting."
+    },
+    {
+      "id": "DENSE_N002",
+      "assertion": "Engine tidak boleh mengubah carousel menjadi pembahasan lengkap mengenai metode persentase, zero-based budgeting, rekening terpisah, spreadsheet, aplikasi, dan metode amplop sekaligus."
+    },
+    {
+      "id": "DENSE_N003",
+      "assertion": "Engine tidak boleh mengorbankan readability demi completeness."
+    },
+    {
+      "id": "DENSE_N004",
+      "assertion": "Engine tidak boleh menciptakan angka persentase budgeting atau formula pembagian uang yang tidak tersedia di material."
+    }
+  ],
+
+  "should": [
+    {
+      "id": "DENSE_S001",
+      "assertion": "Jumlah slide sebaiknya berada dalam preferred range 5-7 jika central takeaway dapat dijelaskan secara cukup."
+    },
+    {
+      "id": "DENSE_S002",
+      "assertion": "Material mengenai memulai dari kategori sederhana dapat digunakan untuk mendukung beginner-friendly framing."
+    },
+    {
+      "id": "DENSE_S003",
+      "assertion": "Detail tools dan metode kemungkinan besar lebih tepat di-omit atau diperlakukan sebagai secondary material."
+    }
+  ],
+
+  "flexible": [
+    "selected_angle",
+    "exact_selected_material_ids",
+    "exact_omitted_material_ids",
+    "narrative_type",
+    "headline_wording",
+    "slide_count_within_constraints",
+    "visual_concepts"
+  ]
+}

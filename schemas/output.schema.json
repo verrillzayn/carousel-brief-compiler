@@ -1,0 +1,1312 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/output.schema.json",
+  "title": "Carousel Brief Engine Output",
+  "description": "Canonical output contract for carousel-brief-engine. Engine output is either NEEDS_REVIEW or BLOCKED.",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/successOutput"
+    },
+    {
+      "$ref": "#/$defs/blockedOutput"
+    }
+  ],
+
+  "$defs": {
+    "successOutput": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "schema_version",
+        "status",
+        "editorial",
+        "narrative",
+        "claims",
+        "assets",
+        "production",
+        "slides",
+        "caption",
+        "warnings",
+        "qa"
+      ],
+
+      "properties": {
+        "schema_version": {
+          "type": "string",
+          "const": "0.1.0"
+        },
+
+        "status": {
+          "type": "string",
+          "const": "NEEDS_REVIEW",
+          "description": "Successful engine compilation always exits as NEEDS_REVIEW. APPROVED and REVISION_REQUIRED are human lifecycle states outside this engine output contract."
+        },
+
+        "editorial": {
+          "$ref": "#/$defs/editorial"
+        },
+
+        "narrative": {
+          "$ref": "#/$defs/narrative"
+        },
+
+        "claims": {
+          "type": "array",
+          "description": "Registry of factual, derived, or verification-relevant creative claims used by the carousel.",
+          "items": {
+            "$ref": "#/$defs/claim"
+          }
+        },
+
+        "assets": {
+          "type": "array",
+          "description": "Registry of assets required to produce the carousel.",
+          "items": {
+            "$ref": "#/$defs/asset"
+          }
+        },
+
+        "production": {
+          "$ref": "#/$defs/globalProduction"
+        },
+
+        "slides": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 10,
+          "description": "Resolved carousel slides in narrative order.",
+          "items": {
+            "$ref": "#/$defs/slide"
+          }
+        },
+
+        "caption": {
+          "$ref": "#/$defs/caption"
+        },
+
+        "warnings": {
+          "type": "array",
+          "description": "Non-fatal issues that should be visible to the reviewer.",
+          "items": {
+            "$ref": "#/$defs/warning"
+          }
+        },
+
+        "qa": {
+          "$ref": "#/$defs/successQA"
+        }
+      }
+    },
+
+    "blockedOutput": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "schema_version",
+        "status",
+        "reason_code",
+        "reason",
+        "missing",
+        "impact",
+        "recommendation",
+        "upstream_repair_instructions",
+        "resume_when",
+        "warnings"
+      ],
+
+      "properties": {
+        "schema_version": {
+          "type": "string",
+          "const": "0.1.0"
+        },
+
+        "status": {
+          "type": "string",
+          "const": "BLOCKED"
+        },
+
+        "reason_code": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_]*$",
+          "description": "Machine-readable reason, for example INSUFFICIENT_MATERIAL, OBJECTIVE_UNSUPPORTED, SOURCE_CONFLICT, or SCOPE_TOO_BROAD."
+        },
+
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Human-readable explanation of why the engine cannot responsibly continue."
+        },
+
+        "missing": {
+          "type": "array",
+          "minItems": 1,
+          "description": "Missing information or unresolved prerequisites.",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+
+        "impact": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Why the missing or conflicting information prevents a reliable production brief."
+        },
+
+        "recommendation": {
+          "type": "string",
+          "minLength": 1,
+          "description": "High-level recommendation for repairing the upstream input."
+        },
+
+        "upstream_repair_instructions": {
+          "type": "array",
+          "minItems": 1,
+          "description": "Actionable steps upstream should perform before retrying.",
+          "items": {
+            "$ref": "#/$defs/repairInstruction"
+          }
+        },
+
+        "resume_when": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Explicit condition that must be satisfied before the engine should be run again."
+        },
+
+        "warnings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/warning"
+          }
+        },
+
+        "partial_findings": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/partialFindings"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Optional useful findings discovered before the run became blocked."
+        }
+      }
+    },
+
+    "editorial": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "objective",
+        "central_takeaway",
+        "selected_angle",
+        "angle_rationale",
+        "selected_material_ids",
+        "omitted_material"
+      ],
+
+      "properties": {
+        "objective": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The content objective preserved from upstream."
+        },
+
+        "central_takeaway": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The single primary understanding the audience should retain after consuming the carousel."
+        },
+
+        "selected_angle": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Resolved editorial angle selected by the engine."
+        },
+
+        "angle_rationale": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Short decision record explaining why the selected angle is appropriate."
+        },
+
+        "selected_material_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/materialId"
+          },
+          "description": "Raw material blocks actively used in the resolved editorial direction."
+        },
+
+        "omitted_material": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/omittedMaterial"
+          },
+          "description": "Material intentionally excluded from this carousel."
+        }
+      }
+    },
+
+    "omittedMaterial": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "material_ids",
+        "reason"
+      ],
+
+      "properties": {
+        "material_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/materialId"
+          }
+        },
+
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Concise editorial rationale such as redundant, outside objective, too detailed, or better suited for separate content."
+        }
+      }
+    },
+
+    "narrative": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "type",
+        "summary",
+        "opening_function",
+        "ending_function",
+        "slide_sequence"
+      ],
+
+      "properties": {
+        "type": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Human-readable description of the selected narrative structure. This is intentionally not a rigid enum."
+        },
+
+        "summary": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Concise explanation of how the carousel progresses from opening to takeaway."
+        },
+
+        "opening_function": {
+          "type": "string",
+          "minLength": 1
+        },
+
+        "ending_function": {
+          "type": "string",
+          "minLength": 1
+        },
+
+        "slide_sequence": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 10,
+          "items": {
+            "$ref": "#/$defs/slideId"
+          },
+          "description": "Slide IDs in intended narrative order."
+        }
+      }
+    },
+
+    "slide": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "id",
+        "index",
+        "role",
+        "purpose",
+        "core_message",
+        "copy",
+        "claim_ids",
+        "visual",
+        "asset_strategy",
+        "asset_ids",
+        "production_instructions"
+      ],
+
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/slideId"
+        },
+
+        "index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10
+        },
+
+        "role": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Functional role such as hook, context, problem, explanation, example, comparison, takeaway, or conclusion. Kept open to avoid rigid narrative templates."
+        },
+
+        "purpose": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Why this slide exists within the overall narrative."
+        },
+
+        "core_message": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The single primary idea the audience should understand from this slide."
+        },
+
+        "copy": {
+          "$ref": "#/$defs/slideCopy"
+        },
+
+        "claim_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "description": "Claims expressed or materially relied upon by this slide.",
+          "items": {
+            "$ref": "#/$defs/claimId"
+          }
+        },
+
+        "visual": {
+          "$ref": "#/$defs/visualDirection"
+        },
+
+        "asset_strategy": {
+          "type": "string",
+          "enum": [
+            "AI_SYNTHETIC",
+            "REAL_ASSET",
+            "HYBRID_COMPOSITE",
+            "GRAPHIC_ONLY"
+          ]
+        },
+
+        "asset_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/assetId"
+          },
+          "description": "Assets required by this slide. Even minimal or graphic-only treatment should be represented explicitly."
+        },
+
+        "production_instructions": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/productionInstruction"
+          }
+        }
+      }
+    },
+
+    "slideCopy": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "headline",
+        "supporting",
+        "emphasis"
+      ],
+
+      "properties": {
+        "headline": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Resolved headline. The contract stores one default final version rather than an option dump."
+        },
+
+        "supporting": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Supporting copy. Null when the headline can stand alone."
+        },
+
+        "emphasis": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/emphasis"
+          }
+        },
+
+        "labels": {
+          "type": "array",
+          "description": "Optional small labels, annotations, or auxiliary text.",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+
+        "cta": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Optional carousel CTA. Null when no CTA is appropriate or when CTA is placed only in the caption."
+        }
+      }
+    },
+
+    "emphasis": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "text",
+        "level"
+      ],
+
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+
+        "level": {
+          "type": "string",
+          "enum": [
+            "PRIMARY",
+            "SECONDARY"
+          ]
+        }
+      }
+    },
+
+    "visualDirection": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "function",
+        "primary"
+      ],
+
+      "properties": {
+        "function": {
+          "type": "string",
+          "enum": [
+            "EXPLAIN",
+            "COMPARE",
+            "DEMONSTRATE",
+            "SYMBOLIZE",
+            "CONTEXTUALIZE",
+            "ATTRACT_ATTENTION",
+            "DECORATIVE"
+          ]
+        },
+
+        "primary": {
+          "$ref": "#/$defs/visualConcept"
+        },
+
+        "fallback": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/visualConcept"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "One optional fallback visual concept if the primary is difficult to execute."
+        }
+      }
+    },
+
+    "visualConcept": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "concept",
+        "composition",
+        "text_zone",
+        "visual_hierarchy"
+      ],
+
+      "properties": {
+        "concept": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Resolved visual idea."
+        },
+
+        "subject": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "scene": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "composition": {
+          "type": "string",
+          "minLength": 1
+        },
+
+        "framing": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "background": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "lighting": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "negative_space": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "text_zone": {
+          "type": "string",
+          "minLength": 1
+        },
+
+        "visual_hierarchy": {
+          "type": "string",
+          "minLength": 1
+        },
+
+        "editing_treatment": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "rationale": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Optional rationale when the visual decision is non-obvious or materially important."
+        }
+      }
+    },
+
+    "claim": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "id",
+        "text",
+        "claim_type"
+      ],
+
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/claimId"
+        },
+
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+
+        "claim_type": {
+          "type": "string",
+          "enum": [
+            "FACT",
+            "DERIVED",
+            "CREATIVE"
+          ]
+        },
+
+        "source_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/sourceId"
+          },
+          "description": "Sources directly supporting a factual claim."
+        },
+
+        "material_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/materialId"
+          },
+          "description": "Raw material blocks from which the claim originated."
+        },
+
+        "derived_from_material_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/materialId"
+          },
+          "description": "Material used to derive a DERIVED claim."
+        },
+
+        "derivation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Concise explanation of the derivation when useful for verification."
+        },
+
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "claim_type": {
+                "const": "FACT"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "source_ids"
+            ],
+            "properties": {
+              "source_ids": {
+                "minItems": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "claim_type": {
+                "const": "DERIVED"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "derived_from_material_ids"
+            ],
+            "properties": {
+              "derived_from_material_ids": {
+                "minItems": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "id",
+        "type",
+        "description"
+      ],
+
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/assetId"
+        },
+
+        "type": {
+          "type": "string",
+          "enum": [
+            "AI_GENERATED",
+            "REAL_ASSET",
+            "GRAPHIC_COMPONENT",
+            "OTHER"
+          ],
+          "description": "Individual asset type. HYBRID_COMPOSITE is represented by multiple individual assets combined within a slide."
+        },
+
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+
+        "subject": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "requirements": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Production or sourcing requirements for this asset."
+        },
+
+        "source_status": {
+          "type": "string",
+          "enum": [
+            "NOT_APPLICABLE",
+            "NEEDS_SOURCING",
+            "PROVIDED"
+          ],
+          "default": "NOT_APPLICABLE"
+        },
+
+        "generation": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/imageGeneration"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "AI generation specification. Expected for AI_GENERATED assets."
+        },
+
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "AI_GENERATED"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "generation"
+            ],
+            "properties": {
+              "generation": {
+                "$ref": "#/$defs/imageGeneration"
+              }
+            }
+          }
+        }
+      ]
+    },
+
+    "imageGeneration": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "prompt_spec",
+        "prompt"
+      ],
+
+      "properties": {
+        "prompt_spec": {
+          "$ref": "#/$defs/promptSpec"
+        },
+
+        "prompt": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Final ready-to-copy image generation prompt."
+        }
+      }
+    },
+
+    "promptSpec": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "subject",
+        "composition"
+      ],
+
+      "properties": {
+        "subject": {
+          "type": "string",
+          "minLength": 1
+        },
+
+        "action": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "scene": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "composition": {
+          "type": "string",
+          "minLength": 1
+        },
+
+        "framing": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "camera": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "background": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "lighting": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "negative_space": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "text_safe_area": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "visual_treatment": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "constraints": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+
+        "avoid": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+
+    "globalProduction": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "global_instructions"
+      ],
+
+      "properties": {
+        "global_instructions": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/productionInstruction"
+          }
+        }
+      }
+    },
+
+    "productionInstruction": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "step",
+        "action",
+        "instruction"
+      ],
+
+      "properties": {
+        "step": {
+          "type": "integer",
+          "minimum": 1
+        },
+
+        "action": {
+          "type": "string",
+          "enum": [
+            "SETUP",
+            "SOURCE",
+            "GENERATE",
+            "SELECT",
+            "SAVE",
+            "REMOVE_BACKGROUND",
+            "IMPORT",
+            "CROP",
+            "MASK",
+            "LAYER",
+            "COMPOSE",
+            "ADD_TEXT",
+            "ADJUST",
+            "REVIEW",
+            "EXPORT",
+            "OTHER"
+          ]
+        },
+
+        "instruction": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+
+    "caption": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "text",
+        "function"
+      ],
+
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+
+        "function": {
+          "type": "string",
+          "enum": [
+            "COMMENTARY",
+            "QUESTION",
+            "CTA",
+            "HOOK",
+            "CONTEXT",
+            "MIXED"
+          ]
+        }
+      }
+    },
+
+    "warning": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "code",
+        "severity",
+        "message"
+      ],
+
+      "properties": {
+        "code": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_]*$"
+        },
+
+        "severity": {
+          "type": "string",
+          "const": "WARNING"
+        },
+
+        "message": {
+          "type": "string",
+          "minLength": 1
+        },
+
+        "affected_slide_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/slideId"
+          }
+        },
+
+        "recommendation": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+
+    "successQA": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "overall_status",
+        "dimensions"
+      ],
+
+      "properties": {
+        "overall_status": {
+          "type": "string",
+          "enum": [
+            "PASS",
+            "PASS_WITH_WARNING"
+          ]
+        },
+
+        "dimensions": {
+          "type": "object",
+          "additionalProperties": false,
+
+          "required": [
+            "objective",
+            "factual",
+            "editorial",
+            "narrative",
+            "density",
+            "copy",
+            "visual",
+            "asset",
+            "production",
+            "source",
+            "brand"
+          ],
+
+          "properties": {
+            "objective": {
+              "$ref": "#/$defs/successQADimension"
+            },
+
+            "factual": {
+              "$ref": "#/$defs/successQADimension"
+            },
+
+            "editorial": {
+              "$ref": "#/$defs/successQADimension"
+            },
+
+            "narrative": {
+              "$ref": "#/$defs/successQADimension"
+            },
+
+            "density": {
+              "$ref": "#/$defs/successQADimension"
+            },
+
+            "copy": {
+              "$ref": "#/$defs/successQADimension"
+            },
+
+            "visual": {
+              "$ref": "#/$defs/successQADimension"
+            },
+
+            "asset": {
+              "$ref": "#/$defs/successQADimension"
+            },
+
+            "production": {
+              "$ref": "#/$defs/successQADimension"
+            },
+
+            "source": {
+              "$ref": "#/$defs/successQADimension"
+            },
+
+            "brand": {
+              "$ref": "#/$defs/successQADimension"
+            }
+          }
+        }
+      }
+    },
+
+    "successQADimension": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "status"
+      ],
+
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "PASS",
+            "PASS_WITH_WARNING"
+          ]
+        },
+
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "warning_codes": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]*$"
+          }
+        }
+      }
+    },
+
+    "repairInstruction": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "step",
+        "instruction"
+      ],
+
+      "properties": {
+        "step": {
+          "type": "integer",
+          "minimum": 1
+        },
+
+        "instruction": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+
+    "partialFindings": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "properties": {
+        "detected_takeaways": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+
+        "scope_problem": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "relevant_material_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/materialId"
+          }
+        },
+
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+
+    "materialId": {
+      "type": "string",
+      "pattern": "^mat_[A-Za-z0-9_-]+$"
+    },
+
+    "sourceId": {
+      "type": "string",
+      "pattern": "^src_[A-Za-z0-9_-]+$"
+    },
+
+    "slideId": {
+      "type": "string",
+      "pattern": "^slide_[A-Za-z0-9_-]+$"
+    },
+
+    "claimId": {
+      "type": "string",
+      "pattern": "^claim_[A-Za-z0-9_-]+$"
+    },
+
+    "assetId": {
+      "type": "string",
+      "pattern": "^asset_[A-Za-z0-9_-]+$"
+    }
+  }
+}

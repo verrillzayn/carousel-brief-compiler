@@ -1,0 +1,70 @@
+{
+  "fixture": "fixtures/conflicting/emergency-fund-target.json",
+  "purpose": "Menguji apakah engine dapat mempertahankan source disagreement tanpa memaksakan false certainty.",
+  "expected_status": "NEEDS_REVIEW",
+
+  "must": [
+    {
+      "id": "CONFLICT_001",
+      "assertion": "Engine harus mengenali bahwa raw material memuat guideline target dana darurat yang berbeda."
+    },
+    {
+      "id": "CONFLICT_002",
+      "assertion": "Perbedaan antara target tiga bulan, enam bulan, dan contextual target harus dipertahankan jika digunakan."
+    },
+    {
+      "id": "CONFLICT_003",
+      "assertion": "Central takeaway harus konsisten dengan objective bahwa material tidak mendukung satu target universal."
+    },
+    {
+      "id": "CONFLICT_004",
+      "assertion": "Engine harus tetap dapat menghasilkan NEEDS_REVIEW karena disagreement tersebut tidak membuat objective mustahil dijawab."
+    },
+    {
+      "id": "CONFLICT_005",
+      "assertion": "Factual claims mengenai masing-masing guideline harus ditelusurkan ke source masing-masing."
+    }
+  ],
+
+  "must_not": [
+    {
+      "id": "CONFLICT_N001",
+      "assertion": "Engine tidak boleh memilih tiga bulan sebagai universal recommendation."
+    },
+    {
+      "id": "CONFLICT_N002",
+      "assertion": "Engine tidak boleh memilih enam bulan sebagai universal recommendation."
+    },
+    {
+      "id": "CONFLICT_N003",
+      "assertion": "Engine tidak boleh menciptakan target kompromi baru seperti empat atau lima bulan."
+    },
+    {
+      "id": "CONFLICT_N004",
+      "assertion": "Engine tidak boleh BLOCKED hanya karena source berbeda, selama disagreement tersebut sendiri dapat menjadi bagian dari jawaban objective."
+    },
+    {
+      "id": "CONFLICT_N005",
+      "assertion": "Engine tidak boleh menyembunyikan disagreement agar narrative terlihat lebih sederhana."
+    }
+  ],
+
+  "should": [
+    {
+      "id": "CONFLICT_S001",
+      "assertion": "Narrative sebaiknya membantu audience memahami bahwa angka guideline merupakan guidance yang dapat berbeda menurut framework atau konteks."
+    },
+    {
+      "id": "CONFLICT_S002",
+      "assertion": "Visual comparison dapat digunakan jika membantu menjelaskan perbedaan guideline."
+    }
+  ],
+
+  "flexible": [
+    "selected_angle",
+    "headline_wording",
+    "narrative_structure",
+    "visual_strategy",
+    "slide_count"
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "schema_version": "0.1.0",
+  "topic": "Semua dasar keuangan pribadi yang perlu diketahui pemula",
+  "objective": "Mengajarkan seluruh dasar penting keuangan pribadi kepada pemula dalam satu carousel, termasuk budgeting, dana darurat, utang, investasi, asuransi, inflasi, tujuan keuangan, perilaku konsumsi, dan perencanaan jangka panjang.",
+  "initial_angle": "Satu panduan lengkap untuk mulai mengatur keuangan dari nol.",
+  "raw_material": [
+    {
+      "id": "mat_01",
+      "type": "RESEARCH_NOTE",
+      "content": "Budgeting membantu seseorang merencanakan penggunaan uang berdasarkan kebutuhan dan prioritas.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_02",
+      "type": "RESEARCH_NOTE",
+      "content": "Dana darurat berfungsi sebagai buffer terhadap kebutuhan penting yang tidak direncanakan.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_03",
+      "type": "RESEARCH_NOTE",
+      "content": "Pengelolaan utang membutuhkan pemahaman mengenai kewajiban pembayaran, biaya, dan dampaknya terhadap cashflow.",
+      "source_ids": [
+        "src_02"
+      ]
+    },
+    {
+      "id": "mat_04",
+      "type": "RESEARCH_NOTE",
+      "content": "Investasi melibatkan penempatan dana dengan harapan memperoleh manfaat di masa depan dan memiliki risiko yang perlu dipahami.",
+      "source_ids": [
+        "src_03"
+      ]
+    },
+    {
+      "id": "mat_05",
+      "type": "RESEARCH_NOTE",
+      "content": "Asuransi digunakan sebagai salah satu mekanisme pengelolaan risiko terhadap kejadian tertentu sesuai ketentuan perlindungan.",
+      "source_ids": [
+        "src_04"
+      ]
+    },
+    {
+      "id": "mat_06",
+      "type": "RESEARCH_NOTE",
+      "content": "Inflasi berkaitan dengan perubahan tingkat harga dan dapat memengaruhi daya beli uang.",
+      "source_ids": [
+        "src_05"
+      ]
+    },
+    {
+      "id": "mat_07",
+      "type": "RESEARCH_NOTE",
+      "content": "Tujuan keuangan membantu seseorang menentukan penggunaan sumber daya untuk kebutuhan masa depan.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_08",
+      "type": "RESEARCH_NOTE",
+      "content": "Perilaku konsumsi dapat dipengaruhi oleh kebiasaan, lingkungan, kemudahan transaksi, dan keputusan impulsif.",
+      "source_ids": [
+        "src_06"
+      ]
+    },
+    {
+      "id": "mat_09",
+      "type": "RESEARCH_NOTE",
+      "content": "Perencanaan keuangan jangka panjang dapat melibatkan beberapa tujuan yang waktunya berbeda-beda.",
+      "source_ids": [
+        "src_07"
+      ]
+    },
+    {
+      "id": "mat_10",
+      "type": "RESEARCH_NOTE",
+      "content": "Setiap domain dalam raw material ini memiliki konsep, keputusan, dan nuance tersendiri yang membutuhkan penjelasan lebih dari sekadar satu definisi.",
+      "source_ids": [
+        "src_07"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_01",
+      "title": "Mock Personal Finance Foundations A",
+      "source": "Internal synthetic module for scope testing",
+      "type": "INTERNAL_DOCUMENT"
+    },
+    {
+      "id": "src_02",
+      "title": "Mock Debt Fundamentals",
+      "source": "Internal synthetic debt module for scope testing",
+      "type": "INTERNAL_DOCUMENT"
+    },
+    {
+      "id": "src_03",
+      "title": "Mock Investment Fundamentals",
+      "source": "Internal synthetic investment module for scope testing",
+      "type": "INTERNAL_DOCUMENT"
+    },
+    {
+      "id": "src_04",
+      "title": "Mock Risk Protection Fundamentals",
+      "source": "Internal synthetic insurance module for scope testing",
+      "type": "INTERNAL_DOCUMENT"
+    },
+    {
+      "id": "src_05",
+      "title": "Mock Inflation Basics",
+      "source": "Internal synthetic economics note for scope testing",
+      "type": "INTERNAL_DOCUMENT"
+    },
+    {
+      "id": "src_06",
+      "title": "Mock Financial Behavior Notes",
+      "source": "Internal synthetic behavioral-finance note for scope testing",
+      "type": "INTERNAL_DOCUMENT"
+    },
+    {
+      "id": "src_07",
+      "title": "Mock Long-Term Financial Planning Notes",
+      "source": "Internal synthetic planning module for scope testing",
+      "type": "INTERNAL_DOCUMENT"
+    }
+  ],
+  "content_directives": [
+    {
+      "id": "dir_01",
+      "priority": "MUST_INCLUDE",
+      "content": "Objective meminta seluruh domain utama dalam raw material dibahas dalam satu carousel.",
+      "material_ids": [
+        "mat_01",
+        "mat_02",
+        "mat_03",
+        "mat_04",
+        "mat_05",
+        "mat_06",
+        "mat_07",
+        "mat_08",
+        "mat_09"
+      ]
+    }
+  ],
+  "context": {
+    "audience": {
+      "mode": "MOCK",
+      "data": {
+        "financial_knowledge": "beginner",
+        "profile": "orang yang baru mulai belajar personal finance"
+      }
+    },
+    "brand": {
+      "mode": "MOCK",
+      "data": {
+        "tone": [
+          "simple",
+          "accessible"
+        ]
+      }
+    },
+    "visual": {
+      "mode": "MOCK",
+      "data": {
+        "direction": "visual-heavy educational carousel",
+        "text_density": "low"
+      }
+    },
+    "production": {
+      "mode": "MOCK",
+      "data": {
+        "design_tool": "Canva",
+        "manual_editing": "allowed"
+      }
+    }
+  },
+  "constraints": {
+    "language": "id-ID",
+    "slide_count": {
+      "preferred_min": 5,
+      "preferred_max": 7,
+      "hard_max": 10
+    },
+    "canvas": {
+      "aspect_ratio": "3:4",
+      "width_px": 1080,
+      "height_px": 1440
+    },
+    "custom": [
+      "Setiap domain yang diwajibkan harus dijelaskan secara bermakna, bukan hanya disebutkan namanya.",
+      "Jangan menggunakan paragraf padat untuk memaksakan seluruh materi masuk."
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "fixture": "fixtures/insufficient/paylater-risk.json",
+  "purpose": "Menguji apakah engine berhenti ketika objective membutuhkan factual claim yang sama sekali tidak didukung material.",
+  "expected_status": "BLOCKED",
+
+  "expected_reason_code": "OBJECTIVE_UNSUPPORTED",
+
+  "must": [
+    {
+      "id": "INSUFFICIENT_001",
+      "assertion": "Engine harus mengenali bahwa klaim peningkatan risiko tiga kali tidak tersedia di raw material."
+    },
+    {
+      "id": "INSUFFICIENT_002",
+      "assertion": "Engine harus menjelaskan bahwa material hanya mendukung penjelasan umum mengenai kewajiban pembayaran dan cashflow, bukan klaim statistik pada objective."
+    },
+    {
+      "id": "INSUFFICIENT_003",
+      "assertion": "Engine harus memberikan upstream repair instruction yang meminta evidence mengenai populasi mahasiswa, penggunaan paylater, financial difficulty, dan besaran hubungan atau risiko yang ingin diklaim."
+    },
+    {
+      "id": "INSUFFICIENT_004",
+      "assertion": "resume_when harus menjelaskan kondisi evidence yang perlu tersedia sebelum compilation dicoba kembali."
+    }
+  ],
+
+  "must_not": [
+    {
+      "id": "INSUFFICIENT_N001",
+      "assertion": "Engine tidak boleh menghasilkan NEEDS_REVIEW."
+    },
+    {
+      "id": "INSUFFICIENT_N002",
+      "assertion": "Engine tidak boleh mengganti objective menjadi carousel umum tentang cara kerja paylater."
+    },
+    {
+      "id": "INSUFFICIENT_N003",
+      "assertion": "Engine tidak boleh menciptakan atau mengingat sendiri statistik tiga kali dari latent model knowledge."
+    },
+    {
+      "id": "INSUFFICIENT_N004",
+      "assertion": "Engine tidak boleh menghasilkan carousel setengah jadi sebagai partial_findings."
+    }
+  ],
+
+  "should": [
+    {
+      "id": "INSUFFICIENT_S001",
+      "assertion": "partial_findings boleh menjelaskan bahwa material yang ada masih dapat digunakan sebagai background research setelah missing evidence diperoleh."
+    }
+  ],
+
+  "flexible": [
+    "exact_reason_wording",
+    "number_of_repair_steps",
+    "partial_findings"
+  ]
+}

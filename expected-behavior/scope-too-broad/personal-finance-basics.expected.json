@@ -1,0 +1,70 @@
+{
+  "fixture": "fixtures/scope-too-broad/personal-finance-basics.json",
+  "purpose": "Menguji apakah engine menolak objective yang membutuhkan terlalu banyak domain untuk dijelaskan secara bermakna dalam satu carousel.",
+  "expected_status": "BLOCKED",
+
+  "expected_reason_code": "SCOPE_TOO_BROAD",
+
+  "must": [
+    {
+      "id": "SCOPE_001",
+      "assertion": "Engine harus mengenali bahwa objective mewajibkan terlalu banyak domain berbeda untuk satu carousel dengan hard maximum 10 slides."
+    },
+    {
+      "id": "SCOPE_002",
+      "assertion": "Engine harus mempertimbangkan bahwa setiap domain diwajibkan dijelaskan secara bermakna, bukan hanya disebutkan."
+    },
+    {
+      "id": "SCOPE_003",
+      "assertion": "Engine harus merekomendasikan penyempitan objective."
+    },
+    {
+      "id": "SCOPE_004",
+      "assertion": "Upstream repair instruction harus memberikan satu atau beberapa contoh scope yang lebih sempit yang dapat menjadi content unit tersendiri."
+    },
+    {
+      "id": "SCOPE_005",
+      "assertion": "resume_when harus menyatakan bahwa objective perlu dibatasi ke scope yang dapat dijelaskan secara cukup dalam satu carousel."
+    }
+  ],
+
+  "must_not": [
+    {
+      "id": "SCOPE_N001",
+      "assertion": "Engine tidak boleh menghasilkan 10 slide yang masing-masing hanya menyebut satu topik secara dangkal hanya untuk memenuhi directive."
+    },
+    {
+      "id": "SCOPE_N002",
+      "assertion": "Engine tidak boleh menggunakan copy yang sangat padat untuk memaksakan semua domain masuk."
+    },
+    {
+      "id": "SCOPE_N003",
+      "assertion": "Engine tidak boleh otomatis membuat seri Part 1, Part 2, atau beberapa carousel sebagai output run."
+    },
+    {
+      "id": "SCOPE_N004",
+      "assertion": "Engine tidak boleh diam-diam memilih hanya satu domain dan mengabaikan objective yang meminta seluruh domain."
+    },
+    {
+      "id": "SCOPE_N005",
+      "assertion": "Engine tidak boleh menghasilkan NEEDS_REVIEW hanya karena secara teknis seluruh nama domain dapat dimasukkan ke 10 slide."
+    }
+  ],
+
+  "should": [
+    {
+      "id": "SCOPE_S001",
+      "assertion": "Repair recommendation sebaiknya mengelompokkan domain menjadi beberapa possible future content units tanpa membuat content tersebut sekarang."
+    },
+    {
+      "id": "SCOPE_S002",
+      "assertion": "partial_findings dapat menunjukkan bahwa material itu sendiri cukup, tetapi objective yang terlalu luas adalah blocker."
+    }
+  ],
+
+  "flexible": [
+    "recommended_narrow_scope",
+    "number_of_suggested_future_content_units",
+    "partial_findings"
+  ]
+}

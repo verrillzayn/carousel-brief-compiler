@@ -1,0 +1,159 @@
+{
+  "schema_version": "0.1.0",
+  "topic": "Kenapa diskon tidak selalu berarti hemat",
+  "objective": "Membuat pembaca memahami bahwa membayar lebih murah dari harga awal tidak otomatis berarti seseorang menghemat uang jika pembelian tersebut sebenarnya tidak diperlukan.",
+  "initial_angle": "Diskon mengubah harga, tetapi tidak otomatis mengubah kebutuhan.",
+  "raw_material": [
+    {
+      "id": "mat_01",
+      "type": "DATA_POINT",
+      "content": "Dalam contoh mock, sebuah barang memiliki harga awal Rp200.000.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_02",
+      "type": "DATA_POINT",
+      "content": "Barang tersebut mendapatkan diskon 40 persen dari harga awal.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_03",
+      "type": "DATA_POINT",
+      "content": "Setelah diskon, pembeli membayar Rp120.000.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_04",
+      "type": "RESEARCH_NOTE",
+      "content": "Dalam skenario pertama, pembeli memang sudah membutuhkan barang tersebut dan sebelumnya berencana membelinya.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_05",
+      "type": "RESEARCH_NOTE",
+      "content": "Dalam skenario kedua, pembeli sebelumnya tidak membutuhkan dan tidak merencanakan pembelian barang tersebut, lalu membeli hanya karena melihat diskon.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_06",
+      "type": "RESEARCH_NOTE",
+      "content": "Dalam skenario kedua, transaksi tetap membuat uang pembeli berkurang sebesar Rp120.000.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_07",
+      "type": "RESEARCH_NOTE",
+      "content": "Materi membedakan pengurangan harga dari keputusan apakah sebuah pengeluaran memang perlu dilakukan.",
+      "source_ids": [
+        "src_02"
+      ]
+    },
+    {
+      "id": "mat_08",
+      "type": "RESEARCH_NOTE",
+      "content": "Materi menggunakan pertanyaan 'Apakah saya tetap akan membeli ini jika tidak sedang diskon?' sebagai alat refleksi sederhana, bukan sebagai aturan universal.",
+      "source_ids": [
+        "src_02"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_01",
+      "title": "Mock Discount Scenario",
+      "source": "Synthetic numerical scenario created specifically to test FACT and DERIVED behavior",
+      "type": "INTERNAL_DOCUMENT",
+      "notes": "All numbers are intentionally synthetic."
+    },
+    {
+      "id": "src_02",
+      "title": "Mock Note — Spending Decisions and Discounts",
+      "source": "Internal mock financial-literacy note for system testing",
+      "type": "INTERNAL_DOCUMENT"
+    }
+  ],
+  "content_directives": [
+    {
+      "id": "dir_01",
+      "priority": "MUST_INCLUDE",
+      "content": "Gunakan contoh angka untuk membedakan potongan harga dengan pengeluaran aktual.",
+      "material_ids": [
+        "mat_01",
+        "mat_02",
+        "mat_03",
+        "mat_06"
+      ]
+    },
+    {
+      "id": "dir_02",
+      "priority": "MUST_INCLUDE",
+      "content": "Jangan menyatakan bahwa semua pembelian diskon adalah keputusan buruk.",
+      "material_ids": [
+        "mat_04",
+        "mat_05"
+      ]
+    }
+  ],
+  "context": {
+    "audience": {
+      "mode": "MOCK",
+      "data": {
+        "age_range": "18-25",
+        "financial_knowledge": "beginner",
+        "profile": "young consumers"
+      }
+    },
+    "brand": {
+      "mode": "MOCK",
+      "data": {
+        "tone": [
+          "light",
+          "direct",
+          "non-preachy"
+        ]
+      }
+    },
+    "visual": {
+      "mode": "MOCK",
+      "data": {
+        "direction": "simple numerical infographic mixed with visual metaphor",
+        "numbers_should_be_prominent": true
+      }
+    },
+    "production": {
+      "mode": "MOCK",
+      "data": {
+        "design_tool": "Canva",
+        "manual_editing": "allowed"
+      }
+    }
+  },
+  "constraints": {
+    "language": "id-ID",
+    "slide_count": {
+      "preferred_min": 5,
+      "preferred_max": 7,
+      "hard_max": 10
+    },
+    "canvas": {
+      "aspect_ratio": "3:4",
+      "width_px": 1080,
+      "height_px": 1440
+    },
+    "custom": [
+      "Jangan menciptakan angka tambahan yang tidak dapat diturunkan dari raw material."
+    ]
+  }
+}

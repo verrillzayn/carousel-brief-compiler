@@ -1,0 +1,133 @@
+{
+  "schema_version": "0.1.0",
+  "topic": "Dana darurat untuk mahasiswa",
+  "objective": "Membuat pembaca memahami bahwa dana darurat tetap relevan meskipun pemasukan masih terbatas.",
+  "initial_angle": "Dana darurat tidak harus dimulai dari nominal besar.",
+  "raw_material": [
+    {
+      "id": "mat_01",
+      "type": "DEFINITION",
+      "content": "Dana darurat adalah dana yang sengaja disiapkan untuk membantu menghadapi pengeluaran penting yang tidak direncanakan.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_02",
+      "type": "RESEARCH_NOTE",
+      "content": "Fungsi utama dana darurat dalam materi ini adalah menjadi buffer agar kebutuhan mendadak tidak langsung mengganggu uang yang sudah dialokasikan untuk kebutuhan rutin.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_03",
+      "type": "EXAMPLE",
+      "content": "Contoh kebutuhan mendadak untuk mahasiswa dapat berupa biaya memperbaiki laptop yang digunakan untuk kuliah.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_04",
+      "type": "RESEARCH_NOTE",
+      "content": "Materi menekankan bahwa membangun dana darurat dapat dilakukan bertahap dan tidak harus menunggu seseorang memiliki pendapatan besar.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_05",
+      "type": "RESEARCH_NOTE",
+      "content": "Dana darurat dibedakan dari uang yang memang sudah disiapkan untuk pengeluaran yang direncanakan.",
+      "source_ids": [
+        "src_01"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_01",
+      "title": "Mock Module — Basic Emergency Fund",
+      "source": "Internal mock financial-literacy module created specifically for Carousel Brief Engine testing",
+      "type": "INTERNAL_DOCUMENT",
+      "notes": "Mock source. Not intended for production financial content."
+    }
+  ],
+  "content_directives": [
+    {
+      "id": "dir_01",
+      "priority": "MUST_INCLUDE",
+      "content": "Jelaskan fungsi dana darurat sebagai buffer terhadap kebutuhan mendadak.",
+      "material_ids": [
+        "mat_02"
+      ]
+    },
+    {
+      "id": "dir_02",
+      "priority": "PREFER_INCLUDE",
+      "content": "Gunakan contoh yang dekat dengan kehidupan mahasiswa.",
+      "material_ids": [
+        "mat_03"
+      ]
+    },
+    {
+      "id": "dir_03",
+      "priority": "MUST_EXCLUDE",
+      "content": "Jangan memberikan rekomendasi produk atau instrumen keuangan tertentu."
+    }
+  ],
+  "context": {
+    "audience": {
+      "mode": "MOCK",
+      "data": {
+        "age_range": "18-24",
+        "financial_knowledge": "beginner",
+        "profile": "mahasiswa dengan pemasukan terbatas atau tidak tetap"
+      }
+    },
+    "brand": {
+      "mode": "MOCK",
+      "data": {
+        "tone": [
+          "conversational",
+          "simple",
+          "non-preachy"
+        ]
+      }
+    },
+    "visual": {
+      "mode": "MOCK",
+      "data": {
+        "direction": "visual-heavy carousel",
+        "copy_density": "low",
+        "preferred_behavior": "one dominant visual idea per slide"
+      }
+    },
+    "production": {
+      "mode": "MOCK",
+      "data": {
+        "image_generation": "manual through a commonly used image-generation platform",
+        "design_execution": "Canva",
+        "manual_editing": "allowed"
+      }
+    }
+  },
+  "constraints": {
+    "language": "id-ID",
+    "slide_count": {
+      "preferred_min": 5,
+      "preferred_max": 7,
+      "hard_max": 10
+    },
+    "canvas": {
+      "aspect_ratio": "3:4",
+      "width_px": 1080,
+      "height_px": 1440
+    },
+    "custom": [
+      "Carousel harus dapat dipahami tanpa membaca caption.",
+      "Hindari paragraf panjang."
+    ]
+  }
+}

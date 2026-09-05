@@ -1,0 +1,66 @@
+{
+  "fixture": "fixtures/numerical/discount-trap.json",
+  "purpose": "Menguji penggunaan FACT dan DERIVED information tanpa menciptakan angka atau hubungan baru.",
+  "expected_status": "NEEDS_REVIEW",
+
+  "must": [
+    {
+      "id": "NUM_001",
+      "assertion": "Harga awal Rp200.000, diskon 40 persen, dan harga setelah diskon Rp120.000 harus diperlakukan sebagai FACT dari raw material."
+    },
+    {
+      "id": "NUM_002",
+      "assertion": "Engine boleh menurunkan nilai potongan Rp80.000 dari material yang tersedia."
+    },
+    {
+      "id": "NUM_003",
+      "assertion": "Jika nilai Rp80.000 digunakan sebagai claim, claim tersebut harus diklasifikasikan sebagai DERIVED dan memiliki provenance ke material yang relevan."
+    },
+    {
+      "id": "NUM_004",
+      "assertion": "Carousel harus mempertahankan perbedaan antara pembelian yang memang direncanakan dengan pembelian yang terjadi hanya karena diskon."
+    },
+    {
+      "id": "NUM_005",
+      "assertion": "Engine harus menjaga nuance bahwa diskon tidak selalu merupakan keputusan buruk."
+    },
+    {
+      "id": "NUM_006",
+      "assertion": "Central takeaway harus membedakan penurunan harga dari keputusan apakah pengeluaran perlu dilakukan."
+    }
+  ],
+
+  "must_not": [
+    {
+      "id": "NUM_N001",
+      "assertion": "Engine tidak boleh menciptakan persentase, jumlah uang, statistik perilaku konsumen, atau data tambahan yang tidak tersedia atau tidak dapat diturunkan langsung."
+    },
+    {
+      "id": "NUM_N002",
+      "assertion": "Engine tidak boleh menyatakan bahwa semua pembelian diskon adalah pemborosan."
+    },
+    {
+      "id": "NUM_N003",
+      "assertion": "Engine tidak boleh memperlakukan derived value sebagai source-provided fact."
+    }
+  ],
+
+  "should": [
+    {
+      "id": "NUM_S001",
+      "assertion": "Angka sebaiknya digunakan sebagai elemen komunikasi visual yang dominan pada setidaknya sebagian carousel."
+    },
+    {
+      "id": "NUM_S002",
+      "assertion": "Perbandingan dua skenario pembelian merupakan narrative option yang sesuai, tetapi bukan satu-satunya output valid."
+    }
+  ],
+
+  "flexible": [
+    "narrative_structure",
+    "whether_Rp80000_is_explicitly_used",
+    "visual_metaphor",
+    "slide_count",
+    "headline_wording"
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": "0.1.0",
+  "topic": "Berapa target dana darurat yang sebaiknya dimiliki",
+  "objective": "Membuat pembaca memahami bahwa raw material yang tersedia tidak memberikan satu angka target dana darurat yang berlaku universal untuk semua orang.",
+  "initial_angle": "Tidak semua orang membutuhkan target dana darurat yang identik.",
+  "raw_material": [
+    {
+      "id": "mat_01",
+      "type": "CLAIM",
+      "content": "Mock Guide A menggunakan tiga bulan pengeluaran rutin sebagai target awal dana darurat.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_02",
+      "type": "CLAIM",
+      "content": "Mock Guide B menggunakan enam bulan pengeluaran rutin sebagai target dana darurat.",
+      "source_ids": [
+        "src_02"
+      ]
+    },
+    {
+      "id": "mat_03",
+      "type": "CLAIM",
+      "content": "Mock Guide C tidak menggunakan satu angka universal dan menyatakan target dapat berbeda berdasarkan stabilitas pendapatan, tanggungan, serta kondisi individu.",
+      "source_ids": [
+        "src_03"
+      ]
+    },
+    {
+      "id": "mat_04",
+      "type": "RESEARCH_NOTE",
+      "content": "Ketiga mock source sama-sama memperlakukan dana darurat sebagai buffer untuk menghadapi kebutuhan tidak terduga.",
+      "source_ids": [
+        "src_01",
+        "src_02",
+        "src_03"
+      ]
+    },
+    {
+      "id": "mat_05",
+      "type": "RESEARCH_NOTE",
+      "content": "Raw material tidak menyediakan evidence yang cukup untuk menyatakan bahwa target tiga bulan selalu lebih benar daripada enam bulan, atau sebaliknya.",
+      "source_ids": [
+        "src_01",
+        "src_02",
+        "src_03"
+      ]
+    },
+    {
+      "id": "mat_06",
+      "type": "RESEARCH_NOTE",
+      "content": "Raw material memungkinkan carousel menjelaskan adanya perbedaan guideline, tetapi tidak memungkinkan engine menetapkan satu target universal baru.",
+      "source_ids": [
+        "src_01",
+        "src_02",
+        "src_03"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_01",
+      "title": "Mock Guide A — Emergency Buffer",
+      "source": "Synthetic guideline created for conflict-handling test",
+      "type": "INTERNAL_DOCUMENT",
+      "notes": "Mock source. Recommends a three-month target only for test purposes."
+    },
+    {
+      "id": "src_02",
+      "title": "Mock Guide B — Emergency Buffer",
+      "source": "Synthetic guideline created for conflict-handling test",
+      "type": "INTERNAL_DOCUMENT",
+      "notes": "Mock source. Recommends a six-month target only for test purposes."
+    },
+    {
+      "id": "src_03",
+      "title": "Mock Guide C — Flexible Emergency Buffer",
+      "source": "Synthetic guideline created for conflict-handling test",
+      "type": "INTERNAL_DOCUMENT",
+      "notes": "Mock source. Uses contextual targets only for system testing."
+    }
+  ],
+  "content_directives": [
+    {
+      "id": "dir_01",
+      "priority": "MUST_INCLUDE",
+      "content": "Pertahankan fakta bahwa raw material memuat guideline yang berbeda.",
+      "material_ids": [
+        "mat_01",
+        "mat_02",
+        "mat_03"
+      ]
+    },
+    {
+      "id": "dir_02",
+      "priority": "MUST_EXCLUDE",
+      "content": "Jangan memilih satu target universal yang tidak dapat didukung oleh material."
+    }
+  ],
+  "context": {
+    "audience": {
+      "mode": "MOCK",
+      "data": {
+        "financial_knowledge": "beginner",
+        "profile": "young adults learning personal finance"
+      }
+    },
+    "brand": {
+      "mode": "MOCK",
+      "data": {
+        "tone": [
+          "clear",
+          "balanced",
+          "non-dogmatic"
+        ]
+      }
+    },
+    "visual": {
+      "mode": "MOCK",
+      "data": {
+        "direction": "comparison-oriented infographic"
+      }
+    },
+    "production": {
+      "mode": "MOCK",
+      "data": {
+        "design_tool": "Canva",
+        "manual_editing": "allowed"
+      }
+    }
+  },
+  "constraints": {
+    "language": "id-ID",
+    "slide_count": {
+      "preferred_min": 5,
+      "preferred_max": 7,
+      "hard_max": 10
+    },
+    "canvas": {
+      "aspect_ratio": "3:4",
+      "width_px": 1080,
+      "height_px": 1440
+    }
+  }
+}

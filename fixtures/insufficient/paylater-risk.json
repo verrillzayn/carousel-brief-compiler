@@ -1,0 +1,100 @@
+{
+  "schema_version": "0.1.0",
+  "topic": "Paylater dan risiko terhadap kondisi keuangan mahasiswa",
+  "objective": "Membuat pembaca memahami bahwa penggunaan paylater menyebabkan mahasiswa memiliki kemungkinan tiga kali lebih besar mengalami kesulitan keuangan.",
+  "initial_angle": "Paylater terlihat ringan di awal tetapi memiliki risiko besar di belakang.",
+  "raw_material": [
+    {
+      "id": "mat_01",
+      "type": "DEFINITION",
+      "content": "Dalam mock material ini, paylater dijelaskan sebagai mekanisme pembayaran yang memungkinkan transaksi dilakukan sekarang sementara pembayaran dilakukan kemudian sesuai ketentuan layanan.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_02",
+      "type": "RESEARCH_NOTE",
+      "content": "Mock material menyatakan bahwa penggunaan paylater dapat menciptakan kewajiban pembayaran di masa mendatang.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_03",
+      "type": "RESEARCH_NOTE",
+      "content": "Mock material menyebut bahwa pengguna perlu memperhitungkan kewajiban pembayaran tersebut ketika merencanakan cashflow.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_04",
+      "type": "RESEARCH_NOTE",
+      "content": "Tidak ada statistik dalam raw material mengenai mahasiswa, tingkat kesulitan keuangan, ataupun peningkatan risiko sebesar tiga kali.",
+      "source_ids": [
+        "src_01"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_01",
+      "title": "Mock Introductory Note — Deferred Payment",
+      "source": "Internal synthetic educational note created for insufficient-evidence testing",
+      "type": "INTERNAL_DOCUMENT",
+      "notes": "This source intentionally does not contain the statistical claim required by the objective."
+    }
+  ],
+  "content_directives": [
+    {
+      "id": "dir_01",
+      "priority": "MUST_INCLUDE",
+      "content": "Objective harus tetap membahas klaim peningkatan risiko tiga kali dan tidak boleh diam-diam diubah menjadi carousel umum tentang cara kerja paylater."
+    }
+  ],
+  "context": {
+    "audience": {
+      "mode": "MOCK",
+      "data": {
+        "age_range": "18-24",
+        "financial_knowledge": "beginner",
+        "profile": "mahasiswa"
+      }
+    },
+    "brand": {
+      "mode": "MOCK",
+      "data": {
+        "tone": [
+          "simple",
+          "non-alarmist"
+        ]
+      }
+    },
+    "visual": {
+      "mode": "MOCK",
+      "data": {
+        "direction": "illustration and infographic"
+      }
+    },
+    "production": {
+      "mode": "MOCK",
+      "data": {
+        "design_tool": "Canva"
+      }
+    }
+  },
+  "constraints": {
+    "language": "id-ID",
+    "slide_count": {
+      "preferred_min": 5,
+      "preferred_max": 7,
+      "hard_max": 10
+    },
+    "canvas": {
+      "aspect_ratio": "3:4",
+      "width_px": 1080,
+      "height_px": 1440
+    }
+  }
+}
