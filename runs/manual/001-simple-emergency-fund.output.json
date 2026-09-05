@@ -1,0 +1,300 @@
+{
+  "schema_version": "0.1.0",
+  "status": "NEEDS_REVIEW",
+  "editorial": {
+    "objective": "Membuat pembaca memahami bahwa dana darurat tetap relevan meskipun pemasukan masih terbatas.",
+    "central_takeaway": "Dana darurat tetap relevan saat pemasukan terbatas karena menjadi penyangga kebutuhan mendadak, dan dapat dibangun bertahap.",
+    "selected_angle": "Pemasukan terbatas tetap perlu penyangga untuk kebutuhan mendadak.",
+    "angle_rationale": "Angle awal tentang nominal diperluas menjadi fungsi penyangga agar alasan relevansi jelas. Memulai bertahap menjadi penutup, tanpa menambahkan target nominal atau rekomendasi produk. Kelima material dipakai karena masing-masing memberi definisi, fungsi wajib, contoh mahasiswa, kemungkinan memulai, atau batas penggunaan.",
+    "selected_material_ids": ["mat_01", "mat_02", "mat_03", "mat_04", "mat_05"],
+    "omitted_material": []
+  },
+  "narrative": {
+    "type": "Pertanyaan relevansi → batas penggunaan → contoh → fungsi penyangga → jawaban",
+    "summary": "Buka dengan pertanyaan tentang pemasukan terbatas, jelaskan pengeluaran yang menjadi tujuan dana darurat, lalu hadirkan ilustrasi laptop kuliah. Diagram menjelaskan fungsi penyangga sebelum penutup menegaskan relevansi dan pembangunan bertahap.",
+    "opening_function": "Mengangkat pertanyaan yang sesuai dengan kondisi audience MOCK tanpa menganggap pertanyaan tersebut sebagai hasil riset audience.",
+    "ending_function": "Menjawab pertanyaan pembuka dan menghubungkan fungsi penyangga dengan kemungkinan membangun dana secara bertahap.",
+    "slide_sequence": ["slide_01", "slide_02", "slide_03", "slide_04", "slide_05"]
+  },
+  "claims": [
+    {
+      "id": "claim_01",
+      "text": "Dana darurat adalah dana yang sengaja disiapkan untuk membantu menghadapi pengeluaran penting yang tidak direncanakan.",
+      "claim_type": "FACT",
+      "source_ids": ["src_01"],
+      "material_ids": ["mat_01"]
+    },
+    {
+      "id": "claim_02",
+      "text": "Dana darurat berfungsi sebagai penyangga agar kebutuhan mendadak tidak langsung mengganggu uang untuk kebutuhan rutin.",
+      "claim_type": "FACT",
+      "source_ids": ["src_01"],
+      "material_ids": ["mat_02"]
+    },
+    {
+      "id": "claim_03",
+      "text": "Biaya memperbaiki laptop untuk kuliah dapat menjadi contoh kebutuhan mendadak mahasiswa.",
+      "claim_type": "FACT",
+      "source_ids": ["src_01"],
+      "material_ids": ["mat_03"],
+      "notes": "Contoh ilustratif dari fixture, bukan laporan kejadian nyata."
+    },
+    {
+      "id": "claim_04",
+      "text": "Dana darurat dapat dibangun bertahap tanpa harus menunggu pendapatan besar.",
+      "claim_type": "FACT",
+      "source_ids": ["src_01"],
+      "material_ids": ["mat_04"]
+    },
+    {
+      "id": "claim_05",
+      "text": "Dana darurat dibedakan dari uang untuk pengeluaran yang direncanakan.",
+      "claim_type": "FACT",
+      "source_ids": ["src_01"],
+      "material_ids": ["mat_05"]
+    },
+    {
+      "id": "claim_06",
+      "text": "Dana darurat tetap relevan saat pemasukan terbatas sebagai penyangga kebutuhan mendadak dan dapat dibangun bertahap.",
+      "claim_type": "DERIVED",
+      "derived_from_material_ids": ["mat_02", "mat_04"],
+      "derivation": "Menggabungkan fungsi penyangga dengan pernyataan bahwa pembangunannya tidak perlu menunggu pendapatan besar; tidak menyimpulkan nominal minimum atau jaminan kecukupan."
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset_01",
+      "type": "GRAPHIC_COMPONENT",
+      "description": "Kartu dana darurat bergaris tebal dengan tanda tanya besar di atasnya.",
+      "requirements": ["Buat dari persegi panjang bersudut membulat dan teks editable di Canva.", "Tanpa simbol mata uang, angka saldo, atau logo."],
+      "source_status": "NOT_APPLICABLE"
+    },
+    {
+      "id": "asset_02",
+      "type": "GRAPHIC_COMPONENT",
+      "description": "Dua kartu sejajar untuk membedakan pengeluaran terencana dan pengeluaran penting mendadak.",
+      "requirements": ["Gunakan bentuk dan ukuran kartu yang sama; bedakan dengan garis tepi dan label.", "Kartu mendadak mendapat penekanan garis lebih tebal, bukan ukuran yang menyiratkan perbandingan jumlah uang."],
+      "source_status": "NOT_APPLICABLE"
+    },
+    {
+      "id": "asset_03",
+      "type": "GRAPHIC_COMPONENT",
+      "description": "Ilustrasi laptop generik dengan tanda seru pada layar sebagai contoh kebutuhan perbaikan.",
+      "requirements": ["Rakit layar dari persegi panjang, alas dari trapesium, dan tanda seru dari teks editable.", "Tanpa merek, harga, kuitansi, atau tampilan dokumenter."],
+      "source_status": "NOT_APPLICABLE"
+    },
+    {
+      "id": "asset_04",
+      "type": "GRAPHIC_COMPONENT",
+      "description": "Diagram kebutuhan mendadak menuju kartu dana darurat, dengan kartu uang rutin terpisah di bawah.",
+      "requirements": ["Gunakan dua kartu atas yang dihubungkan satu panah; satu kartu bawah tanpa panah masuk.", "Diagram menjelaskan fungsi penyangga, bukan aliran nominal atau jaminan semua biaya tertutup."],
+      "source_status": "NOT_APPLICABLE"
+    },
+    {
+      "id": "asset_05",
+      "type": "GRAPHIC_COMPONENT",
+      "description": "Kartu dana darurat terbuka dengan satu keping polos dan panah masuk untuk menyimbolkan pembangunan bertahap.",
+      "requirements": ["Keping tanpa nominal; tidak memakai skala, persentase, target waktu, atau tanda penuh.", "Ulangi bentuk kartu slide pembuka untuk menutup rangkaian secara visual."],
+      "source_status": "NOT_APPLICABLE"
+    }
+  ],
+  "production": {
+    "global_instructions": [
+      {"step": 1, "action": "SETUP", "instruction": "Setelah brief direview manusia, siapkan lima halaman Canva 1080 × 1440 px, rasio 3:4. Instruksi ini adalah rencana produksi untuk uji MOCK; run engine berhenti pada brief."},
+      {"step": 2, "action": "COMPOSE", "instruction": "Gunakan ilustrasi datar dari shape editable, latar polos terang, teks gelap, dan garis tepi konsisten sebagai treatment uji netral. Pertahankan ruang kosong; palet dan tipografi brand final belum ditetapkan oleh input."},
+      {"step": 3, "action": "ADD_TEXT", "instruction": "Pasang headline, supporting, dan labels persis dari setiap slide sebagai teks editable. Emphasis menandai teks yang sudah ada, bukan teks tambahan. Headline paling dominan; supporting lebih kecil tetapi tetap terbaca di layar ponsel."},
+      {"step": 4, "action": "REVIEW", "instruction": "Periksa urutan lima slide tanpa caption, keterbacaan, batas klaim, dan pemisahan ilustrasi dari fakta. Jangan menambahkan nominal, produk, instrumen, statistik, atau sumber di luar fixture. Pertahankan label MOCK pada cover dan penutup."},
+      {"step": 5, "action": "SAVE", "instruction": "Pada tahap produksi yang telah disetujui, simpan master editable sebagai materi uji MOCK. Status NEEDS_REVIEW pada brief ini belum merupakan persetujuan publikasi."}
+    ]
+  },
+  "slides": [
+    {
+      "id": "slide_01",
+      "index": 1,
+      "role": "Pertanyaan pembuka",
+      "purpose": "Membangun rasa ingin tahu tentang relevansi dana darurat pada pemasukan terbatas.",
+      "core_message": "Relevansi dana darurat saat pemasukan terbatas menjadi pertanyaan utama carousel.",
+      "copy": {
+        "headline": "Pemasukan terbatas, perlu dana darurat?",
+        "supporting": "Kenali fungsinya dulu.",
+        "emphasis": [{"text": "Pemasukan terbatas", "level": "PRIMARY"}],
+        "labels": ["MATERI UJI MOCK"]
+      },
+      "claim_ids": ["claim_06"],
+      "visual": {
+        "function": "ATTRACT_ATTENTION",
+        "primary": {
+          "concept": "Kartu dana darurat dengan tanda tanya sebagai pertanyaan visual.",
+          "composition": "Kartu besar di tengah bagian bawah; tanda tanya tepat di atas kartu. Sisakan bagian atas untuk headline.",
+          "text_zone": "Headline dan supporting di sepertiga atas; label MOCK kecil tetapi terbaca di tepi bawah.",
+          "visual_hierarchy": "Headline → tanda tanya dan kartu → supporting → label MOCK."
+        }
+      },
+      "asset_strategy": "GRAPHIC_ONLY",
+      "asset_ids": ["asset_01"],
+      "production_instructions": [
+        {"step": 1, "action": "COMPOSE", "instruction": "Buat asset_01 dari shape dan tanda tanya; kelompokkan, lalu tempatkan di tengah bagian bawah tanpa menabrak zona teks."},
+        {"step": 2, "action": "ADD_TEXT", "instruction": "Pasang headline rata kiri di atas, supporting di bawahnya, dan label MOCK di tepi bawah. Tebalkan frasa emphasis."},
+        {"step": 3, "action": "REVIEW", "instruction": "Pastikan cover terbaca sebagai pertanyaan yang akan dijawab, tanpa janji nominal atau hasil finansial."}
+      ]
+    },
+    {
+      "id": "slide_02",
+      "index": 2,
+      "role": "Batas penggunaan",
+      "purpose": "Memberikan definisi sekaligus membedakan dana darurat dari uang untuk rencana yang sudah ada.",
+      "core_message": "Dana darurat disiapkan untuk pengeluaran penting yang tidak direncanakan.",
+      "copy": {
+        "headline": "Disiapkan untuk yang tak direncanakan",
+        "supporting": "Dana darurat membantu menghadapi pengeluaran penting yang muncul mendadak.",
+        "emphasis": [{"text": "tak direncanakan", "level": "PRIMARY"}],
+        "labels": ["Terencana: uang yang sudah disiapkan", "Penting + mendadak: dana darurat"]
+      },
+      "claim_ids": ["claim_01", "claim_05"],
+      "visual": {
+        "function": "COMPARE",
+        "primary": {
+          "concept": "Dua kartu membedakan tujuan uang berdasarkan apakah pengeluaran sudah direncanakan.",
+          "composition": "Dua kartu berukuran sama berdampingan di bagian tengah-bawah; kartu kanan bergaris lebih tebal.",
+          "text_zone": "Headline dan supporting di atas; masing-masing label berada di dalam kartu terkait.",
+          "visual_hierarchy": "Headline → kartu penting dan mendadak → kartu terencana → supporting.",
+          "editing_treatment": "Gunakan label sebagai pembeda utama sehingga makna tidak bergantung pada warna."
+        }
+      },
+      "asset_strategy": "GRAPHIC_ONLY",
+      "asset_ids": ["asset_02"],
+      "production_instructions": [
+        {"step": 1, "action": "COMPOSE", "instruction": "Buat asset_02 dengan dua kartu sejajar, beri jarak yang cukup, dan tebalkan garis kartu kanan."},
+        {"step": 2, "action": "ADD_TEXT", "instruction": "Pasang headline dan supporting di atas. Tempatkan label Terencana pada kartu kiri dan label Penting + mendadak pada kartu kanan."},
+        {"step": 3, "action": "REVIEW", "instruction": "Pastikan kedua label terbaca tanpa memperkecil teks berlebihan dan ukuran kartu tidak menyiratkan perbandingan saldo."}
+      ]
+    },
+    {
+      "id": "slide_03",
+      "index": 3,
+      "role": "Contoh mahasiswa",
+      "purpose": "Membuat pengeluaran penting mendadak konkret melalui contoh yang tersedia dalam fixture.",
+      "core_message": "Perbaikan laptop untuk kuliah dapat menjadi kebutuhan mendadak.",
+      "copy": {
+        "headline": "Misalnya, laptop kuliah perlu diperbaiki",
+        "supporting": "Biaya perbaikannya bisa menjadi kebutuhan penting yang tidak direncanakan.",
+        "emphasis": [{"text": "laptop kuliah", "level": "PRIMARY"}],
+        "labels": ["ILUSTRASI"]
+      },
+      "claim_ids": ["claim_01", "claim_03"],
+      "visual": {
+        "function": "CONTEXTUALIZE",
+        "primary": {
+          "concept": "Laptop generik dengan tanda seru menghadirkan contoh dekat dengan kegiatan kuliah.",
+          "composition": "Laptop besar pada tengah-bawah dengan layar menghadap depan; tanda seru di tengah layar.",
+          "text_zone": "Headline dan supporting di atas, label ILUSTRASI tepat di bawah laptop.",
+          "visual_hierarchy": "Headline → laptop dan tanda seru → supporting → label ilustrasi."
+        }
+      },
+      "asset_strategy": "GRAPHIC_ONLY",
+      "asset_ids": ["asset_03"],
+      "production_instructions": [
+        {"step": 1, "action": "COMPOSE", "instruction": "Rakit asset_03 dari layar persegi panjang dan alas trapesium, tambahkan tanda seru, lalu kelompokkan di tengah-bawah."},
+        {"step": 2, "action": "ADD_TEXT", "instruction": "Pasang headline dan supporting pada bagian atas; label ILUSTRASI harus terlihat di dekat laptop."},
+        {"step": 3, "action": "REVIEW", "instruction": "Pertahankan kata Misalnya dan bisa agar contoh tidak berubah menjadi kejadian nyata atau kepastian. Jangan menambahkan biaya servis."}
+      ]
+    },
+    {
+      "id": "slide_04",
+      "index": 4,
+      "role": "Penjelasan fungsi penyangga",
+      "purpose": "Memenuhi directive wajib dengan menjelaskan hubungan kebutuhan mendadak, dana darurat, dan uang rutin.",
+      "core_message": "Dana darurat menjadi penyangga agar kebutuhan mendadak tidak langsung mengganggu uang rutin.",
+      "copy": {
+        "headline": "Ada penyangga untuk kebutuhan mendadak",
+        "supporting": "Dana darurat membantu agar kebutuhan mendadak tidak langsung mengganggu uang untuk kebutuhan rutin.",
+        "emphasis": [{"text": "penyangga", "level": "PRIMARY"}],
+        "labels": ["Kebutuhan mendadak", "Dana darurat", "Uang kebutuhan rutin"]
+      },
+      "claim_ids": ["claim_02"],
+      "visual": {
+        "function": "EXPLAIN",
+        "primary": {
+          "concept": "Diagram menempatkan dana darurat sebagai tempat menghadapi kebutuhan mendadak, terpisah dari uang rutin.",
+          "composition": "Di tengah-bawah, kartu kebutuhan mendadak di kiri mengarah ke kartu dana darurat di kanan. Kartu uang rutin berada di bawah keduanya dengan ruang pemisah yang jelas.",
+          "text_zone": "Headline dan supporting di atas; tiga label ditempatkan di dalam kartu masing-masing.",
+          "visual_hierarchy": "Headline → panah menuju dana darurat → kartu uang rutin → supporting.",
+          "rationale": "Pemisahan kartu memperjelas fungsi buffer tanpa memakai perisai mutlak atau klaim bahwa semua pengeluaran pasti tertutup."
+        }
+      },
+      "asset_strategy": "GRAPHIC_ONLY",
+      "asset_ids": ["asset_04"],
+      "production_instructions": [
+        {"step": 1, "action": "COMPOSE", "instruction": "Buat asset_04 dari tiga kartu dan satu panah kiri-ke-kanan. Tempatkan uang rutin di bawah dengan jarak jelas; jangan tambahkan panah menuju kartu tersebut."},
+        {"step": 2, "action": "ADD_TEXT", "instruction": "Pasang headline dan supporting di atas diagram, lalu masukkan ketiga label ke kartu yang sesuai. Dana darurat mendapat garis paling tebal."},
+        {"step": 3, "action": "REVIEW", "instruction": "Pastikan diagram dibaca bersama kata membantu dan tidak langsung, tanpa tanda jaminan, saldo, atau klaim perlindungan penuh."}
+      ]
+    },
+    {
+      "id": "slide_05",
+      "index": 5,
+      "role": "Jawaban dan takeaway",
+      "purpose": "Menutup pertanyaan cover dengan relevansi fungsi penyangga dan kemungkinan memulai bertahap.",
+      "core_message": "Dana darurat tetap relevan saat pemasukan terbatas dan dapat dibangun bertahap.",
+      "copy": {
+        "headline": "Tetap relevan. Bisa dibangun bertahap.",
+        "supporting": "Pemasukan terbatas tetap membutuhkan penyangga kebutuhan mendadak. Membangunnya tidak harus menunggu pendapatan besar.",
+        "emphasis": [{"text": "bertahap", "level": "PRIMARY"}],
+        "labels": ["MATERI UJI MOCK"]
+      },
+      "claim_ids": ["claim_02", "claim_04", "claim_06"],
+      "visual": {
+        "function": "SYMBOLIZE",
+        "primary": {
+          "concept": "Kartu dari cover kini menerima satu keping polos sebagai simbol memulai bertahap.",
+          "composition": "Kartu besar di tengah-bawah; satu keping dan panah masuk di atas tepi kartu, tanpa indikator target.",
+          "text_zone": "Headline dan supporting di atas; label MOCK kecil tetapi terbaca di tepi bawah.",
+          "visual_hierarchy": "Headline → keping masuk ke kartu → supporting → label MOCK.",
+          "rationale": "Keping adalah simbol kreatif proses bertahap, bukan rekomendasi nominal atau bukti kecukupan dana."
+        }
+      },
+      "asset_strategy": "GRAPHIC_ONLY",
+      "asset_ids": ["asset_05"],
+      "production_instructions": [
+        {"step": 1, "action": "COMPOSE", "instruction": "Duplikasi bentuk kartu cover untuk asset_05. Hapus tanda tanya, tambahkan keping lingkaran polos dan panah masuk di atas kartu."},
+        {"step": 2, "action": "ADD_TEXT", "instruction": "Pasang headline dan supporting di atas, beri penekanan pada bertahap, dan pertahankan label MOCK di bawah."},
+        {"step": 3, "action": "REVIEW", "instruction": "Pastikan penutup menjawab cover tanpa target saldo, batas waktu, instrumen, atau janji bahwa dana kecil pasti cukup."}
+      ]
+    }
+  ],
+  "caption": {
+    "text": "Bagian mana dari fungsi dana darurat yang ingin kamu pahami lebih lanjut?",
+    "function": "QUESTION"
+  },
+  "warnings": [
+    {
+      "code": "MOCK_SOURCE_ONLY",
+      "severity": "WARNING",
+      "message": "Seluruh factual grounding berasal dari src_01, Mock Module — Basic Emergency Fund, yang hanya ditujukan untuk pengujian engine dan bukan konten keuangan produksi.",
+      "affected_slide_ids": ["slide_01", "slide_02", "slide_03", "slide_04", "slide_05"],
+      "recommendation": "Nilai hasil ini sebagai uji manual dalam evidence boundary fixture. Sebelum penggunaan produksi, upstream perlu menyediakan material dan sumber produksi untuk run terpisah."
+    },
+    {
+      "code": "MOCK_CONTEXT_ONLY",
+      "severity": "WARNING",
+      "message": "Audience, brand, visual, dan production context seluruhnya bermode MOCK. Treatment grafis netral adalah keputusan uji, bukan identitas brand final.",
+      "recommendation": "Review kecocokan brief terhadap konteks MOCK yang diberikan; masukkan konteks produksi yang sebenarnya sebelum adaptasi produksi."
+    }
+  ],
+  "qa": {
+    "overall_status": "PASS_WITH_WARNING",
+    "dimensions": {
+      "objective": {"status": "PASS", "notes": "Objective dipertahankan persis; pembuka dijawab melalui fungsi buffer dan pembangunan bertahap."},
+      "factual": {"status": "PASS_WITH_WARNING", "notes": "Klaim terbatas pada lima material fixture dan satu sintesis langsung; bukan verifikasi kebenaran di luar fixture.", "warning_codes": ["MOCK_SOURCE_ONLY"]},
+      "editorial": {"status": "PASS", "notes": "Satu takeaway; fungsi buffer wajib dan contoh mahasiswa masuk. Tidak ada rekomendasi produk atau instrumen."},
+      "narrative": {"status": "PASS", "notes": "Lima slide berurutan dari pertanyaan ke jawaban; argumen lengkap tanpa caption."},
+      "density": {"status": "PASS", "notes": "Satu pesan utama per slide, supporting singkat, dan satu gagasan visual dominan; tidak membutuhkan paragraf panjang."},
+      "copy": {"status": "PASS", "notes": "Bahasa Indonesia sederhana; kata membantu, bisa, dan Misalnya mempertahankan batas makna."},
+      "visual": {"status": "PASS", "notes": "Setiap visual memiliki fungsi komunikasi; simbol tidak menyatakan nominal, frekuensi, atau jaminan hasil."},
+      "asset": {"status": "PASS", "notes": "Semua asset_ids terpetakan ke komponen grafis manual; tidak membutuhkan sourcing atau prompt generasi gambar."},
+      "production": {"status": "PASS_WITH_WARNING", "notes": "Instruksi global dan lokal dapat dieksekusi dengan shape serta teks editable sesuai production context MOCK; desain akhir belum dibuat.", "warning_codes": ["MOCK_CONTEXT_ONLY"]},
+      "source": {"status": "PASS_WITH_WARNING", "notes": "Semua FACT memiliki src_01 dan material asal; sumber hanya sah sebagai evidence uji yang diberikan.", "warning_codes": ["MOCK_SOURCE_ONLY"]},
+      "brand": {"status": "PASS_WITH_WARNING", "notes": "Tone conversational, simple, dan non-preachy mengikuti brand MOCK; identitas visual produksi belum tersedia.", "warning_codes": ["MOCK_CONTEXT_ONLY"]}
+    }
+  }
+}

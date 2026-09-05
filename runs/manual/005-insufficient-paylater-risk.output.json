@@ -1,0 +1,60 @@
+{
+  "schema_version": "0.1.0",
+  "status": "BLOCKED",
+  "reason_code": "OBJECTIVE_UNSUPPORTED",
+  "reason": "Objective mensyaratkan klaim bahwa penggunaan paylater menyebabkan mahasiswa memiliki kemungkinan tiga kali lebih besar mengalami kesulitan keuangan. mat_01–mat_03 hanya menjelaskan mekanisme pembayaran, kewajiban mendatang, dan perencanaan cashflow; mat_04 secara eksplisit menyatakan tidak ada statistik mahasiswa, kesulitan keuangan, atau peningkatan risiko tiga kali. Directive dir_01 melarang penggantian objective menjadi edukasi umum paylater.",
+  "missing": [
+    "Evidence untuk besaran tiga kali, termasuk ukuran yang dihitung dan kelompok pembandingnya.",
+    "Evidence yang mencakup mahasiswa dan definisi kesulitan keuangan yang relevan dengan klaim.",
+    "Dasar yang mendukung kata menyebabkan, bukan sekadar adanya hubungan atau kewajiban pembayaran.",
+    "Material pendukung beserta source mapping untuk klaim utama yang diwajibkan objective."
+  ],
+  "impact": "Klaim inti numerik dan kausal tidak dapat diturunkan dari definisi paylater atau kewajiban pembayaran. Melanjutkan akan menciptakan evidence atau mengubah objective secara diam-diam; karena itu run berhenti pada intake validation sebelum narrative, copy, visual, dan production.",
+  "recommendation": "Upstream perlu memasok evidence yang benar-benar mendukung keseluruhan klaim objective. Jika evidence tidak mendukung klaim tersebut, upstream harus secara eksplisit mengganti objective dan directive terkait untuk run baru; engine tidak menggantinya pada run ini.",
+  "upstream_repair_instructions": [
+    {
+      "step": 1,
+      "instruction": "Sediakan kutipan atau data sumber yang mendasari klaim tiga kali, beserta populasi mahasiswa, definisi kesulitan keuangan, kelompok pembanding, periode pengamatan, ukuran statistik, dan batas interpretasinya."
+    },
+    {
+      "step": 2,
+      "instruction": "Sertakan dasar dalam material yang mendukung kesimpulan kausal menyebabkan. Jangan mengubah asosiasi atau informasi kewajiban pembayaran menjadi kausalitas."
+    },
+    {
+      "step": 3,
+      "instruction": "Tambahkan evidence tersebut sebagai raw_material dengan source_ids yang merujuk pada sumber berprovenance jelas. Pertahankan qualifier dan keterbatasan sumber; selaraskan mat_04 dengan material baru."
+    },
+    {
+      "step": 4,
+      "instruction": "Jika klaim numerik atau kausal tetap tidak didukung, tetapkan objective pengganti dan ubah dir_01 secara eksplisit di upstream, lalu jalankan sebagai run baru. Jangan meminta engine mempertahankan klaim yang tidak memiliki evidence."
+    }
+  ],
+  "resume_when": "Lanjutkan objective yang sama hanya ketika input menyediakan evidence terpetakan yang mendukung besaran tiga kali, populasi mahasiswa, outcome kesulitan keuangan, dan kausalitas. Objective yang diubah secara eksplisit memerlukan run baru dengan directive yang selaras.",
+  "warnings": [
+    {
+      "code": "MOCK_SOURCE_ONLY",
+      "severity": "WARNING",
+      "message": "Semua sumber pada fixture adalah material MOCK untuk pengujian. Factual grounding hanya diperiksa terhadap isi fixture, bukan diverifikasi di luar input.",
+      "recommendation": "Gunakan hasil untuk evaluasi manual. Sebelum penggunaan produksi, upstream perlu menyediakan material dan sumber produksi dalam run terpisah."
+    },
+    {
+      "code": "MOCK_CONTEXT_ONLY",
+      "severity": "WARNING",
+      "message": "Audience, brand, visual, dan production context seluruhnya MOCK. Treatment grafis netral merupakan keputusan uji, bukan identitas brand final.",
+      "recommendation": "Review terhadap konteks MOCK yang diberikan; gunakan konteks produksi sebenarnya sebelum adaptasi produksi."
+    }
+  ],
+  "partial_findings": {
+    "detected_takeaways": [
+      "Material mendukung penjelasan bahwa paylater menunda pembayaran dan dapat menciptakan kewajiban pembayaran mendatang.",
+      "Material menyebut perlunya memperhitungkan kewajiban itu dalam cashflow; ini tidak membuktikan klaim tiga kali atau kausalitas."
+    ],
+    "relevant_material_ids": [
+      "mat_01",
+      "mat_02",
+      "mat_03",
+      "mat_04"
+    ],
+    "notes": "Temuan parsial bukan objective pengganti dan tidak dikembangkan menjadi carousel. Tidak menggunakan web atau evidence dari fixture lain."
+  }
+}

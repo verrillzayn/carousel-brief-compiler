@@ -1,0 +1,73 @@
+{
+  "schema_version": "0.1.0",
+  "status": "BLOCKED",
+  "reason_code": "SCOPE_TOO_BROAD",
+  "reason": "Objective dan dir_01 mewajibkan pengajaran bermakna atas sembilan domain keuangan pribadi dalam satu carousel. Input hanya memberi catatan ringkas tiap domain dan mat_10 menegaskan masing-masing membutuhkan penjelasan lebih dari satu definisi. Penghilangan domain melanggar directive; mereduksi semuanya menjadi daftar definisi melanggar custom constraint. Scope tidak dapat dipadatkan secara bertanggung jawab ke satu takeaway dengan maksimum 10 slide dan kepadatan rendah.",
+  "missing": [
+    "Satu objective terfokus yang dapat menghasilkan satu central takeaway tanpa kewajiban mengajarkan seluruh domain sekaligus.",
+    "Prioritas domain dan directive yang secara eksplisit mengizinkan pembatasan scope atau pemisahan menjadi beberapa content unit.",
+    "Material yang cukup untuk menjelaskan domain terpilih secara bermakna, melampaui satu catatan definisional."
+  ],
+  "impact": "Satu daftar sembilan topik bukan pengajaran seluruh dasar penting. Setelah memperhitungkan kebutuhan penjelasan dan nuance yang dinyatakan mat_10, mempertahankan semua domain akan mengorbankan kedalaman, koherensi, atau keterbacaan. Memilih satu domain tanpa perubahan upstream akan mengubah objective; run berhenti pada editorial distillation sebelum membuat narrative dan slides.",
+  "recommendation": "Pecah permintaan upstream menjadi content unit terpisah, masing-masing dengan satu objective dan evidence cukup. Prioritaskan satu domain untuk run berikutnya; jangan mempertahankan janji panduan lengkap pada carousel yang scope-nya telah dipersempit.",
+  "upstream_repair_instructions": [
+    {
+      "step": 1,
+      "instruction": "Tentukan satu domain prioritas dari budgeting, dana darurat, utang, investasi, asuransi, inflasi, tujuan keuangan, perilaku konsumsi, atau perencanaan jangka panjang. Ini keputusan scope upstream, bukan pilihan yang sudah diterapkan engine."
+    },
+    {
+      "step": 2,
+      "instruction": "Tulis ulang topic, objective, initial_angle, dan dir_01 agar secara eksplisit berfokus pada satu pemahaman untuk domain terpilih. Hapus kewajiban seluruh domain untuk content unit tersebut."
+    },
+    {
+      "step": 3,
+      "instruction": "Sediakan material pendukung dan source mapping yang cukup untuk menjelaskan domain terpilih, termasuk hubungan konsep atau contoh yang diperlukan. Jangan hanya menyerahkan satu definisi jika objective meminta penjelasan lebih lanjut."
+    },
+    {
+      "step": 4,
+      "instruction": "Siapkan domain lainnya sebagai input terpisah bila tetap dibutuhkan. Validasi setiap input terhadap batas satu carousel, satu takeaway, maksimum 10 slide, dan larangan paragraf padat sebelum menjalankan engine kembali."
+    }
+  ],
+  "resume_when": "Upstream telah menetapkan objective dan directive yang lebih sempit secara eksplisit serta menyediakan evidence cukup untuk satu central takeaway yang dapat dijelaskan bermakna dalam maksimum 10 slide tanpa paragraf padat.",
+  "warnings": [
+    {
+      "code": "MOCK_SOURCE_ONLY",
+      "severity": "WARNING",
+      "message": "Semua sumber pada fixture adalah material MOCK untuk pengujian. Factual grounding hanya diperiksa terhadap isi fixture, bukan diverifikasi di luar input.",
+      "recommendation": "Gunakan hasil untuk evaluasi manual. Sebelum penggunaan produksi, upstream perlu menyediakan material dan sumber produksi dalam run terpisah."
+    },
+    {
+      "code": "MOCK_CONTEXT_ONLY",
+      "severity": "WARNING",
+      "message": "Audience, brand, visual, dan production context seluruhnya MOCK. Treatment grafis netral merupakan keputusan uji, bukan identitas brand final.",
+      "recommendation": "Review terhadap konteks MOCK yang diberikan; gunakan konteks produksi sebenarnya sebelum adaptasi produksi."
+    }
+  ],
+  "partial_findings": {
+    "detected_takeaways": [
+      "Budgeting: merencanakan penggunaan uang berdasarkan kebutuhan dan prioritas.",
+      "Dana darurat: buffer terhadap kebutuhan penting yang tidak direncanakan.",
+      "Utang: memahami kewajiban, biaya, dan dampak cashflow.",
+      "Investasi: manfaat masa depan disertai risiko yang perlu dipahami.",
+      "Asuransi: pengelolaan risiko sesuai ketentuan perlindungan.",
+      "Inflasi: perubahan tingkat harga dan pengaruhnya terhadap daya beli.",
+      "Tujuan keuangan: arah sumber daya untuk kebutuhan masa depan.",
+      "Perilaku konsumsi: kebiasaan, lingkungan, kemudahan transaksi, dan keputusan impulsif.",
+      "Perencanaan jangka panjang: beberapa tujuan dengan waktu berbeda."
+    ],
+    "scope_problem": "Kesembilan domain merupakan unit pemahaman berbeda; menyebut semuanya sebagai dasar keuangan tidak menjadikannya satu takeaway yang cukup terjelaskan. mat_10 menolak pengajaran yang berhenti pada definisi.",
+    "relevant_material_ids": [
+      "mat_01",
+      "mat_02",
+      "mat_03",
+      "mat_04",
+      "mat_05",
+      "mat_06",
+      "mat_07",
+      "mat_08",
+      "mat_09",
+      "mat_10"
+    ],
+    "notes": "Daftar ini hanya peta material untuk perbaikan upstream, bukan slide plan atau carousel alternatif. Tidak menambah pengetahuan dari fixture lain."
+  }
+}

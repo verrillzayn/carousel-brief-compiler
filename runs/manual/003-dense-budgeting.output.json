@@ -1,0 +1,642 @@
+{
+  "schema_version": "0.1.0",
+  "status": "NEEDS_REVIEW",
+  "editorial": {
+    "objective": "Membuat pembaca pemula memahami bahwa budgeting pada dasarnya adalah proses memberi tujuan pada uang sebelum uang tersebut habis tanpa arah.",
+    "central_takeaway": "Budgeting berarti memutuskan tujuan penggunaan uang sebelum habis; pencatatan membantu meninjau rencana, bukan menggantikannya.",
+    "selected_angle": "Beri uang tujuan sebelum terpakai.",
+    "angle_rationale": "Angle awal tentang sistem sederhana dipertajam ke keputusan penggunaan uang agar definisi budgeting menjadi pusat cerita. Pilih satu contoh per kategori dan rangkai langkah tersedia → alokasi → review; hilangkan katalog metode serta alat.",
+    "selected_material_ids": [
+      "mat_01",
+      "mat_02",
+      "mat_03",
+      "mat_04",
+      "mat_05",
+      "mat_06",
+      "mat_07",
+      "mat_08",
+      "mat_11",
+      "mat_12",
+      "mat_15"
+    ],
+    "omitted_material": [
+      {
+        "material_ids": [
+          "mat_09"
+        ],
+        "reason": "Penanganan pendapatan tidak tetap membutuhkan cabang penjelasan sendiri; bukan prasyarat memahami inti budgeting pada objective ini."
+      },
+      {
+        "material_ids": [
+          "mat_10"
+        ],
+        "reason": "Detail tingkat keketatan anggaran di luar fokus pengenalan keputusan penggunaan uang; kategori fleksibel tetap ditampilkan."
+      },
+      {
+        "material_ids": [
+          "mat_13",
+          "mat_14"
+        ],
+        "reason": "Pembahasan metode tidak diperlukan dan berisiko menjadi perbandingan metode yang dilarang."
+      },
+      {
+        "material_ids": [
+          "mat_16"
+        ],
+        "reason": "Alasan tambahan tentang beban kategori dikompresi melalui arahan mat_15 untuk mulai dengan kategori besar; tidak perlu argumen terpisah."
+      },
+      {
+        "material_ids": [
+          "mat_17"
+        ],
+        "reason": "Pesan adaptasi sudah disampaikan secara konkret melalui review dan revisi dari mat_11 dan mat_12."
+      },
+      {
+        "material_ids": [
+          "mat_18",
+          "mat_19",
+          "mat_20"
+        ],
+        "reason": "Detail rekening dan alat operasional mengalihkan fokus dari keputusan prioritas penggunaan uang."
+      }
+    ]
+  },
+  "narrative": {
+    "type": "Gagasan inti → pembedaan → titik awal → alokasi sederhana → review",
+    "summary": "Definisikan budgeting sebagai rencana, bedakan dari pencatatan, mulai dari uang tersedia, beri tujuan lewat tiga kategori dan satu contoh masing-masing, lalu gunakan catatan untuk review serta revisi.",
+    "opening_function": "Menetapkan perencanaan penggunaan uang sebagai makna utama budgeting.",
+    "ending_function": "Menunjukkan bahwa rencana dapat ditinjau dan disesuaikan, bukan hanya dicatat setelah uang terpakai.",
+    "slide_sequence": [
+      "slide_01",
+      "slide_02",
+      "slide_03",
+      "slide_04",
+      "slide_05"
+    ]
+  },
+  "claims": [
+    {
+      "id": "claim_01",
+      "text": "Budgeting dalam materi ini didefinisikan sebagai proses merencanakan bagaimana pendapatan atau uang yang tersedia akan digunakan untuk berbagai kebutuhan dan tujuan.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_01"
+      ]
+    },
+    {
+      "id": "claim_02",
+      "text": "Tujuan budgeting bukan sekadar mencatat transaksi yang sudah terjadi, tetapi membuat keputusan penggunaan uang sebelum seluruh uang tersebut terpakai.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_02"
+      ]
+    },
+    {
+      "id": "claim_03",
+      "text": "Mencatat pengeluaran tetap berguna karena membantu seseorang melihat pola penggunaan uang, tetapi pencatatan saja tidak otomatis berarti seseorang sudah memiliki rencana anggaran.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_03"
+      ]
+    },
+    {
+      "id": "claim_04",
+      "text": "Materi membagi kebutuhan menjadi kebutuhan rutin, kebutuhan fleksibel, dan tujuan keuangan agar proses perencanaan lebih mudah dilakukan.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_04"
+      ]
+    },
+    {
+      "id": "claim_05",
+      "text": "Kebutuhan rutin dapat berupa biaya tempat tinggal, transportasi rutin, biaya komunikasi, atau kebutuhan lain yang relatif dapat diperkirakan.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_05"
+      ]
+    },
+    {
+      "id": "claim_06",
+      "text": "Kebutuhan fleksibel dapat berupa makan di luar, hiburan, pembelian impulsif, atau aktivitas lain yang besarannya lebih mudah berubah.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_06"
+      ]
+    },
+    {
+      "id": "claim_07",
+      "text": "Tujuan keuangan dapat berupa dana darurat, membeli perangkat kerja, biaya pendidikan, perjalanan, atau tujuan lain yang membutuhkan uang di masa depan.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_07"
+      ]
+    },
+    {
+      "id": "claim_08",
+      "text": "Materi menyarankan agar seseorang mengetahui terlebih dahulu berapa uang yang benar-benar tersedia sebelum menetapkan alokasi.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_02"
+      ],
+      "material_ids": [
+        "mat_08"
+      ]
+    },
+    {
+      "id": "claim_11",
+      "text": "Materi menekankan perlunya melakukan review terhadap budget karena rencana awal belum tentu sesuai dengan pola pengeluaran nyata.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_02"
+      ],
+      "material_ids": [
+        "mat_11"
+      ]
+    },
+    {
+      "id": "claim_12",
+      "text": "Budget dapat direvisi ketika kondisi pendapatan, kebutuhan, atau prioritas berubah.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_02"
+      ],
+      "material_ids": [
+        "mat_12"
+      ]
+    },
+    {
+      "id": "claim_15",
+      "text": "Seseorang dapat memulai budgeting hanya dengan beberapa kategori besar terlebih dahulu dan menambah detail setelah terbiasa.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_03"
+      ],
+      "material_ids": [
+        "mat_15"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset_01",
+      "type": "GRAPHIC_COMPONENT",
+      "description": "Kartu uang dan label tujuan dari persegi panjang serta panah.",
+      "requirements": [
+        "Buat semua bentuk dan tulisan editable.",
+        "Gunakan kata Tujuan dari headline pada label; tanpa angka atau persentase."
+      ],
+      "source_status": "NOT_APPLICABLE"
+    },
+    {
+      "id": "asset_02",
+      "type": "GRAPHIC_COMPONENT",
+      "description": "Dua lembar catatan dan rencana dari shape, dengan garis pendek sebagai simbol tulisan.",
+      "requirements": [
+        "Tidak memakai tanda silang pada catatan.",
+        "Garis hanya ilustrasi; jangan menambahkan daftar transaksi atau angka."
+      ],
+      "source_status": "NOT_APPLICABLE"
+    },
+    {
+      "id": "asset_03",
+      "type": "GRAPHIC_COMPONENT",
+      "description": "Dua kartu proses berlabel dan satu panah.",
+      "requirements": [
+        "Tanpa contoh pendapatan, nominal, atau baseline yang tidak dibahas.",
+        "Panah menunjukkan urutan keputusan, bukan transfer rekening."
+      ],
+      "source_status": "NOT_APPLICABLE"
+    },
+    {
+      "id": "asset_04",
+      "type": "GRAPHIC_COMPONENT",
+      "description": "Tiga kartu kategori editable tanpa ilustrasi tambahan.",
+      "requirements": [
+        "Ukuran kartu bukan rekomendasi pembagian sama rata.",
+        "Hanya satu contoh dari setiap material mat_05, mat_06, dan mat_07; tidak menampilkan daftar lengkap."
+      ],
+      "source_status": "NOT_APPLICABLE"
+    },
+    {
+      "id": "asset_05",
+      "type": "GRAPHIC_COMPONENT",
+      "description": "Tiga kartu dan tiga panah siklus editable.",
+      "requirements": [
+        "Tidak menetapkan frekuensi review yang tidak diberikan fixture.",
+        "Siklus menjelaskan proses, bukan jaminan hasil anggaran."
+      ],
+      "source_status": "NOT_APPLICABLE"
+    }
+  ],
+  "production": {
+    "global_instructions": [
+      {
+        "step": 1,
+        "action": "SETUP",
+        "instruction": "Setelah persetujuan reviewer, buat halaman Canva 1080 × 1440 px, rasio 3:4, sesuai jumlah dan urutan slides. Run ini hanya menghasilkan brief untuk pengujian MOCK."
+      },
+      {
+        "step": 2,
+        "action": "COMPOSE",
+        "instruction": "Gunakan shape editable, garis konsisten, latar terang polos, dan teks gelap sebagai treatment netral uji; ini bukan identitas brand final. Sisakan ruang kosong dan satu gagasan visual dominan per slide."
+      },
+      {
+        "step": 3,
+        "action": "ADD_TEXT",
+        "instruction": "Pasang copy persis sebagai teks editable. Emphasis menandai teks yang sudah ada, bukan tambahan. Headline dominan; supporting dan labels tetap terbaca pada layar ponsel."
+      },
+      {
+        "step": 4,
+        "action": "REVIEW",
+        "instruction": "Periksa seluruh carousel tanpa caption. Pastikan ilustrasi dan sumber MOCK jelas, tidak ada klaim tambahan, dan visual tidak mengubah makna. Sesuaikan pemenggalan teks sebelum mengecilkan huruf."
+      },
+      {
+        "step": 5,
+        "action": "SAVE",
+        "instruction": "Setelah tahap produksi disetujui, simpan master editable sebagai materi uji MOCK. NEEDS_REVIEW bukan persetujuan produksi atau publikasi."
+      }
+    ]
+  },
+  "slides": [
+    {
+      "id": "slide_01",
+      "index": 1,
+      "role": "Definisi inti",
+      "purpose": "Langsung memberi pemula satu pemahaman tentang budgeting.",
+      "core_message": "Budgeting adalah rencana penggunaan uang sebelum seluruhnya terpakai.",
+      "copy": {
+        "headline": "Beri uang tujuan sebelum terpakai",
+        "supporting": "Budgeting berarti merencanakan penggunaan uang untuk kebutuhan dan tujuanmu.",
+        "emphasis": [
+          {
+            "text": "Beri uang tujuan",
+            "level": "PRIMARY"
+          }
+        ],
+        "labels": [
+          "MATERI UJI MOCK"
+        ]
+      },
+      "claim_ids": [
+        "claim_01",
+        "claim_02"
+      ],
+      "visual": {
+        "function": "SYMBOLIZE",
+        "primary": {
+          "concept": "Satu kartu uang tersedia menerima label tujuan sebelum melewati panah penggunaan.",
+          "composition": "Kartu besar di tengah-bawah; label tujuan ditempel di bagian atas kartu, satu panah keluar di kanan. Tanpa pecahan nominal.",
+          "text_zone": "Headline serta supporting di sepertiga atas; label MOCK di footer.",
+          "visual_hierarchy": "Headline → kartu berlabel tujuan → panah penggunaan → supporting."
+        }
+      },
+      "asset_strategy": "GRAPHIC_ONLY",
+      "asset_ids": [
+        "asset_01"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "COMPOSE",
+          "instruction": "Buat kartu persegi panjang, tempel label kecil bertuliskan Tujuan pada tepi atas, dan letakkan satu panah keluar di kanan."
+        },
+        {
+          "step": 2,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang headline dan supporting di atas; label MOCK di bawah. Tebalkan frasa emphasis."
+        },
+        {
+          "step": 3,
+          "action": "REVIEW",
+          "instruction": "Pastikan visual melambangkan perencanaan, bukan menjanjikan uang tidak akan habis."
+        }
+      ]
+    },
+    {
+      "id": "slide_02",
+      "index": 2,
+      "role": "Pembedaan fungsi",
+      "purpose": "Memenuhi directive bahwa budgeting bukan sekadar pencatatan, sambil mempertahankan manfaat catatan.",
+      "core_message": "Catatan menunjukkan penggunaan uang, sedangkan budget merencanakan penggunaannya.",
+      "copy": {
+        "headline": "Mencatat dan merencanakan, beda fungsi",
+        "supporting": "Catatan membantu melihat pola pengeluaran. Budget membuat rencana sebelum seluruh uang terpakai.",
+        "emphasis": [
+          {
+            "text": "beda fungsi",
+            "level": "PRIMARY"
+          }
+        ],
+        "labels": [
+          "Catatan: uang sudah dipakai untuk apa?",
+          "Budget: uang akan dipakai untuk apa?"
+        ]
+      },
+      "claim_ids": [
+        "claim_02",
+        "claim_03"
+      ],
+      "visual": {
+        "function": "COMPARE",
+        "primary": {
+          "concept": "Dua lembar sejajar membandingkan fungsi catatan dan rencana, tanpa menilai salah satunya tidak berguna.",
+          "composition": "Dua kartu lebar disusun vertikal di tengah-bawah agar label cukup terbaca. Kartu catatan di atas, budget di bawah; garis pemisah jelas.",
+          "text_zone": "Headline dan supporting di atas; masing-masing label di dalam kartu.",
+          "visual_hierarchy": "Headline → pasangan label fungsi → supporting."
+        }
+      },
+      "asset_strategy": "GRAPHIC_ONLY",
+      "asset_ids": [
+        "asset_02"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "COMPOSE",
+          "instruction": "Buat dua kartu vertikal dengan ukuran sama, tambahkan sedikit garis pendek di tepi kanan untuk menyimbolkan lembar."
+        },
+        {
+          "step": 2,
+          "action": "ADD_TEXT",
+          "instruction": "Tempatkan label Catatan pada kartu atas dan Budget pada kartu bawah; pasang headline serta supporting di bagian atas halaman."
+        },
+        {
+          "step": 3,
+          "action": "REVIEW",
+          "instruction": "Pastikan pencatatan tetap disebut berguna; kedua pertanyaan adalah framing kreatif dari perbedaan fungsi, bukan dua metode eksklusif."
+        }
+      ]
+    },
+    {
+      "id": "slide_03",
+      "index": 3,
+      "role": "Titik awal perencanaan",
+      "purpose": "Memberi urutan yang grounded sebelum menetapkan alokasi.",
+      "core_message": "Ketahui uang yang benar-benar tersedia sebelum membaginya ke tujuan.",
+      "copy": {
+        "headline": "Mulai dari uang yang tersedia",
+        "supporting": "Ketahui dulu berapa uang yang benar-benar bisa digunakan sebelum menetapkan alokasi.",
+        "emphasis": [
+          {
+            "text": "uang yang tersedia",
+            "level": "PRIMARY"
+          }
+        ],
+        "labels": [
+          "Uang tersedia",
+          "Alokasi"
+        ]
+      },
+      "claim_ids": [
+        "claim_08"
+      ],
+      "visual": {
+        "function": "EXPLAIN",
+        "primary": {
+          "concept": "Satu kartu uang tersedia mendahului panah ke kartu alokasi.",
+          "composition": "Kartu uang tersedia besar di kiri tengah-bawah; panah pendek ke kartu alokasi di kanan. Tidak menggunakan ukuran yang menyatakan rasio uang.",
+          "text_zone": "Headline dan supporting di atas; label di kartu masing-masing.",
+          "visual_hierarchy": "Headline → kartu uang tersedia → panah → kartu alokasi."
+        }
+      },
+      "asset_strategy": "GRAPHIC_ONLY",
+      "asset_ids": [
+        "asset_03"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "COMPOSE",
+          "instruction": "Buat dua kartu berlabel yang dihubungkan satu panah kiri-ke-kanan; gunakan garis paling tebal pada kartu awal."
+        },
+        {
+          "step": 2,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang headline dan supporting di atas; masukkan label Uang tersedia serta Alokasi ke kartu terkait."
+        },
+        {
+          "step": 3,
+          "action": "REVIEW",
+          "instruction": "Jangan mengganti uang tersedia dengan pendapatan tertinggi atau asumsi sumber pemasukan tertentu."
+        }
+      ]
+    },
+    {
+      "id": "slide_04",
+      "index": 4,
+      "role": "Alokasi sederhana",
+      "purpose": "Membuat pemberian tujuan konkret tanpa katalog metode atau semua contoh.",
+      "core_message": "Pemula dapat memulai dengan kategori besar untuk memberi tujuan pada uang.",
+      "copy": {
+        "headline": "Mulai dengan kategori besar",
+        "supporting": "Tentukan penggunaan uangnya. Detail kategori bisa ditambah setelah terbiasa.",
+        "emphasis": [
+          {
+            "text": "kategori besar",
+            "level": "PRIMARY"
+          }
+        ],
+        "labels": [
+          "Rutin: transportasi rutin",
+          "Fleksibel: hiburan",
+          "Tujuan keuangan: biaya pendidikan"
+        ]
+      },
+      "claim_ids": [
+        "claim_04",
+        "claim_05",
+        "claim_06",
+        "claim_07",
+        "claim_15"
+      ],
+      "visual": {
+        "function": "DEMONSTRATE",
+        "primary": {
+          "concept": "Tiga kartu kategori dengan satu contoh masing-masing, sebagai satu struktur alokasi sederhana.",
+          "composition": "Tiga kartu horizontal lebar disusun vertikal di bagian tengah-bawah. Ukuran sama untuk keterbacaan; tanpa grafik proporsi.",
+          "text_zone": "Headline dan supporting di atas; satu label contoh di setiap kartu.",
+          "visual_hierarchy": "Headline → tiga kategori → contoh dalam label → supporting."
+        }
+      },
+      "asset_strategy": "GRAPHIC_ONLY",
+      "asset_ids": [
+        "asset_04"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "COMPOSE",
+          "instruction": "Susun tiga kartu dengan jarak konsisten; bedakan menggunakan label, bukan warna saja."
+        },
+        {
+          "step": 2,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang copy di atas. Isi kartu berurutan dengan Rutin, Fleksibel, dan Tujuan keuangan beserta contoh yang sudah ditulis pada labels."
+        },
+        {
+          "step": 3,
+          "action": "REVIEW",
+          "instruction": "Pastikan ketiganya dibaca sebagai contoh struktur dalam materi, bukan persentase wajib atau metode universal. Hindari menambah contoh lain."
+        }
+      ]
+    },
+    {
+      "id": "slide_05",
+      "index": 5,
+      "role": "Review dan penutup",
+      "purpose": "Menutup proses dengan hubungan rencana, catatan, dan revisi yang membuat budgeting berguna untuk keputusan berikutnya.",
+      "core_message": "Tinjau rencana menggunakan pola pengeluaran nyata dan revisi bila kondisi berubah.",
+      "copy": {
+        "headline": "Rencanakan, lihat kembali, sesuaikan",
+        "supporting": "Bandingkan rencana dengan pengeluaran nyata. Revisi saat pendapatan, kebutuhan, atau prioritas berubah.",
+        "emphasis": [
+          {
+            "text": "sesuaikan",
+            "level": "PRIMARY"
+          }
+        ],
+        "labels": [
+          "Rencana",
+          "Pengeluaran nyata",
+          "Revisi",
+          "MATERI UJI MOCK"
+        ]
+      },
+      "claim_ids": [
+        "claim_03",
+        "claim_11",
+        "claim_12"
+      ],
+      "visual": {
+        "function": "EXPLAIN",
+        "primary": {
+          "concept": "Siklus sederhana menghubungkan rencana, pengeluaran nyata, dan revisi kembali ke rencana.",
+          "composition": "Tiga kartu dalam susunan segitiga di tengah-bawah, dihubungkan panah searah. Tidak memakai kalender atau periode tetap.",
+          "text_zone": "Headline serta supporting di atas; label proses di kartu; MOCK di footer.",
+          "visual_hierarchy": "Headline → siklus tiga kartu → supporting → label MOCK."
+        }
+      },
+      "asset_strategy": "GRAPHIC_ONLY",
+      "asset_ids": [
+        "asset_05"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "COMPOSE",
+          "instruction": "Buat kartu Rencana di kiri atas area visual, Pengeluaran nyata di kanan atas, Revisi di tengah bawah; sambungkan dengan panah berurutan kembali ke Rencana."
+        },
+        {
+          "step": 2,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang headline serta supporting di atas, label pada kartu, dan MOCK di bawah."
+        },
+        {
+          "step": 3,
+          "action": "REVIEW",
+          "instruction": "Pastikan penutup menghubungkan pencatatan dengan evaluasi rencana dan tidak mengubah tujuan menjadi kewajiban memakai alat tertentu."
+        }
+      ]
+    }
+  ],
+  "caption": {
+    "text": "Uang yang tersedia ingin kamu beri tujuan apa terlebih dahulu?",
+    "function": "QUESTION"
+  },
+  "warnings": [
+    {
+      "code": "MOCK_SOURCE_ONLY",
+      "severity": "WARNING",
+      "message": "Semua sumber pada fixture adalah material MOCK untuk pengujian. Factual grounding hanya diperiksa terhadap isi fixture, bukan diverifikasi di luar input.",
+      "recommendation": "Gunakan hasil untuk evaluasi manual. Sebelum penggunaan produksi, upstream perlu menyediakan material dan sumber produksi dalam run terpisah."
+    },
+    {
+      "code": "MOCK_CONTEXT_ONLY",
+      "severity": "WARNING",
+      "message": "Audience, brand, visual, dan production context seluruhnya MOCK. Treatment grafis netral merupakan keputusan uji, bukan identitas brand final.",
+      "recommendation": "Review terhadap konteks MOCK yang diberikan; gunakan konteks produksi sebenarnya sebelum adaptasi produksi."
+    }
+  ],
+  "qa": {
+    "overall_status": "PASS_WITH_WARNING",
+    "dimensions": {
+      "objective": {
+        "status": "PASS",
+        "notes": "Definisi dan urutan keputusan mempertahankan objective memberi tujuan pada uang sebelum habis."
+      },
+      "factual": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Hanya selected material fixture digunakan; tidak ada metode, angka, atau ketentuan baru.",
+        "warning_codes": [
+          "MOCK_SOURCE_ONLY"
+        ]
+      },
+      "editorial": {
+        "status": "PASS",
+        "notes": "Sebelas dari dua puluh material dipilih; sembilan dihilangkan dengan alasan. Daftar contoh dikompresi menjadi satu per kategori."
+      },
+      "narrative": {
+        "status": "PASS",
+        "notes": "Lima slide membentuk satu alur rencana, pembedaan fungsi, uang tersedia, alokasi, dan review."
+      },
+      "density": {
+        "status": "PASS",
+        "notes": "Kategori dan contoh membentuk satu unit alokasi; tiap kategori hanya satu contoh, tanpa paragraf panjang."
+      },
+      "copy": {
+        "status": "PASS",
+        "notes": "Bahasa sederhana dan non-judgmental; catatan tetap berguna tanpa disamakan dengan budget."
+      },
+      "visual": {
+        "status": "PASS",
+        "notes": "Kartu kategori bukan pembagian persentase; panah proses tidak merepresentasikan transfer atau kepastian hasil."
+      },
+      "asset": {
+        "status": "PASS",
+        "notes": "Semua asset berupa GRAPHIC_COMPONENT yang dirakit manual; tidak memerlukan sourcing atau image generation."
+      },
+      "production": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Urutan kerja global dan lokal sesuai kemampuan Canva MOCK; desain akhir belum dibuat.",
+        "warning_codes": [
+          "MOCK_CONTEXT_ONLY"
+        ]
+      },
+      "source": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Setiap FACT terhubung ke material dan source fixture; DERIVED, jika ada, memiliki dasar eksplisit.",
+        "warning_codes": [
+          "MOCK_SOURCE_ONLY"
+        ]
+      },
+      "brand": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Tone mengikuti brand MOCK; treatment netral tidak menetapkan identitas brand produksi.",
+        "warning_codes": [
+          "MOCK_CONTEXT_ONLY"
+        ]
+      }
+    }
+  }
+}

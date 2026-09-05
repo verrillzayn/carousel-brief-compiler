@@ -1,0 +1,571 @@
+{
+  "schema_version": "0.1.0",
+  "status": "NEEDS_REVIEW",
+  "editorial": {
+    "objective": "Membuat pembaca memahami bahwa membayar lebih murah dari harga awal tidak otomatis berarti seseorang menghemat uang jika pembelian tersebut sebenarnya tidak diperlukan.",
+    "central_takeaway": "Harga turun tidak otomatis berarti hemat: pembelian yang tidak diperlukan tetap mengeluarkan uang.",
+    "selected_angle": "Diskon mengubah harga, tetapi tidak otomatis mengubah kebutuhan.",
+    "angle_rationale": "Pertahankan angle awal dan gunakan satu barang yang sama pada dua skenario. Bedakan potongan harga Rp80.000 dari pengeluaran aktual Rp120.000, tanpa menghakimi seluruh pembelian diskon.",
+    "selected_material_ids": [
+      "mat_01",
+      "mat_02",
+      "mat_03",
+      "mat_04",
+      "mat_05",
+      "mat_06",
+      "mat_07",
+      "mat_08"
+    ],
+    "omitted_material": []
+  },
+  "narrative": {
+    "type": "Pertanyaan → hitungan → pembelian terencana → pembelian karena diskon → refleksi",
+    "summary": "Hitung potongan dan pembayaran pada contoh MOCK, lalu bandingkan konteks kebutuhan dari dua pembelian dengan harga sama. Tutup dengan pemisahan keputusan harga dan kebutuhan serta pertanyaan refleksi yang tidak universal.",
+    "opening_function": "Mempertanyakan apakah harga lebih murah otomatis berarti hemat.",
+    "ending_function": "Mengembalikan keputusan pada kebutuhan dan menyajikan alat refleksi tanpa mengubahnya menjadi aturan.",
+    "slide_sequence": [
+      "slide_01",
+      "slide_02",
+      "slide_03",
+      "slide_04",
+      "slide_05"
+    ]
+  },
+  "claims": [
+    {
+      "id": "claim_01",
+      "text": "Dalam contoh mock, sebuah barang memiliki harga awal Rp200.000.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_01"
+      ]
+    },
+    {
+      "id": "claim_02",
+      "text": "Barang tersebut mendapatkan diskon 40 persen dari harga awal.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_02"
+      ]
+    },
+    {
+      "id": "claim_03",
+      "text": "Setelah diskon, pembeli membayar Rp120.000.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_03"
+      ]
+    },
+    {
+      "id": "claim_04",
+      "text": "Dalam skenario pertama, pembeli memang sudah membutuhkan barang tersebut dan sebelumnya berencana membelinya.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_04"
+      ]
+    },
+    {
+      "id": "claim_05",
+      "text": "Dalam skenario kedua, pembeli sebelumnya tidak membutuhkan dan tidak merencanakan pembelian barang tersebut, lalu membeli hanya karena melihat diskon.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_05"
+      ]
+    },
+    {
+      "id": "claim_06",
+      "text": "Dalam skenario kedua, transaksi tetap membuat uang pembeli berkurang sebesar Rp120.000.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_06"
+      ]
+    },
+    {
+      "id": "claim_07",
+      "text": "Materi membedakan pengurangan harga dari keputusan apakah sebuah pengeluaran memang perlu dilakukan.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_02"
+      ],
+      "material_ids": [
+        "mat_07"
+      ]
+    },
+    {
+      "id": "claim_08",
+      "text": "Materi menggunakan pertanyaan 'Apakah saya tetap akan membeli ini jika tidak sedang diskon?' sebagai alat refleksi sederhana, bukan sebagai aturan universal.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_02"
+      ],
+      "material_ids": [
+        "mat_08"
+      ]
+    },
+    {
+      "id": "claim_09",
+      "text": "Potongan harga pada contoh MOCK adalah Rp80.000: 40% × Rp200.000. Harga setelah diskon adalah Rp120.000.",
+      "claim_type": "DERIVED",
+      "derived_from_material_ids": [
+        "mat_01",
+        "mat_02",
+        "mat_03"
+      ],
+      "derivation": "40/100 × 200000 = 80000; 200000 − 80000 = 120000. Hasil sesuai harga bayar pada mat_03."
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset_01",
+      "type": "GRAPHIC_COMPONENT",
+      "description": "Label harga dan keranjang generik dari shape dengan tanda tanya editable.",
+      "requirements": [
+        "Buat tag dari persegi panjang berujung miring dan keranjang dari garis serta trapesium.",
+        "Jangan tambahkan merek, harga, barang spesifik, atau simbol bahwa belanja selalu buruk."
+      ],
+      "source_status": "NOT_APPLICABLE"
+    },
+    {
+      "id": "asset_02",
+      "type": "GRAPHIC_COMPONENT",
+      "description": "Batang harga dua segmen beserta label nominal editable.",
+      "requirements": [
+        "Perbandingan panjang 40:60 berasal langsung dari diskon; jangan gunakan dua segmen sama panjang.",
+        "Segmen potongan diberi label Rp80.000; segmen pembayaran Rp120.000. Label mengulang nominal headline, bukan angka baru."
+      ],
+      "source_status": "NOT_APPLICABLE"
+    },
+    {
+      "id": "asset_03",
+      "type": "GRAPHIC_COMPONENT",
+      "description": "Kartu rencana dengan kotak centang, panah, dan kartu pembayaran.",
+      "requirements": [
+        "Centang berarti pembelian sudah direncanakan, bukan sertifikasi bahwa setiap pembelian perlu pasti baik.",
+        "Gunakan nominal Rp120.000 yang sudah ada; jangan tambahkan saldo atau anggaran awal."
+      ],
+      "source_status": "NOT_APPLICABLE"
+    },
+    {
+      "id": "asset_04",
+      "type": "GRAPHIC_COMPONENT",
+      "description": "Dompet generik, panah pembayaran keluar, dan kartu nominal dengan tag diskon.",
+      "requirements": [
+        "Arah panah harus keluar dari dompet, bukan uang masuk.",
+        "Jangan menggambar dompet kosong atau akibat lanjutan yang tidak diberikan material."
+      ],
+      "source_status": "NOT_APPLICABLE"
+    },
+    {
+      "id": "asset_05",
+      "type": "GRAPHIC_COMPONENT",
+      "description": "Tag harga, simbol tidak sama dengan, dan tanda tanya editable.",
+      "requirements": [
+        "Simbol memisahkan harga dan penilaian hemat; bukan menyatakan diskon tidak pernah bermanfaat.",
+        "Catatan bukan aturan universal wajib tetap terlihat."
+      ],
+      "source_status": "NOT_APPLICABLE"
+    }
+  ],
+  "production": {
+    "global_instructions": [
+      {
+        "step": 1,
+        "action": "SETUP",
+        "instruction": "Setelah persetujuan reviewer, buat halaman Canva 1080 × 1440 px, rasio 3:4, sesuai jumlah dan urutan slides. Run ini hanya menghasilkan brief untuk pengujian MOCK."
+      },
+      {
+        "step": 2,
+        "action": "COMPOSE",
+        "instruction": "Gunakan shape editable, garis konsisten, latar terang polos, dan teks gelap sebagai treatment netral uji; ini bukan identitas brand final. Sisakan ruang kosong dan satu gagasan visual dominan per slide."
+      },
+      {
+        "step": 3,
+        "action": "ADD_TEXT",
+        "instruction": "Pasang copy persis sebagai teks editable. Emphasis menandai teks yang sudah ada, bukan tambahan. Headline dominan; supporting dan labels tetap terbaca pada layar ponsel."
+      },
+      {
+        "step": 4,
+        "action": "REVIEW",
+        "instruction": "Periksa seluruh carousel tanpa caption. Pastikan ilustrasi dan sumber MOCK jelas, tidak ada klaim tambahan, dan visual tidak mengubah makna. Sesuaikan pemenggalan teks sebelum mengecilkan huruf."
+      },
+      {
+        "step": 5,
+        "action": "SAVE",
+        "instruction": "Setelah tahap produksi disetujui, simpan master editable sebagai materi uji MOCK. NEEDS_REVIEW bukan persetujuan produksi atau publikasi."
+      }
+    ]
+  },
+  "slides": [
+    {
+      "id": "slide_01",
+      "index": 1,
+      "role": "Pertanyaan pembuka",
+      "purpose": "Membuka perbedaan antara harga lebih rendah dan keputusan pengeluaran.",
+      "core_message": "Harga diskon belum menjawab apakah pembelian diperlukan.",
+      "copy": {
+        "headline": "Lebih murah, otomatis hemat?",
+        "supporting": "Harga turun. Tapi, apakah barangnya memang dibutuhkan?",
+        "emphasis": [
+          {
+            "text": "otomatis hemat",
+            "level": "PRIMARY"
+          }
+        ],
+        "labels": [
+          "CONTOH MOCK"
+        ]
+      },
+      "claim_ids": [
+        "claim_07"
+      ],
+      "visual": {
+        "function": "ATTRACT_ATTENTION",
+        "primary": {
+          "concept": "Label harga berhadapan dengan tanda tanya di pintu keranjang.",
+          "composition": "Label harga di kiri bawah; keranjang dari garis sederhana di kanan bawah, dipisahkan tanda tanya besar. Tidak ada simbol larangan pada keranjang.",
+          "text_zone": "Headline dan supporting di sepertiga atas; label MOCK di tepi bawah.",
+          "visual_hierarchy": "Headline → tanda tanya → label harga dan keranjang → supporting."
+        }
+      },
+      "asset_strategy": "GRAPHIC_ONLY",
+      "asset_ids": [
+        "asset_01"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "COMPOSE",
+          "instruction": "Rakit label dan keranjang dari shape, letakkan berhadapan di bagian bawah, lalu tempatkan tanda tanya di ruang antarobjek."
+        },
+        {
+          "step": 2,
+          "action": "ADD_TEXT",
+          "instruction": "Tempatkan headline serta supporting di atas; label CONTOH MOCK di bawah."
+        },
+        {
+          "step": 3,
+          "action": "REVIEW",
+          "instruction": "Pastikan pertanyaan tidak dibaca sebagai larangan seluruh pembelian diskon."
+        }
+      ]
+    },
+    {
+      "id": "slide_02",
+      "index": 2,
+      "role": "Perhitungan",
+      "purpose": "Memenuhi directive angka dan menjelaskan potongan terpisah dari jumlah yang dibayar.",
+      "core_message": "Potongan Rp80.000 menghasilkan harga bayar Rp120.000 dari harga awal Rp200.000.",
+      "copy": {
+        "headline": "Potongan Rp80.000. Bayar Rp120.000.",
+        "supporting": "Harga awal Rp200.000 × diskon 40% = potongan Rp80.000.",
+        "emphasis": [
+          {
+            "text": "Bayar Rp120.000",
+            "level": "PRIMARY"
+          }
+        ],
+        "labels": [
+          "CONTOH MOCK",
+          "Rp200.000 − Rp80.000 = Rp120.000"
+        ]
+      },
+      "claim_ids": [
+        "claim_01",
+        "claim_02",
+        "claim_03",
+        "claim_09"
+      ],
+      "visual": {
+        "function": "EXPLAIN",
+        "primary": {
+          "concept": "Satu batang harga awal dibagi menjadi bagian potongan dan bagian bayar.",
+          "composition": "Batang horizontal di tengah-bawah: 40% panjang bergaris arsiran untuk potongan, 60% padat untuk pembayaran. Label nominal tepat di masing-masing bagian; persamaan di bawah.",
+          "text_zone": "Headline dan supporting di atas; label nominal pada batang; persamaan di bawah batang; MOCK di footer.",
+          "visual_hierarchy": "Headline nominal → batang terpisah → persamaan → supporting."
+        }
+      },
+      "asset_strategy": "GRAPHIC_ONLY",
+      "asset_ids": [
+        "asset_02"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "COMPOSE",
+          "instruction": "Buat batang dua segmen dengan perbandingan 40:60, gunakan arsiran untuk potongan dan bidang padat untuk pembayaran."
+        },
+        {
+          "step": 2,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang copy di atas, nominal yang sama dari headline pada segmen sesuai maknanya, persamaan di bawah, dan label MOCK di footer."
+        },
+        {
+          "step": 3,
+          "action": "REVIEW",
+          "instruction": "Hitung ulang 40% × Rp200.000 = Rp80.000 dan Rp200.000 − Rp80.000 = Rp120.000. Jangan memberi label pengeluaran sebagai uang yang dihemat."
+        }
+      ]
+    },
+    {
+      "id": "slide_03",
+      "index": 3,
+      "role": "Skenario terencana",
+      "purpose": "Mempertahankan konteks pembelian yang dibutuhkan agar diskon tidak dinilai selalu buruk.",
+      "core_message": "Pada skenario kebutuhan terencana, pembeli membayar harga lebih rendah untuk barang yang sudah ingin dibeli.",
+      "copy": {
+        "headline": "Kalau barangnya memang dibutuhkan",
+        "supporting": "Sudah perlu dan sudah berencana membeli. Dalam contoh ini, bayar Rp120.000 dari harga awal Rp200.000.",
+        "emphasis": [
+          {
+            "text": "memang dibutuhkan",
+            "level": "PRIMARY"
+          }
+        ],
+        "labels": [
+          "SKENARIO MOCK: TERENCANA"
+        ]
+      },
+      "claim_ids": [
+        "claim_01",
+        "claim_03",
+        "claim_04"
+      ],
+      "visual": {
+        "function": "CONTEXTUALIZE",
+        "primary": {
+          "concept": "Kartu rencana pembelian menuju label harga bayar.",
+          "composition": "Kartu rencana dengan satu kotak centang di kiri tengah-bawah; satu panah menuju kartu Rp120.000 di kanan. Bentuk kartu harga sama dengan slide berikutnya.",
+          "text_zone": "Headline dan supporting di atas; label skenario di bawah; harga bayar pada kartu kanan.",
+          "visual_hierarchy": "Headline → kartu rencana → panah dan harga bayar → supporting."
+        }
+      },
+      "asset_strategy": "GRAPHIC_ONLY",
+      "asset_ids": [
+        "asset_03"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "COMPOSE",
+          "instruction": "Buat kartu rencana, kotak centang, panah, dan kartu pembayaran; susun kiri-ke-kanan."
+        },
+        {
+          "step": 2,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang copy dan label skenario; ulangi Rp120.000 dari supporting pada kartu bayar."
+        },
+        {
+          "step": 3,
+          "action": "REVIEW",
+          "instruction": "Pertahankan dua syarat: sudah membutuhkan dan sudah merencanakan. Jangan menyimpulkan kemampuan bayar atau kualitas keputusan di luar skenario."
+        }
+      ]
+    },
+    {
+      "id": "slide_04",
+      "index": 4,
+      "role": "Skenario tidak diperlukan",
+      "purpose": "Menunjukkan pengeluaran aktual ketika pembelian hanya dipicu diskon.",
+      "core_message": "Pembelian yang sebelumnya tidak diperlukan tetap mengurangi uang Rp120.000.",
+      "copy": {
+        "headline": "Kalau beli hanya karena diskon?",
+        "supporting": "Sebelumnya tidak butuh dan tidak berencana membeli. Uang tetap berkurang Rp120.000.",
+        "emphasis": [
+          {
+            "text": "Rp120.000",
+            "level": "PRIMARY"
+          }
+        ],
+        "labels": [
+          "SKENARIO MOCK: TIDAK DIRENCANAKAN"
+        ]
+      },
+      "claim_ids": [
+        "claim_05",
+        "claim_06"
+      ],
+      "visual": {
+        "function": "DEMONSTRATE",
+        "primary": {
+          "concept": "Label diskon menarik keranjang, sementara satu panah pembayaran keluar dari dompet.",
+          "composition": "Dompet garis sederhana di kiri bawah, panah keluar ke kartu Rp120.000 di kanan; tag diskon berada di atas kartu. Tidak ada saldo sebelum atau sesudah.",
+          "text_zone": "Headline dan supporting di atas; label skenario di footer; nominal pembayaran pada kartu.",
+          "visual_hierarchy": "Headline → panah keluar Rp120.000 → dompet → supporting."
+        }
+      },
+      "asset_strategy": "GRAPHIC_ONLY",
+      "asset_ids": [
+        "asset_04"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "COMPOSE",
+          "instruction": "Rakit dompet dari dua persegi panjang bersudut membulat, buat panah keluar menuju kartu pembayaran, tambahkan tag diskon."
+        },
+        {
+          "step": 2,
+          "action": "ADD_TEXT",
+          "instruction": "Tempatkan copy di atas, nominal Rp120.000 pada kartu bayar, dan label skenario di bawah."
+        },
+        {
+          "step": 3,
+          "action": "REVIEW",
+          "instruction": "Pastikan yang dinyatakan adalah uang berkurang Rp120.000, bukan kehilangan Rp80.000 atau kepastian pembeli mengalami masalah keuangan."
+        }
+      ]
+    },
+    {
+      "id": "slide_05",
+      "index": 5,
+      "role": "Takeaway dan refleksi",
+      "purpose": "Menyelesaikan pertanyaan pembuka dengan membedakan harga dan kebutuhan.",
+      "core_message": "Potongan harga dan kebutuhan pembelian adalah dua pertimbangan berbeda.",
+      "copy": {
+        "headline": "Harga turun ≠ otomatis hemat",
+        "supporting": "Apakah saya tetap akan membeli ini jika tidak sedang diskon?",
+        "emphasis": [
+          {
+            "text": "otomatis hemat",
+            "level": "PRIMARY"
+          }
+        ],
+        "labels": [
+          "Pertanyaan refleksi, bukan aturan universal.",
+          "MATERI UJI MOCK"
+        ]
+      },
+      "claim_ids": [
+        "claim_07",
+        "claim_08"
+      ],
+      "visual": {
+        "function": "SYMBOLIZE",
+        "primary": {
+          "concept": "Tag harga dan tanda tanya kebutuhan dipisahkan simbol tidak sama dengan.",
+          "composition": "Tag besar di kiri bawah, simbol ≠ di tengah, tanda tanya di kanan bawah. Pertanyaan refleksi mendapat ruang tersendiri di tengah atas.",
+          "text_zone": "Headline paling atas; supporting di bawah headline; catatan refleksi di bawah objek dan MOCK di footer.",
+          "visual_hierarchy": "Headline → pertanyaan refleksi → simbol ≠ dan tag → catatan batas."
+        }
+      },
+      "asset_strategy": "GRAPHIC_ONLY",
+      "asset_ids": [
+        "asset_05"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "COMPOSE",
+          "instruction": "Buat tag harga dan tanda tanya besar pada bagian bawah, pisahkan dengan simbol ≠."
+        },
+        {
+          "step": 2,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang headline, pertanyaan supporting, catatan refleksi, dan label MOCK sesuai zona."
+        },
+        {
+          "step": 3,
+          "action": "REVIEW",
+          "instruction": "Pastikan penutup tidak mengubah pertanyaan menjadi tes wajib atau melarang pembelian diskon."
+        }
+      ]
+    }
+  ],
+  "caption": {
+    "text": "Harga lebih rendah dan kebutuhan membeli: dua hal yang bisa kamu pertimbangkan terpisah.",
+    "function": "COMMENTARY"
+  },
+  "warnings": [
+    {
+      "code": "MOCK_SOURCE_ONLY",
+      "severity": "WARNING",
+      "message": "Semua sumber pada fixture adalah material MOCK untuk pengujian. Factual grounding hanya diperiksa terhadap isi fixture, bukan diverifikasi di luar input.",
+      "recommendation": "Gunakan hasil untuk evaluasi manual. Sebelum penggunaan produksi, upstream perlu menyediakan material dan sumber produksi dalam run terpisah."
+    },
+    {
+      "code": "MOCK_CONTEXT_ONLY",
+      "severity": "WARNING",
+      "message": "Audience, brand, visual, dan production context seluruhnya MOCK. Treatment grafis netral merupakan keputusan uji, bukan identitas brand final.",
+      "recommendation": "Review terhadap konteks MOCK yang diberikan; gunakan konteks produksi sebenarnya sebelum adaptasi produksi."
+    }
+  ],
+  "qa": {
+    "overall_status": "PASS_WITH_WARNING",
+    "dimensions": {
+      "objective": {
+        "status": "PASS",
+        "notes": "Objective dijawab melalui dua skenario yang mempertahankan perbedaan kebutuhan."
+      },
+      "factual": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Angka asli dipertahankan; Rp80.000 ditandai DERIVED dengan perhitungan yang sesuai.",
+        "warning_codes": [
+          "MOCK_SOURCE_ONLY"
+        ]
+      },
+      "editorial": {
+        "status": "PASS",
+        "notes": "Semua material mendukung satu kontras; kedua directive wajib terpenuhi."
+      },
+      "narrative": {
+        "status": "PASS",
+        "notes": "Lima slide menyelesaikan hook melalui hitungan, dua skenario, dan refleksi."
+      },
+      "density": {
+        "status": "PASS",
+        "notes": "Satu pesan per slide; nominal menonjol dan penjelasan singkat."
+      },
+      "copy": {
+        "status": "PASS",
+        "notes": "Bahasa langsung tanpa menghakimi; pertanyaan refleksi tidak menjadi aturan universal."
+      },
+      "visual": {
+        "status": "PASS",
+        "notes": "Grafik 40:60 sesuai hitungan; panah menunjukkan uang keluar tanpa saldo rekaan."
+      },
+      "asset": {
+        "status": "PASS",
+        "notes": "Semua asset berupa GRAPHIC_COMPONENT yang dirakit manual; tidak memerlukan sourcing atau image generation."
+      },
+      "production": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Urutan kerja global dan lokal sesuai kemampuan Canva MOCK; desain akhir belum dibuat.",
+        "warning_codes": [
+          "MOCK_CONTEXT_ONLY"
+        ]
+      },
+      "source": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Setiap FACT terhubung ke material dan source fixture; DERIVED, jika ada, memiliki dasar eksplisit.",
+        "warning_codes": [
+          "MOCK_SOURCE_ONLY"
+        ]
+      },
+      "brand": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Tone mengikuti brand MOCK; treatment netral tidak menetapkan identitas brand produksi.",
+        "warning_codes": [
+          "MOCK_CONTEXT_ONLY"
+        ]
+      }
+    }
+  }
+}

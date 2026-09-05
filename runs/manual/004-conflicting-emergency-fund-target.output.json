@@ -1,0 +1,545 @@
+{
+  "schema_version": "0.1.0",
+  "status": "NEEDS_REVIEW",
+  "editorial": {
+    "objective": "Membuat pembaca memahami bahwa raw material yang tersedia tidak memberikan satu angka target dana darurat yang berlaku universal untuk semua orang.",
+    "central_takeaway": "Material MOCK memuat guideline berbeda dan tidak mendukung satu target dana darurat universal atau pemilihan tiga bulan sebagai lebih benar daripada enam bulan.",
+    "selected_angle": "Guideline berbeda, material ini tidak memberi satu target untuk semua.",
+    "angle_rationale": "Perjelas batas angle awal: yang dinilai adalah isi material, bukan rekomendasi universal baru. Konflik tidak fatal karena objective justru meminta perbedaan guideline dipertahankan. Tampilkan atribusi angka dan konteks Guide C tanpa memilih pemenang.",
+    "selected_material_ids": [
+      "mat_01",
+      "mat_02",
+      "mat_03",
+      "mat_04",
+      "mat_05",
+      "mat_06"
+    ],
+    "omitted_material": []
+  },
+  "narrative": {
+    "type": "Pertanyaan → perbandingan angka → pendekatan kontekstual → titik temu → batas kesimpulan",
+    "summary": "Tanyakan apakah ada satu target dari material, bandingkan tiga bulan versi A dengan enam bulan versi B, lalu tampilkan faktor versi C. Akhiri dengan fungsi buffer yang disepakati dan batas bukti untuk memilih angka universal.",
+    "opening_function": "Membuka pertanyaan tentang satu target tanpa menjanjikan angka rekomendasi.",
+    "ending_function": "Menegaskan bahwa perbedaan guideline dapat dijelaskan tetapi target universal tidak dapat ditetapkan dari material.",
+    "slide_sequence": [
+      "slide_01",
+      "slide_02",
+      "slide_03",
+      "slide_04",
+      "slide_05"
+    ]
+  },
+  "claims": [
+    {
+      "id": "claim_01",
+      "text": "Mock Guide A menggunakan tiga bulan pengeluaran rutin sebagai target awal dana darurat.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_01"
+      ]
+    },
+    {
+      "id": "claim_02",
+      "text": "Mock Guide B menggunakan enam bulan pengeluaran rutin sebagai target dana darurat.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_02"
+      ],
+      "material_ids": [
+        "mat_02"
+      ]
+    },
+    {
+      "id": "claim_03",
+      "text": "Mock Guide C tidak menggunakan satu angka universal dan menyatakan target dapat berbeda berdasarkan stabilitas pendapatan, tanggungan, serta kondisi individu.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_03"
+      ],
+      "material_ids": [
+        "mat_03"
+      ]
+    },
+    {
+      "id": "claim_04",
+      "text": "Ketiga mock source sama-sama memperlakukan dana darurat sebagai buffer untuk menghadapi kebutuhan tidak terduga.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01",
+        "src_02",
+        "src_03"
+      ],
+      "material_ids": [
+        "mat_04"
+      ]
+    },
+    {
+      "id": "claim_05",
+      "text": "Raw material tidak menyediakan evidence yang cukup untuk menyatakan bahwa target tiga bulan selalu lebih benar daripada enam bulan, atau sebaliknya.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01",
+        "src_02",
+        "src_03"
+      ],
+      "material_ids": [
+        "mat_05"
+      ]
+    },
+    {
+      "id": "claim_06",
+      "text": "Raw material memungkinkan carousel menjelaskan adanya perbedaan guideline, tetapi tidak memungkinkan engine menetapkan satu target universal baru.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01",
+        "src_02",
+        "src_03"
+      ],
+      "material_ids": [
+        "mat_06"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset_01",
+      "type": "GRAPHIC_COMPONENT",
+      "description": "Tiga kartu dokumen generik dan tanda tanya editable.",
+      "requirements": [
+        "Semua kartu setara secara visual.",
+        "Tidak memakai simbol rekomendasi, peringkat, atau pemenang."
+      ],
+      "source_status": "NOT_APPLICABLE"
+    },
+    {
+      "id": "asset_02",
+      "type": "GRAPHIC_COMPONENT",
+      "description": "Dua kartu sumber dengan angka bulan dan keterangan editable.",
+      "requirements": [
+        "Guide A harus tetap bertuliskan target awal; Guide B target.",
+        "Jangan membuat bar dua kali panjang atau menulis rentang 3–6 sebagai rekomendasi gabungan."
+      ],
+      "source_status": "NOT_APPLICABLE"
+    },
+    {
+      "id": "asset_03",
+      "type": "GRAPHIC_COMPONENT",
+      "description": "Kartu konteks, tiga baris faktor, panah, dan tanda tanya.",
+      "requirements": [
+        "Tiga frasa faktor harus persis berasal dari supporting.",
+        "Jangan menentukan faktor mana meningkatkan atau menurunkan target; material tidak memberi pemetaan tersebut."
+      ],
+      "source_status": "NOT_APPLICABLE"
+    },
+    {
+      "id": "asset_04",
+      "type": "GRAPHIC_COMPONENT",
+      "description": "Diagram tiga sumber menuju satu fungsi, dari kartu dan panah.",
+      "requirements": [
+        "Penggabungan hanya pada fungsi buffer, tidak pada angka.",
+        "Tidak memakai simbol perlindungan mutlak."
+      ],
+      "source_status": "NOT_APPLICABLE"
+    },
+    {
+      "id": "asset_05",
+      "type": "GRAPHIC_COMPONENT",
+      "description": "Kartu kesimpulan dan tanda tanya dari shape serta teks editable.",
+      "requirements": [
+        "Tidak membuat rata-rata, rentang, target baru, atau rekomendasi personal.",
+        "Label batas material tetap terlihat agar kesimpulan tidak digeneralisasi ke seluruh pengetahuan keuangan."
+      ],
+      "source_status": "NOT_APPLICABLE"
+    }
+  ],
+  "production": {
+    "global_instructions": [
+      {
+        "step": 1,
+        "action": "SETUP",
+        "instruction": "Setelah persetujuan reviewer, buat halaman Canva 1080 × 1440 px, rasio 3:4, sesuai jumlah dan urutan slides. Run ini hanya menghasilkan brief untuk pengujian MOCK."
+      },
+      {
+        "step": 2,
+        "action": "COMPOSE",
+        "instruction": "Gunakan shape editable, garis konsisten, latar terang polos, dan teks gelap sebagai treatment netral uji; ini bukan identitas brand final. Sisakan ruang kosong dan satu gagasan visual dominan per slide."
+      },
+      {
+        "step": 3,
+        "action": "ADD_TEXT",
+        "instruction": "Pasang copy persis sebagai teks editable. Emphasis menandai teks yang sudah ada, bukan tambahan. Headline dominan; supporting dan labels tetap terbaca pada layar ponsel."
+      },
+      {
+        "step": 4,
+        "action": "REVIEW",
+        "instruction": "Periksa seluruh carousel tanpa caption. Pastikan ilustrasi dan sumber MOCK jelas, tidak ada klaim tambahan, dan visual tidak mengubah makna. Sesuaikan pemenggalan teks sebelum mengecilkan huruf."
+      },
+      {
+        "step": 5,
+        "action": "SAVE",
+        "instruction": "Setelah tahap produksi disetujui, simpan master editable sebagai materi uji MOCK. NEEDS_REVIEW bukan persetujuan produksi atau publikasi."
+      }
+    ]
+  },
+  "slides": [
+    {
+      "id": "slide_01",
+      "index": 1,
+      "role": "Pertanyaan pembuka",
+      "purpose": "Mengarahkan pembaca pada persoalan perbedaan guideline dalam material uji.",
+      "core_message": "Material memuat lebih dari satu pendekatan target dana darurat.",
+      "copy": {
+        "headline": "Satu target dana darurat untuk semua?",
+        "supporting": "Di materi ini, guideline-nya berbeda.",
+        "emphasis": [
+          {
+            "text": "untuk semua",
+            "level": "PRIMARY"
+          }
+        ],
+        "labels": [
+          "MATERI UJI MOCK"
+        ]
+      },
+      "claim_ids": [
+        "claim_01",
+        "claim_02",
+        "claim_03",
+        "claim_06"
+      ],
+      "visual": {
+        "function": "ATTRACT_ATTENTION",
+        "primary": {
+          "concept": "Tiga kartu guideline menghadap satu tanda tanya, tanpa satu kartu unggulan.",
+          "composition": "Tiga kartu kecil sejajar di tengah-bawah dengan tanda tanya besar di atas; semua kartu sama tinggi dan ketebalan garis.",
+          "text_zone": "Headline dan supporting di atas; MOCK di bawah.",
+          "visual_hierarchy": "Headline → tanda tanya → tiga kartu setara → supporting."
+        }
+      },
+      "asset_strategy": "GRAPHIC_ONLY",
+      "asset_ids": [
+        "asset_01"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "COMPOSE",
+          "instruction": "Susun tiga kartu dokumen sama besar di bagian bawah dan tempatkan tanda tanya di tengah atas kartu."
+        },
+        {
+          "step": 2,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang headline dan supporting di atas; label MOCK di footer."
+        },
+        {
+          "step": 3,
+          "action": "REVIEW",
+          "instruction": "Pastikan cover menjanjikan pembacaan material, bukan satu angka ideal untuk pembaca."
+        }
+      ]
+    },
+    {
+      "id": "slide_02",
+      "index": 2,
+      "role": "Perbandingan angka bersumber",
+      "purpose": "Mempertahankan perbedaan Guide A dan B beserta basis pengeluarannya.",
+      "core_message": "Guide A memakai tiga bulan pengeluaran rutin sebagai target awal, sedangkan Guide B memakai enam bulan pengeluaran rutin.",
+      "copy": {
+        "headline": "Dua panduan, dua angka",
+        "supporting": "Keduanya memakai pengeluaran rutin sebagai dasar.",
+        "emphasis": [
+          {
+            "text": "dua angka",
+            "level": "PRIMARY"
+          }
+        ],
+        "labels": [
+          "Mock Guide A — Emergency Buffer",
+          "3 bulan pengeluaran rutin: target awal",
+          "Mock Guide B — Emergency Buffer",
+          "6 bulan pengeluaran rutin: target"
+        ]
+      },
+      "claim_ids": [
+        "claim_01",
+        "claim_02"
+      ],
+      "visual": {
+        "function": "COMPARE",
+        "primary": {
+          "concept": "Dua kartu atribusi setara menampilkan 3 dan 6 bulan tanpa mengubahnya menjadi rentang rekomendasi.",
+          "composition": "Dua kartu lebar ditumpuk vertikal di tengah-bawah; judul sumber di atas setiap angka, keterangan target di bawah. Ukuran angka dan kartu setara.",
+          "text_zone": "Headline serta supporting di atas; atribusi dan angka di dalam masing-masing kartu.",
+          "visual_hierarchy": "Angka 3 dan 6 setara → atribusi sumber → jenis target → headline dan supporting."
+        }
+      },
+      "asset_strategy": "GRAPHIC_ONLY",
+      "asset_ids": [
+        "asset_02"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "COMPOSE",
+          "instruction": "Buat dua kartu vertikal sama besar, sediakan area judul sumber dan angka menonjol pada masing-masing kartu."
+        },
+        {
+          "step": 2,
+          "action": "ADD_TEXT",
+          "instruction": "Isi kartu atas dengan dua labels Guide A, kartu bawah dengan dua labels Guide B; pasang headline dan supporting di atas."
+        },
+        {
+          "step": 3,
+          "action": "REVIEW",
+          "instruction": "Cek angka 3 versus 6, satuan bulan pengeluaran rutin, dan atribusi masing-masing. Jangan menyatakan salah satu lebih aman atau lebih benar."
+        }
+      ]
+    },
+    {
+      "id": "slide_03",
+      "index": 3,
+      "role": "Pendekatan kontekstual",
+      "purpose": "Mempertahankan isi Guide C dan faktor yang disebut tanpa menurunkan target baru.",
+      "core_message": "Guide C menyatakan target dapat berbeda menurut stabilitas pendapatan, tanggungan, dan kondisi individu.",
+      "copy": {
+        "headline": "Guide C melihat konteks individu",
+        "supporting": "Target dapat berbeda menurut stabilitas pendapatan, tanggungan, dan kondisi individu.",
+        "emphasis": [
+          {
+            "text": "konteks individu",
+            "level": "PRIMARY"
+          }
+        ],
+        "labels": [
+          "Mock Guide C — Flexible Emergency Buffer"
+        ]
+      },
+      "claim_ids": [
+        "claim_03"
+      ],
+      "visual": {
+        "function": "EXPLAIN",
+        "primary": {
+          "concept": "Satu kartu Guide C memuat tiga faktor yang menuju tanda tanya target, bukan kalkulator angka.",
+          "composition": "Kartu lebar di tengah-bawah dengan tiga baris faktor; satu panah pendek mengarah ke tanda tanya di sisi kanan. Tidak ada skala atau angka hasil.",
+          "text_zone": "Headline dan supporting di atas; nama sumber pada kartu, faktor mengulang frasa supporting dalam tiga baris.",
+          "visual_hierarchy": "Headline → tiga faktor → tanda tanya → atribusi."
+        }
+      },
+      "asset_strategy": "GRAPHIC_ONLY",
+      "asset_ids": [
+        "asset_03"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "COMPOSE",
+          "instruction": "Buat kartu Guide C dengan tiga baris teks dan tanda tanya di sisi kanan; hubungkan dengan panah pendek."
+        },
+        {
+          "step": 2,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang nama sumber pada kartu; ulangi stabilitas pendapatan, tanggungan, dan kondisi individu pada baris faktor. Tambahkan headline serta supporting di atas."
+        },
+        {
+          "step": 3,
+          "action": "REVIEW",
+          "instruction": "Pertahankan kata dapat. Guide C tidak boleh diposisikan sebagai sumber paling benar atau digunakan untuk membuat rumus target."
+        }
+      ]
+    },
+    {
+      "id": "slide_04",
+      "index": 4,
+      "role": "Titik temu",
+      "purpose": "Menjelaskan kesepakatan fungsi tanpa menghapus perbedaan angka.",
+      "core_message": "Ketiga sumber sama-sama memandang dana darurat sebagai buffer kebutuhan tidak terduga.",
+      "copy": {
+        "headline": "Fungsinya sama: menjadi penyangga",
+        "supporting": "Ketiga panduan memandang dana darurat sebagai buffer untuk kebutuhan tidak terduga.",
+        "emphasis": [
+          {
+            "text": "menjadi penyangga",
+            "level": "PRIMARY"
+          }
+        ],
+        "labels": [
+          "Mock Guide A",
+          "Mock Guide B",
+          "Mock Guide C",
+          "Buffer kebutuhan tidak terduga"
+        ]
+      },
+      "claim_ids": [
+        "claim_04"
+      ],
+      "visual": {
+        "function": "EXPLAIN",
+        "primary": {
+          "concept": "Tiga kartu sumber menuju satu kartu fungsi bersama.",
+          "composition": "Tiga kartu sumber kecil di baris atas area visual; panah masing-masing menuju satu kartu fungsi besar di bawah. Tidak ada angka target di kartu gabungan.",
+          "text_zone": "Headline serta supporting di atas; labels pada kartu sumber dan kartu fungsi.",
+          "visual_hierarchy": "Headline → kartu fungsi bersama → tiga sumber → supporting."
+        }
+      },
+      "asset_strategy": "GRAPHIC_ONLY",
+      "asset_ids": [
+        "asset_04"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "COMPOSE",
+          "instruction": "Buat tiga kartu sumber sejajar dan satu kartu fungsi di bawahnya; tarik satu panah dari setiap sumber menuju kartu fungsi."
+        },
+        {
+          "step": 2,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang labels sesuai sumber, label buffer di kartu bawah, serta headline dan supporting di atas diagram."
+        },
+        {
+          "step": 3,
+          "action": "REVIEW",
+          "instruction": "Pastikan pembaca tidak mengira ketiga sumber menyepakati satu target angka atau menjamin semua pengeluaran tertutup."
+        }
+      ]
+    },
+    {
+      "id": "slide_05",
+      "index": 5,
+      "role": "Batas kesimpulan",
+      "purpose": "Menutup dengan objective yang dapat dipenuhi tanpa menyelesaikan konflik secara rekaan.",
+      "core_message": "Material tidak cukup untuk memilih angka yang selalu lebih benar atau menetapkan satu target universal.",
+      "copy": {
+        "headline": "Belum ada dasar memilih satu angka universal",
+        "supporting": "Materi ini tidak cukup untuk menyatakan tiga bulan selalu lebih benar daripada enam bulan, atau sebaliknya.",
+        "emphasis": [
+          {
+            "text": "satu angka universal",
+            "level": "PRIMARY"
+          }
+        ],
+        "labels": [
+          "KESIMPULAN TERBATAS PADA MATERIAL",
+          "MATERI UJI MOCK"
+        ]
+      },
+      "claim_ids": [
+        "claim_05",
+        "claim_06"
+      ],
+      "visual": {
+        "function": "SYMBOLIZE",
+        "primary": {
+          "concept": "Kartu kesimpulan dengan ruang angka tetap berupa tanda tanya, dikelilingi batas dokumen.",
+          "composition": "Satu kartu dokumen besar di tengah-bawah dengan tanda tanya di tengah dan garis bingkai terbuka. Tidak ada centang atau angka alternatif.",
+          "text_zone": "Headline serta supporting di atas; label batas kesimpulan tepat di bawah kartu; MOCK di footer.",
+          "visual_hierarchy": "Headline → tanda tanya → supporting → label batas."
+        }
+      },
+      "asset_strategy": "GRAPHIC_ONLY",
+      "asset_ids": [
+        "asset_05"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "COMPOSE",
+          "instruction": "Buat kartu dokumen besar, letakkan tanda tanya di pusat, dan gunakan bingkai sederhana tanpa simbol pemenang."
+        },
+        {
+          "step": 2,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang headline serta supporting di atas; kedua labels di bawah sesuai zona."
+        },
+        {
+          "step": 3,
+          "action": "REVIEW",
+          "instruction": "Pastikan kesimpulan hanya tentang ketidakcukupan material untuk angka universal, bukan klaim bahwa target tidak diperlukan."
+        }
+      ]
+    }
+  ],
+  "caption": {
+    "text": "Perbedaan panduan perlu tetap terlihat, termasuk batas kesimpulan yang bisa ditarik dari materi ini.",
+    "function": "COMMENTARY"
+  },
+  "warnings": [
+    {
+      "code": "MOCK_SOURCE_ONLY",
+      "severity": "WARNING",
+      "message": "Semua sumber pada fixture adalah material MOCK untuk pengujian. Factual grounding hanya diperiksa terhadap isi fixture, bukan diverifikasi di luar input.",
+      "recommendation": "Gunakan hasil untuk evaluasi manual. Sebelum penggunaan produksi, upstream perlu menyediakan material dan sumber produksi dalam run terpisah."
+    },
+    {
+      "code": "MOCK_CONTEXT_ONLY",
+      "severity": "WARNING",
+      "message": "Audience, brand, visual, dan production context seluruhnya MOCK. Treatment grafis netral merupakan keputusan uji, bukan identitas brand final.",
+      "recommendation": "Review terhadap konteks MOCK yang diberikan; gunakan konteks produksi sebenarnya sebelum adaptasi produksi."
+    }
+  ],
+  "qa": {
+    "overall_status": "PASS_WITH_WARNING",
+    "dimensions": {
+      "objective": {
+        "status": "PASS",
+        "notes": "Objective menjelaskan tidak adanya satu target universal dalam material terpenuhi; konflik tidak menghalangi objective ini."
+      },
+      "factual": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Angka dan target awal Guide A dipertahankan; tidak ada pemilihan pemenang, rata-rata, atau rekomendasi baru.",
+        "warning_codes": [
+          "MOCK_SOURCE_ONLY"
+        ]
+      },
+      "editorial": {
+        "status": "PASS",
+        "notes": "Semua enam material memiliki fungsi: perbedaan, konteks, titik temu, dan batas evidence."
+      },
+      "narrative": {
+        "status": "PASS",
+        "notes": "Lima slide bergerak dari pertanyaan ke perbandingan dan batas kesimpulan yang eksplisit."
+      },
+      "density": {
+        "status": "PASS",
+        "notes": "Perbandingan angka dipisah dari konteks Guide C; satu gagasan per slide."
+      },
+      "copy": {
+        "status": "PASS",
+        "notes": "Bahasa seimbang; dapat dan batas materi ini tetap eksplisit."
+      },
+      "visual": {
+        "status": "PASS",
+        "notes": "Sumber ditampilkan setara; diagram konvergensi hanya menggabungkan fungsi, bukan target."
+      },
+      "asset": {
+        "status": "PASS",
+        "notes": "Semua asset berupa GRAPHIC_COMPONENT yang dirakit manual; tidak memerlukan sourcing atau image generation."
+      },
+      "production": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Urutan kerja global dan lokal sesuai kemampuan Canva MOCK; desain akhir belum dibuat.",
+        "warning_codes": [
+          "MOCK_CONTEXT_ONLY"
+        ]
+      },
+      "source": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Setiap FACT terhubung ke material dan source fixture; DERIVED, jika ada, memiliki dasar eksplisit.",
+        "warning_codes": [
+          "MOCK_SOURCE_ONLY"
+        ]
+      },
+      "brand": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Tone mengikuti brand MOCK; treatment netral tidak menetapkan identitas brand produksi.",
+        "warning_codes": [
+          "MOCK_CONTEXT_ONLY"
+        ]
+      }
+    }
+  }
+}
