@@ -563,11 +563,9 @@ Dalam kondisi ini decorative/environmental visual diperbolehkan.
 Contoh:
 
 ```text
-minimal building background
-gradient
-texture
-subtle environment
-simple graphic treatment
+minimal building photo
+photographed texture
+subtle environmental image
 ```
 
 Prinsipnya:
@@ -584,15 +582,9 @@ Visual treatment dapat berupa:
 
 ```text
 hero image
-illustration
-diagram
-graphic
-number
-background image
-shape system
-texture
-gradient
-minimal object
+background photo
+photographed texture
+minimal photographic object
 ```
 
 Text-only slide bukan default.
@@ -772,7 +764,7 @@ AI-generated visual sangat sesuai untuk:
 conceptual metaphor
 generic scenario
 symbolic object
-fictional illustrative situation
+fictional photographic scene
 abstract financial idea
 ```
 
@@ -782,28 +774,13 @@ Bukan untuk memalsukan dokumentasi.
 
 # 33. Asset Strategy Follows Communication Need
 
-Engine tidak boleh mempunyai bias:
+Carousel menggunakan image + text. Visual utama harus image-led; AI-generated image default-nya realistic/photorealistic, terlihat seperti foto nyata. Untuk konsep atau scene generic, prioritaskan AI-generated photorealistic image. Style lain hanya jika input memintanya secara eksplisit; topik edukasi bukan alasan otomatis untuk cartoon, vector/flat illustration, atau illustrated infographic.
 
-```text
-“AI image is always better”
-```
+Untuk real person, real company, real event, atau documentary evidence, prioritaskan REAL_ASSET. HYBRID_COMPOSITE digunakan jika perlu kombinasi image asset atau compositing ringan; menambahkan text ke image saja tidak membuat strategy menjadi hybrid.
 
-atau:
+Registry hanya berisi image asset AI_GENERATED atau REAL_ASSET. Text, angka, dan label tetap berada di slide copy/design instructions, bukan asset registry. Primary maupun fallback harus mengikuti batas ini.
 
-```text
-“every slide needs photography”
-```
-
-Asset strategy dipilih berdasarkan message.
-
-Pilihan V0:
-
-```text
-AI_SYNTHETIC
-REAL_ASSET
-HYBRID_COMPOSITE
-GRAPHIC_ONLY
-```
+Pilihan strategy per slide: AI_SYNTHETIC, REAL_ASSET, HYBRID_COMPOSITE. Pemilihan tetap mempertimbangkan message, kebutuhan documentary evidence, dan production feasibility.
 
 ---
 
@@ -822,7 +799,7 @@ AI
 → asset generation
 
 Canva/design tool
-→ information design
+→ image placement and typography
 ```
 
 ---
@@ -878,6 +855,10 @@ Pilih output yang paling sesuai dengan composition requirement.
 ---
 
 # 37. Manual Work Is Not a System Failure
+
+Canva/design tool digunakan untuk headline/supporting text, typography, crop, resize/reposition image, remove background bila perlu, gradient ringan untuk readability, opacity, dan layering sederhana image + text.
+
+Engine tidak merencanakan custom graphic components, icon system, Canva shapes sebagai visual utama, diagram manual, decorative graphic composition, atau illustrated infographic components. Larangan ini juga berlaku di asset requirements, prompts, fallback, dan production instructions; jangan menyamarkan komponen grafis sebagai AI_GENERATED atau REAL_ASSET. Manusia boleh mengimprovisasi graphic embellishment saat desain, tetapi itu di luar tanggung jawab dan output engine.
 
 Tujuan bukan mengotomatisasi semua langkah.
 

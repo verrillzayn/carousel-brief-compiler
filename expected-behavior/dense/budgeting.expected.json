@@ -5,6 +5,22 @@
 
   "must": [
     {
+      "id": "DENSE_V001",
+      "assertion": "Setiap slide harus image-led dan memakai strategy AI_SYNTHETIC, REAL_ASSET, atau HYBRID_COMPOSITE dengan asset_ids yang merujuk image asset AI_GENERATED atau REAL_ASSET."
+    },
+    {
+      "id": "DENSE_V002",
+      "assertion": "Untuk konsep atau scene generic prioritaskan AI-generated image. Setiap AI_GENERATED asset harus memiliki prompt photorealistic seperti foto nyata; fixture ini tidak meminta override style. Aturan berlaku juga pada fallback."
+    },
+    {
+      "id": "DENSE_V003",
+      "assertion": "Text, angka, dan label harus berada di slide copy/design instructions; Canva hanya mengatur typography, crop, resize/reposition, remove background bila perlu, gradient ringan untuk readability, opacity, dan layering sederhana image + text."
+    },
+    {
+      "id": "DENSE_V004",
+      "assertion": "Jika visual memerlukan real person, real company, real event, atau documentary evidence, prioritaskan REAL_ASSET dan jangan membuat documentary evidence sintetis. HYBRID_COMPOSITE digunakan hanya jika perlu kombinasi image atau compositing ringan; text overlay saja tidak menjadikannya hybrid."
+    },
+    {
       "id": "DENSE_001",
       "assertion": "Engine harus memilih satu central takeaway dan tidak memperlakukan seluruh 20 material block sebagai informasi yang harus masuk carousel."
     },
@@ -43,6 +59,22 @@
   ],
 
   "must_not": [
+    {
+      "id": "DENSE_VN001",
+      "assertion": "Engine tidak boleh menghasilkan GRAPHIC_ONLY, asset type GRAPHIC_COMPONENT atau OTHER, maupun memasukkan text sebagai asset registry."
+    },
+    {
+      "id": "DENSE_VN002",
+      "assertion": "Engine tidak boleh merencanakan custom graphic components, icon system, shapes sebagai visual utama, diagram manual, decorative graphic composition, atau illustrated infographic components di visual, fallback, asset requirements, prompts, atau production instructions, termasuk jika diberi label AI_GENERATED/REAL_ASSET."
+    },
+    {
+      "id": "DENSE_VN003",
+      "assertion": "Engine tidak boleh otomatis memilih cartoon, vector/flat illustration, atau infographic style karena topiknya edukasi atau mengandung angka."
+    },
+    {
+      "id": "DENSE_VN004",
+      "assertion": "Graphic embellishment yang boleh diimprovisasi manusia harus tetap di luar output engine; jangan merencanakannya sebagai langkah wajib, opsional, asset, atau fallback."
+    },
     {
       "id": "DENSE_N001",
       "assertion": "Engine tidak boleh menggunakan semua raw material hanya karena semuanya relevan dengan domain budgeting."

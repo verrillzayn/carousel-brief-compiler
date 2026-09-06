@@ -1,0 +1,273 @@
+{
+  "schema_version": "0.1.0",
+  "topic": "Dasar keuangan pribadi untuk pemula di Indonesia",
+  "objective": "Membantu pembaca pemula memahami prioritas membangun ketahanan keuangan melalui arus kas, anggaran, bantalan dana darurat, pengendalian utang, dan perlindungan risiko sebelum mengejar imbal hasil investasi, serta mengenali langkah awal yang dapat dilakukan.",
+  "initial_angle": "Bangun ketahanan keuangan sebelum mengejar imbal hasil.",
+  "raw_material": [
+    {
+      "id": "mat_01",
+      "type": "RESEARCH_NOTE",
+      "label": "Ringkasan eksekutif",
+      "content": "Keuangan pribadi adalah cara mengelola **pendapatan, pengeluaran, aset, utang, perlindungan risiko, pajak, dan investasi** agar kebutuhan hari ini terpenuhi tanpa mengorbankan tujuan masa depan. Bagi pemula, urutannya lebih penting daripada mengejar produk dengan imbal hasil tertinggi: **ketahui arus kas → buat anggaran → bangun dana darurat → kendalikan utang mahal → lindungi risiko besar → investasi teratur → siapkan pensiun dan pajak**. OJK menyediakan ekosistem edukasi seperti Sikapi Uangmu, layanan iDebKu/SLIK untuk informasi debitur, serta kanal perlindungan konsumen; ini menjadikannya titik awal yang lebih aman daripada mengandalkan promosi media sosial. citeturn19view11turn19view5\n\nUntuk dana darurat, rujukan Kementerian Keuangan menyebut kisaran **3–6 kali pengeluaran bulanan bagi yang belum menikah dan 6–12 kali bagi yang berkeluarga**. Angka itu sebaiknya dihitung dari *pengeluaran esensial*, bukan seluruh gaya hidup. Orang dengan pendapatan tidak tetap, satu pencari nafkah, tanggungan besar, atau risiko kehilangan pekerjaan tinggi sebaiknya berada di sisi atas kisaran tersebut. citeturn19view2\n\nUntuk tabungan bank dan deposito, perlindungan LPS mempunyai syarat; jumlah simpanan yang dijamin maksimal **Rp2 miliar per nasabah per bank**. Salah satu syarat penting adalah bunga yang diterima tidak melebihi Tingkat Bunga Penjaminan LPS. Untuk periode 1 Juli–30 September 2026, TBP simpanan rupiah bank umum adalah **3,75%**, sementara BPR **6,25%**; angka tersebut adalah **batas bunga penjaminan, bukan prediksi hasil investasi** dan dapat berubah pada periode berikutnya. citeturn8search0turn8search1turn8search13\n\nDalam investasi, pemula sebaiknya mencocokkan instrumen dengan jangka waktu dan kemampuan menanggung kerugian, bukan memilih berdasarkan “return tertinggi”. Tabungan/deposito cocok untuk likuiditas, reksa dana memiliki risiko yang berbeda menurut aset dasarnya, ETF diperdagangkan di bursa, sedangkan SBN ritel merupakan instrumen pembiayaan APBN yang diterbitkan pemerintah. Sebagai konteks daya beli, inflasi Indonesia pada Agustus 2026 tercatat **3,19% year-on-year**, sehingga yang relevan dalam jangka panjang bukan sekadar imbal hasil nominal tetapi juga hasil setelah biaya, pajak, dan inflasi. citeturn1search3turn19view0turn13search2\n\nUntuk pajak, tarif PPh orang pribadi Indonesia bersifat progresif: **5%, 15%, 25%, 30%, dan 35%** menurut lapisan Penghasilan Kena Pajak (PKP). PTKP dasar yang berlaku adalah **Rp54 juta per tahun**, dengan tambahan tertentu untuk status kawin dan tanggungan. SPT Tahunan PPh untuk Tahun Pajak 2025 dan seterusnya dilaporkan melalui Coretax DJP. citeturn19view6turn19view7turn19view8\n\n**Aturan praktis utama panduan ini:** jangan mulai dengan bertanya “investasi apa yang paling untung?” Mulailah dengan bertanya, **“apakah satu kejadian buruk—PHK, sakit, kendaraan rusak, atau tagihan mendadak—akan memaksa saya berutang?”** Jika jawabannya ya, fondasi kas dan perlindungan perlu didahulukan.",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Ringkasan eksekutif dari research-result/001-personal-finance-basics.md, baris 4-16. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    },
+    {
+      "id": "mat_02",
+      "type": "RESEARCH_NOTE",
+      "label": "Fondasi dan prinsip inti / Peta keuangan pribadi",
+      "content": "Sepuluh konsep berikut adalah “bahasa dasar” yang perlu dipahami sebelum membeli produk keuangan.\n\n| Konsep | Arti sederhana | Tindakan pertama |\n|---|---|---|\n| **Anggaran** | Rencana ke mana pendapatan akan dialokasikan | Catat seluruh pendapatan dan pengeluaran selama 30 hari |\n| **Menabung** | Menyisihkan uang untuk kebutuhan jangka pendek/menengah | Transfer otomatis sesaat setelah menerima penghasilan |\n| **Dana darurat** | Uang untuk kejadian penting yang tidak direncanakan | Bangun bertahap menuju 3–12 bulan biaya esensial |\n| **Manajemen utang** | Mengendalikan bunga, cicilan, dan jadwal pembayaran | Daftar saldo, bunga efektif/APR, cicilan minimum, jatuh tempo |\n| **Riwayat kredit** | Catatan kewajiban kredit dan pembayaran yang membantu lembaga keuangan menilai debitur | Periksa iDeb/SLIK dan bayar kewajiban tepat waktu |\n| **Asuransi** | Pemindahan risiko kerugian besar yang sulit ditanggung sendiri | Pastikan perlindungan kesehatan; tambah jiwa bila ada tanggungan |\n| **Investasi** | Menempatkan uang dengan menerima risiko demi potensi pertumbuhan | Investasikan uang yang tidak dibutuhkan segera |\n| **Pensiun** | Pendanaan kebutuhan saat penghasilan kerja berkurang/berhenti | Periksa JHT/JP dan tambahkan investasi pribadi bila perlu |\n| **Pajak** | Kewajiban yang timbul dari penghasilan/transaksi sesuai aturan | Simpan bukti potong dan data aset; pahami Coretax |\n| **Tujuan keuangan** | Target yang memiliki nominal dan tenggat | Nyatakan tujuan sebagai “RpX pada bulan/tahun Y” |\n\nDi Indonesia, istilah “credit score” tidak sebaiknya disamakan mentah-mentah dengan sistem skor konsumen di Amerika Serikat. OJK menjelaskan bahwa **SLIK** digunakan antara lain untuk penyediaan dana, manajemen risiko kredit/pembiayaan, dan penilaian kualitas debitur; debitur dapat meminta Informasi Debitur miliknya sendiri secara daring melalui layanan OJK. Dengan demikian, bagi pemula fokus yang tepat adalah menjaga catatan pembayaran tetap baik dan memeriksa kebenaran data SLIK, sembari memahami bahwa masing-masing pemberi pinjaman masih dapat memakai model penilaiannya sendiri. citeturn19view5",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Peta keuangan pribadi dari research-result/001-personal-finance-basics.md, baris 20-37. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    },
+    {
+      "id": "mat_03",
+      "type": "RESEARCH_NOTE",
+      "label": "Fondasi dan prinsip inti / Lima angka yang perlu Anda ketahui",
+      "content": "Tidak diperlukan aplikasi rumit. Lima formula berikut sudah cukup sebagai “dashboard” awal.\n\n**Arus kas bulanan**\n\n\\[\n\\text{Arus kas} = \\text{pendapatan bersih} - \\text{seluruh pengeluaran}\n\\]\n\nTarget pertama adalah membuat hasilnya **positif secara konsisten**.\n\n**Kekayaan bersih**\n\n\\[\n\\text{Net worth} = \\text{total aset} - \\text{total kewajiban}\n\\]\n\nRumah senilai Rp800 juta dengan sisa KPR Rp600 juta, misalnya, berkontribusi Rp200 juta sebelum mempertimbangkan biaya transaksi dan faktor lain.\n\n**Tingkat tabungan**\n\n\\[\n\\text{Savings rate} =\n\\frac{\\text{tabungan + investasi}}{\\text{pendapatan bersih}}\n\\times 100\\%\n\\]\n\nGunakan definisi yang konsisten dari bulan ke bulan. Dana yang hanya “tersisa tanpa tujuan” sebaiknya tidak dihitung sampai benar-benar dipisahkan.\n\n**Rasio pembayaran utang pribadi**\n\n\\[\n\\text{Debt-payment ratio} =\n\\frac{\\text{total cicilan wajib bulanan}}{\\text{pendapatan bersih}}\n\\times100\\%\n\\]\n\nIni berguna sebagai indikator internal, **bukan batas regulator universal**. Semakin besar proporsi pendapatan yang sudah terkunci untuk cicilan, semakin sedikit ruang untuk keadaan darurat.\n\n**Target dana darurat**\n\n\\[\n\\text{Dana darurat}=\n\\text{pengeluaran esensial bulanan}\\times\\text{jumlah bulan target}\n\\]",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Lima angka yang perlu Anda ketahui dari research-result/001-personal-finance-basics.md, baris 39-84. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    },
+    {
+      "id": "mat_04",
+      "type": "RESEARCH_NOTE",
+      "label": "Fondasi dan prinsip inti / Cara menetapkan tujuan",
+      "content": "Gunakan tiga horizon:\n\n| Horizon | Contoh | Tempat uang secara umum |\n|---|---|---|\n| **< 2 tahun** | Dana darurat, laptop, biaya pindah | Kas/tabungan/deposito pendek |\n| **2–5 tahun** | Uang muka, pendidikan tertentu | Instrumen konservatif–moderat sesuai toleransi risiko |\n| **> 5 tahun** | Pensiun, kekayaan jangka panjang | Portofolio investasi lebih berorientasi pertumbuhan bila mampu menanggung volatilitas |\n\nBatas tersebut merupakan **kerangka perencanaan**, bukan jaminan bahwa suatu aset akan positif dalam periode tertentu. Prinsip yang penting adalah: semakin dekat uang akan digunakan, semakin kecil kemampuan Anda menunggu pemulihan setelah penurunan pasar.",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Cara menetapkan tujuan dari research-result/001-personal-finance-basics.md, baris 86-96. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    },
+    {
+      "id": "mat_05",
+      "type": "RESEARCH_NOTE",
+      "label": "Sistem anggaran, template, dan kalkulator / Metode 50/30/20",
+      "content": "Kerangka 50/30/20 mengalokasikan sekitar **50% pendapatan untuk kebutuhan, 30% keinginan, dan 20% tabungan/tujuan masa depan**. Ini adalah panduan, bukan hukum; bagi rumah tangga berpendapatan rendah, kebutuhan dasar dapat dengan mudah menghabiskan lebih dari 50%. citeturn12search13\n\n\\[\n\\text{Kebutuhan}=0{,}50\\times\\text{take-home pay}\n\\]\n\n\\[\n\\text{Keinginan}=0{,}30\\times\\text{take-home pay}\n\\]\n\n\\[\n\\text{Tabungan/investasi}=0{,}20\\times\\text{take-home pay}\n\\]\n\n| Pendapatan bersih | 50% kebutuhan | 30% keinginan | 20% tabungan/investasi |\n|---:|---:|---:|---:|\n| Rp5.000.000 | Rp2.500.000 | Rp1.500.000 | Rp1.000.000 |\n| Rp12.000.000 | Rp6.000.000 | Rp3.600.000 | Rp2.400.000 |\n| Rp30.000.000 | Rp15.000.000 | Rp9.000.000 | Rp6.000.000 |\n\n**Kelebihan:** sangat mudah dimulai, sedikit kategori, cepat mengecek ketidakseimbangan.\n\n**Kekurangan:** 50% kebutuhan sering tidak realistis di kota mahal atau bagi pendapatan kecil; “30% keinginan” dapat terlalu besar bagi orang yang sedang mengejar pelunasan utang; tidak menangani pengeluaran tahunan secara rinci.\n\n**Adaptasi yang lebih berguna:** jangan memaksa 50/30/20 bila sewa dan makanan sudah 60–70%. Pertahankan hidup layak, tekan kategori fleksibel, lalu tingkatkan porsi tabungan secara bertahap ketika pendapatan bertambah atau utang selesai.",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Metode 50/30/20 dari research-result/001-personal-finance-basics.md, baris 100-126. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    },
+    {
+      "id": "mat_06",
+      "type": "RESEARCH_NOTE",
+      "label": "Sistem anggaran, template, dan kalkulator / Zero-based budgeting",
+      "content": "Prinsipnya:\n\n\\[\n\\text{Pendapatan}-\\text{semua alokasi}=Rp0\n\\]\n\n“Rp0” **bukan berarti menghabiskan seluruh uang**. Tabungan, investasi, dana darurat, dan sinking fund juga diberi “pekerjaan”.\n\nContoh pendapatan Rp10 juta:\n\n> Rp5,5 juta kebutuhan + Rp1 juta cicilan + Rp1 juta dana darurat + Rp1 juta investasi + Rp500 ribu sinking fund + Rp1 juta rekreasi = Rp10 juta.\n\n**Kelebihan:** kontrol paling kuat; sangat baik untuk keluar dari utang, pendapatan ketat, atau orang yang selalu bertanya “uang saya habis ke mana?”\n\n**Kekurangan:** perlu pembaruan lebih sering dan terasa merepotkan bila ada banyak transaksi atau pendapatan sangat berubah-ubah.\n\nUntuk pekerja lepas, lakukan zero-based berdasarkan **“pendapatan dasar konservatif”**, misalnya angka yang hampir selalu bisa diperoleh; ketika pendapatan aktual lebih tinggi, buat aturan terlebih dahulu untuk membagi kelebihannya.",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Zero-based budgeting dari research-result/001-personal-finance-basics.md, baris 128-146. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    },
+    {
+      "id": "mat_07",
+      "type": "RESEARCH_NOTE",
+      "label": "Sistem anggaran, template, dan kalkulator / Metode envelope/amplop",
+      "content": "Tetapkan plafon per kategori:\n\n\\[\n\\text{Sisa amplop}=\n\\text{alokasi kategori}-\\text{realisasi pengeluaran}\n\\]\n\nContoh: amplop makan di luar Rp600.000. Setelah terpakai Rp475.000, sisa bulan itu Rp125.000. Metodenya dapat berupa uang tunai, rekening terpisah, dompet digital terpisah, atau sekadar kategori di spreadsheet.\n\n**Kelebihan:** sangat efektif untuk kategori yang mudah “bocor”, seperti makan di luar, belanja, hiburan, dan transportasi daring.\n\n**Kekurangan:** kurang praktis untuk puluhan kategori dan tidak otomatis menyelesaikan masalah biaya tetap yang memang terlalu tinggi.",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Metode envelope/amplop dari research-result/001-personal-finance-basics.md, baris 148-161. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    },
+    {
+      "id": "mat_08",
+      "type": "RESEARCH_NOTE",
+      "label": "Sistem anggaran, template, dan kalkulator / Template anggaran bulanan",
+      "content": "Salin format ini ke spreadsheet:\n\n| Kategori | Anggaran | Aktual | Selisih |\n|---|---:|---:|---:|\n| Pendapatan bersih |  |  |  |\n| Tempat tinggal |  |  |  |\n| Makanan pokok |  |  |  |\n| Listrik/air/internet/telepon |  |  |  |\n| Transportasi |  |  |  |\n| Kesehatan/asuransi |  |  |  |\n| Cicilan minimum |  |  |  |\n| Dana darurat |  |  |  |\n| Investasi/pensiun |  |  |  |\n| Sinking fund/tujuan |  |  |  |\n| Keinginan/hiburan |  |  |  |\n| **Total pengeluaran/alokasi** |  |  |  |\n| **Sisa** |  |  |  |\n\nFormula spreadsheet:\n\n```text\nSelisih kategori = Anggaran - Aktual\nTotal pengeluaran = SUM(seluruh aktual pengeluaran)\nArus kas = Pendapatan bersih - Total pengeluaran\nSavings rate = (Dana darurat + Tabungan tujuan + Investasi) / Pendapatan bersih\n```",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Template anggaran bulanan dari research-result/001-personal-finance-basics.md, baris 163-190. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    },
+    {
+      "id": "mat_09",
+      "type": "RESEARCH_NOTE",
+      "label": "Sistem anggaran, template, dan kalkulator / Contoh untuk tiga tingkat pendapatan",
+      "content": "Kategori “rendah, menengah, tinggi” di bawah **hanya skenario ilustratif**, bukan klasifikasi pendapatan resmi Indonesia. Angka menggunakan *take-home pay* bulanan; sesuaikan dengan kota, rumah tangga, fasilitas dari perusahaan, dan harga aktual.\n\n| Pos per bulan | Rp5 juta | Rp12 juta | Rp30 juta |\n|---|---:|---:|---:|\n| Tempat tinggal | Rp1.200.000 | Rp2.500.000 | Rp6.000.000 |\n| Makanan pokok | Rp1.300.000 | Rp1.800.000 | Rp3.000.000 |\n| Utilitas & komunikasi | Rp350.000 | Rp600.000 | Rp1.000.000 |\n| Transportasi | Rp500.000 | Rp1.000.000 | Rp2.000.000 |\n| Kesehatan/asuransi | Rp250.000 | Rp500.000 | Rp1.000.000 |\n| Cicilan utang minimum | Rp300.000 | Rp600.000 | Rp1.000.000 |\n| Dana darurat | Rp500.000 | Rp1.000.000 | Rp2.000.000 |\n| Investasi/pensiun | Rp200.000 | Rp1.200.000 | Rp6.000.000 |\n| Sinking fund/tujuan | — | Rp800.000 | Rp2.000.000 |\n| Keinginan/hiburan | Rp400.000 | Rp2.000.000 | Rp6.000.000 |\n| **Total** | **Rp5.000.000** | **Rp12.000.000** | **Rp30.000.000** |\n\nAda tiga pelajaran penting dari contoh tersebut.\n\nPertama, **rumah tangga berpendapatan Rp5 juta tidak perlu merasa “gagal” karena kebutuhan melebihi 50%**. Prioritasnya adalah arus kas positif dan membangun bantalan, bukan memaksa rasio yang tidak sesuai kenyataan.\n\nKedua, kenaikan pendapatan sebaiknya tidak seluruhnya berubah menjadi kenaikan gaya hidup. Dalam contoh Rp30 juta, 20% pendapatan langsung diarahkan ke investasi dan tambahan Rp2 juta ke dana darurat.\n\nKetiga, *sinking fund* berbeda dengan dana darurat. Servis kendaraan tahunan, mudik, pajak kendaraan, premi tahunan, uang sekolah yang sudah diketahui, atau penggantian laptop adalah **pengeluaran yang dapat diperkirakan** dan sebaiknya dicicil dalam sinking fund:\n\n\\[\n\\text{Setoran sinking fund per bulan}\n=\n\\frac{\\text{biaya yang diperkirakan}}{\\text{bulan sampai jatuh tempo}}\n\\]\n\nPajak kendaraan Rp3,6 juta lagi 12 bulan berarti sisihkan Rp300.000 per bulan—bukan memakai dana darurat saat jatuh tempo.",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Contoh untuk tiga tingkat pendapatan dari research-result/001-personal-finance-basics.md, baris 192-224. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    },
+    {
+      "id": "mat_10",
+      "type": "RESEARCH_NOTE",
+      "label": "Rencana aksi dua belas bulan dari nol",
+      "content": "Tujuannya bukan menjadi “sempurna” dalam setahun, tetapi pada bulan ke-12 memiliki sistem yang tetap berjalan tanpa mengandalkan motivasi harian.\n\n```mermaid\nflowchart LR\n    A[\"Bulan 1–2<br/>Peta uang & anggaran\"] -->\n    B[\"Bulan 3–4<br/>Buffer & strategi utang\"] -->\n    C[\"Bulan 5–6<br/>Dana darurat & proteksi\"] -->\n    D[\"Bulan 7–8<br/>Investasi awal\"] -->\n    E[\"Bulan 9–10<br/>Pensiun & pajak\"] -->\n    F[\"Bulan 11–12<br/>Optimasi & review tahunan\"]\n```\n\n| Bulan | Milestone | Langkah konkret | Ukuran selesai |\n|---|---|---|---|\n| **1** | Ketahui posisi awal | Catat penghasilan, 30 hari pengeluaran, saldo rekening, seluruh utang, aset dan tagihan | Ada satu lembar *net worth* + arus kas |\n| **2** | Pasang sistem anggaran | Pilih 50/30/20, zero-based, atau envelope; pisahkan uang tagihan dan tabungan | Semua rupiah mempunyai kategori |\n| **3** | Buat buffer awal | Transfer otomatis setelah hari gajian; target awal praktis Rp1–2 juta atau nominal yang mencegah utang kecil | Pengeluaran mendadak kecil tidak memakai paylater |\n| **4** | Kendalikan utang | Autopay minimum; pilih avalanche atau snowball; hentikan penambahan utang konsumtif | Tidak ada pembayaran terlambat |\n| **5** | Dana darurat satu bulan | Hitung pengeluaran esensial dan capai sekitar 1 bulan secara bertahap | Dana disimpan terpisah dan likuid |\n| **6** | Audit proteksi | Pastikan status JKN dan BPJS Ketenagakerjaan sesuai kondisi; evaluasi kebutuhan asuransi tambahan | Risiko kesehatan/jiwa utama dipetakan |\n| **7** | Naikkan bantalan | Bergerak menuju 2–3 bulan biaya esensial; buat sinking fund tahunan | Tagihan tahunan tidak menjadi “darurat” |\n| **8** | Mulai investasi sederhana | Untuk uang jangka panjang, pilih produk legal yang dipahami dan mulai dengan nominal kecil | Investasi rutin aktif, bukan spekulasi |\n| **9** | Rencana pensiun | Cek JHT/JP dan proyeksikan kebutuhan pensiun; tentukan setoran tambahan | Ada target pensiun bulanan |\n| **10** | Rapikan pajak | Aktifkan/cek Coretax, arsipkan bukti potong, rekening dan daftar investasi/aset | Dokumen pajak terkumpul |\n| **11** | Optimasi | Review biaya rekening, premi, langganan, bunga utang, alokasi investasi | Ada minimal satu biaya yang dipangkas/dioptimalkan |\n| **12** | Audit tahunan | Hitung net worth, savings rate, saldo utang, dana darurat dan tujuan tahun berikutnya | Target 12 bulan baru tertulis |\n\nUntuk bulan ke-6 dan ke-9, BPJS Ketenagakerjaan menyediakan program JHT dan JP bagi pekerja penerima upah, sementara kategori bukan penerima upah juga memiliki akses ke beberapa program perlindungan; situs BPJS Ketenagakerjaan juga menyediakan simulasi JHT dan JP. citeturn19view10\n\nUntuk bulan ke-10, Coretax telah menjadi sistem untuk SPT Tahunan PPh Tahun Pajak 2025 dan seterusnya. DJP juga menekankan pentingnya aktivasi akun dan kode otorisasi/sertifikat elektronik untuk proses pelaporan. citeturn19view8turn14search27\n\nUrutan investasi pada bulan ke-8 **bukan berarti semua orang harus menunggu delapan bulan**. Bila seseorang sudah bebas dari utang mahal dan mempunyai dana darurat cukup, investasi bisa dimulai lebih awal. Sebaliknya, bila masih menanggung utang berbunga sangat tinggi, pengembalian yang “diperoleh” dari melunasi bunga tersebut dapat membuat pelunasan menjadi prioritas yang lebih masuk akal daripada menambah investasi berisiko.",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Rencana aksi dua belas bulan dari nol dari research-result/001-personal-finance-basics.md, baris 226-259. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    },
+    {
+      "id": "mat_11",
+      "type": "RESEARCH_NOTE",
+      "label": "Dana darurat, utang, kredit, dan perlindungan / Dana darurat",
+      "content": "Rujukan Kementerian Keuangan menyebut **3–6 kali pengeluaran bulanan untuk yang belum menikah dan 6–12 kali untuk yang sudah berkeluarga**. Dana tersebut ditujukan untuk peristiwa tidak terduga seperti gangguan kesehatan atau perbaikan mendesak. citeturn19view2\n\nKerangka yang lebih praktis:\n\n| Kondisi | Target yang masuk akal | Mengapa |\n|---|---:|---|\n| Lajang, pekerjaan sangat stabil, tanpa tanggungan | 3–6 bulan | Risiko kewajiban rumah tangga relatif rendah |\n| Dua pencari nafkah, penghasilan stabil | 4–6 bulan | Ada diversifikasi sumber pendapatan |\n| Keluarga dengan anak | 6–9 bulan | Lebih banyak biaya wajib |\n| Satu pencari nafkah untuk keluarga | 9–12 bulan | Kehilangan satu pendapatan berarti kehilangan seluruh pendapatan kerja |\n| Freelancer/pengusaha dengan penghasilan sangat berubah | 9–12 bulan | Risiko penurunan pendapatan lebih tinggi |\n| Kondisi kesehatan/pekerjaan berisiko tinggi | Cenderung ke 12 bulan | Potensi gangguan penghasilan atau biaya lebih besar |\n\nBaris selain rentang resmi Kemenkeu adalah **rekomendasi konservatif dalam panduan ini**, bukan batas regulator.\n\nMisalnya pengeluaran esensial Rp6 juta:\n\n| Target | Perhitungan | Dana |\n|---:|---:|---:|\n| 3 bulan | Rp6 jt × 3 | Rp18 juta |\n| 6 bulan | Rp6 jt × 6 | Rp36 juta |\n| 9 bulan | Rp6 jt × 9 | Rp54 juta |\n| 12 bulan | Rp6 jt × 12 | Rp72 juta |\n\n“Esensial” mencakup antara lain tempat tinggal, makan dasar, utilitas, transportasi kerja, obat/kesehatan, premi penting, dan cicilan minimum. Tidak perlu memasukkan liburan atau belanja rekreasi penuh.\n\n**Tempat menyimpan:** bagian inti dana darurat sebaiknya likuid dan tidak bergantung pada kenaikan harga pasar agar bisa dicairkan ketika keadaan buruk. Tabungan bank yang memenuhi syarat LPS adalah salah satu pilihan. LPS menjamin paling banyak Rp2 miliar per nasabah per bank dengan persyaratan penjaminan, termasuk ketentuan mengenai tingkat bunga. citeturn8search1turn8search13",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Dana darurat dari research-result/001-personal-finance-basics.md, baris 263-291. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    },
+    {
+      "id": "mat_12",
+      "type": "RESEARCH_NOTE",
+      "label": "Dana darurat, utang, kredit, dan perlindungan / Cara menangani utang",
+      "content": "Buat tabel utang seperti ini sebelum membayar ekstra:\n\n| Utang | Saldo | Bunga/tahun | Minimum | Jatuh tempo |\n|---|---:|---:|---:|---|\n| A | … | …% | … | … |\n| B | … | …% | … | … |\n| C | … | …% | … | … |\n\nKemudian:\n\n1. Bayar minimum seluruh utang tepat waktu.\n2. Sisakan buffer kas agar kejadian kecil tidak menciptakan utang baru.\n3. Arahkan seluruh pembayaran ekstra ke satu utang target.\n4. Setelah lunas, pindahkan seluruh pembayarannya ke target berikutnya.\n5. Jangan menambah saldo baru kecuali benar-benar diperlukan.",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Cara menangani utang dari research-result/001-personal-finance-basics.md, baris 293-309. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    },
+    {
+      "id": "mat_13",
+      "type": "RESEARCH_NOTE",
+      "label": "Dana darurat, utang, kredit, dan perlindungan / Snowball versus avalanche",
+      "content": "**Snowball:** targetkan saldo terkecil terlebih dahulu. Keunggulan utamanya adalah kemenangan psikologis lebih cepat.\n\n**Avalanche:** targetkan tingkat bunga tertinggi terlebih dahulu. Bila parameter lain sama, pendekatan ini secara matematis meminimalkan bunga karena uang ekstra diarahkan ke utang yang paling mahal.\n\nContoh sederhana:\n\n| Utang | Saldo awal | Bunga p.a. | Minimum |\n|---|---:|---:|---:|\n| Paylater A | Rp2.000.000 | 24% | Rp200.000 |\n| Kartu kredit B | Rp5.000.000 | 30% | Rp300.000 |\n| Pinjaman C | Rp10.000.000 | 12% | Rp500.000 |\n| **Anggaran total pelunasan** |  |  | **Rp2.000.000/bulan** |\n\nTotal minimum = Rp1 juta sehingga tersedia Rp1 juta tambahan.\n\n**Bulan pertama dengan snowball:**\n\n- A: Rp1.200.000\n- B: Rp300.000\n- C: Rp500.000\n\n**Bulan pertama dengan avalanche:**\n\n- A: Rp200.000\n- B: Rp1.300.000\n- C: Rp500.000\n\nDengan simulasi sederhana yang membebankan bunga bulanan sebesar APR/12, minimum tetap, tidak ada transaksi baru/biaya tambahan, dan seluruh pembayaran yang terbebas digulirkan:\n\n| Strategi | Perkiraan lunas | Total bunga simulasi |\n|---|---:|---:|\n| Snowball | 10 bulan | ±Rp1.184.730 |\n| Avalanche | 10 bulan | ±Rp1.154.324 |\n| **Keuntungan avalanche** | sama-sama 10 bulan | **±Rp30.406 lebih sedikit** |\n\nContoh ini sengaja sederhana; kredit nyata dapat memiliki bunga harian, biaya, perubahan pembayaran minimum, penalti atau struktur angsuran yang berbeda. Gunakan **bunga efektif dan syarat kontrak sebenarnya** saat membuat keputusan.\n\n**Pilihan praktis:** gunakan avalanche bila disiplin Anda kuat; gunakan snowball bila keberhasilan kecil membuat Anda lebih mungkin bertahan. Strategi yang dijalankan selama setahun lebih baik daripada strategi “optimal” yang dihentikan setelah dua minggu.",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Snowball versus avalanche dari research-result/001-personal-finance-basics.md, baris 311-350. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    },
+    {
+      "id": "mat_14",
+      "type": "RESEARCH_NOTE",
+      "label": "Dana darurat, utang, kredit, dan perlindungan / Riwayat kredit dan SLIK",
+      "content": "OJK menyatakan SLIK dapat digunakan dalam proses penyediaan dana, manajemen risiko kredit/pembiayaan, dan penilaian kualitas debitur. Anda berhak meminta Informasi Debitur sendiri kepada OJK atau pelapor SLIK yang memberikan fasilitas dana, termasuk secara daring. citeturn19view5\n\nKarena itu:\n\n- bayar sebelum jatuh tempo;\n- jangan menganggap limit kredit sebagai tambahan pendapatan;\n- periksa iDeb secara berkala, terutama sebelum mengajukan KPR/kredit besar;\n- jika ada data yang menurut Anda salah, tangani melalui lembaga pemberi kredit/kanal resmi, bukan membayar pihak yang menjanjikan “menghapus skor”.",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Riwayat kredit dan SLIK dari research-result/001-personal-finance-basics.md, baris 352-361. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    },
+    {
+      "id": "mat_15",
+      "type": "RESEARCH_NOTE",
+      "label": "Dana darurat, utang, kredit, dan perlindungan / Asuransi: lindungi kerugian besar, bukan setiap kerugian kecil",
+      "content": "Asuransi paling bernilai untuk peristiwa yang **probabilitasnya mungkin rendah tetapi dampaknya dapat menghancurkan keuangan**.\n\nPrioritas praktis bagi pemula:\n\n| Risiko | Perlindungan dasar yang dipertimbangkan | Siapa yang paling membutuhkan |\n|---|---|---|\n| Biaya kesehatan besar | JKN/BPJS Kesehatan; asuransi swasta dapat menjadi pelengkap sesuai kebutuhan | Hampir semua orang |\n| Kematian pencari nafkah | Asuransi jiwa berjangka/produk perlindungan yang dipahami | Orang dengan pasangan/anak/orang tua yang bergantung pada penghasilannya |\n| Kecelakaan/ketidakmampuan bekerja | BPJS Ketenagakerjaan dan/atau perlindungan tambahan sesuai pekerjaan | Pekerja dengan ketergantungan tinggi pada pendapatan aktif |\n| Rumah/kendaraan/aset besar | Asuransi aset bila kerugiannya sulit ditanggung sendiri atau diwajibkan kontrak | Pemilik aset bernilai besar |\n\nMobile JKN merupakan aplikasi resmi BPJS Kesehatan yang antara lain mendukung pendaftaran peserta; panduan resminya juga mencakup layanan administrasi dan pencarian fasilitas kesehatan. citeturn19view9turn4search17turn4search29 BPJS Ketenagakerjaan mencantumkan JHT, JKK, JKM, JP dan JKP untuk pekerja penerima upah, dengan cakupan berbeda untuk kategori peserta lainnya. citeturn19view10\n\nUntuk jiwa, daripada menggunakan aturan “10× gaji” secara buta, hitung kebutuhan:\n\n\\[\n\\text{Pertanggungan jiwa yang dibutuhkan}\n\\approx\n\\text{utang yang harus dilunasi}\n+\n\\text{biaya hidup tanggungan selama N tahun}\n+\n\\text{tujuan penting}\n-\n\\text{aset likuid yang memang tersedia untuk keluarga}\n\\]\n\nContoh: utang Rp200 juta + kebutuhan keluarga Rp8 juta × 60 bulan + pendidikan Rp250 juta − aset likuid Rp150 juta = kebutuhan indikatif sekitar **Rp780 juta** sebelum mempertimbangkan inflasi dan faktor lain.\n\nSebelum membeli polis, pahami **manfaat, pengecualian, masa tunggu, batas manfaat, premi yang dapat berubah, deductible/co-payment bila ada, prosedur klaim, dan konsekuensi penghentian polis**. Perlindungan yang sederhana dan dipahami biasanya merupakan fondasi yang lebih baik daripada membeli produk kompleks semata karena ilustrasi hasil investasi.",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Asuransi: lindungi kerugian besar, bukan setiap kerugian kecil dari research-result/001-personal-finance-basics.md, baris 363-394. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    },
+    {
+      "id": "mat_16",
+      "type": "RESEARCH_NOTE",
+      "label": "Investasi, pensiun, dan pajak Indonesia / Sebelum berinvestasi",
+      "content": "Lewati pertanyaan “produk apa yang paling cuan?” dan gunakan urutan ini:\n\n```mermaid\nflowchart TD\n    A[\"Ada uang yang ingin diinvestasikan\"] --> B{\"Butuh dalam < 2 tahun?\"}\n    B -- Ya --> C[\"Prioritaskan likuiditas & stabilitas<br/>tabungan/deposito pendek\"]\n    B -- Tidak --> D{\"Dana darurat cukup dan<br/>utang mahal terkendali?\"}\n    D -- Tidak --> E[\"Perbaiki fondasi dahulu\"]\n    D -- Ya --> F{\"Mampu melihat nilai turun<br/>tanpa menjual panik?\"}\n    F -- Tidak --> G[\"Instrumen konservatif/moderat\"]\n    F -- Ya --> H[\"Portofolio jangka panjang<br/>dapat mengambil risiko pasar lebih besar\"]\n```\n\nJangan memakai dana darurat untuk membeli aset volatil. Dan jangan meminjam hanya untuk berinvestasi apabila Anda belum benar-benar memahami risiko leverage.",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Sebelum berinvestasi dari research-result/001-personal-finance-basics.md, baris 398-413. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    },
+    {
+      "id": "mat_17",
+      "type": "RESEARCH_NOTE",
+      "label": "Investasi, pensiun, dan pajak Indonesia / Opsi investasi pemula",
+      "content": "| Instrumen | Risiko modal | Potensi hasil | Likuiditas | Penggunaan utama |\n|---|---|---|---|---|\n| **Tabungan bank** | Sangat rendah bila memenuhi syarat LPS dan di bawah batas jaminan | Rendah, bunga berubah | Sangat tinggi | Transaksi & dana darurat |\n| **Deposito** | Sangat rendah dengan syarat LPS; ada risiko likuiditas | Rendah–moderat, umumnya ditentukan untuk tenor | Rendah–menengah | Dana dengan tanggal penggunaan relatif jelas |\n| **Reksa dana** | Rendah hingga tinggi tergantung aset dasar | Rendah hingga tinggi | Umumnya cukup likuid tetapi tidak seketika seperti kas | Diversifikasi tanpa memilih setiap surat berharga sendiri |\n| **ETF** | Bergantung aset/indeks; nilai pasar dapat turun | Mengikuti kinerja aset/indeks setelah biaya/tracking | Diperdagangkan di bursa | Diversifikasi dan investasi pasar secara transparan |\n| **SBN pemerintah** | Risiko kredit pemerintah; harga seri tradable dapat berfluktuasi sebelum jatuh tempo | Kupon/imbal hasil sesuai seri | Berbeda menurut jenis/seri | Pendapatan dan diversifikasi jangka menengah |\n\nLPS menetapkan batas penjaminan simpanan Rp2 miliar per nasabah per bank serta syarat bunga maksimum untuk penjaminan. Untuk 1 Juli–30 September 2026, TBP rupiah bank umum 3,75%; **deposito 5% tidak otomatis “lebih baik” bila konsekuensinya adalah bunga melampaui tingkat yang memenuhi kriteria penjaminan LPS**. Selalu cek periode terbaru sebelum membuka deposito. citeturn8search0turn8search1turn8search13\n\nETF di Bursa Efek Indonesia adalah produk yang menggabungkan karakteristik reksa dana dengan perdagangan di bursa; karena harganya mengikuti aset yang dimiliki/diacu, ETF **bukan deposito dan nilainya tidak dijamin naik**. citeturn1search3\n\nUntuk SBN ritel, jangan berasumsi semua seri identik. Ada perbedaan tenor, struktur kupon/imbal hasil, apakah dapat diperdagangkan di pasar sekunder, serta fasilitas pencairan sebelum jatuh tempo. Contoh penerbitan pemerintah pada 2026 adalah ORI030; hasil penjualannya digunakan untuk pembiayaan APBN. citeturn19view0\n\n**Urutan sederhana untuk pemula:** dana darurat → investasi sesuai tujuan → diversifikasi. Tidak ada kebutuhan untuk memiliki lima jenis produk sekaligus pada bulan pertama.",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Opsi investasi pemula dari research-result/001-personal-finance-basics.md, baris 415-431. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    },
+    {
+      "id": "mat_18",
+      "type": "RESEARCH_NOTE",
+      "label": "Investasi, pensiun, dan pajak Indonesia / Risiko dan return: gunakan hasil riil",
+      "content": "Rumus sederhana:\n\n\\[\n\\text{Real return kira-kira}\n\\approx\n\\text{return setelah biaya/pajak}\n-\n\\text{inflasi}\n\\]\n\nInflasi Indonesia Agustus 2026 sebesar 3,19% y/y. Jadi, misalnya hasil bersih suatu instrumen hanya 2% setahun sementara inflasi berada di sekitar 3%, nominal uang bertambah tetapi daya belinya secara kasar dapat menurun. citeturn13search2turn13search18\n\nJangan pula menyimpulkan bahwa solusinya selalu mengambil risiko tinggi: **uang yang akan digunakan tahun depan tidak memiliki waktu panjang untuk menunggu pasar pulih**.",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Risiko dan return: gunakan hasil riil dari research-result/001-personal-finance-basics.md, baris 433-447. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    },
+    {
+      "id": "mat_19",
+      "type": "RESEARCH_NOTE",
+      "label": "Investasi, pensiun, dan pajak Indonesia / Pensiun",
+      "content": "BPJS Ketenagakerjaan menyediakan JHT dan JP untuk kelompok peserta yang memenuhi ketentuan, serta kalkulator simulasi pada situs resminya. Jaminan sosial tersebut dapat diperlakukan sebagai **lapisan dasar**, tetapi kebutuhan pensiun pribadi tetap perlu dihitung dari gaya hidup dan sumber pendapatan masing-masing. citeturn19view10turn5search18\n\nPerkiraan kebutuhan tahunan:\n\n\\[\n\\text{Belanja pensiun tahunan}\n=\n\\text{belanja pensiun bulanan}\\times12\n\\]\n\nUntuk investasi satu kali:\n\n\\[\nFV=P(1+r)^n\n\\]\n\nUntuk setoran bulanan di akhir bulan:\n\n\\[\nFV=PMT\\times\n\\frac{(1+r_m)^N-1}{r_m}\n\\]\n\ndengan:\n\n- \\(PMT\\) = investasi bulanan,\n- \\(r_m\\) = asumsi imbal hasil bulanan,\n- \\(N\\) = jumlah bulan.\n\nContoh **murni ilustratif**, bukan proyeksi investasi: Rp1 juta/bulan selama 30 tahun pada rata-rata 7% per tahun dengan pendekatan 7%/12 per bulan menghasilkan sekitar **Rp1,22 miliar nominal**. Hasil aktual bisa jauh berbeda dan Rp1,22 miliar tiga dekade kemudian tidak memiliki daya beli yang sama dengan Rp1,22 miliar hari ini.\n\nKunci pensiun bagi pemula adalah **waktu dan konsistensi**, bukan menebak saham terbaik tahun depan. Setelah pendapatan naik, naikkan setoran pensiun sebelum seluruh kenaikan gaji berubah menjadi biaya hidup permanen.",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Pensiun dari research-result/001-personal-finance-basics.md, baris 449-482. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    },
+    {
+      "id": "mat_20",
+      "type": "RESEARCH_NOTE",
+      "label": "Investasi, pensiun, dan pajak Indonesia / Pajak dasar untuk orang pribadi",
+      "content": "Tarif PPh orang pribadi dalam negeri atas **Penghasilan Kena Pajak**, bukan seluruh pendapatan bruto, adalah: citeturn19view6\n\n| Lapisan PKP | Tarif |\n|---:|---:|\n| Sampai Rp60 juta | 5% |\n| > Rp60 juta–Rp250 juta | 15% |\n| > Rp250 juta–Rp500 juta | 25% |\n| > Rp500 juta–Rp5 miliar | 30% |\n| > Rp5 miliar | 35% |\n\nPTKP dasar yang berlaku adalah **Rp54 juta/tahun**, ditambah Rp4,5 juta untuk wajib pajak kawin dan Rp4,5 juta untuk setiap tanggungan yang memenuhi ketentuan, maksimal tiga tanggungan. PTKP mengurangi penghasilan neto untuk menentukan PKP; jangan salah membaca tarif 15%, misalnya, seolah-olah seluruh penghasilan langsung dikenai 15%. citeturn19view7\n\nContoh sangat sederhana, mengabaikan berbagai pengurang/ketentuan khusus: bila setelah perhitungan resmi PKP seseorang Rp100 juta, pajaknya bukan 15% × Rp100 juta. Penghitungan lapisannya:\n\n\\[\n5\\%\\times Rp60juta +\n15\\%\\times Rp40juta\n= Rp9juta\n\\]\n\nItulah arti tarif **progresif**.\n\nBunga deposito/tabungan bagi wajib pajak dalam negeri pada kondisi yang dikenai ketentuan tersebut umumnya terkena **PPh final 20% dari jumlah bruto** menurut informasi DJP; karena pengecualian dan karakter tiap instrumen dapat berbeda, cek aturan aktual sebelum membuat kalkulasi pajak investasi. citeturn14search6 DJP juga menjelaskan bahwa keuntungan pemegang unit reksa dana tidak dikenai pajak secara langsung sebagai objek PPh investor dalam konteks yang dijelaskan pada ketentuan tersebut. citeturn14search3\n\nUntuk administrasi, **Coretax digunakan untuk SPT Tahunan PPh orang pribadi Tahun Pajak 2025 dan seterusnya**, dengan sejumlah data seperti bukti potong dapat tersedia secara *prepopulated* untuk diverifikasi wajib pajak. citeturn19view8turn14search27 Secara umum, SPT Tahunan orang pribadi memiliki batas waktu tiga bulan setelah akhir tahun pajak—untuk tahun kalender berarti biasanya 31 Maret tahun berikutnya—kecuali terdapat kebijakan khusus untuk tahun tertentu. citeturn2search16\n\nPraktiknya, buat satu folder tahunan berisi:\n\n- bukti potong penghasilan;\n- laporan penghasilan sampingan;\n- saldo/aset dan kewajiban;\n- dokumen investasi;\n- transaksi yang mungkin memiliki konsekuensi pajak;\n- bukti pembayaran pajak bila ada.\n\nTujuannya bukan membayar pajak sebanyak mungkin atau sesedikit mungkin, tetapi **melaporkan secara benar dan tidak kehilangan dokumen saat tenggat tiba**.",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Pajak dasar untuk orang pribadi dari research-result/001-personal-finance-basics.md, baris 484-521. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    },
+    {
+      "id": "mat_21",
+      "type": "RESEARCH_NOTE",
+      "label": "Perilaku, alat gratis, kesalahan umum, dan checklist satu halaman / Sistem perilaku yang lebih penting daripada kemauan",
+      "content": "**Otomatiskan perilaku baik.** Transfer dana darurat/investasi satu atau dua hari setelah penghasilan masuk. Uang yang harus “diputuskan untuk ditabung” setiap akhir bulan jauh lebih mudah terpakai.\n\n**Pisahkan fungsi rekening.** Minimal bedakan uang untuk transaksi/tagihan dengan dana darurat. Anda tidak memerlukan enam rekening; yang penting saldo untuk keadaan darurat tidak tampak seperti saldo yang bebas dibelanjakan.\n\n**Buat friksi untuk pengeluaran impulsif.** Hapus kartu dari aplikasi belanja tertentu, gunakan aturan tunggu 24–48 jam untuk pembelian non-esensial, dan masukkan belanja impulsif ke *wish list* sebelum checkout.\n\n**Batasi lifestyle inflation.** Saat gaji naik, tetapkan terlebih dahulu persentase kenaikan yang masuk ke tujuan keuangan. Contoh: kenaikan gaji Rp2 juta → Rp1 juta otomatis ke investasi/dana tujuan, sisanya boleh meningkatkan gaya hidup.\n\n**Review singkat tetapi teratur.** Lima belas menit setiap minggu untuk transaksi abnormal dan 30–60 menit setiap akhir bulan biasanya lebih realistis daripada mencoba mencatat setiap rupiah dengan sempurna selamanya.",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Sistem perilaku yang lebih penting daripada kemauan dari research-result/001-personal-finance-basics.md, baris 525-535. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    },
+    {
+      "id": "mat_22",
+      "type": "RESEARCH_NOTE",
+      "label": "Perilaku, alat gratis, kesalahan umum, dan checklist satu halaman / Kesalahan yang paling merusak",
+      "content": "| Kesalahan | Mengapa bermasalah | Ganti dengan |\n|---|---|---|\n| Investasi sebelum punya buffer | Penurunan kecil pendapatan dapat memaksa menjual investasi/berutang | Bangun buffer dan dana darurat |\n| Menganggap limit kartu/paylater sebagai uang | Menaikkan konsumsi sekaligus kewajiban masa depan | Anggap limit sebagai fasilitas utang |\n| Selalu bayar minimum utang mahal | Membuat bunga berjalan lebih lama | Tambah pembayaran dengan avalanche/snowball |\n| Dana darurat dicampur uang liburan | Dana perlindungan habis untuk pengeluaran pilihan | Pisahkan emergency fund dan sinking fund |\n| Memilih investasi dari return tahun lalu | Kinerja historis tidak menjamin periode berikutnya | Pilih berdasarkan tujuan, risiko, biaya dan horizon |\n| Membeli asuransi tanpa membaca polis | Manfaat aktual dapat tidak sesuai ekspektasi | Cek manfaat, pengecualian, batas dan klaim |\n| Menaikkan gaya hidup sebesar seluruh kenaikan gaji | Savings rate tidak pernah meningkat | Otomatiskan sebagian kenaikan |\n| Mengabaikan pajak sampai Maret | Dokumen mudah hilang dan kesalahan sulit diperbaiki | Arsip sepanjang tahun |\n| Mempercayai tawaran “return tinggi pasti” | Risiko penipuan/aktivitas ilegal | Verifikasi lembaga dan produk lewat kanal resmi OJK |\n\nOJK menyediakan Sikapi Uangmu untuk edukasi, iDebKu untuk permohonan Informasi Debitur, APPK untuk perlindungan konsumen, Indonesia Anti-Scam Centre, serta kanal Satgas PASTI untuk aktivitas keuangan ilegal. citeturn19view11",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Kesalahan yang paling merusak dari research-result/001-personal-finance-basics.md, baris 537-551. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    },
+    {
+      "id": "mat_23",
+      "type": "RESEARCH_NOTE",
+      "label": "Perilaku, alat gratis, kesalahan umum, dan checklist satu halaman / Alat dan aplikasi resmi berbahasa Indonesia",
+      "content": "Layanan di bawah merupakan kanal pemerintah/regulator; penggunaan portal/aplikasinya tidak memerlukan pembelian aplikasi, walaupun biaya data/internet tentu dapat berlaku.\n\n| Alat | Gunanya |\n|---|---|\n| **Sikapi Uangmu – OJK** | Edukasi literasi keuangan |\n| **iDebKu / SLIK OJK** | Meminta Informasi Debitur sendiri |\n| **APPK / Kontak OJK 157** | Layanan perlindungan/pengaduan konsumen |\n| **Indonesia Anti-Scam Centre** | Kanal terkait penanganan penipuan transaksi keuangan |\n| **Mobile JKN** | Administrasi kepesertaan BPJS Kesehatan dan layanan peserta |\n| **JMO / situs BPJS Ketenagakerjaan** | Informasi program, kepesertaan serta akses layanan JHT dan program lain |\n| **Simulasi JHT/JP BPJS Ketenagakerjaan** | Mengestimasi manfaat berdasarkan asumsi |\n| **Coretax DJP** | Administrasi dan pelaporan pajak |\n| **Kalkulator Pajak DJP** | Membantu perhitungan pajak sesuai modul yang tersedia |\n| **Spreadsheet sederhana** | Anggaran, net worth, debt tracker dan goal tracker |\n\nKeberadaan Sikapi Uangmu, iDebKu, APPK, IASC, dan layanan terkait tercantum di portal resmi OJK. citeturn19view11 Mobile JKN didokumentasikan langsung oleh BPJS Kesehatan, sedangkan situs BPJS Ketenagakerjaan menyediakan JMO dan simulasi JHT/JP. citeturn19view9turn19view10 DJP menyediakan Coretax sebagai sistem pelaporan SPT untuk Tahun Pajak 2025 dan seterusnya serta kalkulator pajak resmi. citeturn19view8turn13search1",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Alat dan aplikasi resmi berbahasa Indonesia dari research-result/001-personal-finance-basics.md, baris 553-570. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    },
+    {
+      "id": "mat_24",
+      "type": "RESEARCH_NOTE",
+      "label": "Perilaku, alat gratis, kesalahan umum, dan checklist satu halaman / Checklist satu halaman yang dapat dicetak",
+      "content": "**KEUANGAN PRIBADI — CHECKLIST PEMULA**\n\n☐ Saya tahu **take-home pay** rata-rata per bulan.  \n☐ Saya telah mencatat seluruh pengeluaran minimal satu bulan.  \n☐ Saya mempunyai anggaran yang total alokasinya tidak melebihi pendapatan.  \n☐ Saya tahu **net worth = aset − kewajiban** saya saat ini.  \n☐ Saya mempunyai rekening/pos terpisah untuk dana darurat.  \n☐ Saya mengetahui berapa **pengeluaran esensial bulanan** saya.  \n☐ Saya telah menentukan target dana darurat **3–12 bulan sesuai risiko rumah tangga**; Kemenkeu memberi acuan 3–6 bulan untuk belum menikah dan 6–12 bulan untuk berkeluarga. citeturn19view2  \n☐ Saya telah membuat sinking fund untuk biaya besar yang sebenarnya dapat diprediksi.  \n☐ Saya mempunyai daftar seluruh utang: saldo, bunga, minimum dan jatuh tempo.  \n☐ Semua pembayaran minimum diatur agar tidak terlambat.  \n☐ Saya memilih **avalanche** atau **snowball** dan mengarahkan uang ekstra secara konsisten.  \n☐ Saya tidak memperlakukan limit kartu kredit/paylater sebagai pendapatan.  \n☐ Saya pernah memeriksa Informasi Debitur/iDeb SLIK saya melalui kanal resmi OJK. citeturn19view5  \n☐ Saya memastikan perlindungan kesehatan/JKN sesuai status dan kebutuhan saya. citeturn19view9  \n☐ Bila ada orang yang bergantung pada penghasilan saya, kebutuhan asuransi jiwa sudah dihitung.  \n☐ Saya tahu status JHT/JP atau perlindungan BPJS Ketenagakerjaan yang relevan bagi saya. citeturn19view10  \n☐ Saya hanya menginvestasikan uang yang horizon waktunya sesuai dengan risiko instrumen.  \n☐ Saya membaca prospektus/fund fact sheet/memorandum produk dan memahami biaya sebelum membeli investasi.  \n☐ Saya tidak membeli investasi hanya karena return masa lalu atau promosi influencer.  \n☐ Saya memeriksa legalitas lembaga/produk melalui OJK atau otoritas terkait sebelum mengirim uang. citeturn19view11  \n☐ Saya menyetor investasi/pensiun secara otomatis dan konsisten.  \n☐ Saya mengetahui savings rate saya dan berusaha meningkatkannya saat pendapatan meningkat.  \n☐ Saya menyimpan bukti potong, dokumen penghasilan, data aset dan investasi untuk SPT.  \n☐ Saya mempunyai akses Coretax dan memahami bahwa sistem itu digunakan untuk SPT Tahun Pajak 2025 dan seterusnya. citeturn19view8  \n☐ Setiap akhir tahun saya menghitung ulang **net worth, saldo utang, dana darurat, savings rate, perlindungan, investasi dan target tahun berikutnya**.\n\n**Urutan keputusan ketika uang tambahan masuk:**\n\n\\[\n\\boxed{\n\\text{Kebutuhan pokok}\n\\rightarrow\n\\text{buffer kas}\n\\rightarrow\n\\text{utang mahal}\n\\rightarrow\n\\text{dana darurat}\n\\rightarrow\n\\text{proteksi}\n\\rightarrow\n\\text{investasi/pensiun}\n}\n\\]\n\nUrutan tersebut dapat tumpang tindih—misalnya membangun dana darurat sambil tetap membayar minimum utang dan mengikuti program pensiun/jaminan sosial—tetapi prinsipnya tetap sama: **bangun ketahanan sebelum mengejar imbal hasil**. Untuk sebagian besar pemula, keberhasilan finansial tidak berasal dari menemukan satu produk luar biasa, melainkan dari membuat arus kas positif, menjaga utang terkendali, menghindari kerugian besar, dan secara konsisten mengalihkan sebagian pendapatan menuju aset serta tujuan jangka panjang.",
+      "source_ids": [
+        "src_01"
+      ],
+      "notes": "Ekstrak utuh bagian Checklist satu halaman yang dapat dicetak dari research-result/001-personal-finance-basics.md, baris 572-619. Penanda sitasi asli dipertahankan sebagai provenance dokumen, bukan sumber primer yang telah diverifikasi. Contoh, asumsi, rekomendasi, dan keterbatasan mengikuti teks asli."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_01",
+      "title": "Panduan Dasar Keuangan Pribadi untuk Pemula di Indonesia",
+      "source": "research-result/001-personal-finance-basics.md",
+      "type": "RESEARCH",
+      "notes": "Dokumen hasil riset yang disediakan pengguna. Identitas penulis, tanggal publikasi, URL sumber primer, dan daftar pemetaan penanda sitasi tidak tersedia di file. Penyebutan OJK, Kemenkeu, LPS, BPJS, BEI, dan DJP adalah atribusi di dalam dokumen, bukan bukti bahwa sumber primer telah dibaca atau diverifikasi. Klaim periode 2026 dipertahankan sebagaimana tertulis dan tidak diverifikasi ulang."
+    }
+  ],
+  "constraints": {
+    "language": "id-ID",
+    "slide_count": {
+      "preferred_min": 5,
+      "preferred_max": 7,
+      "hard_max": 10
+    },
+    "custom": [
+      "Manual engine test: jangan browse web dan jangan gunakan external factual knowledge. Gunakan hanya material yang diberikan.",
+      "Satu content unit untuk satu carousel pengantar. Pilih materi yang mendukung objective; seluruh subtopik, tabel, formula, dan checklist dalam riset tidak wajib dimasukkan.",
+      "Pertahankan penandaan contoh hipotetis, asumsi simulasi, periode data, dan perbedaan antara rekomendasi panduan dengan ketentuan resmi. Jangan mengubahnya menjadi fakta universal atau jaminan hasil.",
+      "Urutan prioritas dapat tumpang tindih sesuai kondisi sebagaimana dijelaskan riset; jangan mengubah rencana dua belas bulan menjadi jadwal wajib bagi semua pembaca.",
+      "Jangan mengarang URL, metadata sumber primer, atau hasil verifikasi untuk menggantikan penanda sitasi yang tidak memiliki pemetaan di dokumen."
+    ]
+  },
+  "notes": "Fixture input untuk manual engine test, bukan output production brief. Topic, objective, dan initial_angle dirumuskan dari ringkasan serta kesimpulan riset untuk satu carousel pengantar. Isi substantif riset dipertahankan sebagai blok berdasarkan bagian agar engine dapat menguji editorial selection dan omission. Tidak ada tambahan factual knowledge, browsing, atau verifikasi sumber eksternal. Context brand, visual, dan production tidak ditambahkan karena tidak disediakan pengguna. Nama file persnoal-finance-basics.json mengikuti path yang diminta pengguna."
+}

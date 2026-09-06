@@ -1084,7 +1084,6 @@ Engine dapat memilih:
 ```text
 literal
 metaphorical
-diagrammatic
 environmental
 decorative
 ```
@@ -1110,12 +1109,10 @@ Metaphor valid jika mudah dipahami.
 Jika slide seperti conclusion sulit divisualisasikan:
 
 ```text
-minimal environmental background
-gradient
-texture
-simple object
+minimal environmental photo
+photographed texture
+simple photographic object
 architectural image
-graphic treatment
 ```
 
 dapat digunakan.
@@ -1177,7 +1174,6 @@ Supported V0 strategies:
 AI_SYNTHETIC
 REAL_ASSET
 HYBRID_COMPOSITE
-GRAPHIC_ONLY
 ```
 
 ---
@@ -1225,7 +1221,7 @@ AI synthetic tidak boleh digunakan sedemikian rupa sehingga terlihat seperti doc
 
 ```text
 generic scenes
-conceptual illustration
+photorealistic conceptual scene
 symbolic objects
 visual metaphors
 fictional examples
@@ -1242,9 +1238,9 @@ Contoh:
 ```text
 real subject
 +
-AI background
+AI-generated photorealistic background
 +
-graphic overlay
+light image compositing
 ```
 
 atau:
@@ -1259,21 +1255,13 @@ manual typography
 
 ---
 
-# 53. Graphic Only Rule
+# 53. Image Asset Planning Rule
 
-Pilih `GRAPHIC_ONLY` jika informasi lebih efektif disampaikan melalui:
+Carousel menggunakan image + text. Visual utama harus image-led; AI-generated image default-nya realistic/photorealistic, terlihat seperti foto nyata. Untuk konsep atau scene generic, prioritaskan AI-generated photorealistic image. Style lain hanya jika input memintanya secara eksplisit; topik edukasi bukan alasan otomatis untuk cartoon, vector/flat illustration, atau illustrated infographic.
 
-```text
-diagram
-number
-chart
-shape
-icon
-comparison
-timeline
-```
+Untuk real person, real company, real event, atau documentary evidence, prioritaskan REAL_ASSET. HYBRID_COMPOSITE digunakan jika perlu kombinasi image asset atau compositing ringan; menambahkan text ke image saja tidak membuat strategy menjadi hybrid.
 
-Tidak ada kewajiban menggunakan photographic asset.
+Registry hanya berisi image asset AI_GENERATED atau REAL_ASSET. Text, angka, dan label tetap berada di slide copy/design instructions, bukan asset registry. Primary maupun fallback harus mengikuti batas ini.
 
 ---
 
@@ -1311,7 +1299,7 @@ ASSET PLAN
     ├── asset strategy
     ├── required assets
     ├── asset specification
-    ├── source/generate/manual designation
+    ├── source/generate designation
     └── production complexity
 ```
 
@@ -1458,25 +1446,18 @@ Untuk `HYBRID_COMPOSITE`, sequence dapat berupa:
 4. Import kedua asset ke Canva.
 5. Layer real subject di foreground.
 6. Sesuaikan scale.
-7. Tambahkan graphic element.
+7. Atur opacity atau gradient ringan hanya jika dibutuhkan untuk readability.
 8. Tambahkan copy.
 9. Review visual hierarchy.
 ```
 
 ---
 
-# 63. Graphic-Only Production Instruction
+# 63. Design Tool Boundary
 
-Untuk `GRAPHIC_ONLY`:
+Canva/design tool digunakan untuk headline/supporting text, typography, crop, resize/reposition image, remove background bila perlu, gradient ringan untuk readability, opacity, dan layering sederhana image + text.
 
-```text
-1. Buka Canva.
-2. Buat graphic structure sesuai visual spec.
-3. Gunakan shape/icon/number sesuai brief.
-4. Tambahkan headline.
-5. Tambahkan supporting copy.
-6. Pastikan graphic memperjelas message.
-```
+Engine tidak merencanakan custom graphic components, icon system, Canva shapes sebagai visual utama, diagram manual, decorative graphic composition, atau illustrated infographic components. Larangan ini juga berlaku di asset requirements, prompts, fallback, dan production instructions; jangan menyamarkan komponen grafis sebagai AI_GENERATED atau REAL_ASSET. Manusia boleh mengimprovisasi graphic embellishment saat desain, tetapi itu di luar tanggung jawab dan output engine.
 
 ---
 
@@ -1636,6 +1617,8 @@ before output
 
 # 73. Visual QA
 
+Periksa primary dan fallback: visual utama image-led, default AI photorealistic kecuali input meminta style lain, dan tidak ada graphic component yang disamarkan sebagai image.
+
 Pertanyaan:
 
 ```text
@@ -1653,6 +1636,8 @@ Apakah visual variety masih cohesive?
 ---
 
 # 74. Production QA
+
+Periksa bahwa registry hanya AI_GENERATED/REAL_ASSET, strategy hanya AI_SYNTHETIC/REAL_ASSET/HYBRID_COMPOSITE, text berada di copy, dan instruksi Canva sebatas editing image + text. Graphic embellishment manusia tidak boleh menjadi rencana atau dependency output engine.
 
 Pertanyaan:
 

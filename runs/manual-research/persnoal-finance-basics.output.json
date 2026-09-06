@@ -1,0 +1,1244 @@
+{
+  "schema_version": "0.2.0",
+  "status": "NEEDS_REVIEW",
+  "editorial": {
+    "objective": "Membantu pembaca pemula memahami prioritas membangun ketahanan keuangan melalui arus kas, anggaran, bantalan dana darurat, pengendalian utang, dan perlindungan risiko sebelum mengejar imbal hasil investasi, serta mengenali langkah awal yang dapat dilakukan.",
+    "central_takeaway": "Bangun ketahanan lewat arus kas, alokasi uang, dana darurat, pengendalian utang, dan perlindungan risiko; sesuaikan investasi dengan kesiapan serta kondisi, bukan mengejar imbal hasil terlebih dahulu.",
+    "selected_angle": "Bangun ketahanan keuangan sebelum mengejar imbal hasil.",
+    "angle_rationale": "Initial angle dipertahankan karena langsung didukung mat_01 dan mat_24 serta menyatukan objective menjadi satu takeaway. Tujuh slide bergerak dari pertanyaan ketahanan ke langkah dasar dan kesiapan investasi. Mat_01 menyebut dana darurat sebelum utang, sedangkan mat_24 menempatkan buffer sebelum utang mahal dan menjelaskan bahwa prioritas dapat tumpang tindih; copy mempertahankan nuansa itu. Blok terpilih digunakan sebagian: mat_01 hanya rekomendasi ketahanan; mat_02 hanya langkah mencatat dan alokasi; mat_03 hanya arus kas; mat_04 hanya kesesuaian horizon; mat_06 hanya prinsip alokasi; mat_10 hanya langkah awal dan pembangunan bertahap tanpa jadwal bulanan; mat_11 hanya pemisahan, likuiditas dan dasar target tanpa rentang angka/LPS; mat_12 mekanisme minimum dan buffer; mat_13 hanya mekanisme prioritas bunga tanpa perbandingan/simulasi; mat_15 hanya pemeriksaan proteksi/polis tanpa produk atau nominal; mat_16 hanya kesiapan investasi; mat_21 hanya pemisahan dana; mat_22 hanya pemeriksaan polis; mat_24 hanya batas alokasi dan prioritas yang dapat bersamaan. Detail lainnya dari blok tersebut sengaja tidak dibawa ke carousel.",
+    "selected_material_ids": [
+      "mat_01",
+      "mat_02",
+      "mat_03",
+      "mat_04",
+      "mat_06",
+      "mat_10",
+      "mat_11",
+      "mat_12",
+      "mat_13",
+      "mat_15",
+      "mat_16",
+      "mat_21",
+      "mat_22",
+      "mat_24"
+    ],
+    "omitted_material": [
+      {
+        "material_ids": [
+          "mat_05",
+          "mat_07",
+          "mat_08",
+          "mat_09"
+        ],
+        "reason": "Perbandingan metode, template, tiga skenario pendapatan, dan rincian sinking fund membutuhkan penjelasan tersendiri. Untuk objective pengantar, satu prinsip alokasi dari mat_06 cukup; tidak ada rasio wajib atau simulasi anggaran yang dibawa ke slide."
+      },
+      {
+        "material_ids": [
+          "mat_14",
+          "mat_23"
+        ],
+        "reason": "Rincian SLIK, portal, dan daftar aplikasi tidak diperlukan untuk memahami prioritas ketahanan. Informasi pembayaran tepat waktu tersedia langsung pada mat_12."
+      },
+      {
+        "material_ids": [
+          "mat_17",
+          "mat_18",
+          "mat_19",
+          "mat_20"
+        ],
+        "reason": "Perbandingan produk, data inflasi dan bunga berkala, pensiun, serta pajak berada di luar fokus carousel pengantar ini. Menghilangkannya menghindari kepadatan dan kebutuhan membahas ketentuan spesifik yang sumber primernya tidak tersedia."
+      }
+    ]
+  },
+  "narrative": {
+    "type": "Pertanyaan ketahanan → lihat arus kas → atur alokasi → siapkan bantalan → prioritaskan utang → periksa proteksi → investasi sesuai kesiapan",
+    "summary": "Cover mengajak pembaca memeriksa kerentanan terhadap tagihan mendadak. Pencatatan menyediakan dasar alokasi; alokasi membuka ruang dana darurat. Pembayaran ekstra utang dibahas dengan minimum dan bantalan tetap dijaga. Perlindungan risiko melengkapi kas. Penutup mengaitkan investasi dengan kesiapan dan menegaskan langkah-langkah dapat bersamaan. Urutan slide adalah alur pemahaman, bukan jadwal wajib.",
+    "opening_function": "Membangun relevansi melalui pertanyaan kondisi pribadi, tanpa statistik atau klaim semua orang pasti berutang.",
+    "ending_function": "Menyelesaikan janji cover dengan kriteria kesiapan investasi dan batas bahwa prioritas bisa berjalan bersamaan.",
+    "slide_sequence": [
+      "slide_01",
+      "slide_02",
+      "slide_03",
+      "slide_04",
+      "slide_05",
+      "slide_06",
+      "slide_07"
+    ]
+  },
+  "claims": [
+    {
+      "id": "claim_01",
+      "text": "Panduan menyarankan membangun ketahanan kas dan perlindungan ketika kejadian buruk masih dapat memaksa seseorang berutang, sebelum mengejar imbal hasil.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_01",
+        "mat_24"
+      ],
+      "notes": "Rekomendasi panduan, bukan jaminan bahwa risiko finansial dapat dihapus. Pertanyaan cover adalah framing kreatif dari rekomendasi ini."
+    },
+    {
+      "id": "claim_02",
+      "text": "Arus kas bulanan adalah pendapatan bersih dikurangi seluruh pengeluaran; target awal dalam panduan adalah hasil positif secara konsisten.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_03"
+      ],
+      "notes": "Definisi dan target panduan; bukan statistik atau klaim regulator."
+    },
+    {
+      "id": "claim_03",
+      "text": "Mencatat pendapatan dan seluruh pengeluaran selama 30 hari merupakan langkah awal yang disarankan untuk mengetahui posisi keuangan.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_02",
+        "mat_10"
+      ],
+      "notes": "Durasi adalah saran praktik dalam material, bukan tenggat wajib atau jaminan keberhasilan."
+    },
+    {
+      "id": "claim_04",
+      "text": "Anggaran merencanakan alokasi pendapatan; kebutuhan, cicilan, dan tabungan dapat diberi alokasi dengan total yang tidak melebihi pendapatan.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_02",
+        "mat_06",
+        "mat_24"
+      ],
+      "notes": "Tabungan juga merupakan alokasi. Jangan menyamakan seluruh alokasi dengan konsumsi atau mengartikan sisa alokasi nol sebagai arus kas konsumsi nol."
+    },
+    {
+      "id": "claim_05",
+      "text": "Dana darurat dapat dibangun bertahap, disimpan terpisah dan mudah dicairkan, dengan target berdasarkan pengeluaran esensial serta kondisi rumah tangga.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_10",
+        "mat_11",
+        "mat_21"
+      ],
+      "notes": "Rekomendasi panduan. Rentang angka, atribusi Kemenkeu, dan ketentuan LPS tidak digunakan dalam copy."
+    },
+    {
+      "id": "claim_06",
+      "text": "Saat menangani utang, panduan menyarankan membayar minimum semua utang tepat waktu dan tetap menyisakan bantalan kas.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_12"
+      ],
+      "notes": "Tindakan dapat berjalan bersamaan dengan pembangunan dana darurat; bukan menunggu dana darurat penuh untuk membayar kewajiban."
+    },
+    {
+      "id": "claim_07",
+      "text": "Avalanche mengarahkan pembayaran ekstra ke utang dengan tingkat bunga tertinggi terlebih dahulu.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_13"
+      ],
+      "notes": "Hanya mekanisme yang digunakan. Tidak menjanjikan durasi pelunasan atau penghematan tertentu dan tidak menyatakan strategi ini wajib bagi semua orang."
+    },
+    {
+      "id": "claim_08",
+      "text": "Panduan menempatkan perlindungan kesehatan sebagai prioritas dan menyarankan evaluasi kebutuhan asuransi jiwa jika ada orang yang bergantung pada penghasilan.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_15"
+      ],
+      "notes": "Rekomendasi umum panduan; tidak menjelaskan manfaat produk tertentu atau memastikan kelayakan peserta."
+    },
+    {
+      "id": "claim_09",
+      "text": "Sebelum membeli polis, panduan menyarankan memahami manfaat, pengecualian, batas manfaat, dan prosedur klaim.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_15",
+        "mat_22"
+      ],
+      "notes": "Copy menampilkan pemeriksaan utama untuk pengantar, bukan daftar pemeriksaan polis yang lengkap."
+    },
+    {
+      "id": "claim_10",
+      "text": "Sebelum menambah investasi berisiko, panduan mengajak memeriksa kecukupan dana darurat dan pengendalian utang mahal; dana darurat tidak dipakai untuk membeli aset volatil.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_16"
+      ],
+      "notes": "Batas kesiapan mengikuti kondisi pembaca; tidak ada jadwal bulan tertentu atau jaminan hasil investasi."
+    },
+    {
+      "id": "claim_11",
+      "text": "Pilihan investasi perlu disesuaikan dengan waktu penggunaan uang dan kemampuan menanggung kerugian.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_01",
+        "mat_04",
+        "mat_16"
+      ],
+      "notes": "Tidak merekomendasikan produk, alokasi portofolio, atau tingkat imbal hasil."
+    },
+    {
+      "id": "claim_12",
+      "text": "Prioritas membangun ketahanan dapat tumpang tindih sesuai kondisi, termasuk membangun dana darurat sambil membayar minimum utang dan mengikuti jaminan sosial.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_24"
+      ],
+      "notes": "Nuance ditampilkan pada slide 7; urutan slide adalah alur penjelasan dan bukan antrean tindakan yang kaku."
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset_01",
+      "type": "AI_GENERATED",
+      "description": "Foto konseptual dompet terbuka di dekat kunci pas kecil: kebutuhan perbaikan bertemu kesiapan kas.",
+      "subject": "Dompet kulit polos terbuka dan sebuah kunci pas logam kecil.",
+      "requirements": [
+        "Dompet menjadi hero di kanan bawah, kunci pas terpisah di sampingnya; setengah atas dan kiri meja lapang.",
+        "Kiri atas sampai tengah kiri; headline di atas supporting.",
+        "Satu foto photorealistic vertikal 3:4 dengan detail memadai untuk master 1080 × 1440 px.",
+        "Tidak ada copy atau label tertanam dalam gambar."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "Dompet kulit polos terbuka dan sebuah kunci pas logam kecil.",
+          "scene": "Kedua objek berada di meja rumah sederhana; bagian dalam dompet tidak memperlihatkan uang atau kartu.",
+          "composition": "Dompet menjadi hero di kanan bawah, kunci pas terpisah di sampingnya; setengah atas dan kiri meja lapang.",
+          "framing": "Close-up dari sudut tiga perempat, bukan flat lay.",
+          "background": "Lingkungan rumah sederhana dengan permukaan dan dinding netral, tanpa dekorasi ramai.",
+          "lighting": "Cahaya jendela lembut, bayangan alami, tekstur nyata, kontras cukup tanpa suasana dramatis.",
+          "negative_space": "Kiri atas sampai tengah kiri; headline di atas supporting.",
+          "text_safe_area": "Kiri atas sampai tengah kiri; headline di atas supporting.",
+          "visual_treatment": "Photorealistic, tampak seperti foto editorial nyata; seluruh scene generik dan konseptual.",
+          "constraints": [
+            "Portrait 3:4; dapat digunakan sebagai image utama pada master 1080 × 1440 px.",
+            "Satu foto utuh; tidak membutuhkan compositing objek dari gambar lain.",
+            "Area teks kosong; semua copy ditambahkan di design tool."
+          ],
+          "avoid": [
+            "Tulisan, angka terbaca, watermark, merek, logo, dan identitas nyata.",
+            "Cartoon, vector, flat illustration, infographic, chart, diagram, atau ikon.",
+            "Bentuk objek cacat, properti berlebih, dan tekstur sibuk di area teks."
+          ]
+        },
+        "prompt": "Buat satu foto editorial photorealistic vertikal rasio 3:4, tampak seperti foto nyata, untuk scene generik konseptual. Subjek: Dompet kulit polos terbuka dan sebuah kunci pas logam kecil. Scene: Kedua objek berada di meja rumah sederhana; bagian dalam dompet tidak memperlihatkan uang atau kartu. Komposisi: Dompet menjadi hero di kanan bawah, kunci pas terpisah di sampingnya; setengah atas dan kiri meja lapang. Framing: Close-up dari sudut tiga perempat, bukan flat lay. Latar: Lingkungan rumah sederhana dengan permukaan dan dinding netral, tanpa dekorasi ramai. Cahaya: Cahaya jendela lembut, bayangan alami, tekstur nyata, kontras cukup tanpa suasana dramatis. Sisakan area kosong untuk teks yang dipasang kemudian: Kiri atas sampai tengah kiri; headline di atas supporting. Hasil berupa satu foto utuh, bukan desain carousel. Jangan hasilkan teks, angka terbaca, logo, merek, watermark, infographic, chart, diagram, ikon, cartoon, atau ilustrasi vektor. Jaga bentuk dan tekstur objek realistis."
+      },
+      "notes": "Asset belum digenerate; prompt untuk eksekusi produksi setelah human review. Scene kreatif, bukan dokumentasi kejadian atau bukti faktual. Satu image cukup; penambahan teks tidak mengubah strategy menjadi hybrid."
+    },
+    {
+      "id": "asset_02",
+      "type": "AI_GENERATED",
+      "description": "Foto buku catatan terbuka dan kalkulator tanpa angka terbaca, sebagai konteks pencatatan arus kas.",
+      "subject": "Buku catatan kosong terbuka, pena, dan kalkulator polos dengan layar gelap.",
+      "requirements": [
+        "Sudut buku masuk dari kiri bawah; kalkulator dekat tepi bawah. Bagian atas dan kanan kosong untuk formula serta langkah pertama.",
+        "Atas kanan sampai tengah kanan, seluruh formula ditaruh sebagai teks desain.",
+        "Satu foto photorealistic vertikal 3:4 dengan detail memadai untuk master 1080 × 1440 px.",
+        "Tidak ada copy atau label tertanam dalam gambar."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "Buku catatan kosong terbuka, pena, dan kalkulator polos dengan layar gelap.",
+          "scene": "Meja rumah bersih, alat pencatatan berada dalam satu kelompok kecil.",
+          "composition": "Sudut buku masuk dari kiri bawah; kalkulator dekat tepi bawah. Bagian atas dan kanan kosong untuk formula serta langkah pertama.",
+          "framing": "Top-down dengan crop dekat; halaman kosong tidak memenuhi frame.",
+          "background": "Lingkungan rumah sederhana dengan permukaan dan dinding netral, tanpa dekorasi ramai.",
+          "lighting": "Cahaya jendela lembut, bayangan alami, tekstur nyata, kontras cukup tanpa suasana dramatis.",
+          "negative_space": "Atas kanan sampai tengah kanan, seluruh formula ditaruh sebagai teks desain.",
+          "text_safe_area": "Atas kanan sampai tengah kanan, seluruh formula ditaruh sebagai teks desain.",
+          "visual_treatment": "Photorealistic, tampak seperti foto editorial nyata; seluruh scene generik dan konseptual.",
+          "constraints": [
+            "Portrait 3:4; dapat digunakan sebagai image utama pada master 1080 × 1440 px.",
+            "Satu foto utuh; tidak membutuhkan compositing objek dari gambar lain.",
+            "Area teks kosong; semua copy ditambahkan di design tool."
+          ],
+          "avoid": [
+            "Tulisan, angka terbaca, watermark, merek, logo, dan identitas nyata.",
+            "Cartoon, vector, flat illustration, infographic, chart, diagram, atau ikon.",
+            "Bentuk objek cacat, properti berlebih, dan tekstur sibuk di area teks."
+          ]
+        },
+        "prompt": "Buat satu foto editorial photorealistic vertikal rasio 3:4, tampak seperti foto nyata, untuk scene generik konseptual. Subjek: Buku catatan kosong terbuka, pena, dan kalkulator polos dengan layar gelap. Scene: Meja rumah bersih, alat pencatatan berada dalam satu kelompok kecil. Komposisi: Sudut buku masuk dari kiri bawah; kalkulator dekat tepi bawah. Bagian atas dan kanan kosong untuk formula serta langkah pertama. Framing: Top-down dengan crop dekat; halaman kosong tidak memenuhi frame. Latar: Lingkungan rumah sederhana dengan permukaan dan dinding netral, tanpa dekorasi ramai. Cahaya: Cahaya jendela lembut, bayangan alami, tekstur nyata, kontras cukup tanpa suasana dramatis. Sisakan area kosong untuk teks yang dipasang kemudian: Atas kanan sampai tengah kanan, seluruh formula ditaruh sebagai teks desain. Hasil berupa satu foto utuh, bukan desain carousel. Jangan hasilkan teks, angka terbaca, logo, merek, watermark, infographic, chart, diagram, ikon, cartoon, atau ilustrasi vektor. Jaga bentuk dan tekstur objek realistis."
+      },
+      "notes": "Asset belum digenerate; prompt untuk eksekusi produksi setelah human review. Scene kreatif, bukan dokumentasi kejadian atau bukti faktual. Satu image cukup; penambahan teks tidak mengubah strategy menjadi hybrid."
+    },
+    {
+      "id": "asset_03",
+      "type": "AI_GENERATED",
+      "description": "Foto tiga amplop kertas polos yang terpisah di meja sebagai metafora pembagian tujuan uang.",
+      "subject": "Tiga amplop kertas nyata, tanpa tulisan, tanpa isi yang terlihat.",
+      "requirements": [
+        "Amplop membentuk kelompok longgar di bagian bawah kanan dengan overlap minimal; ruang atas luas.",
+        "Sepertiga atas hingga tengah kiri; supporting di bawah headline.",
+        "Satu foto photorealistic vertikal 3:4 dengan detail memadai untuk master 1080 × 1440 px.",
+        "Tidak ada copy atau label tertanam dalam gambar."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "Tiga amplop kertas nyata, tanpa tulisan, tanpa isi yang terlihat.",
+          "scene": "Amplop terletak secara alami di meja, tidak disusun menjadi grafik atau ukuran proporsi.",
+          "composition": "Amplop membentuk kelompok longgar di bagian bawah kanan dengan overlap minimal; ruang atas luas.",
+          "framing": "Medium close-up dari sudut miring rendah.",
+          "background": "Lingkungan rumah sederhana dengan permukaan dan dinding netral, tanpa dekorasi ramai.",
+          "lighting": "Cahaya jendela lembut, bayangan alami, tekstur nyata, kontras cukup tanpa suasana dramatis.",
+          "negative_space": "Sepertiga atas hingga tengah kiri; supporting di bawah headline.",
+          "text_safe_area": "Sepertiga atas hingga tengah kiri; supporting di bawah headline.",
+          "visual_treatment": "Photorealistic, tampak seperti foto editorial nyata; seluruh scene generik dan konseptual.",
+          "constraints": [
+            "Portrait 3:4; dapat digunakan sebagai image utama pada master 1080 × 1440 px.",
+            "Satu foto utuh; tidak membutuhkan compositing objek dari gambar lain.",
+            "Area teks kosong; semua copy ditambahkan di design tool."
+          ],
+          "avoid": [
+            "Tulisan, angka terbaca, watermark, merek, logo, dan identitas nyata.",
+            "Cartoon, vector, flat illustration, infographic, chart, diagram, atau ikon.",
+            "Bentuk objek cacat, properti berlebih, dan tekstur sibuk di area teks."
+          ]
+        },
+        "prompt": "Buat satu foto editorial photorealistic vertikal rasio 3:4, tampak seperti foto nyata, untuk scene generik konseptual. Subjek: Tiga amplop kertas nyata, tanpa tulisan, tanpa isi yang terlihat. Scene: Amplop terletak secara alami di meja, tidak disusun menjadi grafik atau ukuran proporsi. Komposisi: Amplop membentuk kelompok longgar di bagian bawah kanan dengan overlap minimal; ruang atas luas. Framing: Medium close-up dari sudut miring rendah. Latar: Lingkungan rumah sederhana dengan permukaan dan dinding netral, tanpa dekorasi ramai. Cahaya: Cahaya jendela lembut, bayangan alami, tekstur nyata, kontras cukup tanpa suasana dramatis. Sisakan area kosong untuk teks yang dipasang kemudian: Sepertiga atas hingga tengah kiri; supporting di bawah headline. Hasil berupa satu foto utuh, bukan desain carousel. Jangan hasilkan teks, angka terbaca, logo, merek, watermark, infographic, chart, diagram, ikon, cartoon, atau ilustrasi vektor. Jaga bentuk dan tekstur objek realistis."
+      },
+      "notes": "Asset belum digenerate; prompt untuk eksekusi produksi setelah human review. Scene kreatif, bukan dokumentasi kejadian atau bukti faktual. Satu image cukup; penambahan teks tidak mengubah strategy menjadi hybrid."
+    },
+    {
+      "id": "asset_04",
+      "type": "AI_GENERATED",
+      "description": "Foto sebuah dompet kecil beritsleting yang terpisah jelas dari dompet harian sebagai metafora pemisahan dana.",
+      "subject": "Satu dompet kecil tertutup dan satu dompet harian polos.",
+      "requirements": [
+        "Dompet kecil tajam di kiri bawah, dompet harian lebih jauh di tepi kanan bawah; bagian atas dan tengah tetap kosong.",
+        "Setengah atas; supporting dalam tiga baris pendek di bawah headline.",
+        "Satu foto photorealistic vertikal 3:4 dengan detail memadai untuk master 1080 × 1440 px.",
+        "Tidak ada copy atau label tertanam dalam gambar."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "Satu dompet kecil tertutup dan satu dompet harian polos.",
+          "scene": "Dua dompet diletakkan di meja yang sama, dengan jarak kosong yang jelas; tanpa uang atau identitas rekening.",
+          "composition": "Dompet kecil tajam di kiri bawah, dompet harian lebih jauh di tepi kanan bawah; bagian atas dan tengah tetap kosong.",
+          "framing": "Close-up setinggi meja, depth of field lembut tetapi kedua dompet tetap dikenali.",
+          "background": "Lingkungan rumah sederhana dengan permukaan dan dinding netral, tanpa dekorasi ramai.",
+          "lighting": "Cahaya jendela lembut, bayangan alami, tekstur nyata, kontras cukup tanpa suasana dramatis.",
+          "negative_space": "Setengah atas; supporting dalam tiga baris pendek di bawah headline.",
+          "text_safe_area": "Setengah atas; supporting dalam tiga baris pendek di bawah headline.",
+          "visual_treatment": "Photorealistic, tampak seperti foto editorial nyata; seluruh scene generik dan konseptual.",
+          "constraints": [
+            "Portrait 3:4; dapat digunakan sebagai image utama pada master 1080 × 1440 px.",
+            "Satu foto utuh; tidak membutuhkan compositing objek dari gambar lain.",
+            "Area teks kosong; semua copy ditambahkan di design tool."
+          ],
+          "avoid": [
+            "Tulisan, angka terbaca, watermark, merek, logo, dan identitas nyata.",
+            "Cartoon, vector, flat illustration, infographic, chart, diagram, atau ikon.",
+            "Bentuk objek cacat, properti berlebih, dan tekstur sibuk di area teks."
+          ]
+        },
+        "prompt": "Buat satu foto editorial photorealistic vertikal rasio 3:4, tampak seperti foto nyata, untuk scene generik konseptual. Subjek: Satu dompet kecil tertutup dan satu dompet harian polos. Scene: Dua dompet diletakkan di meja yang sama, dengan jarak kosong yang jelas; tanpa uang atau identitas rekening. Komposisi: Dompet kecil tajam di kiri bawah, dompet harian lebih jauh di tepi kanan bawah; bagian atas dan tengah tetap kosong. Framing: Close-up setinggi meja, depth of field lembut tetapi kedua dompet tetap dikenali. Latar: Lingkungan rumah sederhana dengan permukaan dan dinding netral, tanpa dekorasi ramai. Cahaya: Cahaya jendela lembut, bayangan alami, tekstur nyata, kontras cukup tanpa suasana dramatis. Sisakan area kosong untuk teks yang dipasang kemudian: Setengah atas; supporting dalam tiga baris pendek di bawah headline. Hasil berupa satu foto utuh, bukan desain carousel. Jangan hasilkan teks, angka terbaca, logo, merek, watermark, infographic, chart, diagram, ikon, cartoon, atau ilustrasi vektor. Jaga bentuk dan tekstur objek realistis."
+      },
+      "notes": "Asset belum digenerate; prompt untuk eksekusi produksi setelah human review. Scene kreatif, bukan dokumentasi kejadian atau bukti faktual. Satu image cukup; penambahan teks tidak mengubah strategy menjadi hybrid."
+    },
+    {
+      "id": "asset_05",
+      "type": "AI_GENERATED",
+      "description": "Foto satu map dokumen ditarik ke depan dari dua map lain sebagai metafora memilih satu utang untuk pembayaran ekstra.",
+      "subject": "Tiga map kertas polos tertutup, satu map berada lebih dekat ke kamera.",
+      "requirements": [
+        "Map terdepan di kanan bawah; dua map lain tetap terlihat di belakang kiri. Bagian atas lapang.",
+        "Atas kiri sampai tengah, supporting dipisah menjadi dua kelompok kalimat.",
+        "Satu foto photorealistic vertikal 3:4 dengan detail memadai untuk master 1080 × 1440 px.",
+        "Tidak ada copy atau label tertanam dalam gambar."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "Tiga map kertas polos tertutup, satu map berada lebih dekat ke kamera.",
+          "scene": "Map di meja rumah, tanpa isi dokumen, identitas kreditur, atau angka yang terlihat.",
+          "composition": "Map terdepan di kanan bawah; dua map lain tetap terlihat di belakang kiri. Bagian atas lapang.",
+          "framing": "Sudut tiga perempat dengan fokus pada map terdepan.",
+          "background": "Lingkungan rumah sederhana dengan permukaan dan dinding netral, tanpa dekorasi ramai.",
+          "lighting": "Cahaya jendela lembut, bayangan alami, tekstur nyata, kontras cukup tanpa suasana dramatis.",
+          "negative_space": "Atas kiri sampai tengah, supporting dipisah menjadi dua kelompok kalimat.",
+          "text_safe_area": "Atas kiri sampai tengah, supporting dipisah menjadi dua kelompok kalimat.",
+          "visual_treatment": "Photorealistic, tampak seperti foto editorial nyata; seluruh scene generik dan konseptual.",
+          "constraints": [
+            "Portrait 3:4; dapat digunakan sebagai image utama pada master 1080 × 1440 px.",
+            "Satu foto utuh; tidak membutuhkan compositing objek dari gambar lain.",
+            "Area teks kosong; semua copy ditambahkan di design tool."
+          ],
+          "avoid": [
+            "Tulisan, angka terbaca, watermark, merek, logo, dan identitas nyata.",
+            "Cartoon, vector, flat illustration, infographic, chart, diagram, atau ikon.",
+            "Bentuk objek cacat, properti berlebih, dan tekstur sibuk di area teks."
+          ]
+        },
+        "prompt": "Buat satu foto editorial photorealistic vertikal rasio 3:4, tampak seperti foto nyata, untuk scene generik konseptual. Subjek: Tiga map kertas polos tertutup, satu map berada lebih dekat ke kamera. Scene: Map di meja rumah, tanpa isi dokumen, identitas kreditur, atau angka yang terlihat. Komposisi: Map terdepan di kanan bawah; dua map lain tetap terlihat di belakang kiri. Bagian atas lapang. Framing: Sudut tiga perempat dengan fokus pada map terdepan. Latar: Lingkungan rumah sederhana dengan permukaan dan dinding netral, tanpa dekorasi ramai. Cahaya: Cahaya jendela lembut, bayangan alami, tekstur nyata, kontras cukup tanpa suasana dramatis. Sisakan area kosong untuk teks yang dipasang kemudian: Atas kiri sampai tengah, supporting dipisah menjadi dua kelompok kalimat. Hasil berupa satu foto utuh, bukan desain carousel. Jangan hasilkan teks, angka terbaca, logo, merek, watermark, infographic, chart, diagram, ikon, cartoon, atau ilustrasi vektor. Jaga bentuk dan tekstur objek realistis."
+      },
+      "notes": "Asset belum digenerate; prompt untuk eksekusi produksi setelah human review. Scene kreatif, bukan dokumentasi kejadian atau bukti faktual. Satu image cukup; penambahan teks tidak mengubah strategy menjadi hybrid."
+    },
+    {
+      "id": "asset_06",
+      "type": "AI_GENERATED",
+      "description": "Foto payung terbuka di dekat pintu rumah sebagai metafora persiapan perlindungan sebelum menghadapi risiko.",
+      "subject": "Satu payung polos terbuka tanpa orang, merek, atau simbol lembaga.",
+      "requirements": [
+        "Payung berada di kanan bawah hingga tengah kanan; dinding polos di kiri menyediakan ruang teks.",
+        "Kiri atas sampai tengah kiri; dua paragraf pendek dengan jarak nyaman.",
+        "Satu foto photorealistic vertikal 3:4 dengan detail memadai untuk master 1080 × 1440 px.",
+        "Tidak ada copy atau label tertanam dalam gambar."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "Satu payung polos terbuka tanpa orang, merek, atau simbol lembaga.",
+          "scene": "Area pintu rumah sederhana dengan lantai sedikit lembap; tidak ada kejadian bencana atau dokumentasi klaim.",
+          "composition": "Payung berada di kanan bawah hingga tengah kanan; dinding polos di kiri menyediakan ruang teks.",
+          "framing": "Medium shot dari sudut frontal sedikit miring; seluruh bentuk utama payung terbaca.",
+          "background": "Lingkungan rumah sederhana dengan permukaan dan dinding netral, tanpa dekorasi ramai.",
+          "lighting": "Cahaya jendela lembut, bayangan alami, tekstur nyata, kontras cukup tanpa suasana dramatis.",
+          "negative_space": "Kiri atas sampai tengah kiri; dua paragraf pendek dengan jarak nyaman.",
+          "text_safe_area": "Kiri atas sampai tengah kiri; dua paragraf pendek dengan jarak nyaman.",
+          "visual_treatment": "Photorealistic, tampak seperti foto editorial nyata; seluruh scene generik dan konseptual.",
+          "constraints": [
+            "Portrait 3:4; dapat digunakan sebagai image utama pada master 1080 × 1440 px.",
+            "Satu foto utuh; tidak membutuhkan compositing objek dari gambar lain.",
+            "Area teks kosong; semua copy ditambahkan di design tool."
+          ],
+          "avoid": [
+            "Tulisan, angka terbaca, watermark, merek, logo, dan identitas nyata.",
+            "Cartoon, vector, flat illustration, infographic, chart, diagram, atau ikon.",
+            "Bentuk objek cacat, properti berlebih, dan tekstur sibuk di area teks."
+          ]
+        },
+        "prompt": "Buat satu foto editorial photorealistic vertikal rasio 3:4, tampak seperti foto nyata, untuk scene generik konseptual. Subjek: Satu payung polos terbuka tanpa orang, merek, atau simbol lembaga. Scene: Area pintu rumah sederhana dengan lantai sedikit lembap; tidak ada kejadian bencana atau dokumentasi klaim. Komposisi: Payung berada di kanan bawah hingga tengah kanan; dinding polos di kiri menyediakan ruang teks. Framing: Medium shot dari sudut frontal sedikit miring; seluruh bentuk utama payung terbaca. Latar: Lingkungan rumah sederhana dengan permukaan dan dinding netral, tanpa dekorasi ramai. Cahaya: Cahaya jendela lembut, bayangan alami, tekstur nyata, kontras cukup tanpa suasana dramatis. Sisakan area kosong untuk teks yang dipasang kemudian: Kiri atas sampai tengah kiri; dua paragraf pendek dengan jarak nyaman. Hasil berupa satu foto utuh, bukan desain carousel. Jangan hasilkan teks, angka terbaca, logo, merek, watermark, infographic, chart, diagram, ikon, cartoon, atau ilustrasi vektor. Jaga bentuk dan tekstur objek realistis."
+      },
+      "notes": "Asset belum digenerate; prompt untuk eksekusi produksi setelah human review. Scene kreatif, bukan dokumentasi kejadian atau bukti faktual. Satu image cukup; penambahan teks tidak mengubah strategy menjadi hybrid."
+    },
+    {
+      "id": "asset_07",
+      "type": "AI_GENERATED",
+      "description": "Foto buku rencana terbuka dengan pena yang diletakkan siap pakai sebagai penutup tentang keputusan yang disesuaikan dengan kondisi.",
+      "subject": "Sebuah buku kosong terbuka dan satu pena polos.",
+      "requirements": [
+        "Buku dan pena berada di bagian bawah tengah; cahaya jendela jatuh dari kiri, area atas tenang dan kosong.",
+        "Setengah atas; headline diikuti tiga kalimat pendek, tanpa daftar produk.",
+        "Satu foto photorealistic vertikal 3:4 dengan detail memadai untuk master 1080 × 1440 px.",
+        "Tidak ada copy atau label tertanam dalam gambar."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "Sebuah buku kosong terbuka dan satu pena polos.",
+          "scene": "Meja dekat jendela rumah; suasana tenang, tanpa orang, aset investasi, atau simbol kekayaan.",
+          "composition": "Buku dan pena berada di bagian bawah tengah; cahaya jendela jatuh dari kiri, area atas tenang dan kosong.",
+          "framing": "Medium shot dari sudut tiga perempat yang lebih lebar daripada slide 2; tidak ada kalkulator.",
+          "background": "Lingkungan rumah sederhana dengan permukaan dan dinding netral, tanpa dekorasi ramai.",
+          "lighting": "Cahaya jendela lembut, bayangan alami, tekstur nyata, kontras cukup tanpa suasana dramatis.",
+          "negative_space": "Setengah atas; headline diikuti tiga kalimat pendek, tanpa daftar produk.",
+          "text_safe_area": "Setengah atas; headline diikuti tiga kalimat pendek, tanpa daftar produk.",
+          "visual_treatment": "Photorealistic, tampak seperti foto editorial nyata; seluruh scene generik dan konseptual.",
+          "constraints": [
+            "Portrait 3:4; dapat digunakan sebagai image utama pada master 1080 × 1440 px.",
+            "Satu foto utuh; tidak membutuhkan compositing objek dari gambar lain.",
+            "Area teks kosong; semua copy ditambahkan di design tool."
+          ],
+          "avoid": [
+            "Tulisan, angka terbaca, watermark, merek, logo, dan identitas nyata.",
+            "Cartoon, vector, flat illustration, infographic, chart, diagram, atau ikon.",
+            "Bentuk objek cacat, properti berlebih, dan tekstur sibuk di area teks."
+          ]
+        },
+        "prompt": "Buat satu foto editorial photorealistic vertikal rasio 3:4, tampak seperti foto nyata, untuk scene generik konseptual. Subjek: Sebuah buku kosong terbuka dan satu pena polos. Scene: Meja dekat jendela rumah; suasana tenang, tanpa orang, aset investasi, atau simbol kekayaan. Komposisi: Buku dan pena berada di bagian bawah tengah; cahaya jendela jatuh dari kiri, area atas tenang dan kosong. Framing: Medium shot dari sudut tiga perempat yang lebih lebar daripada slide 2; tidak ada kalkulator. Latar: Lingkungan rumah sederhana dengan permukaan dan dinding netral, tanpa dekorasi ramai. Cahaya: Cahaya jendela lembut, bayangan alami, tekstur nyata, kontras cukup tanpa suasana dramatis. Sisakan area kosong untuk teks yang dipasang kemudian: Setengah atas; headline diikuti tiga kalimat pendek, tanpa daftar produk. Hasil berupa satu foto utuh, bukan desain carousel. Jangan hasilkan teks, angka terbaca, logo, merek, watermark, infographic, chart, diagram, ikon, cartoon, atau ilustrasi vektor. Jaga bentuk dan tekstur objek realistis."
+      },
+      "notes": "Asset belum digenerate; prompt untuk eksekusi produksi setelah human review. Scene kreatif, bukan dokumentasi kejadian atau bukti faktual. Satu image cukup; penambahan teks tidak mengubah strategy menjadi hybrid."
+    }
+  ],
+  "production": {
+    "global_instructions": [
+      {
+        "step": 1,
+        "action": "REVIEW",
+        "instruction": "Status NEEDS_REVIEW: reviewer menilai fakta, editorial, copy, visual, dan kelayakan sebelum operator menjalankan produksi. Run manual ini hanya menghasilkan brief JSON; tidak menghasilkan image atau final design."
+      },
+      {
+        "step": 2,
+        "action": "SETUP",
+        "instruction": "Gunakan satu master tujuh slide 3:4, 1080 × 1440 px sesuai default V0 karena fixture tidak menetapkan canvas. Master yang sama untuk Instagram dan TikTok; tidak ada adaptasi konten per platform."
+      },
+      {
+        "step": 3,
+        "action": "SETUP",
+        "instruction": "Gunakan satu image photorealistic utuh per slide dengan cahaya lembut dan tekstur objek rumah yang realistis. Pertahankan variasi framing yang ditetapkan. Ini treatment kreatif sementara run, bukan brand identity."
+      },
+      {
+        "step": 4,
+        "action": "ADD_TEXT",
+        "instruction": "Semua headline, supporting, dan emphasis dipasang sebagai teks editable di design tool. Jaga hierarchy konsisten: headline dominan, supporting lebih ringan, emphasis melalui bobot teks. Gunakan identitas brand yang tersedia saat produksi; jangan menciptakan logo, palet final, atau font brand dalam run ini."
+      },
+      {
+        "step": 5,
+        "action": "COMPOSE",
+        "instruction": "Batasi pekerjaan desain pada import image, crop, resize/reposition, gradient ringan untuk readability bila perlu, dan typography. Foto tetap visual utama; tidak ada custom graphic component atau diagram yang perlu dibuat."
+      },
+      {
+        "step": 6,
+        "action": "REVIEW",
+        "instruction": "Periksa ketepatan copy, minimum pembayaran seluruh utang, batas kebutuhan asuransi jiwa, dan prioritas yang dapat berjalan bersamaan. Jangan memindahkan nuansa penting ke caption atau menambahkan angka, janji hasil, dan atribusi lembaga."
+      },
+      {
+        "step": 7,
+        "action": "REVIEW",
+        "instruction": "Periksa rangkaian pada tampilan ponsel: ruang teks tetap lapang, setiap slide membawa satu pesan, semua objek wajar, dan transisi logis. Sumber internal ada pada claims; tidak diperlukan visible citation untuk penjelasan dasar yang dipilih. Jangan mencetak penanda sitasi internal dari fixture sebagai tautan publik."
+      }
+    ]
+  },
+  "slides": [
+    {
+      "id": "slide_01",
+      "index": 1,
+      "role": "hook",
+      "purpose": "Membuka dengan pertanyaan tentang daya tahan kas yang akan dijawab melalui prioritas pada slide berikutnya.",
+      "core_message": "Periksa ketahanan keuangan sebelum mengejar imbal hasil.",
+      "copy": {
+        "headline": "Kalau ada tagihan mendadak, harus berutang?",
+        "supporting": "Bangun ketahanan keuangan sebelum mengejar imbal hasil.",
+        "emphasis": [
+          {
+            "text": "ketahanan keuangan",
+            "level": "PRIMARY"
+          }
+        ],
+        "cta": null
+      },
+      "claim_ids": [
+        "claim_01"
+      ],
+      "visual": {
+        "function": "CONTEXTUALIZE",
+        "primary": {
+          "concept": "Foto konseptual dompet terbuka di dekat kunci pas kecil: kebutuhan perbaikan bertemu kesiapan kas.",
+          "subject": "Dompet kulit polos terbuka dan sebuah kunci pas logam kecil.",
+          "scene": "Kedua objek berada di meja rumah sederhana; bagian dalam dompet tidak memperlihatkan uang atau kartu.",
+          "composition": "Dompet menjadi hero di kanan bawah, kunci pas terpisah di sampingnya; setengah atas dan kiri meja lapang.",
+          "framing": "Close-up dari sudut tiga perempat, bukan flat lay.",
+          "background": "Lingkungan rumah sederhana dengan permukaan dan dinding netral, tanpa dekorasi ramai.",
+          "lighting": "Cahaya jendela lembut, bayangan alami, tekstur nyata, kontras cukup tanpa suasana dramatis.",
+          "negative_space": "Kiri atas sampai tengah kiri; headline di atas supporting.",
+          "text_zone": "Kiri atas sampai tengah kiri; headline di atas supporting.",
+          "visual_hierarchy": "Headline, dompet, supporting, lalu kunci pas sebagai konteks sekunder.",
+          "editing_treatment": "Gunakan foto sebagai image utama. Crop dan reposition ringan mengikuti zona teks; tambahkan gradient lembut hanya jika diperlukan untuk readability. Copy tetap editable.",
+          "rationale": "Kunci pas melambangkan kebutuhan perbaikan mendadak tanpa membuat klaim bahwa kejadian tertentu benar-benar dialami seseorang."
+        },
+        "fallback": null
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_01"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Setelah brief disetujui reviewer, buka platform image generation yang biasa digunakan. Jalankan prompt pada asset_01.generation.prompt untuk menghasilkan beberapa kandidat foto vertikal 3:4."
+        },
+        {
+          "step": 2,
+          "action": "SELECT",
+          "instruction": "Pilih dompet yang terbaca jelas, kunci pas kecil yang terpisah, dan ruang kiri atas yang bersih; jangan gunakan uang, tagihan palsu, atau wajah panik. Jika belum ada yang memenuhi, ulangi prompt asset yang sama; jangan mengisi zona teks dengan objek tambahan."
+        },
+        {
+          "step": 3,
+          "action": "SAVE",
+          "instruction": "Simpan kandidat terpilih dengan nama asset_01.png agar mudah dicocokkan dengan slide_01."
+        },
+        {
+          "step": 4,
+          "action": "IMPORT",
+          "instruction": "Import asset_01.png ke slide 1 pada master 1080 × 1440 px."
+        },
+        {
+          "step": 5,
+          "action": "CROP",
+          "instruction": "Dompet menjadi hero di kanan bawah, kunci pas terpisah di sampingnya; setengah atas dan kiri meja lapang. Reposition seperlunya tanpa menutupi zona teks: Kiri atas sampai tengah kiri; headline di atas supporting."
+        },
+        {
+          "step": 6,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang headline dan supporting persis dari copy, dengan line break yang tersedia. Beri penekanan tipografis pada ketahanan keuangan. Headline, dompet, supporting, lalu kunci pas sebagai konteks sekunder."
+        },
+        {
+          "step": 7,
+          "action": "ADJUST",
+          "instruction": "Jaga kontras teks terhadap foto; gunakan gradient ringan hanya bila perlu. Jika terasa penuh, perbesar ruang teks dengan crop/reposition image sebelum mengecilkan teks."
+        },
+        {
+          "step": 8,
+          "action": "REVIEW",
+          "instruction": "Pertanyaan harus terbaca sebagai ajakan mengecek kondisi sendiri, bukan klaim bahwa semua pembaca pasti berutang. Periksa readability pada ukuran tampilan ponsel dan kecocokan treatment dengan slide di sebelahnya."
+        }
+      ]
+    },
+    {
+      "id": "slide_02",
+      "index": 2,
+      "role": "diagnosis",
+      "purpose": "Menjawab pertanyaan cover dengan langkah pertama yang dapat dilakukan: mengetahui uang masuk dan keluar sebelum membuat alokasi.",
+      "core_message": "Ketahui arus kas untuk melihat ruang keuangan yang tersedia.",
+      "copy": {
+        "headline": "Mulai dari uang masuk dan keluar.",
+        "supporting": "Arus kas = pendapatan bersih − seluruh pengeluaran.\nCatat selama 30 hari untuk melihat kondisimu. Target awal: positif secara konsisten.",
+        "emphasis": [
+          {
+            "text": "Arus kas",
+            "level": "PRIMARY"
+          }
+        ],
+        "cta": null
+      },
+      "claim_ids": [
+        "claim_02",
+        "claim_03"
+      ],
+      "visual": {
+        "function": "CONTEXTUALIZE",
+        "primary": {
+          "concept": "Foto buku catatan terbuka dan kalkulator tanpa angka terbaca, sebagai konteks pencatatan arus kas.",
+          "subject": "Buku catatan kosong terbuka, pena, dan kalkulator polos dengan layar gelap.",
+          "scene": "Meja rumah bersih, alat pencatatan berada dalam satu kelompok kecil.",
+          "composition": "Sudut buku masuk dari kiri bawah; kalkulator dekat tepi bawah. Bagian atas dan kanan kosong untuk formula serta langkah pertama.",
+          "framing": "Top-down dengan crop dekat; halaman kosong tidak memenuhi frame.",
+          "background": "Lingkungan rumah sederhana dengan permukaan dan dinding netral, tanpa dekorasi ramai.",
+          "lighting": "Cahaya jendela lembut, bayangan alami, tekstur nyata, kontras cukup tanpa suasana dramatis.",
+          "negative_space": "Atas kanan sampai tengah kanan, seluruh formula ditaruh sebagai teks desain.",
+          "text_zone": "Atas kanan sampai tengah kanan, seluruh formula ditaruh sebagai teks desain.",
+          "visual_hierarchy": "Headline, formula dalam supporting, buku dan kalkulator, lalu kalimat langkah awal.",
+          "editing_treatment": "Gunakan foto sebagai image utama. Crop dan reposition ringan mengikuti zona teks; tambahkan gradient lembut hanya jika diperlukan untuk readability. Copy tetap editable.",
+          "rationale": "Foto memberi konteks kegiatan; formula yang menjelaskan arus kas tetap berupa teks editable dan tidak bergantung pada angka hasil generator."
+        },
+        "fallback": null
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_02"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Setelah brief disetujui reviewer, buka platform image generation yang biasa digunakan. Jalankan prompt pada asset_02.generation.prompt untuk menghasilkan beberapa kandidat foto vertikal 3:4."
+        },
+        {
+          "step": 2,
+          "action": "SELECT",
+          "instruction": "Pilih halaman kosong, layar gelap, bentuk kalkulator wajar, dan ruang kanan yang cukup; jangan memilih gambar dengan tabel atau angka rekaan. Jika belum ada yang memenuhi, ulangi prompt asset yang sama; jangan mengisi zona teks dengan objek tambahan."
+        },
+        {
+          "step": 3,
+          "action": "SAVE",
+          "instruction": "Simpan kandidat terpilih dengan nama asset_02.png agar mudah dicocokkan dengan slide_02."
+        },
+        {
+          "step": 4,
+          "action": "IMPORT",
+          "instruction": "Import asset_02.png ke slide 2 pada master 1080 × 1440 px."
+        },
+        {
+          "step": 5,
+          "action": "CROP",
+          "instruction": "Sudut buku masuk dari kiri bawah; kalkulator dekat tepi bawah. Bagian atas dan kanan kosong untuk formula serta langkah pertama. Reposition seperlunya tanpa menutupi zona teks: Atas kanan sampai tengah kanan, seluruh formula ditaruh sebagai teks desain."
+        },
+        {
+          "step": 6,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang headline dan supporting persis dari copy, dengan line break yang tersedia. Beri penekanan tipografis pada Arus kas. Headline, formula dalam supporting, buku dan kalkulator, lalu kalimat langkah awal."
+        },
+        {
+          "step": 7,
+          "action": "ADJUST",
+          "instruction": "Jaga kontras teks terhadap foto; gunakan gradient ringan hanya bila perlu. Jika terasa penuh, perbesar ruang teks dengan crop/reposition image sebelum mengecilkan teks."
+        },
+        {
+          "step": 8,
+          "action": "REVIEW",
+          "instruction": "Pertahankan istilah pendapatan bersih dan seluruh pengeluaran; jangan menambahkan contoh angka dari luar fixture. Periksa readability pada ukuran tampilan ponsel dan kecocokan treatment dengan slide di sebelahnya."
+        }
+      ]
+    },
+    {
+      "id": "slide_03",
+      "index": 3,
+      "role": "allocation",
+      "purpose": "Mengubah pengetahuan arus kas pada slide 2 menjadi rencana penggunaan pendapatan.",
+      "core_message": "Anggaran memberi alokasi pada uang, termasuk tabungan.",
+      "copy": {
+        "headline": "Beri tujuan pada pendapatanmu.",
+        "supporting": "Alokasikan untuk kebutuhan, cicilan, dan tabungan.\nTotal alokasi jangan melebihi pendapatan. Tabungan juga punya tempat dalam anggaran.",
+        "emphasis": [
+          {
+            "text": "Tabungan",
+            "level": "PRIMARY"
+          }
+        ],
+        "cta": null
+      },
+      "claim_ids": [
+        "claim_04"
+      ],
+      "visual": {
+        "function": "SYMBOLIZE",
+        "primary": {
+          "concept": "Foto tiga amplop kertas polos yang terpisah di meja sebagai metafora pembagian tujuan uang.",
+          "subject": "Tiga amplop kertas nyata, tanpa tulisan, tanpa isi yang terlihat.",
+          "scene": "Amplop terletak secara alami di meja, tidak disusun menjadi grafik atau ukuran proporsi.",
+          "composition": "Amplop membentuk kelompok longgar di bagian bawah kanan dengan overlap minimal; ruang atas luas.",
+          "framing": "Medium close-up dari sudut miring rendah.",
+          "background": "Lingkungan rumah sederhana dengan permukaan dan dinding netral, tanpa dekorasi ramai.",
+          "lighting": "Cahaya jendela lembut, bayangan alami, tekstur nyata, kontras cukup tanpa suasana dramatis.",
+          "negative_space": "Sepertiga atas hingga tengah kiri; supporting di bawah headline.",
+          "text_zone": "Sepertiga atas hingga tengah kiri; supporting di bawah headline.",
+          "visual_hierarchy": "Headline, kelompok amplop, supporting dengan penekanan pada Tabungan.",
+          "editing_treatment": "Gunakan foto sebagai image utama. Crop dan reposition ringan mengikuti zona teks; tambahkan gradient lembut hanya jika diperlukan untuk readability. Copy tetap editable.",
+          "rationale": "Amplop hanya metafora alokasi; slide tidak mewajibkan metode amplop dan tidak mengajarkan rasio tertentu."
+        },
+        "fallback": null
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_03"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Setelah brief disetujui reviewer, buka platform image generation yang biasa digunakan. Jalankan prompt pada asset_03.generation.prompt untuk menghasilkan beberapa kandidat foto vertikal 3:4."
+        },
+        {
+          "step": 2,
+          "action": "SELECT",
+          "instruction": "Pilih tiga amplop polos dengan tepian realistis; tidak ada label, angka, uang, atau susunan seperti chart. Jika belum ada yang memenuhi, ulangi prompt asset yang sama; jangan mengisi zona teks dengan objek tambahan."
+        },
+        {
+          "step": 3,
+          "action": "SAVE",
+          "instruction": "Simpan kandidat terpilih dengan nama asset_03.png agar mudah dicocokkan dengan slide_03."
+        },
+        {
+          "step": 4,
+          "action": "IMPORT",
+          "instruction": "Import asset_03.png ke slide 3 pada master 1080 × 1440 px."
+        },
+        {
+          "step": 5,
+          "action": "CROP",
+          "instruction": "Amplop membentuk kelompok longgar di bagian bawah kanan dengan overlap minimal; ruang atas luas. Reposition seperlunya tanpa menutupi zona teks: Sepertiga atas hingga tengah kiri; supporting di bawah headline."
+        },
+        {
+          "step": 6,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang headline dan supporting persis dari copy, dengan line break yang tersedia. Beri penekanan tipografis pada Tabungan. Headline, kelompok amplop, supporting dengan penekanan pada Tabungan."
+        },
+        {
+          "step": 7,
+          "action": "ADJUST",
+          "instruction": "Jaga kontras teks terhadap foto; gunakan gradient ringan hanya bila perlu. Jika terasa penuh, perbesar ruang teks dengan crop/reposition image sebelum mengecilkan teks."
+        },
+        {
+          "step": 8,
+          "action": "REVIEW",
+          "instruction": "Jangan memberi label pada tiap amplop atau menambahkan persentase. Pastikan tabungan terbaca sebagai bagian alokasi, bukan sisa konsumsi. Periksa readability pada ukuran tampilan ponsel dan kecocokan treatment dengan slide di sebelahnya."
+        }
+      ]
+    },
+    {
+      "id": "slide_04",
+      "index": 4,
+      "role": "buffer",
+      "purpose": "Menjelaskan tujuan perlindungan kas dari alokasi pada slide 3 sebelum membahas pembayaran ekstra utang.",
+      "core_message": "Bangun dana darurat secara bertahap dalam tempat terpisah yang mudah dicairkan.",
+      "copy": {
+        "headline": "Sisihkan bantalan untuk kejadian mendadak.",
+        "supporting": "Mulai sesuai kemampuan, lalu bangun bertahap.\nPisahkan dana darurat dan simpan agar mudah dicairkan. Tentukan target dari biaya esensial dan kondisi rumah tanggamu.",
+        "emphasis": [
+          {
+            "text": "dana darurat",
+            "level": "PRIMARY"
+          }
+        ],
+        "cta": null
+      },
+      "claim_ids": [
+        "claim_05"
+      ],
+      "visual": {
+        "function": "SYMBOLIZE",
+        "primary": {
+          "concept": "Foto sebuah dompet kecil beritsleting yang terpisah jelas dari dompet harian sebagai metafora pemisahan dana.",
+          "subject": "Satu dompet kecil tertutup dan satu dompet harian polos.",
+          "scene": "Dua dompet diletakkan di meja yang sama, dengan jarak kosong yang jelas; tanpa uang atau identitas rekening.",
+          "composition": "Dompet kecil tajam di kiri bawah, dompet harian lebih jauh di tepi kanan bawah; bagian atas dan tengah tetap kosong.",
+          "framing": "Close-up setinggi meja, depth of field lembut tetapi kedua dompet tetap dikenali.",
+          "background": "Lingkungan rumah sederhana dengan permukaan dan dinding netral, tanpa dekorasi ramai.",
+          "lighting": "Cahaya jendela lembut, bayangan alami, tekstur nyata, kontras cukup tanpa suasana dramatis.",
+          "negative_space": "Setengah atas; supporting dalam tiga baris pendek di bawah headline.",
+          "text_zone": "Setengah atas; supporting dalam tiga baris pendek di bawah headline.",
+          "visual_hierarchy": "Headline, dompet kecil sebagai hero, supporting, dompet harian sebagai konteks.",
+          "editing_treatment": "Gunakan foto sebagai image utama. Crop dan reposition ringan mengikuti zona teks; tambahkan gradient lembut hanya jika diperlukan untuk readability. Copy tetap editable.",
+          "rationale": "Pemisahan fisik adalah metafora, bukan rekomendasi menyimpan seluruh dana darurat dalam uang tunai. Likuiditas dijelaskan oleh copy."
+        },
+        "fallback": null
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_04"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Setelah brief disetujui reviewer, buka platform image generation yang biasa digunakan. Jalankan prompt pada asset_04.generation.prompt untuk menghasilkan beberapa kandidat foto vertikal 3:4."
+        },
+        {
+          "step": 2,
+          "action": "SELECT",
+          "instruction": "Pilih dua dompet tanpa merek dengan jarak terlihat; dompet kecil harus menjadi fokus tanpa uang tunai yang terlihat. Jika belum ada yang memenuhi, ulangi prompt asset yang sama; jangan mengisi zona teks dengan objek tambahan."
+        },
+        {
+          "step": 3,
+          "action": "SAVE",
+          "instruction": "Simpan kandidat terpilih dengan nama asset_04.png agar mudah dicocokkan dengan slide_04."
+        },
+        {
+          "step": 4,
+          "action": "IMPORT",
+          "instruction": "Import asset_04.png ke slide 4 pada master 1080 × 1440 px."
+        },
+        {
+          "step": 5,
+          "action": "CROP",
+          "instruction": "Dompet kecil tajam di kiri bawah, dompet harian lebih jauh di tepi kanan bawah; bagian atas dan tengah tetap kosong. Reposition seperlunya tanpa menutupi zona teks: Setengah atas; supporting dalam tiga baris pendek di bawah headline."
+        },
+        {
+          "step": 6,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang headline dan supporting persis dari copy, dengan line break yang tersedia. Beri penekanan tipografis pada dana darurat. Headline, dompet kecil sebagai hero, supporting, dompet harian sebagai konteks."
+        },
+        {
+          "step": 7,
+          "action": "ADJUST",
+          "instruction": "Jaga kontras teks terhadap foto; gunakan gradient ringan hanya bila perlu. Jika terasa penuh, perbesar ruang teks dengan crop/reposition image sebelum mengecilkan teks."
+        },
+        {
+          "step": 8,
+          "action": "REVIEW",
+          "instruction": "Jangan tambahkan nominal target universal atau persentase. Visual tidak boleh menyiratkan dompet fisik sebagai satu-satunya tempat penyimpanan. Periksa readability pada ukuran tampilan ponsel dan kecocokan treatment dengan slide di sebelahnya."
+        }
+      ]
+    },
+    {
+      "id": "slide_05",
+      "index": 5,
+      "role": "debt_priority",
+      "purpose": "Setelah bantalan kas diperkenalkan, menjelaskan cara memprioritaskan pembayaran ekstra sambil tetap memenuhi kewajiban rutin.",
+      "core_message": "Bayar minimum tepat waktu, pertahankan bantalan kas, dan arahkan tambahan ke utang berbunga tertinggi sebagai satu cara prioritisasi.",
+      "copy": {
+        "headline": "Arahkan uang ekstra ke utang mahal.",
+        "supporting": "Bayar minimum semua utang tepat waktu; tetap sisakan bantalan kas.\nSalah satu cara: arahkan tambahan ke utang berbunga tertinggi terlebih dahulu.",
+        "emphasis": [
+          {
+            "text": "berbunga tertinggi",
+            "level": "PRIMARY"
+          }
+        ],
+        "cta": null
+      },
+      "claim_ids": [
+        "claim_06",
+        "claim_07"
+      ],
+      "visual": {
+        "function": "CONTEXTUALIZE",
+        "primary": {
+          "concept": "Foto satu map dokumen ditarik ke depan dari dua map lain sebagai metafora memilih satu utang untuk pembayaran ekstra.",
+          "subject": "Tiga map kertas polos tertutup, satu map berada lebih dekat ke kamera.",
+          "scene": "Map di meja rumah, tanpa isi dokumen, identitas kreditur, atau angka yang terlihat.",
+          "composition": "Map terdepan di kanan bawah; dua map lain tetap terlihat di belakang kiri. Bagian atas lapang.",
+          "framing": "Sudut tiga perempat dengan fokus pada map terdepan.",
+          "background": "Lingkungan rumah sederhana dengan permukaan dan dinding netral, tanpa dekorasi ramai.",
+          "lighting": "Cahaya jendela lembut, bayangan alami, tekstur nyata, kontras cukup tanpa suasana dramatis.",
+          "negative_space": "Atas kiri sampai tengah, supporting dipisah menjadi dua kelompok kalimat.",
+          "text_zone": "Atas kiri sampai tengah, supporting dipisah menjadi dua kelompok kalimat.",
+          "visual_hierarchy": "Headline, kalimat bayar minimum, map terdepan, lalu kalimat tentang pembayaran ekstra.",
+          "editing_treatment": "Gunakan foto sebagai image utama. Crop dan reposition ringan mengikuti zona teks; tambahkan gradient lembut hanya jika diperlukan untuk readability. Copy tetap editable.",
+          "rationale": "Prioritas visual tidak menyiratkan dua utang lain diabaikan; pembayaran minimum seluruh utang tetap eksplisit pada copy."
+        },
+        "fallback": null
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_05"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Setelah brief disetujui reviewer, buka platform image generation yang biasa digunakan. Jalankan prompt pada asset_05.generation.prompt untuk menghasilkan beberapa kandidat foto vertikal 3:4."
+        },
+        {
+          "step": 2,
+          "action": "SELECT",
+          "instruction": "Pilih tiga map yang terpisah secara visual dengan satu map di depan; hindari cap lunas, nominal, logo, atau grafik bunga. Jika belum ada yang memenuhi, ulangi prompt asset yang sama; jangan mengisi zona teks dengan objek tambahan."
+        },
+        {
+          "step": 3,
+          "action": "SAVE",
+          "instruction": "Simpan kandidat terpilih dengan nama asset_05.png agar mudah dicocokkan dengan slide_05."
+        },
+        {
+          "step": 4,
+          "action": "IMPORT",
+          "instruction": "Import asset_05.png ke slide 5 pada master 1080 × 1440 px."
+        },
+        {
+          "step": 5,
+          "action": "CROP",
+          "instruction": "Map terdepan di kanan bawah; dua map lain tetap terlihat di belakang kiri. Bagian atas lapang. Reposition seperlunya tanpa menutupi zona teks: Atas kiri sampai tengah, supporting dipisah menjadi dua kelompok kalimat."
+        },
+        {
+          "step": 6,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang headline dan supporting persis dari copy, dengan line break yang tersedia. Beri penekanan tipografis pada berbunga tertinggi. Headline, kalimat bayar minimum, map terdepan, lalu kalimat tentang pembayaran ekstra."
+        },
+        {
+          "step": 7,
+          "action": "ADJUST",
+          "instruction": "Jaga kontras teks terhadap foto; gunakan gradient ringan hanya bila perlu. Jika terasa penuh, perbesar ruang teks dengan crop/reposition image sebelum mengecilkan teks."
+        },
+        {
+          "step": 8,
+          "action": "REVIEW",
+          "instruction": "Pembayaran minimum seluruh utang dan bantalan kas wajib tetap terbaca; jangan tampilkan strategi ini sebagai satu-satunya cara atau janji cepat lunas. Periksa readability pada ukuran tampilan ponsel dan kecocokan treatment dengan slide di sebelahnya."
+        }
+      ]
+    },
+    {
+      "id": "slide_06",
+      "index": 6,
+      "role": "risk_protection",
+      "purpose": "Melengkapi bantalan kas dan pengendalian utang dengan pemeriksaan risiko besar yang sulit ditanggung sendiri.",
+      "core_message": "Periksa perlindungan kesehatan dan kebutuhan perlindungan tanggungan, dengan memahami isi polis.",
+      "copy": {
+        "headline": "Periksa perlindungan untuk risiko besar.",
+        "supporting": "Cek perlindungan kesehatanmu. Jika ada yang bergantung pada penghasilanmu, evaluasi kebutuhan asuransi jiwa.\nSebelum membeli polis, pahami manfaat, pengecualian, batas manfaat, dan cara klaim.",
+        "emphasis": [
+          {
+            "text": "risiko besar",
+            "level": "PRIMARY"
+          }
+        ],
+        "cta": null
+      },
+      "claim_ids": [
+        "claim_08",
+        "claim_09"
+      ],
+      "visual": {
+        "function": "SYMBOLIZE",
+        "primary": {
+          "concept": "Foto payung terbuka di dekat pintu rumah sebagai metafora persiapan perlindungan sebelum menghadapi risiko.",
+          "subject": "Satu payung polos terbuka tanpa orang, merek, atau simbol lembaga.",
+          "scene": "Area pintu rumah sederhana dengan lantai sedikit lembap; tidak ada kejadian bencana atau dokumentasi klaim.",
+          "composition": "Payung berada di kanan bawah hingga tengah kanan; dinding polos di kiri menyediakan ruang teks.",
+          "framing": "Medium shot dari sudut frontal sedikit miring; seluruh bentuk utama payung terbaca.",
+          "background": "Lingkungan rumah sederhana dengan permukaan dan dinding netral, tanpa dekorasi ramai.",
+          "lighting": "Cahaya jendela lembut, bayangan alami, tekstur nyata, kontras cukup tanpa suasana dramatis.",
+          "negative_space": "Kiri atas sampai tengah kiri; dua paragraf pendek dengan jarak nyaman.",
+          "text_zone": "Kiri atas sampai tengah kiri; dua paragraf pendek dengan jarak nyaman.",
+          "visual_hierarchy": "Headline, supporting tentang kebutuhan perlindungan, payung, lalu kalimat pemeriksaan polis.",
+          "editing_treatment": "Gunakan foto sebagai image utama. Crop dan reposition ringan mengikuti zona teks; tambahkan gradient lembut hanya jika diperlukan untuk readability. Copy tetap editable.",
+          "rationale": "Payung adalah metafora perlindungan, bukan jaminan bahwa setiap risiko ditanggung. Pengecualian dan batas manfaat tetap disebut."
+        },
+        "fallback": null
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_06"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Setelah brief disetujui reviewer, buka platform image generation yang biasa digunakan. Jalankan prompt pada asset_06.generation.prompt untuk menghasilkan beberapa kandidat foto vertikal 3:4."
+        },
+        {
+          "step": 2,
+          "action": "SELECT",
+          "instruction": "Pilih payung dengan rusuk dan kain yang realistis serta dinding kiri kosong; tanpa logo asuransi atau ikon kesehatan. Jika belum ada yang memenuhi, ulangi prompt asset yang sama; jangan mengisi zona teks dengan objek tambahan."
+        },
+        {
+          "step": 3,
+          "action": "SAVE",
+          "instruction": "Simpan kandidat terpilih dengan nama asset_06.png agar mudah dicocokkan dengan slide_06."
+        },
+        {
+          "step": 4,
+          "action": "IMPORT",
+          "instruction": "Import asset_06.png ke slide 6 pada master 1080 × 1440 px."
+        },
+        {
+          "step": 5,
+          "action": "CROP",
+          "instruction": "Payung berada di kanan bawah hingga tengah kanan; dinding polos di kiri menyediakan ruang teks. Reposition seperlunya tanpa menutupi zona teks: Kiri atas sampai tengah kiri; dua paragraf pendek dengan jarak nyaman."
+        },
+        {
+          "step": 6,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang headline dan supporting persis dari copy, dengan line break yang tersedia. Beri penekanan tipografis pada risiko besar. Headline, supporting tentang kebutuhan perlindungan, payung, lalu kalimat pemeriksaan polis."
+        },
+        {
+          "step": 7,
+          "action": "ADJUST",
+          "instruction": "Jaga kontras teks terhadap foto; gunakan gradient ringan hanya bila perlu. Jika terasa penuh, perbesar ruang teks dengan crop/reposition image sebelum mengecilkan teks."
+        },
+        {
+          "step": 8,
+          "action": "REVIEW",
+          "instruction": "Jangan mengganti evaluasi kebutuhan dengan perintah membeli produk tertentu. Pastikan kondisi adanya tanggungan dan pengecualian polis tidak hilang. Periksa readability pada ukuran tampilan ponsel dan kecocokan treatment dengan slide di sebelahnya."
+        }
+      ]
+    },
+    {
+      "id": "slide_07",
+      "index": 7,
+      "role": "takeaway",
+      "purpose": "Menjawab janji cover: membangun kesiapan sebelum investasi sambil menegaskan prioritas dapat berjalan bersamaan.",
+      "core_message": "Investasi mengikuti kesiapan fondasi, tujuan, dan kemampuan menanggung kerugian; prioritas tidak perlu menjadi urutan kaku.",
+      "copy": {
+        "headline": "Investasi mengikuti kesiapanmu.",
+        "supporting": "Cek kecukupan dana darurat dan kendalikan utang mahal.\nSesuaikan investasi dengan waktu penggunaan uang dan kemampuan menanggung kerugian.\nPrioritas ini bisa berjalan bersamaan sesuai kondisi.",
+        "emphasis": [
+          {
+            "text": "sesuai kondisi",
+            "level": "PRIMARY"
+          }
+        ],
+        "cta": null
+      },
+      "claim_ids": [
+        "claim_10",
+        "claim_11",
+        "claim_12"
+      ],
+      "visual": {
+        "function": "CONTEXTUALIZE",
+        "primary": {
+          "concept": "Foto buku rencana terbuka dengan pena yang diletakkan siap pakai sebagai penutup tentang keputusan yang disesuaikan dengan kondisi.",
+          "subject": "Sebuah buku kosong terbuka dan satu pena polos.",
+          "scene": "Meja dekat jendela rumah; suasana tenang, tanpa orang, aset investasi, atau simbol kekayaan.",
+          "composition": "Buku dan pena berada di bagian bawah tengah; cahaya jendela jatuh dari kiri, area atas tenang dan kosong.",
+          "framing": "Medium shot dari sudut tiga perempat yang lebih lebar daripada slide 2; tidak ada kalkulator.",
+          "background": "Lingkungan rumah sederhana dengan permukaan dan dinding netral, tanpa dekorasi ramai.",
+          "lighting": "Cahaya jendela lembut, bayangan alami, tekstur nyata, kontras cukup tanpa suasana dramatis.",
+          "negative_space": "Setengah atas; headline diikuti tiga kalimat pendek, tanpa daftar produk.",
+          "text_zone": "Setengah atas; headline diikuti tiga kalimat pendek, tanpa daftar produk.",
+          "visual_hierarchy": "Headline, supporting tentang kesiapan, buku rencana, lalu kalimat prioritas bersamaan.",
+          "editing_treatment": "Gunakan foto sebagai image utama. Crop dan reposition ringan mengikuti zona teks; tambahkan gradient lembut hanya jika diperlukan untuk readability. Copy tetap editable.",
+          "rationale": "Penutup mengembalikan keputusan ke perencanaan pribadi tanpa citra keuntungan pasti, grafik naik, atau janji kaya."
+        },
+        "fallback": null
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_07"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Setelah brief disetujui reviewer, buka platform image generation yang biasa digunakan. Jalankan prompt pada asset_07.generation.prompt untuk menghasilkan beberapa kandidat foto vertikal 3:4."
+        },
+        {
+          "step": 2,
+          "action": "SELECT",
+          "instruction": "Pilih buku kosong dengan halaman realistis, cahaya lembut, dan area atas bersih; tidak ada chart atau tulisan hasil generator. Jika belum ada yang memenuhi, ulangi prompt asset yang sama; jangan mengisi zona teks dengan objek tambahan."
+        },
+        {
+          "step": 3,
+          "action": "SAVE",
+          "instruction": "Simpan kandidat terpilih dengan nama asset_07.png agar mudah dicocokkan dengan slide_07."
+        },
+        {
+          "step": 4,
+          "action": "IMPORT",
+          "instruction": "Import asset_07.png ke slide 7 pada master 1080 × 1440 px."
+        },
+        {
+          "step": 5,
+          "action": "CROP",
+          "instruction": "Buku dan pena berada di bagian bawah tengah; cahaya jendela jatuh dari kiri, area atas tenang dan kosong. Reposition seperlunya tanpa menutupi zona teks: Setengah atas; headline diikuti tiga kalimat pendek, tanpa daftar produk."
+        },
+        {
+          "step": 6,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang headline dan supporting persis dari copy, dengan line break yang tersedia. Beri penekanan tipografis pada sesuai kondisi. Headline, supporting tentang kesiapan, buku rencana, lalu kalimat prioritas bersamaan."
+        },
+        {
+          "step": 7,
+          "action": "ADJUST",
+          "instruction": "Jaga kontras teks terhadap foto; gunakan gradient ringan hanya bila perlu. Jika terasa penuh, perbesar ruang teks dengan crop/reposition image sebelum mengecilkan teks."
+        },
+        {
+          "step": 8,
+          "action": "REVIEW",
+          "instruction": "Kalimat prioritas dapat berjalan bersamaan harus hadir pada slide, bukan hanya caption. Hindari kesan harus bebas semua utang sebelum boleh berinvestasi. Periksa readability pada ukuran tampilan ponsel dan kecocokan treatment dengan slide di sebelahnya."
+        }
+      ]
+    }
+  ],
+  "caption": {
+    "text": "Bagian mana yang ingin kamu rapikan lebih dulu: arus kas, dana darurat, utang, atau perlindungan?",
+    "function": "QUESTION"
+  },
+  "warnings": [
+    {
+      "code": "PRIMARY_SOURCES_UNRESOLVED",
+      "severity": "WARNING",
+      "message": "Satu-satunya source adalah src_01 yang direpresentasikan di fixture. Metadata sumber primer dan pemetaan penanda sitasi tidak tersedia. Klaim ditelusuri ke raw_material fixture, bukan dianggap sudah diverifikasi terhadap OJK, Kemenkeu, LPS, BPJS, BEI, atau DJP.",
+      "affected_slide_ids": [
+        "slide_01",
+        "slide_02",
+        "slide_03",
+        "slide_04",
+        "slide_05",
+        "slide_06",
+        "slide_07"
+      ],
+      "recommendation": "Review dasar klaim terhadap material_ids yang tertera. Jangan menambahkan atribusi lembaga atau klaim regulasi ke copy tanpa evidence yang disediakan upstream. Keterbatasan ini tidak fatal untuk penjelasan dasar dan rekomendasi panduan yang dipilih."
+    },
+    {
+      "code": "BRAND_CONTEXT_NOT_PROVIDED",
+      "severity": "WARNING",
+      "message": "Fixture tidak memberikan brand context. Copy menggunakan bahasa Indonesia sederhana sesuai objective pemula; treatment foto netral adalah keputusan kreatif run ini, bukan identitas brand yang telah disetujui.",
+      "affected_slide_ids": [
+        "slide_01",
+        "slide_02",
+        "slide_03",
+        "slide_04",
+        "slide_05",
+        "slide_06",
+        "slide_07"
+      ],
+      "recommendation": "Reviewer menilai kecocokan ekspresi sebelum produksi. Terapkan identitas brand yang tersedia pada tahap produksi tanpa mengubah klaim atau kepadatan; run ini tidak menetapkan logo, palet, atau font brand baru."
+    },
+    {
+      "code": "PRODUCTION_CONTEXT_NOT_PROVIDED",
+      "severity": "WARNING",
+      "message": "Tool dan kemampuan produksi aktual tidak tersedia. Brief memakai default V0 3:4, 1080 × 1440 px dan satu foto AI photorealistic per slide. Kelayakan dinilai pada rencana; gambar belum digenerate dan layout final belum diuji.",
+      "affected_slide_ids": [
+        "slide_01",
+        "slide_02",
+        "slide_03",
+        "slide_04",
+        "slide_05",
+        "slide_06",
+        "slide_07"
+      ],
+      "recommendation": "Setelah human review, operator menjalankan prompt dan pemeriksaan kandidat yang ditetapkan. Sesuaikan crop, posisi image, serta typography ringan tanpa mengubah konsep dan copy."
+    }
+  ],
+  "qa": {
+    "overall_status": "PASS_WITH_WARNING",
+    "dimensions": {
+      "objective": {
+        "status": "PASS",
+        "notes": "Objective disalin persis dari fixture; kelima fondasi serta kesiapan investasi dan langkah awal tercakup."
+      },
+      "factual": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Seluruh klaim mengacu pada src_01 dan material_ids dalam fixture. Tidak ada external knowledge, browsing, angka simulasi baru, atau penguatan rekomendasi menjadi jaminan. Kebenaran eksternal sumber primer tidak diverifikasi.",
+        "warning_codes": [
+          "PRIMARY_SOURCES_UNRESOLVED"
+        ]
+      },
+      "editorial": {
+        "status": "PASS",
+        "notes": "Satu takeaway, 14 blok digunakan sebagian dan 10 blok diomit dengan alasan. Rincian parsial yang tidak dipakai dicatat dalam angle_rationale."
+      },
+      "narrative": {
+        "status": "PASS",
+        "notes": "Tujuh slide mengikuti dependency pemahaman dan menjawab cover. Tidak menjadikan urutan slide sebagai tahap wajib yang saling menunggu."
+      },
+      "density": {
+        "status": "PASS",
+        "notes": "Satu inti per slide, tanpa tabel atau daftar produk. Supporting dibagi menjadi kalimat pendek; slide proteksi dan penutup memiliki ruang teks yang disengaja. Keterbacaan final diperiksa saat produksi."
+      },
+      "copy": {
+        "status": "PASS",
+        "notes": "Headline dan supporting resolved, emphasis merupakan substring copy. Caption singkat berupa pertanyaan; nuansa inti tersedia di slide."
+      },
+      "visual": {
+        "status": "PASS",
+        "notes": "Seluruh visual berupa foto generik photorealistic, dengan fungsi, framing, ruang teks dan rationale. Metafora bukan dokumentasi kejadian. Tidak memerlukan infographic atau graphic component."
+      },
+      "asset": {
+        "status": "PASS",
+        "notes": "Tujuh asset AI_GENERATED, masing-masing mempunyai prompt_spec dan prompt selaras dengan visual. Semua slide AI_SYNTHETIC; tidak ada ketergantungan real asset atau fallback yang belum direncanakan."
+      },
+      "production": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Langkah generate, select, save, import, crop, add text, adjust, review lengkap. Belum dilakukan generation atau pemeriksaan layout final karena di luar run engine.",
+        "warning_codes": [
+          "PRODUCTION_CONTEXT_NOT_PROVIDED"
+        ]
+      },
+      "source": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Traceability internal lengkap ke satu source fixture. Tidak ada sumber primer baru, URL rekaan, atau pembacaan dokumen riset di luar fixture pada run ini.",
+        "warning_codes": [
+          "PRIMARY_SOURCES_UNRESOLVED"
+        ]
+      },
+      "brand": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Tidak tersedia brand context untuk menguji kesesuaian brand; keputusan kreatif tidak dinyatakan sebagai production truth.",
+        "warning_codes": [
+          "BRAND_CONTEXT_NOT_PROVIDED"
+        ]
+      }
+    }
+  }
+}

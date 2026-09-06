@@ -128,7 +128,7 @@
     "visual": {
       "mode": "MOCK",
       "data": {
-        "direction": "simple numerical infographic mixed with visual metaphor",
+        "direction": "image-led visual metaphor with numerical text added during design",
         "numbers_should_be_prominent": true
       }
     },

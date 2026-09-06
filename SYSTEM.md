@@ -244,6 +244,24 @@ Micro-adjustments remain a production responsibility.
 
 ---
 
+## Image + Text Production Contract
+
+Carousel menggunakan image + text. Visual utama harus image-led; AI-generated image default-nya realistic/photorealistic, terlihat seperti foto nyata. Untuk konsep atau scene generic, prioritaskan AI-generated photorealistic image. Style lain hanya jika input memintanya secara eksplisit; topik edukasi bukan alasan otomatis untuk cartoon, vector/flat illustration, atau illustrated infographic.
+
+Untuk real person, real company, real event, atau documentary evidence, prioritaskan REAL_ASSET. HYBRID_COMPOSITE digunakan jika perlu kombinasi image asset atau compositing ringan; menambahkan text ke image saja tidak membuat strategy menjadi hybrid.
+
+Registry hanya berisi image asset AI_GENERATED atau REAL_ASSET. Text, angka, dan label tetap berada di slide copy/design instructions, bukan asset registry. Primary maupun fallback harus mengikuti batas ini.
+
+Valid slide strategies: `AI_SYNTHETIC`, `REAL_ASSET`, `HYBRID_COMPOSITE`. Never emit `GRAPHIC_ONLY` or plan `GRAPHIC_COMPONENT` assets.
+
+Canva/design tool digunakan untuk headline/supporting text, typography, crop, resize/reposition image, remove background bila perlu, gradient ringan untuk readability, opacity, dan layering sederhana image + text.
+
+Engine tidak merencanakan custom graphic components, icon system, Canva shapes sebagai visual utama, diagram manual, decorative graphic composition, atau illustrated infographic components. Larangan ini juga berlaku di asset requirements, prompts, fallback, dan production instructions; jangan menyamarkan komponen grafis sebagai AI_GENERATED atau REAL_ASSET. Manusia boleh mengimprovisasi graphic embellishment saat desain, tetapi itu di luar tanggung jawab dan output engine.
+
+Apply these rules during visual planning, asset planning, prompt compilation, and final QA.
+
+---
+
 ## Output Rules
 
 Return **JSON only**.

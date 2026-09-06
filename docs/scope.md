@@ -527,7 +527,7 @@ Contoh:
 * abstract statement;
 * final takeaway.
 
-Dalam kondisi tersebut engine tetap harus menentukan minimal visual treatment.
+Dalam kondisi tersebut engine tetap menentukan image minimal, seperti foto environment atau objek sederhana.
 
 ---
 
@@ -541,7 +541,6 @@ Supported V0 asset strategies:
 AI_SYNTHETIC
 REAL_ASSET
 HYBRID_COMPOSITE
-GRAPHIC_ONLY
 ```
 
 Pemilihan strategy dilakukan per slide.
@@ -591,35 +590,22 @@ real image
 +
 background removal
 +
-AI-generated background
+AI-generated photorealistic background
 +
-additional graphic element
-+
-manual composition
+light image composition
 ```
 
 Hybrid production termasuk dalam scope production planning.
 
 ---
 
-# 23. GRAPHIC_ONLY Scope
+# 23. Image + Text Production Model
 
-Engine dapat memilih graphic-only approach jika photographic asset tidak diperlukan.
+Carousel menggunakan image + text. Visual utama harus image-led; AI-generated image default-nya realistic/photorealistic, terlihat seperti foto nyata. Untuk konsep atau scene generic, prioritaskan AI-generated photorealistic image. Style lain hanya jika input memintanya secara eksplisit; topik edukasi bukan alasan otomatis untuk cartoon, vector/flat illustration, atau illustrated infographic.
 
-Contohnya:
+Untuk real person, real company, real event, atau documentary evidence, prioritaskan REAL_ASSET. HYBRID_COMPOSITE digunakan jika perlu kombinasi image asset atau compositing ringan; menambahkan text ke image saja tidak membuat strategy menjadi hybrid.
 
-```text
-diagram
-timeline
-comparison
-number visualization
-icon
-shape
-simple chart
-typography-led layout
-```
-
-Engine tidak harus memaksakan AI-generated image ke setiap slide.
+Registry hanya berisi image asset AI_GENERATED atau REAL_ASSET. Text, angka, dan label tetap berada di slide copy/design instructions, bukan asset registry. Primary maupun fallback harus mengikuti batas ini.
 
 ---
 
@@ -673,6 +659,10 @@ Automation ini dapat berubah di versi mendatang tanpa mengubah core responsibili
 ---
 
 # 26. Production Instruction Scope
+
+Canva/design tool digunakan untuk headline/supporting text, typography, crop, resize/reposition image, remove background bila perlu, gradient ringan untuk readability, opacity, dan layering sederhana image + text.
+
+Engine tidak merencanakan custom graphic components, icon system, Canva shapes sebagai visual utama, diagram manual, decorative graphic composition, atau illustrated infographic components. Larangan ini juga berlaku di asset requirements, prompts, fallback, dan production instructions; jangan menyamarkan komponen grafis sebagai AI_GENERATED atau REAL_ASSET. Manusia boleh mengimprovisasi graphic embellishment saat desain, tetapi itu di luar tanggung jawab dan output engine.
 
 Production planning termasuk dalam scope.
 
@@ -1347,7 +1337,7 @@ Ringkasan hal yang termasuk scope:
 
 ✓ hybrid-production planning
 
-✓ graphic-only planning
+✓ image + text production planning
 
 ✓ production instructions
 

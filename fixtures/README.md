@@ -277,3 +277,5 @@ Fixture boleh berubah jika:
 
 Jika perubahan signifikan dilakukan, catat alasannya.
 
+Visual context pada dense, numerical, conflicting, dan insufficient direvisi mengikuti production model image + text. Material, objective, dan tujuan editorial masing-masing tetap sama. Fixture sengaja tidak meminta style khusus agar default photorealistic dapat diuji. Input schema_version tetap 0.1.0; output contract kini 0.2.0.
+

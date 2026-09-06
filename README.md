@@ -524,18 +524,25 @@ Untuk rare cases seperti:
 * abstract statement;
 * simple takeaway;
 
-visual minimal atau dekoratif diperbolehkan.
+image minimal atau environmental diperbolehkan.
 
 Contoh:
 
 * simple architectural background;
-* gradient;
-* texture;
+* photographed texture;
 * environmental image;
 * minimal object;
-* subtle graphic treatment.
+* simple photographic background.
 
 Decorative visual adalah exception yang valid, bukan default.
+
+---
+
+# Contract Version
+
+Input contract tetap `0.1.0`; output contract menjadi `0.2.0` untuk NEEDS_REVIEW maupun BLOCKED. Repo sebelumnya mengunci versi lewat `schema_version.const` dan belum mendokumentasikan kebijakan kenaikan versi. Kenaikan minor pra-1.0 ini menandai breaking change: penghapusan strategy GRAPHIC_ONLY serta asset type GRAPHIC_COMPONENT dan OTHER. Consumer harus mengikuti taxonomy image yang baru; jangan sekadar mengganti label asset grafis lama.
+
+Hasil dan evaluasi manual runs 001–006 adalah arsip contract lama dan tidak diubah atau dijalankan ulang.
 
 ---
 
@@ -554,7 +561,7 @@ sebuah dompet dengan beberapa lubang kecil
 yang menyebabkan uang keluar sedikit demi sedikit
 ```
 
-Digunakan terutama untuk conceptual illustration.
+Digunakan terutama untuk konsep atau scene generic dalam bentuk AI-generated photorealistic image.
 
 ---
 
@@ -582,29 +589,20 @@ Contoh:
 ```text
 real person cutout
 +
-AI-generated background
+AI-generated photorealistic background
 +
-graphic elements
-+
-manual compositing
+light image compositing
 ```
 
 ---
 
-## GRAPHIC_ONLY
+## Image Asset Registry
 
-Tidak membutuhkan photographic asset.
+Carousel menggunakan image + text. Visual utama harus image-led; AI-generated image default-nya realistic/photorealistic, terlihat seperti foto nyata. Untuk konsep atau scene generic, prioritaskan AI-generated photorealistic image. Style lain hanya jika input memintanya secara eksplisit; topik edukasi bukan alasan otomatis untuk cartoon, vector/flat illustration, atau illustrated infographic.
 
-Contoh:
+Untuk real person, real company, real event, atau documentary evidence, prioritaskan REAL_ASSET. HYBRID_COMPOSITE digunakan jika perlu kombinasi image asset atau compositing ringan; menambahkan text ke image saja tidak membuat strategy menjadi hybrid.
 
-* diagram;
-* number;
-* icon;
-* comparison;
-* chart;
-* shape;
-* timeline;
-* typography-driven visual.
+Registry hanya berisi image asset AI_GENERATED atau REAL_ASSET. Text, angka, dan label tetap berada di slide copy/design instructions, bukan asset registry. Primary maupun fallback harus mengikuti batas ini.
 
 ---
 
@@ -723,6 +721,10 @@ Typography dan informational text ditambahkan pada tahap desain.
 ---
 
 # Production Instructions
+
+Canva/design tool digunakan untuk headline/supporting text, typography, crop, resize/reposition image, remove background bila perlu, gradient ringan untuk readability, opacity, dan layering sederhana image + text.
+
+Engine tidak merencanakan custom graphic components, icon system, Canva shapes sebagai visual utama, diagram manual, decorative graphic composition, atau illustrated infographic components. Larangan ini juga berlaku di asset requirements, prompts, fallback, dan production instructions; jangan menyamarkan komponen grafis sebagai AI_GENERATED atau REAL_ASSET. Manusia boleh mengimprovisasi graphic embellishment saat desain, tetapi itu di luar tanggung jawab dan output engine.
 
 Output sistem tidak berhenti pada image prompt.
 
@@ -1106,7 +1108,7 @@ Format utama:
 
 ```text
 Static Carousel
-Illustration / Infographic
+Image + Text (photorealistic by default)
 ```
 
 Primary platform:

@@ -1,0 +1,809 @@
+{
+  "schema_version": "0.2.0",
+  "status": "NEEDS_REVIEW",
+  "editorial": {
+    "objective": "Membuat pembaca memahami bahwa dana darurat tetap relevan meskipun pemasukan masih terbatas.",
+    "central_takeaway": "Dana darurat tetap relevan saat pemasukan terbatas: fungsinya menjadi penyangga kebutuhan mendadak dan pembangunannya dapat bertahap.",
+    "selected_angle": "Kenali fungsi penyangganya; memulai dana darurat tidak harus menunggu pendapatan besar.",
+    "angle_rationale": "Angle awal tentang nominal dipusatkan pada alasan relevansi. Contoh laptop menjadi pintu masuk; penutup mempertahankan pembangunan bertahap tanpa membuat panduan nominal. Kelima material dipakai karena masing-masing memberi fungsi berbeda dalam satu argumen.",
+    "selected_material_ids": [
+      "mat_01",
+      "mat_02",
+      "mat_03",
+      "mat_04",
+      "mat_05"
+    ],
+    "omitted_material": []
+  },
+  "narrative": {
+    "type": "Contoh mahasiswa → definisi → fungsi buffer → batas penggunaan → takeaway",
+    "summary": "Mulai dari ilustrasi laptop kuliah yang membutuhkan perbaikan, lalu jelaskan dana yang sengaja disiapkan, fungsi buffer, dan perbedaannya dari pengeluaran terencana. Tutup dengan relevansi saat pemasukan terbatas dan pembangunan bertahap.",
+    "opening_function": "Menghadirkan contoh kebutuhan mendadak yang sudah tersedia dalam fixture.",
+    "ending_function": "Menjawab objective secara eksplisit tanpa target nominal atau rekomendasi produk.",
+    "slide_sequence": [
+      "slide_01",
+      "slide_02",
+      "slide_03",
+      "slide_04",
+      "slide_05"
+    ]
+  },
+  "claims": [
+    {
+      "id": "claim_01",
+      "text": "Dana darurat adalah dana yang sengaja disiapkan untuk membantu menghadapi pengeluaran penting yang tidak direncanakan.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_01"
+      ]
+    },
+    {
+      "id": "claim_02",
+      "text": "Fungsi utama dana darurat dalam materi ini adalah menjadi buffer agar kebutuhan mendadak tidak langsung mengganggu uang yang sudah dialokasikan untuk kebutuhan rutin.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_02"
+      ]
+    },
+    {
+      "id": "claim_03",
+      "text": "Contoh kebutuhan mendadak untuk mahasiswa dapat berupa biaya memperbaiki laptop yang digunakan untuk kuliah.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_03"
+      ]
+    },
+    {
+      "id": "claim_04",
+      "text": "Materi menekankan bahwa membangun dana darurat dapat dilakukan bertahap dan tidak harus menunggu seseorang memiliki pendapatan besar.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_04"
+      ]
+    },
+    {
+      "id": "claim_05",
+      "text": "Dana darurat dibedakan dari uang yang memang sudah disiapkan untuk pengeluaran yang direncanakan.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_01"
+      ],
+      "material_ids": [
+        "mat_05"
+      ]
+    },
+    {
+      "id": "claim_06",
+      "text": "Dana darurat tetap relevan saat pemasukan terbatas sebagai penyangga kebutuhan mendadak dan dapat dibangun bertahap.",
+      "claim_type": "DERIVED",
+      "derived_from_material_ids": [
+        "mat_02",
+        "mat_04"
+      ],
+      "derivation": "Menggabungkan fungsi buffer pada mat_02 dengan pembangunan bertahap tanpa menunggu pendapatan besar pada mat_04; tidak menyimpulkan target atau kecukupan dana."
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset_01",
+      "type": "AI_GENERATED",
+      "description": "Foto sintetis: Laptop generik tanpa merek yang terbuka dengan layar gelap, di samping buku kuliah tertutup.",
+      "subject": "Laptop generik tanpa merek yang terbuka dengan layar gelap, di samping buku kuliah tertutup.",
+      "requirements": [
+        "Gambar vertikal 3:4, minimal 1080 × 1440 px atau resolusi lebih tinggi dengan rasio sama.",
+        "Ikuti komposisi dan ruang teks pada prompt_spec. Pilih layar tanpa tulisan dan laptop dengan bentuk masuk akal; buku tidak membawa judul terbaca. Jangan gunakan retakan dramatis atau adegan panik."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "Laptop generik tanpa merek yang terbuka dengan layar gelap, di samping buku kuliah tertutup.",
+          "action": "Still life tanpa tindakan dramatis.",
+          "scene": "Meja belajar sederhana; adegan rekaan, bukan dokumentasi kerusakan nyata.",
+          "composition": "Laptop mengisi bagian kanan bawah, buku berada sedikit di belakangnya. Bagian kiri atas berupa permukaan dinding polos untuk teks.",
+          "framing": "Medium close-up dari sudut tiga perempat setinggi meja.",
+          "background": "Meja kayu terang dan dinding netral polos; suasana sederhana, tanpa identitas lokasi nyata.",
+          "lighting": "Cahaya jendela lembut dari kiri, bayangan natural, warna netral hangat.",
+          "negative_space": "Separuh atas bersih untuk copy; hindari objek atau detail kontras di area tersebut.",
+          "text_safe_area": "Headline di kiri atas; supporting tepat di bawahnya, seluruhnya di area kosong. Label ilustrasi di tepi bawah.",
+          "visual_treatment": "Photorealistic, terlihat seperti foto nyata; tekstur material dan perspektif natural.",
+          "constraints": [
+            "Gambar vertikal 3:4, minimal 1080 × 1440 px atau resolusi lebih tinggi dengan rasio sama.",
+            "Adegan sepenuhnya sintetis untuk ilustrasi konsep, bukan dokumentasi atau bukti faktual.",
+            "Tidak ada typography dalam gambar; semua copy dan labels ditambahkan di Canva."
+          ],
+          "avoid": [
+            "Teks, angka, nominal uang, merek, logo, watermark.",
+            "Kartun, vektor, flat illustration, infographic, diagram, ikon, panah, atau elemen grafis dekoratif.",
+            "Efek dramatis, jaminan perlindungan, tampilan aplikasi atau instrumen keuangan."
+          ]
+        },
+        "prompt": "Photorealistic, terlihat seperti foto nyata; tekstur material dan perspektif natural. Laptop generik tanpa merek yang terbuka dengan layar gelap, di samping buku kuliah tertutup. Still life tanpa tindakan dramatis. Meja belajar sederhana; adegan rekaan, bukan dokumentasi kerusakan nyata. Laptop mengisi bagian kanan bawah, buku berada sedikit di belakangnya. Bagian kiri atas berupa permukaan dinding polos untuk teks. Medium close-up dari sudut tiga perempat setinggi meja. Meja kayu terang dan dinding netral polos; suasana sederhana, tanpa identitas lokasi nyata. Cahaya jendela lembut dari kiri, bayangan natural, warna netral hangat. Separuh atas bersih untuk copy; hindari objek atau detail kontras di area tersebut. Zona teks yang harus dibiarkan kosong untuk desain: Headline di kiri atas; supporting tepat di bawahnya, seluruhnya di area kosong. Label ilustrasi di tepi bawah. Gambar vertikal 3:4, minimal 1080 × 1440 px atau resolusi lebih tinggi dengan rasio sama. Adegan sepenuhnya sintetis untuk ilustrasi konsep, bukan dokumentasi atau bukti faktual. Tidak ada typography dalam gambar; semua copy dan labels ditambahkan di Canva. Hindari: Teks, angka, nominal uang, merek, logo, watermark. Kartun, vektor, flat illustration, infographic, diagram, ikon, panah, atau elemen grafis dekoratif. Efek dramatis, jaminan perlindungan, tampilan aplikasi atau instrumen keuangan."
+      },
+      "notes": "Asset belum dihasilkan dalam run engine. Kantong, bila tampil, adalah simbol kreatif dana yang disiapkan dan bukan rekomendasi metode penyimpanan."
+    },
+    {
+      "id": "asset_02",
+      "type": "AI_GENERATED",
+      "description": "Foto sintetis: Satu kantong kain kecil tertutup di atas meja belajar, laptop generik tampak samar jauh di belakang.",
+      "subject": "Satu kantong kain kecil tertutup di atas meja belajar, laptop generik tampak samar jauh di belakang.",
+      "requirements": [
+        "Gambar vertikal 3:4, minimal 1080 × 1440 px atau resolusi lebih tinggi dengan rasio sama.",
+        "Ikuti komposisi dan ruang teks pada prompt_spec. Pilih tekstur kain nyata dan satu kantong saja; jangan ada uang, label, logo, atau angka tercetak pada objek."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "Satu kantong kain kecil tertutup di atas meja belajar, laptop generik tampak samar jauh di belakang.",
+          "action": "Still life tanpa tindakan dramatis.",
+          "scene": "Still life fotografis konseptual; kantong menyimbolkan dana yang sengaja disiapkan, bukan anjuran cara menyimpan uang.",
+          "composition": "Kantong di tengah bawah sebagai objek paling tajam; laptop di belakang kanan tidak dominan. Separuh atas adalah dinding polos dengan ruang teks.",
+          "framing": "Close-up kantong dari sudut rendah, depth of field lembut namun kontur objek tetap jelas.",
+          "background": "Meja kayu terang dan dinding netral polos; suasana sederhana, tanpa identitas lokasi nyata.",
+          "lighting": "Cahaya jendela lembut dari kiri, bayangan natural, warna netral hangat.",
+          "negative_space": "Separuh atas bersih untuk copy; hindari objek atau detail kontras di area tersebut.",
+          "text_safe_area": "Headline serta supporting di bagian atas; label ilustrasi di bawah foto.",
+          "visual_treatment": "Photorealistic, terlihat seperti foto nyata; tekstur material dan perspektif natural.",
+          "constraints": [
+            "Gambar vertikal 3:4, minimal 1080 × 1440 px atau resolusi lebih tinggi dengan rasio sama.",
+            "Adegan sepenuhnya sintetis untuk ilustrasi konsep, bukan dokumentasi atau bukti faktual.",
+            "Tidak ada typography dalam gambar; semua copy dan labels ditambahkan di Canva."
+          ],
+          "avoid": [
+            "Teks, angka, nominal uang, merek, logo, watermark.",
+            "Kartun, vektor, flat illustration, infographic, diagram, ikon, panah, atau elemen grafis dekoratif.",
+            "Efek dramatis, jaminan perlindungan, tampilan aplikasi atau instrumen keuangan."
+          ]
+        },
+        "prompt": "Photorealistic, terlihat seperti foto nyata; tekstur material dan perspektif natural. Satu kantong kain kecil tertutup di atas meja belajar, laptop generik tampak samar jauh di belakang. Still life tanpa tindakan dramatis. Still life fotografis konseptual; kantong menyimbolkan dana yang sengaja disiapkan, bukan anjuran cara menyimpan uang. Kantong di tengah bawah sebagai objek paling tajam; laptop di belakang kanan tidak dominan. Separuh atas adalah dinding polos dengan ruang teks. Close-up kantong dari sudut rendah, depth of field lembut namun kontur objek tetap jelas. Meja kayu terang dan dinding netral polos; suasana sederhana, tanpa identitas lokasi nyata. Cahaya jendela lembut dari kiri, bayangan natural, warna netral hangat. Separuh atas bersih untuk copy; hindari objek atau detail kontras di area tersebut. Zona teks yang harus dibiarkan kosong untuk desain: Headline serta supporting di bagian atas; label ilustrasi di bawah foto. Gambar vertikal 3:4, minimal 1080 × 1440 px atau resolusi lebih tinggi dengan rasio sama. Adegan sepenuhnya sintetis untuk ilustrasi konsep, bukan dokumentasi atau bukti faktual. Tidak ada typography dalam gambar; semua copy dan labels ditambahkan di Canva. Hindari: Teks, angka, nominal uang, merek, logo, watermark. Kartun, vektor, flat illustration, infographic, diagram, ikon, panah, atau elemen grafis dekoratif. Efek dramatis, jaminan perlindungan, tampilan aplikasi atau instrumen keuangan."
+      },
+      "notes": "Asset belum dihasilkan dalam run engine. Kantong, bila tampil, adalah simbol kreatif dana yang disiapkan dan bukan rekomendasi metode penyimpanan."
+    },
+    {
+      "id": "asset_03",
+      "type": "AI_GENERATED",
+      "description": "Foto sintetis: Kantong kain kecil di depan sebuah buku catatan tertutup, dengan laptop generik di sisi belakang kanan.",
+      "subject": "Kantong kain kecil di depan sebuah buku catatan tertutup, dengan laptop generik di sisi belakang kanan.",
+      "requirements": [
+        "Gambar vertikal 3:4, minimal 1080 × 1440 px atau resolusi lebih tinggi dengan rasio sama.",
+        "Ikuti komposisi dan ruang teks pada prompt_spec. Pilih komposisi yang tenang dengan jarak alami antarobjek; jangan memilih foto yang menyiratkan kerusakan tertahan secara ajaib atau hasil perlindungan pasti."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "Kantong kain kecil di depan sebuah buku catatan tertutup, dengan laptop generik di sisi belakang kanan.",
+          "action": "Still life tanpa tindakan dramatis.",
+          "scene": "Still life rekaan di meja belajar yang sama; penempatan objek merupakan metafora fungsi penyangga, bukan proses transaksi.",
+          "composition": "Kantong berada di foreground kanan bawah dan buku di belakang kiri dengan jarak alami. Sisakan kiri atas polos; objek tidak disusun menjadi diagram atau jalur.",
+          "framing": "Sudut tiga perempat agak tinggi; kantong tajam, buku tetap dapat dikenali.",
+          "background": "Meja kayu terang dan dinding netral polos; suasana sederhana, tanpa identitas lokasi nyata.",
+          "lighting": "Cahaya jendela lembut dari kiri, bayangan natural, warna netral hangat.",
+          "negative_space": "Separuh atas bersih untuk copy; hindari objek atau detail kontras di area tersebut.",
+          "text_safe_area": "Headline dan supporting di kiri atas; label ilustrasi di footer. Tidak ada label tambahan yang menghubungkan objek seperti diagram.",
+          "visual_treatment": "Photorealistic, terlihat seperti foto nyata; tekstur material dan perspektif natural.",
+          "constraints": [
+            "Gambar vertikal 3:4, minimal 1080 × 1440 px atau resolusi lebih tinggi dengan rasio sama.",
+            "Adegan sepenuhnya sintetis untuk ilustrasi konsep, bukan dokumentasi atau bukti faktual.",
+            "Tidak ada typography dalam gambar; semua copy dan labels ditambahkan di Canva."
+          ],
+          "avoid": [
+            "Teks, angka, nominal uang, merek, logo, watermark.",
+            "Kartun, vektor, flat illustration, infographic, diagram, ikon, panah, atau elemen grafis dekoratif.",
+            "Efek dramatis, jaminan perlindungan, tampilan aplikasi atau instrumen keuangan."
+          ]
+        },
+        "prompt": "Photorealistic, terlihat seperti foto nyata; tekstur material dan perspektif natural. Kantong kain kecil di depan sebuah buku catatan tertutup, dengan laptop generik di sisi belakang kanan. Still life tanpa tindakan dramatis. Still life rekaan di meja belajar yang sama; penempatan objek merupakan metafora fungsi penyangga, bukan proses transaksi. Kantong berada di foreground kanan bawah dan buku di belakang kiri dengan jarak alami. Sisakan kiri atas polos; objek tidak disusun menjadi diagram atau jalur. Sudut tiga perempat agak tinggi; kantong tajam, buku tetap dapat dikenali. Meja kayu terang dan dinding netral polos; suasana sederhana, tanpa identitas lokasi nyata. Cahaya jendela lembut dari kiri, bayangan natural, warna netral hangat. Separuh atas bersih untuk copy; hindari objek atau detail kontras di area tersebut. Zona teks yang harus dibiarkan kosong untuk desain: Headline dan supporting di kiri atas; label ilustrasi di footer. Tidak ada label tambahan yang menghubungkan objek seperti diagram. Gambar vertikal 3:4, minimal 1080 × 1440 px atau resolusi lebih tinggi dengan rasio sama. Adegan sepenuhnya sintetis untuk ilustrasi konsep, bukan dokumentasi atau bukti faktual. Tidak ada typography dalam gambar; semua copy dan labels ditambahkan di Canva. Hindari: Teks, angka, nominal uang, merek, logo, watermark. Kartun, vektor, flat illustration, infographic, diagram, ikon, panah, atau elemen grafis dekoratif. Efek dramatis, jaminan perlindungan, tampilan aplikasi atau instrumen keuangan."
+      },
+      "notes": "Asset belum dihasilkan dalam run engine. Kantong, bila tampil, adalah simbol kreatif dana yang disiapkan dan bukan rekomendasi metode penyimpanan."
+    },
+    {
+      "id": "asset_04",
+      "type": "AI_GENERATED",
+      "description": "Foto sintetis: Sebuah buku agenda tertutup dan kantong kain kecil yang diletakkan berjauhan di permukaan meja.",
+      "subject": "Sebuah buku agenda tertutup dan kantong kain kecil yang diletakkan berjauhan di permukaan meja.",
+      "requirements": [
+        "Gambar vertikal 3:4, minimal 1080 × 1440 px atau resolusi lebih tinggi dengan rasio sama.",
+        "Ikuti komposisi dan ruang teks pada prompt_spec. Pilih agenda tanpa tulisan terbaca dan kantong tanpa merek; jangan memakai pembagian bingkai, kolom grafis, atau perbandingan volume uang."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "Sebuah buku agenda tertutup dan kantong kain kecil yang diletakkan berjauhan di permukaan meja.",
+          "action": "Still life tanpa tindakan dramatis.",
+          "scene": "Foto benda rekaan dari atas; agenda dan kantong adalah metafora dua tujuan penggunaan uang, bukan rekomendasi alat atau rekening.",
+          "composition": "Agenda di kiri bawah dan kantong di kanan bawah dalam satu foto utuh, bukan split-screen. Keduanya memiliki bobot visual seimbang; separuh atas meja kosong.",
+          "framing": "Top-down dengan perspektif natural dan bayangan lembut.",
+          "background": "Meja kayu terang dan dinding netral polos; suasana sederhana, tanpa identitas lokasi nyata.",
+          "lighting": "Cahaya jendela lembut dari kiri, bayangan natural, warna netral hangat.",
+          "negative_space": "Separuh atas bersih untuk copy; hindari objek atau detail kontras di area tersebut.",
+          "text_safe_area": "Headline dan supporting di atas. Label Untuk rencana di dekat agenda; Dana darurat di dekat kantong, berupa teks saja. Label ilustrasi di tepi bawah.",
+          "visual_treatment": "Photorealistic, terlihat seperti foto nyata; tekstur material dan perspektif natural.",
+          "constraints": [
+            "Gambar vertikal 3:4, minimal 1080 × 1440 px atau resolusi lebih tinggi dengan rasio sama.",
+            "Adegan sepenuhnya sintetis untuk ilustrasi konsep, bukan dokumentasi atau bukti faktual.",
+            "Tidak ada typography dalam gambar; semua copy dan labels ditambahkan di Canva."
+          ],
+          "avoid": [
+            "Teks, angka, nominal uang, merek, logo, watermark.",
+            "Kartun, vektor, flat illustration, infographic, diagram, ikon, panah, atau elemen grafis dekoratif.",
+            "Efek dramatis, jaminan perlindungan, tampilan aplikasi atau instrumen keuangan."
+          ]
+        },
+        "prompt": "Photorealistic, terlihat seperti foto nyata; tekstur material dan perspektif natural. Sebuah buku agenda tertutup dan kantong kain kecil yang diletakkan berjauhan di permukaan meja. Still life tanpa tindakan dramatis. Foto benda rekaan dari atas; agenda dan kantong adalah metafora dua tujuan penggunaan uang, bukan rekomendasi alat atau rekening. Agenda di kiri bawah dan kantong di kanan bawah dalam satu foto utuh, bukan split-screen. Keduanya memiliki bobot visual seimbang; separuh atas meja kosong. Top-down dengan perspektif natural dan bayangan lembut. Meja kayu terang dan dinding netral polos; suasana sederhana, tanpa identitas lokasi nyata. Cahaya jendela lembut dari kiri, bayangan natural, warna netral hangat. Separuh atas bersih untuk copy; hindari objek atau detail kontras di area tersebut. Zona teks yang harus dibiarkan kosong untuk desain: Headline dan supporting di atas. Label Untuk rencana di dekat agenda; Dana darurat di dekat kantong, berupa teks saja. Label ilustrasi di tepi bawah. Gambar vertikal 3:4, minimal 1080 × 1440 px atau resolusi lebih tinggi dengan rasio sama. Adegan sepenuhnya sintetis untuk ilustrasi konsep, bukan dokumentasi atau bukti faktual. Tidak ada typography dalam gambar; semua copy dan labels ditambahkan di Canva. Hindari: Teks, angka, nominal uang, merek, logo, watermark. Kartun, vektor, flat illustration, infographic, diagram, ikon, panah, atau elemen grafis dekoratif. Efek dramatis, jaminan perlindungan, tampilan aplikasi atau instrumen keuangan."
+      },
+      "notes": "Asset belum dihasilkan dalam run engine. Kantong, bila tampil, adalah simbol kreatif dana yang disiapkan dan bukan rekomendasi metode penyimpanan."
+    },
+    {
+      "id": "asset_05",
+      "type": "AI_GENERATED",
+      "description": "Foto sintetis: Satu tangan orang dewasa menyisihkan kantong kain kecil ke sisi meja belajar.",
+      "subject": "Satu tangan orang dewasa menyisihkan kantong kain kecil ke sisi meja belajar.",
+      "requirements": [
+        "Gambar vertikal 3:4, minimal 1080 × 1440 px atau resolusi lebih tinggi dengan rasio sama.",
+        "Ikuti komposisi dan ruang teks pada prompt_spec. Pilih tangan anatomis natural dengan satu gesture sederhana dan tanpa uang terlihat; jangan memilih pose kemenangan atau kantong yang terlihat penuh uang."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "Satu tangan orang dewasa menyisihkan kantong kain kecil ke sisi meja belajar.",
+          "action": "Tangan menyisihkan kantong ke sisi meja.",
+          "scene": "Adegan rekaan sebagai simbol memulai persiapan; tidak menunjukkan jumlah uang, jadwal, atau cara penyimpanan yang wajib.",
+          "composition": "Tangan masuk dari tepi kanan bawah dan menyentuh kantong di tengah bawah. Separuh atas dinding polos tetap kosong; laptop tertutup samar di tepi belakang.",
+          "framing": "Close-up gesture sederhana dari samping; wajah dan tubuh tidak masuk frame.",
+          "background": "Meja kayu terang dan dinding netral polos; suasana sederhana, tanpa identitas lokasi nyata.",
+          "lighting": "Cahaya jendela lembut dari kiri, bayangan natural, warna netral hangat.",
+          "negative_space": "Separuh atas bersih untuk copy; hindari objek atau detail kontras di area tersebut.",
+          "text_safe_area": "Headline dan supporting di atas; label ilustrasi di bawah.",
+          "visual_treatment": "Photorealistic, terlihat seperti foto nyata; tekstur material dan perspektif natural.",
+          "constraints": [
+            "Gambar vertikal 3:4, minimal 1080 × 1440 px atau resolusi lebih tinggi dengan rasio sama.",
+            "Adegan sepenuhnya sintetis untuk ilustrasi konsep, bukan dokumentasi atau bukti faktual.",
+            "Tidak ada typography dalam gambar; semua copy dan labels ditambahkan di Canva."
+          ],
+          "avoid": [
+            "Teks, angka, nominal uang, merek, logo, watermark.",
+            "Kartun, vektor, flat illustration, infographic, diagram, ikon, panah, atau elemen grafis dekoratif.",
+            "Efek dramatis, jaminan perlindungan, tampilan aplikasi atau instrumen keuangan."
+          ]
+        },
+        "prompt": "Photorealistic, terlihat seperti foto nyata; tekstur material dan perspektif natural. Satu tangan orang dewasa menyisihkan kantong kain kecil ke sisi meja belajar. Tangan menyisihkan kantong ke sisi meja. Adegan rekaan sebagai simbol memulai persiapan; tidak menunjukkan jumlah uang, jadwal, atau cara penyimpanan yang wajib. Tangan masuk dari tepi kanan bawah dan menyentuh kantong di tengah bawah. Separuh atas dinding polos tetap kosong; laptop tertutup samar di tepi belakang. Close-up gesture sederhana dari samping; wajah dan tubuh tidak masuk frame. Meja kayu terang dan dinding netral polos; suasana sederhana, tanpa identitas lokasi nyata. Cahaya jendela lembut dari kiri, bayangan natural, warna netral hangat. Separuh atas bersih untuk copy; hindari objek atau detail kontras di area tersebut. Zona teks yang harus dibiarkan kosong untuk desain: Headline dan supporting di atas; label ilustrasi di bawah. Gambar vertikal 3:4, minimal 1080 × 1440 px atau resolusi lebih tinggi dengan rasio sama. Adegan sepenuhnya sintetis untuk ilustrasi konsep, bukan dokumentasi atau bukti faktual. Tidak ada typography dalam gambar; semua copy dan labels ditambahkan di Canva. Hindari: Teks, angka, nominal uang, merek, logo, watermark. Kartun, vektor, flat illustration, infographic, diagram, ikon, panah, atau elemen grafis dekoratif. Efek dramatis, jaminan perlindungan, tampilan aplikasi atau instrumen keuangan."
+      },
+      "notes": "Asset belum dihasilkan dalam run engine. Kantong, bila tampil, adalah simbol kreatif dana yang disiapkan dan bukan rekomendasi metode penyimpanan."
+    }
+  ],
+  "production": {
+    "global_instructions": [
+      {
+        "step": 1,
+        "action": "SETUP",
+        "instruction": "Setelah persetujuan reviewer, buat lima halaman Canva 1080 × 1440 px dengan rasio 3:4. Rerun v001 ini hanya menghasilkan brief; image generation dan desain belum dijalankan."
+      },
+      {
+        "step": 2,
+        "action": "GENERATE",
+        "instruction": "Gunakan prompt final setiap asset untuk menghasilkan foto sintetis dengan tekstur natural, cahaya jendela lembut, dan latar netral yang konsisten. Tidak perlu mempertahankan identitas orang; hanya slide penutup menampilkan tangan."
+      },
+      {
+        "step": 3,
+        "action": "IMPORT",
+        "instruction": "Gunakan satu gambar utama per slide. Typography yang ditambahkan di Canva tidak mengubah strategy AI_SYNTHETIC menjadi HYBRID_COMPOSITE."
+      },
+      {
+        "step": 4,
+        "action": "ADD_TEXT",
+        "instruction": "Tambahkan seluruh copy sebagai teks editable. Pertahankan label MATERI UJI MOCK · ILUSTRASI AI pada setiap slide. Foto menempati canvas; ruang kosong atas disediakan untuk headline dan supporting."
+      },
+      {
+        "step": 5,
+        "action": "ADJUST",
+        "instruction": "Batasi pengerjaan desain pada crop, resize/reposition gambar, typography, dan gradient ringan bila dibutuhkan untuk keterbacaan. Pemilihan font serta ukuran akhir mengikuti kebutuhan keterbacaan, bukan identitas brand yang belum diberikan."
+      },
+      {
+        "step": 6,
+        "action": "REVIEW",
+        "instruction": "Baca lima slide tanpa caption. Verifikasi fungsi buffer, perbedaan tujuan dana, dan pembangunan bertahap. Jangan menambahkan nominal, instrumen, janji perlindungan penuh, atau evidence di luar fixture."
+      },
+      {
+        "step": 7,
+        "action": "SAVE",
+        "instruction": "Pada tahap produksi yang disetujui, simpan master sebagai emergency-fund-v001-MOCK. Status brief tetap NEEDS_REVIEW sampai keputusan reviewer."
+      }
+    ]
+  },
+  "slides": [
+    {
+      "id": "slide_01",
+      "index": 1,
+      "role": "Contoh pembuka",
+      "purpose": "Menghadirkan kebutuhan mendadak yang dekat dengan mahasiswa sebelum menjelaskan fungsi dana darurat.",
+      "core_message": "Perbaikan laptop untuk kuliah dapat menjadi kebutuhan penting yang tidak direncanakan.",
+      "copy": {
+        "headline": "Laptop kuliah tiba-tiba perlu diperbaiki?",
+        "supporting": "Misalnya, muncul biaya perbaikan yang tidak kamu rencanakan.",
+        "emphasis": [
+          {
+            "text": "Laptop kuliah",
+            "level": "PRIMARY"
+          }
+        ],
+        "labels": [
+          "MATERI UJI MOCK · ILUSTRASI AI"
+        ]
+      },
+      "claim_ids": [
+        "claim_03"
+      ],
+      "visual": {
+        "function": "CONTEXTUALIZE",
+        "primary": {
+          "concept": "Foto sintetis konseptual: Laptop generik tanpa merek yang terbuka dengan layar gelap, di samping buku kuliah tertutup.",
+          "subject": "Laptop generik tanpa merek yang terbuka dengan layar gelap, di samping buku kuliah tertutup.",
+          "scene": "Meja belajar sederhana; adegan rekaan, bukan dokumentasi kerusakan nyata.",
+          "composition": "Laptop mengisi bagian kanan bawah, buku berada sedikit di belakangnya. Bagian kiri atas berupa permukaan dinding polos untuk teks.",
+          "framing": "Medium close-up dari sudut tiga perempat setinggi meja.",
+          "background": "Meja kayu terang dan dinding netral polos; suasana sederhana, tanpa identitas lokasi nyata.",
+          "lighting": "Cahaya jendela lembut dari kiri, bayangan natural, warna netral hangat.",
+          "negative_space": "Separuh atas bersih untuk copy; hindari objek atau detail kontras di area tersebut.",
+          "text_zone": "Headline di kiri atas; supporting tepat di bawahnya, seluruhnya di area kosong. Label ilustrasi di tepi bawah.",
+          "visual_hierarchy": "Headline → objek utama foto → supporting → labels.",
+          "editing_treatment": "Gunakan foto sebagai image utama; crop dan reposition ringan. Bila perlu, tambahkan gradient tipis pada area teks untuk keterbacaan.",
+          "rationale": "Contoh langsung dari mat_03. Layar gelap hanya konteks visual; copy menyatakan skenario hipotetis tanpa menetapkan penyebab kerusakan."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_01"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Setelah brief disetujui, buka platform image-generation yang biasa digunakan dan salin prompt final pada asset_01. Generate gambar vertikal sesuai prompt; jangan generate typography."
+        },
+        {
+          "step": 2,
+          "action": "SELECT",
+          "instruction": "Pilih layar tanpa tulisan dan laptop dengan bentuk masuk akal; buku tidak membawa judul terbaca. Jangan gunakan retakan dramatis atau adegan panik. Pastikan area teks kosong dan foto memenuhi prompt_spec. Jika belum sesuai, generate ulang dengan prompt yang sama."
+        },
+        {
+          "step": 3,
+          "action": "SAVE",
+          "instruction": "Simpan hasil terpilih sebagai asset_01-emergency-fund-v001.png atau format gambar berkualitas setara."
+        },
+        {
+          "step": 4,
+          "action": "IMPORT",
+          "instruction": "Impor gambar ke halaman 1 Canva. Penuhi canvas dengan foto dan atur crop mengikuti composition tanpa memotong objek utama."
+        },
+        {
+          "step": 5,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang headline, supporting, dan labels persis dari copy sebagai teks editable. Headline di kiri atas; supporting tepat di bawahnya, seluruhnya di area kosong. Label ilustrasi di tepi bawah. Tebalkan frasa emphasis tanpa menduplikasinya."
+        },
+        {
+          "step": 6,
+          "action": "REVIEW",
+          "instruction": "Periksa keterbacaan ponsel, kesesuaian makna foto dengan copy, dan label ilustrasi AI. Jangan menambahkan klaim finansial atau menjadikan benda fotografis sebagai rekomendasi produk."
+        }
+      ]
+    },
+    {
+      "id": "slide_02",
+      "index": 2,
+      "role": "Definisi",
+      "purpose": "Menjelaskan tujuan dana darurat dengan bahasa sederhana setelah contoh konkret.",
+      "core_message": "Dana darurat sengaja disiapkan untuk pengeluaran penting yang tidak direncanakan.",
+      "copy": {
+        "headline": "Siapkan dana untuk yang tak direncanakan",
+        "supporting": "Dana darurat membantu menghadapi pengeluaran penting yang muncul mendadak.",
+        "emphasis": [
+          {
+            "text": "tak direncanakan",
+            "level": "PRIMARY"
+          }
+        ],
+        "labels": [
+          "MATERI UJI MOCK · ILUSTRASI AI"
+        ]
+      },
+      "claim_ids": [
+        "claim_01"
+      ],
+      "visual": {
+        "function": "SYMBOLIZE",
+        "primary": {
+          "concept": "Foto sintetis konseptual: Satu kantong kain kecil tertutup di atas meja belajar, laptop generik tampak samar jauh di belakang.",
+          "subject": "Satu kantong kain kecil tertutup di atas meja belajar, laptop generik tampak samar jauh di belakang.",
+          "scene": "Still life fotografis konseptual; kantong menyimbolkan dana yang sengaja disiapkan, bukan anjuran cara menyimpan uang.",
+          "composition": "Kantong di tengah bawah sebagai objek paling tajam; laptop di belakang kanan tidak dominan. Separuh atas adalah dinding polos dengan ruang teks.",
+          "framing": "Close-up kantong dari sudut rendah, depth of field lembut namun kontur objek tetap jelas.",
+          "background": "Meja kayu terang dan dinding netral polos; suasana sederhana, tanpa identitas lokasi nyata.",
+          "lighting": "Cahaya jendela lembut dari kiri, bayangan natural, warna netral hangat.",
+          "negative_space": "Separuh atas bersih untuk copy; hindari objek atau detail kontras di area tersebut.",
+          "text_zone": "Headline serta supporting di bagian atas; label ilustrasi di bawah foto.",
+          "visual_hierarchy": "Headline → objek utama foto → supporting → labels.",
+          "editing_treatment": "Gunakan foto sebagai image utama; crop dan reposition ringan. Bila perlu, tambahkan gradient tipis pada area teks untuk keterbacaan.",
+          "rationale": "Satu objek yang disiapkan terpisah menyimbolkan tujuan dana; definisi disampaikan oleh copy, bukan oleh klaim bahwa objek tertentu wajib digunakan."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_02"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Setelah brief disetujui, buka platform image-generation yang biasa digunakan dan salin prompt final pada asset_02. Generate gambar vertikal sesuai prompt; jangan generate typography."
+        },
+        {
+          "step": 2,
+          "action": "SELECT",
+          "instruction": "Pilih tekstur kain nyata dan satu kantong saja; jangan ada uang, label, logo, atau angka tercetak pada objek. Pastikan area teks kosong dan foto memenuhi prompt_spec. Jika belum sesuai, generate ulang dengan prompt yang sama."
+        },
+        {
+          "step": 3,
+          "action": "SAVE",
+          "instruction": "Simpan hasil terpilih sebagai asset_02-emergency-fund-v001.png atau format gambar berkualitas setara."
+        },
+        {
+          "step": 4,
+          "action": "IMPORT",
+          "instruction": "Impor gambar ke halaman 2 Canva. Penuhi canvas dengan foto dan atur crop mengikuti composition tanpa memotong objek utama."
+        },
+        {
+          "step": 5,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang headline, supporting, dan labels persis dari copy sebagai teks editable. Headline serta supporting di bagian atas; label ilustrasi di bawah foto. Tebalkan frasa emphasis tanpa menduplikasinya."
+        },
+        {
+          "step": 6,
+          "action": "REVIEW",
+          "instruction": "Periksa keterbacaan ponsel, kesesuaian makna foto dengan copy, dan label ilustrasi AI. Jangan menambahkan klaim finansial atau menjadikan benda fotografis sebagai rekomendasi produk."
+        }
+      ]
+    },
+    {
+      "id": "slide_03",
+      "index": 3,
+      "role": "Fungsi penyangga",
+      "purpose": "Memenuhi directive wajib tentang buffer dan hubungannya dengan uang kebutuhan rutin.",
+      "core_message": "Dana darurat membantu agar kebutuhan mendadak tidak langsung mengganggu uang kebutuhan rutin.",
+      "copy": {
+        "headline": "Ada penyangga sebelum uang rutin terganggu",
+        "supporting": "Dana darurat membantu agar kebutuhan mendadak tidak langsung mengganggu uang untuk kebutuhan rutin.",
+        "emphasis": [
+          {
+            "text": "penyangga",
+            "level": "PRIMARY"
+          }
+        ],
+        "labels": [
+          "MATERI UJI MOCK · ILUSTRASI AI"
+        ]
+      },
+      "claim_ids": [
+        "claim_02"
+      ],
+      "visual": {
+        "function": "SYMBOLIZE",
+        "primary": {
+          "concept": "Foto sintetis konseptual: Kantong kain kecil di depan sebuah buku catatan tertutup, dengan laptop generik di sisi belakang kanan.",
+          "subject": "Kantong kain kecil di depan sebuah buku catatan tertutup, dengan laptop generik di sisi belakang kanan.",
+          "scene": "Still life rekaan di meja belajar yang sama; penempatan objek merupakan metafora fungsi penyangga, bukan proses transaksi.",
+          "composition": "Kantong berada di foreground kanan bawah dan buku di belakang kiri dengan jarak alami. Sisakan kiri atas polos; objek tidak disusun menjadi diagram atau jalur.",
+          "framing": "Sudut tiga perempat agak tinggi; kantong tajam, buku tetap dapat dikenali.",
+          "background": "Meja kayu terang dan dinding netral polos; suasana sederhana, tanpa identitas lokasi nyata.",
+          "lighting": "Cahaya jendela lembut dari kiri, bayangan natural, warna netral hangat.",
+          "negative_space": "Separuh atas bersih untuk copy; hindari objek atau detail kontras di area tersebut.",
+          "text_zone": "Headline dan supporting di kiri atas; label ilustrasi di footer. Tidak ada label tambahan yang menghubungkan objek seperti diagram.",
+          "visual_hierarchy": "Headline → objek utama foto → supporting → labels.",
+          "editing_treatment": "Gunakan foto sebagai image utama; crop dan reposition ringan. Bila perlu, tambahkan gradient tipis pada area teks untuk keterbacaan.",
+          "rationale": "Foreground memberi penekanan pada penyangga. Copy memuat hubungan lengkap sehingga foto tidak perlu menyiratkan perlindungan mutlak atau jumlah dana."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_03"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Setelah brief disetujui, buka platform image-generation yang biasa digunakan dan salin prompt final pada asset_03. Generate gambar vertikal sesuai prompt; jangan generate typography."
+        },
+        {
+          "step": 2,
+          "action": "SELECT",
+          "instruction": "Pilih komposisi yang tenang dengan jarak alami antarobjek; jangan memilih foto yang menyiratkan kerusakan tertahan secara ajaib atau hasil perlindungan pasti. Pastikan area teks kosong dan foto memenuhi prompt_spec. Jika belum sesuai, generate ulang dengan prompt yang sama."
+        },
+        {
+          "step": 3,
+          "action": "SAVE",
+          "instruction": "Simpan hasil terpilih sebagai asset_03-emergency-fund-v001.png atau format gambar berkualitas setara."
+        },
+        {
+          "step": 4,
+          "action": "IMPORT",
+          "instruction": "Impor gambar ke halaman 3 Canva. Penuhi canvas dengan foto dan atur crop mengikuti composition tanpa memotong objek utama."
+        },
+        {
+          "step": 5,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang headline, supporting, dan labels persis dari copy sebagai teks editable. Headline dan supporting di kiri atas; label ilustrasi di footer. Tidak ada label tambahan yang menghubungkan objek seperti diagram. Tebalkan frasa emphasis tanpa menduplikasinya."
+        },
+        {
+          "step": 6,
+          "action": "REVIEW",
+          "instruction": "Periksa keterbacaan ponsel, kesesuaian makna foto dengan copy, dan label ilustrasi AI. Jangan menambahkan klaim finansial atau menjadikan benda fotografis sebagai rekomendasi produk."
+        }
+      ]
+    },
+    {
+      "id": "slide_04",
+      "index": 4,
+      "role": "Batas penggunaan",
+      "purpose": "Menjaga perbedaan antara dana darurat dan uang untuk pengeluaran terencana.",
+      "core_message": "Dana darurat berbeda tujuan dari uang yang sudah disiapkan untuk pengeluaran terencana.",
+      "copy": {
+        "headline": "Tujuannya berbeda dari uang untuk rencana",
+        "supporting": "Dana darurat dibedakan dari uang yang sudah disiapkan untuk pengeluaran terencana.",
+        "emphasis": [
+          {
+            "text": "Tujuannya berbeda",
+            "level": "PRIMARY"
+          }
+        ],
+        "labels": [
+          "Untuk rencana",
+          "Dana darurat",
+          "MATERI UJI MOCK · ILUSTRASI AI"
+        ]
+      },
+      "claim_ids": [
+        "claim_05"
+      ],
+      "visual": {
+        "function": "COMPARE",
+        "primary": {
+          "concept": "Foto sintetis konseptual: Sebuah buku agenda tertutup dan kantong kain kecil yang diletakkan berjauhan di permukaan meja.",
+          "subject": "Sebuah buku agenda tertutup dan kantong kain kecil yang diletakkan berjauhan di permukaan meja.",
+          "scene": "Foto benda rekaan dari atas; agenda dan kantong adalah metafora dua tujuan penggunaan uang, bukan rekomendasi alat atau rekening.",
+          "composition": "Agenda di kiri bawah dan kantong di kanan bawah dalam satu foto utuh, bukan split-screen. Keduanya memiliki bobot visual seimbang; separuh atas meja kosong.",
+          "framing": "Top-down dengan perspektif natural dan bayangan lembut.",
+          "background": "Meja kayu terang dan dinding netral polos; suasana sederhana, tanpa identitas lokasi nyata.",
+          "lighting": "Cahaya jendela lembut dari kiri, bayangan natural, warna netral hangat.",
+          "negative_space": "Separuh atas bersih untuk copy; hindari objek atau detail kontras di area tersebut.",
+          "text_zone": "Headline dan supporting di atas. Label Untuk rencana di dekat agenda; Dana darurat di dekat kantong, berupa teks saja. Label ilustrasi di tepi bawah.",
+          "visual_hierarchy": "Headline → objek utama foto → supporting → labels.",
+          "editing_treatment": "Gunakan foto sebagai image utama; crop dan reposition ringan. Bila perlu, tambahkan gradient tipis pada area teks untuk keterbacaan.",
+          "rationale": "Dua benda fisik membantu membedakan tujuan tanpa menambah kategori pengeluaran, nominal, atau instrumen."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_04"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Setelah brief disetujui, buka platform image-generation yang biasa digunakan dan salin prompt final pada asset_04. Generate gambar vertikal sesuai prompt; jangan generate typography."
+        },
+        {
+          "step": 2,
+          "action": "SELECT",
+          "instruction": "Pilih agenda tanpa tulisan terbaca dan kantong tanpa merek; jangan memakai pembagian bingkai, kolom grafis, atau perbandingan volume uang. Pastikan area teks kosong dan foto memenuhi prompt_spec. Jika belum sesuai, generate ulang dengan prompt yang sama."
+        },
+        {
+          "step": 3,
+          "action": "SAVE",
+          "instruction": "Simpan hasil terpilih sebagai asset_04-emergency-fund-v001.png atau format gambar berkualitas setara."
+        },
+        {
+          "step": 4,
+          "action": "IMPORT",
+          "instruction": "Impor gambar ke halaman 4 Canva. Penuhi canvas dengan foto dan atur crop mengikuti composition tanpa memotong objek utama."
+        },
+        {
+          "step": 5,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang headline, supporting, dan labels persis dari copy sebagai teks editable. Headline dan supporting di atas. Label Untuk rencana di dekat agenda; Dana darurat di dekat kantong, berupa teks saja. Label ilustrasi di tepi bawah. Tebalkan frasa emphasis tanpa menduplikasinya."
+        },
+        {
+          "step": 6,
+          "action": "REVIEW",
+          "instruction": "Periksa keterbacaan ponsel, kesesuaian makna foto dengan copy, dan label ilustrasi AI. Jangan menambahkan klaim finansial atau menjadikan benda fotografis sebagai rekomendasi produk."
+        }
+      ]
+    },
+    {
+      "id": "slide_05",
+      "index": 5,
+      "role": "Takeaway",
+      "purpose": "Menghubungkan fungsi penyangga dengan relevansi saat pemasukan terbatas dan kemungkinan membangun bertahap.",
+      "core_message": "Dana darurat tetap relevan saat pemasukan terbatas dan dapat dibangun bertahap tanpa menunggu pendapatan besar.",
+      "copy": {
+        "headline": "Pemasukan terbatas, tetap relevan",
+        "supporting": "Dana darurat menjadi penyangga kebutuhan mendadak. Membangunnya bisa bertahap, tanpa menunggu pendapatan besar.",
+        "emphasis": [
+          {
+            "text": "tetap relevan",
+            "level": "PRIMARY"
+          }
+        ],
+        "labels": [
+          "MATERI UJI MOCK · ILUSTRASI AI"
+        ]
+      },
+      "claim_ids": [
+        "claim_02",
+        "claim_04",
+        "claim_06"
+      ],
+      "visual": {
+        "function": "SYMBOLIZE",
+        "primary": {
+          "concept": "Foto sintetis konseptual: Satu tangan orang dewasa menyisihkan kantong kain kecil ke sisi meja belajar.",
+          "subject": "Satu tangan orang dewasa menyisihkan kantong kain kecil ke sisi meja belajar.",
+          "scene": "Adegan rekaan sebagai simbol memulai persiapan; tidak menunjukkan jumlah uang, jadwal, atau cara penyimpanan yang wajib.",
+          "composition": "Tangan masuk dari tepi kanan bawah dan menyentuh kantong di tengah bawah. Separuh atas dinding polos tetap kosong; laptop tertutup samar di tepi belakang.",
+          "framing": "Close-up gesture sederhana dari samping; wajah dan tubuh tidak masuk frame.",
+          "background": "Meja kayu terang dan dinding netral polos; suasana sederhana, tanpa identitas lokasi nyata.",
+          "lighting": "Cahaya jendela lembut dari kiri, bayangan natural, warna netral hangat.",
+          "negative_space": "Separuh atas bersih untuk copy; hindari objek atau detail kontras di area tersebut.",
+          "text_zone": "Headline dan supporting di atas; label ilustrasi di bawah.",
+          "visual_hierarchy": "Headline → objek utama foto → supporting → labels.",
+          "editing_treatment": "Gunakan foto sebagai image utama; crop dan reposition ringan. Bila perlu, tambahkan gradient tipis pada area teks untuk keterbacaan.",
+          "rationale": "Gerakan menyisihkan menjadi simbol kreatif persiapan bertahap, tanpa menyatakan dana kecil pasti cukup atau memberi target nominal."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_05"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Setelah brief disetujui, buka platform image-generation yang biasa digunakan dan salin prompt final pada asset_05. Generate gambar vertikal sesuai prompt; jangan generate typography."
+        },
+        {
+          "step": 2,
+          "action": "SELECT",
+          "instruction": "Pilih tangan anatomis natural dengan satu gesture sederhana dan tanpa uang terlihat; jangan memilih pose kemenangan atau kantong yang terlihat penuh uang. Pastikan area teks kosong dan foto memenuhi prompt_spec. Jika belum sesuai, generate ulang dengan prompt yang sama."
+        },
+        {
+          "step": 3,
+          "action": "SAVE",
+          "instruction": "Simpan hasil terpilih sebagai asset_05-emergency-fund-v001.png atau format gambar berkualitas setara."
+        },
+        {
+          "step": 4,
+          "action": "IMPORT",
+          "instruction": "Impor gambar ke halaman 5 Canva. Penuhi canvas dengan foto dan atur crop mengikuti composition tanpa memotong objek utama."
+        },
+        {
+          "step": 5,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang headline, supporting, dan labels persis dari copy sebagai teks editable. Headline dan supporting di atas; label ilustrasi di bawah. Tebalkan frasa emphasis tanpa menduplikasinya."
+        },
+        {
+          "step": 6,
+          "action": "REVIEW",
+          "instruction": "Periksa keterbacaan ponsel, kesesuaian makna foto dengan copy, dan label ilustrasi AI. Pertahankan kata bisa dan hindari klaim nominal minimum atau kepastian kecukupan."
+        }
+      ]
+    }
+  ],
+  "caption": {
+    "text": "Bagian mana dari fungsi dana darurat yang ingin kamu pahami lebih lanjut?",
+    "function": "QUESTION"
+  },
+  "warnings": [
+    {
+      "code": "MOCK_SOURCE_ONLY",
+      "severity": "WARNING",
+      "message": "Seluruh sumber fakta berasal dari src_01, Mock Module — Basic Emergency Fund, yang hanya ditujukan untuk pengujian engine.",
+      "recommendation": "Review sebagai manual test. Sebelum konten produksi, upstream perlu menyediakan evidence produksi dalam run terpisah."
+    },
+    {
+      "code": "MOCK_CONTEXT_ONLY",
+      "severity": "WARNING",
+      "message": "Audience, brand, visual, dan production context seluruhnya MOCK; keputusan treatment foto merupakan keputusan uji.",
+      "recommendation": "Validasi kembali terhadap konteks produksi sebelum adaptasi untuk publikasi."
+    },
+    {
+      "code": "SYNTHETIC_VISUALS_PENDING",
+      "severity": "WARNING",
+      "message": "Gambar fotorealistik baru direncanakan, belum dihasilkan atau diperiksa secara visual. Semua scene dan benda simbolik adalah ilustrasi kreatif, bukan bukti kejadian atau anjuran penyimpanan dana.",
+      "affected_slide_ids": [
+        "slide_01",
+        "slide_02",
+        "slide_03",
+        "slide_04",
+        "slide_05"
+      ],
+      "recommendation": "Setelah review brief, periksa hasil generasi, label ILUSTRASI AI, anatomi tangan, dan keterbacaan. Pertahankan batas makna pada prompt dan copy."
+    }
+  ],
+  "qa": {
+    "overall_status": "PASS_WITH_WARNING",
+    "dimensions": {
+      "objective": {
+        "status": "PASS",
+        "notes": "Objective dipertahankan persis dan dijawab pada penutup melalui fungsi buffer serta pembangunan bertahap."
+      },
+      "factual": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Semua FACT terpetakan ke fixture; satu DERIVED memiliki dasar langsung. Tidak ada angka, produk, atau fakta eksternal.",
+        "warning_codes": [
+          "MOCK_SOURCE_ONLY"
+        ]
+      },
+      "editorial": {
+        "status": "PASS",
+        "notes": "Semua lima material relevan: contoh, definisi, fungsi wajib, batas penggunaan, dan pembangunan bertahap. Tidak ada kebutuhan menambah cabang materi."
+      },
+      "narrative": {
+        "status": "PASS",
+        "notes": "Lima slide membangun contoh → definisi → buffer → batas penggunaan → relevansi. Carousel lengkap tanpa caption."
+      },
+      "density": {
+        "status": "PASS",
+        "notes": "Satu pesan inti dan supporting singkat per slide; separuh atas disediakan untuk copy."
+      },
+      "copy": {
+        "status": "PASS",
+        "notes": "Bahasa Indonesia conversational, simple, dan non-preachy. Misalnya, membantu, dan bisa mempertahankan batas klaim."
+      },
+      "visual": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Seluruh primary berupa foto sintetis realistis. Tidak ada diagram atau graphic component tersamar. Benda fisik berfungsi sebagai metafora, dengan label ilustrasi AI.",
+        "warning_codes": [
+          "SYNTHETIC_VISUALS_PENDING"
+        ]
+      },
+      "asset": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Lima AI_GENERATED image assets memiliki prompt_spec dan prompt final; semua dipakai. Teks dan labels hanya di copy serta instruksi desain.",
+        "warning_codes": [
+          "SYNTHETIC_VISUALS_PENDING"
+        ]
+      },
+      "production": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Langkah generate, pilih, simpan, impor, typography, dan review mengikuti konteks manual MOCK. Kualitas gambar aktual belum diuji karena run hanya membuat brief.",
+        "warning_codes": [
+          "MOCK_CONTEXT_ONLY",
+          "SYNTHETIC_VISUALS_PENDING"
+        ]
+      },
+      "source": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "src_01 adalah Mock Module — Basic Emergency Fund, hanya untuk pengujian; bukan evidence produksi yang diverifikasi eksternal.",
+        "warning_codes": [
+          "MOCK_SOURCE_ONLY"
+        ]
+      },
+      "brand": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Tone mengikuti konteks MOCK. Treatment foto netral tidak menetapkan palet atau tipografi brand final.",
+        "warning_codes": [
+          "MOCK_CONTEXT_ONLY"
+        ]
+      }
+    }
+  }
+}
