@@ -253,6 +253,14 @@ Mock sources:
 
 ---
 
+# Integration fixture
+
+`integration/mantri-uang-brand-context.json` menguji resolusi profil brand repository. Fixture ini sengaja tidak memiliki `context` inline. Engine harus memuat `mantri-uang` dari `context_profile`, lalu menerapkan audience, voice, visual rules, dan risk policy sebagai production context.
+
+Fixture integrasi tetap memakai material internal untuk pengujian. Jangan memperlakukannya sebagai sumber finansial production.
+
+---
+
 # Fixture Stability
 
 Setelah fixture mulai digunakan sebagai test case, hindari mengubahnya hanya untuk membuat engine terlihat lebih baik.
@@ -277,5 +285,5 @@ Fixture boleh berubah jika:
 
 Jika perubahan signifikan dilakukan, catat alasannya.
 
-Visual context pada dense, numerical, conflicting, dan insufficient direvisi mengikuti production model image + text. Material, objective, dan tujuan editorial masing-masing tetap sama. Fixture sengaja tidak meminta style khusus agar default photorealistic dapat diuji. Input schema_version tetap 0.1.0; output contract kini 0.2.0.
+Visual context pada dense, numerical, conflicting, dan insufficient direvisi mengikuti production model image + text. Material, objective, dan tujuan editorial masing-masing tetap sama. Fixture sengaja tidak meminta style khusus agar default photorealistic dapat diuji. Input schema_version tetap 0.1.0; output contract kini 0.3.0. Semua fixture aktif memakai master canvas 4:5, 1080 × 1350 px.
 

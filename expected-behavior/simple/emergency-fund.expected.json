@@ -5,12 +5,16 @@
 
   "must": [
     {
+      "id": "SIMPLE_C001",
+      "assertion": "Setiap slide harus memakai ordered display-copy blocks dengan role, reading_order, attention_priority, typography, dan placement yang resolved. Reading order boleh berbeda dari attention priority."
+    },
+    {
       "id": "SIMPLE_V001",
       "assertion": "Setiap slide harus image-led dan memakai strategy AI_SYNTHETIC, REAL_ASSET, atau HYBRID_COMPOSITE dengan asset_ids yang merujuk image asset AI_GENERATED atau REAL_ASSET."
     },
     {
       "id": "SIMPLE_V002",
-      "assertion": "Untuk konsep atau scene generic prioritaskan AI-generated image. Setiap AI_GENERATED asset harus memiliki prompt photorealistic seperti foto nyata; fixture ini tidak meminta override style. Aturan berlaku juga pada fallback."
+      "assertion": "Untuk konsep atau scene generic prioritaskan AI-generated image. Setiap AI_GENERATED asset harus memiliki prompt photorealistic seperti foto nyata; fixture ini tidak meminta override style."
     },
     {
       "id": "SIMPLE_V003",
@@ -52,12 +56,16 @@
 
   "must_not": [
     {
+      "id": "SIMPLE_CN001",
+      "assertion": "Engine tidak boleh memaksa semua slide memakai pola headline besar yang selalu diikuti supporting line kecil atau menulis copy seperti ringkasan artikel."
+    },
+    {
       "id": "SIMPLE_VN001",
       "assertion": "Engine tidak boleh menghasilkan GRAPHIC_ONLY, asset type GRAPHIC_COMPONENT atau OTHER, maupun memasukkan text sebagai asset registry."
     },
     {
       "id": "SIMPLE_VN002",
-      "assertion": "Engine tidak boleh merencanakan custom graphic components, icon system, shapes sebagai visual utama, diagram manual, decorative graphic composition, atau illustrated infographic components di visual, fallback, asset requirements, prompts, atau production instructions, termasuk jika diberi label AI_GENERATED/REAL_ASSET."
+      "assertion": "Engine tidak boleh merencanakan custom graphic components, icon system, shapes sebagai visual utama, diagram manual, decorative graphic composition, atau illustrated infographic components di visual, asset requirements, prompts, atau production instructions, termasuk jika diberi label AI_GENERATED/REAL_ASSET."
     },
     {
       "id": "SIMPLE_VN003",
@@ -65,7 +73,7 @@
     },
     {
       "id": "SIMPLE_VN004",
-      "assertion": "Graphic embellishment yang boleh diimprovisasi manusia harus tetap di luar output engine; jangan merencanakannya sebagai langkah wajib, opsional, asset, atau fallback."
+      "assertion": "Graphic embellishment yang boleh diimprovisasi manusia harus tetap di luar output engine; jangan merencanakannya sebagai langkah wajib, opsional, atau asset."
     },
     {
       "id": "SIMPLE_N001",
@@ -99,7 +107,7 @@
   "flexible": [
     "selected_angle",
     "narrative_type",
-    "headline_wording",
+    "display_copy_wording",
     "visual_metaphor",
     "asset_strategy_per_slide",
     "caption_wording"

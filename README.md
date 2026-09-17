@@ -439,6 +439,33 @@ Target utama adalah menghindari carousel yang berubah menjadi kumpulan paragraf.
 
 ---
 
+# Display Copy
+
+Copy carousel ditulis untuk dilihat di dalam komposisi, bukan sebagai ringkasan artikel atau potongan caption.
+
+Setiap slide memiliki `core_message` dan satu atau lebih display-copy blocks. Block dapat berfungsi sebagai context, focal statement, explanation, label, list, transition, atau CTA. Fungsi tersebut fleksibel dan tidak membentuk template wajib.
+
+Setiap block menetapkan:
+
+```text
+reading order
+attention priority
+typographic scale and weight
+alignment and color
+placement
+optional relation to visual
+```
+
+Reading order dapat berbeda dari attention priority. Sebuah context line dapat dibaca lebih dulu, sementara focal statement di bawahnya memakai ukuran lebih besar dan menarik perhatian lebih dulu.
+
+Focal statement tidak wajib dan tidak selalu menjadi seluruh pesan slide. Sentence fragment diperbolehkan jika membuat copy lebih mudah dilihat dan diingat tanpa mengubah makna. Compiler menentukan hierarki awal; operator boleh merevisi seluruh keputusan saat review atau produksi.
+
+Slide definisi sebaiknya menambahkan relevance atau implication. Jika tidak, gabungkan definisi ke slide lain. Slide transisi boleh membawa sedikit informasi baru jika dibutuhkan untuk pacing atau tension.
+
+Hierarki dan komposisi harus bervariasi antar-slide agar carousel terasa segar. Variasi bukan formula pergantian background atau layout. Kohesi tetap mengikuti brand context dan art direction post tersebut. Jika approved prior posts tersedia, engine juga harus menghindari pengulangan cover formula, scene, atau komposisi yang membuat post baru terasa seperti salinan.
+
+---
+
 # Cover
 
 Cover biasanya berfungsi sebagai hook.
@@ -540,9 +567,9 @@ Decorative visual adalah exception yang valid, bukan default.
 
 # Contract Version
 
-Input contract tetap `0.1.0`; output contract menjadi `0.2.0` untuk NEEDS_REVIEW maupun BLOCKED. Repo sebelumnya mengunci versi lewat `schema_version.const` dan belum mendokumentasikan kebijakan kenaikan versi. Kenaikan minor pra-1.0 ini menandai breaking change: penghapusan strategy GRAPHIC_ONLY serta asset type GRAPHIC_COMPONENT dan OTHER. Consumer harus mengikuti taxonomy image yang baru; jangan sekadar mengganti label asset grafis lama.
+Input contract tetap `0.1.0`; output contract menjadi `0.3.0` untuk NEEDS_REVIEW maupun BLOCKED. Versi ini mengganti pola copy tetap `headline + supporting` dengan ordered display-copy blocks dan menghapus fallback visual dari output. Consumer harus membaca perbedaan `reading_order` dan `attention_priority`, lalu merender typography dan placement setiap block.
 
-Hasil dan evaluasi manual runs 001–006 adalah arsip contract lama dan tidak diubah atau dijalankan ulang.
+Seluruh hasil dan evaluasi yang sudah ada di `runs/` dan `evaluation-result/` adalah arsip contract lama. File tersebut tidak diedit atau dijalankan ulang saat contract berubah.
 
 ---
 
@@ -602,7 +629,7 @@ Carousel menggunakan image + text. Visual utama harus image-led; AI-generated im
 
 Untuk real person, real company, real event, atau documentary evidence, prioritaskan REAL_ASSET. HYBRID_COMPOSITE digunakan jika perlu kombinasi image asset atau compositing ringan; menambahkan text ke image saja tidak membuat strategy menjadi hybrid.
 
-Registry hanya berisi image asset AI_GENERATED atau REAL_ASSET. Text, angka, dan label tetap berada di slide copy/design instructions, bukan asset registry. Primary maupun fallback harus mengikuti batas ini.
+Registry hanya berisi image asset AI_GENERATED atau REAL_ASSET. Text, angka, dan label tetap berada di slide copy/design instructions, bukan asset registry. Visual yang dipilih harus mengikuti batas ini.
 
 ---
 
@@ -684,8 +711,6 @@ Default:
 
 ```text
 PRIMARY CONCEPT
-+
-ONE FALLBACK
 ```
 
 Primary concept adalah resolved default path.
@@ -722,9 +747,9 @@ Typography dan informational text ditambahkan pada tahap desain.
 
 # Production Instructions
 
-Canva/design tool digunakan untuk headline/supporting text, typography, crop, resize/reposition image, remove background bila perlu, gradient ringan untuk readability, opacity, dan layering sederhana image + text.
+Canva/design tool digunakan untuk display-copy blocks, typography, crop, resize/reposition image, remove background bila perlu, gradient ringan untuk readability, opacity, dan layering sederhana image + text.
 
-Engine tidak merencanakan custom graphic components, icon system, Canva shapes sebagai visual utama, diagram manual, decorative graphic composition, atau illustrated infographic components. Larangan ini juga berlaku di asset requirements, prompts, fallback, dan production instructions; jangan menyamarkan komponen grafis sebagai AI_GENERATED atau REAL_ASSET. Manusia boleh mengimprovisasi graphic embellishment saat desain, tetapi itu di luar tanggung jawab dan output engine.
+Engine tidak merencanakan custom graphic components, icon system, Canva shapes sebagai visual utama, diagram manual, decorative graphic composition, atau illustrated infographic components. Larangan ini juga berlaku di asset requirements, prompts, dan production instructions; jangan menyamarkan komponen grafis sebagai AI_GENERATED atau REAL_ASSET. Manusia boleh mengimprovisasi graphic embellishment saat desain, tetapi itu di luar tanggung jawab dan output engine.
 
 Output sistem tidak berhenti pada image prompt.
 
@@ -749,7 +774,7 @@ Contoh:
 6. Buka Canva.
 7. Masukkan asset ke canvas.
 8. Tempatkan asset di area kanan bawah.
-9. Tambahkan headline sesuai production brief.
+9. Tambahkan display-copy blocks sesuai hierarchy dan placement pada production brief.
 10. Pastikan negative space tetap tersedia.
 ```
 
@@ -788,8 +813,8 @@ SLIDE 03
 2. Pilih asset dengan subject berada di kanan bawah.
 3. Import ke Canva.
 4. Crop apabila diperlukan.
-5. Tambahkan headline di kiri atas.
-6. Tambahkan supporting copy.
+5. Tambahkan setiap display-copy block sesuai reading order, attention priority, typography, dan placement.
+6. Terapkan accent treatment dan relation to visual jika ditetapkan.
 7. Pastikan visual tidak bertabrakan dengan text zone.
 ```
 
@@ -839,6 +864,15 @@ Contohnya:
 Jika brand context tersedia, engine harus mematuhinya selama tidak bertentangan dengan factual integrity atau core editorial principles.
 
 Brand dapat mengubah **cara sebuah fakta disampaikan**, tetapi tidak boleh mengubah fakta itu sendiri.
+
+Repository ini memakai profil brand terstruktur. Profil default tercatat di `contexts/defaults.json`, sedangkan sumber production Mantri Uang berada di:
+
+```text
+contexts/brands/mantri-uang.md
+contexts/brands/mantri-uang.context.json
+```
+
+File Markdown adalah brief yang dibaca manusia. File JSON adalah context yang dikonsumsi engine. Setiap run memuat profil default secara otomatis. Input dapat menyebut `context_profile` untuk memilih profil lain. Aturan merge dan perlindungan brand policy berada di `SYSTEM.md`.
 
 ---
 
@@ -896,7 +930,7 @@ Sistem boleh eksploratif pada:
 ```text
 story structure
 narrative expression
-headline
+display copy
 analogy
 visual metaphor
 visual concept
@@ -1129,10 +1163,10 @@ Default master canvas:
 
 ```text
 Aspect Ratio:
-3:4
+4:5
 
 Resolution:
-1080 × 1440 px
+1080 × 1350 px
 ```
 
 Canvas specification merupakan production context, bukan bagian permanen dari editorial core.

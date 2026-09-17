@@ -6,7 +6,7 @@ Expected behavior bukan golden output.
 
 File di folder ini tidak menentukan:
 
-- headline exact;
+- display-copy wording exact;
 - copy exact;
 - visual exact;
 - angle exact;
@@ -126,9 +126,9 @@ Expected behavior hanya berubah jika:
 
 ## Image + Text Regression Checks
 
-Assertion visual/asset/production pada empat fixture NEEDS_REVIEW adalah MUST/MUST_NOT, bukan golden wording. Semua pilihan `flexible` tetap tunduk pada contract ini. Validasi output memakai schema 0.2.0; input fixtures tetap 0.1.0. Kasus BLOCKED tetap diuji atas evidence/scope dan tidak perlu menghasilkan visual atau asset.
+Assertion visual/asset/production pada empat fixture NEEDS_REVIEW adalah MUST/MUST_NOT, bukan golden wording. Semua pilihan `flexible` tetap tunduk pada contract ini. Validasi output memakai schema 0.3.0; input fixtures tetap 0.1.0. Kasus BLOCKED tetap diuji atas evidence/scope dan tidak perlu menghasilkan visual atau asset.
 
-Schema validator memeriksa enum dan struktur. Evaluator juga wajib membaca makna primary/fallback, requirements, prompts, dan instruksi Canva: label AI_GENERATED tidak membuat rencana infographic menjadi valid. Manusia boleh menambahkan graphic embellishment di tahap desain atas inisiatif sendiri, tetapi engine tidak merencanakannya, bahkan sebagai opsi.
+Schema validator memeriksa enum dan struktur. Evaluator juga wajib membaca makna primary visual, requirements, prompts, dan instruksi Canva: label AI_GENERATED tidak membuat rencana infographic menjadi valid. Manusia boleh menambahkan graphic embellishment di tahap desain atas inisiatif sendiri, tetapi engine tidak merencanakannya, bahkan sebagai opsi.
 
 Untuk pemeriksaan regresi, gunakan variasi terkontrol dari fixture simple tanpa mengubah material/objective:
 
@@ -137,4 +137,4 @@ Untuk pemeriksaan regresi, gunakan variasi terkontrol dari fixture simple tanpa 
 - Dengan visual context meminta foto dokumenter laptop nyata yang dijelaskan mat_03: prioritaskan REAL_ASSET dengan sourcing requirements; jangan menghasilkan foto AI seolah dokumentasi laptop tersebut.
 - Dengan visual context meminta kombinasi foto laptop nyata dan AI-generated background: HYBRID_COMPOSITE boleh, registry memuat image real dan AI dengan prompt, dan editing terbatas pada compositing ringan.
 
-Pemeriksaan negatif schema: strategy GRAPHIC_ONLY, asset type GRAPHIC_COMPONENT/OTHER, dan output schema_version 0.1.0 harus ditolak; ketiga strategy serta kedua image asset type baru harus diterima pada struktur yang valid. Pemeriksaan semantik harus menolak rencana icon/shape/diagram yang disamarkan sebagai image, termasuk pada fallback. Tidak perlu menjalankan atau mengubah arsip manual runs lama untuk melakukan pemeriksaan contract ini.
+Pemeriksaan negatif schema: strategy GRAPHIC_ONLY, asset type GRAPHIC_COMPONENT/OTHER, output schema_version lama, field copy `headline`/`supporting`, dan visual `fallback` harus ditolak. Ketiga strategy, kedua image asset type, dan ordered display-copy blocks harus diterima pada struktur yang valid. Pemeriksaan semantik harus menolak rencana icon/shape/diagram yang disamarkan sebagai image. Tidak perlu menjalankan atau mengubah arsip manual runs lama untuk melakukan pemeriksaan contract ini.

@@ -429,15 +429,19 @@ Output harus cukup resolved untuk diproduksi.
 
 Engine bertanggung jawab menghasilkan copy yang cukup final untuk ditempatkan ke desain.
 
-Ini termasuk:
+Copy disusun sebagai display-copy blocks, bukan pasangan field headline dan supporting yang wajib. Block dapat berfungsi sebagai:
 
-* cover headline;
-* slide headline;
-* supporting copy;
-* emphasis;
-* short labels jika diperlukan;
-* CTA jika relevan;
-* caption singkat.
+* context;
+* focal statement;
+* explanation;
+* label;
+* list;
+* transition;
+* CTA.
+
+Engine menentukan text, reading order, attention priority, typographic treatment, alignment, color, placement, dan hubungan block dengan visual. Reading order dapat berbeda dari attention priority. Sentence fragment diperbolehkan jika lebih mudah dipindai tanpa mengubah makna.
+
+Setiap slide harus memiliki message atau fungsi naratif yang diperlukan. Definition-only slide sebaiknya menambahkan relevance atau implication, atau digabung ke slide lain. Focal statement disarankan ketika berguna, tetapi tidak wajib dan tidak selalu berisi seluruh pesan slide.
 
 Content producer tidak seharusnya perlu menulis ulang keseluruhan copy dari nol.
 
@@ -605,7 +609,7 @@ Carousel menggunakan image + text. Visual utama harus image-led; AI-generated im
 
 Untuk real person, real company, real event, atau documentary evidence, prioritaskan REAL_ASSET. HYBRID_COMPOSITE digunakan jika perlu kombinasi image asset atau compositing ringan; menambahkan text ke image saja tidak membuat strategy menjadi hybrid.
 
-Registry hanya berisi image asset AI_GENERATED atau REAL_ASSET. Text, angka, dan label tetap berada di slide copy/design instructions, bukan asset registry. Primary maupun fallback harus mengikuti batas ini.
+Registry hanya berisi image asset AI_GENERATED atau REAL_ASSET. Text, angka, dan label tetap berada di slide copy/design instructions, bukan asset registry. Visual yang dipilih harus mengikuti batas ini.
 
 ---
 
@@ -660,9 +664,9 @@ Automation ini dapat berubah di versi mendatang tanpa mengubah core responsibili
 
 # 26. Production Instruction Scope
 
-Canva/design tool digunakan untuk headline/supporting text, typography, crop, resize/reposition image, remove background bila perlu, gradient ringan untuk readability, opacity, dan layering sederhana image + text.
+Canva/design tool digunakan untuk display-copy blocks, typography, crop, resize/reposition image, remove background bila perlu, gradient ringan untuk readability, opacity, dan layering sederhana image + text.
 
-Engine tidak merencanakan custom graphic components, icon system, Canva shapes sebagai visual utama, diagram manual, decorative graphic composition, atau illustrated infographic components. Larangan ini juga berlaku di asset requirements, prompts, fallback, dan production instructions; jangan menyamarkan komponen grafis sebagai AI_GENERATED atau REAL_ASSET. Manusia boleh mengimprovisasi graphic embellishment saat desain, tetapi itu di luar tanggung jawab dan output engine.
+Engine tidak merencanakan custom graphic components, icon system, Canva shapes sebagai visual utama, diagram manual, decorative graphic composition, atau illustrated infographic components. Larangan ini juga berlaku di asset requirements, prompts, dan production instructions; jangan menyamarkan komponen grafis sebagai AI_GENERATED atau REAL_ASSET. Manusia boleh mengimprovisasi graphic embellishment saat desain, tetapi itu di luar tanggung jawab dan output engine.
 
 Production planning termasuk dalam scope.
 
@@ -967,8 +971,8 @@ Tidak ada platform-specific content adaptation pada V0.
 Default master canvas:
 
 ```text
-3:4
-1080 × 1440 px
+4:5
+1080 × 1350 px
 ```
 
 Canvas adalah production context.

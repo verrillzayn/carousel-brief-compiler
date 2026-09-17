@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "context_profile": "mantri-uang",
+  "topic": "Dana darurat dari gaji pertama",
+  "objective": "Membantu first jobber memulai dana darurat dengan satu tindakan yang dapat dilakukan pada hari menerima gaji.",
+  "initial_angle": "Gaji pertama belum perlu terlihat sukses. Yang lebih mendesak adalah memberi napas buatan untuk bulan depan.",
+  "raw_material": [
+    {
+      "id": "mat_01",
+      "type": "DEFINITION",
+      "content": "Dana darurat adalah uang yang dipisahkan untuk pengeluaran penting yang tidak direncanakan.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_02",
+      "type": "RESEARCH_NOTE",
+      "content": "Materi internal ini mengarahkan pembaca untuk memulai secara bertahap tanpa menunggu penghasilan besar.",
+      "source_ids": [
+        "src_01"
+      ]
+    },
+    {
+      "id": "mat_03",
+      "type": "EXAMPLE",
+      "content": "Contoh tindakan hari ini adalah memindahkan nominal kecil ke rekening terpisah segera setelah gaji masuk.",
+      "source_ids": [
+        "src_01"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_01",
+      "title": "Internal integration test material",
+      "source": "Materi internal yang dibuat untuk menguji resolusi context profile Mantri Uang",
+      "type": "INTERNAL_DOCUMENT",
+      "notes": "Bukan sumber finansial production."
+    }
+  ],
+  "constraints": {
+    "language": "id-ID",
+    "slide_count": {
+      "preferred_min": 5,
+      "preferred_max": 7,
+      "hard_max": 10
+    },
+    "canvas": {
+      "aspect_ratio": "4:5",
+      "width_px": 1080,
+      "height_px": 1350
+    }
+  },
+  "notes": "Fixture ini harus mengambil audience, brand, dan visual context dari profil mantri-uang."
+}

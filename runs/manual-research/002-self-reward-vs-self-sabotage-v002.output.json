@@ -1,0 +1,1330 @@
+{
+  "schema_version": "0.3.0",
+  "status": "NEEDS_REVIEW",
+  "editorial": {
+    "objective": "Membantu first jobber mengenali saat self-reward mulai memakai uang kebutuhan sampai gajian berikutnya, lalu menentukan jatah reward sesuai kondisi uangnya hari ini tanpa merasa dihakimi karena ingin menikmati hasil kerja.",
+    "central_takeaway": "Kasih jatah buat senang yang tetap menyisakan uang kebutuhan dan komitmen penting sampai gajian. Kalau belum ada ruang, simpan dulu incarannya.",
+    "selected_angle": "Gue udah capek kerja. Masa gak boleh beli ini?",
+    "angle_rationale": "Pertanyaan setelah lembur tetap menjadi pintu masuk, diikuti penjelasan cukup tentang uang yang sudah punya jatah. Sepatu dan kamar menyambung emosi. Materi riset dipilih untuk menjawab kemampuan membeli dan tindakan hari ini, tanpa memasukkan seluruh taksonomi psikologi atau data nasional.",
+    "selected_material_ids": [
+      "mat_03",
+      "mat_05",
+      "mat_06",
+      "mat_07",
+      "mat_09"
+    ],
+    "omitted_material": [
+      {
+        "material_ids": [
+          "mat_01"
+        ],
+        "reason": "Ringkasan mengulang materi terpilih sekaligus memuat statistik dan mekanisme yang terlalu luas untuk satu cerita."
+      },
+      {
+        "material_ids": [
+          "mat_02"
+        ],
+        "reason": "Taksonomi mekanisme psikologis membutuhkan konteks tambahan. Tidak ada kebutuhan menjelaskan studi atau memberi diagnosis untuk menyampaikan konsekuensi uang."
+      },
+      {
+        "material_ids": [
+          "mat_04"
+        ],
+        "reason": "Statistik Indonesia, aturan BNPL dan survei cashless tidak diperlukan untuk objective. Rujukan asli bagian ini juga belum diverifikasi."
+      },
+      {
+        "material_ids": [
+          "mat_08"
+        ],
+        "reason": "Evidence bank dipakai sebagai catatan provenance, bukan materi slide. Tidak memajang daftar studi sebagai pengganti cerita."
+      }
+    ]
+  },
+  "narrative": {
+    "type": "Percakapan batin dengan satu benda penghubung dan satu alternatif keputusan",
+    "summary": "First jobber lelah ingin menikmati hasil kerja. Skenario paket sepatu memberi rasa senang, lalu membuka konsekuensi ongkos yang terpakai. Slide 3 menerangkan bahwa saldo masih punya jatah; slide 4 memisahkan alasan ingin membeli dari kemampuan membayar. Slide 5 memberi alternatif reward yang disiapkan. Slide 6 menghitung ruang reward dari uang sekarang, lalu slide 7 mengajak mencatat jatah hari ini. Ritme copy: cover pendek, cerita dan penjelasan sedang, P3K lebih panjang, penutup pendek.",
+    "opening_function": "Menghadirkan pertanyaan yang mungkin muncul ketika capek kerja, sebelum memberi nasihat.",
+    "ending_function": "Mengembalikan pilihan ke pembaca dengan tindakan hari ini dan kemungkinan menunda jika belum ada ruang. Hadiah tidak perlu menambah capek.",
+    "slide_sequence": [
+      "slide_01",
+      "slide_02",
+      "slide_03",
+      "slide_04",
+      "slide_05",
+      "slide_06",
+      "slide_07"
+    ]
+  },
+  "claims": [
+    {
+      "id": "claim_01",
+      "text": "Ilustrasi first jobber setelah lembur: membeli sepatu memberi rasa senang, tetapi uang ongkos minggu itu ikut terpakai.",
+      "claim_type": "CREATIVE",
+      "material_ids": [
+        "mat_05",
+        "mat_03"
+      ],
+      "notes": "Bukan kisah nyata atau hasil survei. Copy slide 2 secara eksplisit memakai Bayangin. Tidak ada nominal, statistik, atau klaim bahwa semua self-reward berakhir begini."
+    },
+    {
+      "id": "claim_02",
+      "text": "Anggaran membantu mengecek kecukupan uang untuk pengeluaran, tabungan dan keinginan tambahan dengan mempertimbangkan pemasukan, pengeluaran dan tagihan.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_research",
+        "src_cfpb"
+      ],
+      "material_ids": [
+        "mat_03",
+        "mat_07",
+        "mat_09"
+      ],
+      "notes": "Prinsip anggaran, bukan prediksi kesehatan atau jaminan selalu ada sisa. Mendukung pemeriksaan uang di slide 6 dan syarat pada skenario slide 5."
+    },
+    {
+      "id": "claim_03",
+      "text": "Lo pantas senang. Gue pantas gak nambah saldo.",
+      "claim_type": "CREATIVE",
+      "material_ids": [
+        "mat_06"
+      ],
+      "notes": "Sentilan editorial dari thesis B pada mat_06, dilanjutkan pemeriksaan kemampuan membeli dari mat_03 dan mat_07. Tidak mendiagnosis self-licensing pada setiap pekerja."
+    },
+    {
+      "id": "claim_04",
+      "text": "Alternatif ilustratif: sepatu dibeli dari jatah yang sudah disisihkan sehingga kebutuhan dan tabungan penting tetap jalan.",
+      "claim_type": "CREATIVE",
+      "material_ids": [
+        "mat_03",
+        "mat_05",
+        "mat_07"
+      ],
+      "notes": "Slide 5 membuka alternatif dengan Sekarang bayangin. Kebutuhan dan tabungan penting tetap jalan merupakan syarat, bukan klaim bahwa keadaan tokoh sebelumnya mendadak pulih."
+    },
+    {
+      "id": "claim_05",
+      "text": "P3K editorial: jeda checkout, sisihkan kebutuhan serta komitmen sampai gajian dari uang sekarang, tentukan jatah reward dari sisa tanpa menghabiskan semua, lalu nikmati atau tunda tanpa utang baru.",
+      "claim_type": "CREATIVE",
+      "material_ids": [
+        "mat_07",
+        "mat_09"
+      ],
+      "notes": "Adaptasi praktis P3K untuk satu objective. Tidak wajib mengeja seluruh akronim versi riset. Tidak menjanjikan perbaikan finansial, persentase universal, atau tunggu sekian jam."
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset_01",
+      "type": "AI_GENERATED",
+      "description": "Ragu selepas kerja di meja kamar",
+      "subject": "A fictional Indonesian male office worker in his mid-twenties, medium-brown skin, short neat black hair and clean-shaven face. He wears a white formal cotton shirt with lightly creased sleeves and a loose forest-green tie. Seated at his desk, both hands gently touch the temples, elbows outward. Full face visible, slightly furrowed brow, relaxed lips, gaze lowered in mild purchase hesitation rather than pain.",
+      "requirements": [
+        "Person centered at x 18-82%, y 53-100%. Head and both hands fully visible below y 53%. Lower torso crops naturally at bottom. Upper half is continuous quiet wall, no split panels. Curtain and desk remain in the lower half.",
+        "x 8-92%, y 7-46% stays pale and low contrast; leave a quiet gap before the head at y 53%.",
+        "Pertahankan detail lingkungan di luar area baca.",
+        "Satu adegan utama; batasi properti pada yang disebut dalam scene."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "A fictional Indonesian male office worker in his mid-twenties, medium-brown skin, short neat black hair and clean-shaven face. He wears a white formal cotton shirt with lightly creased sleeves and a loose forest-green tie. Seated at his desk, both hands gently touch the temples, elbows outward. Full face visible, slightly furrowed brow, relaxed lips, gaze lowered in mild purchase hesitation rather than pain.",
+          "scene": "A modest rented room after work. Off-white plaster wall with fine uneven paint texture, a faded forest-green cotton curtain in loose folds at far right, and a narrow worn pale wooden desk edge at the bottom. A charcoal chair back is barely visible. No other props.",
+          "composition": "Person centered at x 18-82%, y 53-100%. Head and both hands fully visible below y 53%. Lower torso crops naturally at bottom. Upper half is continuous quiet wall, no split panels. Curtain and desk remain in the lower half.",
+          "framing": "Straight-on seated eye-level medium portrait, natural 50mm perspective, moderate depth of field around f/4. Skin and hands sharp; curtain softly recognizable.",
+          "camera": "Straight-on seated eye-level medium portrait, natural 50mm perspective, moderate depth of field around f/4. Skin and hands sharp; curtain softly recognizable.",
+          "background": "A modest rented room after work. Off-white plaster wall with fine uneven paint texture, a faded forest-green cotton curtain in loose folds at far right, and a narrow worn pale wooden desk edge at the bottom. A charcoal chair back is barely visible. No other props.",
+          "lighting": "Large diffused window light from camera-left, subtle late-afternoon warmth. Soft cheek and fabric shadows, a faint broad glow on the lower-right wall. No sharp window shadow across the text.",
+          "negative_space": "x 8-92%, y 7-46% stays pale and low contrast; leave a quiet gap before the head at y 53%.",
+          "text_safe_area": "x 8-92%, y 7-46% stays pale and low contrast; leave a quiet gap before the head at y 53%.",
+          "visual_treatment": "Natural pores, faint under-eye tiredness, cotton weave, small shirt folds, matte plaster and rubbed wooden desk edge. Fine grain and restrained retouching.",
+          "constraints": [
+            "Vertical 4:5, at least 1080 x 1350 pixels.",
+            "Fictional photographic illustration, no documentary claim.",
+            "All final copy added separately.",
+            "Match selected worker and sneakers when they appear."
+          ],
+          "avoid": [
+            "logos",
+            "readable text or numbers",
+            "watermarks",
+            "cartoon",
+            "3D render",
+            "glossy stock photography",
+            "exaggerated distress",
+            "extra fingers",
+            "busy background",
+            "hard shadows in text zones"
+          ]
+        },
+        "prompt": "Photorealistic vertical editorial photograph, 4:5, at least 1080 x 1350 pixels. A fictional Indonesian male office worker in his mid-twenties, medium-brown skin, short neat black hair and clean-shaven face. He wears a white formal cotton shirt with lightly creased sleeves and a loose forest-green tie. Seated at his desk, both hands gently touch the temples, elbows outward. Full face visible, slightly furrowed brow, relaxed lips, gaze lowered in mild purchase hesitation rather than pain. Setting: A modest rented room after work. Off-white plaster wall with fine uneven paint texture, a faded forest-green cotton curtain in loose folds at far right, and a narrow worn pale wooden desk edge at the bottom. A charcoal chair back is barely visible. No other props. Composition: Person centered at x 18-82%, y 53-100%. Head and both hands fully visible below y 53%. Lower torso crops naturally at bottom. Upper half is continuous quiet wall, no split panels. Curtain and desk remain in the lower half. Lighting: Large diffused window light from camera-left, subtle late-afternoon warmth. Soft cheek and fabric shadows, a faint broad glow on the lower-right wall. No sharp window shadow across the text. Camera and focus: Straight-on seated eye-level medium portrait, natural 50mm perspective, moderate depth of field around f/4. Skin and hands sharp; curtain softly recognizable. Material finish: Natural pores, faint under-eye tiredness, cotton weave, small shirt folds, matte plaster and rubbed wooden desk edge. Fine grain and restrained retouching. Layout requirement: x 8-92%, y 7-46% stays pale and low contrast; leave a quiet gap before the head at y 53%. Retain forest and emerald green, off-white and charcoal, with restrained natural skin and wood tones. A continuous real-looking room, no studio seamless background or pasted cutout appearance. Use the selected character and sneaker references where applicable. No readable text, logos, watermarks, graphic shapes, split panels, diagrams, cartoon, 3D rendering, clutter or distorted anatomy. Fictional conceptual scene, not documentary evidence."
+      },
+      "notes": "Belum digenerate. Gunakan asset_01 terpilih untuk referensi pekerja; asset_02 untuk sepatu pada asset_03, asset_05 dan asset_07. Adegan tangan tetap memakai kemeja dan warna kulit yang sama."
+    },
+    {
+      "id": "asset_02",
+      "type": "AI_GENERATED",
+      "description": "Paket dibuka di kamar selepas kerja",
+      "subject": "Two medium-brown hands in the same white rolled shirt cuffs opening a plain brown shoebox. One hand lifts white tissue; the other holds an unbranded white canvas sneaker with forest-green heel tab, cream laces and white rubber sole. The second shoe stays inside the box.",
+      "requirements": [
+        "Hands, shoe, box and table grouped in lower 38%, x 18-94%, y 64-100%. A full shoe silhouette is visible, grounded with natural contact shadows. Upper 60% remains wall.",
+        "x 8-92%, y 7-58% is a quiet light wall with thin paint texture only.",
+        "Pertahankan detail lingkungan di luar area baca.",
+        "Satu adegan utama; batasi properti pada yang disebut dalam scene."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "Two medium-brown hands in the same white rolled shirt cuffs opening a plain brown shoebox. One hand lifts white tissue; the other holds an unbranded white canvas sneaker with forest-green heel tab, cream laces and white rubber sole. The second shoe stays inside the box.",
+          "scene": "Low pale-wood table in the same rented room. One restrained tissue fold, a lifted packing-tape edge and a dark green curtain at far right. Quiet off-white plaster wall above. The scene feels like a small personal celebration, without exaggerated gestures.",
+          "composition": "Hands, shoe, box and table grouped in lower 38%, x 18-94%, y 64-100%. A full shoe silhouette is visible, grounded with natural contact shadows. Upper 60% remains wall.",
+          "framing": "Raised three-quarter view into the box, natural 50mm lens look, moderate depth of field. Hands and shoe sharp, curtain gently soft.",
+          "camera": "Raised three-quarter view into the box, natural 50mm lens look, moderate depth of field. Hands and shoe sharp, curtain gently soft.",
+          "background": "Low pale-wood table in the same rented room. One restrained tissue fold, a lifted packing-tape edge and a dark green curtain at far right. Quiet off-white plaster wall above. The scene feels like a small personal celebration, without exaggerated gestures.",
+          "lighting": "Soft daylight from upper right, warm neutral balance. Gentle highlights on new canvas and tissue edges; modest shadow inside the box. Low-contrast wall above.",
+          "negative_space": "x 8-92%, y 7-58% is a quiet light wall with thin paint texture only.",
+          "text_safe_area": "x 8-92%, y 7-58% is a quiet light wall with thin paint texture only.",
+          "visual_treatment": "Canvas stitching, lace fibers, cardboard corrugation, translucent tissue, fine table grain and natural hand creases. Candid domestic photography with subtle grain.",
+          "constraints": [
+            "Vertical 4:5, at least 1080 x 1350 pixels.",
+            "Fictional photographic illustration, no documentary claim.",
+            "All final copy added separately.",
+            "Match selected worker and sneakers when they appear."
+          ],
+          "avoid": [
+            "logos",
+            "readable text or numbers",
+            "watermarks",
+            "cartoon",
+            "3D render",
+            "glossy stock photography",
+            "exaggerated distress",
+            "extra fingers",
+            "busy background",
+            "hard shadows in text zones"
+          ]
+        },
+        "prompt": "Photorealistic vertical editorial photograph, 4:5, at least 1080 x 1350 pixels. Two medium-brown hands in the same white rolled shirt cuffs opening a plain brown shoebox. One hand lifts white tissue; the other holds an unbranded white canvas sneaker with forest-green heel tab, cream laces and white rubber sole. The second shoe stays inside the box. Setting: Low pale-wood table in the same rented room. One restrained tissue fold, a lifted packing-tape edge and a dark green curtain at far right. Quiet off-white plaster wall above. The scene feels like a small personal celebration, without exaggerated gestures. Composition: Hands, shoe, box and table grouped in lower 38%, x 18-94%, y 64-100%. A full shoe silhouette is visible, grounded with natural contact shadows. Upper 60% remains wall. Lighting: Soft daylight from upper right, warm neutral balance. Gentle highlights on new canvas and tissue edges; modest shadow inside the box. Low-contrast wall above. Camera and focus: Raised three-quarter view into the box, natural 50mm lens look, moderate depth of field. Hands and shoe sharp, curtain gently soft. Material finish: Canvas stitching, lace fibers, cardboard corrugation, translucent tissue, fine table grain and natural hand creases. Candid domestic photography with subtle grain. Layout requirement: x 8-92%, y 7-58% is a quiet light wall with thin paint texture only. Retain forest and emerald green, off-white and charcoal, with restrained natural skin and wood tones. A continuous real-looking room, no studio seamless background or pasted cutout appearance. Use the selected character and sneaker references where applicable. No readable text, logos, watermarks, graphic shapes, split panels, diagrams, cartoon, 3D rendering, clutter or distorted anatomy. Fictional conceptual scene, not documentary evidence."
+      },
+      "notes": "Belum digenerate. Gunakan asset_01 terpilih untuk referensi pekerja; asset_02 untuk sepatu pada asset_03, asset_05 dan asset_07. Adegan tangan tetap memakai kemeja dan warna kulit yang sama."
+    },
+    {
+      "id": "asset_03",
+      "type": "AI_GENERATED",
+      "description": "Sepatu sudah dipakai di depan pintu",
+      "subject": "The worker seen only from charcoal trouser cuffs down, wearing the same white canvas sneakers with green heel tabs and cream laces. Feet pause at the doorway, one slightly ahead as if leaving for work.",
+      "requirements": [
+        "Shoes, tote and threshold confined to y 70-100%. Shoes at x 30-72%, tote at far right. Upper two thirds is wall; door trim stays outside the copy.",
+        "x 8-92%, y 7-64% is pale low-detail wall for the longer explanation.",
+        "Pertahankan detail lingkungan di luar area baca.",
+        "Satu adegan utama; batasi properti pada yang disebut dalam scene."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "The worker seen only from charcoal trouser cuffs down, wearing the same white canvas sneakers with green heel tabs and cream laces. Feet pause at the doorway, one slightly ahead as if leaving for work.",
+          "scene": "Small rented-room entrance, pale plaster wall, narrow forest-green door jamb at far right, lightly scuffed neutral tile floor. A plain black work tote rests against the jamb. Ordinary room details, no empty wallet or poverty caricature.",
+          "composition": "Shoes, tote and threshold confined to y 70-100%. Shoes at x 30-72%, tote at far right. Upper two thirds is wall; door trim stays outside the copy.",
+          "framing": "Low straight-on view angled slightly down, 50mm perspective, moderate depth of field. Shoe detail clear, door trim a little softer.",
+          "camera": "Low straight-on view angled slightly down, 50mm perspective, moderate depth of field. Shoe detail clear, door trim a little softer.",
+          "background": "Small rented-room entrance, pale plaster wall, narrow forest-green door jamb at far right, lightly scuffed neutral tile floor. A plain black work tote rests against the jamb. Ordinary room details, no empty wallet or poverty caricature.",
+          "lighting": "Soft morning light from right through the doorway, a muted elongated light patch across the floor and soft shadows under soles. Upper wall remains even.",
+          "negative_space": "x 8-92%, y 7-64% is pale low-detail wall for the longer explanation.",
+          "text_safe_area": "x 8-92%, y 7-64% is pale low-detail wall for the longer explanation.",
+          "visual_treatment": "Canvas creases, rubber edges, natural trouser drape, faint tile scuffs and tiny paint chips near the floor. Quiet everyday realism, not dramatic distress.",
+          "constraints": [
+            "Vertical 4:5, at least 1080 x 1350 pixels.",
+            "Fictional photographic illustration, no documentary claim.",
+            "All final copy added separately.",
+            "Match selected worker and sneakers when they appear."
+          ],
+          "avoid": [
+            "logos",
+            "readable text or numbers",
+            "watermarks",
+            "cartoon",
+            "3D render",
+            "glossy stock photography",
+            "exaggerated distress",
+            "extra fingers",
+            "busy background",
+            "hard shadows in text zones"
+          ]
+        },
+        "prompt": "Photorealistic vertical editorial photograph, 4:5, at least 1080 x 1350 pixels. The worker seen only from charcoal trouser cuffs down, wearing the same white canvas sneakers with green heel tabs and cream laces. Feet pause at the doorway, one slightly ahead as if leaving for work. Setting: Small rented-room entrance, pale plaster wall, narrow forest-green door jamb at far right, lightly scuffed neutral tile floor. A plain black work tote rests against the jamb. Ordinary room details, no empty wallet or poverty caricature. Composition: Shoes, tote and threshold confined to y 70-100%. Shoes at x 30-72%, tote at far right. Upper two thirds is wall; door trim stays outside the copy. Lighting: Soft morning light from right through the doorway, a muted elongated light patch across the floor and soft shadows under soles. Upper wall remains even. Camera and focus: Low straight-on view angled slightly down, 50mm perspective, moderate depth of field. Shoe detail clear, door trim a little softer. Material finish: Canvas creases, rubber edges, natural trouser drape, faint tile scuffs and tiny paint chips near the floor. Quiet everyday realism, not dramatic distress. Layout requirement: x 8-92%, y 7-64% is pale low-detail wall for the longer explanation. Retain forest and emerald green, off-white and charcoal, with restrained natural skin and wood tones. A continuous real-looking room, no studio seamless background or pasted cutout appearance. Use the selected character and sneaker references where applicable. No readable text, logos, watermarks, graphic shapes, split panels, diagrams, cartoon, 3D rendering, clutter or distorted anatomy. Fictional conceptual scene, not documentary evidence."
+      },
+      "notes": "Belum digenerate. Gunakan asset_01 terpilih untuk referensi pekerja; asset_02 untuk sepatu pada asset_03, asset_05 dan asset_07. Adegan tangan tetap memakai kemeja dan warna kulit yang sama."
+    },
+    {
+      "id": "asset_04",
+      "type": "AI_GENERATED",
+      "description": "Jeda sebelum membeli dalam cahaya sore",
+      "subject": "The same worker shown from behind the right shoulder, part of the cheek visible, looking down at a plain black smartphone in one hand. The other hand rests loosely on the desk. White cotton sleeve, loose green tie, thoughtful posture. Phone screen faces away and is unreadable.",
+      "requirements": [
+        "Figure, phone and desk form a substantial scene at lower right, x 58-100%, y 46-100%. Upper headline area and the left column remain a continuous dark green wall. The face and hands stay inside the image column; no prop crosses the text.",
+        "Headline at x 8-94%, y 8-39%. Longer explanation at x 8-51%, y 46-88%. Both zones are low-contrast dark green for white text.",
+        "Pertahankan detail lingkungan di luar area baca.",
+        "Satu adegan utama; batasi properti pada yang disebut dalam scene."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "The same worker shown from behind the right shoulder, part of the cheek visible, looking down at a plain black smartphone in one hand. The other hand rests loosely on the desk. White cotton sleeve, loose green tie, thoughtful posture. Phone screen faces away and is unreadable.",
+          "scene": "Small wooden desk beside the room window. An emerald curtain gathers at right; a forest-green painted wall with subtle brush texture fills the background. Only a desk corner shows, with no extra accessories.",
+          "composition": "Figure, phone and desk form a substantial scene at lower right, x 58-100%, y 46-100%. Upper headline area and the left column remain a continuous dark green wall. The face and hands stay inside the image column; no prop crosses the text.",
+          "framing": "Over-the-shoulder close editorial photograph, natural 50mm perspective, moderate depth of field around f/4. Hand and phone defined; wall softly textured.",
+          "camera": "Over-the-shoulder close editorial photograph, natural 50mm perspective, moderate depth of field around f/4. Hand and phone defined; wall softly textured.",
+          "background": "Small wooden desk beside the room window. An emerald curtain gathers at right; a forest-green painted wall with subtle brush texture fills the background. Only a desk corner shows, with no extra accessories.",
+          "lighting": "Soft right-side window light grazes cheek, shirt and phone edge. Wall stays dark green with gentle tonal falloff, never crushed black. No glare behind white text.",
+          "negative_space": "Headline at x 8-94%, y 8-39%. Longer explanation at x 8-51%, y 46-88%. Both zones are low-contrast dark green for white text.",
+          "text_safe_area": "Headline at x 8-94%, y 8-39%. Longer explanation at x 8-51%, y 46-88%. Both zones are low-contrast dark green for white text.",
+          "visual_treatment": "Cotton creases, satin-matte phone edge, painted-wall irregularity and worn wood. Natural color, cinematic stillness, light grain without heavy grading.",
+          "constraints": [
+            "Vertical 4:5, at least 1080 x 1350 pixels.",
+            "Fictional photographic illustration, no documentary claim.",
+            "All final copy added separately.",
+            "Match selected worker and sneakers when they appear."
+          ],
+          "avoid": [
+            "logos",
+            "readable text or numbers",
+            "watermarks",
+            "cartoon",
+            "3D render",
+            "glossy stock photography",
+            "exaggerated distress",
+            "extra fingers",
+            "busy background",
+            "hard shadows in text zones"
+          ]
+        },
+        "prompt": "Photorealistic vertical editorial photograph, 4:5, at least 1080 x 1350 pixels. The same worker shown from behind the right shoulder, part of the cheek visible, looking down at a plain black smartphone in one hand. The other hand rests loosely on the desk. White cotton sleeve, loose green tie, thoughtful posture. Phone screen faces away and is unreadable. Setting: Small wooden desk beside the room window. An emerald curtain gathers at right; a forest-green painted wall with subtle brush texture fills the background. Only a desk corner shows, with no extra accessories. Composition: Figure, phone and desk form a substantial scene at lower right, x 58-100%, y 46-100%. Upper headline area and the left column remain a continuous dark green wall. The face and hands stay inside the image column; no prop crosses the text. Lighting: Soft right-side window light grazes cheek, shirt and phone edge. Wall stays dark green with gentle tonal falloff, never crushed black. No glare behind white text. Camera and focus: Over-the-shoulder close editorial photograph, natural 50mm perspective, moderate depth of field around f/4. Hand and phone defined; wall softly textured. Material finish: Cotton creases, satin-matte phone edge, painted-wall irregularity and worn wood. Natural color, cinematic stillness, light grain without heavy grading. Layout requirement: Headline at x 8-94%, y 8-39%. Longer explanation at x 8-51%, y 46-88%. Both zones are low-contrast dark green for white text. Retain forest and emerald green, off-white and charcoal, with restrained natural skin and wood tones. A continuous real-looking room, no studio seamless background or pasted cutout appearance. Use the selected character and sneaker references where applicable. No readable text, logos, watermarks, graphic shapes, split panels, diagrams, cartoon, 3D rendering, clutter or distorted anatomy. Fictional conceptual scene, not documentary evidence."
+      },
+      "notes": "Belum digenerate. Gunakan asset_01 terpilih untuk referensi pekerja; asset_02 untuk sepatu pada asset_03, asset_05 dan asset_07. Adegan tangan tetap memakai kemeja dan warna kulit yang sama."
+    },
+    {
+      "id": "asset_05",
+      "type": "AI_GENERATED",
+      "description": "Sepatu yang dibeli dari jatah sendiri",
+      "subject": "The same white canvas sneakers with forest-green heel tabs and cream laces beside a plain open shoebox. A relaxed medium-brown hand in a white cuff lightly straightens a lace near the lower edge.",
+      "requirements": [
+        "Large close view of shoes, box, bench and relaxed hand on the left, x 0-46%, y 36-100%. Shoes fully recognizable, bench and cushion grounded in the lower-left scene. Top 30% and right column remain quiet off-white wall. No object reaches the body-copy column at x 52-92%.",
+        "Opening and title at x 8-92%, y 7-32%. Explanation at x 52-92%, y 39-78%; permission at x 52-92%, y 84-94%. Keep these pale areas low contrast.",
+        "Pertahankan detail lingkungan di luar area baca.",
+        "Satu adegan utama; batasi properti pada yang disebut dalam scene."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "The same white canvas sneakers with forest-green heel tabs and cream laces beside a plain open shoebox. A relaxed medium-brown hand in a white cuff lightly straightens a lace near the lower edge.",
+          "scene": "Pale-wood bench by the room window, slightly rumpled green cotton seat pad at far right. Off-white plaster above, a narrow curtain strip and a soft window-light patch on the lower wall. One tissue fold inside the box, no additional decorative props.",
+          "composition": "Large close view of shoes, box, bench and relaxed hand on the left, x 0-46%, y 36-100%. Shoes fully recognizable, bench and cushion grounded in the lower-left scene. Top 30% and right column remain quiet off-white wall. No object reaches the body-copy column at x 52-92%.",
+          "framing": "Three-quarter still-life photograph, natural 50mm perspective, moderate depth of field. Sneakers sharp, distant cushion and curtain slightly soft.",
+          "camera": "Three-quarter still-life photograph, natural 50mm perspective, moderate depth of field. Sneakers sharp, distant cushion and curtain slightly soft.",
+          "background": "Pale-wood bench by the room window, slightly rumpled green cotton seat pad at far right. Off-white plaster above, a narrow curtain strip and a soft window-light patch on the lower wall. One tissue fold inside the box, no additional decorative props.",
+          "lighting": "Gentle diffused light from left, mild warm canvas highlights, broad soft window glow below the copy. Calm domestic atmosphere, not glossy product advertising.",
+          "negative_space": "Opening and title at x 8-92%, y 7-32%. Explanation at x 52-92%, y 39-78%; permission at x 52-92%, y 84-94%. Keep these pale areas low contrast.",
+          "text_safe_area": "Opening and title at x 8-92%, y 7-32%. Explanation at x 52-92%, y 39-78%; permission at x 52-92%, y 84-94%. Keep these pale areas low contrast.",
+          "visual_treatment": "Canvas weave, lace fibers, small box dents, cushion folds, wood wear and matte paint. Intimate lived-in editorial image with light grain.",
+          "constraints": [
+            "Vertical 4:5, at least 1080 x 1350 pixels.",
+            "Fictional photographic illustration, no documentary claim.",
+            "All final copy added separately.",
+            "Match selected worker and sneakers when they appear."
+          ],
+          "avoid": [
+            "logos",
+            "readable text or numbers",
+            "watermarks",
+            "cartoon",
+            "3D render",
+            "glossy stock photography",
+            "exaggerated distress",
+            "extra fingers",
+            "busy background",
+            "hard shadows in text zones"
+          ]
+        },
+        "prompt": "Photorealistic vertical editorial photograph, 4:5, at least 1080 x 1350 pixels. The same white canvas sneakers with forest-green heel tabs and cream laces beside a plain open shoebox. A relaxed medium-brown hand in a white cuff lightly straightens a lace near the lower edge. Setting: Pale-wood bench by the room window, slightly rumpled green cotton seat pad at far right. Off-white plaster above, a narrow curtain strip and a soft window-light patch on the lower wall. One tissue fold inside the box, no additional decorative props. Composition: Large close view of shoes, box, bench and relaxed hand on the left, x 0-46%, y 36-100%. Shoes fully recognizable, bench and cushion grounded in the lower-left scene. Top 30% and right column remain quiet off-white wall. No object reaches the body-copy column at x 52-92%. Lighting: Gentle diffused light from left, mild warm canvas highlights, broad soft window glow below the copy. Calm domestic atmosphere, not glossy product advertising. Camera and focus: Three-quarter still-life photograph, natural 50mm perspective, moderate depth of field. Sneakers sharp, distant cushion and curtain slightly soft. Material finish: Canvas weave, lace fibers, small box dents, cushion folds, wood wear and matte paint. Intimate lived-in editorial image with light grain. Layout requirement: Opening and title at x 8-92%, y 7-32%. Explanation at x 52-92%, y 39-78%; permission at x 52-92%, y 84-94%. Keep these pale areas low contrast. Retain forest and emerald green, off-white and charcoal, with restrained natural skin and wood tones. A continuous real-looking room, no studio seamless background or pasted cutout appearance. Use the selected character and sneaker references where applicable. No readable text, logos, watermarks, graphic shapes, split panels, diagrams, cartoon, 3D rendering, clutter or distorted anatomy. Fictional conceptual scene, not documentary evidence."
+      },
+      "notes": "Belum digenerate. Gunakan asset_01 terpilih untuk referensi pekerja; asset_02 untuk sepatu pada asset_03, asset_05 dan asset_07. Adegan tangan tetap memakai kemeja dan warna kulit yang sama."
+    },
+    {
+      "id": "asset_06",
+      "type": "AI_GENERATED",
+      "description": "Menghitung jatah di meja sehari-hari",
+      "subject": "One medium-brown hand in a rolled white shirt cuff holding a black pen over a small open notebook. Page marks are faint and out of focus with no readable words or numbers. Plain black smartphone face down to the right.",
+      "requirements": [
+        "Near-overhead portrait. Notebook, hand and phone form a narrow column at x 72-100%, y 39-96%. The left x 0-68% stays clear tabletop. Notebook may crop at right edge; fingers remain intact.",
+        "Headline x 8-92%, y 6-29%. Instructions x 8-65%, y 35-94%, completely free of objects and sharp shadows.",
+        "Pertahankan detail lingkungan di luar area baca.",
+        "Satu adegan utama; batasi properti pada yang disebut dalam scene."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "One medium-brown hand in a rolled white shirt cuff holding a black pen over a small open notebook. Page marks are faint and out of focus with no readable words or numbers. Plain black smartphone face down to the right.",
+          "scene": "A small table with a matte off-white painted top, slight wear on its right edge and a narrow forest-green cotton mat under the notebook. Practical pause at home; no spreadsheet, calculator display or decorative budgeting props.",
+          "composition": "Near-overhead portrait. Notebook, hand and phone form a narrow column at x 72-100%, y 39-96%. The left x 0-68% stays clear tabletop. Notebook may crop at right edge; fingers remain intact.",
+          "framing": "Near-overhead natural 50mm perspective with minimal distortion, moderate-to-deep depth of field. Hand and pen clear, notebook marks deliberately unreadable.",
+          "camera": "Near-overhead natural 50mm perspective with minimal distortion, moderate-to-deep depth of field. Hand and pen clear, notebook marks deliberately unreadable.",
+          "background": "A small table with a matte off-white painted top, slight wear on its right edge and a narrow forest-green cotton mat under the notebook. Practical pause at home; no spreadsheet, calculator display or decorative budgeting props.",
+          "lighting": "Large soft window light from upper left, gentle contact shadows toward lower right within the object column. Left tabletop evenly lit, no hard shadows crossing the instructions.",
+          "negative_space": "Headline x 8-92%, y 6-29%. Instructions x 8-65%, y 35-94%, completely free of objects and sharp shadows.",
+          "text_safe_area": "Headline x 8-92%, y 6-29%. Instructions x 8-65%, y 35-94%, completely free of objects and sharp shadows.",
+          "visual_treatment": "Subtle painted wood wear, paper grain, cotton mat fibers, plastic pen and skin detail. Restrained grain, realistic working surface rather than a studio seamless background.",
+          "constraints": [
+            "Vertical 4:5, at least 1080 x 1350 pixels.",
+            "Fictional photographic illustration, no documentary claim.",
+            "All final copy added separately.",
+            "Match selected worker and sneakers when they appear."
+          ],
+          "avoid": [
+            "logos",
+            "readable text or numbers",
+            "watermarks",
+            "cartoon",
+            "3D render",
+            "glossy stock photography",
+            "exaggerated distress",
+            "extra fingers",
+            "busy background",
+            "hard shadows in text zones"
+          ]
+        },
+        "prompt": "Photorealistic vertical editorial photograph, 4:5, at least 1080 x 1350 pixels. One medium-brown hand in a rolled white shirt cuff holding a black pen over a small open notebook. Page marks are faint and out of focus with no readable words or numbers. Plain black smartphone face down to the right. Setting: A small table with a matte off-white painted top, slight wear on its right edge and a narrow forest-green cotton mat under the notebook. Practical pause at home; no spreadsheet, calculator display or decorative budgeting props. Composition: Near-overhead portrait. Notebook, hand and phone form a narrow column at x 72-100%, y 39-96%. The left x 0-68% stays clear tabletop. Notebook may crop at right edge; fingers remain intact. Lighting: Large soft window light from upper left, gentle contact shadows toward lower right within the object column. Left tabletop evenly lit, no hard shadows crossing the instructions. Camera and focus: Near-overhead natural 50mm perspective with minimal distortion, moderate-to-deep depth of field. Hand and pen clear, notebook marks deliberately unreadable. Material finish: Subtle painted wood wear, paper grain, cotton mat fibers, plastic pen and skin detail. Restrained grain, realistic working surface rather than a studio seamless background. Layout requirement: Headline x 8-92%, y 6-29%. Instructions x 8-65%, y 35-94%, completely free of objects and sharp shadows. Retain forest and emerald green, off-white and charcoal, with restrained natural skin and wood tones. A continuous real-looking room, no studio seamless background or pasted cutout appearance. Use the selected character and sneaker references where applicable. No readable text, logos, watermarks, graphic shapes, split panels, diagrams, cartoon, 3D rendering, clutter or distorted anatomy. Fictional conceptual scene, not documentary evidence."
+      },
+      "notes": "Belum digenerate. Gunakan asset_01 terpilih untuk referensi pekerja; asset_02 untuk sepatu pada asset_03, asset_05 dan asset_07. Adegan tangan tetap memakai kemeja dan warna kulit yang sama."
+    },
+    {
+      "id": "asset_07",
+      "type": "AI_GENERATED",
+      "description": "Siap berangkat dengan langkah lebih tenang",
+      "subject": "The same young worker in white shirt with rolled sleeves, loose green tie and charcoal trousers, sitting on a modest dark wooden chair to tie one of the same white canvas sneakers. Head bent toward laces, shoulders relaxed, face only partly visible.",
+      "requirements": [
+        "Tying-shoe gesture at x 35-96%, y 65-100%. Broad quiet wall above. Back and arms lead the eye to the sneaker. Head and hands intact; lower chair legs may crop naturally.",
+        "x 8-92%, y 9-59% remains pale quiet wall for the short ending.",
+        "Pertahankan detail lingkungan di luar area baca.",
+        "Satu adegan utama; batasi properti pada yang disebut dalam scene."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "The same young worker in white shirt with rolled sleeves, loose green tie and charcoal trousers, sitting on a modest dark wooden chair to tie one of the same white canvas sneakers. Head bent toward laces, shoulders relaxed, face only partly visible.",
+          "scene": "The same rented-room doorway: muted green curtain at far right, pale plaster wall, slightly worn wooden chair, narrow strip of tile floor. Plain black work tote against a chair leg. A reflective image, not evidence that the character has solved his finances.",
+          "composition": "Tying-shoe gesture at x 35-96%, y 65-100%. Broad quiet wall above. Back and arms lead the eye to the sneaker. Head and hands intact; lower chair legs may crop naturally.",
+          "framing": "Eye level with the seated gesture, medium-wide natural 50mm perspective, moderate depth of field. Hands clear; curtain softly blurred. No dramatic low angle.",
+          "camera": "Eye level with the seated gesture, medium-wide natural 50mm perspective, moderate depth of field. Hands clear; curtain softly blurred. No dramatic low angle.",
+          "background": "The same rented-room doorway: muted green curtain at far right, pale plaster wall, slightly worn wooden chair, narrow strip of tile floor. Plain black work tote against a chair leg. A reflective image, not evidence that the character has solved his finances.",
+          "lighting": "Soft early morning light from left illuminates folds, hand and lace. Faint window-shaped glow on floor at lower right, long soft shadows grounding the chair.",
+          "negative_space": "x 8-92%, y 9-59% remains pale quiet wall for the short ending.",
+          "text_safe_area": "x 8-92%, y 9-59% remains pale quiet wall for the short ending.",
+          "visual_treatment": "Lived-in cotton folds, shoe stitching, worn chair corners, tile seams at bottom and natural skin. An ordinary quiet morning with subtle photographic grain.",
+          "constraints": [
+            "Vertical 4:5, at least 1080 x 1350 pixels.",
+            "Fictional photographic illustration, no documentary claim.",
+            "All final copy added separately.",
+            "Match selected worker and sneakers when they appear."
+          ],
+          "avoid": [
+            "logos",
+            "readable text or numbers",
+            "watermarks",
+            "cartoon",
+            "3D render",
+            "glossy stock photography",
+            "exaggerated distress",
+            "extra fingers",
+            "busy background",
+            "hard shadows in text zones"
+          ]
+        },
+        "prompt": "Photorealistic vertical editorial photograph, 4:5, at least 1080 x 1350 pixels. The same young worker in white shirt with rolled sleeves, loose green tie and charcoal trousers, sitting on a modest dark wooden chair to tie one of the same white canvas sneakers. Head bent toward laces, shoulders relaxed, face only partly visible. Setting: The same rented-room doorway: muted green curtain at far right, pale plaster wall, slightly worn wooden chair, narrow strip of tile floor. Plain black work tote against a chair leg. A reflective image, not evidence that the character has solved his finances. Composition: Tying-shoe gesture at x 35-96%, y 65-100%. Broad quiet wall above. Back and arms lead the eye to the sneaker. Head and hands intact; lower chair legs may crop naturally. Lighting: Soft early morning light from left illuminates folds, hand and lace. Faint window-shaped glow on floor at lower right, long soft shadows grounding the chair. Camera and focus: Eye level with the seated gesture, medium-wide natural 50mm perspective, moderate depth of field. Hands clear; curtain softly blurred. No dramatic low angle. Material finish: Lived-in cotton folds, shoe stitching, worn chair corners, tile seams at bottom and natural skin. An ordinary quiet morning with subtle photographic grain. Layout requirement: x 8-92%, y 9-59% remains pale quiet wall for the short ending. Retain forest and emerald green, off-white and charcoal, with restrained natural skin and wood tones. A continuous real-looking room, no studio seamless background or pasted cutout appearance. Use the selected character and sneaker references where applicable. No readable text, logos, watermarks, graphic shapes, split panels, diagrams, cartoon, 3D rendering, clutter or distorted anatomy. Fictional conceptual scene, not documentary evidence."
+      },
+      "notes": "Belum digenerate. Gunakan asset_01 terpilih untuk referensi pekerja; asset_02 untuk sepatu pada asset_03, asset_05 dan asset_07. Adegan tangan tetap memakai kemeja dan warna kulit yang sama."
+    }
+  ],
+  "production": {
+    "global_instructions": [
+      {
+        "step": 1,
+        "action": "SETUP",
+        "instruction": "Siapkan tujuh canvas 4:5, 1080 x 1350 px. Revisi v002 tanggal 13 September 2026 berstatus NEEDS_REVIEW. Brief memuat rencana; gambar dan desain final belum dibuat."
+      },
+      {
+        "step": 2,
+        "action": "SETUP",
+        "instruction": "Warna Mantri Uang tetap hijau, putih dan hitam. Arah post ini: forest green gelap #123D2C, emerald pada bahan tirai, off-white pada dinding, charcoal pada pakaian dan properti. Kulit serta kayu natural hanya menjadi warna lingkungan. Anton untuk penekanan, sans serif sederhana untuk penjelasan."
+      },
+      {
+        "step": 3,
+        "action": "COMPOSE",
+        "instruction": "Satu kamar atau kos menjadi dunia visual. Tekstur dinding, lipatan kain, sudut meja, kotak paket dan cahaya jendela memberi kedalaman. Batasi properti pada prompt. Area baca tetap tenang, dengan tekstur tipis dan perubahan cahaya lembut."
+      },
+      {
+        "step": 4,
+        "action": "GENERATE",
+        "instruction": "Buat tujuh aset terpisah. Pilih asset_01 terlebih dahulu sebagai referensi pekerja, kemeja dan dasi; asset_02 menjadi referensi sepatu. Lampirkan referensi itu pada adegan terkait. Pertahankan rambut, kulit, kemeja dan detail sneakers."
+      },
+      {
+        "step": 5,
+        "action": "SELECT",
+        "instruction": "Pilih gambar berdasarkan gestur, anatomi, cahaya, tekstur dan area baca. Cover tetap menempatkan sosok di separuh bawah. Tolak tangan cacat, ekspresi sakit, ruangan mewah dan logo merek."
+      },
+      {
+        "step": 6,
+        "action": "SAVE",
+        "instruction": "Saat produksi simpan asset_01.png sampai asset_07.png di folder produksi 002-self-reward-vs-self-sabotage-v002/assets/. Gambar belum dibuat dalam revisi brief ini."
+      },
+      {
+        "step": 7,
+        "action": "ADD_TEXT",
+        "instruction": "Slide 1 dan 7 singkat, 2-5 membawa cerita dan penjelasan, 6 paling panjang. Tidak ada batas kata seragam. Pertahankan Bayangin pada slide 2 dan Sekarang bayangin pada slide 5. Jangan membuat seluruh slide memiliki ukuran dan panjang copy yang sama."
+      },
+      {
+        "step": 8,
+        "action": "ADJUST",
+        "instruction": "Gunakan crop, resize, teks dan gradient ringan jika diperlukan. Pertahankan latar foto; jangan menggantinya dengan putih steril, ikon, shape, diagram atau UI palsu. Slide 4 memakai dinding hijau gelap dengan teks putih. Slide lain memakai lingkungan terang."
+      },
+      {
+        "step": 9,
+        "action": "REVIEW",
+        "instruction": "Tinjau pada lebar 360 px. Periksa body slide 3-6, terutama kolom P3K. Jika sempit, perbaiki crop atau area baca sebelum mengecilkan huruf. Ukuran mikro masih ditentukan saat produksi. Caption harus memuat disclaimer brand persis."
+      }
+    ]
+  },
+  "slides": [
+    {
+      "id": "slide_01",
+      "index": 1,
+      "role": "hook",
+      "purpose": "Mempertahankan pertanyaan batin cover dan pose pilihan pengguna.",
+      "core_message": "Pembaca ingin menikmati hasil kerja setelah lelah tanpa harus merasa bersalah.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "context",
+            "text": "SELF-REWARD HABIS LEMBUR",
+            "reading_order": 1,
+            "attention_priority": 2,
+            "typography": {
+              "scale": "SMALL",
+              "weight": "MEDIUM",
+              "alignment": "LEFT",
+              "color": "forest green",
+              "notes": "Anton untuk penekanan, sans serif sederhana untuk penjelasan. Body harus tetap nyaman dibaca di ponsel."
+            },
+            "placement": "x 8-92%, y 7-11%."
+          },
+          {
+            "role": "inner_voice",
+            "text": "GUE UDAH\nCAPEK KERJA.\nMASA GAK BOLEH\nBELI INI?",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {
+              "scale": "HERO",
+              "weight": "BOLD",
+              "alignment": "LEFT",
+              "color": "forest green",
+              "notes": "Anton untuk penekanan, sans serif sederhana untuk penjelasan. Body harus tetap nyaman dibaca di ponsel."
+            },
+            "placement": "x 8-92%, y 16-46%. Empat baris di atas kepala."
+          }
+        ]
+      },
+      "claim_ids": [
+        "claim_01"
+      ],
+      "visual": {
+        "function": "CONTEXTUALIZE",
+        "primary": {
+          "concept": "Ragu selepas kerja di meja kamar. Mempertahankan pertanyaan batin cover dan pose pilihan pengguna.",
+          "subject": "A fictional Indonesian male office worker in his mid-twenties, medium-brown skin, short neat black hair and clean-shaven face. He wears a white formal cotton shirt with lightly creased sleeves and a loose forest-green tie. Seated at his desk, both hands gently touch the temples, elbows outward. Full face visible, slightly furrowed brow, relaxed lips, gaze lowered in mild purchase hesitation rather than pain.",
+          "scene": "A modest rented room after work. Off-white plaster wall with fine uneven paint texture, a faded forest-green cotton curtain in loose folds at far right, and a narrow worn pale wooden desk edge at the bottom. A charcoal chair back is barely visible. No other props.",
+          "composition": "Person centered at x 18-82%, y 53-100%. Head and both hands fully visible below y 53%. Lower torso crops naturally at bottom. Upper half is continuous quiet wall, no split panels. Curtain and desk remain in the lower half.",
+          "framing": "Straight-on seated eye-level medium portrait, natural 50mm perspective, moderate depth of field around f/4. Skin and hands sharp; curtain softly recognizable.",
+          "background": "A modest rented room after work. Off-white plaster wall with fine uneven paint texture, a faded forest-green cotton curtain in loose folds at far right, and a narrow worn pale wooden desk edge at the bottom. A charcoal chair back is barely visible. No other props.",
+          "lighting": "Large diffused window light from camera-left, subtle late-afternoon warmth. Soft cheek and fabric shadows, a faint broad glow on the lower-right wall. No sharp window shadow across the text.",
+          "negative_space": "x 8-92%, y 7-46% stays pale and low contrast; leave a quiet gap before the head at y 53%.",
+          "text_zone": "x 8-92%, y 7-46% stays pale and low contrast; leave a quiet gap before the head at y 53%.",
+          "visual_hierarchy": "Copy utama memimpin, gestur atau benda memperjelas situasi, lalu tekstur dan cahaya memberi suasana. Penjelasan harus punya kontras penuh dan tidak menutupi subjek.",
+          "editing_treatment": "Pertahankan latar foto dan teksturnya. Crop dan reposisi seperlunya; gradient tipis hanya untuk kontras lokal. Jangan memutihkan seluruh latar. Semua teks editable.",
+          "rationale": "Mempertahankan pertanyaan batin cover dan pose pilihan pengguna."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_01"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "IMPORT",
+          "instruction": "Impor asset_01.png terpilih dengan referensi identitas, sepatu dan ruangan yang konsisten."
+        },
+        {
+          "step": 2,
+          "action": "CROP",
+          "instruction": "Person centered at x 18-82%, y 53-100%. Head and both hands fully visible below y 53%. Lower torso crops naturally at bottom. Upper half is continuous quiet wall, no split panels. Curtain and desk remain in the lower half."
+        },
+        {
+          "step": 3,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang seluruh copy.blocks dalam reading_order, gunakan attention_priority dan placement. Boleh menata line break tanpa mengubah kata. Jangan mengecilkan body untuk mempertahankan komposisi yang sempit."
+        },
+        {
+          "step": 4,
+          "action": "ADJUST",
+          "instruction": "Pertahankan detail ruang, bahan, cahaya dan soft shadow sesuai prompt. Redam kontras lokal hanya pada area teks jika perlu. Tidak ada properti atau elemen grafis tambahan."
+        },
+        {
+          "step": 5,
+          "action": "REVIEW",
+          "instruction": "x 8-92%, y 7-46% stays pale and low contrast; leave a quiet gap before the head at y 53%. Periksa pada lebar 360 px. Jika sempit, rapikan crop atau perluas area baca yang tenang sebelum mengecilkan body. Periksa sambungan cerita dengan slide sebelum dan sesudahnya."
+        }
+      ]
+    },
+    {
+      "id": "slide_02",
+      "index": 2,
+      "role": "rasa_senang",
+      "purpose": "Membuat motivasi setelah lembur terasa spesifik sebelum konsekuensi muncul.",
+      "core_message": "Skenario menunjukkan alasan menghadiahi diri setelah kerja keras dan rasa senang saat barang datang.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "scenario",
+            "text": "Bayangin, seminggu pulang malam.\nSepatu incaran masih di keranjang.",
+            "reading_order": 1,
+            "attention_priority": 3,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "MEDIUM",
+              "alignment": "LEFT",
+              "color": "black",
+              "notes": "Anton untuk penekanan, sans serif sederhana untuk penjelasan. Body harus tetap nyaman dibaca di ponsel."
+            },
+            "placement": "x 8-90%, y 7-18%."
+          },
+          {
+            "role": "inner_voice",
+            "text": "\"SEKALI INI AJA.\nGUE UDAH KERJA KERAS.\"",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {
+              "scale": "LARGE",
+              "weight": "BOLD",
+              "alignment": "LEFT",
+              "color": "forest green",
+              "notes": "Anton untuk penekanan, sans serif sederhana untuk penjelasan. Body harus tetap nyaman dibaca di ponsel."
+            },
+            "placement": "x 8-92%, y 22-37%."
+          },
+          {
+            "role": "explanation",
+            "text": "Lo checkout. Pas paket datang, senengnya kerasa. Akhirnya ada hasil kerja yang bisa lo nikmatin sendiri.",
+            "reading_order": 3,
+            "attention_priority": 2,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "MEDIUM",
+              "alignment": "LEFT",
+              "color": "black",
+              "notes": "Anton untuk penekanan, sans serif sederhana untuk penjelasan. Body harus tetap nyaman dibaca di ponsel."
+            },
+            "placement": "x 8-90%, y 42-57%. Maksimal empat baris body."
+          }
+        ]
+      },
+      "claim_ids": [
+        "claim_01"
+      ],
+      "visual": {
+        "function": "CONTEXTUALIZE",
+        "primary": {
+          "concept": "Paket dibuka di kamar selepas kerja. Membuat motivasi setelah lembur terasa spesifik sebelum konsekuensi muncul.",
+          "subject": "Two medium-brown hands in the same white rolled shirt cuffs opening a plain brown shoebox. One hand lifts white tissue; the other holds an unbranded white canvas sneaker with forest-green heel tab, cream laces and white rubber sole. The second shoe stays inside the box.",
+          "scene": "Low pale-wood table in the same rented room. One restrained tissue fold, a lifted packing-tape edge and a dark green curtain at far right. Quiet off-white plaster wall above. The scene feels like a small personal celebration, without exaggerated gestures.",
+          "composition": "Hands, shoe, box and table grouped in lower 38%, x 18-94%, y 64-100%. A full shoe silhouette is visible, grounded with natural contact shadows. Upper 60% remains wall.",
+          "framing": "Raised three-quarter view into the box, natural 50mm lens look, moderate depth of field. Hands and shoe sharp, curtain gently soft.",
+          "background": "Low pale-wood table in the same rented room. One restrained tissue fold, a lifted packing-tape edge and a dark green curtain at far right. Quiet off-white plaster wall above. The scene feels like a small personal celebration, without exaggerated gestures.",
+          "lighting": "Soft daylight from upper right, warm neutral balance. Gentle highlights on new canvas and tissue edges; modest shadow inside the box. Low-contrast wall above.",
+          "negative_space": "x 8-92%, y 7-58% is a quiet light wall with thin paint texture only.",
+          "text_zone": "x 8-92%, y 7-58% is a quiet light wall with thin paint texture only.",
+          "visual_hierarchy": "Copy utama memimpin, gestur atau benda memperjelas situasi, lalu tekstur dan cahaya memberi suasana. Penjelasan harus punya kontras penuh dan tidak menutupi subjek.",
+          "editing_treatment": "Pertahankan latar foto dan teksturnya. Crop dan reposisi seperlunya; gradient tipis hanya untuk kontras lokal. Jangan memutihkan seluruh latar. Semua teks editable.",
+          "rationale": "Membuat motivasi setelah lembur terasa spesifik sebelum konsekuensi muncul."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_02"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "IMPORT",
+          "instruction": "Impor asset_02.png terpilih dengan referensi identitas, sepatu dan ruangan yang konsisten."
+        },
+        {
+          "step": 2,
+          "action": "CROP",
+          "instruction": "Hands, shoe, box and table grouped in lower 38%, x 18-94%, y 64-100%. A full shoe silhouette is visible, grounded with natural contact shadows. Upper 60% remains wall."
+        },
+        {
+          "step": 3,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang seluruh copy.blocks dalam reading_order, gunakan attention_priority dan placement. Boleh menata line break tanpa mengubah kata. Jangan mengecilkan body untuk mempertahankan komposisi yang sempit."
+        },
+        {
+          "step": 4,
+          "action": "ADJUST",
+          "instruction": "Pertahankan detail ruang, bahan, cahaya dan soft shadow sesuai prompt. Redam kontras lokal hanya pada area teks jika perlu. Tidak ada properti atau elemen grafis tambahan."
+        },
+        {
+          "step": 5,
+          "action": "REVIEW",
+          "instruction": "x 8-92%, y 7-58% is a quiet light wall with thin paint texture only. Periksa pada lebar 360 px. Jika sempit, rapikan crop atau perluas area baca yang tenang sebelum mengecilkan body. Periksa sambungan cerita dengan slide sebelum dan sesudahnya."
+        }
+      ]
+    },
+    {
+      "id": "slide_03",
+      "index": 3,
+      "role": "konsekuensi",
+      "purpose": "Menjelaskan bagian yang sebelumnya hilang: saldo cukup untuk transaksi belum tentu cukup sampai gajian.",
+      "core_message": "Saldo saat checkout masih mencakup uang kebutuhan berikutnya, sehingga pembelian dalam skenario memakai ongkos.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "transition",
+            "text": "Sepatunya udah dipakai.\nPas mau berangkat kerja...",
+            "reading_order": 1,
+            "attention_priority": 3,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "MEDIUM",
+              "alignment": "LEFT",
+              "color": "black",
+              "notes": "Anton untuk penekanan, sans serif sederhana untuk penjelasan. Body harus tetap nyaman dibaca di ponsel."
+            },
+            "placement": "x 8-92%, y 7-18%."
+          },
+          {
+            "role": "consequence",
+            "text": "ONGKOS MINGGU INI\nIKUT KEPAKAI.",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {
+              "scale": "LARGE",
+              "weight": "BOLD",
+              "alignment": "LEFT",
+              "color": "forest green",
+              "notes": "Anton untuk penekanan, sans serif sederhana untuk penjelasan. Body harus tetap nyaman dibaca di ponsel."
+            },
+            "placement": "x 8-92%, y 23-37%."
+          },
+          {
+            "role": "explanation",
+            "text": "Waktu checkout, saldo memang cukup. Tapi sebagian uang itu masih buat makan dan berangkat kerja sampai gajian. Sekarang, lo mesti nutup kekurangannya.",
+            "reading_order": 3,
+            "attention_priority": 2,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "MEDIUM",
+              "alignment": "LEFT",
+              "color": "black",
+              "notes": "Anton untuk penekanan, sans serif sederhana untuk penjelasan. Body harus tetap nyaman dibaca di ponsel."
+            },
+            "placement": "x 8-90%, y 43-63%. Maksimal enam baris body."
+          }
+        ]
+      },
+      "claim_ids": [
+        "claim_01",
+        "claim_02"
+      ],
+      "visual": {
+        "function": "CONTEXTUALIZE",
+        "primary": {
+          "concept": "Sepatu sudah dipakai di depan pintu. Menjelaskan bagian yang sebelumnya hilang: saldo cukup untuk transaksi belum tentu cukup sampai gajian.",
+          "subject": "The worker seen only from charcoal trouser cuffs down, wearing the same white canvas sneakers with green heel tabs and cream laces. Feet pause at the doorway, one slightly ahead as if leaving for work.",
+          "scene": "Small rented-room entrance, pale plaster wall, narrow forest-green door jamb at far right, lightly scuffed neutral tile floor. A plain black work tote rests against the jamb. Ordinary room details, no empty wallet or poverty caricature.",
+          "composition": "Shoes, tote and threshold confined to y 70-100%. Shoes at x 30-72%, tote at far right. Upper two thirds is wall; door trim stays outside the copy.",
+          "framing": "Low straight-on view angled slightly down, 50mm perspective, moderate depth of field. Shoe detail clear, door trim a little softer.",
+          "background": "Small rented-room entrance, pale plaster wall, narrow forest-green door jamb at far right, lightly scuffed neutral tile floor. A plain black work tote rests against the jamb. Ordinary room details, no empty wallet or poverty caricature.",
+          "lighting": "Soft morning light from right through the doorway, a muted elongated light patch across the floor and soft shadows under soles. Upper wall remains even.",
+          "negative_space": "x 8-92%, y 7-64% is pale low-detail wall for the longer explanation.",
+          "text_zone": "x 8-92%, y 7-64% is pale low-detail wall for the longer explanation.",
+          "visual_hierarchy": "Copy utama memimpin, gestur atau benda memperjelas situasi, lalu tekstur dan cahaya memberi suasana. Penjelasan harus punya kontras penuh dan tidak menutupi subjek.",
+          "editing_treatment": "Pertahankan latar foto dan teksturnya. Crop dan reposisi seperlunya; gradient tipis hanya untuk kontras lokal. Jangan memutihkan seluruh latar. Semua teks editable.",
+          "rationale": "Menjelaskan bagian yang sebelumnya hilang: saldo cukup untuk transaksi belum tentu cukup sampai gajian."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_03"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "IMPORT",
+          "instruction": "Impor asset_03.png terpilih dengan referensi identitas, sepatu dan ruangan yang konsisten."
+        },
+        {
+          "step": 2,
+          "action": "CROP",
+          "instruction": "Shoes, tote and threshold confined to y 70-100%. Shoes at x 30-72%, tote at far right. Upper two thirds is wall; door trim stays outside the copy."
+        },
+        {
+          "step": 3,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang seluruh copy.blocks dalam reading_order, gunakan attention_priority dan placement. Boleh menata line break tanpa mengubah kata. Jangan mengecilkan body untuk mempertahankan komposisi yang sempit."
+        },
+        {
+          "step": 4,
+          "action": "ADJUST",
+          "instruction": "Pertahankan detail ruang, bahan, cahaya dan soft shadow sesuai prompt. Redam kontras lokal hanya pada area teks jika perlu. Tidak ada properti atau elemen grafis tambahan."
+        },
+        {
+          "step": 5,
+          "action": "REVIEW",
+          "instruction": "x 8-92%, y 7-64% is pale low-detail wall for the longer explanation. Periksa pada lebar 360 px. Jika sempit, rapikan crop atau perluas area baca yang tenang sebelum mengecilkan body. Periksa sambungan cerita dengan slide sebelum dan sesudahnya."
+        }
+      ]
+    },
+    {
+      "id": "slide_04",
+      "index": 4,
+      "role": "sentilan_dan_jeda",
+      "purpose": "Menghubungkan sentilan dengan pertanyaan kemampuan membeli yang bisa dijawab lewat kondisi uang.",
+      "core_message": "Alasan ingin membeli perlu diikuti pemeriksaan apakah kebutuhan dan tagihan tetap terbayar tanpa utang baru.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "empathy",
+            "text": "Lo pantas senang.",
+            "reading_order": 1,
+            "attention_priority": 3,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "MEDIUM",
+              "alignment": "LEFT",
+              "color": "white",
+              "notes": "Anton untuk penekanan, sans serif sederhana untuk penjelasan. Body harus tetap nyaman dibaca di ponsel."
+            },
+            "placement": "x 8-90%, y 8-14%."
+          },
+          {
+            "role": "turning_point",
+            "text": "\"GUE PANTAS\"\nGAK NAMBAH SALDO.",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {
+              "scale": "HERO",
+              "weight": "BOLD",
+              "alignment": "LEFT",
+              "color": "white",
+              "notes": "Anton untuk penekanan, sans serif sederhana untuk penjelasan. Body harus tetap nyaman dibaca di ponsel."
+            },
+            "placement": "x 8-94%, y 20-39%."
+          },
+          {
+            "role": "explanation",
+            "text": "Kalimat itu menjelaskan kenapa lo pengin beli. Urusan mampu, cek lagi uangnya. Habis checkout, kebutuhan dan tagihan lo masih bisa dibayar tanpa nambah utang?",
+            "reading_order": 3,
+            "attention_priority": 2,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "MEDIUM",
+              "alignment": "LEFT",
+              "color": "white",
+              "notes": "Anton untuk penekanan, sans serif sederhana untuk penjelasan. Body harus tetap nyaman dibaca di ponsel."
+            },
+            "placement": "x 8-51%, y 46-88%. Kolom kiri; pecah menjadi sekitar delapan sampai sepuluh baris yang lega."
+          }
+        ]
+      },
+      "claim_ids": [
+        "claim_03",
+        "claim_02"
+      ],
+      "visual": {
+        "function": "CONTEXTUALIZE",
+        "primary": {
+          "concept": "Jeda sebelum membeli dalam cahaya sore. Menghubungkan sentilan dengan pertanyaan kemampuan membeli yang bisa dijawab lewat kondisi uang.",
+          "subject": "The same worker shown from behind the right shoulder, part of the cheek visible, looking down at a plain black smartphone in one hand. The other hand rests loosely on the desk. White cotton sleeve, loose green tie, thoughtful posture. Phone screen faces away and is unreadable.",
+          "scene": "Small wooden desk beside the room window. An emerald curtain gathers at right; a forest-green painted wall with subtle brush texture fills the background. Only a desk corner shows, with no extra accessories.",
+          "composition": "Figure, phone and desk form a substantial scene at lower right, x 58-100%, y 46-100%. Upper headline area and the left column remain a continuous dark green wall. The face and hands stay inside the image column; no prop crosses the text.",
+          "framing": "Over-the-shoulder close editorial photograph, natural 50mm perspective, moderate depth of field around f/4. Hand and phone defined; wall softly textured.",
+          "background": "Small wooden desk beside the room window. An emerald curtain gathers at right; a forest-green painted wall with subtle brush texture fills the background. Only a desk corner shows, with no extra accessories.",
+          "lighting": "Soft right-side window light grazes cheek, shirt and phone edge. Wall stays dark green with gentle tonal falloff, never crushed black. No glare behind white text.",
+          "negative_space": "Headline at x 8-94%, y 8-39%. Longer explanation at x 8-51%, y 46-88%. Both zones are low-contrast dark green for white text.",
+          "text_zone": "Headline at x 8-94%, y 8-39%. Longer explanation at x 8-51%, y 46-88%. Both zones are low-contrast dark green for white text.",
+          "visual_hierarchy": "Copy utama memimpin, gestur atau benda memperjelas situasi, lalu tekstur dan cahaya memberi suasana. Penjelasan harus punya kontras penuh dan tidak menutupi subjek.",
+          "editing_treatment": "Pertahankan latar foto dan teksturnya. Crop dan reposisi seperlunya; gradient tipis hanya untuk kontras lokal. Jangan memutihkan seluruh latar. Semua teks editable.",
+          "rationale": "Menghubungkan sentilan dengan pertanyaan kemampuan membeli yang bisa dijawab lewat kondisi uang."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_04"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "IMPORT",
+          "instruction": "Impor asset_04.png terpilih dengan referensi identitas, sepatu dan ruangan yang konsisten."
+        },
+        {
+          "step": 2,
+          "action": "CROP",
+          "instruction": "Figure, phone and desk form a substantial scene at lower right, x 58-100%, y 46-100%. Upper headline area and the left column remain a continuous dark green wall. The face and hands stay inside the image column; no prop crosses the text."
+        },
+        {
+          "step": 3,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang seluruh copy.blocks dalam reading_order, gunakan attention_priority dan placement. Boleh menata line break tanpa mengubah kata. Jangan mengecilkan body untuk mempertahankan komposisi yang sempit."
+        },
+        {
+          "step": 4,
+          "action": "ADJUST",
+          "instruction": "Pertahankan detail ruang, bahan, cahaya dan soft shadow sesuai prompt. Redam kontras lokal hanya pada area teks jika perlu. Tidak ada properti atau elemen grafis tambahan."
+        },
+        {
+          "step": 5,
+          "action": "REVIEW",
+          "instruction": "Headline at x 8-94%, y 8-39%. Longer explanation at x 8-51%, y 46-88%. Both zones are low-contrast dark green for white text. Periksa pada lebar 360 px. Jika sempit, rapikan crop atau perluas area baca yang tenang sebelum mengecilkan body. Periksa sambungan cerita dengan slide sebelum dan sesudahnya."
+        }
+      ]
+    },
+    {
+      "id": "slide_05",
+      "index": 5,
+      "role": "reward_yang_punya_jatah",
+      "purpose": "Memberi contoh tandingan agar self-reward atau sepatu itu sendiri tidak dianggap sebagai kesalahan.",
+      "core_message": "Reward yang memiliki jatah terpisah bisa dinikmati dengan kebutuhan dan komitmen penting tetap berjalan.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "context",
+            "text": "Sekarang bayangin sepatu yang sama.",
+            "reading_order": 1,
+            "attention_priority": 4,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "MEDIUM",
+              "alignment": "LEFT",
+              "color": "black",
+              "notes": "Anton untuk penekanan, sans serif sederhana untuk penjelasan. Body harus tetap nyaman dibaca di ponsel."
+            },
+            "placement": "x 8-90%, y 7-13%."
+          },
+          {
+            "role": "alternative",
+            "text": "UANGNYA UDAH\nLO SIAPIN.",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {
+              "scale": "LARGE",
+              "weight": "BOLD",
+              "alignment": "LEFT",
+              "color": "forest green",
+              "notes": "Anton untuk penekanan, sans serif sederhana untuk penjelasan. Body harus tetap nyaman dibaca di ponsel."
+            },
+            "placement": "x 8-92%, y 18-32%."
+          },
+          {
+            "role": "explanation",
+            "text": "Ada jatah khusus buat beli. Makan, ongkos, tagihan, dan tabungan penting tetap jalan. Lo bisa menikmati sepatu itu tanpa sibuk cari tambalan buat minggu depan.",
+            "reading_order": 3,
+            "attention_priority": 3,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "MEDIUM",
+              "alignment": "LEFT",
+              "color": "black",
+              "notes": "Anton untuk penekanan, sans serif sederhana untuk penjelasan. Body harus tetap nyaman dibaca di ponsel."
+            },
+            "placement": "x 52-92%, y 39-78%. Kolom kanan, sekitar delapan sampai sepuluh baris body."
+          },
+          {
+            "role": "permission",
+            "text": "YA UDAH. NIKMATIN.",
+            "reading_order": 4,
+            "attention_priority": 2,
+            "typography": {
+              "scale": "LARGE",
+              "weight": "BOLD",
+              "alignment": "LEFT",
+              "color": "forest green",
+              "notes": "Anton untuk penekanan, sans serif sederhana untuk penjelasan. Body harus tetap nyaman dibaca di ponsel."
+            },
+            "placement": "x 52-92%, y 84-94%. Dua baris singkat di kanan bawah."
+          }
+        ]
+      },
+      "claim_ids": [
+        "claim_04",
+        "claim_02"
+      ],
+      "visual": {
+        "function": "COMPARE",
+        "primary": {
+          "concept": "Sepatu yang dibeli dari jatah sendiri. Memberi contoh tandingan agar self-reward atau sepatu itu sendiri tidak dianggap sebagai kesalahan.",
+          "subject": "The same white canvas sneakers with forest-green heel tabs and cream laces beside a plain open shoebox. A relaxed medium-brown hand in a white cuff lightly straightens a lace near the lower edge.",
+          "scene": "Pale-wood bench by the room window, slightly rumpled green cotton seat pad at far right. Off-white plaster above, a narrow curtain strip and a soft window-light patch on the lower wall. One tissue fold inside the box, no additional decorative props.",
+          "composition": "Large close view of shoes, box, bench and relaxed hand on the left, x 0-46%, y 36-100%. Shoes fully recognizable, bench and cushion grounded in the lower-left scene. Top 30% and right column remain quiet off-white wall. No object reaches the body-copy column at x 52-92%.",
+          "framing": "Three-quarter still-life photograph, natural 50mm perspective, moderate depth of field. Sneakers sharp, distant cushion and curtain slightly soft.",
+          "background": "Pale-wood bench by the room window, slightly rumpled green cotton seat pad at far right. Off-white plaster above, a narrow curtain strip and a soft window-light patch on the lower wall. One tissue fold inside the box, no additional decorative props.",
+          "lighting": "Gentle diffused light from left, mild warm canvas highlights, broad soft window glow below the copy. Calm domestic atmosphere, not glossy product advertising.",
+          "negative_space": "Opening and title at x 8-92%, y 7-32%. Explanation at x 52-92%, y 39-78%; permission at x 52-92%, y 84-94%. Keep these pale areas low contrast.",
+          "text_zone": "Opening and title at x 8-92%, y 7-32%. Explanation at x 52-92%, y 39-78%; permission at x 52-92%, y 84-94%. Keep these pale areas low contrast.",
+          "visual_hierarchy": "Copy utama memimpin, gestur atau benda memperjelas situasi, lalu tekstur dan cahaya memberi suasana. Penjelasan harus punya kontras penuh dan tidak menutupi subjek.",
+          "editing_treatment": "Pertahankan latar foto dan teksturnya. Crop dan reposisi seperlunya; gradient tipis hanya untuk kontras lokal. Jangan memutihkan seluruh latar. Semua teks editable.",
+          "rationale": "Memberi contoh tandingan agar self-reward atau sepatu itu sendiri tidak dianggap sebagai kesalahan."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_05"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "IMPORT",
+          "instruction": "Impor asset_05.png terpilih dengan referensi identitas, sepatu dan ruangan yang konsisten."
+        },
+        {
+          "step": 2,
+          "action": "CROP",
+          "instruction": "Large close view of shoes, box, bench and relaxed hand on the left, x 0-46%, y 36-100%. Shoes fully recognizable, bench and cushion grounded in the lower-left scene. Top 30% and right column remain quiet off-white wall. No object reaches the body-copy column at x 52-92%."
+        },
+        {
+          "step": 3,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang seluruh copy.blocks dalam reading_order, gunakan attention_priority dan placement. Boleh menata line break tanpa mengubah kata. Jangan mengecilkan body untuk mempertahankan komposisi yang sempit."
+        },
+        {
+          "step": 4,
+          "action": "ADJUST",
+          "instruction": "Pertahankan detail ruang, bahan, cahaya dan soft shadow sesuai prompt. Redam kontras lokal hanya pada area teks jika perlu. Tidak ada properti atau elemen grafis tambahan."
+        },
+        {
+          "step": 5,
+          "action": "REVIEW",
+          "instruction": "Opening and title at x 8-92%, y 7-32%. Explanation at x 52-92%, y 39-78%; permission at x 52-92%, y 84-94%. Keep these pale areas low contrast. Periksa pada lebar 360 px. Jika sempit, rapikan crop atau perluas area baca yang tenang sebelum mengecilkan body. Periksa sambungan cerita dengan slide sebelum dan sesudahnya."
+        }
+      ]
+    },
+    {
+      "id": "slide_06",
+      "index": 6,
+      "role": "p3k_periksa",
+      "purpose": "Membuat P3K operasional, termasuk komitmen yang sering tidak terlihat saat melihat saldo.",
+      "core_message": "Sisihkan kebutuhan dan komitmen dari uang sekarang, lalu tentukan jatah reward dari sisanya tanpa utang baru.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "label",
+            "text": "P3K SEBELUM CHECKOUT",
+            "reading_order": 1,
+            "attention_priority": 3,
+            "typography": {
+              "scale": "SMALL",
+              "weight": "MEDIUM",
+              "alignment": "LEFT",
+              "color": "forest green",
+              "notes": "Anton untuk penekanan, sans serif sederhana untuk penjelasan. Body harus tetap nyaman dibaca di ponsel."
+            },
+            "placement": "x 8-92%, y 6-11%."
+          },
+          {
+            "role": "focus",
+            "text": "CEK NAPAS\nSALDO DULU.",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {
+              "scale": "LARGE",
+              "weight": "BOLD",
+              "alignment": "LEFT",
+              "color": "forest green",
+              "notes": "Anton untuk penekanan, sans serif sederhana untuk penjelasan. Body harus tetap nyaman dibaca di ponsel."
+            },
+            "placement": "x 8-92%, y 15-29%."
+          },
+          {
+            "role": "steps",
+            "text": "Tutup keranjang sebentar.\n\nDari uang yang ada sekarang, sisihkan kebutuhan sampai gajian: makan, ongkos, tagihan, cicilan yang sudah ada, tabungan penting, dan cadangan yang lo perlukan.\n\nDari sisanya, tentukan jatah reward. Gak harus dihabiskan semua.",
+            "reading_order": 3,
+            "attention_priority": 2,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "MEDIUM",
+              "alignment": "LEFT",
+              "color": "black",
+              "notes": "Anton untuk penekanan, sans serif sederhana untuk penjelasan. Body harus tetap nyaman dibaca di ponsel."
+            },
+            "placement": "x 8-65%, y 35-77%. Kolom langkah dengan jeda antar-kelompok."
+          },
+          {
+            "role": "decision",
+            "text": "Kalau belum cukup, simpan dulu incarannya.\nJangan tutup selisihnya pakai utang baru.",
+            "reading_order": 4,
+            "attention_priority": 4,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "MEDIUM",
+              "alignment": "LEFT",
+              "color": "black",
+              "notes": "Anton untuk penekanan, sans serif sederhana untuk penjelasan. Body harus tetap nyaman dibaca di ponsel."
+            },
+            "placement": "x 8-65%, y 82-94%."
+          }
+        ]
+      },
+      "claim_ids": [
+        "claim_02",
+        "claim_05"
+      ],
+      "visual": {
+        "function": "DEMONSTRATE",
+        "primary": {
+          "concept": "Menghitung jatah di meja sehari-hari. Membuat P3K operasional, termasuk komitmen yang sering tidak terlihat saat melihat saldo.",
+          "subject": "One medium-brown hand in a rolled white shirt cuff holding a black pen over a small open notebook. Page marks are faint and out of focus with no readable words or numbers. Plain black smartphone face down to the right.",
+          "scene": "A small table with a matte off-white painted top, slight wear on its right edge and a narrow forest-green cotton mat under the notebook. Practical pause at home; no spreadsheet, calculator display or decorative budgeting props.",
+          "composition": "Near-overhead portrait. Notebook, hand and phone form a narrow column at x 72-100%, y 39-96%. The left x 0-68% stays clear tabletop. Notebook may crop at right edge; fingers remain intact.",
+          "framing": "Near-overhead natural 50mm perspective with minimal distortion, moderate-to-deep depth of field. Hand and pen clear, notebook marks deliberately unreadable.",
+          "background": "A small table with a matte off-white painted top, slight wear on its right edge and a narrow forest-green cotton mat under the notebook. Practical pause at home; no spreadsheet, calculator display or decorative budgeting props.",
+          "lighting": "Large soft window light from upper left, gentle contact shadows toward lower right within the object column. Left tabletop evenly lit, no hard shadows crossing the instructions.",
+          "negative_space": "Headline x 8-92%, y 6-29%. Instructions x 8-65%, y 35-94%, completely free of objects and sharp shadows.",
+          "text_zone": "Headline x 8-92%, y 6-29%. Instructions x 8-65%, y 35-94%, completely free of objects and sharp shadows.",
+          "visual_hierarchy": "Copy utama memimpin, gestur atau benda memperjelas situasi, lalu tekstur dan cahaya memberi suasana. Penjelasan harus punya kontras penuh dan tidak menutupi subjek.",
+          "editing_treatment": "Pertahankan latar foto dan teksturnya. Crop dan reposisi seperlunya; gradient tipis hanya untuk kontras lokal. Jangan memutihkan seluruh latar. Semua teks editable.",
+          "rationale": "Membuat P3K operasional, termasuk komitmen yang sering tidak terlihat saat melihat saldo."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_06"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "IMPORT",
+          "instruction": "Impor asset_06.png terpilih dengan referensi identitas, sepatu dan ruangan yang konsisten."
+        },
+        {
+          "step": 2,
+          "action": "CROP",
+          "instruction": "Near-overhead portrait. Notebook, hand and phone form a narrow column at x 72-100%, y 39-96%. The left x 0-68% stays clear tabletop. Notebook may crop at right edge; fingers remain intact."
+        },
+        {
+          "step": 3,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang seluruh copy.blocks dalam reading_order, gunakan attention_priority dan placement. Boleh menata line break tanpa mengubah kata. Jangan mengecilkan body untuk mempertahankan komposisi yang sempit."
+        },
+        {
+          "step": 4,
+          "action": "ADJUST",
+          "instruction": "Pertahankan detail ruang, bahan, cahaya dan soft shadow sesuai prompt. Redam kontras lokal hanya pada area teks jika perlu. Tidak ada properti atau elemen grafis tambahan."
+        },
+        {
+          "step": 5,
+          "action": "REVIEW",
+          "instruction": "Headline x 8-92%, y 6-29%. Instructions x 8-65%, y 35-94%, completely free of objects and sharp shadows. Periksa pada lebar 360 px. Jika sempit, rapikan crop atau perluas area baca yang tenang sebelum mengecilkan body. Periksa sambungan cerita dengan slide sebelum dan sesudahnya."
+        }
+      ]
+    },
+    {
+      "id": "slide_07",
+      "index": 7,
+      "role": "p3k_jatah_dan_penutup",
+      "purpose": "Memberi satu tindakan pendek setelah slide prosedur yang lebih panjang.",
+      "core_message": "Catat jatah reward hari ini dan izinkan diri menikmati atau menunda sesuai ruang yang tersedia.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "closure",
+            "text": "HADIAH BUAT LO.\nJANGAN NAMBAH\nCAPEK LO.",
+            "reading_order": 1,
+            "attention_priority": 1,
+            "typography": {
+              "scale": "HERO",
+              "weight": "BOLD",
+              "alignment": "LEFT",
+              "color": "forest green",
+              "notes": "Anton untuk penekanan, sans serif sederhana untuk penjelasan. Body harus tetap nyaman dibaca di ponsel."
+            },
+            "placement": "x 8-92%, y 9-35%."
+          },
+          {
+            "role": "today",
+            "text": "Hari ini, catat jatah reward lo.\nAda ruang? Nikmatin.\nBelum ada? Boleh nanti.",
+            "reading_order": 2,
+            "attention_priority": 2,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "MEDIUM",
+              "alignment": "LEFT",
+              "color": "black",
+              "notes": "Anton untuk penekanan, sans serif sederhana untuk penjelasan. Body harus tetap nyaman dibaca di ponsel."
+            },
+            "placement": "x 8-90%, y 42-58%."
+          }
+        ]
+      },
+      "claim_ids": [
+        "claim_05"
+      ],
+      "visual": {
+        "function": "CONTEXTUALIZE",
+        "primary": {
+          "concept": "Siap berangkat dengan langkah lebih tenang. Memberi satu tindakan pendek setelah slide prosedur yang lebih panjang.",
+          "subject": "The same young worker in white shirt with rolled sleeves, loose green tie and charcoal trousers, sitting on a modest dark wooden chair to tie one of the same white canvas sneakers. Head bent toward laces, shoulders relaxed, face only partly visible.",
+          "scene": "The same rented-room doorway: muted green curtain at far right, pale plaster wall, slightly worn wooden chair, narrow strip of tile floor. Plain black work tote against a chair leg. A reflective image, not evidence that the character has solved his finances.",
+          "composition": "Tying-shoe gesture at x 35-96%, y 65-100%. Broad quiet wall above. Back and arms lead the eye to the sneaker. Head and hands intact; lower chair legs may crop naturally.",
+          "framing": "Eye level with the seated gesture, medium-wide natural 50mm perspective, moderate depth of field. Hands clear; curtain softly blurred. No dramatic low angle.",
+          "background": "The same rented-room doorway: muted green curtain at far right, pale plaster wall, slightly worn wooden chair, narrow strip of tile floor. Plain black work tote against a chair leg. A reflective image, not evidence that the character has solved his finances.",
+          "lighting": "Soft early morning light from left illuminates folds, hand and lace. Faint window-shaped glow on floor at lower right, long soft shadows grounding the chair.",
+          "negative_space": "x 8-92%, y 9-59% remains pale quiet wall for the short ending.",
+          "text_zone": "x 8-92%, y 9-59% remains pale quiet wall for the short ending.",
+          "visual_hierarchy": "Copy utama memimpin, gestur atau benda memperjelas situasi, lalu tekstur dan cahaya memberi suasana. Penjelasan harus punya kontras penuh dan tidak menutupi subjek.",
+          "editing_treatment": "Pertahankan latar foto dan teksturnya. Crop dan reposisi seperlunya; gradient tipis hanya untuk kontras lokal. Jangan memutihkan seluruh latar. Semua teks editable.",
+          "rationale": "Memberi satu tindakan pendek setelah slide prosedur yang lebih panjang."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_07"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "IMPORT",
+          "instruction": "Impor asset_07.png terpilih dengan referensi identitas, sepatu dan ruangan yang konsisten."
+        },
+        {
+          "step": 2,
+          "action": "CROP",
+          "instruction": "Tying-shoe gesture at x 35-96%, y 65-100%. Broad quiet wall above. Back and arms lead the eye to the sneaker. Head and hands intact; lower chair legs may crop naturally."
+        },
+        {
+          "step": 3,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang seluruh copy.blocks dalam reading_order, gunakan attention_priority dan placement. Boleh menata line break tanpa mengubah kata. Jangan mengecilkan body untuk mempertahankan komposisi yang sempit."
+        },
+        {
+          "step": 4,
+          "action": "ADJUST",
+          "instruction": "Pertahankan detail ruang, bahan, cahaya dan soft shadow sesuai prompt. Redam kontras lokal hanya pada area teks jika perlu. Tidak ada properti atau elemen grafis tambahan."
+        },
+        {
+          "step": 5,
+          "action": "REVIEW",
+          "instruction": "x 8-92%, y 9-59% remains pale quiet wall for the short ending. Periksa pada lebar 360 px. Jika sempit, rapikan crop atau perluas area baca yang tenang sebelum mengecilkan body. Periksa sambungan cerita dengan slide sebelum dan sesudahnya."
+        }
+      ]
+    }
+  ],
+  "caption": {
+    "text": "Lo pengin kasih hadiah buat diri sendiri. Masuk akal. Coba cek juga jatah buat lo yang besok masih harus berangkat kerja.\n\nBukan Saran Keuangan Profesional (Not Financial Advice).",
+    "function": "COMMENTARY"
+  },
+  "warnings": [
+    {
+      "code": "RESEARCH_CITATIONS_UNRESOLVED",
+      "severity": "WARNING",
+      "message": "Dokumen riset memakai penanda sitasi internal tanpa URL. Sumber primer seluruh riset belum diverifikasi. Brief memilih skenario ilustratif dan prinsip anggaran yang diperiksa terbatas melalui CFPB; tidak memakai statistik, regulasi, diagnosis, atau klaim prevalensi dari riset.",
+      "recommendation": "Jika nanti menambah angka, menyebut studi, atau membahas efek BNPL, pulihkan dan periksa rujukan yang mendukung klaim itu terlebih dahulu."
+    },
+    {
+      "code": "EDITORIAL_P3K_NOT_VALIDATED_SCALE",
+      "severity": "WARNING",
+      "message": "P3K dan cek napas saldo adalah bahasa editorial Mantri Uang untuk memandu tindakan, bukan skala kesehatan finansial yang sudah divalidasi.",
+      "affected_slide_ids": [
+        "slide_06",
+        "slide_07"
+      ],
+      "recommendation": "Pertahankan sebagai ajakan mengecek uang; jangan menambahkan skor sehat, diagnosis, persentase baku, atau janji hasil."
+    },
+    {
+      "code": "FINAL_LAYOUT_PENDING",
+      "severity": "WARNING",
+      "message": "Visual, panjang copy dan area baca sudah direncanakan. Tujuh gambar belum dibuat; keterbacaan body slide 3-6 serta konsistensi pekerja dan sepatu perlu diperiksa saat produksi.",
+      "affected_slide_ids": [
+        "slide_01",
+        "slide_02",
+        "slide_03",
+        "slide_04",
+        "slide_05",
+        "slide_06",
+        "slide_07"
+      ],
+      "recommendation": "Gunakan referensi asset_01 dan asset_02 pada adegan terkait. Cek lebar 360 px, terutama kolom P3K, dan rapikan crop atau text zone sebelum mengecilkan body."
+    }
+  ],
+  "qa": {
+    "overall_status": "PASS_WITH_WARNING",
+    "dimensions": {
+      "objective": {
+        "status": "PASS",
+        "notes": "Objective input dipertahankan utuh. Slide 3 menunjukkan uang kebutuhan yang terpakai, slide 6-7 memberi tindakan hari ini."
+      },
+      "factual": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Objective dan riset sama. Penjelasan diperluas dari prinsip anggaran pada mat_03, mat_07 dan mat_09. Cerita dan alternatif memakai Bayangin; tidak ada angka, efek studi, diagnosis atau klaim baru.",
+        "warning_codes": [
+          "EDITORIAL_P3K_NOT_VALIDATED_SCALE"
+        ]
+      },
+      "editorial": {
+        "status": "PASS",
+        "notes": "Satu takeaway tentang memberi reward ruang dalam uang yang tersedia. Taksonomi psikologi, data industri, dan daftar seluruh bias sengaja tidak dibawa ke copy."
+      },
+      "narrative": {
+        "status": "PASS",
+        "notes": "First jobber lelah ingin menikmati hasil kerja. Skenario paket sepatu memberi rasa senang, lalu membuka konsekuensi ongkos yang terpakai. Slide 3 menerangkan bahwa saldo masih punya jatah; slide 4 memisahkan alasan ingin membeli dari kemampuan membayar. Slide 5 memberi alternatif reward yang disiapkan. Slide 6 menghitung ruang reward dari uang sekarang, lalu slide 7 mengajak mencatat jatah hari ini. Ritme copy: cover pendek, cerita dan penjelasan sedang, P3K lebih panjang, penutup pendek."
+      },
+      "density": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Jumlah kata bervariasi: slide_01 12, slide_02 32, slide_03 34, slide_04 32, slide_05 37, slide_06 54, slide_07 20. Slide 6 punya kolom langkah tersendiri. Keterbacaan aktual belum diuji karena desain belum dirender.",
+        "warning_codes": [
+          "FINAL_LAYOUT_PENDING"
+        ]
+      },
+      "copy": {
+        "status": "PASS",
+        "notes": "Penjelasan hubungan saldo, kebutuhan sampai gajian dan jatah reward ditambahkan. Tetap lo-gue dan bahasa sehari-hari, dengan pertanyaan sentilan serta tindakan praktis."
+      },
+      "visual": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Tujuh adegan kamar atau kos dengan tekstur, cahaya dan gestur spesifik. Pose cover dipertahankan. Setiap prompt menentukan lingkungan dan area tenang untuk teks.",
+        "warning_codes": [
+          "FINAL_LAYOUT_PENDING"
+        ]
+      },
+      "asset": {
+        "status": "PASS",
+        "notes": "Tujuh aset AI_GENERATED dengan prompt lengkap, dependensi referensi pekerja dan sepatu. Belum ada image generation."
+      },
+      "production": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Copy, prompt, hierarki dan langkah diperbarui ke v002. Referensi visual harus dipakai saat produksi; rendering belum dilakukan.",
+        "warning_codes": [
+          "FINAL_LAYOUT_PENDING"
+        ]
+      },
+      "source": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Semua referensi tersambung ke input. Riset asli dipertahankan, verifikasi tambahan dipisah pada mat_09 dan src_cfpb. Sitasi asli yang tak dapat dibuka dicatat sebagai keterbatasan.",
+        "warning_codes": [
+          "RESEARCH_CITATIONS_UNRESOLVED"
+        ]
+      },
+      "brand": {
+        "status": "PASS",
+        "notes": "Profil mantri-uang dimuat dan digabung dengan preferensi run. Semua locked_paths tetap sama. Bahasa kating empatik, metafora napas saldo, P3K hari ini, warna hijau-putih-hitam, disclaimer persis dari profil."
+      }
+    }
+  }
+}

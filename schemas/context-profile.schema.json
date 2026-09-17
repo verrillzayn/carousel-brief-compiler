@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/context-profile.schema.json",
+  "title": "Carousel Brief Engine Context Profile",
+  "description": "Contract untuk reusable production context yang disimpan di repository.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "name",
+    "source_document",
+    "context"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "0.1.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_document": {
+      "type": "string",
+      "pattern": "^contexts/brands/[a-z0-9-]+\\.md$"
+    },
+    "locked_paths": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "context": {
+      "$ref": "#/$defs/context"
+    }
+  },
+  "$defs": {
+    "context": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "audience": {
+          "$ref": "#/$defs/productionContextEnvelope"
+        },
+        "brand": {
+          "$ref": "#/$defs/productionContextEnvelope"
+        },
+        "visual": {
+          "$ref": "#/$defs/productionContextEnvelope"
+        },
+        "production": {
+          "$ref": "#/$defs/productionContextEnvelope"
+        }
+      }
+    },
+    "productionContextEnvelope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "data"
+      ],
+      "properties": {
+        "mode": {
+          "const": "PRODUCTION"
+        },
+        "data": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": true
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

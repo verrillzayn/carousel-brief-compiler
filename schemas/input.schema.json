@@ -41,6 +41,12 @@
       "description": "Angle awal dari upstream jika tersedia. Bukan hard constraint kecuali dinyatakan melalui content_directives."
     },
 
+    "context_profile": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "ID profil context repository. Engine memuat contexts/brands/<id>.context.json sebelum menggabungkannya dengan context inline. Jika field ini tidak ada, engine memakai brand_profile dari contexts/defaults.json."
+    },
+
     "raw_material": {
       "type": "array",
       "minItems": 1,
@@ -420,7 +426,7 @@
       "properties": {
         "aspect_ratio": {
           "type": "string",
-          "default": "3:4",
+          "default": "4:5",
           "description": "Target master aspect ratio."
         },
 
@@ -433,7 +439,7 @@
         "height_px": {
           "type": "integer",
           "minimum": 1,
-          "default": 1440
+          "default": 1350
         }
       }
     }

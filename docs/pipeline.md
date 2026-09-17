@@ -133,6 +133,8 @@ Karena itu, pipeline harus menyelesaikan masalah upstream sebelum mempercantik d
 
 Sebelum content reasoning dimulai, engine mengumpulkan seluruh context yang tersedia.
 
+Engine harus lebih dulu menyelesaikan `context_profile` sesuai aturan resolusi di `SYSTEM.md`. Jika input tidak menyebut profil, gunakan profil default repository dari `contexts/defaults.json`. File profil adalah base context. Context inline dapat mengganti kategori untuk pengujian `MOCK` atau menambahkan kebutuhan khusus run `PRODUCTION`.
+
 Context dapat terdiri dari:
 
 ```text
@@ -202,6 +204,8 @@ WORKING CONTEXT
 Tidak ada editorial decision pada tahap ini.
 
 Tujuannya hanya memastikan engine mengetahui apa yang tersedia dan apa yang tidak tersedia.
+
+Working context harus memuat isi profil yang sudah di-resolve. Menyimpan ID profil tanpa membaca file context belum dianggap sebagai context assembly.
 
 ---
 
@@ -602,8 +606,6 @@ Ideal:
 
 ```text
 SELECTED ANGLE
-+
-optional alternative/fallback when materially useful
 ```
 
 Bukan daftar panjang kemungkinan angle.
@@ -896,18 +898,34 @@ Bukan sebaliknya.
 
 # 33. Copy Components
 
-Per slide dapat mencakup:
+Copy per slide disusun sebagai satu atau lebih display-copy block. Setiap block dapat berfungsi sebagai:
 
 ```text
-headline
-supporting copy
-emphasis
+context
+focal statement
+explanation
 label
-small annotation
+list
+transition
 CTA
 ```
 
-Tidak semua field harus selalu digunakan.
+Daftar tersebut bukan template wajib. Jangan memaksa setiap slide menjadi headline besar yang selalu diikuti supporting line kecil.
+
+Setiap block harus menetapkan:
+
+```text
+reading order
+attention priority
+typographic scale
+weight
+alignment
+color
+placement
+optional relation to visual
+```
+
+Reading order dan attention priority dapat berbeda. Focal statement disarankan ketika berguna, tetapi tidak wajib dan tidak selalu memuat seluruh pesan slide.
 
 ---
 
@@ -922,6 +940,7 @@ accurate
 readable
 aligned with the slide message
 compatible with visual layout
+written for scanning on a slide
 ```
 
 Jika brand context tersedia, copy juga harus:
@@ -944,6 +963,8 @@ split
 
 Engine tidak menyelesaikan masalah dengan membuat layout penuh teks.
 
+Sentence fragment diperbolehkan jika lebih mudah dilihat, diingat, dan dipahami tanpa mengubah makna. Kepadatan dinilai dari keseluruhan komposisi, bukan batas kata yang kaku.
+
 ---
 
 # 36. Cover Copy
@@ -963,15 +984,17 @@ tension
 
 selama tidak misleading.
 
+Cover adalah hook slide. Ia dapat memakai beberapa block, misalnya context kecil yang dibaca lebih dulu dan focal question yang menarik perhatian lebih dulu.
+
 ---
 
-# 37. Supporting Copy
+# 37. Slide Message and Display Copy
 
-Supporting copy menjelaskan headline.
+`core_message` menjelaskan apa yang perlu dipahami audience. Display copy tidak harus menyalin kalimat tersebut secara utuh.
 
-Ia tidak boleh menjadi mini-article.
+Setiap slide harus menyampaikan message atau menjalankan fungsi naratif yang diperlukan. Definition-only slide sebaiknya menambahkan relevance atau implication, atau digabung ke slide lain. Transition slide boleh membawa sedikit informasi baru jika membangun tension atau pacing yang diperlukan.
 
-Jika supporting copy membutuhkan beberapa paragraf, ada masalah upstream pada:
+Jika display copy berubah menjadi ringkasan artikel atau membutuhkan beberapa paragraf, ada masalah pada:
 
 ```text
 selection
@@ -1005,10 +1028,14 @@ Caption tidak boleh menyimpan informasi penting yang hilang dari carousel.
 COPY PLAN
 │
 ├── slides
-│   ├── headline
-│   ├── supporting
-│   ├── emphasis
-│   └── optional CTA
+│   ├── core message
+│   └── display-copy blocks
+│       ├── semantic role
+│       ├── text
+│       ├── reading order
+│       ├── attention priority
+│       ├── typography
+│       └── placement
 │
 └── caption
 ```
@@ -1051,11 +1078,9 @@ Namun output sebaiknya memiliki:
 
 ```text
 PRIMARY VISUAL CONCEPT
-+
-ONE FALLBACK
 ```
 
-Primary harus menjadi recommended execution path.
+Primary harus menjadi resolved execution path.
 
 ---
 
@@ -1150,7 +1175,6 @@ VISUAL PLAN
 └── each slide
     ├── visual function
     ├── primary concept
-    ├── fallback concept
     ├── subject
     ├── scene
     ├── composition
@@ -1261,7 +1285,7 @@ Carousel menggunakan image + text. Visual utama harus image-led; AI-generated im
 
 Untuk real person, real company, real event, atau documentary evidence, prioritaskan REAL_ASSET. HYBRID_COMPOSITE digunakan jika perlu kombinasi image asset atau compositing ringan; menambahkan text ke image saja tidak membuat strategy menjadi hybrid.
 
-Registry hanya berisi image asset AI_GENERATED atau REAL_ASSET. Text, angka, dan label tetap berada di slide copy/design instructions, bukan asset registry. Primary maupun fallback harus mengikuti batas ini.
+Registry hanya berisi image asset AI_GENERATED atau REAL_ASSET. Text, angka, dan label tetap berada di slide copy/design instructions, bukan asset registry. Visual yang dipilih harus mengikuti batas ini.
 
 ---
 
@@ -1390,7 +1414,7 @@ Engine menghasilkan instruction yang berlaku untuk seluruh carousel.
 Contoh:
 
 ```text
-- gunakan canvas 3:4
+- gunakan canvas 4:5
 - jaga visual hierarchy
 - hindari generated typography
 - pastikan text readability
@@ -1419,8 +1443,8 @@ SLIDE 03
 6. Buka Canva.
 7. Import asset.
 8. Position asset sesuai visual specification.
-9. Tambahkan headline.
-10. Tambahkan supporting copy.
+9. Tambahkan display-copy blocks sesuai reading order dan attention priority.
+10. Terapkan typography, placement, dan relation to visual yang ditetapkan.
 11. Pastikan text zone tetap bersih.
 12. Lakukan crop ringan jika diperlukan.
 ```
@@ -1455,9 +1479,9 @@ Untuk `HYBRID_COMPOSITE`, sequence dapat berupa:
 
 # 63. Design Tool Boundary
 
-Canva/design tool digunakan untuk headline/supporting text, typography, crop, resize/reposition image, remove background bila perlu, gradient ringan untuk readability, opacity, dan layering sederhana image + text.
+Canva/design tool digunakan untuk display-copy blocks, typography, crop, resize/reposition image, remove background bila perlu, gradient ringan untuk readability, opacity, dan layering sederhana image + text.
 
-Engine tidak merencanakan custom graphic components, icon system, Canva shapes sebagai visual utama, diagram manual, decorative graphic composition, atau illustrated infographic components. Larangan ini juga berlaku di asset requirements, prompts, fallback, dan production instructions; jangan menyamarkan komponen grafis sebagai AI_GENERATED atau REAL_ASSET. Manusia boleh mengimprovisasi graphic embellishment saat desain, tetapi itu di luar tanggung jawab dan output engine.
+Engine tidak merencanakan custom graphic components, icon system, Canva shapes sebagai visual utama, diagram manual, decorative graphic composition, atau illustrated infographic components. Larangan ini juga berlaku di asset requirements, prompts, dan production instructions; jangan menyamarkan komponen grafis sebagai AI_GENERATED atau REAL_ASSET. Manusia boleh mengimprovisasi graphic embellishment saat desain, tetapi itu di luar tanggung jawab dan output engine.
 
 ---
 
@@ -1477,7 +1501,7 @@ Apakah manual editing terlalu berat?
 Apakah ada simpler execution yang hampir sama efektif?
 ```
 
-Jika konsep sangat sulit diproduksi, gunakan fallback atau simplify.
+Jika konsep sangat sulit diproduksi, simplify sebelum compilation.
 
 ---
 
@@ -1494,7 +1518,6 @@ PRODUCTION PLAN
     ├── asset strategy
     ├── asset requirement
     ├── image prompt
-    ├── fallback
     └── production steps
 ```
 
@@ -1617,7 +1640,7 @@ before output
 
 # 73. Visual QA
 
-Periksa primary dan fallback: visual utama image-led, default AI photorealistic kecuali input meminta style lain, dan tidak ada graphic component yang disamarkan sebagai image.
+Periksa primary visual: visual utama image-led, default AI photorealistic kecuali input meminta style lain, dan tidak ada graphic component yang disamarkan sebagai image.
 
 Pertanyaan:
 

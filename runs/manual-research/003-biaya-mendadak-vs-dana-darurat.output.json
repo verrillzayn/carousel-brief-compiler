@@ -1,0 +1,789 @@
+{
+  "schema_version": "0.3.0",
+  "status": "NEEDS_REVIEW",
+  "editorial": {
+    "objective": "Membantu first jobber membedakan biaya yang datang mendadak dari shock yang benar-benar sulit diprediksi, lalu mulai menyiapkan biaya tidak bulanan tanpa merasa dihakimi ketika ruang keuangannya masih sempit.",
+    "central_takeaway": "Lo tidak perlu menebak kapan motor bermasalah untuk mengakui bahwa biaya memilikinya akan datang; siapkan satu pos biaya tidak bulanan semampunya dan simpan dana darurat untuk bagian yang benar-benar mengejutkan atau mendesak.",
+    "selected_angle": "Satu pagi ketika motor mati menjadi pintu masuk untuk membedakan hari yang mendadak dari biaya yang sebenarnya sudah antre.",
+    "angle_rationale": "Cerita mempertahankan rasa genting yang dialami audiens sebelum memberi sentilan. Urutan ini membuat nuance riset terasa personal, tidak berubah menjadi kuliah definisi, dan memberi ruang untuk mengakui bahwa tahu belum tentu mampu menabung.",
+    "selected_material_ids": ["mat_01", "mat_02", "mat_03", "mat_04", "mat_05", "mat_06", "mat_07"],
+    "omitted_material": [
+      {
+        "material_ids": ["mat_08"],
+        "reason": "Batas sumber dipakai untuk QA dan warning, bukan sebagai isi display copy. Statistik, interval servis, target dana, dan formula rekening tidak diperlukan untuk menyelesaikan objective."
+      }
+    ]
+  },
+  "narrative": {
+    "type": "Cold open personal, validasi emosi, sentilan, reframe, P3K",
+    "summary": "Carousel membuka pada pagi yang kacau ketika motor seorang first jobber tidak menyala. Setelah mengakui bahwa situasinya memang terasa darurat, cerita memisahkan hari kerusakan yang mendadak dari biaya kepemilikan motor yang sudah antre. Audiens dirangkul agar tidak merasa disalahkan, lalu dana darurat diposisikan sebagai IGD saldo. Ending mengubah insight menjadi satu tindakan malam ini.",
+    "opening_function": "Membuat audiens masuk lewat momen yang pernah atau mudah mereka bayangkan, bukan lewat definisi keuangan.",
+    "ending_function": "Mengurangi tuntutan untuk meramal dengan sempurna dan meminta satu tindakan kecil yang bisa dilakukan hari ini.",
+    "slide_sequence": ["slide_01", "slide_02", "slide_03", "slide_04", "slide_05", "slide_06", "slide_07"]
+  },
+  "claims": [
+    {
+      "id": "claim_01",
+      "text": "Orang cenderung membuat perkiraan pengeluaran dari bulan yang terasa normal dan kurang memasukkan pengeluaran yang tidak biasa.",
+      "claim_type": "FACT",
+      "source_ids": ["src_research"],
+      "material_ids": ["mat_02"],
+      "notes": "Disederhanakan untuk bahasa carousel; istilah expense prediction bias tidak ditampilkan."
+    },
+    {
+      "id": "claim_02",
+      "text": "Servis serta keausan aki, ban, rem, oli, dan komponen lain merupakan bagian yang setidaknya sebagian dapat dipantau atau diperkirakan selama memiliki motor.",
+      "claim_type": "FACT",
+      "source_ids": ["src_research"],
+      "material_ids": ["mat_04"],
+      "notes": "Tidak menyatakan tanggal, umur komponen, atau nominal yang presisi."
+    },
+    {
+      "id": "claim_03",
+      "text": "Kecelakaan, kerusakan prematur tanpa peringatan, biaya jauh di atas perkiraan wajar, atau kerusakan yang mengancam pendapatan dapat menjadi keadaan darurat yang nyata.",
+      "claim_type": "FACT",
+      "source_ids": ["src_research"],
+      "material_ids": ["mat_01", "mat_04", "mat_06"]
+    },
+    {
+      "id": "claim_04",
+      "text": "Mengetahui sebuah biaya akan datang tidak berarti seseorang otomatis punya ruang kas untuk menyiapkannya.",
+      "claim_type": "FACT",
+      "source_ids": ["src_research"],
+      "material_ids": ["mat_05"],
+      "notes": "Guardrail utama agar sentilan tidak berubah menjadi financial shaming."
+    },
+    {
+      "id": "claim_05",
+      "text": "Satu biaya motor dapat terasa mendadak hari ini sekaligus cukup bisa diantisipasi sebagai kategori untuk masa depan.",
+      "claim_type": "DERIVED",
+      "derived_from_material_ids": ["mat_01", "mat_03", "mat_04"],
+      "derivation": "Menggabungkan perbedaan antara timing, predictability, urgency, dan sifat biaya kepemilikan aset."
+    },
+    {
+      "id": "claim_06",
+      "text": "Satu pos gabungan untuk biaya tidak bulanan dapat menjadi langkah praktis jika banyak pos terpisah membuat saving sulit dijalankan.",
+      "claim_type": "DERIVED",
+      "derived_from_material_ids": ["mat_07"],
+      "derivation": "Aplikasi editorial dari evidence tentang earmarking dan masalah banyak tujuan yang saling bersaing; bukan formula universal."
+    },
+    {
+      "id": "claim_07",
+      "text": "Dana darurat adalah IGD saldo, sedangkan biaya normal yang berulang perlu ruang rawat sendiri.",
+      "claim_type": "CREATIVE",
+      "material_ids": ["mat_06"],
+      "notes": "Metafora brand untuk membedakan fungsi dua jenis dana, bukan definisi akademik."
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset_01",
+      "type": "AI_GENERATED",
+      "description": "Pagi kacau di depan kos saat motor komuter tidak menyala.",
+      "subject": "First jobber Indonesia usia awal 20-an dengan kemeja kerja putih, celana gelap, helm hijau forest, dan motor skuter hitam sederhana.",
+      "requirements": ["Photorealistic", "portrait 4:5", "wajah dan motor dapat dipakai sebagai referensi konsistensi", "ruang teks luas di kiri atas", "terasa seperti pagi biasa, bukan iklan otomotif"],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "A young Indonesian first jobber in a slightly rumpled white work shirt and dark trousers crouching beside a modest black commuter scooter, forest-green helmet hanging from one hand",
+          "action": "trying the ignition once, then looking at the silent scooter with restrained panic",
+          "scene": "narrow boarding-house driveway in an Indonesian city at early morning, worn plaster wall, one potted plant, damp concrete, ordinary lived-in details",
+          "composition": "subject and scooter fill the lower-right 60 percent; upper-left and left-center remain clean for copy",
+          "framing": "medium-wide eye-level editorial photograph",
+          "camera": "natural 50mm perspective, moderate depth of field",
+          "background": "warm off-white wall with one muted forest-green door edge, no signage",
+          "lighting": "soft blue-gold early morning light, realistic shadows",
+          "negative_space": "clean wall from x 7-58 percent, y 7-52 percent",
+          "text_safe_area": "left upper half with low contrast and no objects",
+          "visual_treatment": "photorealistic Indonesian editorial lifestyle photography, clean clinical palette without looking sterile",
+          "constraints": ["same person, scooter, helmet, and wardrobe must be reusable in later slides", "no readable text in image"],
+          "avoid": ["luxury motorcycle", "dramatic breakdown smoke", "poverty stereotype", "3D cartoon", "infographic", "brand logos", "generated typography"]
+        },
+        "prompt": "Photorealistic 4:5 editorial lifestyle photo of a young Indonesian first jobber in a slightly rumpled white work shirt and dark trousers crouching beside a modest black commuter scooter, a forest-green helmet hanging from one hand. He tries the ignition once and looks at the silent scooter with restrained panic. Narrow boarding-house driveway in an Indonesian city at early morning, worn warm off-white plaster wall, muted forest-green door edge, one potted plant, damp concrete, ordinary lived-in details. Subject and scooter occupy the lower-right 60 percent. Keep the upper-left and left-center clean, low contrast, and empty for text. Medium-wide eye-level view, natural 50mm perspective, moderate depth of field, soft blue-gold morning light, realistic shadows. Clean emerald, white, and black palette, personal rather than commercial. No luxury bike, smoke, logos, readable text, infographic, cartoon, or exaggerated poverty."
+      },
+      "notes": "Gunakan hasil terpilih sebagai referensi identitas untuk asset_02, asset_03, asset_04, dan asset_07."
+    },
+    {
+      "id": "asset_02",
+      "type": "AI_GENERATED",
+      "description": "Close-up tangan menekan starter dan jam pagi sebagai kelanjutan momen cover.",
+      "subject": "Tangan dan lengan first jobber yang sama pada setang motor, dengan helm hijau forest terselip di siku.",
+      "requirements": ["Photorealistic", "detail tangan anatomis", "tidak ada teks atau angka terbaca pada panel", "area teks tenang di kanan"],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "Close detail of the same young worker's hand pressing the starter on the same modest black scooter, white cuff slightly rumpled, forest-green helmet tucked at the elbow",
+          "action": "one tense attempt to start the scooter",
+          "scene": "same boarding-house driveway, background softly out of focus",
+          "composition": "controls and hand on the lower-left, quiet wall and morning light on the right",
+          "framing": "close editorial detail",
+          "camera": "natural 50mm look, shallow but readable depth of field",
+          "background": "soft warm off-white plaster with muted green edge",
+          "lighting": "same soft early morning light as asset_01",
+          "negative_space": "right 48 percent clear for copy",
+          "text_safe_area": "x 52-93 percent, y 10-90 percent",
+          "visual_treatment": "photorealistic documentary-style lifestyle still, restrained and intimate",
+          "constraints": ["match asset_01 person, sleeve, scooter, and helmet", "instrument panel must contain no readable numbers"],
+          "avoid": ["speed effect", "motorcycle advertisement", "damaged fingers", "text", "logos", "cartoon"]
+        },
+        "prompt": "Photorealistic 4:5 close editorial detail of the same young Indonesian worker from the reference image pressing the starter on the same modest black scooter. Slightly rumpled white cuff, forest-green helmet tucked at the elbow, a tense single attempt. Controls and hand occupy the lower-left. The right 48 percent is a calm warm off-white wall for copy. Same boarding-house driveway and soft early morning light, natural 50mm look, shallow but readable depth of field. Match the reference person's skin tone, sleeve, scooter, and helmet. No readable dashboard numbers, text, logos, speed effects, commercial styling, cartoon, or anatomical errors."
+      },
+      "notes": "Reference asset_01 untuk continuity."
+    },
+    {
+      "id": "asset_03",
+      "type": "AI_GENERATED",
+      "description": "Bengkel kecil dengan komponen motor yang sudah aus sebagai bukti visual bahwa biaya sedang antre.",
+      "subject": "First jobber yang sama mendengar mekanik menunjukkan aki dan ban yang perlu diperiksa, tanpa drama berlebihan.",
+      "requirements": ["Photorealistic", "bengkel motor Indonesia sederhana", "tidak menampilkan merek", "ruang teks luas di bagian atas"],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "The same young first jobber standing beside his modest black scooter while an Indonesian mechanic points calmly toward the battery compartment and a visibly worn tire tread",
+          "action": "listening with a tired, understanding expression",
+          "scene": "small neighborhood motorcycle workshop, practical tools softly blurred, no readable signs",
+          "composition": "people and scooter stay in the lower 55 percent; upper half is a quiet pale workshop wall",
+          "framing": "medium-wide editorial scene",
+          "camera": "eye level, natural 50mm perspective",
+          "background": "simple off-white workshop wall with subtle forest-green cabinet edge",
+          "lighting": "open-front daylight, soft and believable",
+          "negative_space": "upper x 8-92 percent, y 7-40 percent",
+          "text_safe_area": "upper half clear of tools and faces",
+          "visual_treatment": "photorealistic Indonesian editorial photography, grounded and non-commercial",
+          "constraints": ["match person, scooter, helmet, and wardrobe from asset_01", "component wear must look plausible, not catastrophic"],
+          "avoid": ["sparks", "explosion", "luxury workshop", "logos", "readable signage", "diagram labels", "cartoon"]
+        },
+        "prompt": "Photorealistic 4:5 editorial photo in a small Indonesian neighborhood motorcycle workshop. The same young first jobber and modest black scooter from the reference image stand beside an Indonesian mechanic who calmly points toward the battery compartment and a visibly worn tire tread. The worker listens with a tired but understanding expression. Keep people and scooter in the lower 55 percent. Leave the upper half as a quiet pale workshop wall for text. Practical tools are softly blurred, with one muted forest-green cabinet edge. Open-front daylight, eye-level natural 50mm perspective. Wear looks plausible, not catastrophic. No sparks, smoke, luxury workshop, logos, readable signage, diagram labels, or cartoon styling."
+      },
+      "notes": "Reference asset_01. Adegan ini ilustratif, bukan dokumentasi servis tertentu."
+    },
+    {
+      "id": "asset_04",
+      "type": "AI_GENERATED",
+      "description": "Malam di kos ketika tokoh melihat saldo dan kuitansi tanpa dibuat malu.",
+      "subject": "First jobber yang sama duduk di lantai dekat meja rendah, memegang ponsel dengan layar tidak terbaca dan satu kuitansi bengkel terlipat.",
+      "requirements": ["Photorealistic", "ekspresi capek tetapi tidak putus asa", "tidak ada nominal terbaca", "ruang teks di kiri"],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "The same young first jobber at night, sleeves rolled up, sitting beside a low desk with an unreadable phone screen and one folded workshop receipt",
+          "action": "pausing and exhaling, not crying",
+          "scene": "modest rented room with a used desk, hanging work shirt, forest-green curtain, helmet near the doorway",
+          "composition": "person and objects clustered on the lower-right; left wall stays open for copy",
+          "framing": "medium intimate room portrait",
+          "camera": "natural 50mm view, moderate depth of field",
+          "background": "warm off-white textured wall and muted forest-green curtain",
+          "lighting": "soft warm desk light mixed with cool window light",
+          "negative_space": "left x 7-58 percent, y 8-88 percent",
+          "text_safe_area": "left wall with even low contrast",
+          "visual_treatment": "photorealistic quiet editorial scene with empathy, not melodrama",
+          "constraints": ["match asset_01 person, room language, helmet, and wardrobe", "phone and receipt contain no readable text or amount"],
+          "avoid": ["crying", "empty wallet cliché", "poverty stereotype", "readable money amount", "logos", "cartoon"]
+        },
+        "prompt": "Photorealistic 4:5 intimate editorial room portrait of the same young Indonesian first jobber from the reference image at night. Sleeves rolled up, sitting beside a low used desk, holding a phone with an unreadable screen near one folded workshop receipt. He pauses and exhales, tired but not defeated. A forest-green curtain, warm off-white textured wall, hanging work shirt, and the same helmet near the doorway make the rented room feel lived in. Cluster the person and objects on the lower-right. Leave the left wall open and low contrast for text. Natural 50mm view, warm desk light mixed with cool window light. No crying, empty-wallet cliché, exaggerated poverty, readable amounts, logos, or cartoon styling."
+      },
+      "notes": "Reference asset_01."
+    },
+    {
+      "id": "asset_05",
+      "type": "AI_GENERATED",
+      "description": "Still life medis-finansial untuk metafora IGD saldo.",
+      "subject": "Kotak P3K hijau sederhana, dompet hitam, kunci motor, dan kampas rem lama di meja bengkel.",
+      "requirements": ["Photorealistic still life", "metafora mudah dibaca", "tanpa simbol rumah sakit berlebihan", "area teks luas di kanan"],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "A small matte forest-green first-aid pouch beside a plain black wallet, scooter key, and one used brake pad",
+          "action": "objects resting naturally after a workshop visit",
+          "scene": "clean corner of a pale workbench, workshop background almost fully out of focus",
+          "composition": "objects form one compact group in the lower-left; right and upper areas stay empty",
+          "framing": "close still-life photograph",
+          "camera": "natural 50mm macro-like detail without distortion",
+          "background": "warm off-white workbench and very soft dark-green workshop blur",
+          "lighting": "soft side light with restrained contact shadows",
+          "negative_space": "right 58 percent and upper 30 percent clear",
+          "text_safe_area": "x 42-93 percent, y 8-92 percent",
+          "visual_treatment": "photorealistic clinical-minimal editorial still life",
+          "constraints": ["no readable labels", "medical pouch is a metaphor, not a literal emergency scene"],
+          "avoid": ["blood", "ambulance", "hospital room", "red cross logo", "infographic", "floating objects", "cartoon"]
+        },
+        "prompt": "Photorealistic 4:5 clinical-minimal editorial still life. A small matte forest-green first-aid pouch sits beside a plain black wallet, a scooter key, and one used brake pad on a pale workbench after a workshop visit. Group all objects compactly in the lower-left. Keep the right 58 percent and upper area empty and low contrast for copy. Warm off-white surface, very soft dark-green workshop blur, natural 50mm close view, soft side light and restrained contact shadows. The pouch is only a metaphor. No readable labels, red cross logo, blood, ambulance, hospital room, infographic, floating objects, or cartoon styling."
+      },
+      "notes": "Tidak perlu memakai karakter agar ritme visual berubah sebelum P3K."
+    },
+    {
+      "id": "asset_06",
+      "type": "AI_GENERATED",
+      "description": "Audit transaksi malam hari sebagai langkah P3K yang bisa langsung dikerjakan.",
+      "subject": "Tangan tokoh yang sama menelusuri transaksi di ponsel dan memberi tanda pada catatan tanpa tulisan terbaca.",
+      "requirements": ["Photorealistic", "ponsel dan catatan tanpa teks terbaca", "area teks utama di kiri", "meja terasa dipakai sehari-hari"],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "The same worker's hands, one scrolling an unreadable transaction list on a black phone and one holding a pen above a small notebook with blurred marks",
+          "action": "reviewing past expenses at night",
+          "scene": "same used low desk in the rented room, scooter key and folded workshop receipt nearby, narrow forest-green cloth strip",
+          "composition": "hands, phone, and notebook occupy a vertical strip on the right; left 62 percent stays clear",
+          "framing": "near-overhead practical desk photograph",
+          "camera": "natural 50mm equivalent, moderate depth of field",
+          "background": "matte warm off-white tabletop with light wear",
+          "lighting": "large soft desk light from upper-right, no shadow across copy zone",
+          "negative_space": "left x 7-64 percent, y 7-94 percent",
+          "text_safe_area": "left two-thirds completely free of objects and sharp shadows",
+          "visual_treatment": "photorealistic lived-in editorial desk scene, clean but not staged",
+          "constraints": ["match asset_04 sleeve, phone, desk, key, and room palette", "all screens and notes unreadable"],
+          "avoid": ["spreadsheet", "calculator display", "readable numbers", "decorative stationery", "infographic", "cartoon"]
+        },
+        "prompt": "Photorealistic 4:5 near-overhead editorial desk photo in the same rented room. The same worker's hands appear in a narrow strip on the right, one scrolling an unreadable transaction list on a plain black phone and one holding a pen above a small notebook with blurred marks. Add the same scooter key, one folded workshop receipt, and a narrow forest-green cloth strip. Keep the left 62 percent as clean matte warm off-white tabletop for copy, with no object or sharp shadow. Natural 50mm equivalent, moderate depth of field, large soft desk light. The desk feels used, not styled. Match the reference sleeve, phone, desk, and palette. No readable numbers, spreadsheet, calculator display, decorative stationery, infographic, or cartoon."
+      },
+      "notes": "Reference asset_04 untuk meja dan malam yang sama."
+    },
+    {
+      "id": "asset_07",
+      "type": "AI_GENERATED",
+      "description": "Pagi berikutnya, tokoh memeriksa ban sebelum berangkat sebagai penutup yang tenang.",
+      "subject": "First jobber yang sama menekan ban motor dengan tangan sebelum memakai helm.",
+      "requirements": ["Photorealistic", "bukan akhir bahagia berlebihan", "continuity dengan cover", "ruang teks luas di atas"],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "The same young Indonesian first jobber beside the same modest black scooter, checking the front tire with one hand while the forest-green helmet rests on the seat",
+          "action": "a small practical check before leaving for work",
+          "scene": "same boarding-house driveway on the next morning",
+          "composition": "person and scooter sit low across the bottom 45 percent; broad quiet wall above",
+          "framing": "medium-wide eye-level editorial photo",
+          "camera": "natural 50mm perspective, moderate depth of field",
+          "background": "same warm off-white worn wall, muted green door edge, damp concrete now drying",
+          "lighting": "soft morning light, slightly brighter than asset_01 but still realistic",
+          "negative_space": "upper x 7-93 percent, y 7-52 percent",
+          "text_safe_area": "upper half clean and low contrast",
+          "visual_treatment": "photorealistic quiet Indonesian lifestyle photography, modest sense of agency",
+          "constraints": ["match asset_01 person, scooter, helmet, clothes, and location", "gesture must look ordinary, not mechanically expert"],
+          "avoid": ["victory pose", "luxury bike", "perfect showroom cleanliness", "logos", "readable text", "cartoon"]
+        },
+        "prompt": "Photorealistic 4:5 editorial lifestyle photo in the same boarding-house driveway on the next morning. The same young Indonesian first jobber stands beside the same modest black scooter and checks the front tire with one hand before leaving for work. The same forest-green helmet rests on the seat. Keep the person and scooter low across the bottom 45 percent, leaving a broad quiet warm off-white wall above for text. Same muted green door edge and ordinary concrete, now drying. Soft morning light, slightly brighter than the cover but realistic. Natural 50mm perspective, moderate depth of field. Match the reference person, clothes, scooter, helmet, and location. The gesture is ordinary, not mechanically expert. No victory pose, luxury bike, showroom styling, logos, readable text, or cartoon."
+      },
+      "notes": "Reference asset_01."
+    }
+  ],
+  "production": {
+    "global_instructions": [
+      {"step": 1, "action": "SETUP", "instruction": "Gunakan master canvas 1080 x 1350 px. Terapkan palette forest atau emerald green, warm white, dan hitam dengan headline condensed tebal."},
+      {"step": 2, "action": "GENERATE", "instruction": "Buat asset_01 lebih dulu. Pakai hasil terpilih sebagai referensi identitas, motor, helm, wardrobe, kos, dan pencahayaan untuk gambar lanjutan."},
+      {"step": 3, "action": "SELECT", "instruction": "Pilih gambar yang terasa seperti potongan hidup first jobber Indonesia, bukan iklan motor atau drama kemiskinan."},
+      {"step": 4, "action": "IMPORT", "instruction": "Impor foto utuh. Pertahankan tekstur dinding, meja, bengkel, dan cahaya agar carousel tidak terasa seperti template putih kosong."},
+      {"step": 5, "action": "ADD_TEXT", "instruction": "Tambahkan semua display copy di design tool. Jangan meminta generator gambar membuat headline, angka, label, atau catatan."},
+      {"step": 6, "action": "ADJUST", "instruction": "Gunakan crop, reposisi, dan gradient tipis hanya jika perlu untuk kontras. Jangan menambah diagram, ikon besar, shape utama, atau ornamen berisik."},
+      {"step": 7, "action": "REVIEW", "instruction": "Cek alur sebagai satu cerita pada lebar 360 px. Pastikan slide 4 merangkul, slide 5 tidak melarang pemakaian dana darurat, dan slide 6 tetap mudah dilakukan."},
+      {"step": 8, "action": "EXPORT", "instruction": "Setelah human review dan revisi, ekspor seluruh slide dengan ukuran dan urutan yang konsisten untuk Instagram dan reuse TikTok."}
+    ]
+  },
+  "slides": [
+    {
+      "id": "slide_01",
+      "index": 1,
+      "role": "cold_open",
+      "purpose": "Menjatuhkan audiens langsung ke momen panik yang akrab sebelum topik keuangan disebut.",
+      "core_message": "Motor bermasalah saat harus berangkat kerja membuat biaya terasa seperti keadaan darurat seketika.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "context",
+            "text": "JAM 07.12. LO UDAH TELAT.",
+            "reading_order": 1,
+            "attention_priority": 3,
+            "typography": {"scale": "SMALL", "weight": "SEMIBOLD", "alignment": "LEFT", "color": "forest green"},
+            "placement": "x 8-58%, y 8-14%",
+            "relation_to_visual": "Terbaca seperti timestamp sebelum mata jatuh ke tokoh dan motor."
+          },
+          {
+            "role": "focal_statement",
+            "text": "MOTORNYA\nMALAH MATI.",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {"scale": "HERO", "weight": "BOLD", "alignment": "LEFT", "color": "black"},
+            "placement": "x 8-58%, y 17-39%",
+            "relation_to_visual": "Dua baris besar berhadapan dengan motor di kanan bawah.",
+            "accent_segments": [{"text": "MATI", "treatment": "forest green"}]
+          },
+          {
+            "role": "tension",
+            "text": "Gajian masih 9 hari.\nSaldo ikut sesak.",
+            "reading_order": 3,
+            "attention_priority": 2,
+            "typography": {"scale": "MEDIUM", "weight": "MEDIUM", "alignment": "LEFT", "color": "black"},
+            "placement": "x 8-55%, y 44-55%",
+            "relation_to_visual": "Menutup premis tepat di atas gestur panik tokoh."
+          }
+        ]
+      },
+      "claim_ids": ["claim_05"],
+      "visual": {
+        "function": "ATTRACT_ATTENTION",
+        "primary": {
+          "concept": "Pagi kacau di depan kos, motor diam saat pemiliknya sudah siap kerja.",
+          "subject": "First jobber dan motor komuter yang sama sepanjang carousel.",
+          "scene": "Driveway kos pada pagi hari.",
+          "composition": "Tokoh dan motor di kanan bawah; dinding kosong di kiri atas.",
+          "framing": "Medium-wide eye level.",
+          "background": "Dinding warm white, pintu hijau forest, beton lembap.",
+          "lighting": "Cahaya pagi lembut.",
+          "negative_space": "Kiri atas sampai tengah untuk tiga block copy.",
+          "text_zone": "x 8-58%, y 8-55%",
+          "visual_hierarchy": "Headline, ekspresi tokoh, motor, lalu detail kos.",
+          "editing_treatment": "Pertahankan tekstur. Gradient tipis di kiri hanya jika kontras turun.",
+          "rationale": "Momen spesifik terasa lebih personal daripada membuka dengan definisi dana darurat."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_01"],
+      "production_instructions": [
+        {"step": 1, "action": "GENERATE", "instruction": "Generate asset_01 dan pilih wajah, motor, serta lokasi yang mudah dipertahankan di slide berikutnya."},
+        {"step": 2, "action": "CROP", "instruction": "Tempatkan motor dan tokoh di kanan bawah tanpa memotong tangan, helm, atau roda depan."},
+        {"step": 3, "action": "ADD_TEXT", "instruction": "Pasang tiga block sesuai reading order. Biarkan headline paling besar dan beri aksen hijau hanya pada kata MATI."},
+        {"step": 4, "action": "REVIEW", "instruction": "Pastikan waktu, masalah, dan tekanan saldo tertangkap dalam tiga detik pada ukuran ponsel."}
+      ]
+    },
+    {
+      "id": "slide_02",
+      "index": 2,
+      "role": "emotional_validation",
+      "purpose": "Mengakui situasi audiens lebih dulu lalu membuka pertanyaan yang menggerakkan cerita.",
+      "core_message": "Kerusakan itu memang mendesak hari ini, tetapi sifat mendadaknya belum menjawab apakah biayanya bisa diantisipasi.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "validation",
+            "text": "DI DETIK ITU,\nYA. INI DARURAT.",
+            "reading_order": 1,
+            "attention_priority": 1,
+            "typography": {"scale": "LARGE", "weight": "BOLD", "alignment": "LEFT", "color": "black"},
+            "placement": "x 53-92%, y 11-29%",
+            "relation_to_visual": "Berdiri di ruang kosong sebelah tangan pada starter.",
+            "accent_segments": [{"text": "DARURAT", "treatment": "forest green"}]
+          },
+          {
+            "role": "consequence",
+            "text": "Kerja bisa kacau.\nUang harus keluar sekarang.",
+            "reading_order": 2,
+            "attention_priority": 3,
+            "typography": {"scale": "MEDIUM", "weight": "MEDIUM", "alignment": "LEFT", "color": "black"},
+            "placement": "x 53-92%, y 36-49%",
+            "relation_to_visual": "Menamai alasan situasinya terasa genting."
+          },
+          {
+            "role": "turning_question",
+            "text": "Tapi yang mendadak itu\nkerusakannya...\natau harinya?",
+            "reading_order": 3,
+            "attention_priority": 2,
+            "typography": {"scale": "LARGE", "weight": "SEMIBOLD", "alignment": "LEFT", "color": "forest green"},
+            "placement": "x 53-92%, y 58-83%",
+            "relation_to_visual": "Pertanyaan mengarahkan swipe ke bengkel."
+          }
+        ]
+      },
+      "claim_ids": ["claim_03", "claim_05"],
+      "visual": {
+        "function": "CONTEXTUALIZE",
+        "primary": {
+          "concept": "Close-up usaha terakhir menyalakan motor.",
+          "subject": "Tangan tokoh menekan starter pada motor yang sama.",
+          "scene": "Driveway kos yang sama.",
+          "composition": "Tangan dan kontrol di kiri bawah, copy di kanan.",
+          "framing": "Close editorial detail.",
+          "background": "Dinding kos lembut tanpa tulisan.",
+          "lighting": "Cahaya pagi konsisten dengan slide 1.",
+          "negative_space": "Kolom kanan penuh.",
+          "text_zone": "x 53-92%, y 11-83%",
+          "visual_hierarchy": "Kalimat validasi, gestur starter, lalu pertanyaan.",
+          "editing_treatment": "Crop dekat tanpa efek gerak atau vignette dramatis.",
+          "rationale": "Menahan cerita pada momen yang sama membuat pertanyaan terasa lahir dari pengalaman, bukan teori."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_02"],
+      "production_instructions": [
+        {"step": 1, "action": "GENERATE", "instruction": "Generate asset_02 dengan asset_01 sebagai referensi."},
+        {"step": 2, "action": "CROP", "instruction": "Jaga tangan dan tombol starter utuh di kiri. Bersihkan kolom kanan dari detail tajam."},
+        {"step": 3, "action": "ADD_TEXT", "instruction": "Pasang validasi, konsekuensi, lalu pertanyaan dengan jeda vertikal yang terasa seperti pikiran tokoh."},
+        {"step": 4, "action": "REVIEW", "instruction": "Pastikan slide tidak terdengar membatalkan rasa darurat yang dialami audiens."}
+      ]
+    },
+    {
+      "id": "slide_03",
+      "index": 3,
+      "role": "reframe",
+      "purpose": "Memberi sentilan utama lewat bahasa sehari-hari dan contoh motor yang sama.",
+      "core_message": "Tanggal kerusakan bisa tidak diketahui, tetapi biaya keausan motor tetap bagian yang dapat diantisipasi.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "focal_statement",
+            "text": "AKI GAK KIRIM\nUNDANGAN.",
+            "reading_order": 1,
+            "attention_priority": 1,
+            "typography": {"scale": "HERO", "weight": "BOLD", "alignment": "LEFT", "color": "black"},
+            "placement": "x 8-92%, y 7-24%",
+            "relation_to_visual": "Headline duduk di atas bengkel, seperti komentar tokoh setelah mendengar diagnosis.",
+            "accent_segments": [{"text": "UNDANGAN", "treatment": "forest green"}]
+          },
+          {
+            "role": "reframe",
+            "text": "Tapi selama punya motor,\naki, ban, rem, dan oli\nmemang bakal minta jatah.",
+            "reading_order": 2,
+            "attention_priority": 2,
+            "typography": {"scale": "MEDIUM", "weight": "MEDIUM", "alignment": "LEFT", "color": "black"},
+            "placement": "x 8-92%, y 29-43%",
+            "relation_to_visual": "Membaca adegan bengkel sebagai biaya kepemilikan, bukan kecelakaan."
+          },
+          {
+            "role": "personal_insight",
+            "text": "Lo gak harus tahu\nmatinya hari Selasa\nbuat tahu biayanya sedang antre.",
+            "reading_order": 3,
+            "attention_priority": 3,
+            "typography": {"scale": "MEDIUM", "weight": "SEMIBOLD", "alignment": "LEFT", "color": "white"},
+            "placement": "x 8-58%, y 69-88% pada gradient forest green tipis",
+            "relation_to_visual": "Mendarat dekat motor, bukan di atas wajah."
+          }
+        ]
+      },
+      "claim_ids": ["claim_02", "claim_05"],
+      "visual": {
+        "function": "EXPLAIN",
+        "primary": {
+          "concept": "Mekanik memperlihatkan dua tanda keausan tanpa membuat adegan seperti bencana.",
+          "subject": "Tokoh, mekanik, aki, dan tapak ban pada motor yang sama.",
+          "scene": "Bengkel motor lingkungan.",
+          "composition": "Adegan di bawah, dinding bengkel kosong di atas.",
+          "framing": "Medium-wide eye level.",
+          "background": "Dinding pucat dengan tepi kabinet hijau.",
+          "lighting": "Cahaya natural dari depan bengkel.",
+          "negative_space": "Atas untuk headline; kiri bawah diberi area gradient lokal untuk insight.",
+          "text_zone": "x 8-92%, y 7-43% dan x 8-58%, y 69-88%",
+          "visual_hierarchy": "Headline, gestur mekanik ke komponen, lalu kalimat refleksi.",
+          "editing_treatment": "Gradient forest green transparan lokal di kiri bawah; jangan menutup seluruh foto.",
+          "rationale": "Bengkel melanjutkan plot dan memperlihatkan bahwa kerusakan punya proses, tanpa membuat infografik."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_03"],
+      "production_instructions": [
+        {"step": 1, "action": "GENERATE", "instruction": "Generate asset_03 memakai referensi tokoh dan motor dari asset_01."},
+        {"step": 2, "action": "CROP", "instruction": "Pastikan gestur mekanik, aki, dan ban terbaca tetapi wajah tidak tertutup copy."},
+        {"step": 3, "action": "ADD_TEXT", "instruction": "Pasang headline dan reframe di dinding atas. Tempatkan insight pada gradient hijau lokal di kiri bawah."},
+        {"step": 4, "action": "REVIEW", "instruction": "Jangan sampai copy menyiratkan umur komponen atau tanggal kerusakan dapat diprediksi presisi."}
+      ]
+    },
+    {
+      "id": "slide_04",
+      "index": 4,
+      "role": "empathy_guardrail",
+      "purpose": "Menahan sentilan agar audiens dengan uang sempit tidak merasa disalahkan.",
+      "core_message": "Kesadaran terhadap biaya dan kemampuan menyisihkan uang adalah dua masalah berbeda.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "supportive_turn",
+            "text": "TAPI JANGAN BURU-BURU\nNYALAHIN DIRI.",
+            "reading_order": 1,
+            "attention_priority": 1,
+            "typography": {"scale": "LARGE", "weight": "BOLD", "alignment": "LEFT", "color": "forest green"},
+            "placement": "x 8-58%, y 10-28%",
+            "relation_to_visual": "Sejajar dengan jeda napas tokoh di kanan."
+          },
+          {
+            "role": "explanation",
+            "text": "Tahu biaya bakal datang\ngak otomatis bikin lo punya uang\nbuat nyiapinnya.",
+            "reading_order": 2,
+            "attention_priority": 2,
+            "typography": {"scale": "MEDIUM", "weight": "SEMIBOLD", "alignment": "LEFT", "color": "black"},
+            "placement": "x 8-58%, y 36-53%",
+            "relation_to_visual": "Membaca ponsel dan kuitansi sebagai keterbatasan nyata, bukan kelalaian moral."
+          },
+          {
+            "role": "reassurance",
+            "text": "Budget tipis itu kondisi.\nBukan bukti lo ceroboh.",
+            "reading_order": 3,
+            "attention_priority": 3,
+            "typography": {"scale": "MEDIUM", "weight": "MEDIUM", "alignment": "LEFT", "color": "black"},
+            "placement": "x 8-58%, y 61-73%",
+            "relation_to_visual": "Menjadi pelukan singkat sebelum slide tegas berikutnya."
+          }
+        ]
+      },
+      "claim_ids": ["claim_04"],
+      "visual": {
+        "function": "CONTEXTUALIZE",
+        "primary": {
+          "concept": "Tokoh melihat transaksi dan kuitansi malam hari tanpa dramatisasi kemiskinan.",
+          "subject": "First jobber yang sama, ponsel, dan kuitansi bengkel.",
+          "scene": "Kamar kos yang terasa dihuni.",
+          "composition": "Tokoh di kanan bawah, dinding kiri untuk copy.",
+          "framing": "Medium intimate portrait.",
+          "background": "Warm white, tirai hijau, meja terpakai.",
+          "lighting": "Campuran lampu meja hangat dan cahaya jendela dingin.",
+          "negative_space": "Kolom kiri penuh.",
+          "text_zone": "x 8-58%, y 10-73%",
+          "visual_hierarchy": "Kalimat merangkul, ekspresi tokoh, lalu detail kuitansi.",
+          "editing_treatment": "Jaga warna kulit dan tekstur natural. Hindari desaturasi sedih berlebihan.",
+          "rationale": "Empati terasa lewat situasi pribadi, bukan disclaimer formal."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_04"],
+      "production_instructions": [
+        {"step": 1, "action": "GENERATE", "instruction": "Generate asset_04 memakai tokoh dan properti dari asset_01."},
+        {"step": 2, "action": "CROP", "instruction": "Simpan ekspresi dan kuitansi di kanan bawah; sisakan dinding kiri tetap tenang."},
+        {"step": 3, "action": "ADD_TEXT", "instruction": "Gunakan spacing lapang. Jangan menaruh semua kalimat dalam satu paragraf."},
+        {"step": 4, "action": "REVIEW", "instruction": "Baca copy tanpa slide lain. Pastikan nadanya merangkul dan tidak terdengar kasihan atau menghakimi."}
+      ]
+    },
+    {
+      "id": "slide_05",
+      "index": 5,
+      "role": "brand_metaphor",
+      "purpose": "Memberi perbedaan fungsi dana darurat dan biaya tidak bulanan dalam satu metafora brand.",
+      "core_message": "Dana darurat boleh dipakai untuk shock dan keadaan mendesak; biaya normal yang berulang sebaiknya perlahan diberi pos lain.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "focal_statement",
+            "text": "DANA DARURAT ITU\nIGD SALDO.",
+            "reading_order": 1,
+            "attention_priority": 1,
+            "typography": {"scale": "HERO", "weight": "BOLD", "alignment": "LEFT", "color": "black"},
+            "placement": "x 43-92%, y 10-29%",
+            "relation_to_visual": "Berdekatan dengan pouch P3K, tetapi tidak menimpa objek.",
+            "accent_segments": [{"text": "IGD SALDO", "treatment": "forest green"}]
+          },
+          {
+            "role": "permission",
+            "text": "Pakai kalau ada kejadian di luar perkiraan:\nkecelakaan, kerusakan yang jauh lebih besar,\natau motor mati sampai penghasilan terancam.",
+            "reading_order": 2,
+            "attention_priority": 2,
+            "typography": {"scale": "MEDIUM", "weight": "MEDIUM", "alignment": "LEFT", "color": "black"},
+            "placement": "x 43-92%, y 38-56%",
+            "relation_to_visual": "Menjelaskan bahwa dana darurat memang boleh digunakan."
+          },
+          {
+            "role": "diagnosis",
+            "text": "Tapi kalau servis normal\nbolak-balik masuk IGD,\nada pos yang belum punya kamar.",
+            "reading_order": 3,
+            "attention_priority": 3,
+            "typography": {"scale": "MEDIUM", "weight": "SEMIBOLD", "alignment": "LEFT", "color": "forest green"},
+            "placement": "x 43-92%, y 67-84%",
+            "relation_to_visual": "Kunci dan kampas rem mengikat metafora ke cerita motor."
+          }
+        ]
+      },
+      "claim_ids": ["claim_03", "claim_06", "claim_07"],
+      "visual": {
+        "function": "SYMBOLIZE",
+        "primary": {
+          "concept": "Pouch P3K, dompet, kunci motor, dan kampas rem menjadi metafora satu fungsi dana yang terlalu sering dipakai.",
+          "subject": "Still life empat objek nyata.",
+          "scene": "Sudut meja bengkel yang bersih.",
+          "composition": "Objek di kiri bawah, copy di kanan.",
+          "framing": "Close still life.",
+          "background": "Meja warm white dan blur hijau gelap.",
+          "lighting": "Side light lembut.",
+          "negative_space": "Kolom kanan dan area atas.",
+          "text_zone": "x 43-92%, y 10-84%",
+          "visual_hierarchy": "IGD SALDO, pouch hijau, lalu dua block penjelas.",
+          "editing_treatment": "Kontras bersih dan shadow natural; jangan menambah simbol medis atau label grafis.",
+          "rationale": "Metafora medis menerjemahkan fungsi dana tanpa tabel perbandingan."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_05"],
+      "production_instructions": [
+        {"step": 1, "action": "GENERATE", "instruction": "Generate asset_05 sebagai still life realistis tanpa simbol rumah sakit literal."},
+        {"step": 2, "action": "CROP", "instruction": "Jaga pouch, dompet, kunci, dan kampas rem sebagai satu kelompok kompak di kiri bawah."},
+        {"step": 3, "action": "ADD_TEXT", "instruction": "Pasang headline dan dua block penjelas di kanan dengan aksen hijau pada IGD SALDO."},
+        {"step": 4, "action": "REVIEW", "instruction": "Pastikan audiens menangkap bahwa dana darurat boleh dipakai, bukan dilarang disentuh."
+        }
+      ]
+    },
+    {
+      "id": "slide_06",
+      "index": 6,
+      "role": "p3k",
+      "purpose": "Mengubah reframe menjadi tindakan malam ini tanpa menuntut banyak rekening atau nominal besar.",
+      "core_message": "Mulai dari melihat transaksi lama, memilih biaya tidak bulanan yang berulang, lalu membuat satu pos gabungan yang diisi semampunya.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "label",
+            "text": "P3K MALAM INI",
+            "reading_order": 1,
+            "attention_priority": 3,
+            "typography": {"scale": "SMALL", "weight": "BOLD", "alignment": "LEFT", "color": "forest green"},
+            "placement": "x 8-62%, y 7-12%",
+            "relation_to_visual": "Label kecil sebelum langkah utama."
+          },
+          {
+            "role": "instruction",
+            "text": "BUKA TRANSAKSI\n6-12 BULAN TERAKHIR.",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {"scale": "LARGE", "weight": "BOLD", "alignment": "LEFT", "color": "black"},
+            "placement": "x 8-62%, y 16-31%",
+            "relation_to_visual": "Mengarah ke tangan yang sedang scroll di kanan."
+          },
+          {
+            "role": "steps",
+            "text": "Cari yang gak datang bulanan:\nservis, pajak, ban, aki, laptop.\n\nGabung dulu jadi satu pos:\nBIAYA GAK BULANAN.\n\nIsi semampunya tiap gajian.",
+            "reading_order": 3,
+            "attention_priority": 2,
+            "typography": {"scale": "MEDIUM", "weight": "MEDIUM", "alignment": "LEFT", "color": "black"},
+            "placement": "x 8-62%, y 38-74%",
+            "relation_to_visual": "Jeda antarbagian mengikuti gerak melihat, memberi nama, lalu menyisihkan.",
+            "accent_segments": [{"text": "BIAYA GAK BULANAN", "treatment": "forest green, bold"}]
+          },
+          {
+            "role": "reassurance",
+            "text": "Gak perlu 10 celengan.\nSatu pos dulu juga sah.",
+            "reading_order": 4,
+            "attention_priority": 4,
+            "typography": {"scale": "MEDIUM", "weight": "SEMIBOLD", "alignment": "LEFT", "color": "white"},
+            "placement": "x 8-62%, y 82-93% pada bidang foto hijau gelap atau gradient lokal",
+            "relation_to_visual": "Penutup P3K mengurangi rasa berat sebelum slide terakhir."
+          }
+        ]
+      },
+      "claim_ids": ["claim_01", "claim_06"],
+      "visual": {
+        "function": "DEMONSTRATE",
+        "primary": {
+          "concept": "Audit transaksi sederhana di meja kos, bukan spreadsheet rumit.",
+          "subject": "Tangan, ponsel, notebook, kunci motor, dan kuitansi.",
+          "scene": "Meja kamar pada malam yang sama.",
+          "composition": "Objek di kanan, area kerja copy di kiri.",
+          "framing": "Near-overhead.",
+          "background": "Meja warm white dengan kain hijau sempit.",
+          "lighting": "Lampu meja lembut tanpa shadow di text zone.",
+          "negative_space": "Kiri dua pertiga.",
+          "text_zone": "x 8-62%, y 7-93%",
+          "visual_hierarchy": "Instruksi besar, tangan yang bekerja, langkah, lalu reassurance.",
+          "editing_treatment": "Boleh beri gradient hijau lokal di bagian bawah untuk block terakhir; semua teks tetap editable.",
+          "rationale": "Tindakan terlihat ringan dan dekat dengan kebiasaan membuka riwayat transaksi."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_06"],
+      "production_instructions": [
+        {"step": 1, "action": "GENERATE", "instruction": "Generate asset_06 dengan asset_04 sebagai referensi meja, sleeve, ponsel, dan cahaya malam."},
+        {"step": 2, "action": "CROP", "instruction": "Kunci seluruh objek di kanan. Jangan biarkan tangan atau shadow masuk ke kolom teks kiri."},
+        {"step": 3, "action": "ADD_TEXT", "instruction": "Pasang empat block dengan jeda yang jelas. Jangan padatkan langkah menjadi satu paragraf."},
+        {"step": 4, "action": "REVIEW", "instruction": "Periksa di lebar 360 px. Jika sesak, lebarkan area tenang atau rapikan line break sebelum mengecilkan body."}
+      ]
+    },
+    {
+      "id": "slide_07",
+      "index": 7,
+      "role": "release_and_action",
+      "purpose": "Menutup cerita dengan rasa lega yang realistis dan satu aksi kecil.",
+      "core_message": "Audiens tidak perlu meramal tanggal kerusakan; mereka hanya perlu mulai mengenali dan menyiapkan biaya yang sedang antre.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "release",
+            "text": "LO GAK HARUS\nJAGO MERAMAL.",
+            "reading_order": 1,
+            "attention_priority": 1,
+            "typography": {"scale": "HERO", "weight": "BOLD", "alignment": "LEFT", "color": "black"},
+            "placement": "x 8-92%, y 8-27%",
+            "relation_to_visual": "Headline menempati dinding kosong di atas tokoh yang sedang cek ban.",
+            "accent_segments": [{"text": "MERAMAL", "treatment": "forest green"}]
+          },
+          {
+            "role": "takeaway",
+            "text": "Cukup berhenti nyebut semua biaya\nyang gak bulanan sebagai kejutan.",
+            "reading_order": 2,
+            "attention_priority": 2,
+            "typography": {"scale": "MEDIUM", "weight": "MEDIUM", "alignment": "LEFT", "color": "black"},
+            "placement": "x 8-92%, y 34-46%",
+            "relation_to_visual": "Menghubungkan insight ke kebiasaan kecil tokoh sebelum berangkat."
+          },
+          {
+            "role": "cta",
+            "text": "Tulis 3 biaya yang lagi antre.\nMulai isi satu posnya hari ini.",
+            "reading_order": 3,
+            "attention_priority": 3,
+            "typography": {"scale": "MEDIUM", "weight": "SEMIBOLD", "alignment": "LEFT", "color": "forest green"},
+            "placement": "x 8-92%, y 52-64%",
+            "relation_to_visual": "CTA selesai sebelum area motor agar komposisi tetap lapang."
+          }
+        ]
+      },
+      "claim_ids": ["claim_05", "claim_06"],
+      "visual": {
+        "function": "CONTEXTUALIZE",
+        "primary": {
+          "concept": "Pagi berikutnya, tokoh mengecek ban sebelum berangkat. Bukan kemenangan besar, hanya kebiasaan baru yang masuk akal.",
+          "subject": "Tokoh, motor, ban, dan helm yang sama.",
+          "scene": "Driveway kos yang sama pada pagi berikutnya.",
+          "composition": "Tokoh dan motor rendah di frame, copy di dinding atas.",
+          "framing": "Medium-wide eye level.",
+          "background": "Dinding warm white dan pintu hijau yang sama.",
+          "lighting": "Pagi lembut sedikit lebih terang dari cover.",
+          "negative_space": "Bagian atas dua pertiga.",
+          "text_zone": "x 8-92%, y 8-64%",
+          "visual_hierarchy": "Headline, aksi cek ban, takeaway, lalu CTA.",
+          "editing_treatment": "Pertahankan natural. Hindari grading kemenangan atau pose heroik.",
+          "rationale": "Cerita pulang ke lokasi awal, tetapi berakhir pada tindakan kecil yang bisa ditiru audiens."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_07"],
+      "production_instructions": [
+        {"step": 1, "action": "GENERATE", "instruction": "Generate asset_07 dengan asset_01 sebagai referensi penuh."},
+        {"step": 2, "action": "CROP", "instruction": "Tempatkan tokoh dan motor di bawah. Jangan membuat gestur terlihat seperti teknisi profesional."},
+        {"step": 3, "action": "ADD_TEXT", "instruction": "Pasang headline, takeaway, dan CTA di dinding atas dengan banyak ruang antarblock."},
+        {"step": 4, "action": "REVIEW", "instruction": "Pastikan ending terasa mungkin dilakukan hari ini, bukan janji bahwa semua biaya motor kini selesai."}
+      ]
+    }
+  ],
+  "caption": {
+    "text": "Kadang yang bikin saldo sesak bukan hidup yang hobi ngasih kejutan. Kita cuma terlalu sering bikin budget dari bulan yang kelihatan normal.\n\nMalam ini, cari tiga biaya yang gak datang tiap bulan. Satukan dulu dalam satu pos. Isi semampunya.\n\nBukan Saran Keuangan Profesional (Not Financial Advice).",
+    "function": "MIXED"
+  },
+  "warnings": [
+    {
+      "code": "RESEARCH_CITATIONS_UNRESOLVED",
+      "severity": "WARNING",
+      "message": "Dokumen riset memakai penanda sitasi internal tanpa URL sumber primer di fixture. Brief tidak menampilkan statistik, interval servis, umur komponen, target dana, atau klaim prevalensi.",
+      "recommendation": "Pulihkan dan periksa sumber primer sebelum menambah angka, interval teknis, atau attribution studi ke carousel."
+    },
+    {
+      "code": "SYNTHESIS_NOT_UNIVERSAL_RULE",
+      "severity": "WARNING",
+      "message": "Satu pos biaya tidak bulanan dan metafora IGD saldo adalah sintesis edukasi, bukan skala tervalidasi atau formula rekening universal.",
+      "affected_slide_ids": ["slide_05", "slide_06", "slide_07"],
+      "recommendation": "Pertahankan bahasa satu pos dulu juga sah dan isi semampunya; jangan menambahkan nominal wajib atau klaim bahwa struktur ini paling optimal."
+    },
+    {
+      "code": "FINAL_LAYOUT_PENDING",
+      "severity": "WARNING",
+      "message": "Tujuh gambar belum dibuat dan layout belum dirender. Continuity tokoh, motor, kos, serta keterbacaan slide 3, 5, dan 6 perlu diperiksa saat produksi.",
+      "affected_slide_ids": ["slide_01", "slide_02", "slide_03", "slide_04", "slide_05", "slide_06", "slide_07"],
+      "recommendation": "Buat asset_01 lebih dulu, pakai sebagai referensi, lalu cek seluruh slide pada lebar 360 px sebelum approval."
+    }
+  ],
+  "qa": {
+    "overall_status": "PASS_WITH_WARNING",
+    "dimensions": {
+      "objective": {"status": "PASS", "notes": "Objective dipertahankan. Cerita membedakan mendadak, bisa diprediksi, dan benar-benar darurat, lalu memberi tindakan hari ini."},
+      "factual": {"status": "PASS_WITH_WARNING", "notes": "Tidak ada statistik, interval servis, nominal repair, atau target dana. Skenario jam dan sisa hari menuju gajian merupakan ilustrasi kreatif.", "warning_codes": ["RESEARCH_CITATIONS_UNRESOLVED", "SYNTHESIS_NOT_UNIVERSAL_RULE"]},
+      "editorial": {"status": "PASS", "notes": "Satu takeaway dipertahankan. Definisi formal, konteks statistik Indonesia, evidence bank, dan sepuluh contoh dihapus dari display copy."},
+      "narrative": {"status": "PASS", "notes": "Alur bergerak dari pagi kacau, validasi, bengkel, percakapan batin malam hari, metafora brand, tindakan, lalu kembali ke pagi berikutnya."},
+      "density": {"status": "PASS_WITH_WARNING", "notes": "Copy dipisah menjadi block pendek dengan satu tugas per slide. Slide 6 paling padat dan perlu diuji pada layout final.", "warning_codes": ["FINAL_LAYOUT_PENDING"]},
+      "copy": {"status": "PASS", "notes": "Bahasa lo-gue, detail waktu, pikiran spontan, dan ritme pendek menjaga copy personal. Istilah formal riset tidak dibawa ke slide."},
+      "visual": {"status": "PASS_WITH_WARNING", "notes": "Visual image-led dan photorealistic membentuk satu rangkaian hidup. Still life slide 5 memberi perubahan ritme tanpa membuat infografik.", "warning_codes": ["FINAL_LAYOUT_PENDING"]},
+      "asset": {"status": "PASS_WITH_WARNING", "notes": "Semua asset AI_GENERATED memiliki prompt dan text-safe area. Konsistensi karakter dan motor bergantung pada penggunaan reference image.", "warning_codes": ["FINAL_LAYOUT_PENDING"]},
+      "production": {"status": "PASS_WITH_WARNING", "notes": "Instruksi produksi sudah menentukan urutan, crop, copy, dan pemeriksaan. Gambar serta layout belum dieksekusi.", "warning_codes": ["FINAL_LAYOUT_PENDING"]},
+      "source": {"status": "PASS_WITH_WARNING", "notes": "Semua factual claims terhubung ke src_research dan material terkait. Penanda sitasi asli belum tersedia sebagai URL yang dapat diperiksa dari fixture.", "warning_codes": ["RESEARCH_CITATIONS_UNRESOLVED"]},
+      "brand": {"status": "PASS", "notes": "Persona abang tongkrongan, empati, sentilan, IGD saldo, P3K, palette klinis, negative space, dan disclaimer mengikuti profil Mantri Uang. Tidak ada financial shaming atau saran instrumen berisiko."}
+    }
+  }
+}

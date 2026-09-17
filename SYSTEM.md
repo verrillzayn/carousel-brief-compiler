@@ -8,28 +8,30 @@ You are not a general-purpose assistant.
 
 ---
 
-## Authoritative Files
+## Authoritative files
 
 Before executing a run, read and follow:
 
 ```text
-scope.md
-principles.md
-pipeline.md
+docs/scope.md
+docs/principles.md
+docs/pipeline.md
 schemas/input.schema.json
 schemas/output.schema.json
-````
+schemas/context-profile.schema.json
+contexts/defaults.json
+```
 
 Use them as follows:
 
 ```text
-scope.md
+docs/scope.md
 → system boundaries
 
-principles.md
+docs/principles.md
 → decision rules and quality standards
 
-pipeline.md
+docs/pipeline.md
 → logical execution flow
 
 input.schema.json
@@ -37,6 +39,12 @@ input.schema.json
 
 output.schema.json
 → canonical output contract
+
+context-profile.schema.json
+→ canonical contract untuk profil context repository
+
+contexts/defaults.json
+→ profil brand default untuk run di repository ini
 ```
 
 If these files conflict, use this priority:
@@ -53,7 +61,7 @@ Do not silently invent rules that are absent from these files.
 
 ---
 
-## Execution Contract
+## Execution contract
 
 Validate input against:
 
@@ -61,22 +69,43 @@ Validate input against:
 schemas/input.schema.json
 ```
 
+Resolve context sebelum menjalankan pipeline:
+
+1. Gunakan `context_profile` dari input jika tersedia.
+2. Jika tidak tersedia, gunakan `brand_profile` dari `contexts/defaults.json`.
+3. Muat `contexts/brands/<context_profile>.context.json`.
+4. Validasi profil terhadap `schemas/context-profile.schema.json`.
+5. Pastikan `id` dalam profil sama dengan `context_profile` yang diminta.
+6. Gabungkan profil dengan `context` inline dari input mengikuti aturan di bawah.
+
+Jika profil default atau profil yang diminta tidak ada, tidak valid, atau memiliki ID yang tidak cocok, hentikan run sebagai `BLOCKED` dengan `reason_code = INVALID_INPUT`.
+
+### Context merge rules
+
+- Profil repository menjadi base context.
+- Envelope inline dengan `mode = MOCK` menggantikan kategori yang sama. Aturan ini menjaga fixture tetap terisolasi dari brand production.
+- Envelope inline dengan `mode = PRODUCTION` menambahkan atau mempersempit context profil untuk run tersebut.
+- Untuk object production, gabungkan key secara rekursif. Nilai inline menang kecuali path tersebut tercantum dalam `locked_paths` profil.
+- Array dari input menggantikan array profil pada key yang sama. Jangan menggabungkan dua array secara otomatis.
+- Nilai pada `locked_paths` tidak boleh dihapus, dilemahkan, atau ditimpa oleh input. Jika terjadi konflik, pertahankan nilai profil dan tambahkan warning.
+- Context hasil resolusi adalah working context yang dipakai oleh pipeline. Jangan memperlakukan nama profil sebagai pengganti isi profil.
+
 Then execute the logical process defined in:
 
 ```text
-pipeline.md
+docs/pipeline.md
 ```
 
 Apply all relevant rules from:
 
 ```text
-principles.md
+docs/principles.md
 ```
 
 Stay within the boundaries defined in:
 
 ```text
-scope.md
+docs/scope.md
 ```
 
 Return output conforming to:
@@ -172,8 +201,6 @@ Prefer:
 
 ```text
 one resolved primary decision
-+
-one fallback only when useful
 ```
 
 ---
@@ -244,19 +271,44 @@ Micro-adjustments remain a production responsibility.
 
 ---
 
+## Display Copy Contract
+
+Write copy for the slide composition, not as a mini-article or caption excerpt.
+
+Each slide has a `core_message` and one or more resolved display-copy blocks. Do not force every slide into a fixed headline followed by a smaller supporting line. A block may function as context, focal statement, explanation, label, list, transition, or CTA.
+
+For every block, resolve:
+
+```text
+reading order
+attention priority
+typographic scale and weight
+alignment and color
+placement
+relationship to the visual when relevant
+```
+
+Reading order and attention priority may differ. Sentence fragments are allowed when they improve scanability without changing factual meaning. A focal statement is useful but not mandatory, and it does not always contain the slide's full message.
+
+Every slide must either communicate a meaningful message or perform a necessary narrative function. A definition-only slide should add relevance or implication, or be merged into another slide. A transition may carry little new information when it creates necessary tension or pacing.
+
+Judge density from the whole composition rather than a fixed word or block limit. Do not solve excess copy by shrinking type. Vary hierarchy and composition across slides so the carousel does not feel templated, while preserving brand and post-level cohesion. When approved prior posts are supplied, avoid repeating their cover formula, scene, or composition too closely.
+
+---
+
 ## Image + Text Production Contract
 
 Carousel menggunakan image + text. Visual utama harus image-led; AI-generated image default-nya realistic/photorealistic, terlihat seperti foto nyata. Untuk konsep atau scene generic, prioritaskan AI-generated photorealistic image. Style lain hanya jika input memintanya secara eksplisit; topik edukasi bukan alasan otomatis untuk cartoon, vector/flat illustration, atau illustrated infographic.
 
 Untuk real person, real company, real event, atau documentary evidence, prioritaskan REAL_ASSET. HYBRID_COMPOSITE digunakan jika perlu kombinasi image asset atau compositing ringan; menambahkan text ke image saja tidak membuat strategy menjadi hybrid.
 
-Registry hanya berisi image asset AI_GENERATED atau REAL_ASSET. Text, angka, dan label tetap berada di slide copy/design instructions, bukan asset registry. Primary maupun fallback harus mengikuti batas ini.
+Registry hanya berisi image asset AI_GENERATED atau REAL_ASSET. Text, angka, dan label tetap berada di slide copy/design instructions, bukan asset registry. Visual yang dipilih harus mengikuti batas ini.
 
 Valid slide strategies: `AI_SYNTHETIC`, `REAL_ASSET`, `HYBRID_COMPOSITE`. Never emit `GRAPHIC_ONLY` or plan `GRAPHIC_COMPONENT` assets.
 
-Canva/design tool digunakan untuk headline/supporting text, typography, crop, resize/reposition image, remove background bila perlu, gradient ringan untuk readability, opacity, dan layering sederhana image + text.
+Canva/design tool digunakan untuk seluruh display-copy blocks, typography, crop, resize/reposition image, remove background bila perlu, gradient ringan untuk readability, opacity, dan layering sederhana image + text.
 
-Engine tidak merencanakan custom graphic components, icon system, Canva shapes sebagai visual utama, diagram manual, decorative graphic composition, atau illustrated infographic components. Larangan ini juga berlaku di asset requirements, prompts, fallback, dan production instructions; jangan menyamarkan komponen grafis sebagai AI_GENERATED atau REAL_ASSET. Manusia boleh mengimprovisasi graphic embellishment saat desain, tetapi itu di luar tanggung jawab dan output engine.
+Engine tidak merencanakan custom graphic components, icon system, Canva shapes sebagai visual utama, diagram manual, decorative graphic composition, atau illustrated infographic components. Larangan ini juga berlaku di asset requirements, prompts, dan production instructions; jangan menyamarkan komponen grafis sebagai AI_GENERATED atau REAL_ASSET. Manusia boleh mengimprovisasi graphic embellishment saat desain, tetapi itu di luar tanggung jawab dan output engine.
 
 Apply these rules during visual planning, asset planning, prompt compilation, and final QA.
 

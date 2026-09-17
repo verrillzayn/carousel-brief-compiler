@@ -1,0 +1,213 @@
+{
+  "context_profile": "mantri-uang",
+  "profile_source": "contexts/brands/mantri-uang.context.json",
+  "locked_paths": [
+    "context.brand.data.content_rules.required_disclaimer",
+    "context.brand.data.content_rules.forbidden",
+    "context.brand.data.financial_risk_policy"
+  ],
+  "context": {
+    "audience": {
+      "mode": "PRODUCTION",
+      "data": {
+        "primary": {
+          "age_range": "20-26",
+          "life_stage": [
+            "fresh graduate",
+            "first jobber"
+          ],
+          "economic_profile": "kelas menengah yang baru mengelola penghasilan sendiri",
+          "financial_knowledge": "beginner",
+          "common_risks": [
+            "FOMO self-reward berlebihan",
+            "pinjaman online konsumtif",
+            "paylater konsumtif"
+          ]
+        },
+        "secondary": [
+          {
+            "segment": "mahasiswa",
+            "financial_knowledge": "beginner",
+            "context": "masih dibiayai orang tua atau memiliki uang terbatas",
+            "goal": "mulai menabung dan membangun dana darurat sebelum mengelola gaji sendiri"
+          },
+          {
+            "segment": "pekerja yang lebih senior",
+            "financial_knowledge": "beginner",
+            "context": "ingin memperbaiki gaya hidup tinggi, FOMO, atau utang konsumtif"
+          }
+        ],
+        "communication_need": "jelaskan finansial dasar tanpa menghakimi atau menggurui",
+        "run_focus": "first jobber 20-26 tahun; pengguna memperkirakan audiens rata-rata Gen Z",
+        "audience_certainty": "Gen Z adalah arahan kreatif pengguna, bukan kesimpulan survei audiens."
+      }
+    },
+    "brand": {
+      "mode": "PRODUCTION",
+      "data": {
+        "identity": {
+          "name": "Mantri Uang",
+          "category": "media edukasi finansial dasar",
+          "positioning": "Puskesmas Finansial Level Dasar",
+          "positioning_explanation": "pertolongan pertama bagi orang yang kondisi keuangannya sedang bermasalah, bukan tempat mencari cara cepat kaya",
+          "usp": "edukasi finansial dasar dengan analogi medis, bahasa tongkrongan, dan langkah yang dapat dilakukan hari itu juga"
+        },
+        "voice": {
+          "persona": "abang atau kating tongkrongan",
+          "traits": [
+            "merakyat",
+            "logis",
+            "suportif",
+            "tegas saat diperlukan"
+          ],
+          "tone": [
+            "kasual",
+            "blak-blakan",
+            "empatik"
+          ],
+          "language_rules": [
+            "hindari istilah finansial teknis tanpa penjelasan",
+            "gunakan bahasa Indonesia sehari-hari",
+            "gunakan tamparan realita tanpa menghina kondisi ekonomi audiens"
+          ],
+          "supportive_example": "Gak apa-apa, kita obatin pelan-pelan.",
+          "firm_example": "Gaji UMR maksa beli iPhone terbaru itu bukan self-reward, itu bunuh diri finansial."
+        },
+        "terminology": {
+          "preferred_phrases": [
+            "bocor halus",
+            "dompet tipes",
+            "napas buatan",
+            "vitamin saldo",
+            "P3K"
+          ],
+          "medical_analogies": {
+            "inflasi": "penyakit atau virus",
+            "RDPU atau emas": "vitamin atau vaksin",
+            "utang": "tekanan darah"
+          }
+        },
+        "editorial_pillars": [
+          {
+            "name": "Diagnosa",
+            "role": "membahas penyakit finansial, FOMO, gaya hidup, dan gejala dompet tipes",
+            "primary_goal": "shares"
+          },
+          {
+            "name": "Resep dan P3K",
+            "role": "memberikan penjelasan finansial dasar dan tindakan yang dapat langsung dilakukan",
+            "primary_goal": "saves"
+          },
+          {
+            "name": "Rekam Medis",
+            "role": "membedah studi kasus anonim atau kasus publik dari sudut pandang Mantri",
+            "primary_goal": "comments dan diskusi"
+          }
+        ],
+        "content_rules": {
+          "required": [
+            "terjemahkan istilah keuangan rumit dengan analogi medis atau kesehatan",
+            "gunakan angka realistis saat membuat contoh nominal",
+            "akhiri konten dengan langkah yang dapat dilakukan hari itu juga"
+          ],
+          "realistic_number_examples": [
+            "gaji Rp3-6 juta",
+            "cicilan motor Rp1 juta",
+            "kopi Rp30 ribu"
+          ],
+          "required_disclaimer": "Bukan Saran Keuangan Profesional (Not Financial Advice).",
+          "forbidden": [
+            "flexing portofolio ratusan juta atau miliaran",
+            "financial shaming",
+            "grafik candlestick atau layar trading yang mengintimidasi pemula",
+            "janji cuan instan",
+            "garansi pasti kaya"
+          ]
+        },
+        "financial_risk_policy": {
+          "stance": [
+            "no high risk",
+            "anti utang konsumtif"
+          ],
+          "allowed_instruments": [
+            "Reksa Dana Pasar Uang",
+            "SBN Ritel",
+            "emas"
+          ],
+          "allowed_purpose": "alat menabung atau membangun dana darurat, bukan mengejar keuntungan besar",
+          "forbidden_endorsements": [
+            "pinjaman online",
+            "paylater",
+            "kripto",
+            "binary option",
+            "investasi berisiko tinggi"
+          ]
+        },
+        "launch_goal": {
+          "priority": [
+            "trust",
+            "saves",
+            "shares"
+          ],
+          "note": "followers bukan ukuran utama pada fase launching"
+        },
+        "run_voice": {
+          "address": "lo-gue",
+          "rhythm": "potongan pikiran sehari-hari, jeda emosi, sentilan pendek, lalu tindakan yang bisa dilakukan",
+          "medical_language": "P3K dan cek napas saldo secukupnya sebagai metafora, tanpa diagnosis atau rumah sakit literal",
+          "tone_boundary": "kritik penggunaan uang kebutuhan, jangan merendahkan pendapatan atau selera barang"
+        }
+      }
+    },
+    "visual": {
+      "mode": "PRODUCTION",
+      "data": {
+        "style": [
+          "bold",
+          "clean",
+          "clinical minimalist"
+        ],
+        "palette": {
+          "primary": [
+            "emerald green",
+            "forest green"
+          ],
+          "supporting": [
+            "white",
+            "black"
+          ]
+        },
+        "typography": {
+          "behavior": "headline tebal dan sangat besar",
+          "references": [
+            "Anton",
+            "Bebas"
+          ]
+        },
+        "composition": [
+          "gunakan negative space yang luas",
+          "gunakan ikon solid sebagai elemen pendukung bila diperlukan",
+          "utamakan keterbacaan dan satu fokus visual yang jelas"
+        ],
+        "avoid": [
+          "kartun 3D",
+          "ornamen berisik",
+          "grafik candlestick",
+          "layar trading"
+        ],
+        "run_direction": "Foto realistis minimalis, satu benda utama, crop dekat, tipografi besar, negative space luas. Hijau, putih, hitam. Human story melalui sepatu incaran dan benda kerja sehari-hari. Catchy melalui skala dan urutan gambar, tanpa ornamen ramai.",
+        "cover_direction": "Cover memakai foto seorang pekerja muda dewasa berpakaian formal, kedua tangan memegang sisi kepala, ekspresi sedikit bingung dan ragu. Sosok mengisi separuh bawah komposisi horizontal; separuh atas kosong untuk teks. Gunakan satu bidang foto kontinu tanpa garis pemisah. Pilihan utama adalah pose dua tangan di kepala dari arahan pengguna."
+      }
+    },
+    "production": {
+      "mode": "PRODUCTION",
+      "data": {
+        "format": "static carousel image + text",
+        "canvas": "4:5, 1080 x 1350 px",
+        "deliverable": "brief untuk review; prompt dan instruksi produksi, belum membuat gambar atau desain final",
+        "approved_prior_posts": [],
+        "notes": "Tidak ada post approved atau font final yang diberikan. Ukuran mikro dan crop akhir diperiksa ketika desain diproduksi."
+      }
+    }
+  }
+}

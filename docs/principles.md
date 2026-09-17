@@ -277,9 +277,9 @@ Setiap slide **SHOULD** memiliki satu core message.
 
 Core message harus dapat diringkas menjadi satu kalimat.
 
-Supporting copy boleh memperjelas message tersebut.
+Display copy tidak harus menyalin core message sebagai satu kalimat utuh. Ia dapat memakai beberapa block dengan fungsi berbeda, termasuk context, focal statement, explanation, label, list, transition, atau CTA.
 
-Supporting copy tidak boleh memperkenalkan argument baru yang tidak berhubungan langsung.
+Setiap block harus tetap berhubungan dengan core message atau fungsi naratif slide. Definition-only slide sebaiknya menambahkan relevance atau implication, atau digabung ke slide lain. Transition slide boleh membawa sedikit informasi baru jika membangun pacing atau tension yang diperlukan.
 
 Prinsip:
 
@@ -319,6 +319,10 @@ reduce whitespace
 ```
 
 Readability tidak boleh dikorbankan hanya untuk mempertahankan slide count.
+
+Copy carousel ditulis untuk dilihat dalam komposisi. Sentence fragment diperbolehkan jika meningkatkan scanability tanpa mengubah makna. Reading order dan attention priority harus ditentukan secara terpisah karena block yang dibaca pertama tidak selalu menjadi block yang paling menarik perhatian.
+
+Hierarki tipografi bukan template tetap. Focal statement disarankan ketika berguna, tetapi tidak wajib dan tidak selalu berisi seluruh pesan slide. Compiler menentukan scale, weight, alignment, color, placement, dan hubungan copy dengan visual. Operator boleh merevisi keputusan tersebut. Jika approved prior posts tersedia, engine harus menjaga identitas brand tanpa menyalin cover formula, scene, atau komposisi terlalu dekat.
 
 ---
 
@@ -710,13 +714,9 @@ Default:
 
 ```text
 PRIMARY DECISION
-+
-ONE FALLBACK
 ```
 
 Primary adalah resolved path.
-
-Fallback digunakan jika produksi primary tidak berhasil.
 
 ---
 
@@ -778,7 +778,7 @@ Carousel menggunakan image + text. Visual utama harus image-led; AI-generated im
 
 Untuk real person, real company, real event, atau documentary evidence, prioritaskan REAL_ASSET. HYBRID_COMPOSITE digunakan jika perlu kombinasi image asset atau compositing ringan; menambahkan text ke image saja tidak membuat strategy menjadi hybrid.
 
-Registry hanya berisi image asset AI_GENERATED atau REAL_ASSET. Text, angka, dan label tetap berada di slide copy/design instructions, bukan asset registry. Primary maupun fallback harus mengikuti batas ini.
+Registry hanya berisi image asset AI_GENERATED atau REAL_ASSET. Text, angka, dan label tetap berada di slide copy/design instructions, bukan asset registry. Visual yang dipilih harus mengikuti batas ini.
 
 Pilihan strategy per slide: AI_SYNTHETIC, REAL_ASSET, HYBRID_COMPOSITE. Pemilihan tetap mempertimbangkan message, kebutuhan documentary evidence, dan production feasibility.
 
@@ -856,9 +856,9 @@ Pilih output yang paling sesuai dengan composition requirement.
 
 # 37. Manual Work Is Not a System Failure
 
-Canva/design tool digunakan untuk headline/supporting text, typography, crop, resize/reposition image, remove background bila perlu, gradient ringan untuk readability, opacity, dan layering sederhana image + text.
+Canva/design tool digunakan untuk display-copy blocks, typography, crop, resize/reposition image, remove background bila perlu, gradient ringan untuk readability, opacity, dan layering sederhana image + text.
 
-Engine tidak merencanakan custom graphic components, icon system, Canva shapes sebagai visual utama, diagram manual, decorative graphic composition, atau illustrated infographic components. Larangan ini juga berlaku di asset requirements, prompts, fallback, dan production instructions; jangan menyamarkan komponen grafis sebagai AI_GENERATED atau REAL_ASSET. Manusia boleh mengimprovisasi graphic embellishment saat desain, tetapi itu di luar tanggung jawab dan output engine.
+Engine tidak merencanakan custom graphic components, icon system, Canva shapes sebagai visual utama, diagram manual, decorative graphic composition, atau illustrated infographic components. Larangan ini juga berlaku di asset requirements, prompts, dan production instructions; jangan menyamarkan komponen grafis sebagai AI_GENERATED atau REAL_ASSET. Manusia boleh mengimprovisasi graphic embellishment saat desain, tetapi itu di luar tanggung jawab dan output engine.
 
 Tujuan bukan mengotomatisasi semua langkah.
 

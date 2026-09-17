@@ -1,0 +1,153 @@
+{
+  "schema_version": "0.1.0",
+  "context_profile": "mantri-uang",
+  "topic": "Biaya motor yang terasa mendadak dan batas penggunaan dana darurat",
+  "objective": "Membantu first jobber membedakan biaya yang datang mendadak dari shock yang benar-benar sulit diprediksi, lalu mulai menyiapkan biaya tidak bulanan tanpa merasa dihakimi ketika ruang keuangannya masih sempit.",
+  "initial_angle": "Servis motor mendadak bukan otomatis keadaan darurat hanya karena belum masuk budget bulan ini.",
+  "raw_material": [
+    {
+      "id": "mat_01",
+      "type": "RESEARCH_NOTE",
+      "label": "Kesimpulan utama",
+      "content": "Evidence mendukung bahwa mendadak tidak identik dengan tidak bisa diprediksi. Kalimat servis motor mendadak bukan keadaan darurat terlalu absolut. Penilaian yang lebih sehat melihat seberapa foreseeable biaya itu, ketidakpastian timing dan nominalnya, urgensinya, serta apakah biaya tersebut bagian normal dari memiliki aset. Predictability menjelaskan persiapan masa depan; urgency menjelaskan tindakan hari ini. citeturn23view5turn16view5turn23view4",
+      "source_ids": ["src_research"]
+    },
+    {
+      "id": "mat_02",
+      "type": "RESEARCH_NOTE",
+      "label": "Bias bulan normal",
+      "content": "Riset consumer behavior menunjukkan orang cenderung memprediksi pengeluaran berdasarkan bulan yang terasa normal dan kurang memasukkan biaya atypical. Setiap biaya yang tidak biasa terasa seperti kejadian satu kali, padahal kategori ada saja pengeluaran tidak biasa terus berulang. Ini membuat pengeluaran seperti servis, pajak, ban, aki, kesehatan, dan elektronik mudah hilang dari forecast. citeturn23view5turn19search4",
+      "source_ids": ["src_research"]
+    },
+    {
+      "id": "mat_03",
+      "type": "DEFINITION",
+      "label": "Empat sifat pengeluaran",
+      "content": "Predictable berarti biaya cukup mungkin muncul sebagai bagian normal hidup atau kepemilikan aset walau tanggal dan nominalnya tidak persis. Irregular menjelaskan frekuensi yang tidak bulanan. Unplanned berarti uangnya belum dialokasikan. Unexpected berarti kejadian atau besarnya biaya berada cukup jauh di luar yang secara wajar bisa diantisipasi.",
+      "source_ids": ["src_research"]
+    },
+    {
+      "id": "mat_04",
+      "type": "RESEARCH_NOTE",
+      "label": "Motor dan spektrum predictability",
+      "content": "Oli, pemeriksaan berkala, ban aus, aki melemah, kampas rem, dan komponen yang menua memiliki proses keausan atau indikator yang dapat dipantau. Pajak kendaraan berlangsung tahunan. Kecelakaan, kegagalan prematur tanpa peringatan, kerusakan besar jauh di atas perkiraan wajar, atau breakdown yang mengancam mata pencaharian dapat menjadi financial emergency yang nyata. Objek yang sama dapat berpindah kategori berdasarkan penyebab, severity, urgency, dan dependency. citeturn16view5turn24search4turn23view4",
+      "source_ids": ["src_research"]
+    },
+    {
+      "id": "mat_05",
+      "type": "RESEARCH_NOTE",
+      "label": "Guardrail empati",
+      "content": "Kemampuan memprediksi biaya tidak sama dengan kemampuan membayarnya. Orang dapat tahu motornya perlu dirawat tetapi belum punya ruang kas untuk menabung. Rumah tangga berpendapatan dan beraset terbatas menghadapi kendala likuiditas nyata, dan tabungan fleksibel yang kecil pun dapat memberi perlindungan. Tidak disiapkan tidak selalu berarti ceroboh. citeturn16view1",
+      "source_ids": ["src_research"]
+    },
+    {
+      "id": "mat_06",
+      "type": "RESEARCH_NOTE",
+      "label": "Dana darurat dan biaya tidak bulanan",
+      "content": "Dana darurat berfungsi sebagai likuiditas untuk shock yang tidak terantisipasi dan perlu ditangani cepat. Biaya yang foreseeable tetapi jarang, besar, atau waktunya kurang presisi dapat disiapkan lewat dana pengeluaran tidak bulanan. Jika biaya actual jauh melebihi persiapan yang wajar dan mendesak, dana biaya tidak bulanan dan dana darurat dapat dipakai bersama. Tujuannya bukan tidak pernah menyentuh dana darurat, melainkan mengurangi biaya normal yang terus menggerus buffer untuk shock abnormal. citeturn23view4turn16view1",
+      "source_ids": ["src_research"]
+    },
+    {
+      "id": "mat_07",
+      "type": "RESEARCH_NOTE",
+      "label": "P3K yang realistis",
+      "content": "Intervensi praktis: audit transaksi 6 sampai 12 bulan dan cari biaya yang tidak bulanan; kelompokkan sebagai predictable, semi-predictable, atau unexpected; gunakan trigger seperti jadwal servis, kondisi ban atau rem, gejala aki, usia aset, dan tanggal kewajiban; sisihkan berkala berdasarkan kisaran, bukan ramalan presisi; gabungkan kebutuhan dalam satu pos biaya tidak bulanan jika banyak pos membuat saving sulit dijalankan. citeturn23view5turn16view5turn23view6turn23view7",
+      "source_ids": ["src_research"]
+    },
+    {
+      "id": "mat_08",
+      "type": "INTERNAL_NOTE",
+      "label": "Batas sumber",
+      "content": "Dokumen riset memuat penanda sitasi internal, bukan URL sumber primer yang bisa diperiksa langsung dari fixture. Hindari menjadikan statistik Indonesia, interval servis, umur komponen, target dana, atau konfigurasi rekening tertentu sebagai headline. Framework klasifikasi dan satu pos biaya tidak bulanan adalah sintesis edukasi, bukan skala tervalidasi atau formula universal.",
+      "source_ids": ["src_research"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_research",
+      "title": "Deep Research Mantri Uang: Servis Motor Mendadak Bukan Keadaan Darurat Kalau Bisa Diprediksi",
+      "source": "research-result/003-biaya-mendadak-vs-dana-darurat.md",
+      "type": "INTERNAL_DOCUMENT",
+      "date": "2026",
+      "notes": "Dokumen riset merangkum studi peer-reviewed, sumber resmi Indonesia, panduan institusi keuangan, dan panduan produsen. Penanda sitasi internal dipertahankan di material tetapi URL sumber primer tidak tersedia di fixture ini."
+    }
+  ],
+  "content_directives": [
+    {
+      "id": "dir_story",
+      "priority": "MUST_INCLUDE",
+      "content": "Gunakan satu alur cerita personal dan relatable tentang first jobber yang motornya bermasalah saat akan berangkat kerja. Jangan menyusun carousel sebagai rangkuman riset atau daftar definisi.",
+      "material_ids": ["mat_01", "mat_04", "mat_05"]
+    },
+    {
+      "id": "dir_empathy",
+      "priority": "MUST_INCLUDE",
+      "content": "Akui bahwa tahu biaya akan datang tidak sama dengan mampu menyiapkan uangnya. Hindari financial shaming.",
+      "material_ids": ["mat_05"]
+    },
+    {
+      "id": "dir_p3k",
+      "priority": "MUST_INCLUDE",
+      "content": "Akhiri dengan satu P3K yang dapat dilakukan hari ini dan tetap realistis untuk gaji dengan margin sempit.",
+      "material_ids": ["mat_07"]
+    },
+    {
+      "id": "dir_no_formal",
+      "priority": "MUST_EXCLUDE",
+      "content": "Hindari bahasa akademik, istilah Inggris yang tidak perlu, pemaparan statistik, daftar seluruh jenis pengeluaran, dan nada dosen."
+    }
+  ],
+  "context": {
+    "brand": {
+      "mode": "PRODUCTION",
+      "data": {
+        "run_voice": {
+          "address": "lo-gue",
+          "rhythm": "adegan konkret, pikiran spontan, sentilan singkat, pelukan empatik, lalu P3K",
+          "medical_language": "gunakan metafora IGD saldo dan P3K secukupnya, jangan memaksa istilah klinis di setiap slide",
+          "tone_boundary": "tegas pada cara mengelompokkan biaya, lembut pada keterbatasan uang audiens"
+        }
+      }
+    },
+    "visual": {
+      "mode": "PRODUCTION",
+      "data": {
+        "run_direction": "Rangkaian foto editorial realistis tentang first jobber Indonesia dan motor komuter yang sama. Pagi di kos, bengkel kecil, malam di meja kamar, lalu pagi berikutnya. Terasa dihuni dan personal, bukan iklan otomotif. Pertahankan hijau forest, putih hangat, hitam, negative space luas, dan satu fokus gambar per slide.",
+        "avoid_additional": [
+          "infografik klasifikasi",
+          "diagram manual",
+          "foto klinik literal",
+          "ekspresi kemiskinan yang dilebih-lebihkan",
+          "teks buatan AI di dalam gambar"
+        ]
+      }
+    },
+    "production": {
+      "mode": "PRODUCTION",
+      "data": {
+        "format": "static carousel image + text",
+        "deliverable": "production brief untuk human review; belum membuat gambar atau desain final",
+        "continuity": "gunakan orang, motor, helm, kos, dan palet yang konsisten sepanjang cerita"
+      }
+    }
+  },
+  "constraints": {
+    "language": "id-ID",
+    "slide_count": {
+      "preferred_min": 6,
+      "preferred_max": 7,
+      "hard_max": 10
+    },
+    "canvas": {
+      "aspect_ratio": "4:5",
+      "width_px": 1080,
+      "height_px": 1350
+    },
+    "custom": [
+      "Copy harus terasa seperti satu cerita, bukan materi kelas.",
+      "Persona brand mengatur ekspresi; bahasa formal riset tidak boleh terbawa ke display copy.",
+      "Semua skenario waktu dan karakter harus jelas sebagai ilustrasi kreatif."
+    ]
+  },
+  "notes": "Disusun dari research-result/003-biaya-mendadak-vs-dana-darurat.md setelah seluruh context repository dibaca."
+}

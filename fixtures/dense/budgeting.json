@@ -259,9 +259,9 @@
       "hard_max": 10
     },
     "canvas": {
-      "aspect_ratio": "3:4",
+      "aspect_ratio": "4:5",
       "width_px": 1080,
-      "height_px": 1440
+      "height_px": 1350
     },
     "custom": [
       "Jangan mencoba memasukkan seluruh raw material.",
