@@ -15,6 +15,7 @@ Before executing a run, read and follow:
 ```text
 docs/scope.md
 docs/principles.md
+docs/visual-language.md
 docs/pipeline.md
 schemas/input.schema.json
 schemas/output.schema.json
@@ -30,6 +31,9 @@ docs/scope.md
 
 docs/principles.md
 → decision rules and quality standards
+
+docs/visual-language.md
+→ operational visual grammar distilled from approved references
 
 docs/pipeline.md
 → logical execution flow
@@ -53,8 +57,9 @@ If these files conflict, use this priority:
 1. SYSTEM.md
 2. schemas
 3. principles.md
-4. scope.md
-5. pipeline.md
+4. visual-language.md
+5. scope.md
+6. pipeline.md
 ```
 
 Do not silently invent rules that are absent from these files.
@@ -222,9 +227,9 @@ narrative
 ↓
 slides
 ↓
-copy
-↓
-visual
+copy draft
+↕
+visual composition
 ↓
 assets
 ↓
@@ -292,13 +297,19 @@ Reading order and attention priority may differ. Sentence fragments are allowed 
 
 Every slide must either communicate a meaningful message or perform a necessary narrative function. A definition-only slide should add relevance or implication, or be merged into another slide. A transition may carry little new information when it creates necessary tension or pacing.
 
-Judge density from the whole composition rather than a fixed word or block limit. Do not solve excess copy by shrinking type. Vary hierarchy and composition across slides so the carousel does not feel templated, while preserving brand and post-level cohesion. When approved prior posts are supplied, avoid repeating their cover formula, scene, or composition too closely.
+Concise means no wasted words, not the fewest possible words. An informational slide is incomplete if the audience can read the display copy but still needs `core_message`, the caption, or production notes to understand the claim, its relevance, or the promised action. Preserve the minimum explanation needed to make the carousel self-contained.
+
+Judge density from the whole composition rather than a fixed word or block limit. Do not solve excess copy by shrinking type. Also do not solve density by deleting the bridge between a hook and its meaning. Vary hierarchy and composition across slides so the carousel does not feel templated, while preserving brand and post-level cohesion. When approved prior posts are supplied, avoid repeating their cover formula, scene, or composition too closely.
 
 ---
 
 ## Image + Text Production Contract
 
 Carousel menggunakan image + text. Visual utama harus image-led; AI-generated image default-nya realistic/photorealistic, terlihat seperti foto nyata. Untuk konsep atau scene generic, prioritaskan AI-generated photorealistic image. Style lain hanya jika input memintanya secara eksplisit; topik edukasi bukan alasan otomatis untuk cartoon, vector/flat illustration, atau illustrated infographic.
+
+Gunakan `docs/visual-language.md` untuk memilih keluarga visual berdasarkan fungsi slide, merencanakan variasi komposisi, dan menjaga kohesi post. Empat referensi di `references/visuals/` adalah sumber prinsip, bukan template subjek atau layout yang harus disalin.
+
+Sebelum asset strategy dikunci, lakukan fit check dua arah antara copy dan visual. Visual harus menyediakan ruang untuk seluruh penjelasan yang diperlukan. Copy boleh dipecah, diurutkan ulang, atau ditulis ulang agar bekerja di komposisi, tetapi tidak boleh dipangkas sampai kehilangan hubungan sebab, implication, contoh, atau langkah yang dibutuhkan audience.
 
 Untuk real person, real company, real event, atau documentary evidence, prioritaskan REAL_ASSET. HYBRID_COMPOSITE digunakan jika perlu kombinasi image asset atau compositing ringan; menambahkan text ke image saja tidak membuat strategy menjadi hybrid.
 

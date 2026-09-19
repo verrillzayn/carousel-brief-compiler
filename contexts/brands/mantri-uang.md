@@ -20,10 +20,12 @@
 
 **4. Panduan Visual (Estetika Klinik)**
 
-* **Gaya Visual:** Bold, Clean, & Clinical Minimalist. Berkelas, tapi *to the point*.
-* **Warna:** Dominan Hijau Finansial (Emerald/Forest) dipadu Putih bersih dan Hitam.
-* **Tipografi:** *Font* tebal/raksasa yang langsung menabrak mata (seperti Anton/Bebas).
-* **Elemen:** Ikonografi solid dan ruang kosong (*negative space*) yang luas. Tanpa kartun 3D, tanpa ornamen berisik.
+* **Gaya Visual:** Bold, clean, editorial, photographic, dan clinical minimalist. Berkelas, tapi *to the point*.
+* **Warna:** Emerald atau forest green menjadi anchor brand. Putih, hitam, grayscale, warm neutral, muted cyan, dan warna sinematik yang terkendali boleh menjadi bidang pendukung. Hijau tidak harus memenuhi setiap latar.
+* **Tipografi:** *Font* condensed tebal seperti Anton/Bebas dipakai untuk diagnosis, angka, atau pernyataan yang perlu menabrak mata. Editorial serif dapat dipakai untuk framing atau statement yang lebih tenang. Body, langkah, dan metadata memakai sans-serif netral.
+* **Komposisi:** Gunakan satu focal point, *negative space* luas, dan variasi skala, framing, posisi subjek, rasio teks-gambar, serta *text zone*. Jangan mengulang satu template pada semua slide.
+* **Elemen:** Ikonografi solid dapat menjadi improvisasi manusia saat final design, tetapi engine V0 tidak merencanakan custom icon atau graphic component sebagai visual utama. Tanpa kartun 3D dan tanpa ornamen berisik.
+* **Referensi:** Empat dokumen di `references/visuals/` dipakai sebagai library prinsip. Pilih keluarga visual berdasarkan fungsi slide. Jangan menyalin subjek, properti, atau layout referensi secara literal.
 
 **5. Kepribadian & Nada Merek (Tone of Voice)**
 

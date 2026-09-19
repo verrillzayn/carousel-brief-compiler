@@ -138,3 +138,44 @@ Untuk pemeriksaan regresi, gunakan variasi terkontrol dari fixture simple tanpa 
 - Dengan visual context meminta kombinasi foto laptop nyata dan AI-generated background: HYBRID_COMPOSITE boleh, registry memuat image real dan AI dengan prompt, dan editing terbatas pada compositing ringan.
 
 Pemeriksaan negatif schema: strategy GRAPHIC_ONLY, asset type GRAPHIC_COMPONENT/OTHER, output schema_version lama, field copy `headline`/`supporting`, dan visual `fallback` harus ditolak. Ketiga strategy, kedua image asset type, dan ordered display-copy blocks harus diterima pada struktur yang valid. Pemeriksaan semantik harus menolak rencana icon/shape/diagram yang disamarkan sebagai image. Tidak perlu menjalankan atau mengubah arsip manual runs lama untuk melakukan pemeriksaan contract ini.
+
+## Copy sufficiency regression checks
+
+Evaluator harus memeriksa dua arah density. Output gagal jika terlalu padat, tetapi juga gagal jika explanation, comparison, example, atau action slide hanya menyisakan slogan.
+
+MUST:
+
+- display copy pada slide informasional dapat dipahami tanpa membaca `core_message`, caption, atau production notes;
+- hook dan transition boleh lebih pendek daripada slide yang membawa reasoning;
+- penjelasan mempertahankan bridge yang diperlukan, seperti alasan, mekanisme, implication, contoh, kontras, atau langkah;
+- ritme panjang copy bervariasi mengikuti fungsi slide.
+
+MUST_NOT:
+
+- menilai copy baik hanya karena jumlah katanya rendah;
+- memaksa semua slide ke panjang cover;
+- memindahkan reasoning penting ke caption;
+- menambah filler untuk mengejar rentang kata.
+
+Rentang kata dalam `docs/principles.md` adalah alarm untuk review, bukan assertion numerik kaku.
+
+## Visual language regression checks
+
+Evaluator harus membaca carousel sebagai satu sistem, bukan menilai tiap prompt secara terpisah.
+
+MUST:
+
+- global production `SETUP` menyebut primary visual family, optional secondary family, cohesion anchors, dan variation axes;
+- keluarga visual dipilih berdasarkan fungsi komunikasi slide;
+- sedikitnya tiga sumbu komposisi berubah pada carousel 5 sampai 7 slide;
+- sedikitnya tiga anchor menjaga kohesi post;
+- text-safe area dan beban copy cocok;
+- gambar melakukan pekerjaan komunikasi yang dapat dijelaskan.
+
+MUST_NOT:
+
+- menganggap pergantian objek sebagai variasi jika background, crop, posisi, headline scale, dan text zone tetap sama;
+- mengulang background putih, portrait kanan-bawah, dan headline raksasa pada seluruh slide tanpa alasan;
+- memakai pose stok atau simbol uang klise sebagai shortcut visual;
+- menyalin subjek, properti, identitas, atau layout referensi secara literal;
+- mencampur lebih dari dua keluarga visual hanya untuk terlihat beragam.

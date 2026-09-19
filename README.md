@@ -437,6 +437,8 @@ Word count digunakan sebagai **guardrail**, bukan hukum absolut.
 
 Target utama adalah menghindari carousel yang berubah menjadi kumpulan paragraf.
 
+Kegagalan density juga dapat terjadi ke arah sebaliknya. Slide terlalu tipis jika hanya menyisakan punchline, sementara alasan, implication, contoh, atau langkah yang membuatnya dapat dipahami sudah hilang. Ringkas berarti tidak boros kata, bukan selalu memakai kata sesedikit mungkin.
+
 ---
 
 # Display Copy
@@ -461,6 +463,8 @@ Reading order dapat berbeda dari attention priority. Sebuah context line dapat d
 Focal statement tidak wajib dan tidak selalu menjadi seluruh pesan slide. Sentence fragment diperbolehkan jika membuat copy lebih mudah dilihat dan diingat tanpa mengubah makna. Compiler menentukan hierarki awal; operator boleh merevisi seluruh keputusan saat review atau produksi.
 
 Slide definisi sebaiknya menambahkan relevance atau implication. Jika tidak, gabungkan definisi ke slide lain. Slide transisi boleh membawa sedikit informasi baru jika dibutuhkan untuk pacing atau tension.
+
+Slide informasional harus dapat dipahami dari display copy. Pembaca tidak boleh membutuhkan `core_message`, caption, atau catatan produksi untuk mengerti claim dan relevansinya. Hook dan transition boleh lebih tipis daripada explanation, comparison, example, atau action slide.
 
 Hierarki dan komposisi harus bervariasi antar-slide agar carousel terasa segar. Variasi bukan formula pergantian background atau layout. Kohesi tetap mengikuti brand context dan art direction post tersebut. Jika approved prior posts tersedia, engine juga harus menghindari pengulangan cover formula, scene, atau komposisi yang membuat post baru terasa seperti salinan.
 
@@ -562,6 +566,12 @@ Contoh:
 * simple photographic background.
 
 Decorative visual adalah exception yang valid, bukan default.
+
+Empat referensi di `references/visuals/` diringkas menjadi playbook pada `docs/visual-language.md`. Engine memilih keluarga typography-first poster, lifestyle editorial, conceptual object editorial, atau conceptual human cinematic berdasarkan fungsi slide. Referensi mengajarkan prinsip, bukan subjek yang harus disalin.
+
+Satu post menetapkan satu primary visual family dan paling banyak satu secondary family bila diperlukan. Kohesi dijaga lewat palette, type system, alignment, continuity, dan image treatment. Variasi datang dari skala, framing, posisi subjek, rasio text-image, text zone, dan kepadatan copy.
+
+Copy dan visual menjalani fit loop sebelum asset strategy dikunci. Komposisi harus memberi ruang untuk penjelasan yang dibutuhkan. Copy tidak dipangkas sampai maknanya hilang hanya untuk mempertahankan layout pertama.
 
 ---
 

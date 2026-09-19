@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.1.0",
+  "context_profile": "mantri-uang",
+  "topic": "Siapa yang menentukan kurs rupiah terhadap dolar",
+  "objective": "Membantu audiens pemula memahami bahwa kurs rupiah terhadap dolar terbentuk dari transaksi banyak pelaku pasar, sekaligus membedakan peran pasar, kurs referensi harian Bank Indonesia, dan intervensi Bank Indonesia.",
+  "initial_angle": "Kurs rupiah bukan angka yang diputuskan satu orang; pasar membentuk harganya dan Bank Indonesia berperan sebagai penjaga gejolak.",
+  "raw_material": [
+    {
+      "id": "mat_01",
+      "type": "CLAIM",
+      "label": "Tidak ditentukan satu pihak",
+      "content": "Tidak ada satu orang atau satu meja rapat yang menentukan kurs rupiah terhadap dolar untuk hari itu. Kurs merupakan hasil banyak transaksi rupiah dan dolar yang berlangsung bersamaan di pasar.",
+      "source_ids": ["src_transcript"]
+    },
+    {
+      "id": "mat_02",
+      "type": "SOURCE_EXTRACT",
+      "label": "Pelaku transaksi",
+      "content": "Contoh pelaku transaksi adalah eksportir yang menjual dolar hasil ekspor untuk memperoleh rupiah, importir yang membeli dolar untuk membayar barang dari luar negeri, investor asing yang keluar-masuk pasar saham atau obligasi Indonesia, serta orang yang mengirim uang dari atau ke luar negeri.",
+      "source_ids": ["src_transcript"]
+    },
+    {
+      "id": "mat_03",
+      "type": "CLAIM",
+      "label": "Kurs referensi Bank Indonesia",
+      "content": "Bank Indonesia menerbitkan angka referensi harian untuk kurs rupiah terhadap dolar. Transcript menyebut namanya sebagai 'Gisdor' dan menjelaskannya sebagai rata-rata tertimbang transaksi dolar-rupiah yang benar-benar terjadi di pasar antarbank sepanjang hari.",
+      "source_ids": ["src_transcript"],
+      "notes": "Nama pada transcript tampak berasal dari salah transkripsi. Jangan menampilkan akronim tersebut sebelum reviewer memverifikasi ejaan dan definisinya pada sumber resmi."
+    },
+    {
+      "id": "mat_04",
+      "type": "CLAIM",
+      "label": "Sistem nilai tukar mengambang",
+      "content": "Sejak krisis 1998, Indonesia menggunakan sistem nilai tukar mengambang. Rupiah bergerak mengikuti kekuatan pasar dan tidak dipatok kaku pada satu angka.",
+      "source_ids": ["src_transcript"]
+    },
+    {
+      "id": "mat_05",
+      "type": "CLAIM",
+      "label": "Peran intervensi Bank Indonesia",
+      "content": "Bank Indonesia tetap dapat menjual atau membeli dolar dari cadangan devisa untuk meredam gejolak yang terlalu liar, bukan untuk memaksa kurs menetap pada satu angka tertentu.",
+      "source_ids": ["src_transcript"]
+    },
+    {
+      "id": "mat_06",
+      "type": "EXAMPLE",
+      "label": "Analogi wasit",
+      "content": "Peran Bank Indonesia dianalogikan seperti wasit yang mengeluarkan kartu ketika permainan terlalu kasar, tetapi tidak menentukan siapa pemenangnya.",
+      "source_ids": ["src_transcript"]
+    },
+    {
+      "id": "mat_07",
+      "type": "INTERNAL_NOTE",
+      "label": "Batas sumber",
+      "content": "Material berasal dari transcript sebuah YouTube Short milik pihak lain. Identitas kreator, URL, tanggal publikasi, dan sumber primer yang mendukung klaim tidak tersedia di repository. Material dipakai hanya untuk pengujian development, bukan sebagai research result yang sudah diverifikasi.",
+      "source_ids": ["src_transcript"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_transcript",
+      "title": "Transcript YouTube Short tentang pembentukan kurs rupiah",
+      "source": "research-result/004-siapa-menentukan-kurs-rupiah.md",
+      "type": "SOCIAL_MEDIA",
+      "publisher": "YouTube",
+      "notes": "Konten pihak lain untuk pengujian development. Kreator, URL, tanggal, dan sumber primer belum dicatat. Transcript mengandung noise penanda musik dan kemungkinan salah transkripsi pada nama kurs referensi Bank Indonesia."
+    }
+  ],
+  "content_directives": [
+    {
+      "id": "dir_core",
+      "priority": "MUST_INCLUDE",
+      "content": "Jelaskan tiga lapis dengan urutan yang mudah dipahami: transaksi pasar membentuk kurs, Bank Indonesia menerbitkan kurs referensi, dan Bank Indonesia dapat meredam gejolak tanpa menetapkan pemenang pasar.",
+      "material_ids": ["mat_01", "mat_02", "mat_03", "mat_05"]
+    },
+    {
+      "id": "dir_analogy",
+      "priority": "PREFER_INCLUDE",
+      "content": "Gunakan analogi wasit untuk menjelaskan peran intervensi Bank Indonesia, tetapi jangan menyalin susunan kalimat transcript.",
+      "material_ids": ["mat_06"]
+    },
+    {
+      "id": "dir_action",
+      "priority": "MUST_INCLUDE",
+      "content": "Akhiri dengan P3K informasi yang dapat dilakukan hari ini: saat melihat rupiah bergerak, cek kurs referensi harian Bank Indonesia dan pahami bahwa angka tersebut mencerminkan transaksi pasar, bukan keputusan satu orang.",
+      "material_ids": ["mat_01", "mat_03"]
+    },
+    {
+      "id": "dir_safety",
+      "priority": "MUST_EXCLUDE",
+      "content": "Jangan membuat prediksi kurs, saran trading valas, janji keuntungan, angka baru, atau penjelasan sebab pelemahan rupiah yang tidak terdapat dalam transcript."
+    },
+    {
+      "id": "dir_originality",
+      "priority": "MUST_EXCLUDE",
+      "content": "Jangan menyalin hook, urutan kalimat, atau CTA komentar dari transcript. Gunakan material hanya sebagai dasar fakta untuk membuat editorial direction baru."
+    }
+  ],
+  "context": {
+    "brand": {
+      "mode": "PRODUCTION",
+      "data": {
+        "run_voice": {
+          "address": "lo-gue",
+          "tone": "penasaran, membumi, dan tegas tanpa terdengar seperti kelas ekonomi",
+          "medical_language": "gunakan analogi cek tekanan darah untuk kurs referensi dan analogi wasit untuk intervensi; jangan menumpuk metafora medis"
+        }
+      }
+    },
+    "visual": {
+      "mode": "PRODUCTION",
+      "data": {
+        "run_direction": "Editorial photographic dengan conceptual object sebagai keluarga utama dan lifestyle editorial sebagai keluarga kedua. Gunakan aliran benda nyata, meja transaksi, layar tanpa data terbaca, serta ruang hijau forest dan warm white. Hindari uang beterbangan, bendera sebagai dekorasi, grafik trading, dan suasana ruang rapat pemerintah.",
+        "continuity": "Gunakan dua amplop atau map warna forest green dan muted blue sebagai motif rupiah-dolar, dengan treatment cahaya dan material meja yang konsisten."
+      }
+    },
+    "production": {
+      "mode": "PRODUCTION",
+      "data": {
+        "format": "static carousel image + text",
+        "deliverable": "production brief untuk human review; belum membuat gambar atau desain final"
+      }
+    }
+  },
+  "constraints": {
+    "language": "id-ID",
+    "slide_count": {
+      "preferred_min": 6,
+      "preferred_max": 7,
+      "hard_max": 10
+    },
+    "canvas": {
+      "aspect_ratio": "4:5",
+      "width_px": 1080,
+      "height_px": 1350
+    },
+    "custom": [
+      "Copy harus menjelaskan mekanisme tanpa berubah menjadi kuliah ekonomi.",
+      "Semua visual pasar harus bersifat konseptual dan tidak boleh terlihat sebagai dokumentasi kejadian nyata.",
+      "Output harus menandai keterbatasan provenance serta kebutuhan verifikasi istilah kurs referensi Bank Indonesia."
+    ]
+  },
+  "notes": "Disusun dari transcript YouTube Short yang sebelumnya bernama research-result/004-unknown.md. File sumber sudah dinamai ulang agar sesuai isinya."
+}

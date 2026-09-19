@@ -434,7 +434,7 @@
         "blocks": {
           "type": "array",
           "minItems": 1,
-          "description": "Resolved display-copy blocks in reading order. Do not force every slide into a headline plus supporting-line pattern.",
+          "description": "Resolved display-copy blocks in reading order. Do not force every slide into a headline plus supporting-line pattern. Informational slides must remain understandable without core_message, caption, or production notes; concise does not mean under-explained.",
           "items": {
             "$ref": "#/$defs/copyBlock"
           }
@@ -465,7 +465,7 @@
         "text": {
           "type": "string",
           "minLength": 1,
-          "description": "Final display copy. Intentional line breaks may be encoded with newline characters. Sentence fragments are allowed when they improve scanability without changing meaning."
+          "description": "Final display copy. Intentional line breaks may be encoded with newline characters. Sentence fragments are allowed when they improve scanability without changing meaning. Preserve the reason, implication, example, contrast, or action required by the slide role."
         },
 
         "reading_order": {
@@ -621,7 +621,7 @@
         "concept": {
           "type": "string",
           "minLength": 1,
-          "description": "Resolved image-led visual idea for the selected production path."
+          "description": "Resolved image-led visual idea for the selected production path. Select the visual family from the communication function, not from generic topic symbols. Reference examples teach principles and must not be copied literally."
         },
 
         "subject": {
@@ -640,7 +640,8 @@
 
         "composition": {
           "type": "string",
-          "minLength": 1
+          "minLength": 1,
+          "description": "Resolved composition that fits all required copy blocks and contributes to a varied but cohesive carousel. Changing only the depicted object does not count as composition variation."
         },
 
         "framing": {

@@ -447,6 +447,8 @@ Content producer tidak seharusnya perlu menulis ulang keseluruhan copy dari nol.
 
 Micro-editing tetap diperbolehkan pada tahap produksi atau review.
 
+Display copy harus cukup untuk memahami fungsi slide tanpa membuka `core_message`, caption, atau production notes. Hook dan transition boleh sengaja tipis. Explanation, comparison, example, dan action slide harus mempertahankan alasan, implication, contoh, atau langkah yang dibutuhkan oleh message.
+
 ---
 
 # 16. Copy Density Scope
@@ -466,6 +468,8 @@ Engine tidak boleh menyelesaikan masalah kepadatan hanya dengan:
 * mengecilkan teks;
 * membuat paragraph panjang;
 * memasukkan terlalu banyak sub-points.
+
+Engine juga tidak boleh menyebut slide berhasil hanya karena jumlah katanya rendah. Under-explanation, slogan tanpa bridge, dan langkah yang kehilangan konteks adalah kegagalan clarity.
 
 Strategi yang lebih diutamakan:
 
@@ -502,6 +506,10 @@ Visual direction dapat mencakup:
 * editing treatment.
 
 Output visual harus cukup detail untuk diterjemahkan menjadi asset production.
+
+Engine menggunakan `docs/visual-language.md` untuk memilih keluarga visual berdasarkan fungsi slide, menentukan cohesion anchors, dan merencanakan variasi komposisi. Reference library memberi prinsip desain, bukan subjek atau layout yang harus disalin.
+
+Visual direction mencakup fit loop dengan copy. Engine dapat mengubah block structure, hierarchy, text zone, crop, subject scale, atau visual family selama core message tetap sama.
 
 ---
 

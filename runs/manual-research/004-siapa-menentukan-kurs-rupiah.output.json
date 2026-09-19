@@ -1,0 +1,835 @@
+{
+  "schema_version": "0.3.0",
+  "status": "NEEDS_REVIEW",
+  "editorial": {
+    "objective": "Membantu audiens pemula memahami bahwa kurs rupiah terhadap dolar terbentuk dari transaksi banyak pelaku pasar, sekaligus membedakan peran pasar, kurs referensi harian Bank Indonesia, dan intervensi Bank Indonesia.",
+    "central_takeaway": "Kurs rupiah terbentuk dari transaksi banyak pelaku pasar. Bank Indonesia mengukur dan dapat meredam gejolak, tetapi tidak menetapkan kurs harian sesuka hati.",
+    "selected_angle": "Kalau kurs bukan hasil rapat satu orang, siapa yang membuat angkanya bergerak?",
+    "angle_rationale": "Pertanyaan ini membongkar miskonsepsi paling dasar lebih dulu, lalu memisahkan tiga hal yang sering tercampur: pembentukan harga di pasar, angka referensi Bank Indonesia, dan intervensi saat gejolak berlebihan.",
+    "selected_material_ids": ["mat_01", "mat_02", "mat_03", "mat_04", "mat_05", "mat_06", "mat_07"],
+    "omitted_material": []
+  },
+  "narrative": {
+    "type": "pertanyaan, bongkar miskonsepsi, mekanisme, pembeda peran, P3K informasi",
+    "summary": "Carousel dibuka dengan pertanyaan siapa yang menentukan kurs. Jawabannya dibalik: tidak ada satu pengendali. Audiens lalu melihat siapa yang bertransaksi, bagaimana sistem mengambang membuat harga terbentuk, apa fungsi kurs referensi Bank Indonesia, dan kapan Bank Indonesia masuk sebagai peredam. Penutup memberi kebiasaan sederhana saat membaca berita kurs.",
+    "opening_function": "Memancing rasa ingin tahu dengan miskonsepsi bahwa kurs ditentukan satu orang atau satu rapat.",
+    "ending_function": "Mengubah pemahaman menjadi P3K informasi yang bisa dilakukan saat melihat pergerakan rupiah.",
+    "slide_sequence": ["slide_01", "slide_02", "slide_03", "slide_04", "slide_05", "slide_06", "slide_07"]
+  },
+  "claims": [
+    {
+      "id": "claim_01",
+      "text": "Tidak ada satu orang atau satu rapat yang menetapkan kurs rupiah terhadap dolar untuk hari itu.",
+      "claim_type": "FACT",
+      "source_ids": ["src_transcript"],
+      "material_ids": ["mat_01"],
+      "notes": "Klaim berasal dari transcript pihak ketiga dan belum diverifikasi ke sumber primer."
+    },
+    {
+      "id": "claim_02",
+      "text": "Kurs terbentuk dari banyak transaksi rupiah dan dolar yang berlangsung di pasar.",
+      "claim_type": "FACT",
+      "source_ids": ["src_transcript"],
+      "material_ids": ["mat_01"]
+    },
+    {
+      "id": "claim_03",
+      "text": "Eksportir dapat menjual dolar untuk memperoleh rupiah, sedangkan importir membeli dolar untuk membayar barang dari luar negeri.",
+      "claim_type": "FACT",
+      "source_ids": ["src_transcript"],
+      "material_ids": ["mat_02"]
+    },
+    {
+      "id": "claim_04",
+      "text": "Transaksi investor asing serta kiriman uang lintas negara juga termasuk arus transaksi rupiah dan dolar.",
+      "claim_type": "FACT",
+      "source_ids": ["src_transcript"],
+      "material_ids": ["mat_02"]
+    },
+    {
+      "id": "claim_05",
+      "text": "Indonesia memakai sistem nilai tukar mengambang sejak krisis 1998 sehingga rupiah bergerak mengikuti kekuatan pasar dan tidak dipatok kaku pada satu angka.",
+      "claim_type": "FACT",
+      "source_ids": ["src_transcript"],
+      "material_ids": ["mat_04"],
+      "notes": "Tahun dan formulasi sistem perlu dicek pada sumber resmi sebelum produksi."
+    },
+    {
+      "id": "claim_06",
+      "text": "Bank Indonesia menerbitkan angka referensi harian untuk kurs rupiah terhadap dolar berdasarkan transaksi yang terjadi.",
+      "claim_type": "FACT",
+      "source_ids": ["src_transcript"],
+      "material_ids": ["mat_03"],
+      "notes": "Nama dan definisi teknis kurs referensi tidak ditampilkan pada slide karena transcript tampak salah mentranskripsikan akronimnya."
+    },
+    {
+      "id": "claim_07",
+      "text": "Bank Indonesia dapat membeli atau menjual dolar dari cadangan devisa untuk meredam gejolak yang terlalu liar, bukan untuk memaksa kurs tetap pada satu angka.",
+      "claim_type": "FACT",
+      "source_ids": ["src_transcript"],
+      "material_ids": ["mat_05"]
+    },
+    {
+      "id": "claim_08",
+      "text": "Peran Bank Indonesia dapat dipahami seperti wasit yang menjaga permainan agar tidak kelewat kasar tanpa menentukan pemenang.",
+      "claim_type": "CREATIVE",
+      "material_ids": ["mat_06"],
+      "notes": "Analogi komunikasi, bukan definisi kelembagaan."
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset_01",
+      "type": "AI_GENERATED",
+      "description": "Dua keping logam hijau dan biru di atas jungkat-jungkit meja dengan beberapa ujung jari dari arah berbeda, menandakan banyak pelaku memengaruhi keseimbangan.",
+      "subject": "Miniatur jungkat-jungkit logam dengan satu keping forest green dan satu keping muted blue, dikelilingi beberapa ujung jari manusia.",
+      "requirements": ["Photorealistic", "portrait 4:5", "siluet objek terbaca cepat", "ruang copy luas di kiri atas", "tanpa angka atau teks di dalam gambar"],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "A small matte metal seesaw on a dark stone tabletop, one forest-green metal disc on one side and one muted-blue disc on the other, with several fingertips approaching from different edges of the frame",
+          "action": "the balance is slightly tilted and visibly sensitive to every touch",
+          "scene": "minimal editorial studio tabletop",
+          "composition": "object occupies the lower-right half, wide clean negative space in the upper-left",
+          "framing": "medium close-up, slight overhead angle",
+          "camera": "50mm editorial product photography, shallow but readable depth of field",
+          "background": "warm charcoal stone with subtle texture",
+          "lighting": "controlled soft light with one emerald reflection",
+          "negative_space": "upper-left 55 percent remains quiet and dark",
+          "text_safe_area": "upper-left and left-center",
+          "visual_treatment": "photorealistic conceptual object editorial, bold and clinical, restrained palette",
+          "constraints": ["one clear focal object", "hands must look natural", "no readable text"],
+          "avoid": ["currency symbols", "banknotes", "coins", "flags", "trading chart", "3D cartoon", "infographic", "generated typography"]
+        },
+        "prompt": "Photorealistic 4:5 conceptual editorial photograph of a small matte metal seesaw on a dark charcoal stone tabletop. Place one forest-green metal disc on one side and one muted-blue disc on the other. Several natural fingertips approach from different edges, making the balance feel sensitive to many small actions. The object fills the lower-right half. Keep the upper-left 55 percent quiet, dark, low contrast, and empty for text. Slight overhead medium close-up, 50mm product photography, controlled soft light, subtle emerald reflection, warm clinical finish. No currency symbols, banknotes, coins, flags, charts, infographic, cartoon, logos, numbers, or readable text."
+      },
+      "notes": "Gunakan material, warna, dan pencahayaan ini sebagai continuity reference untuk asset konseptual berikutnya."
+    },
+    {
+      "id": "asset_02",
+      "type": "AI_GENERATED",
+      "description": "Tombol besar yang tidak terhubung ke apa pun di atas meja kosong, dengan banyak tangan sibuk di latar kabur sebagai tandingan gagasan satu pengendali.",
+      "subject": "Tombol logam besar tanpa label dan kabel terputus, dengan aktivitas banyak tangan di latar.",
+      "requirements": ["Photorealistic", "portrait 4:5", "tombol terlihat tidak berfungsi", "area copy di kanan atas", "tanpa teks"],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "A large unlabeled metal push button sitting unused on a warm-white table, its cable visibly disconnected",
+          "action": "many different hands in the soft-focus background exchange forest-green and muted-blue document folders",
+          "scene": "minimal contemporary exchange desk, not a government meeting room",
+          "composition": "button in the lower-left foreground, active hands form a diagonal through the center, clean upper-right text zone",
+          "framing": "close foreground with medium background depth",
+          "camera": "natural 50mm perspective",
+          "background": "warm-white and soft gray interior",
+          "lighting": "soft daylight with controlled contrast",
+          "negative_space": "upper-right 40 percent",
+          "text_safe_area": "upper-right quadrant",
+          "visual_treatment": "photorealistic conceptual editorial, understated and slightly witty",
+          "constraints": ["disconnected cable must be visible", "background hands remain anonymous", "no readable text"],
+          "avoid": ["presidential office", "board meeting", "dramatic red button", "flags", "currency", "logos", "cartoon", "generated typography"]
+        },
+        "prompt": "Photorealistic 4:5 conceptual editorial photo. A large unlabeled matte metal push button sits unused in the lower-left foreground on a warm-white table, with its cable clearly disconnected. In the softly focused middle background, several anonymous hands exchange forest-green and muted-blue document folders. Build a diagonal flow through the center and leave the upper-right 40 percent clean for text. Natural 50mm perspective, soft daylight, warm-white and gray interior, restrained forest-green accents. The mood is understated and slightly witty, not political. No government meeting room, red emergency button, flags, banknotes, currency symbols, logos, charts, cartoon, numbers, or readable text."
+      }
+    },
+    {
+      "id": "asset_03",
+      "type": "AI_GENERATED",
+      "description": "Meja transaksi nyata dengan beberapa tangan menukar map hijau dan biru dari arah berbeda, menunjukkan banyak jenis kebutuhan bertemu di pasar.",
+      "subject": "Beragam tangan pekerja memindahkan map forest green dan muted blue di satu meja panjang.",
+      "requirements": ["Photorealistic", "portrait 4:5", "tangan dan map menjadi fokus", "ruang body copy di kiri", "tanpa logo atau tulisan pada dokumen"],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "Several diverse Indonesian adult hands moving plain forest-green and muted-blue document folders across a long wooden counter",
+          "action": "some folders move inward while others move outward, suggesting different transaction needs",
+          "scene": "lived-in business counter with one cardboard shipping box and one plain phone as subtle context",
+          "composition": "hands and folders occupy the right and lower portions, left third remains calm for copy",
+          "framing": "overhead editorial lifestyle photograph",
+          "camera": "35mm overhead, crisp focal plane",
+          "background": "warm wood, charcoal sleeves, minimal props",
+          "lighting": "soft window light",
+          "negative_space": "left third with only wood texture",
+          "text_safe_area": "left 35 percent",
+          "visual_treatment": "photorealistic Indonesian lifestyle editorial with conceptual color coding",
+          "constraints": ["maximum two supporting props", "no readable documents", "no brand identity"],
+          "avoid": ["money counting", "flying cash", "stock exchange floor", "flags", "logos", "infographic", "generated text"]
+        },
+        "prompt": "Photorealistic 4:5 overhead editorial lifestyle photograph of several diverse Indonesian adult hands moving plain forest-green and muted-blue document folders across a long warm wooden counter. Some folders move inward and others outward to suggest different transaction needs. Include only one unbranded cardboard shipping box and one plain phone as subtle context. Keep the hands and folders in the right and lower portions. Leave the left 35 percent as calm wood texture for copy. Soft window light, crisp focal plane, charcoal sleeves, clean but lived-in. No banknotes, flying cash, stock exchange floor, flags, logos, readable documents, infographic, or generated text."
+      }
+    },
+    {
+      "id": "asset_04",
+      "type": "AI_GENERATED",
+      "description": "Dua arus keping berwarna bergerak melalui lintasan transparan dan bertemu pada satu titik keseimbangan, memvisualisasikan harga yang terbentuk dari tarik-menarik pasar.",
+      "subject": "Instalasi fisik dua lintasan transparan dengan keping forest green dan muted blue yang bertemu di tengah.",
+      "requirements": ["Photorealistic", "portrait 4:5", "terlihat seperti instalasi fisik, bukan diagram", "copy zone di bawah", "tanpa angka"],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "A physical tabletop kinetic installation with two clear acrylic channels carrying small forest-green and muted-blue discs toward one meeting point",
+          "action": "the discs converge and gently shift a central balance marker",
+          "scene": "dark editorial studio",
+          "composition": "channels enter from upper-left and upper-right, meeting above center; lower third stays open for text",
+          "framing": "wide close-up with symmetrical entry and asymmetric disc density",
+          "camera": "70mm product photography",
+          "background": "deep forest-black matte surface",
+          "lighting": "precise rim light on acrylic and soft top light",
+          "negative_space": "lower third",
+          "text_safe_area": "lower 32 percent",
+          "visual_treatment": "photorealistic conceptual object editorial, tactile and restrained",
+          "constraints": ["must look like a real photographed object", "no labels or scale markings"],
+          "avoid": ["diagram", "chart", "arrows", "currency symbols", "neon cyberpunk", "cartoon", "generated typography"]
+        },
+        "prompt": "Photorealistic 4:5 product photograph of a real tabletop kinetic installation. Two clear acrylic channels enter from the upper-left and upper-right, carrying small forest-green and muted-blue metal discs toward one meeting point above center. The discs gently shift a simple central balance marker. Use asymmetric disc density so the system feels alive. Keep the lower 32 percent open, dark, and low contrast for text. Deep forest-black matte surface, precise rim light on the acrylic, soft top light, tactile materials, restrained editorial finish. It must look physically photographed, not like a diagram. No labels, scale marks, charts, arrows, currency symbols, neon, cartoon, or generated typography."
+      }
+    },
+    {
+      "id": "asset_05",
+      "type": "AI_GENERATED",
+      "description": "Alat ukur analog tanpa angka yang membaca gerak keping hijau dan biru, sebagai metafora kurs referensi yang mengukur kondisi pasar.",
+      "subject": "Meter analog minimal tanpa angka, terhubung secara fisik ke dua jalur keping berwarna.",
+      "requirements": ["Photorealistic", "portrait 4:5", "meter terbaca sebagai alat ukur", "ruang copy di kanan", "tanpa teks atau angka"],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "A minimal analog measuring instrument with a single needle and no printed numbers, connected to two small channels of forest-green and muted-blue metal discs",
+          "action": "the needle records the combined movement rather than controlling it",
+          "scene": "clean warm-white editorial studio",
+          "composition": "instrument large on the left, channels enter from below, right half remains open",
+          "framing": "tight three-quarter close-up",
+          "camera": "65mm product lens",
+          "background": "warm white with a soft forest-green shadow",
+          "lighting": "bright clinical softbox light",
+          "negative_space": "right half",
+          "text_safe_area": "right 45 percent",
+          "visual_treatment": "photorealistic clinical product editorial",
+          "constraints": ["needle and mechanical linkage must look plausible", "no numbers or lettering"],
+          "avoid": ["medical monitor UI", "speedometer numbers", "dashboard", "chart", "logo", "cartoon", "generated typography"]
+        },
+        "prompt": "Photorealistic 4:5 clinical product editorial photograph. A minimal analog measuring instrument with one needle and no printed numbers sits large on the left. Two small clear channels carrying forest-green and muted-blue metal discs enter from below. The instrument should visibly record their combined movement, not control it. Leave the right 45 percent warm white, empty, and low contrast for text. Tight three-quarter close-up, 65mm lens, bright softbox lighting, soft forest-green shadow, plausible mechanical linkage. No numbers, lettering, medical screen UI, dashboard, charts, logos, cartoon, or generated typography."
+      },
+      "notes": "Metafora visual ini menjelaskan fungsi pengukuran. Copy harus tetap menyebut Bank Indonesia agar makna tidak bergantung pada gambar saja."
+    },
+    {
+      "id": "asset_06",
+      "type": "AI_GENERATED",
+      "description": "Wasit berdiri di antara dua arus pemain yang membawa map hijau dan biru, memegang peluit tanpa menunjuk pemenang.",
+      "subject": "Wasit Indonesia berpakaian hitam sederhana, dengan dua kelompok bergerak di belakangnya sambil membawa map berwarna.",
+      "requirements": ["Photorealistic", "portrait 4:5", "scene konseptual dan jelas bukan dokumentasi", "area copy kiri bawah", "tanpa logo tim"],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "An Indonesian referee in a simple black uniform holding a whistle at chest level, calm and alert",
+          "action": "two small groups pass behind in opposite directions carrying plain forest-green and muted-blue folders; the referee watches the flow without pointing to a winner",
+          "scene": "minimal indoor court with no team branding",
+          "composition": "referee on the right third, moving groups blurred in the upper background, lower-left remains clean",
+          "framing": "medium full-body editorial portrait",
+          "camera": "50mm lens, moderate motion blur behind subject",
+          "background": "muted dark teal court and warm neutral wall",
+          "lighting": "cinematic but restrained side light",
+          "negative_space": "lower-left 42 percent",
+          "text_safe_area": "left and lower-left",
+          "visual_treatment": "photorealistic conceptual human cinematic, calm rather than dramatic",
+          "constraints": ["one referee only", "no visible score", "no readable text"],
+          "avoid": ["football stadium", "cheering crowd", "yellow card as main prop", "team logos", "flags", "money", "cartoon", "generated typography"]
+        },
+        "prompt": "Photorealistic 4:5 conceptual human cinematic photograph of an Indonesian referee in a simple black uniform, standing calmly on the right third and holding a whistle at chest level. Two small groups pass behind in opposite directions carrying plain forest-green and muted-blue folders. Use moderate motion blur on the groups while the referee remains sharp, watching the flow without pointing to a winner. Minimal indoor court, muted dark teal floor, warm neutral wall, restrained cinematic side light. Keep the lower-left 42 percent clean for text. No stadium, crowd, score, yellow card as focal object, team logos, flags, banknotes, cartoon, or readable text."
+      }
+    },
+    {
+      "id": "asset_07",
+      "type": "AI_GENERATED",
+      "description": "First jobber mengecek ponsel dengan tenang di meja sarapan, dengan alat ukur konseptual kecil di samping sebagai pengikat visual.",
+      "subject": "First jobber Indonesia awal 20-an melihat ponsel tanpa ekspresi panik.",
+      "requirements": ["Photorealistic", "portrait 4:5", "layar ponsel tanpa UI terbaca", "ruang langkah P3K di kiri", "suasana sehari-hari Indonesia"],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt_spec": {
+          "subject": "A young Indonesian first jobber in a simple work shirt calmly checking a plain smartphone at a small breakfast table",
+          "action": "pausing to verify information before reacting",
+          "scene": "modest bright apartment or boarding-house dining corner, morning",
+          "composition": "person seated on the right, phone low near the tabletop, left half open for the P3K copy",
+          "framing": "medium-wide eye-level lifestyle photograph",
+          "camera": "natural 50mm perspective",
+          "background": "warm-white wall, forest-green cup, one small analog meter-like object as a subtle motif",
+          "lighting": "soft natural morning light",
+          "negative_space": "left 48 percent",
+          "text_safe_area": "left half from top to lower-middle",
+          "visual_treatment": "photorealistic Indonesian lifestyle editorial, calm, clean, and relatable",
+          "constraints": ["screen content must be unreadable", "expression calm and attentive", "no brand logos"],
+          "avoid": ["panic expression", "trading app", "candlestick chart", "luxury apartment", "financial influencer setup", "cartoon", "generated typography"]
+        },
+        "prompt": "Photorealistic 4:5 Indonesian lifestyle editorial photo of a young first jobber in a simple work shirt calmly checking a plain smartphone at a small breakfast table. The person sits on the right with the phone low near the tabletop, pausing to verify information before reacting. Keep the left 48 percent open, bright, and quiet for P3K copy. Modest apartment or boarding-house dining corner, warm-white wall, forest-green cup, one small analog meter-like object as a subtle continuity motif. Soft natural morning light, clean and relatable. Phone screen content must be unreadable. No panic, trading app, candlestick chart, luxury interior, logos, cartoon, or generated typography."
+      }
+    }
+  ],
+  "production": {
+    "global_instructions": [
+      {
+        "step": 1,
+        "action": "SETUP",
+        "instruction": "Gunakan master canvas 1080 x 1350 px. Primary visual family adalah conceptual object editorial; lifestyle editorial hanya untuk slide 3 dan 7, sedangkan slide 6 memakai conceptual human cinematic sebagai pengecualian terkontrol. Jaga kohesi lewat forest green dan muted blue, warm-white atau charcoal field, material matte, pencahayaan editorial lembut, condensed bold sans untuk diagnosis, serta neutral sans untuk penjelasan. Variasikan framing overhead, close-up, wide, posisi subjek, lokasi text zone, dan dominasi terang-gelap."
+      },
+      {
+        "step": 2,
+        "action": "GENERATE",
+        "instruction": "Buat asset_01 lebih dulu sebagai referensi material, warna, dan lighting. Gunakan dua warna objek yang sama pada asset_02 sampai asset_06 agar motif transaksi tetap terbaca."
+      },
+      {
+        "step": 3,
+        "action": "SELECT",
+        "instruction": "Pilih hasil yang punya satu focal point jelas dan negative space sesuai prompt. Tolak gambar yang berubah menjadi infografik, ruang trading, atau simbol uang generik."
+      },
+      {
+        "step": 4,
+        "action": "IMPORT",
+        "instruction": "Impor setiap foto pada canvas terpisah. Pertahankan variasi siluet layout: kanan bawah, foreground kiri, overhead kanan, simetris atas, hero kiri, hero kanan, lalu lifestyle kanan."
+      },
+      {
+        "step": 5,
+        "action": "ADD_TEXT",
+        "instruction": "Tambahkan seluruh display copy di design tool sesuai reading order dan attention priority. Jangan meminta generator membuat headline, label, angka, atau akronim kurs referensi."
+      },
+      {
+        "step": 6,
+        "action": "ADJUST",
+        "instruction": "Gunakan crop, reposisi, dan gradient tipis hanya untuk menjaga keterbacaan. Jangan menambah diagram, panah, icon system, bendera dekoratif, atau grafik trading."
+      },
+      {
+        "step": 7,
+        "action": "REVIEW",
+        "instruction": "Periksa pada lebar 360 px. Pastikan slide 3 tetap mudah dipindai, slide 5 tidak membuat kurs referensi terdengar seperti kurs yang ditetapkan, dan slide 6 tidak memberi kesan Bank Indonesia selalu dapat menghentikan seluruh pergerakan pasar."
+      },
+      {
+        "step": 8,
+        "action": "EXPORT",
+        "instruction": "Ekspor hanya setelah reviewer memverifikasi istilah kurs referensi, klaim sistem mengambang sejak 1998, dan mekanisme intervensi terhadap sumber resmi."
+      }
+    ]
+  },
+  "slides": [
+    {
+      "id": "slide_01",
+      "index": 1,
+      "role": "hook",
+      "purpose": "Membuka miskonsepsi tentang adanya satu pihak yang menentukan kurs harian.",
+      "core_message": "Pergerakan kurs tidak berasal dari satu orang yang menetapkan angka.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "context",
+            "text": "Rupiah hari ini naik. Besok turun.",
+            "reading_order": 1,
+            "attention_priority": 2,
+            "typography": {"scale": "SMALL", "weight": "MEDIUM", "alignment": "LEFT", "color": "warm white", "notes": "Neutral sans dengan tracking longgar."},
+            "placement": "Kiri atas, lebar 44 persen.",
+            "relation_to_visual": "Berada di negative space, tidak menyentuh objek."
+          },
+          {
+            "role": "focal_statement",
+            "text": "SIAPA YANG\nNENTUIN KURS?",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {"scale": "HERO", "weight": "BOLD", "alignment": "LEFT", "color": "warm white", "notes": "Condensed bold sans, dua baris besar."},
+            "placement": "Kiri atas hingga kiri tengah, lebar 52 persen.",
+            "relation_to_visual": "Massa teks menyeimbangkan jungkat-jungkit di kanan bawah."
+          }
+        ]
+      },
+      "claim_ids": ["claim_01"],
+      "visual": {
+        "function": "ATTRACT_ATTENTION",
+        "primary": {
+          "concept": "Jungkat-jungkit kecil dengan dua keping berwarna dan banyak ujung jari, menandakan angka sensitif terhadap banyak tindakan.",
+          "subject": "Jungkat-jungkit logam, keping forest green dan muted blue, beberapa ujung jari.",
+          "scene": "Studio tabletop charcoal.",
+          "composition": "Objek di kanan bawah, text mass besar di kiri atas.",
+          "framing": "Medium close-up dari sedikit atas.",
+          "background": "Charcoal stone bertekstur halus.",
+          "lighting": "Soft directional light dengan refleksi emerald.",
+          "negative_space": "Kiri atas hingga kiri tengah.",
+          "text_zone": "Kiri 52 persen.",
+          "visual_hierarchy": "Pertanyaan besar, lalu objek keseimbangan, lalu context line.",
+          "editing_treatment": "Tambahkan gradient charcoal tipis di belakang copy bila perlu.",
+          "rationale": "Objek membangun pertanyaan tentang keseimbangan tanpa memakai grafik atau uang klise."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_01"],
+      "production_instructions": [
+        {"step": 1, "action": "GENERATE", "instruction": "Generate asset_01 dan pertahankan area kiri tetap kosong."},
+        {"step": 2, "action": "IMPORT", "instruction": "Tempatkan jungkat-jungkit di kanan bawah dengan skala sekitar setengah canvas."},
+        {"step": 3, "action": "ADD_TEXT", "instruction": "Pasang context line lebih dulu dalam reading order, lalu pertanyaan sebagai focal point terbesar."},
+        {"step": 4, "action": "REVIEW", "instruction": "Pastikan objek tetap terbaca dalam satu detik dan headline tidak menutup ujung jari."
+        }
+      ]
+    },
+    {
+      "id": "slide_02",
+      "index": 2,
+      "role": "myth_bust",
+      "purpose": "Menjawab hook dan mematahkan bayangan tentang satu pengendali kurs.",
+      "core_message": "Tidak ada satu tombol atau satu rapat yang menetapkan kurs harian.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "focal_statement",
+            "text": "Bukan satu bos besar.\nBukan satu tombol sakti.",
+            "reading_order": 1,
+            "attention_priority": 1,
+            "typography": {"scale": "LARGE", "weight": "BOLD", "alignment": "RIGHT", "color": "forest green", "notes": "Condensed sans untuk baris pertama, neutral bold untuk baris kedua."},
+            "placement": "Kanan atas, lebar 48 persen.",
+            "relation_to_visual": "Menghadap ke tombol tidak terhubung di kiri bawah."
+          },
+          {
+            "role": "explanation",
+            "text": "Angka kurs lahir dari banyak transaksi rupiah dan dolar yang terjadi barengan di pasar.",
+            "reading_order": 2,
+            "attention_priority": 2,
+            "typography": {"scale": "MEDIUM", "weight": "MEDIUM", "alignment": "RIGHT", "color": "charcoal", "notes": "Neutral sans, line-height lega."},
+            "placement": "Kanan tengah, lebar 44 persen.",
+            "relation_to_visual": "Body berhenti sebelum aktivitas tangan di tengah."
+          }
+        ]
+      },
+      "claim_ids": ["claim_01", "claim_02"],
+      "visual": {
+        "function": "SYMBOLIZE",
+        "primary": {
+          "concept": "Tombol besar yang kabelnya terputus sementara banyak tangan tetap bertransaksi di belakang.",
+          "subject": "Tombol logam tanpa label dan tangan yang bertukar map.",
+          "scene": "Meja pertukaran minimal.",
+          "composition": "Tombol di foreground kiri bawah, tangan diagonal di tengah, copy kanan atas.",
+          "framing": "Close foreground dengan medium background.",
+          "background": "Warm white dan gray.",
+          "lighting": "Daylight lembut.",
+          "negative_space": "Kanan atas.",
+          "text_zone": "Kanan 48 persen.",
+          "visual_hierarchy": "Headline, tombol tak berfungsi, aktivitas tangan, explanation.",
+          "editing_treatment": "Desaturasi ringan pada tombol agar map berwarna menjadi pengikat.",
+          "rationale": "Tombol yang tidak tersambung mematahkan gagasan satu pengendali tanpa menampilkan tokoh politik atau lembaga."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_02"],
+      "production_instructions": [
+        {"step": 1, "action": "GENERATE", "instruction": "Generate asset_02 dan tolak hasil dengan tombol merah dramatis atau suasana rapat pemerintah."},
+        {"step": 2, "action": "CROP", "instruction": "Jaga kabel terputus tetap terlihat di kiri bawah dan sisakan kanan atas untuk copy."},
+        {"step": 3, "action": "ADD_TEXT", "instruction": "Pasang dua block rata kanan dengan jarak cukup agar explanation tidak terasa seperti subjudul kecil."},
+        {"step": 4, "action": "REVIEW", "instruction": "Pastikan pembaca memahami jawaban tanpa perlu menebak makna tombol."
+        }
+      ]
+    },
+    {
+      "id": "slide_03",
+      "index": 3,
+      "role": "market_context",
+      "purpose": "Memberi contoh konkret tentang pelaku dan kebutuhan yang menciptakan transaksi rupiah-dolar.",
+      "core_message": "Eksportir, importir, investor asing, dan pengirim uang lintas negara membawa kebutuhan transaksi yang berbeda ke pasar.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "focal_statement",
+            "text": "Pasarnya rame karena\nsemua punya urusan.",
+            "reading_order": 1,
+            "attention_priority": 1,
+            "typography": {"scale": "LARGE", "weight": "BOLD", "alignment": "LEFT", "color": "forest green", "notes": "Condensed bold sans pada baris kedua."},
+            "placement": "Kiri atas, lebar 38 persen.",
+            "relation_to_visual": "Diletakkan pada tekstur kayu kosong."
+          },
+          {
+            "role": "list",
+            "text": "Eksportir jual dolar.\nImportir beli dolar.\nInvestor asing keluar-masuk.\nKiriman uang lintas negara ikut bergerak.",
+            "reading_order": 2,
+            "attention_priority": 2,
+            "typography": {"scale": "MEDIUM", "weight": "MEDIUM", "alignment": "LEFT", "color": "charcoal", "notes": "Empat baris pendek, neutral sans."},
+            "placement": "Kiri tengah hingga kiri bawah, lebar 39 persen.",
+            "relation_to_visual": "List mengikuti arah map yang masuk dan keluar dari kanan."
+          }
+        ]
+      },
+      "claim_ids": ["claim_03", "claim_04"],
+      "visual": {
+        "function": "CONTEXTUALIZE",
+        "primary": {
+          "concept": "Beberapa tangan memindahkan map hijau dan biru dari arah berbeda di satu meja transaksi.",
+          "subject": "Tangan pekerja, map warna, satu kotak kiriman dan satu ponsel polos.",
+          "scene": "Counter bisnis yang terasa dipakai sehari-hari.",
+          "composition": "Foto overhead, aktivitas di kanan dan bawah, copy di kiri.",
+          "framing": "Overhead wide close-up.",
+          "background": "Meja kayu hangat.",
+          "lighting": "Window light lembut.",
+          "negative_space": "Sepertiga kiri.",
+          "text_zone": "Kiri 39 persen.",
+          "visual_hierarchy": "Headline, gerak map, list pelaku.",
+          "editing_treatment": "Turunkan detail props dan pertahankan warna map sebagai accent utama.",
+          "rationale": "Adegan tangan memberi konteks manusia tanpa mencoba memvisualisasikan empat industri secara literal."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_03"],
+      "production_instructions": [
+        {"step": 1, "action": "GENERATE", "instruction": "Generate asset_03 dengan maksimum dua props pendukung dan tanpa dokumen terbaca."},
+        {"step": 2, "action": "CROP", "instruction": "Pertahankan aliran map di kanan serta tekstur kosong di kiri."},
+        {"step": 3, "action": "ADD_TEXT", "instruction": "Susun headline dan list dalam satu kolom. Gunakan line break yang sama seperti copy final."},
+        {"step": 4, "action": "REVIEW", "instruction": "Uji list pada lebar ponsel dan pastikan tiap baris terbaca sebagai contoh transaksi, bukan empat definisi baru."
+        }
+      ]
+    },
+    {
+      "id": "slide_04",
+      "index": 4,
+      "role": "mechanism",
+      "purpose": "Menjelaskan kenapa banyak transaksi dapat membuat angka kurs bergerak.",
+      "core_message": "Dalam sistem nilai tukar mengambang, tarik-menarik transaksi pasar membuat kurs bergerak dan tidak terkunci pada satu angka.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "context",
+            "text": "Indonesia memakai sistem kurs mengambang sejak krisis 1998.",
+            "reading_order": 1,
+            "attention_priority": 3,
+            "typography": {"scale": "SMALL", "weight": "MEDIUM", "alignment": "CENTER", "color": "warm white", "notes": "Neutral sans, jangan dibuat seperti footnote."},
+            "placement": "Bawah tengah, lebar 70 persen.",
+            "relation_to_visual": "Berada tepat di bawah pertemuan dua lintasan."
+          },
+          {
+            "role": "focal_statement",
+            "text": "Banyak transaksi masuk.\nKurs ikut mencari titiknya.",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {"scale": "LARGE", "weight": "BOLD", "alignment": "CENTER", "color": "warm white", "notes": "Editorial serif pada baris pertama, condensed sans pada baris kedua."},
+            "placement": "Bawah tengah di atas context line, lebar 76 persen.",
+            "relation_to_visual": "Copy mengikuti titik pertemuan lintasan dari atas."
+          },
+          {
+            "role": "explanation",
+            "text": "Makanya angkanya bisa bergerak. Rupiah tidak dipatok kaku di satu harga.",
+            "reading_order": 3,
+            "attention_priority": 2,
+            "typography": {"scale": "MEDIUM", "weight": "MEDIUM", "alignment": "CENTER", "color": "warm white", "notes": "Neutral sans."},
+            "placement": "Bawah tengah, lebar 68 persen.",
+            "relation_to_visual": "Menutup penjelasan tanpa menimpa lintasan."
+          }
+        ]
+      },
+      "claim_ids": ["claim_02", "claim_05"],
+      "visual": {
+        "function": "EXPLAIN",
+        "primary": {
+          "concept": "Dua arus keping fisik bertemu dan menggeser titik keseimbangan.",
+          "subject": "Instalasi lintasan akrilik dengan keping hijau dan biru.",
+          "scene": "Studio gelap dengan objek nyata.",
+          "composition": "Lintasan masuk dari dua sudut atas, bertemu di tengah atas, copy mengisi bawah.",
+          "framing": "Wide close-up simetris dengan kepadatan keping asimetris.",
+          "background": "Forest-black matte.",
+          "lighting": "Rim light akrilik dan top light lembut.",
+          "negative_space": "Sepertiga bawah.",
+          "text_zone": "Bawah 36 persen.",
+          "visual_hierarchy": "Titik temu lintasan, focal statement, explanation, context line.",
+          "editing_treatment": "Tambahkan gradient gelap tipis dari bawah bila kontras copy kurang.",
+          "rationale": "Instalasi fisik menunjukkan mekanisme tarik-menarik tanpa berubah menjadi diagram atau grafik."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_04"],
+      "production_instructions": [
+        {"step": 1, "action": "GENERATE", "instruction": "Generate asset_04 dan pilih hasil yang terlihat seperti benda nyata, bukan ilustrasi data."},
+        {"step": 2, "action": "IMPORT", "instruction": "Isi area atas dengan lintasan dan pertahankan bawah tetap bersih."},
+        {"step": 3, "action": "ADD_TEXT", "instruction": "Pasang tiga block sesuai reading order. Beri jarak jelas antara context, focal statement, dan explanation."},
+        {"step": 4, "action": "REVIEW", "instruction": "Verifikasi kembali klaim 1998 sebelum produksi dan cek bahwa metafora tidak dibaca sebagai rumus kurs."
+        }
+      ]
+    },
+    {
+      "id": "slide_05",
+      "index": 5,
+      "role": "role_distinction",
+      "purpose": "Membedakan angka referensi Bank Indonesia dari angka yang ditetapkan secara sepihak.",
+      "core_message": "Kurs referensi harian Bank Indonesia mengukur transaksi yang terjadi, bukan tombol yang menciptakan harga pasar.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "label",
+            "text": "PERAN BI, BAGIAN 1",
+            "reading_order": 1,
+            "attention_priority": 3,
+            "typography": {"scale": "SMALL", "weight": "BOLD", "alignment": "RIGHT", "color": "emerald green", "notes": "Neutral sans uppercase."},
+            "placement": "Kanan atas, lebar 42 persen.",
+            "relation_to_visual": "Label menjadi jembatan dari alat ukur di kiri."
+          },
+          {
+            "role": "focal_statement",
+            "text": "Kurs referensi itu\nTERMOMETER,\nbukan remote control.",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {"scale": "LARGE", "weight": "BOLD", "alignment": "RIGHT", "color": "forest green", "notes": "TERMOMETER memakai condensed sans terbesar."},
+            "placement": "Kanan atas hingga kanan tengah, lebar 46 persen.",
+            "relation_to_visual": "Rata kanan menghadap jarum alat ukur."
+          },
+          {
+            "role": "explanation",
+            "text": "Bank Indonesia menerbitkan angka referensi harian dari transaksi yang terjadi. Angka itu membaca pasar, bukan memilih harga sesuka hati.",
+            "reading_order": 3,
+            "attention_priority": 2,
+            "typography": {"scale": "MEDIUM", "weight": "MEDIUM", "alignment": "RIGHT", "color": "charcoal", "notes": "Neutral sans, maksimal lima baris pada layout final."},
+            "placement": "Kanan tengah hingga kanan bawah, lebar 47 persen.",
+            "relation_to_visual": "Body tetap di warm-white area dan tidak melewati alat."
+          }
+        ]
+      },
+      "claim_ids": ["claim_06"],
+      "visual": {
+        "function": "EXPLAIN",
+        "primary": {
+          "concept": "Alat ukur analog membaca gerak dua jalur keping tanpa mengendalikan alirannya.",
+          "subject": "Meter analog tanpa angka dan dua jalur keping warna.",
+          "scene": "Studio produk klinis warm white.",
+          "composition": "Meter besar di kiri, copy rata kanan di kanan.",
+          "framing": "Tight three-quarter close-up.",
+          "background": "Warm white dengan bayangan forest green.",
+          "lighting": "Softbox terang dan bersih.",
+          "negative_space": "Setengah kanan.",
+          "text_zone": "Kanan 47 persen.",
+          "visual_hierarchy": "Kata TERMOMETER, alat ukur, explanation, label.",
+          "editing_treatment": "Jaga foto terang; gunakan forest text langsung tanpa box.",
+          "rationale": "Metafora termometer memenuhi bahasa medis brand dan membedakan pengukuran dari kontrol."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_05"],
+      "production_instructions": [
+        {"step": 1, "action": "GENERATE", "instruction": "Generate asset_05 tanpa angka, label, atau UI buatan pada alat ukur."},
+        {"step": 2, "action": "CROP", "instruction": "Pertahankan meter di kiri dan setidaknya 45 persen area kanan tetap tenang."},
+        {"step": 3, "action": "ADD_TEXT", "instruction": "Buat TERMOMETER menjadi accent terbesar, tetapi pertahankan explanation cukup besar untuk dibaca."},
+        {"step": 4, "action": "REVIEW", "instruction": "Reviewer wajib memverifikasi nama dan definisi resmi kurs referensi sebelum menyetujui slide."
+        }
+      ]
+    },
+    {
+      "id": "slide_06",
+      "index": 6,
+      "role": "intervention_explanation",
+      "purpose": "Menjelaskan bahwa Bank Indonesia tetap dapat bertindak ketika gejolak pasar berlebihan.",
+      "core_message": "Bank Indonesia dapat membeli atau menjual dolar untuk meredam gejolak, bukan untuk menjamin satu angka kurs.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "label",
+            "text": "PERAN BI, BAGIAN 2",
+            "reading_order": 1,
+            "attention_priority": 3,
+            "typography": {"scale": "SMALL", "weight": "BOLD", "alignment": "LEFT", "color": "emerald green", "notes": "Neutral sans uppercase."},
+            "placement": "Kiri atas, lebar 42 persen.",
+            "relation_to_visual": "Berada di area gelap yang tenang."
+          },
+          {
+            "role": "focal_statement",
+            "text": "BI itu wasit.\nBukan penentu skor.",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {"scale": "LARGE", "weight": "BOLD", "alignment": "LEFT", "color": "warm white", "notes": "Editorial serif untuk baris pertama, condensed sans untuk baris kedua."},
+            "placement": "Kiri atas hingga kiri tengah, lebar 46 persen.",
+            "relation_to_visual": "Headline menghadap wasit di kanan."
+          },
+          {
+            "role": "explanation",
+            "text": "Saat gerak pasar terlalu liar, BI bisa jual atau beli dolar dari cadangan devisa untuk meredam gejolak. Tujuannya menenangkan permainan, bukan mengunci kurs di satu angka.",
+            "reading_order": 3,
+            "attention_priority": 2,
+            "typography": {"scale": "MEDIUM", "weight": "MEDIUM", "alignment": "LEFT", "color": "warm white", "notes": "Neutral sans, gunakan lebar kolom yang cukup."},
+            "placement": "Kiri tengah hingga kiri bawah, lebar 49 persen.",
+            "relation_to_visual": "Body berada di negative space dan tidak menutup kelompok bergerak."
+          }
+        ]
+      },
+      "claim_ids": ["claim_07", "claim_08"],
+      "visual": {
+        "function": "SYMBOLIZE",
+        "primary": {
+          "concept": "Wasit tenang mengawasi dua arus orang yang bergerak berlawanan tanpa menunjuk pemenang.",
+          "subject": "Wasit Indonesia dan dua kelompok pembawa map warna.",
+          "scene": "Lapangan indoor minimal tanpa identitas tim.",
+          "composition": "Wasit di kanan, gerak latar di atas, copy besar di kiri.",
+          "framing": "Medium full-body.",
+          "background": "Dark teal dan warm neutral.",
+          "lighting": "Side light sinematik yang tenang.",
+          "negative_space": "Kiri dan kiri bawah.",
+          "text_zone": "Kiri 49 persen.",
+          "visual_hierarchy": "Headline, wasit, explanation, arus gerak.",
+          "editing_treatment": "Pertahankan wasit tajam dan beri motion blur ringan pada kelompok belakang.",
+          "rationale": "Analogi wasit menjelaskan stabilisasi tanpa menjanjikan kontrol penuh terhadap hasil."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_06"],
+      "production_instructions": [
+        {"step": 1, "action": "GENERATE", "instruction": "Generate asset_06 dan pilih hasil dengan wasit tenang, bukan suasana pertandingan dramatis."},
+        {"step": 2, "action": "CROP", "instruction": "Posisikan wasit di kanan sepertiga dan lindungi area kiri untuk tiga block copy."},
+        {"step": 3, "action": "ADD_TEXT", "instruction": "Pasang explanation dengan ukuran medium yang tetap nyaman dibaca; jangan mengecilkannya demi memperbesar headline."},
+        {"step": 4, "action": "REVIEW", "instruction": "Pastikan analogi tidak menyiratkan BI menentukan siapa yang menang atau dapat menghapus seluruh volatilitas."
+        }
+      ]
+    },
+    {
+      "id": "slide_07",
+      "index": 7,
+      "role": "action_close",
+      "purpose": "Memberi kebiasaan sederhana agar audiens tidak salah membaca pergerakan kurs.",
+      "core_message": "Saat melihat berita rupiah bergerak, cek kurs referensi Bank Indonesia dan ingat bahwa angka itu mencerminkan pasar, bukan keputusan satu orang.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "label",
+            "text": "P3K KALAU LIHAT BERITA KURS",
+            "reading_order": 1,
+            "attention_priority": 2,
+            "typography": {"scale": "SMALL", "weight": "BOLD", "alignment": "LEFT", "color": "emerald green", "notes": "Neutral sans uppercase."},
+            "placement": "Kiri atas, lebar 45 persen.",
+            "relation_to_visual": "Diletakkan di warm-white wall."
+          },
+          {
+            "role": "focal_statement",
+            "text": "Jangan langsung panik\natau cari satu kambing hitam.",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {"scale": "LARGE", "weight": "BOLD", "alignment": "LEFT", "color": "forest green", "notes": "Condensed bold sans, dua massa kalimat."},
+            "placement": "Kiri atas hingga kiri tengah, lebar 48 persen.",
+            "relation_to_visual": "Headline mengarah ke orang yang memeriksa ponsel dengan tenang."
+          },
+          {
+            "role": "list",
+            "text": "1. Cek kurs referensi harian BI.\n2. Ingat, itu cermin transaksi pasar.\n3. Baru baca konteksnya dengan kepala dingin.",
+            "reading_order": 3,
+            "attention_priority": 2,
+            "typography": {"scale": "MEDIUM", "weight": "MEDIUM", "alignment": "LEFT", "color": "charcoal", "notes": "Neutral sans, angka ditata sebagai line starter tanpa icon tambahan."},
+            "placement": "Kiri tengah hingga kiri bawah, lebar 48 persen.",
+            "relation_to_visual": "List berhenti sebelum tepi meja dan ponsel."
+          }
+        ]
+      },
+      "claim_ids": ["claim_01", "claim_06"],
+      "visual": {
+        "function": "DEMONSTRATE",
+        "primary": {
+          "concept": "First jobber berhenti sejenak untuk memeriksa informasi di ponsel sebelum bereaksi.",
+          "subject": "First jobber Indonesia di meja sarapan dengan ponsel polos.",
+          "scene": "Sudut makan kos atau apartemen sederhana pada pagi hari.",
+          "composition": "Orang di kanan, copy langkah di kiri.",
+          "framing": "Medium-wide eye level.",
+          "background": "Warm-white wall, forest-green cup, motif meter kecil.",
+          "lighting": "Natural morning light.",
+          "negative_space": "Setengah kiri.",
+          "text_zone": "Kiri 48 persen.",
+          "visual_hierarchy": "Headline, wajah tenang dan ponsel, tiga langkah, label P3K.",
+          "editing_treatment": "Gunakan grade terang dan natural sebagai pelepas tension dari slide 6.",
+          "rationale": "Adegan konkret mengubah penjelasan abstrak menjadi kebiasaan informasi yang bisa dilakukan hari ini."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_07"],
+      "production_instructions": [
+        {"step": 1, "action": "GENERATE", "instruction": "Generate asset_07 dengan ekspresi tenang dan layar ponsel tanpa UI terbaca."},
+        {"step": 2, "action": "CROP", "instruction": "Tempatkan subjek di kanan dan sisakan kiri dari atas sampai bawah tengah untuk copy."},
+        {"step": 3, "action": "ADD_TEXT", "instruction": "Pasang label, focal statement, lalu tiga langkah. Jangan tambahkan CTA komentar atau prediksi kurs."},
+        {"step": 4, "action": "REVIEW", "instruction": "Pastikan langkah pertama menyebut sumber resmi Bank Indonesia tanpa menampilkan akronim yang belum diverifikasi."
+        }
+      ]
+    }
+  ],
+  "caption": {
+    "text": "Kurs bukan angka yang lahir dari satu orang pencet tombol. Banyak transaksi membentuk harganya, BI membaca pasar dan bisa meredam gejolak. Sebelum ikut panik, cek kurs referensi harian BI dulu. Bukan Saran Keuangan Profesional (Not Financial Advice).",
+    "function": "MIXED"
+  },
+  "warnings": [
+    {
+      "code": "PROVENANCE_INCOMPLETE",
+      "severity": "WARNING",
+      "message": "Material berasal dari transcript YouTube Short pihak ketiga, tetapi kreator, URL, tanggal, dan sumber primer belum tercatat.",
+      "recommendation": "Catat provenance asli dan cocokkan setiap klaim faktual dengan sumber resmi sebelum status diubah menjadi APPROVED."
+    },
+    {
+      "code": "REFERENCE_TERM_UNVERIFIED",
+      "severity": "WARNING",
+      "message": "Transcript menulis nama kurs referensi Bank Indonesia sebagai 'Gisdor', yang tampak seperti salah transkripsi. Output sengaja tidak menampilkan akronim tersebut.",
+      "affected_slide_ids": ["slide_05", "slide_07"],
+      "recommendation": "Verifikasi nama, ejaan, formula, waktu pengumpulan transaksi, dan definisi resmi melalui publikasi Bank Indonesia."
+    },
+    {
+      "code": "OFFICIAL_VERIFICATION_PENDING",
+      "severity": "WARNING",
+      "message": "Klaim mengenai sistem nilai tukar mengambang sejak 1998 dan mekanisme intervensi hanya ditopang transcript pihak ketiga pada run ini.",
+      "affected_slide_ids": ["slide_04", "slide_06"],
+      "recommendation": "Bandingkan klaim dengan sumber resmi Bank Indonesia sebelum produksi."
+    },
+    {
+      "code": "DEVELOPMENT_CONTENT_ONLY",
+      "severity": "WARNING",
+      "message": "Run ini memakai konten pihak lain untuk menguji engine. Copy sudah ditulis ulang dan CTA prediksi dihilangkan, tetapi brief belum layak dipublikasikan sebelum provenance dan hak penggunaan diperiksa.",
+      "recommendation": "Gunakan brief sebagai bahan development. Untuk publikasi, ganti material upstream dengan riset sendiri atau sumber yang hak penggunaannya jelas."
+    },
+    {
+      "code": "FINAL_LAYOUT_PENDING",
+      "severity": "WARNING",
+      "message": "Image dan layout final belum dibuat. Keterbacaan copy, terutama slide 3, 5, 6, dan 7, perlu diuji pada ukuran ponsel.",
+      "affected_slide_ids": ["slide_03", "slide_05", "slide_06", "slide_07"],
+      "recommendation": "Uji pada preview lebar 360 px tanpa mengecilkan body copy di bawah ukuran nyaman."
+    }
+  ],
+  "qa": {
+    "overall_status": "PASS_WITH_WARNING",
+    "dimensions": {
+      "objective": {
+        "status": "PASS",
+        "notes": "Objective dipertahankan. Carousel membedakan pembentukan kurs, kurs referensi, dan intervensi Bank Indonesia."
+      },
+      "factual": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Tidak ada angka, prediksi, atau sebab pelemahan baru. Klaim faktual tetap mengikuti transcript, tetapi sumber resmi belum tersedia.",
+        "warning_codes": ["PROVENANCE_INCOMPLETE", "REFERENCE_TERM_UNVERIFIED", "OFFICIAL_VERIFICATION_PENDING"]
+      },
+      "editorial": {
+        "status": "PASS",
+        "notes": "Satu takeaway dipertahankan. CTA prediksi kurs dari transcript dihapus dan materi diubah menjadi alur pembentukan harga, pengukuran, lalu stabilisasi."
+      },
+      "narrative": {
+        "status": "PASS",
+        "notes": "Urutan menjawab hook secara bertahap dan penutup memberi kebiasaan informasi yang sesuai brand."
+      },
+      "density": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Slide informasional memuat penjelasan yang cukup. Slide 6 paling padat dan memerlukan pengujian layout final.",
+        "warning_codes": ["FINAL_LAYOUT_PENDING"]
+      },
+      "copy": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Copy baru tidak menyalin hook atau CTA transcript. Bahasa lo-gue, termometer, wasit, dan P3K mengikuti brand; publikasi tetap menunggu verifikasi sumber.",
+        "warning_codes": ["DEVELOPMENT_CONTENT_ONLY"]
+      },
+      "visual": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Primary family adalah conceptual object editorial dengan dua penggunaan lifestyle dan satu conceptual human. Kohesi dijaga lewat dua warna objek, material matte, pencahayaan lembut, serta type system. Variasi datang dari posisi, framing, text zone, rasio text-image, dan bidang terang-gelap.",
+        "warning_codes": ["FINAL_LAYOUT_PENDING"]
+      },
+      "asset": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Semua slide image-led memakai asset AI_GENERATED dengan prompt, negative space, dan batas tanpa typography. Hasil visual belum dibuat.",
+        "warning_codes": ["FINAL_LAYOUT_PENDING"]
+      },
+      "production": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Instruksi menentukan art direction, urutan produksi, crop, penempatan copy, dan checkpoint review. Ekspor ditahan sampai verifikasi sumber selesai.",
+        "warning_codes": ["OFFICIAL_VERIFICATION_PENDING", "FINAL_LAYOUT_PENDING"]
+      },
+      "source": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Semua factual claims terhubung ke src_transcript dan material terkait, tetapi provenance source belum lengkap dan tidak ada source primer.",
+        "warning_codes": ["PROVENANCE_INCOMPLETE", "REFERENCE_TERM_UNVERIFIED", "OFFICIAL_VERIFICATION_PENDING", "DEVELOPMENT_CONTENT_ONLY"]
+      },
+      "brand": {
+        "status": "PASS",
+        "notes": "Output memakai bahasa tongkrongan, analogi termometer, P3K, palette emerald atau forest, negative space, dan disclaimer wajib. Tidak ada trading, candlestick, prediksi, financial shaming, atau janji cuan."
+      }
+    }
+  }
+}

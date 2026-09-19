@@ -372,6 +372,40 @@ Prioritas evaluasi:
 
 Word count digunakan sebagai guardrail, bukan definisi kualitas.
 
+Density memiliki dua arah kegagalan:
+
+```text
+too dense
+→ terlalu banyak konsep atau terlalu banyak beban baca
+
+too thin
+→ punchline ada, tetapi alasan, implication, contoh, atau tindakan yang dijanjikan hilang
+```
+
+Concise berarti setiap kata bekerja. Concise bukan target untuk membuat setiap slide sesingkat cover.
+
+Slide informasional harus lolos semantic sufficiency test:
+
+```text
+Apakah display copy menyatakan inti pesan?
+Apakah pembaca memahami kenapa pesan itu relevan?
+Apakah hubungan sebab, kontras, atau langkah yang diperlukan masih terlihat?
+Apakah slide dapat dipahami tanpa membaca core_message atau caption?
+```
+
+Tidak semua slide perlu menjawab keempat pertanyaan. Hook dan transisi boleh lebih tipis. Explanation, comparison, example, dan action slide tidak boleh hanya berisi slogan.
+
+Word-count bands dapat dipakai sebagai diagnostic, bukan quota:
+
+```text
+cover atau punch slide: sering kali 6 sampai 18 kata
+transition atau emotional beat: sering kali 8 sampai 24 kata
+explanation, comparison, atau example: sering kali 24 sampai 45 kata
+action atau procedure: sering kali 30 sampai 60 kata
+```
+
+Keluar dari rentang tersebut diperbolehkan jika composition dan message mendukungnya. Namun jika sebagian besar slide informasional berada di bawah rentang, engine harus memeriksa under-explanation sebelum menyebut output ringkas.
+
 ---
 
 # 15. The Carousel Must Stand on Its Own
@@ -615,6 +649,8 @@ Prinsip:
 
 Sederhana sering lebih efektif untuk carousel.
 
+`Simplest` berarti konsep dengan elemen paling sedikit yang masih membawa fungsi komunikasi dan visual interest. Ia bukan izin untuk memakai stock-photo pose, simbol uang generik, background putih steril, atau komposisi yang sudah diulang pada slide lain.
+
 ---
 
 # 26. Visual Variety Without Visual Chaos
@@ -647,6 +683,12 @@ Tujuannya membangun:
 bukan:
 
 > **visual repetition**
+
+Gunakan `docs/visual-language.md` sebagai playbook operasional. Empat keluarga visual di sana dipilih berdasarkan fungsi komunikasi slide, bukan berdasarkan kata benda pada topik.
+
+Satu carousel harus menentukan primary visual family dan, bila perlu, satu secondary family. Kohesi datang dari anchor seperti palette, type system, alignment logic, character continuity, atau image treatment. Variasi datang dari perubahan skala, framing, posisi subjek, rasio text-image, text zone, dan kepadatan copy.
+
+Minimalism bukan izin untuk mengulang satu layout. Jika semua slide memakai background, posisi subjek, skala headline, dan text zone yang sama, visual variety gagal meskipun setiap slide bersih.
 
 ---
 
@@ -1578,6 +1620,8 @@ Jika beberapa prinsip bertabrakan, gunakan hierarchy berikut:
 Catatan:
 
 Brand consistency berada di bawah factual dan objective integrity bukan karena brand tidak penting, tetapi karena brand mengatur **expression**, bukan factual truth.
+
+`Completeness` pada urutan ini berarti keluasan cakupan materi, bukan kecukupan penjelasan. Menghapus detail sekunder boleh. Menghapus alasan atau langkah yang membuat core message dapat dipahami melanggar clarity, bukan sekadar mengurangi completeness.
 
 ---
 

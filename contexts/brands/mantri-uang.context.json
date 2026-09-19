@@ -159,7 +159,9 @@
         "style": [
           "bold",
           "clean",
-          "clinical minimalist"
+          "editorial",
+          "clinical minimalist",
+          "photographic"
         ],
         "palette": {
           "primary": [
@@ -172,22 +174,89 @@
           ]
         },
         "typography": {
-          "behavior": "headline tebal dan sangat besar",
+          "behavior": "Gunakan hierarchy berdasarkan fungsi copy. Headline tebal dan sangat besar dipakai untuk statement yang memang perlu memimpin, bukan sebagai pola wajib setiap slide.",
+          "roles": {
+            "condensed_bold_sans": "diagnosis, angka, atau pernyataan tegas",
+            "editorial_serif": "refleksi, framing, atau statement yang lebih tenang",
+            "italic_serif": "emphasis emosional yang pendek",
+            "neutral_sans": "explanation, langkah, label, dan metadata"
+          },
           "references": [
-            "Anton",
-            "Bebas"
-          ]
+            "Anton atau Bebas untuk condensed display",
+            "editorial serif untuk variasi statement",
+            "neutral sans-serif untuk body"
+          ],
+          "limit": "maksimal dua keluarga font utama dalam satu post, dengan italic dari keluarga serif yang sama bila diperlukan"
         },
         "composition": [
           "gunakan negative space yang luas",
-          "gunakan ikon solid sebagai elemen pendukung bila diperlukan",
-          "utamakan keterbacaan dan satu fokus visual yang jelas"
+          "utamakan keterbacaan dan satu focal point yang jelas",
+          "pilih keluarga visual berdasarkan fungsi slide, bukan hanya topik",
+          "variasikan skala, framing, posisi subjek, rasio text-image, dan text zone",
+          "jaga kohesi lewat palette, type system, alignment logic, continuity, dan image treatment",
+          "hindari pengulangan background putih, posisi subjek, dan skala headline yang sama di seluruh carousel"
+        ],
+        "visual_families": [
+          {
+            "id": "TYPOGRAPHY_FIRST_POSTER",
+            "best_for": [
+              "cover",
+              "diagnosis",
+              "strong statement",
+              "summary"
+            ],
+            "character": "headline memimpin dengan satu cutout portrait atau object sebagai counterweight"
+          },
+          {
+            "id": "LIFESTYLE_EDITORIAL",
+            "best_for": [
+              "human context",
+              "scenario",
+              "emotional validation",
+              "habit"
+            ],
+            "character": "environmental photo yang terasa dihuni dengan area tonal tenang untuk copy"
+          },
+          {
+            "id": "CONCEPTUAL_OBJECT_EDITORIAL",
+            "best_for": [
+              "mechanism",
+              "comparison",
+              "simple metaphor",
+              "attention hook"
+            ],
+            "character": "satu objek dominan dalam scene sederhana yang sedikit tidak biasa"
+          },
+          {
+            "id": "CONCEPTUAL_HUMAN_CINEMATIC",
+            "best_for": [
+              "curiosity",
+              "tension",
+              "turning point",
+              "reflective close"
+            ],
+            "character": "satu manusia dan satu properti dominan dalam scene tidak lazim yang langsung terbaca"
+          }
+        ],
+        "palette_behavior": [
+          "emerald atau forest green adalah anchor brand, bukan kewajiban untuk memenuhi setiap background",
+          "grayscale, warm white, black, muted cyan, dan restrained blue-peach boleh menjadi bidang pendukung",
+          "gunakan satu accent color utama per komposisi"
+        ],
+        "reference_sources": [
+          "references/visuals/001.md",
+          "references/visuals/002.md",
+          "references/visuals/003.md",
+          "references/visuals/004.md"
         ],
         "avoid": [
           "kartun 3D",
           "ornamen berisik",
           "grafik candlestick",
-          "layar trading"
+          "layar trading",
+          "pose manusia stok generik",
+          "simbol uang klise tanpa fungsi komunikasi",
+          "satu template layout yang diulang di semua slide"
         ]
       }
     }

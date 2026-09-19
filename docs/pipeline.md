@@ -51,9 +51,11 @@ INPUT PACKAGE
       │
       ▼
 [7] COPY DEVELOPMENT
-      │
+      │ draft
       ▼
 [8] VISUAL DIRECTION
+      │
+      └──── copy-composition fit loop
       │
       ▼
 [9] ASSET STRATEGY
@@ -98,9 +100,9 @@ STRUCTURE
 before
 WRITE
 
-WRITE
+WRITE A DRAFT
 before
-VISUALIZE
+VISUALIZE AND REFIT
 
 VISUALIZE
 before
@@ -108,6 +110,8 @@ PRODUCE
 ```
 
 Engine tidak seharusnya langsung menulis slide hanya karena raw material tersedia.
+
+Message harus selesai sebelum copy dan visual. Setelah itu, copy dan komposisi boleh saling mengoreksi. Feedback loop ini tidak mengubah evidence, angle, narrative, atau core message.
 
 Kesalahan di stage awal akan mengalir ke seluruh downstream output.
 
@@ -941,6 +945,7 @@ readable
 aligned with the slide message
 compatible with visual layout
 written for scanning on a slide
+self-contained at the level required by its narrative role
 ```
 
 Jika brand context tersedia, copy juga harus:
@@ -964,6 +969,29 @@ split
 Engine tidak menyelesaikan masalah dengan membuat layout penuh teks.
 
 Sentence fragment diperbolehkan jika lebih mudah dilihat, diingat, dan dipahami tanpa mengubah makna. Kepadatan dinilai dari keseluruhan komposisi, bukan batas kata yang kaku.
+
+Compression berhenti ketika penghapusan berikutnya membuat pembaca kehilangan salah satu unsur yang diperlukan:
+
+```text
+claim
+reason or mechanism
+relevance or implication
+example or contrast
+action
+```
+
+Tidak setiap slide membutuhkan semua unsur. Tentukan unsur wajib dari role slide sebelum menulis copy.
+
+Panduan diagnostic:
+
+```text
+cover atau punch slide: sering kali 6 sampai 18 kata
+transition atau emotional beat: sering kali 8 sampai 24 kata
+explanation, comparison, atau example: sering kali 24 sampai 45 kata
+action atau procedure: sering kali 30 sampai 60 kata
+```
+
+Rentang tersebut bukan target dan bukan alasan untuk menambah filler. Gunakan sebagai alarm. Jika explanation hanya menjadi satu slogan pendek, tambah bridge yang hilang. Jika procedure melewati satu komposisi yang wajar, sederhanakan atau split.
 
 ---
 
@@ -1001,6 +1029,16 @@ selection
 message
 or slide architecture
 ```
+
+Jika display copy hanya bekerja setelah reviewer membaca `core_message`, purpose, caption, atau production notes, ada masalah kebalikan:
+
+```text
+under-explanation
+missing bridge
+or decorative slogan
+```
+
+Revisi sebelum visual direction dikunci.
 
 ---
 
@@ -1046,6 +1084,8 @@ COPY PLAN
 
 Setelah message dan copy diketahui, engine menentukan bagaimana setiap slide harus divisualisasikan.
 
+Muat dan gunakan `docs/visual-language.md`. Pilih satu primary visual family untuk post dan paling banyak satu secondary family bila fungsi slide membutuhkannya. Jangan menyalin subjek atau properti referensi.
+
 Pertanyaan utama:
 
 > **Apa visual paling efektif untuk membantu audience memahami atau merasakan message ini?**
@@ -1079,6 +1119,20 @@ Namun output sebaiknya memiliki:
 ```text
 PRIMARY VISUAL CONCEPT
 ```
+
+Sebelum memilih konsep per slide, buat post-level visual grammar:
+
+```text
+primary visual family
+optional secondary visual family
+palette behavior
+type pairing
+image treatment
+cohesion anchors
+variation axes
+```
+
+Untuk setiap slide, pilih visual berdasarkan fungsi komunikasi. Jangan memulai dari simbol generik topik keuangan.
 
 Primary harus menjadi resolved execution path.
 
@@ -1164,6 +1218,27 @@ framing
 ```
 
 Tujuannya agar generated/source asset dapat langsung digunakan dalam design.
+
+Setelah seluruh komposisi direncanakan, bandingkan siluet layout antar-slide. Untuk carousel 5 sampai 7 slide, variasikan paling sedikit tiga sumbu seperti skala subjek, posisi, framing, rasio text-image, text zone, atau dominasi warna. Pertahankan paling sedikit tiga cohesion anchors.
+
+Jika layout terlihat sama setelah semua detail di-blur, revisi komposisi. Mengganti objek tetapi mempertahankan posisi, crop, skala headline, dan bidang background yang sama tidak dihitung sebagai variasi.
+
+---
+
+# 46A. Copy-composition fit loop
+
+Setelah draft visual tersedia, uji copy di dalam komposisi yang dipilih.
+
+```text
+Apakah semua block yang diperlukan punya ruang?
+Apakah focal statement dan explanation punya perbedaan hierarchy yang jelas?
+Apakah image membawa sebagian fungsi komunikasi?
+Apakah text-safe area sesuai dengan prompt aset?
+Apakah slide terlalu kosong karena copy tidak cukup menjelaskan?
+Apakah slide terlalu penuh karena visual mengambil ruang yang salah?
+```
+
+Revisi copy, block structure, text zone, crop, subject scale, atau visual family sampai keduanya cocok. Jangan menghapus explanation yang diperlukan hanya untuk mempertahankan konsep visual pertama.
 
 ---
 
@@ -1414,6 +1489,8 @@ Engine menghasilkan instruction yang berlaku untuk seluruh carousel.
 Contoh:
 
 ```text
+- nyatakan primary dan optional secondary visual family
+- nyatakan cohesion anchors dan variation axes
 - gunakan canvas 4:5
 - jaga visual hierarchy
 - hindari generated typography
@@ -1423,6 +1500,8 @@ Contoh:
 ```
 
 Global rule tidak perlu diulang pada setiap slide.
+
+Item `SETUP` pertama harus merangkum post-level visual grammar agar operator memahami alasan di balik variasi slide.
 
 ---
 
@@ -1627,6 +1706,10 @@ Apakah satu slide membawa terlalu banyak konsep?
 Apakah copy terlalu padat?
 
 Apakah layout berpotensi menjadi paragraph-heavy?
+
+Apakah slide informasional terlalu tipis untuk dipahami tanpa core_message atau caption?
+
+Apakah explanation, comparison, example, dan action slide hanya menjadi slogan?
 ```
 
 Jika ya:
@@ -1654,6 +1737,16 @@ Apakah visual misleading?
 Apakah terlalu banyak decorative visual?
 
 Apakah visual variety masih cohesive?
+
+Apa primary visual family dan optional secondary family post ini?
+
+Anchor apa yang menjaga kohesi?
+
+Sumbu apa yang benar-benar berubah antar-slide?
+
+Apakah ada layout, pose, simbol, atau text zone yang berulang tanpa alasan?
+
+Apakah visual terasa seperti stok generik atau simbol uang klise?
 ```
 
 ---
