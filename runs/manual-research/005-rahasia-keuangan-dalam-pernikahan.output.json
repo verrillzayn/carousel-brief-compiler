@@ -1,0 +1,559 @@
+{
+  "schema_version": "0.4.0",
+  "status": "NEEDS_REVIEW",
+  "editorial": {
+    "objective": "Membantu pasangan memahami bahwa utang, penghasilan, pengeluaran, dan aset yang disembunyikan dapat merusak kepercayaan serta memberi langkah awal untuk membangun keterbukaan keuangan.",
+    "central_takeaway": "Pasangan tidak harus menyatukan semua uang, tetapi keduanya perlu mengetahui peta keuangan rumah tangga agar utang, aset, dan pengeluaran penting tidak berubah menjadi rahasia yang merusak kepercayaan.",
+    "selected_angle": "Hubungan bisa terlihat baik-baik saja, sementara peta keuangannya hanya diketahui satu orang.",
+    "angle_rationale": "Angle ini mempertahankan kritik sumber terhadap rahasia finansial, tetapi menghindari klaim bahwa semua rekening wajib digabung. Alur berakhir pada check-up keuangan yang konkret dan aman dilakukan tanpa berbagi kredensial akun.",
+    "selected_material_ids": ["mat_01", "mat_02", "mat_03", "mat_04", "mat_05", "mat_06", "mat_07"],
+    "omitted_material": []
+  },
+  "narrative": {
+    "type": "diagnosis, gejala tersembunyi, dampak, batas sehat, kebiasaan, tindakan",
+    "summary": "Carousel membuka dengan ketimpangan informasi, menunjukkan bentuk rahasia finansial, menjelaskan dampaknya saat satu pasangan tidak mengetahui posisi rumah tangga, membedakan transparansi dari penyatuan total, mengkritik jalan keluar rahasia sebagai pola pikir, lalu menutup dengan check-up keuangan yang dapat dilakukan hari ini.",
+    "opening_function": "Membuat audiens mengenali bahwa masalah utamanya bukan sekadar nominal uang, melainkan siapa yang mengetahui informasi penting.",
+    "ending_function": "Mengubah refleksi menjadi percakapan singkat dan peta keuangan bersama yang dapat dimulai hari ini.",
+    "slide_sequence": ["slide_01", "slide_02", "slide_03", "slide_04", "slide_05", "slide_06"]
+  },
+  "claims": [
+    {
+      "id": "claim_01",
+      "text": "Pembicara menyatakan bahwa masalah uang termasuk hal yang sering membuat pasangan bertengkar.",
+      "claim_type": "FACT",
+      "source_ids": ["src_transcript"],
+      "material_ids": ["mat_01"],
+      "notes": "Pernyataan pembicara dalam transcript, bukan statistik prevalensi."
+    },
+    {
+      "id": "claim_02",
+      "text": "Utang, penghasilan, dan pengeluaran dapat disembunyikan dari pasangan.",
+      "claim_type": "FACT",
+      "source_ids": ["src_transcript"],
+      "material_ids": ["mat_05"]
+    },
+    {
+      "id": "claim_03",
+      "text": "Menurut pembicara, rahasia tentang utang, penghasilan, dan pengeluaran membuat kepercayaan pasangan lama-lama rapuh.",
+      "claim_type": "FACT",
+      "source_ids": ["src_transcript"],
+      "material_ids": ["mat_05"],
+      "notes": "Diformulasikan sebagai pendapat pembicara agar tidak berubah menjadi temuan riset universal."
+    },
+    {
+      "id": "claim_04",
+      "text": "Jika hanya satu pasangan mengetahui aset dan kewajiban rumah tangga, pasangan lainnya tidak memiliki peta keuangan yang lengkap ketika perlu mengambil tindakan.",
+      "claim_type": "DERIVED",
+      "material_ids": ["mat_04", "mat_05"],
+      "derived_from_material_ids": ["mat_04", "mat_05"],
+      "derivation": "Material menyebut pentingnya pasangan mengetahui aset serta contoh utang yang disembunyikan."
+    },
+    {
+      "id": "claim_05",
+      "text": "Keterbukaan informasi tidak sama dengan kewajiban menyatukan seluruh rekening atau membagikan kredensial akun.",
+      "claim_type": "CREATIVE",
+      "material_ids": ["mat_02", "mat_03"],
+      "notes": "Batas komunikasi yang dipakai agar pesan tidak berkembang menjadi instruksi keamanan akun yang tidak didukung sumber."
+    },
+    {
+      "id": "claim_06",
+      "text": "Pembicara mengkritik rekening rahasia yang sengaja disiapkan sebagai jalan keluar bila hubungan retak karena dapat mengalihkan fokus dari penyelesaian masalah.",
+      "claim_type": "FACT",
+      "source_ids": ["src_transcript"],
+      "material_ids": ["mat_06"],
+      "notes": "Tidak diterapkan pada situasi keselamatan, kekerasan, atau kontrol finansial yang tidak dibahas sumber."
+    },
+    {
+      "id": "claim_07",
+      "text": "Pembicara dan pasangannya memperbarui net worth bersama agar keduanya mengetahui perkembangan bisnis, investasi, dan aset yang mereka pegang.",
+      "claim_type": "FACT",
+      "source_ids": ["src_transcript"],
+      "material_ids": ["mat_03"]
+    },
+    {
+      "id": "claim_08",
+      "text": "Check-up keuangan bersama dapat dimulai dengan saling menunjukkan daftar aset, utang, penghasilan, dan pengeluaran penting tanpa berbagi PIN atau password.",
+      "claim_type": "DERIVED",
+      "material_ids": ["mat_02", "mat_03", "mat_04", "mat_05"],
+      "derived_from_material_ids": ["mat_02", "mat_03", "mat_04", "mat_05"],
+      "derivation": "Langkah merangkum kategori informasi yang disebut sumber dan mengubah anjuran ngobrol menjadi tindakan sederhana. Larangan berbagi kredensial adalah batas keamanan, bukan klaim dari sumber."
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset_01",
+      "type": "AI_GENERATED",
+      "description": "Pasangan duduk berdekatan, tetapi satu map dokumen keuangan tertutup berada di balik kursi salah satu orang.",
+      "subject": "Sepasang dewasa muda Indonesia di meja makan kecil dengan satu map tertutup yang disembunyikan di belakang kursi.",
+      "requirements": ["Photorealistic editorial photography", "portrait 4:5", "ekspresi tenang tetapi berjarak", "left upper half bersih untuk copy", "tanpa teks atau logo"],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt": "Create a photorealistic 4:5 vertical editorial photograph for a financial education carousel. Show a young Indonesian couple seated at a small dining table in a modest apartment at night. They sit close but look in slightly different directions. Behind the chair of the person on the right, place one closed dark forest-green document folder partly hidden but still visible to the camera. Keep the couple and table in the lower-right 48 percent. Leave the upper-left 50 percent as a continuous dark charcoal wall with soft tonal variation for large text. Eye-level 50mm perspective, realistic anatomy, restrained cinematic lighting, one warm practical lamp, subtle forest-green accent, clean editorial composition. No readable documents, money symbols, banknotes, phones, logos, charts, dramatic arguing, violence, generated text, or illustration."
+      }
+    },
+    {
+      "id": "asset_02",
+      "type": "AI_GENERATED",
+      "description": "Tiga amplop tertutup bertanda visual berbeda berada di bawah cahaya sempit sebagai metafora informasi yang disembunyikan.",
+      "subject": "Tiga amplop kertas polos dan satu tangan yang menutup laci.",
+      "requirements": ["Photorealistic conceptual object editorial", "portrait 4:5", "amplop tanpa tulisan", "objek di kiri bawah", "kanan atas bersih untuk copy"],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt": "Create a photorealistic 4:5 conceptual editorial still life. Show an open matte-black desk drawer in the lower-left quadrant with exactly three sealed plain envelopes inside, one forest green, one warm gray, and one muted blue. A natural adult hand is beginning to slide the drawer closed. Use three small non-text physical cues beside the envelopes: a plain metal key, a blank pay slip shape, and a folded blank receipt, all with no writing. Leave the entire upper-right 48 percent as an uninterrupted warm-white wall for text. Soft directional daylight, crisp realistic paper and wood textures, restrained clinical editorial grade, 50mm natural perspective. No currency, numbers, logos, readable text, icons, charts, extra hands, surreal floating objects, or illustration."
+      }
+    },
+    {
+      "id": "asset_03",
+      "type": "AI_GENERATED",
+      "description": "Satu orang menghadapi lemari arsip terbuka yang setengahnya gelap dan kosong, menandakan informasi rumah tangga tidak lengkap.",
+      "subject": "Satu perempuan Indonesia melihat lemari arsip rumah tangga dengan beberapa map, sementara bagian lain tertutup bayangan.",
+      "requirements": ["Photorealistic lifestyle editorial", "portrait 4:5", "subjek di kiri bawah", "kanan untuk copy", "tanpa dokumen terbaca"],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt": "Create a photorealistic 4:5 lifestyle editorial photograph in a modest Indonesian apartment. Show one young Indonesian woman in the lower-left third opening a waist-high home filing cabinet. One compartment contains a few neatly arranged blank folders, while the adjacent compartment remains dark and visibly empty. She pauses with a concerned but composed expression. Keep the right 48 percent as a quiet warm-gray wall and shadow gradient for text. Medium-wide eye-level frame, natural 40mm perspective, soft morning side light, restrained forest-green accent on one folder, realistic lived-in environment. No readable labels, bank statements, currency, charts, warning symbols, logos, exaggerated sadness, generated text, or illustration."
+      }
+    },
+    {
+      "id": "asset_04",
+      "type": "AI_GENERATED",
+      "description": "Dua laci terpisah yang sama-sama terbuka menghadap satu meja bersama, memvisualkan rekening terpisah dengan informasi yang tetap terbuka.",
+      "subject": "Dua laci meja terpisah, dua tangan, dan satu lembar ringkasan kosong di tengah meja.",
+      "requirements": ["Photorealistic overhead editorial scene", "portrait 4:5", "dua laci jelas terpisah", "tengah meja menjadi titik temu", "lower area bersih untuk explanation"],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt": "Create a photorealistic 4:5 overhead editorial photograph of a shared wooden desk with two separate drawers open on opposite sides. Show exactly two natural adult hands, one from each side, placing one plain folder from each drawer toward a single blank summary sheet in the center. The drawers remain physically separate. Keep the lower 38 percent as clean matte dark-green desk surface for explanation text. Soft even daylight, realistic wood and paper texture, restrained clinical editorial styling, symmetrical base with slight human imperfection. No readable writing, passwords, PIN screens, banknotes, coins, charts, logos, icons, extra hands, generated text, or illustration."
+      }
+    },
+    {
+      "id": "asset_05",
+      "type": "AI_GENERATED",
+      "description": "Pintu darurat yang terlalu mudah dijangkau dari meja diskusi memvisualkan fokus yang pindah dari masalah ke jalan keluar.",
+      "subject": "Sepasang dewasa muda Indonesia di meja kecil dengan satu pintu keluar terang di belakang salah satu orang.",
+      "requirements": ["Photorealistic conceptual human cinematic", "portrait 4:5", "tidak ada adegan pertengkaran", "pintu sebagai elemen sekunder", "kiri atas bersih untuk copy"],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt": "Create a photorealistic 4:5 cinematic editorial photograph. Show a young Indonesian couple seated across a small table in a quiet room, both composed and mid-conversation, with no aggressive gestures. Behind the person on the right, place one open doorway with brighter cool light leading into a simple corridor. The person's chair is subtly angled toward the doorway while their hands remain on the table. Keep the upper-left 48 percent as a continuous dark teal wall for text. Eye-level medium-wide 45mm perspective, realistic floor plane and anatomy, restrained low-key lighting, forest-green accent, clear but non-dramatic tension. No suitcases, money, legal documents, violence, crying, pointing, logos, text, or illustration."
+      }
+    },
+    {
+      "id": "asset_06",
+      "type": "AI_GENERATED",
+      "description": "Pasangan melakukan check-up keuangan singkat di meja rumah dengan map terbuka dan satu lembar ringkasan bersama.",
+      "subject": "Sepasang dewasa muda Indonesia duduk berdampingan meninjau satu lembar ringkasan kosong dan beberapa map.",
+      "requirements": ["Photorealistic lifestyle editorial", "portrait 4:5", "suasana suportif", "subjek di kanan bawah", "kiri cukup luas untuk langkah"],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt": "Create a photorealistic 4:5 lifestyle editorial photograph of a young Indonesian couple doing a calm household finance check-up at a dining table in the morning. They sit side by side in the lower-right quadrant, looking at one blank summary sheet centered between them. Place four plain closed folders nearby with no labels and one notebook. Their posture is collaborative and relaxed. Leave the entire left 50 percent as a clean warm-white wall and soft table edge for a headline and four short steps. Natural 50mm perspective, soft window light, realistic home textures, clean clinical editorial grade, one forest-green folder as the accent. No readable text, account screens, passwords, PINs, calculators with numbers, banknotes, logos, charts, excessive stationery, or generated typography."
+      }
+    }
+  ],
+  "slides": [
+    {
+      "id": "slide_01",
+      "index": 1,
+      "role": "hook",
+      "purpose": "Membuka masalah sebagai ketimpangan informasi, bukan sekadar kekurangan uang.",
+      "core_message": "Hubungan dapat tampak baik-baik saja sementara hanya satu orang mengetahui keadaan keuangan yang sebenarnya.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "context",
+            "text": "Hubungannya kelihatan aman.",
+            "reading_order": 1,
+            "attention_priority": 2,
+            "typography": {"scale": "MEDIUM", "weight": "MEDIUM", "alignment": "LEFT", "color": "warm white", "notes": "Neutral sans."},
+            "placement": "Kiri atas, lebar 48 persen."
+          },
+          {
+            "role": "focal_statement",
+            "text": "TAPI PETA UANGNYA\nCUMA DIPEGANG\nSATU ORANG.",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {"scale": "HERO", "weight": "BOLD", "alignment": "LEFT", "color": "white", "notes": "Condensed bold sans, tiga baris."},
+            "placement": "Kiri atas hingga kiri tengah, lebar 52 persen.",
+            "relation_to_visual": "Headline mengarah ke map tersembunyi di belakang kursi kanan.",
+            "accent_segments": [{"text": "SATU ORANG", "treatment": "emerald green"}]
+          }
+        ]
+      },
+      "claim_ids": ["claim_04"],
+      "visual": {
+        "function": "ATTRACT_ATTENTION",
+        "primary": {
+          "concept": "Pasangan duduk berdekatan dengan satu map keuangan yang disembunyikan di belakang kursi.",
+          "subject": "Sepasang dewasa muda Indonesia dan satu map tertutup.",
+          "scene": "Meja makan apartemen sederhana pada malam hari.",
+          "composition": "Pasangan di kanan bawah, map terlihat di belakang kursi, copy besar mengisi kiri.",
+          "framing": "Medium-wide eye-level 50mm.",
+          "background": "Dinding charcoal gelap dengan satu lampu hangat.",
+          "lighting": "Low-key cinematic dengan wajah tetap natural.",
+          "negative_space": "Kiri atas 50 persen tanpa objek.",
+          "text_zone": "Kiri atas hingga tengah.",
+          "visual_hierarchy": "Headline, pasangan, map tersembunyi, context line.",
+          "editing_treatment": "Restrained cinematic grade dengan forest-green accent.",
+          "rationale": "Map tersembunyi membawa konflik informasi tanpa adegan pertengkaran klise."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_01"],
+      "production_instructions": [
+        {"step": 1, "action": "GENERATE", "instruction": "Generate asset_01 dan pilih hasil dengan map masih terlihat tetapi tidak menjadi properti yang terlalu mencolok."},
+        {"step": 2, "action": "CROP", "instruction": "Pertahankan pasangan di kanan bawah dan lindungi kiri 50 persen untuk dua block copy."},
+        {"step": 3, "action": "ADD_TEXT", "instruction": "Pasang context line lebih dulu dalam reading order, lalu headline sebagai focal point utama."},
+        {"step": 4, "action": "REVIEW", "instruction": "Pastikan cover tidak menyiratkan kekerasan atau menyalahkan salah satu gender."}
+      ]
+    },
+    {
+      "id": "slide_02",
+      "index": 2,
+      "role": "diagnosis",
+      "purpose": "Menamai bentuk rahasia keuangan yang dibahas sumber.",
+      "core_message": "Rahasia finansial dapat muncul sebagai utang, penghasilan, atau pengeluaran yang tidak diketahui pasangan.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "label",
+            "text": "GEJALANYA SERING KELIHATAN KECIL",
+            "reading_order": 1,
+            "attention_priority": 2,
+            "typography": {"scale": "SMALL", "weight": "BOLD", "alignment": "RIGHT", "color": "emerald green", "notes": "Neutral sans uppercase."},
+            "placement": "Kanan atas, lebar 46 persen."
+          },
+          {
+            "role": "list",
+            "text": "Utang yang gak dibahas.\nPenghasilan yang ditutup-tutupi.\nPengeluaran diam-diam.",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {"scale": "LARGE", "weight": "BOLD", "alignment": "RIGHT", "color": "charcoal", "notes": "Condensed bold sans dengan jarak antarbaris lapang."},
+            "placement": "Kanan atas hingga kanan tengah, lebar 48 persen.",
+            "relation_to_visual": "Tiga baris berseberangan dengan tiga amplop dalam laci."
+          },
+          {
+            "role": "explanation",
+            "text": "Menurut pembicara, rahasia seperti ini pelan-pelan bikin kepercayaan rapuh.",
+            "reading_order": 3,
+            "attention_priority": 3,
+            "typography": {"scale": "MEDIUM", "weight": "REGULAR", "alignment": "RIGHT", "color": "charcoal", "notes": "Neutral sans."},
+            "placement": "Kanan bawah, lebar 46 persen."
+          }
+        ]
+      },
+      "claim_ids": ["claim_02", "claim_03"],
+      "visual": {
+        "function": "SYMBOLIZE",
+        "primary": {
+          "concept": "Tiga amplop tertutup dalam laci yang sedang ditutup.",
+          "subject": "Tiga amplop polos, satu tangan, dan satu laci.",
+          "scene": "Meja kerja minimal pada siang hari.",
+          "composition": "Laci dan tangan di kiri bawah, copy rata kanan dalam tiga tingkat.",
+          "framing": "Close overhead-oblique 50mm.",
+          "background": "Warm-white wall dan kayu matte.",
+          "lighting": "Soft directional daylight.",
+          "negative_space": "Kanan 48 persen bersih.",
+          "text_zone": "Kanan atas sampai bawah.",
+          "visual_hierarchy": "Daftar gejala, laci, explanation, label.",
+          "editing_treatment": "Clean clinical still life dengan satu accent green.",
+          "rationale": "Amplop tertutup membuat tindakan menyimpan informasi mudah terbaca tanpa memakai simbol uang klise."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_02"],
+      "production_instructions": [
+        {"step": 1, "action": "GENERATE", "instruction": "Generate asset_02 dan pilih hasil dengan tepat tiga amplop serta tangan yang natural."},
+        {"step": 2, "action": "CROP", "instruction": "Jaga laci di kiri bawah dan sisakan kanan 48 persen tanpa properti."},
+        {"step": 3, "action": "ADD_TEXT", "instruction": "Susun label, tiga gejala, lalu explanation. Jangan menambahkan ikon atau label pada amplop."},
+        {"step": 4, "action": "REVIEW", "instruction": "Pastikan wording tetap dikaitkan dengan pendapat pembicara dan tidak terbaca sebagai statistik."
+        }
+      ]
+    },
+    {
+      "id": "slide_03",
+      "index": 3,
+      "role": "impact",
+      "purpose": "Menjelaskan konsekuensi praktis ketika informasi penting hanya diketahui satu orang.",
+      "core_message": "Ketika pasangan tidak mengetahui aset dan kewajiban, ia tidak memiliki peta lengkap saat perlu mengambil keputusan.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "focal_statement",
+            "text": "Kalau cuma satu orang yang tahu semuanya, rumah tangga punya satu titik buta.",
+            "reading_order": 1,
+            "attention_priority": 1,
+            "typography": {"scale": "LARGE", "weight": "BOLD", "alignment": "RIGHT", "color": "forest green", "notes": "Condensed bold sans."},
+            "placement": "Kanan atas, lebar 50 persen."
+          },
+          {
+            "role": "explanation",
+            "text": "Saat sesuatu terjadi, pasangan bisa gak tahu aset apa yang ada, utang apa yang berjalan, atau pengeluaran mana yang harus dibereskan dulu.",
+            "reading_order": 2,
+            "attention_priority": 2,
+            "typography": {"scale": "MEDIUM", "weight": "REGULAR", "alignment": "RIGHT", "color": "charcoal", "notes": "Neutral sans dengan line height nyaman."},
+            "placement": "Kanan tengah hingga bawah, lebar 48 persen.",
+            "relation_to_visual": "Explanation mengisi bagian kabinet yang secara visual kosong."
+          }
+        ]
+      },
+      "claim_ids": ["claim_04"],
+      "visual": {
+        "function": "EXPLAIN",
+        "primary": {
+          "concept": "Satu orang menghadapi lemari arsip rumah tangga yang informasinya hanya terisi separuh.",
+          "subject": "Satu perempuan Indonesia dan lemari arsip dua kompartemen.",
+          "scene": "Sudut administrasi rumah di apartemen sederhana.",
+          "composition": "Subjek dan kabinet di kiri, bidang kanan untuk dua block copy.",
+          "framing": "Medium-wide eye-level 40mm.",
+          "background": "Warm gray dengan bayangan lembut.",
+          "lighting": "Morning side light yang memperjelas bagian kosong.",
+          "negative_space": "Kanan 48 persen tanpa dekorasi.",
+          "text_zone": "Kanan atas sampai kanan bawah.",
+          "visual_hierarchy": "Focal statement, kabinet setengah kosong, explanation, subjek.",
+          "editing_treatment": "Natural editorial grade dengan forest-green folder sebagai anchor.",
+          "rationale": "Kabinet setengah kosong memperjelas peta informasi yang tidak lengkap tanpa membuat diagram manual."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_03"],
+      "production_instructions": [
+        {"step": 1, "action": "GENERATE", "instruction": "Generate asset_03 dan pilih hasil dengan dua kompartemen yang terbaca jelas serta ekspresi subjek tetap tenang."},
+        {"step": 2, "action": "CROP", "instruction": "Tempatkan kabinet di kiri dan lindungi kanan untuk copy sekitar 44 kata."},
+        {"step": 3, "action": "ADD_TEXT", "instruction": "Pasang focal statement di atas dan explanation di bawah dengan jarak yang cukup."},
+        {"step": 4, "action": "REVIEW", "instruction": "Uji pada lebar 360 px. Jangan memangkas daftar aset, utang, dan pengeluaran dari explanation."}
+      ]
+    },
+    {
+      "id": "slide_04",
+      "index": 4,
+      "role": "clarification",
+      "purpose": "Mencegah audiens menyamakan transparansi dengan penyatuan total atau berbagi kredensial.",
+      "core_message": "Pasangan dapat mempertahankan rekening terpisah sambil tetap terbuka tentang informasi yang memengaruhi rumah tangga.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "focal_statement",
+            "text": "TRANSPARAN BUKAN BERARTI SEMUA UANG HARUS DICAMPUR.",
+            "reading_order": 1,
+            "attention_priority": 1,
+            "typography": {"scale": "LARGE", "weight": "BOLD", "alignment": "CENTER", "color": "white", "notes": "Condensed bold sans."},
+            "placement": "Tengah bawah, lebar 76 persen.",
+            "relation_to_visual": "Headline berada di bidang meja hijau di antara dua laci."
+          },
+          {
+            "role": "explanation",
+            "text": "Rekening boleh terpisah. Yang gak boleh gelap adalah informasi penting yang berdampak ke rumah tangga. Gak perlu berbagi PIN atau password.",
+            "reading_order": 2,
+            "attention_priority": 2,
+            "typography": {"scale": "MEDIUM", "weight": "REGULAR", "alignment": "CENTER", "color": "warm white", "notes": "Neutral sans."},
+            "placement": "Tengah bawah di bawah headline, lebar 72 persen."
+          }
+        ]
+      },
+      "claim_ids": ["claim_05"],
+      "visual": {
+        "function": "COMPARE",
+        "primary": {
+          "concept": "Dua laci terpisah tetap mengarah ke satu ringkasan bersama.",
+          "subject": "Dua laci, dua tangan, dua map, dan satu lembar ringkasan kosong.",
+          "scene": "Meja bersama dilihat dari atas.",
+          "composition": "Laci berada di sisi kiri dan kanan atas, titik temu di tengah, copy di bidang bawah.",
+          "framing": "Straight-down overhead.",
+          "background": "Permukaan meja dark forest green.",
+          "lighting": "Soft even daylight.",
+          "negative_space": "Bawah 38 persen berupa meja polos.",
+          "text_zone": "Tengah bawah, lebar 76 persen.",
+          "visual_hierarchy": "Headline, dua laci terpisah, ringkasan tengah, explanation.",
+          "editing_treatment": "Clean high-contrast editorial with realistic material texture.",
+          "rationale": "Adegan memperlihatkan pemisahan akun dan pertemuan informasi tanpa diagram atau icon system."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_04"],
+      "production_instructions": [
+        {"step": 1, "action": "GENERATE", "instruction": "Generate asset_04 dan pilih hasil dengan dua laci yang benar-benar terpisah serta tepat dua tangan."},
+        {"step": 2, "action": "CROP", "instruction": "Pertahankan kedua laci di bagian atas dan sisakan bidang meja bawah untuk copy."},
+        {"step": 3, "action": "ADD_TEXT", "instruction": "Tambahkan headline dan explanation pada bidang bawah tanpa menutup tangan atau ringkasan tengah."},
+        {"step": 4, "action": "REVIEW", "instruction": "Pastikan slide jelas melarang berbagi PIN atau password dan tidak memerintahkan penyatuan semua rekening."}
+      ]
+    },
+    {
+      "id": "slide_05",
+      "index": 5,
+      "role": "turning_point",
+      "purpose": "Mengangkat kritik sumber terhadap jalan keluar rahasia tanpa menjadikannya aturan universal.",
+      "core_message": "Jika rekening rahasia sengaja dipakai sebagai jalan keluar dari konflik, fokus dapat bergeser dari menyelesaikan masalah ke meninggalkannya.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "context",
+            "text": "Menurut pembicara, ada tanda yang lebih serius:",
+            "reading_order": 1,
+            "attention_priority": 3,
+            "typography": {"scale": "SMALL", "weight": "MEDIUM", "alignment": "LEFT", "color": "muted cyan", "notes": "Neutral sans."},
+            "placement": "Kiri atas, lebar 47 persen."
+          },
+          {
+            "role": "focal_statement",
+            "text": "Sebelum masalah datang, lo sudah nyiapin pintu keluar diam-diam.",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {"scale": "LARGE", "weight": "BOLD", "alignment": "LEFT", "color": "white", "notes": "Editorial serif bold untuk perubahan ritme."},
+            "placement": "Kiri atas hingga tengah, lebar 49 persen.",
+            "relation_to_visual": "Pintu terang berada di belakang pasangan, bukan di balik copy."
+          },
+          {
+            "role": "explanation",
+            "text": "Rekening rahasia yang sengaja dijadikan escape route bisa bikin energi habis buat siap kabur, bukan buat membereskan konflik.",
+            "reading_order": 3,
+            "attention_priority": 2,
+            "typography": {"scale": "MEDIUM", "weight": "REGULAR", "alignment": "LEFT", "color": "warm white", "notes": "Neutral sans."},
+            "placement": "Kiri tengah hingga bawah, lebar 47 persen."
+          }
+        ]
+      },
+      "claim_ids": ["claim_06"],
+      "visual": {
+        "function": "SYMBOLIZE",
+        "primary": {
+          "concept": "Pasangan masih duduk di meja diskusi, tetapi satu kursi sudah mengarah ke pintu keluar.",
+          "subject": "Sepasang dewasa muda Indonesia, meja kecil, dan satu pintu terbuka.",
+          "scene": "Ruang tenang dengan koridor terang di belakang.",
+          "composition": "Pasangan dan pintu di kanan, copy berlapis di kiri.",
+          "framing": "Medium-wide eye-level 45mm.",
+          "background": "Dark teal wall dan koridor cool white.",
+          "lighting": "Low-key room dengan doorway sebagai secondary light source.",
+          "negative_space": "Kiri 48 persen tanpa objek.",
+          "text_zone": "Kiri atas hingga bawah.",
+          "visual_hierarchy": "Focal statement, pasangan, doorway, explanation, context.",
+          "editing_treatment": "Restrained cinematic grade, no melodrama.",
+          "rationale": "Arah kursi dan pintu membuat gagasan escape route terbaca tanpa koper, uang, atau adegan putus hubungan."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_05"],
+      "production_instructions": [
+        {"step": 1, "action": "GENERATE", "instruction": "Generate asset_05 dan pilih hasil dengan pose percakapan tenang serta arah kursi yang terbaca halus."},
+        {"step": 2, "action": "CROP", "instruction": "Tempatkan doorway di kanan belakang dan sisakan kiri 48 persen untuk tiga block copy."},
+        {"step": 3, "action": "ADD_TEXT", "instruction": "Pertahankan context attribution 'Menurut pembicara' agar pendapat tidak berubah menjadi aturan universal."},
+        {"step": 4, "action": "REVIEW", "instruction": "Pastikan slide tidak menghakimi kebutuhan rekening pribadi dalam situasi keselamatan, kekerasan, atau kontrol finansial yang tidak dibahas sumber."}
+      ]
+    },
+    {
+      "id": "slide_06",
+      "index": 6,
+      "role": "action_close",
+      "purpose": "Memberi langkah yang dapat dilakukan hari ini untuk memulai keterbukaan keuangan.",
+      "core_message": "Pasangan dapat memulai check-up keuangan singkat dengan membagikan peta aset, utang, penghasilan, dan pengeluaran penting.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "label",
+            "text": "P3K HARI INI",
+            "reading_order": 1,
+            "attention_priority": 2,
+            "typography": {"scale": "SMALL", "weight": "BOLD", "alignment": "LEFT", "color": "emerald green", "notes": "Neutral sans uppercase."},
+            "placement": "Kiri atas, lebar 48 persen."
+          },
+          {
+            "role": "focal_statement",
+            "text": "Bikin check-up uang 20 menit bareng pasangan.",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {"scale": "LARGE", "weight": "BOLD", "alignment": "LEFT", "color": "forest green", "notes": "Condensed bold sans."},
+            "placement": "Kiri atas hingga tengah, lebar 50 persen."
+          },
+          {
+            "role": "list",
+            "text": "Saling tunjukkan:\n1. aset dan rekening yang ada,\n2. utang yang masih berjalan,\n3. sumber penghasilan,\n4. pengeluaran penting.",
+            "reading_order": 3,
+            "attention_priority": 2,
+            "typography": {"scale": "MEDIUM", "weight": "MEDIUM", "alignment": "LEFT", "color": "charcoal", "notes": "Neutral sans, nomor menjadi line starter."},
+            "placement": "Kiri tengah hingga bawah, lebar 50 persen.",
+            "relation_to_visual": "List berhenti sebelum tepi meja dan tangan pasangan."
+          },
+          {
+            "role": "safety_note",
+            "text": "Catat petanya. Gak perlu tukeran PIN atau password.",
+            "reading_order": 4,
+            "attention_priority": 3,
+            "typography": {"scale": "SMALL", "weight": "SEMIBOLD", "alignment": "LEFT", "color": "forest green", "notes": "Neutral sans."},
+            "placement": "Kiri bawah, lebar 50 persen."
+          }
+        ]
+      },
+      "claim_ids": ["claim_07", "claim_08"],
+      "visual": {
+        "function": "DEMONSTRATE",
+        "primary": {
+          "concept": "Pasangan melakukan check-up singkat dengan satu ringkasan bersama dan map terpisah.",
+          "subject": "Sepasang dewasa muda Indonesia, satu lembar ringkasan, dan empat map polos.",
+          "scene": "Meja makan rumah pada pagi hari.",
+          "composition": "Pasangan di kanan bawah, copy langkah mengisi dinding dan sisi meja kiri.",
+          "framing": "Medium-wide eye-level 50mm.",
+          "background": "Warm-white wall dan meja kayu terang.",
+          "lighting": "Soft natural morning light.",
+          "negative_space": "Kiri 50 persen untuk empat block copy.",
+          "text_zone": "Kiri atas sampai kiri bawah.",
+          "visual_hierarchy": "Focal statement, pasangan dan ringkasan, list, label, safety note.",
+          "editing_treatment": "Bright natural grade dengan satu forest-green accent.",
+          "rationale": "Scene menunjukkan tindakan hari ini dan menutup carousel dengan suasana kolaboratif, bukan nasihat abstrak."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_06"],
+      "production_instructions": [
+        {"step": 1, "action": "GENERATE", "instruction": "Generate asset_06 dan pilih hasil dengan pasangan duduk berdampingan, satu ringkasan kosong, serta dinding kiri bersih."},
+        {"step": 2, "action": "CROP", "instruction": "Kunci subjek di kanan bawah dan sediakan kiri 50 persen untuk headline, empat langkah, serta safety note."},
+        {"step": 3, "action": "ADD_TEXT", "instruction": "Pasang label, headline, list, lalu safety note. Gunakan ukuran body yang tetap nyaman pada preview ponsel."},
+        {"step": 4, "action": "REVIEW", "instruction": "Uji pada lebar 360 px dan pastikan larangan berbagi PIN atau password tetap terbaca."}
+      ]
+    }
+  ],
+  "caption": {
+    "text": "Pasangan gak harus mencampur semua uang. Tapi kalau utang, aset, penghasilan, dan pengeluaran penting cuma diketahui satu orang, rumah tangga berjalan dengan peta yang bolong. Mulai dari check-up 20 menit, bukan interogasi.\n\nBukan Saran Keuangan Profesional (Not Financial Advice).",
+    "function": "MIXED"
+  },
+  "warnings": [
+    {
+      "code": "PROVENANCE_INCOMPLETE",
+      "severity": "WARNING",
+      "message": "Material hanya berupa transcript pendek. Identitas pembicara, platform, URL, dan tanggal tidak tersedia.",
+      "recommendation": "Lengkapi provenance dan pastikan hak penggunaan material sebelum brief disetujui untuk produksi."
+    },
+    {
+      "code": "OPINION_SOURCE_ONLY",
+      "severity": "WARNING",
+      "message": "Klaim hubungan antara rahasia finansial dan kepercayaan berasal dari opini pembicara serta praktik pribadinya, bukan riset yang tercatat dalam input.",
+      "affected_slide_ids": ["slide_02", "slide_05"],
+      "recommendation": "Pertahankan attribution pada slide 2 dan 5 atau tambahkan sumber kredibel sebelum mengubahnya menjadi klaim umum."
+    },
+    {
+      "code": "SAFETY_CONTEXT_NOT_COVERED",
+      "severity": "WARNING",
+      "message": "Transcript tidak membahas kekerasan, kontrol finansial, kebutuhan dana keselamatan, atau implikasi hukum rekening pribadi.",
+      "affected_slide_ids": ["slide_04", "slide_05", "slide_06"],
+      "recommendation": "Jangan menerapkan kritik terhadap rekening rahasia pada situasi keselamatan atau menjadikannya nasihat hukum."
+    },
+    {
+      "code": "MOBILE_LAYOUT_VALIDATION_PENDING",
+      "severity": "WARNING",
+      "message": "Image dan layout final belum dibuat. Slide informasional perlu diuji pada preview lebar 360 px.",
+      "affected_slide_ids": ["slide_02", "slide_03", "slide_04", "slide_05", "slide_06"],
+      "recommendation": "Sesuaikan crop, lebar text zone, atau line break. Jangan menghapus attribution, safety note, atau bridge penjelasan."
+    }
+  ],
+  "qa": {
+    "overall_status": "PASS_WITH_WARNING",
+    "dimensions": {
+      "objective": {"status": "PASS", "notes": "Carousel membahas rahasia finansial, dampaknya pada peta rumah tangga, dan langkah keterbukaan yang dapat dimulai hari ini."},
+      "factual": {"status": "PASS_WITH_WARNING", "notes": "Tidak ada statistik atau klaim riset baru. Pendapat pembicara diberi attribution dan batas penerapan.", "warning_codes": ["OPINION_SOURCE_ONLY", "SAFETY_CONTEXT_NOT_COVERED"]},
+      "editorial": {"status": "PASS", "notes": "Satu takeaway dipertahankan: pasangan membutuhkan peta informasi bersama tanpa harus mencampur seluruh uang."},
+      "narrative": {"status": "PASS", "notes": "Alur bergerak dari diagnosis menuju dampak, klarifikasi, titik balik, lalu tindakan."},
+      "density": {"status": "PASS_WITH_WARNING", "notes": "Setiap slide membawa satu unit pemahaman. Slide 3 sampai 6 tetap perlu validasi layout ponsel.", "warning_codes": ["MOBILE_LAYOUT_VALIDATION_PENDING"]},
+      "copy": {"status": "PASS_WITH_WARNING", "notes": "Copy memakai bahasa sehari-hari dan membedakan opini sumber dari langkah editorial. Attribution dan safety note tidak boleh hilang saat desain.", "warning_codes": ["OPINION_SOURCE_ONLY", "SAFETY_CONTEXT_NOT_COVERED"]},
+      "visual": {"status": "PASS", "notes": "Primary family adalah lifestyle editorial dengan conceptual object editorial sebagai secondary. Variasi datang dari dining scene, still life, filing cabinet, overhead desk, cinematic doorway, dan morning check-up."},
+      "asset": {"status": "PASS", "notes": "Semua scene bersifat generic dan cocok untuk AI-generated photorealistic image. Prompt menetapkan text-safe area, subjek, kamera, serta larangan teks dan simbol uang klise."},
+      "production": {"status": "PASS_WITH_WARNING", "notes": "Instruksi per slide menetapkan generation, crop, copy placement, dan checkpoint. Layout final masih perlu diuji pada ponsel.", "warning_codes": ["MOBILE_LAYOUT_VALIDATION_PENDING"]},
+      "source": {"status": "PASS_WITH_WARNING", "notes": "Semua factual claims terhubung ke transcript, tetapi provenance dan sumber pendukung belum lengkap.", "warning_codes": ["PROVENANCE_INCOMPLETE", "OPINION_SOURCE_ONLY"]},
+      "brand": {"status": "PASS", "notes": "Output memakai bahasa tongkrongan, analogi check-up, langkah hari ini, forest-green accent, serta disclaimer wajib. Tidak ada financial shaming, saran instrumen, atau janji keuntungan."}
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "schema_version": "0.1.0",
+  "context_profile": "mantri-uang",
+  "topic": "Rahasia keuangan dalam pernikahan",
+  "objective": "Membantu pasangan memahami bahwa utang, penghasilan, pengeluaran, dan aset yang disembunyikan dapat merusak kepercayaan serta memberi langkah awal untuk membangun keterbukaan keuangan.",
+  "initial_angle": "Masalah uang dalam pernikahan sering membesar bukan hanya karena nominalnya, tetapi karena pasangan tidak memiliki peta keuangan yang sama.",
+  "raw_material": [
+    {
+      "id": "mat_01",
+      "type": "CLAIM",
+      "label": "Uang memicu pertengkaran",
+      "content": "Pembicara menyatakan bahwa masalah uang termasuk hal yang sering membuat pasangan bertengkar.",
+      "source_ids": ["src_transcript"]
+    },
+    {
+      "id": "mat_02",
+      "type": "CLAIM",
+      "label": "Transparansi keuangan",
+      "content": "Pembicara menganjurkan pasangan membiasakan diri membicarakan uang dan tidak terjebak pada sikap sepenuhnya 'uang gue' versus 'uang lo'.",
+      "source_ids": ["src_transcript"]
+    },
+    {
+      "id": "mat_03",
+      "type": "EXAMPLE",
+      "label": "Pembaruan kekayaan bersih",
+      "content": "Sebagai praktik pribadi, pembicara dan pasangannya memperbarui net worth bersama agar keduanya mengetahui perkembangan bisnis, investasi, dan aset yang mereka pegang.",
+      "source_ids": ["src_transcript"]
+    },
+    {
+      "id": "mat_04",
+      "type": "CLAIM",
+      "label": "Pasangan mengetahui aset",
+      "content": "Pembicara ingin istrinya mengetahui aset yang mereka pegang agar informasi tersebut tidak hilang bila sesuatu terjadi kepadanya.",
+      "source_ids": ["src_transcript"]
+    },
+    {
+      "id": "mat_05",
+      "type": "CLAIM",
+      "label": "Rahasia merapuhkan kepercayaan",
+      "content": "Menurut pembicara, utang yang tidak diungkapkan, penghasilan yang disembunyikan, dan pengeluaran diam-diam membuat kepercayaan pasangan lama-lama rapuh.",
+      "source_ids": ["src_transcript"]
+    },
+    {
+      "id": "mat_06",
+      "type": "CLAIM",
+      "label": "Rekening rahasia sebagai jalan keluar",
+      "content": "Pembicara mengkritik rekening rahasia yang sengaja disiapkan sebagai jalan keluar bila hubungan retak karena dapat membuat pasangan lebih siap kabur daripada menyelesaikan masalah bersama.",
+      "source_ids": ["src_transcript"],
+      "notes": "Ini adalah pendapat pembicara, bukan aturan universal. Jangan memperluasnya ke situasi kekerasan, kontrol finansial, kebutuhan keselamatan, atau ketentuan hukum yang tidak dibahas sumber."
+    },
+    {
+      "id": "mat_07",
+      "type": "INTERNAL_NOTE",
+      "label": "Batas sumber",
+      "content": "Material berupa transcript pendek dengan penanda musik. Identitas pembicara, judul konten, URL, tanggal, serta sumber pendukung lain tidak tersedia di repository.",
+      "source_ids": ["src_transcript"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_transcript",
+      "title": "Transcript tentang keterbukaan keuangan dalam pernikahan",
+      "source": "research-result/005-rahasia-keuangan-dalam-pernikahan.md",
+      "type": "SOCIAL_MEDIA",
+      "notes": "Identitas pembicara, platform, URL, dan tanggal tidak tercatat. Material berisi opini serta praktik pribadi dan belum diverifikasi dengan sumber lain."
+    }
+  ],
+  "content_directives": [
+    {
+      "id": "dir_core",
+      "priority": "MUST_INCLUDE",
+      "content": "Fokuskan carousel pada bahaya peta keuangan yang timpang: satu pasangan tidak mengetahui utang, penghasilan, pengeluaran, atau aset penting.",
+      "material_ids": ["mat_02", "mat_04", "mat_05"]
+    },
+    {
+      "id": "dir_action",
+      "priority": "MUST_INCLUDE",
+      "content": "Akhiri dengan langkah yang dapat dilakukan hari ini untuk memulai check-up keuangan bersama dan membuat peta aset serta kewajiban yang diketahui kedua pasangan.",
+      "material_ids": ["mat_03", "mat_04", "mat_05"]
+    },
+    {
+      "id": "dir_safety",
+      "priority": "MUST_EXCLUDE",
+      "content": "Jangan menyatakan bahwa semua pasangan wajib menggabungkan seluruh rekening, membagikan PIN atau password, atau membuka rekening yang berkaitan dengan kebutuhan keselamatan pribadi."
+    },
+    {
+      "id": "dir_evidence",
+      "priority": "MUST_EXCLUDE",
+      "content": "Jangan mengubah opini pembicara menjadi statistik, hukum universal, nasihat hukum, atau klaim riset tentang perceraian."
+    }
+  ],
+  "context": {
+    "brand": {
+      "mode": "PRODUCTION",
+      "data": {
+        "run_voice": {
+          "address": "lo dan pasangan",
+          "tone": "dekat, reflektif, tegas tanpa menghakimi",
+          "medical_language": "gunakan konsep check-up keuangan dan rekam medis rumah tangga sebagai analogi utama"
+        }
+      }
+    },
+    "production": {
+      "mode": "PRODUCTION",
+      "data": {
+        "format": "static carousel image + text",
+        "deliverable": "production brief untuk human review; belum membuat gambar atau desain final"
+      }
+    }
+  },
+  "constraints": {
+    "language": "id-ID",
+    "slide_count": {
+      "preferred_min": 6,
+      "preferred_max": 7,
+      "hard_max": 10
+    },
+    "canvas": {
+      "aspect_ratio": "4:5",
+      "width_px": 1080,
+      "height_px": 1350
+    },
+    "custom": [
+      "Carousel harus membedakan keterbukaan informasi dari kewajiban menggabungkan seluruh uang.",
+      "Jangan memberi instruksi berbagi PIN, password, atau kredensial akun.",
+      "Karena sumber hanya satu transcript tanpa provenance lengkap, output harus membawa warning untuk reviewer."
+    ]
+  },
+  "notes": "Disusun dari transcript mentah yang sebelumnya bernama research-result/d.md. File sumber sudah dinamai ulang berdasarkan topiknya."
+}
