@@ -1,0 +1,1062 @@
+{
+  "schema_version": "0.4.0",
+  "status": "NEEDS_REVIEW",
+  "editorial": {
+    "objective": "Membantu audiens pemula memahami bahwa kurs rupiah terhadap dolar terbentuk dari transaksi banyak pelaku pasar, sekaligus membedakan peran pasar, kurs referensi harian Bank Indonesia, dan intervensi Bank Indonesia.",
+    "central_takeaway": "Kurs rupiah terbentuk dari banyak transaksi dengan kebutuhan berbeda. Bank Indonesia menerbitkan angka referensi untuk membaca pasar dan dapat meredam gejolak, tetapi tidak menentukan kurs harian sesuka hati.",
+    "selected_angle": "Siapa yang sebenarnya menentukan harga rupiah, kalau bukan satu orang, satu rapat, atau satu tombol?",
+    "angle_rationale": "Pertanyaan langsung sesuai dengan kebingungan audiens pemula. Jawabannya dibangun bertahap dari transaksi para pelaku, sistem kurs mengambang, kurs referensi Bank Indonesia, lalu intervensi saat gejolak berlebihan.",
+    "selected_material_ids": [
+      "mat_01",
+      "mat_02",
+      "mat_03",
+      "mat_04",
+      "mat_05",
+      "mat_06",
+      "mat_07"
+    ],
+    "omitted_material": []
+  },
+  "narrative": {
+    "type": "pertanyaan langsung, jawaban, pelaku dan kebutuhan, mekanisme, pembeda peran, tindakan",
+    "summary": "Slide pertama menanyakan siapa yang menentukan harga rupiah. Slide kedua menjawab bahwa tidak ada satu pengendali. Slide ketiga menunjukkan bahwa para pelaku datang dengan kebutuhan transaksi berbeda. Slide keempat menjelaskan mengapa transaksi dapat menggerakkan kurs dalam sistem mengambang. Slide kelima memisahkan kurs referensi dari penetapan harga. Slide keenam menjelaskan intervensi Bank Indonesia. Slide terakhir memberi P3K saat membaca berita kurs.",
+    "opening_function": "Mengangkat pertanyaan yang benar-benar mungkin ditanyakan audiens pemula tanpa langsung memuat jawaban panjang.",
+    "ending_function": "Mengubah pemahaman menjadi kebiasaan membaca kurs yang dapat dilakukan saat melihat berita rupiah.",
+    "slide_sequence": [
+      "slide_01",
+      "slide_02",
+      "slide_03",
+      "slide_04",
+      "slide_05",
+      "slide_06",
+      "slide_07"
+    ]
+  },
+  "claims": [
+    {
+      "id": "claim_01",
+      "text": "Tidak ada satu orang atau satu meja rapat yang menentukan kurs rupiah terhadap dolar untuk hari itu.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_transcript"
+      ],
+      "material_ids": [
+        "mat_01"
+      ],
+      "notes": "Klaim berasal dari transcript pihak ketiga dan belum diverifikasi ke sumber primer."
+    },
+    {
+      "id": "claim_02",
+      "text": "Kurs rupiah terhadap dolar terbentuk dari banyak transaksi yang berlangsung bersamaan di pasar.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_transcript"
+      ],
+      "material_ids": [
+        "mat_01"
+      ]
+    },
+    {
+      "id": "claim_03",
+      "text": "Eksportir dapat menjual dolar untuk memperoleh rupiah, sedangkan importir membeli dolar untuk membayar barang dari luar negeri.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_transcript"
+      ],
+      "material_ids": [
+        "mat_02"
+      ]
+    },
+    {
+      "id": "claim_04",
+      "text": "Transaksi investor asing serta kiriman uang dari atau ke luar negeri ikut membentuk arus transaksi rupiah dan dolar.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_transcript"
+      ],
+      "material_ids": [
+        "mat_02"
+      ]
+    },
+    {
+      "id": "claim_05",
+      "text": "Sejak krisis 1998, Indonesia menggunakan sistem nilai tukar mengambang sehingga rupiah bergerak mengikuti kekuatan pasar dan tidak dipatok kaku pada satu angka.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_transcript"
+      ],
+      "material_ids": [
+        "mat_04"
+      ],
+      "notes": "Tahun dan formulasi sistem perlu diperiksa pada sumber resmi sebelum produksi."
+    },
+    {
+      "id": "claim_06",
+      "text": "Bank Indonesia menerbitkan angka referensi harian kurs rupiah terhadap dolar berdasarkan transaksi yang terjadi.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_transcript"
+      ],
+      "material_ids": [
+        "mat_03"
+      ],
+      "notes": "Nama dan definisi resmi kurs referensi belum diverifikasi. Akronim dari transcript tidak digunakan."
+    },
+    {
+      "id": "claim_07",
+      "text": "Bank Indonesia dapat menjual atau membeli dolar dari cadangan devisa untuk meredam gejolak yang terlalu liar, bukan untuk memaksa kurs menetap pada satu angka tertentu.",
+      "claim_type": "FACT",
+      "source_ids": [
+        "src_transcript"
+      ],
+      "material_ids": [
+        "mat_05"
+      ],
+      "notes": "Mekanisme dan formulasi resmi intervensi perlu diperiksa sebelum publikasi."
+    },
+    {
+      "id": "claim_08",
+      "text": "Kurs referensi dapat dijelaskan seperti hasil pemeriksaan yang membaca keadaan, bukan tombol yang menciptakan keadaan tersebut.",
+      "claim_type": "CREATIVE",
+      "material_ids": [
+        "mat_03"
+      ],
+      "notes": "Analogi komunikasi untuk audiens pemula, bukan definisi teknis."
+    },
+    {
+      "id": "claim_09",
+      "text": "Peran intervensi Bank Indonesia dapat dijelaskan seperti wasit yang bertindak saat permainan terlalu kasar tanpa menentukan skor akhir.",
+      "claim_type": "CREATIVE",
+      "material_ids": [
+        "mat_06"
+      ],
+      "notes": "Analogi komunikasi, bukan definisi kelembagaan."
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset_01",
+      "type": "AI_GENERATED",
+      "description": "Scene money-exchange yang nyata dan tenang dengan seorang first jobber menatap loket kosong serta papan kurs gelap, memberi konteks langsung untuk pertanyaan cover.",
+      "subject": "Satu first jobber Indonesia di depan tiga loket penukaran valuta yang kosong.",
+      "requirements": [
+        "Photorealistic editorial photography",
+        "portrait 4:5",
+        "subjek kecil di kanan bawah",
+        "upper-left 52 persen bersih untuk copy",
+        "loket dan papan kurs terbaca sebagai environment tanpa text buatan generator"
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt": "Create a photorealistic 4:5 vertical editorial photograph for a financial-education carousel cover. Use a 1080 by 1350 composition. Show one Indonesian young adult, seen from a three-quarter back view, standing in the lower-right third and occupying about 20 percent of the frame height. The person faces a glass-fronted currency-exchange counter with exactly three empty service windows, three metal pass-through trays, and one large dark rate-board area above the windows. The rate board contains only unlit blank tiles with no letters, numbers, flags, or symbols. Keep the upper-left 52 percent as a continuous dark teal wall with a smooth low-contrast tonal gradient and no objects. Shoot from eye level at about four meters with a natural 35mm perspective and straight vertical lines. Counter edges and floor seams lead toward the person. Use controlled cool evening light with one warm practical light inside the counter and a narrow forest-green trim. Serious restrained cinematic color grade. No readable text, logos, banknotes, coins, flags, charts, trading screens, crowds, dramatic fog, cartoon styling, or generated typography."
+      },
+      "notes": "Pilih hasil yang membuat environment terbaca sebagai loket penukaran valuta, bukan loket bank generik atau bandara kosong."
+    },
+    {
+      "id": "asset_02",
+      "type": "AI_GENERATED",
+      "description": "Meja bundar tanpa kursi kepala dengan enam peserta yang saling menyerahkan dokumen, menunjukkan transaksi datang dari banyak pihak tanpa pusat kendali.",
+      "subject": "Enam orang dewasa Indonesia duduk mengelilingi meja bundar dan saling menyerahkan amplop dokumen polos.",
+      "requirements": [
+        "Photorealistic overhead editorial scene",
+        "portrait 4:5",
+        "meja bundar harus jelas tidak memiliki posisi kepala",
+        "semua tangan dan amplop menyentuh permukaan meja",
+        "upper-right 38 persen tenang untuk copy"
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt": "Create a photorealistic 4:5 overhead editorial photograph on a 1080 by 1350 canvas. Show exactly six Indonesian adults seated at equal intervals around one circular warm-wood table with no head position. Keep faces mostly outside the frame and show one natural forearm and hand from each participant. Three hands slide plain forest-green document envelopes across the tabletop toward other participants, while three hands slide plain muted-blue envelopes in different directions. Every visible hand must be in physical contact with an envelope and every envelope must rest flat on the table. Place the circular table in the lower-left 62 percent of the frame. Leave the upper-right 38 percent as uninterrupted matte charcoal floor with soft falloff and no furniture for text. Use a straight-down camera about three meters above the table, natural 35mm coverage, deep readable focus, soft skylight, restrained warm-neutral materials, and one forest-green accent. No central button, empty leader chair, money, currency symbols, flags, laptops, charts, logos, readable documents, extra hands, floating objects, infographic elements, or generated text."
+      },
+      "notes": "Seleksi hasil dengan anatomi tangan paling natural dan arah pertukaran yang mudah dibaca."
+    },
+    {
+      "id": "asset_03",
+      "type": "AI_GENERATED",
+      "description": "Scene kantor logistik pelabuhan memberi konteks nyata untuk salah satu kebutuhan transaksi lintas negara, sementara copy menjelaskan pelaku lain secara lengkap.",
+      "subject": "Satu petugas logistik Indonesia menerima sebuah paket tersegel dari satu pelanggan, dengan kontainer terlihat melalui jendela.",
+      "requirements": [
+        "Photorealistic lifestyle editorial",
+        "portrait 4:5",
+        "tepat dua orang dan satu paket utama",
+        "subjek berada di kanan bawah",
+        "setengah kiri tenang untuk list copy"
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt": "Create a photorealistic 4:5 lifestyle editorial photograph on a 1080 by 1350 canvas. In a modest port-logistics office, show exactly two Indonesian adults. A logistics clerk stands behind a waist-high counter in the lower-right quadrant and receives one small sealed cardboard parcel directly from a customer standing opposite. Both people keep one hand in contact with the parcel so the handoff is visible. Through one window behind them, show a few stacked shipping containers in soft focus. Keep both people below the middle of the frame and within the right 46 percent. Leave the entire left 48 percent as a quiet warm-gray plaster wall with soft daylight and no objects for a headline and four short lines. Use an eye-level medium-wide shot from about three meters, natural 40mm perspective, clear floor plane, soft window light, neutral work clothes, and a restrained forest-green accent on the clerk's jacket. No company logos, readable labels, customs uniforms, flags, banknotes, currency symbols, charts, extra parcels, phones, laptops, infographic elements, or generated text."
+      },
+      "notes": "Visual hanya memberi konteks pada perdagangan lintas negara. Jangan menambahkan properti untuk mencoba melambangkan keempat pelaku sekaligus."
+    },
+    {
+      "id": "asset_04",
+      "type": "AI_GENERATED",
+      "description": "Lima orang berdiri pada posisi berbeda di atas dermaga apung yang sedikit miring, memakai mekanisme fisik yang dikenal untuk menggambarkan permukaan yang bergerak saat beban berubah.",
+      "subject": "Lima orang dewasa Indonesia berdiri tersebar di atas satu dermaga apung pada danau tenang.",
+      "requirements": [
+        "Photorealistic wide cinematic scene",
+        "portrait 4:5",
+        "dermaga, ponton, permukaan air, dan kemiringan harus terbaca",
+        "orang berukuran kecil dan berdiri natural",
+        "upper-right 46 persen tenang untuk copy"
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt": "Create a photorealistic 4:5 wide cinematic photograph on a 1080 by 1350 canvas. Show exactly five Indonesian adults standing at separate positions on one rectangular floating dock on a lake surface with fine horizontal ripples and no waves. Two people stand near the left end, one stands near the center, and two stand with wider spacing on the right half. All ten feet are planted on the dock. The dock sits about six degrees lower on the left, with the waterline, flotation pontoons, and shore hinge clearly visible so the physical cause of the tilt is understandable. Place the entire dock and all five people in the lower-left 52 percent. Each person occupies less than 12 percent of the frame height. Leave the upper-right 46 percent as uninterrupted pale sky and low-contrast water for text. Shoot from a slightly elevated shoreline position about twelve meters away with a natural 35mm lens and a level horizon in the upper third. Use restrained blue-peach dusk light, realistic reflections, matte clothing, and one small forest-green wardrobe accent. No floating props, currency symbols, flags, charts, arrows, surreal machinery, dramatic waves, fog, logos, readable text, or generated typography."
+      },
+      "notes": "Pilih hasil yang terlihat seperti lokasi nyata. Metafora datang dari keadaan dermaga, bukan dari benda tambahan."
+    },
+    {
+      "id": "asset_05",
+      "type": "AI_GENERATED",
+      "description": "Pemeriksaan tekanan darah manual yang mudah dikenali, menunjukkan tindakan mengukur keadaan tanpa menciptakan keadaan tersebut.",
+      "subject": "Satu perawat Indonesia memasang manset tekanan darah pada satu first jobber yang duduk.",
+      "requirements": [
+        "Photorealistic clinical lifestyle editorial",
+        "portrait 4:5",
+        "alat pemeriksaan harus standar dan terhubung secara fisik",
+        "tindakan pemasangan manset terlihat jelas",
+        "kanan 45 persen kosong untuk copy"
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt": "Create a photorealistic 4:5 clinical lifestyle editorial photograph on a 1080 by 1350 canvas. Show exactly one Indonesian nurse and one Indonesian young adult in a simple clinic room. Place both people in the lower-left 52 percent. The young adult sits side-on with the left forearm resting on a real examination table. The nurse uses both hands to wrap a standard forest-green blood-pressure cuff around the upper arm. A visible rubber tube runs from the cuff to a manual round pressure gauge resting on a small stainless tray; turn the gauge face away from camera so no numbers are readable. Keep the right 45 percent as an uninterrupted warm-white wall with soft shadow and no furniture for text. Shoot a medium close-up from about two meters at seated eye level with a natural 50mm perspective. Use bright soft daylight, natural skin texture, realistic fabric folds, and restrained clinical colors. No logos, readable labels, medical UI, extra instruments, oversized gauge, fantasy device, currency imagery, charts, cartoon styling, or generated text."
+      },
+      "notes": "Gunakan visual sebagai analogi pemeriksaan. Jangan menambahkan simbol rupiah, dolar, atau properti pasar ke ruang klinik."
+    },
+    {
+      "id": "asset_06",
+      "type": "AI_GENERATED",
+      "description": "Wasit futsal mengangkat kartu saat dua pemain berhenti, membangun analogi intervensi melalui tindakan yang langsung dikenali.",
+      "subject": "Satu wasit Indonesia di foreground dan dua pemain futsal tanpa identitas tim di background.",
+      "requirements": [
+        "Photorealistic conceptual human cinematic",
+        "portrait 4:5",
+        "tepat satu wasit, dua pemain, satu bola, dan satu kartu",
+        "aksi kartu serta permainan yang berhenti harus terbaca",
+        "kiri 47 persen tenang untuk copy"
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt": "Create a photorealistic 4:5 conceptual human cinematic photograph on a 1080 by 1350 canvas. Show exactly one Indonesian futsal referee in a plain black uniform standing in the right third, full body, facing two players in the middle background. The referee holds one yellow card above shoulder height with the right hand and keeps the left palm open toward the players. Exactly two adult players have stopped two meters apart with one stationary ball on the court between them. One player wears a plain dark forest-green jersey and the other a plain muted-blue jersey, both without numbers or logos. Keep every person on the same visible indoor-court floor plane. Leave the left 47 percent as an empty dark teal wall and unoccupied court for text. Shoot at eye level from about seven meters with a natural 50mm perspective. Keep the referee sharp and the players slightly softer, with restrained side lighting and realistic court reflections. No crowd, stadium, scoreboard, flags, team branding, folders, money, currency symbols, dramatic fight, motion blur, cartoon styling, readable text, or generated typography."
+      },
+      "notes": "Pilih hasil dengan gesture kartu yang jelas dan suasana terkendali, bukan pertandingan dramatis."
+    },
+    {
+      "id": "asset_07",
+      "type": "AI_GENERATED",
+      "description": "First jobber memeriksa informasi di ponsel pada meja sarapan, memberi scene konkret untuk kebiasaan membaca berita kurs dengan tenang.",
+      "subject": "Satu first jobber Indonesia duduk di meja sarapan dengan ponsel dan notebook polos.",
+      "requirements": [
+        "Photorealistic lifestyle editorial",
+        "portrait 4:5",
+        "subjek dan meja di kanan bawah",
+        "ponsel terlihat sedang dibaca tetapi layar tidak terbaca",
+        "kiri 48 persen bersih untuk copy"
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt": "Create a photorealistic 4:5 Indonesian lifestyle editorial photograph on a 1080 by 1350 canvas. Show exactly one Indonesian first jobber seated at a small breakfast table in the lower-right third of a modest boarding-house dining corner. The person holds one smartphone in the right hand about twenty-five centimeters above the tabletop, with eyes directed at the screen and a neutral relaxed face. Angle the screen away from camera so its content is not readable. The left hand rests beside one open blank notebook. Place one simple forest-green cup and one plate of toast on the table, both within the right half. Keep the left 48 percent as a continuous warm-white wall with soft morning shadow and no shelves or decorations for text. Shoot from eye level at about three meters with a natural 50mm perspective and a medium-wide frame. Use soft morning window light from the left, realistic skin and fabric texture, and a bright restrained finish. No panic gesture, trading app, candlestick chart, luxury interior, logos, extra devices, medical props, readable text, or generated typography."
+      },
+      "notes": "Seleksi ekspresi netral dan pose membaca yang natural. Jangan memakai ekspresi terkejut atau cemas."
+    }
+  ],
+  "slides": [
+    {
+      "id": "slide_01",
+      "index": 1,
+      "role": "hook",
+      "purpose": "Membuka pertanyaan utama dengan bahasa yang terdengar seperti pertanyaan audiens pemula.",
+      "core_message": "Audiens perlu mengetahui siapa yang sebenarnya membentuk harga rupiah.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "context",
+            "text": "Rupiah menguat.\nLalu melemah lagi.",
+            "reading_order": 1,
+            "attention_priority": 2,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "MEDIUM",
+              "alignment": "LEFT",
+              "color": "warm white",
+              "notes": "Neutral sans dengan line height longgar."
+            },
+            "placement": "Kiri atas, lebar 42 persen.",
+            "relation_to_visual": "Berada di bidang dinding gelap sebelum garis pandang turun ke headline."
+          },
+          {
+            "role": "focal_statement",
+            "text": "Siapa sih yang\nnentuin harga rupiah?",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {
+              "scale": "HERO",
+              "weight": "BOLD",
+              "alignment": "LEFT",
+              "color": "warm white",
+              "notes": "Condensed bold sans. Pertahankan bentuk pertanyaan, bukan judul materi."
+            },
+            "placement": "Kiri atas hingga kiri tengah, lebar 50 persen.",
+            "relation_to_visual": "Headline menghadap first jobber yang menatap loket di kanan bawah."
+          }
+        ]
+      },
+      "claim_ids": [],
+      "visual": {
+        "function": "ATTRACT_ATTENTION",
+        "primary": {
+          "concept": "Seorang first jobber berdiri di depan loket penukaran valuta yang kosong dan menatap papan kurs gelap.",
+          "subject": "Satu first jobber Indonesia dan tiga loket penukaran valuta kosong.",
+          "scene": "Area money-exchange modern pada malam hari dengan papan kurs tidak menyala.",
+          "composition": "Subjek kecil dan loket berada di kanan bawah; massa copy besar memakai bidang dinding gelap di kiri atas.",
+          "framing": "Wide eye-level dari jarak sekitar empat meter dengan perspektif 35mm.",
+          "background": "Dinding dark teal, kaca loket, dan papan blank tanpa informasi terbaca.",
+          "lighting": "Cool evening light dengan satu practical light hangat di dalam loket.",
+          "negative_space": "Upper-left 52 persen berupa bidang gelap rendah kontras.",
+          "text_zone": "Kiri atas hingga kiri tengah, maksimal 50 persen lebar canvas.",
+          "visual_hierarchy": "Pertanyaan, siluet first jobber, loket dan papan gelap, context line.",
+          "editing_treatment": "Pertahankan straight lines, sedikit film grain, dan forest-green trim sebagai accent kecil.",
+          "rationale": "Cover hanya perlu memberi konteks kurs dan menahan pertanyaan. Scene nyata lebih jelas daripada metafora mekanis yang harus dijelaskan."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_01"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Generate asset_01 dan pilih hasil yang membuat loket penukaran valuta terbaca tanpa signage atau teks buatan generator."
+        },
+        {
+          "step": 2,
+          "action": "CROP",
+          "instruction": "Pertahankan subjek pada kanan bawah dan lindungi upper-left 52 persen sebagai text-safe area."
+        },
+        {
+          "step": 3,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang context lebih kecil lalu pertanyaan sebagai focal point. Jangan menambahkan jawaban pada cover."
+        },
+        {
+          "step": 4,
+          "action": "REVIEW",
+          "instruction": "Pastikan hook terbaca dalam sekali lihat dan scene tidak tampak seperti bank tutup atau terminal bandara kosong."
+        }
+      ]
+    },
+    {
+      "id": "slide_02",
+      "index": 2,
+      "role": "direct_answer",
+      "purpose": "Menjawab hook tanpa menunda dan membongkar gagasan tentang satu pengendali kurs.",
+      "core_message": "Tidak ada satu orang atau satu tombol yang menetapkan kurs harian; banyak transaksi membentuknya.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "focal_statement",
+            "text": "Jawaban pendeknya:\nBUKAN SATU ORANG.",
+            "reading_order": 1,
+            "attention_priority": 1,
+            "typography": {
+              "scale": "LARGE",
+              "weight": "BOLD",
+              "alignment": "RIGHT",
+              "color": "forest green",
+              "notes": "Condensed bold sans pada baris kedua; baris pertama neutral sans medium."
+            },
+            "placement": "Kanan atas, lebar 39 persen.",
+            "relation_to_visual": "Mengisi area kosong di luar meja bundar."
+          },
+          {
+            "role": "explanation",
+            "text": "Kurs terbentuk ketika banyak transaksi rupiah dan dolar terjadi bersamaan. Jadi, tidak ada satu bos, rapat, atau tombol yang menentukan harganya untuk hari itu.",
+            "reading_order": 2,
+            "attention_priority": 2,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "MEDIUM",
+              "alignment": "RIGHT",
+              "color": "charcoal",
+              "notes": "Neutral sans. Pecah menjadi maksimal enam baris."
+            },
+            "placement": "Kanan tengah hingga kanan bawah, lebar 40 persen.",
+            "relation_to_visual": "Body menjelaskan aksi pertukaran yang terlihat pada meja bundar."
+          }
+        ]
+      },
+      "claim_ids": [
+        "claim_01",
+        "claim_02"
+      ],
+      "visual": {
+        "function": "EXPLAIN",
+        "primary": {
+          "concept": "Enam peserta mengelilingi meja bundar tanpa kursi kepala dan saling menyerahkan dokumen ke arah berbeda.",
+          "subject": "Enam orang dewasa dan enam amplop dokumen polos di atas meja bundar.",
+          "scene": "Ruang kerja editorial minimal dengan meja bundar sebagai satu-satunya furnitur utama.",
+          "composition": "Meja memenuhi kiri bawah; area kanan atas dan kanan tengah disisakan untuk dua block copy.",
+          "framing": "Straight overhead dengan deep readable focus.",
+          "background": "Matte charcoal floor dan warm-wood tabletop.",
+          "lighting": "Soft skylight dari atas dengan bayangan tangan yang tipis.",
+          "negative_space": "Kanan 38 sampai 40 persen tanpa furnitur atau tangan.",
+          "text_zone": "Kanan atas hingga kanan bawah, lebar sekitar 40 persen.",
+          "visual_hierarchy": "Focal statement, pertemuan tangan dan amplop, explanation.",
+          "editing_treatment": "Jaga anatomi tangan natural, palet warm neutral, dan accent forest green yang terbatas.",
+          "rationale": "Meja bundar membuat ketiadaan posisi kepala terlihat. Aksi saling menyerahkan dokumen memperlihatkan banyak transaksi tanpa membutuhkan tombol atau alat rekaan."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_02"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Generate asset_02 dan pilih output dengan enam tangan natural, amplop menempel pada meja, serta meja bundar tanpa posisi kepala."
+        },
+        {
+          "step": 2,
+          "action": "CROP",
+          "instruction": "Tempatkan meja pada kiri bawah dan pertahankan kanan 40 persen bersih untuk copy."
+        },
+        {
+          "step": 3,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang jawaban langsung di kanan atas dan explanation di bawahnya dengan perbedaan ukuran yang jelas."
+        },
+        {
+          "step": 4,
+          "action": "REVIEW",
+          "instruction": "Pastikan slide dapat menjawab cover tanpa bantuan core_message dan tidak menyiratkan bahwa amplop adalah mata uang literal."
+        }
+      ]
+    },
+    {
+      "id": "slide_03",
+      "index": 3,
+      "role": "actor_context",
+      "purpose": "Menjelaskan siapa yang bertransaksi dan kebutuhan apa yang membawa mereka ke pasar.",
+      "core_message": "Eksportir, importir, investor asing, dan pengirim uang lintas negara melakukan transaksi rupiah-dolar untuk kebutuhan yang berbeda.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "focal_statement",
+            "text": "Mereka datang dengan\nkebutuhan yang beda.",
+            "reading_order": 1,
+            "attention_priority": 1,
+            "typography": {
+              "scale": "LARGE",
+              "weight": "BOLD",
+              "alignment": "LEFT",
+              "color": "forest green",
+              "notes": "Condensed bold sans; heading harus membingkai alasan di dalam list."
+            },
+            "placement": "Kiri atas, lebar 47 persen.",
+            "relation_to_visual": "Heading mengarah ke aksi penyerahan paket di kanan."
+          },
+          {
+            "role": "list",
+            "text": "Eksportir menjual dolar untuk mendapat rupiah.\nImportir membeli dolar untuk membayar barang dari luar negeri.\nInvestor asing keluar-masuk saham atau obligasi Indonesia.\nKiriman uang lintas negara ikut menambah transaksi.",
+            "reading_order": 2,
+            "attention_priority": 2,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "MEDIUM",
+              "alignment": "LEFT",
+              "color": "charcoal",
+              "notes": "Neutral sans. Gunakan empat paragraf pendek tanpa icon."
+            },
+            "placement": "Kiri tengah hingga kiri bawah, lebar 48 persen.",
+            "relation_to_visual": "List menjelaskan kebutuhan para pelaku; foto hanya memberi satu konteks perdagangan yang nyata."
+          }
+        ]
+      },
+      "claim_ids": [
+        "claim_03",
+        "claim_04"
+      ],
+      "visual": {
+        "function": "CONTEXTUALIZE",
+        "primary": {
+          "concept": "Petugas logistik menerima paket di kantor pelabuhan dengan kontainer terlihat melalui jendela.",
+          "subject": "Satu petugas logistik, satu pelanggan, dan satu paket tersegel.",
+          "scene": "Kantor logistik pelabuhan yang modest dan digunakan sehari-hari.",
+          "composition": "Aksi handoff berada di kanan bawah; dinding kiri menjadi area headline dan empat poin.",
+          "framing": "Medium-wide eye-level dengan perspektif 40mm.",
+          "background": "Warm-gray wall di kiri dan jendela dengan kontainer soft focus di kanan.",
+          "lighting": "Natural window light yang terang tetapi tidak high-key.",
+          "negative_space": "Kiri 48 persen berupa dinding polos rendah kontras.",
+          "text_zone": "Kiri atas sampai kiri bawah, lebar 48 persen.",
+          "visual_hierarchy": "Heading, aksi penyerahan paket, empat penjelasan pelaku.",
+          "editing_treatment": "Grade warm neutral dengan forest-green wardrobe accent dan detail background yang lembut.",
+          "rationale": "Satu scene perdagangan yang masuk akal memberi konteks tanpa memaksakan empat profesi menjadi satu tableau simbolik. Copy membawa daftar lengkap."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_03"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Generate asset_03 dengan tepat dua orang dan satu paket utama. Pilih hasil yang memperlihatkan handoff serta konteks pelabuhan tanpa signage."
+        },
+        {
+          "step": 2,
+          "action": "CROP",
+          "instruction": "Jaga subjek di kanan bawah dan sisakan kiri 48 persen untuk heading serta empat poin."
+        },
+        {
+          "step": 3,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang heading sebagai framing, lalu empat poin dengan jarak konsisten. Jangan mengecilkan body untuk mempertahankan margin berlebihan."
+        },
+        {
+          "step": 4,
+          "action": "REVIEW",
+          "instruction": "Uji pada preview lebar 360 px. Pastikan setiap poin menghubungkan pelaku dengan kebutuhannya dan scene tidak dibaca sebagai dokumentasi perusahaan nyata."
+        }
+      ]
+    },
+    {
+      "id": "slide_04",
+      "index": 4,
+      "role": "mechanism",
+      "purpose": "Menjelaskan mengapa perubahan transaksi dapat diikuti perubahan kurs dalam sistem nilai tukar mengambang.",
+      "core_message": "Dalam sistem nilai tukar mengambang, rupiah bergerak mengikuti kekuatan pasar dan tidak dipatok pada satu angka.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "context",
+            "text": "Indonesia memakai sistem kurs mengambang sejak krisis 1998.",
+            "reading_order": 1,
+            "attention_priority": 3,
+            "typography": {
+              "scale": "SMALL",
+              "weight": "SEMIBOLD",
+              "alignment": "RIGHT",
+              "color": "warm white",
+              "notes": "Neutral sans. Klaim tahun perlu verifikasi sebelum publikasi."
+            },
+            "placement": "Kanan atas, lebar 43 persen.",
+            "relation_to_visual": "Context ditempatkan pada langit kosong di atas dermaga."
+          },
+          {
+            "role": "focal_statement",
+            "text": "Transaksi berubah.\nKurs ikut bergerak.",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {
+              "scale": "LARGE",
+              "weight": "BOLD",
+              "alignment": "RIGHT",
+              "color": "warm white",
+              "notes": "Condensed bold sans dengan dua baris seimbang."
+            },
+            "placement": "Kanan atas hingga kanan tengah, lebar 44 persen.",
+            "relation_to_visual": "Massa teks menyeimbangkan dermaga miring di kiri bawah."
+          },
+          {
+            "role": "explanation",
+            "text": "Artinya, rupiah mengikuti kekuatan pasar dan tidak dipatok kaku pada satu harga. Banyak transaksi tadi bertemu, lalu angka kurs bergerak bersama pasar.",
+            "reading_order": 3,
+            "attention_priority": 2,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "MEDIUM",
+              "alignment": "RIGHT",
+              "color": "warm white",
+              "notes": "Neutral sans; gunakan kolom yang cukup lebar agar tidak menjadi paragraf kurus."
+            },
+            "placement": "Kanan tengah hingga kanan bawah, lebar 45 persen.",
+            "relation_to_visual": "Explanation menerangkan hubungan yang divisualkan oleh perubahan beban pada dermaga apung."
+          }
+        ]
+      },
+      "claim_ids": [
+        "claim_02",
+        "claim_05"
+      ],
+      "visual": {
+        "function": "SYMBOLIZE",
+        "primary": {
+          "concept": "Lima orang berdiri tersebar pada dermaga apung yang sedikit miring dengan ponton dan waterline terlihat.",
+          "subject": "Lima orang kecil di atas satu dermaga apung.",
+          "scene": "Danau tenang saat dusk dengan shoreline dan horizon yang jelas.",
+          "composition": "Dermaga berada di kiri bawah; copy tersusun vertikal pada langit dan air tenang di kanan.",
+          "framing": "Wide shot dari shoreline sedikit tinggi dengan perspektif 35mm.",
+          "background": "Pale sky, calm water, dan horizon level.",
+          "lighting": "Restrained blue-peach dusk dengan refleksi natural.",
+          "negative_space": "Kanan atas hingga kanan bawah 46 persen rendah kontras.",
+          "text_zone": "Kanan 45 persen, rata kanan.",
+          "visual_hierarchy": "Focal statement, kemiringan dermaga, explanation, context.",
+          "editing_treatment": "Pertahankan warna sinematik lembut, horizon bersih, dan ukuran manusia kecil.",
+          "rationale": "Dermaga apung adalah benda nyata dengan mekanisme yang mudah dikenali. Perubahan posisi orang memengaruhi permukaannya tanpa membutuhkan alat rekaan atau diagram."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_04"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Generate asset_04 dan pilih hasil yang memperlihatkan ponton, waterline, posisi lima orang, serta kemiringan ringan secara masuk akal."
+        },
+        {
+          "step": 2,
+          "action": "CROP",
+          "instruction": "Pertahankan dermaga pada kiri bawah dan area kanan 46 persen bebas dari kepala, garis horizon, atau pantulan berkontras tinggi."
+        },
+        {
+          "step": 3,
+          "action": "ADD_TEXT",
+          "instruction": "Susun context kecil, focal statement, lalu explanation pada area kanan. Beri jarak yang cukup antarblock."
+        },
+        {
+          "step": 4,
+          "action": "REVIEW",
+          "instruction": "Verifikasi klaim sistem kurs mengambang sejak 1998 dan pastikan metafora dermaga tidak dipresentasikan sebagai model teknis pembentukan kurs."
+        }
+      ]
+    },
+    {
+      "id": "slide_05",
+      "index": 5,
+      "role": "reference_rate_distinction",
+      "purpose": "Membedakan angka referensi Bank Indonesia dari tindakan menetapkan harga pasar.",
+      "core_message": "Kurs referensi Bank Indonesia membaca transaksi yang sudah terjadi, bukan menciptakan harga pasar sesuka hati.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "label",
+            "text": "PERAN BI, BAGIAN 1",
+            "reading_order": 1,
+            "attention_priority": 3,
+            "typography": {
+              "scale": "SMALL",
+              "weight": "BOLD",
+              "alignment": "RIGHT",
+              "color": "emerald green",
+              "notes": "Neutral sans uppercase."
+            },
+            "placement": "Kanan atas, lebar 43 persen.",
+            "relation_to_visual": "Label berada di warm-white wall, terpisah dari tangan perawat."
+          },
+          {
+            "role": "focal_statement",
+            "text": "Kurs referensi itu\nHASIL CEK,\nbukan tombol pengatur.",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {
+              "scale": "LARGE",
+              "weight": "BOLD",
+              "alignment": "RIGHT",
+              "color": "forest green",
+              "notes": "Condensed bold sans pada HASIL CEK; baris lain neutral sans semibold."
+            },
+            "placement": "Kanan atas hingga kanan tengah, lebar 44 persen.",
+            "relation_to_visual": "Headline menghadap tindakan pemeriksaan tekanan darah di kiri."
+          },
+          {
+            "role": "explanation",
+            "text": "Bank Indonesia menerbitkan angka referensi harian dari transaksi yang sudah terjadi. Jadi, angka itu membantu membaca keadaan pasar, bukan memilih harga sesuka hati.",
+            "reading_order": 3,
+            "attention_priority": 2,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "MEDIUM",
+              "alignment": "RIGHT",
+              "color": "charcoal",
+              "notes": "Neutral sans, maksimal tujuh baris pada layout final."
+            },
+            "placement": "Kanan tengah hingga kanan bawah, lebar 45 persen.",
+            "relation_to_visual": "Body menjelaskan bahwa tindakan ukur tidak sama dengan tindakan mengatur."
+          }
+        ]
+      },
+      "claim_ids": [
+        "claim_06",
+        "claim_08"
+      ],
+      "visual": {
+        "function": "SYMBOLIZE",
+        "primary": {
+          "concept": "Perawat memasang manset tekanan darah yang terhubung ke alat ukur standar pada first jobber yang duduk.",
+          "subject": "Satu perawat, satu first jobber, satu manset, dan satu gauge manual yang terhubung.",
+          "scene": "Ruang klinik sederhana dengan meja pemeriksaan nyata.",
+          "composition": "Tindakan pemeriksaan mengisi kiri bawah; copy rata kanan memakai dinding warm white.",
+          "framing": "Medium close-up eye-level dengan perspektif 50mm.",
+          "background": "Warm-white clinic wall dan stainless examination tray.",
+          "lighting": "Bright soft daylight dengan shadow lembut.",
+          "negative_space": "Kanan 45 persen berupa dinding polos.",
+          "text_zone": "Kanan atas sampai kanan bawah, rata kanan.",
+          "visual_hierarchy": "HASIL CEK, tangan dan manset, explanation, label.",
+          "editing_treatment": "Jaga clinical look bersih, natural skin texture, dan cuff forest green sebagai accent.",
+          "rationale": "Pemeriksaan tekanan darah adalah tindakan ukur yang dikenal. Seluruh alat terhubung dan dipakai secara nyata, sehingga analogi tidak bergantung pada mesin rekaan."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_05"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Generate asset_05 dan pilih hasil dengan cuff, tube, serta gauge yang terlihat seperti alat pemeriksaan standar dan terhubung secara fisik."
+        },
+        {
+          "step": 2,
+          "action": "CROP",
+          "instruction": "Jaga tangan perawat dan cuff di kiri; pertahankan dinding kanan tetap kosong untuk tiga block copy."
+        },
+        {
+          "step": 3,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang label, focal statement, dan explanation dengan HASIL CEK sebagai accent terbesar."
+        },
+        {
+          "step": 4,
+          "action": "REVIEW",
+          "instruction": "Verifikasi nama dan definisi resmi kurs referensi sebelum publikasi. Pastikan visual terbaca sebagai analogi, bukan klaim bahwa BI melakukan pemeriksaan medis."
+        }
+      ]
+    },
+    {
+      "id": "slide_06",
+      "index": 6,
+      "role": "intervention_explanation",
+      "purpose": "Menjelaskan bahwa Bank Indonesia dapat bertindak saat gejolak berlebihan tanpa menjamin satu angka kurs.",
+      "core_message": "Bank Indonesia dapat menjual atau membeli dolar untuk meredam gejolak, tetapi tidak menentukan hasil akhir pasar.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "label",
+            "text": "PERAN BI, BAGIAN 2",
+            "reading_order": 1,
+            "attention_priority": 3,
+            "typography": {
+              "scale": "SMALL",
+              "weight": "BOLD",
+              "alignment": "LEFT",
+              "color": "emerald green",
+              "notes": "Neutral sans uppercase."
+            },
+            "placement": "Kiri atas, lebar 45 persen.",
+            "relation_to_visual": "Label berada pada dinding dark teal yang kosong."
+          },
+          {
+            "role": "focal_statement",
+            "text": "BI bisa turun tangan,\ntapi bukan menentukan pemenang.",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {
+              "scale": "LARGE",
+              "weight": "BOLD",
+              "alignment": "LEFT",
+              "color": "warm white",
+              "notes": "Condensed bold sans dengan emphasis pada turun tangan."
+            },
+            "placement": "Kiri atas hingga kiri tengah, lebar 47 persen.",
+            "relation_to_visual": "Headline menghadap wasit di kanan."
+          },
+          {
+            "role": "explanation",
+            "text": "Saat gerak pasar terlalu liar, BI bisa menjual atau membeli dolar dari cadangan devisa untuk meredam gejolak. Mirip wasit yang memberi kartu saat permainan terlalu kasar, bukan menentukan skor akhir.",
+            "reading_order": 3,
+            "attention_priority": 2,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "MEDIUM",
+              "alignment": "LEFT",
+              "color": "warm white",
+              "notes": "Neutral sans, gunakan lebar kolom penuh dan line height nyaman."
+            },
+            "placement": "Kiri tengah hingga kiri bawah, lebar 48 persen.",
+            "relation_to_visual": "Body menjelaskan aksi kartu yang terlihat pada scene."
+          }
+        ]
+      },
+      "claim_ids": [
+        "claim_07",
+        "claim_09"
+      ],
+      "visual": {
+        "function": "SYMBOLIZE",
+        "primary": {
+          "concept": "Wasit futsal mengangkat kartu ketika dua pemain berhenti dengan bola diam di antara mereka.",
+          "subject": "Satu wasit Indonesia, dua pemain, satu bola, dan satu kartu kuning.",
+          "scene": "Lapangan futsal indoor minimal tanpa crowd atau identitas tim.",
+          "composition": "Wasit berada di kanan foreground, pemain di kanan tengah, dan seluruh kiri menjadi text zone.",
+          "framing": "Medium full-body eye-level dengan perspektif 50mm.",
+          "background": "Dark teal wall dan court floor yang rendah kontras.",
+          "lighting": "Restrained side light dengan court reflection tipis.",
+          "negative_space": "Kiri 47 persen tanpa pemain, bola, atau garis court berkontras tinggi.",
+          "text_zone": "Kiri atas sampai kiri bawah, lebar 48 persen.",
+          "visual_hierarchy": "Headline, kartu dan wasit, explanation, dua pemain, label.",
+          "editing_treatment": "Wasit tajam, pemain sedikit lebih lembut, warna jersey forest green dan muted blue tanpa logo.",
+          "rationale": "Aksi wasit dan kartu sudah memiliki fungsi yang dikenal. Tidak ada map atau properti pasar yang dipaksakan ke lapangan."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_06"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Generate asset_06 dan pilih hasil dengan tepat tiga orang, satu kartu, satu bola, serta floor plane yang konsisten."
+        },
+        {
+          "step": 2,
+          "action": "CROP",
+          "instruction": "Pertahankan wasit pada kanan sepertiga dan lindungi kiri 47 persen untuk tiga block copy."
+        },
+        {
+          "step": 3,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang label kecil, focal statement, lalu explanation. Jangan mengecilkan explanation demi headline."
+        },
+        {
+          "step": 4,
+          "action": "REVIEW",
+          "instruction": "Periksa bahwa analogi tidak menyiratkan BI menentukan pemenang atau dapat menghapus seluruh volatilitas. Verifikasi mekanisme intervensi melalui sumber resmi."
+        }
+      ]
+    },
+    {
+      "id": "slide_07",
+      "index": 7,
+      "role": "action_close",
+      "purpose": "Memberi langkah sederhana agar audiens tidak langsung panik atau mencari satu pihak untuk disalahkan.",
+      "core_message": "Saat melihat berita rupiah bergerak, cek kurs referensi Bank Indonesia dan ingat bahwa angka tersebut mencerminkan transaksi pasar.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "label",
+            "text": "P3K KETIKA LIHAT BERITA KURS",
+            "reading_order": 1,
+            "attention_priority": 2,
+            "typography": {
+              "scale": "SMALL",
+              "weight": "BOLD",
+              "alignment": "LEFT",
+              "color": "emerald green",
+              "notes": "Neutral sans uppercase."
+            },
+            "placement": "Kiri atas, lebar 48 persen.",
+            "relation_to_visual": "Label berada pada warm-white wall dan membuka reading order."
+          },
+          {
+            "role": "focal_statement",
+            "text": "Jangan buru-buru cari\nsatu kambing hitam.",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {
+              "scale": "LARGE",
+              "weight": "BOLD",
+              "alignment": "LEFT",
+              "color": "forest green",
+              "notes": "Condensed bold sans, dua baris."
+            },
+            "placement": "Kiri atas hingga kiri tengah, lebar 49 persen.",
+            "relation_to_visual": "Headline berseberangan dengan first jobber yang membaca ponsel."
+          },
+          {
+            "role": "list",
+            "text": "1. Cek kurs referensi harian BI.\n2. Ingat, angka itu merangkum transaksi pasar.\n3. Baru baca konteks pergerakannya dengan kepala dingin.",
+            "reading_order": 3,
+            "attention_priority": 2,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "MEDIUM",
+              "alignment": "LEFT",
+              "color": "charcoal",
+              "notes": "Neutral sans. Angka menjadi line starter tanpa icon tambahan."
+            },
+            "placement": "Kiri tengah hingga kiri bawah, lebar 50 persen.",
+            "relation_to_visual": "List berhenti sebelum tepi meja dan tidak menutup tangan atau ponsel."
+          }
+        ]
+      },
+      "claim_ids": [
+        "claim_01",
+        "claim_02",
+        "claim_06"
+      ],
+      "visual": {
+        "function": "DEMONSTRATE",
+        "primary": {
+          "concept": "First jobber membaca informasi pada ponsel di meja sarapan dengan notebook kosong di sampingnya.",
+          "subject": "Satu first jobber Indonesia, satu ponsel, satu notebook, satu cup, dan satu plate.",
+          "scene": "Sudut makan kos atau apartemen sederhana pada pagi hari.",
+          "composition": "Subjek dan meja berada di kanan bawah; copy mengisi dinding kiri dari atas sampai bawah tengah.",
+          "framing": "Medium-wide eye-level dengan perspektif 50mm.",
+          "background": "Warm-white wall tanpa dekorasi, simple breakfast table.",
+          "lighting": "Soft natural morning light dari kiri.",
+          "negative_space": "Kiri 48 sampai 50 persen berupa dinding polos.",
+          "text_zone": "Kiri atas sampai kiri bawah, lebar 50 persen.",
+          "visual_hierarchy": "Headline, wajah dan ponsel, tiga langkah, label.",
+          "editing_treatment": "Grade terang natural, forest-green cup sebagai accent, tanpa motif meter atau properti medis.",
+          "rationale": "Scene menunjukkan tindakan yang dapat dilakukan hari itu juga. Properti hanya mendukung aktivitas sarapan dan membaca, bukan menjadi simbol tambahan."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": [
+        "asset_07"
+      ],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Generate asset_07 dan pilih hasil dengan satu orang, pose membaca natural, layar tidak terbaca, serta dinding kiri yang benar-benar bersih."
+        },
+        {
+          "step": 2,
+          "action": "CROP",
+          "instruction": "Posisikan subjek di kanan bawah dan sisakan kiri 50 persen untuk label, headline, serta tiga langkah."
+        },
+        {
+          "step": 3,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang label, focal statement, lalu tiga langkah. Jaga setiap langkah sebagai satu unit baca yang jelas."
+        },
+        {
+          "step": 4,
+          "action": "REVIEW",
+          "instruction": "Uji pada preview lebar 360 px. Pastikan langkah pertama menyebut sumber resmi Bank Indonesia tanpa menampilkan akronim yang belum diverifikasi."
+        }
+      ]
+    }
+  ],
+  "caption": {
+    "text": "Kurs rupiah bukan hasil satu orang pencet tombol. Banyak transaksi membentuk harganya, BI menerbitkan angka referensi dan bisa masuk saat gejolak terlalu liar. Sebelum menyalahkan satu pihak, cek angkanya dan baca konteksnya dulu.\n\nBukan Saran Keuangan Profesional (Not Financial Advice).",
+    "function": "MIXED"
+  },
+  "warnings": [
+    {
+      "code": "PROVENANCE_INCOMPLETE",
+      "severity": "WARNING",
+      "message": "Material berasal dari transcript YouTube Short pihak ketiga, tetapi identitas kreator, URL, tanggal publikasi, dan sumber primer belum tercatat.",
+      "recommendation": "Lengkapi provenance dan cocokkan setiap klaim faktual dengan sumber resmi sebelum status human review diubah menjadi APPROVED."
+    },
+    {
+      "code": "REFERENCE_TERM_UNVERIFIED",
+      "severity": "WARNING",
+      "message": "Transcript menulis nama kurs referensi Bank Indonesia sebagai 'Gisdor', yang tampak seperti salah transkripsi. Output tidak menggunakan akronim tersebut.",
+      "affected_slide_ids": [
+        "slide_05",
+        "slide_07"
+      ],
+      "recommendation": "Verifikasi nama, ejaan, formula, waktu pengumpulan transaksi, dan definisi resmi melalui publikasi Bank Indonesia."
+    },
+    {
+      "code": "OFFICIAL_VERIFICATION_PENDING",
+      "severity": "WARNING",
+      "message": "Klaim mengenai sistem nilai tukar mengambang sejak 1998, kurs referensi, dan mekanisme intervensi hanya ditopang transcript pihak ketiga pada run ini.",
+      "affected_slide_ids": [
+        "slide_04",
+        "slide_05",
+        "slide_06"
+      ],
+      "recommendation": "Bandingkan klaim dengan sumber resmi Bank Indonesia sebelum produksi."
+    },
+    {
+      "code": "DEVELOPMENT_CONTENT_ONLY",
+      "severity": "WARNING",
+      "message": "Run ini memakai materi pihak lain untuk menguji engine. Copy telah ditulis ulang, tetapi brief belum layak dipublikasikan sebelum provenance dan hak penggunaan diperiksa.",
+      "recommendation": "Gunakan brief sebagai bahan development. Untuk publikasi, gunakan riset sendiri atau sumber dengan hak penggunaan yang jelas."
+    },
+    {
+      "code": "MOBILE_LAYOUT_VALIDATION_PENDING",
+      "severity": "WARNING",
+      "message": "Image dan layout final belum dibuat. Slide dengan body atau list perlu diuji pada preview lebar 360 px.",
+      "affected_slide_ids": [
+        "slide_02",
+        "slide_03",
+        "slide_04",
+        "slide_05",
+        "slide_06",
+        "slide_07"
+      ],
+      "recommendation": "Sesuaikan text zone, crop, atau line break jika perlu. Jangan menghapus bridge penjelasan atau mengecilkan body di bawah ukuran nyaman."
+    }
+  ],
+  "qa": {
+    "overall_status": "PASS_WITH_WARNING",
+    "dimensions": {
+      "objective": {
+        "status": "PASS",
+        "notes": "Objective dipertahankan. Carousel menjelaskan pembentukan kurs, kurs referensi, dan intervensi Bank Indonesia dalam satu alur."
+      },
+      "factual": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Tidak ada angka, prediksi, atau penyebab pelemahan baru. Klaim faktual tetap mengikuti material, tetapi sumber resmi belum tersedia.",
+        "warning_codes": [
+          "PROVENANCE_INCOMPLETE",
+          "REFERENCE_TERM_UNVERIFIED",
+          "OFFICIAL_VERIFICATION_PENDING"
+        ]
+      },
+      "editorial": {
+        "status": "PASS",
+        "notes": "Satu takeaway dipertahankan. Materi dipilih untuk menjawab siapa yang membentuk kurs, bagaimana perannya dibedakan, dan apa yang dapat dilakukan pembaca."
+      },
+      "narrative": {
+        "status": "PASS",
+        "notes": "Setiap slide menjawab kebutuhan dari slide sebelumnya: pertanyaan, jawaban, pelaku dan kebutuhan, mekanisme, kurs referensi, intervensi, lalu tindakan."
+      },
+      "density": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Slide informasional mempertahankan bridge dan dapat dipahami tanpa core_message. Slide 3 sampai 7 tetap membutuhkan validasi layout pada ukuran ponsel.",
+        "warning_codes": [
+          "MOBILE_LAYOUT_VALIDATION_PENDING"
+        ]
+      },
+      "copy": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Hook conversational, heading membingkai supporting points, dan body menjelaskan hubungan yang sebelumnya hilang. Publikasi tetap menunggu pemeriksaan provenance.",
+        "warning_codes": [
+          "DEVELOPMENT_CONTENT_ONLY"
+        ]
+      },
+      "visual": {
+        "status": "PASS",
+        "notes": "Primary family adalah lifestyle editorial dengan conceptual human cinematic sebagai secondary. Cohesion datang dari restrained cinematic grade, forest-green accent, realistic material, dan dua-family typography. Variasi datang dari overhead, wide environmental, outdoor wide, clinical close-up, full-body court, posisi text zone, dan dominasi terang-gelap. Setiap scene memakai objek yang dikenali dan tidak membutuhkan alat rekaan."
+      },
+      "asset": {
+        "status": "PASS",
+        "notes": "Semua asset adalah generic photorealistic scenes yang sesuai untuk AI generation. Prompt menetapkan jumlah subjek, posisi, skala, hubungan fisik, kamera, text-safe area, dan negative constraints."
+      },
+      "production": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Instruksi per slide menentukan generation, crop, penempatan copy, dan checkpoint review. Layout final tetap perlu diuji pada lebar 360 px.",
+        "warning_codes": [
+          "MOBILE_LAYOUT_VALIDATION_PENDING"
+        ]
+      },
+      "source": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Semua factual claims terhubung ke src_transcript dan material terkait, tetapi provenance dan sumber primer belum lengkap.",
+        "warning_codes": [
+          "PROVENANCE_INCOMPLETE",
+          "REFERENCE_TERM_UNVERIFIED",
+          "OFFICIAL_VERIFICATION_PENDING",
+          "DEVELOPMENT_CONTENT_ONLY"
+        ]
+      },
+      "brand": {
+        "status": "PASS",
+        "notes": "Output memakai bahasa sehari-hari, analogi pemeriksaan dan wasit, P3K yang dapat dilakukan hari ini, forest-green accent, negative space, serta disclaimer wajib. Tidak ada prediksi, trading, financial shaming, atau janji keuntungan."
+      }
+    }
+  }
+}

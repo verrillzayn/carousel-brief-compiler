@@ -133,6 +133,30 @@ Boleh dihasilkan jika merupakan konsekuensi langsung dari fakta yang tersedia.
 
 Boleh dibuat untuk membantu komunikasi, selama tidak disajikan sebagai fakta.
 
+Material membatasi apa yang boleh dinyatakan sebagai kebenaran. Material tidak membatasi engine untuk menjelaskan kebenaran tersebut dengan bahasa yang lebih mudah dipahami.
+
+Transformasi yang diperbolehkan mencakup:
+
+```text
+menulis kalimat penghubung
+menjelaskan hubungan yang langsung mengikuti material
+menambahkan relevansi atau implication yang dapat diturunkan
+mengubah urutan penjelasan
+membuat analogi atau hypothetical example yang jelas
+```
+
+Transformasi tersebut tidak boleh menambahkan:
+
+```text
+angka baru
+entitas baru
+mekanisme baru
+hubungan sebab-akibat yang tidak didukung
+contoh faktual yang seolah benar-benar terjadi
+```
+
+Research adalah batas evidence, bukan transcript yang harus diterjemahkan kalimat demi kalimat. Copy boleh berimprovisasi pada expression, structure, dan emphasis selama klasifikasi `FACT`, `DERIVED`, dan `CREATIVE` tetap jujur.
+
 ---
 
 # 5. Creativity Must Not Masquerade as Fact

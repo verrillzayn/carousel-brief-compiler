@@ -153,7 +153,7 @@ recurring anchor
 variation plan
 ```
 
-Catat visual grammar ini pada item pertama `production.global_instructions` dengan action `SETUP`. Reviewer tidak seharusnya menebak art direction dari tujuh deskripsi slide yang terpisah.
+Gunakan visual grammar ini sebagai working plan internal. Terapkan hasilnya langsung pada `slides[].visual`, display-copy blocks, asset prompts, dan `slides[].production_instructions`. Jangan menyalinnya ke ringkasan output terpisah.
 
 Primary family membentuk identitas post. Secondary family hanya dipakai saat fungsi slide memang berubah. Untuk carousel 5 sampai 7 slide, satu atau dua keluarga biasanya cukup.
 
@@ -288,6 +288,35 @@ Hitam, putih, grayscale, cyan yang redup, dan warm neutral dapat menjadi bidang 
 
 Prompt image generator hanya membuat aset foto. Typography, nomor slide, label, body copy, dan metadata dibuat di design tool.
 
+## Scene coherence
+
+Scene konseptual boleh mustahil atau tidak lazim. Namun scene tetap membutuhkan logika visual yang terbaca.
+
+Gunakan prinsip berikut:
+
+```text
+satu keanehan utama
+environment atau bidang pijakan yang jelas
+skala dan perspektif yang konsisten
+objek utama yang langsung dikenali
+hubungan fisik antar-objek yang terlihat
+sedikit properti dengan fungsi yang dapat dijelaskan
+```
+
+Setiap objek harus menjawab tiga pertanyaan:
+
+```text
+Apa benda ini?
+Mengapa benda ini berada di scene tersebut?
+Apa hubungan yang terlihat antara benda ini, subjek, dan message?
+```
+
+Tolak konsep jika fungsi objek hanya dapat dipahami dari `rationale`. Hindari mesin, alat ukur, tombol, jalur, atau instalasi rekaan yang mekanismenya tidak langsung terbaca. Jangan menambahkan properti acak hanya untuk mempertahankan continuity. Cohesion dapat datang dari color grade, lighting, lens behavior, material, framing, dan type system.
+
+Surreal boleh. Arbitrer jangan. Scene yang menabrak realitas tetap harus memiliki satu dunia yang koheren.
+
+## Observable prompt rule
+
 Setiap prompt harus menetapkan:
 
 ```text
@@ -303,6 +332,35 @@ lighting
 color treatment
 continuity requirement
 negative constraints
+```
+
+Urutkan prompt dari hal yang paling menentukan hasil:
+
+```text
+canvas dan kebutuhan text-safe area
+environment
+jumlah dan identitas subjek atau objek
+posisi, skala, dan hubungan spasial
+action, gesture, contact, atau physical state
+foreground, middle ground, dan background
+camera distance, angle, dan lens behavior
+lighting dan color treatment
+mood atau aesthetic cue
+negative constraints
+```
+
+Prompt harus menerjemahkan maksud abstrak menjadi bukti yang dapat terlihat. Kata seperti `feel`, `suggest`, `symbolize`, `sensitive`, `alive`, `calm`, atau `witty` boleh menjadi arahan sekunder, tetapi tidak boleh menggantikan posisi, tindakan, ekspresi, kontak fisik, atau keadaan objek.
+
+Contoh lemah:
+
+```text
+The balance feels sensitive to many small actions.
+```
+
+Contoh yang dapat divisualisasikan:
+
+```text
+Four hands enter from separate frame edges. Two fingertips touch opposite ends of the board. The board tilts about ten degrees and one disc has shifted close to the edge.
 ```
 
 Untuk scene konseptual, jelaskan logika visualnya dalam brief. Jika hubungan image dan message tidak bisa diterangkan dalam satu atau dua kalimat, konsepnya kemungkinan terlalu kabur.
@@ -322,6 +380,9 @@ Apakah carousel punya satu art direction yang jelas?
 Apakah siluet layout antar-slide cukup berbeda?
 Apakah ada perubahan skala dan framing?
 Apakah gambar melakukan pekerjaan selain mendekorasi?
+Apakah scene tetap terbaca tanpa membaca rationale?
+Apakah setiap objek memiliki alasan yang terlihat untuk berada di scene?
+Apakah scene hanya memiliki satu keanehan utama dan dunia di sekelilingnya tetap koheren?
 Apakah ada visual stok generik atau simbol uang klise?
 Apakah negative space berada di lokasi yang dibutuhkan copy?
 Apakah type treatment sesuai dengan peran copy?

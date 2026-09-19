@@ -756,6 +756,16 @@ WHY slide B follows slide A
 
 Narrative tidak boleh hanya berupa sekumpulan fakta yang kebetulan berada dalam satu carousel.
 
+Untuk setiap perpindahan slide, engine harus dapat menyatakan dependency dalam satu kalimat:
+
+```text
+Slide A menimbulkan pertanyaan atau kebutuhan apa?
+Slide B menjawab bagian mana dari pertanyaan atau kebutuhan tersebut?
+Informasi apa yang hilang jika slide B dilewati?
+```
+
+Heading harus membingkai supporting points di bawahnya. Kesamaan topik tidak cukup. Jika heading mengatakan sesuatu yang terlalu umum sehingga poin-poin berikutnya dapat berarti banyak hal, revisi heading atau tambahkan bridge sebelum masuk ke daftar.
+
 ---
 
 # 26. Stage 5 Output
@@ -982,6 +992,8 @@ action
 
 Tidak setiap slide membutuhkan semua unsur. Tentukan unsur wajib dari role slide sebelum menulis copy.
 
+Engine boleh menulis bridge yang tidak muncul verbatim di source jika bridge tersebut merupakan `DERIVED` atau `CREATIVE` communication yang jujur. Bridge tidak boleh menambahkan angka, entitas, mekanisme, atau hubungan sebab-akibat baru. Gunakan material sebagai batas evidence, bukan sebagai transcript yang harus diterjemahkan kaku.
+
 Panduan diagnostic:
 
 ```text
@@ -1039,6 +1051,16 @@ or decorative slogan
 ```
 
 Revisi sebelum visual direction dikunci.
+
+Untuk slide dengan heading dan supporting points, lakukan heading-support test:
+
+```text
+Apakah heading menjelaskan hubungan antar-poin?
+Apakah body menjawab bagaimana, mengapa, atau apa artinya?
+Apakah poin-poin tersebut masih terasa loncat jika core_message disembunyikan?
+```
+
+Jika jawaban terakhir adalah ya, slide masih under-explained.
 
 ---
 
@@ -1153,6 +1175,19 @@ risk of misleading interpretation
 ```
 
 Visual yang menarik tetapi tidak berhubungan dengan message tidak otomatis dianggap baik.
+
+Jalankan scene-coherence gate untuk visual konseptual:
+
+```text
+Apakah subject dan environment langsung dikenali?
+Apakah setiap prop memiliki fungsi yang terlihat?
+Apakah posisi, skala, bidang pijakan, dan perspektif saling cocok?
+Apakah scene hanya membutuhkan satu keanehan utama?
+Apakah hubungan visual tetap terbaca tanpa rationale?
+Apakah fotografer dapat membangun atau mengarahkan scene ini dari brief yang tersedia?
+```
+
+Jika rationale harus menjelaskan fungsi alat, tombol, meter, jalur, atau instalasi yang tidak terlihat dari gambar, konsep belum resolved. Sederhanakan scene, pilih objek yang lebih dikenal, atau gunakan visual environmental daripada memaksakan metaphor.
 
 ---
 
@@ -1444,25 +1479,28 @@ Prompt berasal dari visual specification, bukan dibuat terpisah.
 
 # 58. Image Prompt Requirements
 
-Prompt dapat mencakup:
+Prompt harus menetapkan:
 
 ```text
-subject
-action
+canvas dan kebutuhan text-safe area
+subject count dan identity
+action, gesture, contact, atau physical state
 scene
-composition
-position
-framing
-camera
+position dan scale
+spatial relationship
+camera distance dan angle
 background
 lighting
 negative space
-text-safe area
 visual treatment
 undesired elements
 ```
 
 Prompt harus memperhitungkan final layout.
+
+Prompt menyebut intent abstrak hanya setelah memberikan bukti visual yang dapat dihasilkan. Jangan berhenti pada frasa seperti `feels sensitive`, `shows control`, `suggests many actors`, `looks calm`, atau `records movement`. Terjemahkan intent menjadi jumlah subjek, posisi, arah gerak, kontak fisik, ekspresi, tilt, jarak, depth plane, atau keadaan material.
+
+Untuk scene konseptual, prompt harus mempertahankan logika fisik yang ditetapkan pada visual plan. Jangan berharap image generator menciptakan sendiri mekanisme benda rekaan atau alasan sebuah properti berada di scene.
 
 ---
 
@@ -1482,26 +1520,9 @@ Pengecualian hanya jika text merupakan bagian alami dari photographed object dan
 
 ---
 
-# 60. Global Production Direction
+# 60. Apply Post-Level Direction Without Repeating It
 
-Engine menghasilkan instruction yang berlaku untuk seluruh carousel.
-
-Contoh:
-
-```text
-- nyatakan primary dan optional secondary visual family
-- nyatakan cohesion anchors dan variation axes
-- gunakan canvas 4:5
-- jaga visual hierarchy
-- hindari generated typography
-- pastikan text readability
-- pertahankan treatment cohesive
-- jangan memenuhi seluruh frame dengan asset
-```
-
-Global rule tidak perlu diulang pada setiap slide.
-
-Item `SETUP` pertama harus merangkum post-level visual grammar agar operator memahami alasan di balik variasi slide.
+Post-level visual grammar tetap menjadi working plan internal. Engine menerapkannya pada visual specification, display-copy blocks, asset prompt, dan production instruction setiap slide. Output tidak memuat global production instructions atau ringkasan lain yang mengulang keputusan tersebut.
 
 ---
 
@@ -1589,14 +1610,12 @@ Jika konsep sangat sulit diproduksi, simplify sebelum compilation.
 ```text
 PRODUCTION PLAN
 │
-├── global production direction
-│
 └── slides
     ├── final copy
     ├── visual specification
     ├── asset strategy
     ├── asset requirement
-    ├── image prompt
+    ├── final image prompt
     └── production steps
 ```
 
@@ -1691,6 +1710,10 @@ Apakah setiap slide diperlukan?
 
 Apakah transition masuk akal?
 
+Apakah setiap slide menjawab pertanyaan yang muncul dari slide sebelumnya?
+
+Apakah heading benar-benar membingkai supporting points, bukan hanya berbagi topik yang sama?
+
 Apakah ending menyelesaikan promise cover?
 ```
 
@@ -1710,6 +1733,8 @@ Apakah layout berpotensi menjadi paragraph-heavy?
 Apakah slide informasional terlalu tipis untuk dipahami tanpa core_message atau caption?
 
 Apakah explanation, comparison, example, dan action slide hanya menjadi slogan?
+
+Apakah body mempertahankan bridge yang menjelaskan bagaimana, mengapa, atau apa artinya?
 ```
 
 Jika ya:
@@ -1731,6 +1756,12 @@ Pertanyaan:
 Apakah visual memperkuat message?
 
 Apakah metaphor mudah dipahami?
+
+Apakah scene tetap terbaca tanpa rationale?
+
+Apakah setiap prop memiliki fungsi yang terlihat dan masuk akal di dalam environment?
+
+Apakah scene konseptual memiliki satu keanehan utama, bukan kumpulan simbol acak?
 
 Apakah visual misleading?
 
@@ -1763,6 +1794,10 @@ Apakah production instruction cukup jelas?
 Apakah asset strategy realistis?
 
 Apakah prompt sesuai composition?
+
+Apakah prompt menjelaskan bukti visual yang dapat diamati, bukan hanya intent atau mood?
+
+Apakah posisi, skala, hubungan spasial, dan tindakan subjek cukup resolved untuk dihasilkan?
 
 Apakah operator masih harus mengambil fundamental creative decision?
 ```

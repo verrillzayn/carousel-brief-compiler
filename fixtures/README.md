@@ -238,6 +238,22 @@ Ia bukan permanent brand truth.
 
 ---
 
+# Manual research regression
+
+`manual-research/004-siapa-menentukan-kurs-rupiah.json` menguji behavior yang ditemukan dari review manusia terhadap run development. Fokusnya adalah:
+
+```text
+narrative bridge
+copy sufficiency
+scene coherence
+prompt observability
+source warning
+```
+
+Expected behavior berada di `expected-behavior/manual-research/004-siapa-menentukan-kurs-rupiah.expected.json`. Test ini tidak menetapkan wording atau visual exact. Ia memastikan engine tidak kembali menghasilkan slogan tipis, hubungan slide yang loncat, objek konseptual yang hanya masuk akal lewat rationale, atau prompt yang menggantikan tata letak dengan kata `feel`.
+
+---
+
 # Mock Sources
 
 Sebagian fixture menggunakan mock/internal sources.
@@ -285,5 +301,5 @@ Fixture boleh berubah jika:
 
 Jika perubahan signifikan dilakukan, catat alasannya.
 
-Visual context pada dense, numerical, conflicting, dan insufficient direvisi mengikuti production model image + text. Material, objective, dan tujuan editorial masing-masing tetap sama. Fixture sengaja tidak meminta style khusus agar default photorealistic dapat diuji. Input schema_version tetap 0.1.0; output contract kini 0.3.0. Semua fixture aktif memakai master canvas 4:5, 1080 × 1350 px.
+Visual context pada dense, numerical, conflicting, dan insufficient direvisi mengikuti production model image + text. Material, objective, dan tujuan editorial masing-masing tetap sama. Fixture sengaja tidak meminta style khusus agar default photorealistic dapat diuji. Input schema_version tetap 0.1.0; output contract kini 0.4.0. Semua fixture aktif memakai master canvas 4:5, 1080 × 1350 px.
 

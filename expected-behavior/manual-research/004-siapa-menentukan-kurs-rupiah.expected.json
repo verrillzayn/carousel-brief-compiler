@@ -1,0 +1,103 @@
+{
+  "fixture": "fixtures/manual-research/004-siapa-menentukan-kurs-rupiah.json",
+  "purpose": "Menguji narrative bridge, copy sufficiency, scene coherence, dan prompt observability pada materi kurs rupiah dengan source yang belum lengkap.",
+  "expected_status": "NEEDS_REVIEW",
+
+  "must": [
+    {
+      "id": "KURS_001",
+      "assertion": "Carousel harus mempertahankan tiga lapis penjelasan: transaksi banyak pelaku membentuk kurs, Bank Indonesia menerbitkan kurs referensi, dan Bank Indonesia dapat meredam gejolak tanpa menetapkan kurs sesuka hati."
+    },
+    {
+      "id": "KURS_002",
+      "assertion": "Cover harus memakai pertanyaan langsung dan conversational tentang siapa yang menentukan harga atau kurs rupiah. Wording exact tetap fleksibel."
+    },
+    {
+      "id": "KURS_003",
+      "assertion": "Slide setelah cover harus memberikan jawaban yang jelas bahwa tidak ada satu orang atau satu tombol yang menentukan kurs dan bahwa banyak transaksi membentuknya."
+    },
+    {
+      "id": "KURS_004",
+      "assertion": "Penjelasan pelaku pasar harus menghubungkan eksportir, importir, investor asing, dan kiriman lintas negara dengan kebutuhan transaksi mereka. Heading tidak boleh berhenti pada gagasan generik bahwa pasar ramai."
+    },
+    {
+      "id": "KURS_005",
+      "assertion": "Setiap slide informasional harus dapat dipahami tanpa membaca core_message, purpose, caption, atau production notes. Body mempertahankan bridge yang dibutuhkan untuk menjelaskan bagaimana, mengapa, atau apa artinya."
+    },
+    {
+      "id": "KURS_006",
+      "assertion": "Urutan slide harus memiliki dependency yang jelas dari pertanyaan, jawaban, pelaku dan kebutuhan transaksi, sistem kurs mengambang, kurs referensi, intervensi, lalu tindakan pembaca."
+    },
+    {
+      "id": "KURS_007",
+      "assertion": "Setiap scene konseptual harus tetap terbaca tanpa rationale, memakai objek yang dikenali, memiliki environment serta hubungan spasial yang jelas, dan membatasi diri pada satu keanehan utama."
+    },
+    {
+      "id": "KURS_008",
+      "assertion": "Prompt AI harus menjelaskan jumlah dan identitas subjek, posisi, skala, hubungan spasial, action atau physical state, camera distance dan angle, serta text-safe area dengan bukti visual yang dapat diamati."
+    },
+    {
+      "id": "KURS_009",
+      "assertion": "Visual harus menyediakan background yang cukup tenang dan subjek yang cukup kecil agar seluruh copy dapat dibaca tanpa menutup focal object."
+    },
+    {
+      "id": "KURS_010",
+      "assertion": "Output harus menandai provenance yang belum lengkap, istilah kurs referensi yang belum terverifikasi, dan kebutuhan verifikasi klaim faktual sebelum publikasi."
+    }
+  ],
+
+  "must_not": [
+    {
+      "id": "KURS_N001",
+      "assertion": "Engine tidak boleh menambahkan angka, prediksi kurs, penyebab pelemahan, mekanisme pasar, atau fakta kelembagaan yang tidak tersedia dalam material."
+    },
+    {
+      "id": "KURS_N002",
+      "assertion": "Engine tidak boleh memakai heading generik yang hanya berbagi topik dengan list di bawahnya tetapi tidak menjelaskan hubungan antar-poin."
+    },
+    {
+      "id": "KURS_N003",
+      "assertion": "Engine tidak boleh memakai conceptual object jika identitas, setting, fungsi, atau hubungan fisiknya tidak terlihat dan maknanya baru muncul setelah membaca rationale. Contohnya tombol tanpa konteks atau alat rekaan tanpa mekanisme yang terbaca."
+    },
+    {
+      "id": "KURS_N004",
+      "assertion": "Engine tidak boleh mengulang map, keping, meter, atau properti lain pada scene yang tidak membutuhkannya hanya untuk continuity."
+    },
+    {
+      "id": "KURS_N005",
+      "assertion": "Prompt tidak boleh memakai intent abstrak seperti feel sensitive, suggests many actors, looks calm, atau records movement sebagai pengganti posisi, tindakan, gesture, contact, atau keadaan objek."
+    },
+    {
+      "id": "KURS_N006",
+      "assertion": "Engine tidak boleh menyalin hook, urutan kalimat, atau CTA prediksi dari transcript sumber."
+    }
+  ],
+
+  "should": [
+    {
+      "id": "KURS_S001",
+      "assertion": "Jumlah slide sebaiknya berada dalam preferred range 6-7 selama setiap unit pemahaman tetap utuh."
+    },
+    {
+      "id": "KURS_S002",
+      "assertion": "Visual sebaiknya memakai scene-first editorial photography dengan restrained cinematic treatment, banyak negative space, dan sedikit objek."
+    },
+    {
+      "id": "KURS_S003",
+      "assertion": "Cohesion sebaiknya datang dari color grade, lighting, lens behavior, material, margin logic, dan type system daripada pengulangan properti literal."
+    },
+    {
+      "id": "KURS_S004",
+      "assertion": "Copy informasional boleh lebih panjang daripada run sebelumnya jika tambahan tersebut memperjelas hubungan dan tidak berubah menjadi artikel."
+    }
+  ],
+
+  "flexible": [
+    "display_copy_wording",
+    "visual_concept_per_slide",
+    "visual_family_selection",
+    "composition_per_slide",
+    "asset_strategy_per_slide",
+    "caption_wording"
+  ]
+}

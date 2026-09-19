@@ -577,7 +577,7 @@ Copy dan visual menjalani fit loop sebelum asset strategy dikunci. Komposisi har
 
 # Contract Version
 
-Input contract tetap `0.1.0`; output contract menjadi `0.3.0` untuk NEEDS_REVIEW maupun BLOCKED. Versi ini mengganti pola copy tetap `headline + supporting` dengan ordered display-copy blocks dan menghapus fallback visual dari output. Consumer harus membaca perbedaan `reading_order` dan `attention_priority`, lalu merender typography dan placement setiap block.
+Input contract tetap `0.1.0`; output contract menjadi `0.4.0` untuk NEEDS_REVIEW maupun BLOCKED. Versi ini menghapus `production.global_instructions` beserta wrapper `production`, lalu menghapus `assets[].generation.prompt_spec`. Consumer memakai `slides[].production_instructions` untuk langkah eksekusi dan `assets[].generation.prompt` untuk prompt final. Detail visual terstruktur tetap tersedia pada slide, jadi tidak perlu disalin ke prompt spec.
 
 Seluruh hasil dan evaluasi yang sudah ada di `runs/` dan `evaluation-result/` adalah arsip contract lama. File tersebut tidak diedit atau dijalankan ulang saat contract berubah.
 
@@ -737,6 +737,8 @@ Jika slide membutuhkan AI-generated asset, production brief harus menyediakan pr
 
 Image prompt berasal dari visual specification.
 
+Output hanya menyimpan prompt final pada `assets[].generation.prompt`. Field visual terstruktur pada slide menjadi sumber penyusunan prompt dan tidak disalin lagi ke `prompt_spec`.
+
 Prompt harus mempertimbangkan kebutuhan layout carousel, termasuk:
 
 * subject position;
@@ -792,25 +794,9 @@ Engine tidak hard-code platform seperti Midjourney, ChatGPT, atau platform lainn
 
 ---
 
-# Production Instruction Levels
+# Production Instruction Scope
 
-Production instruction dibagi menjadi dua level.
-
-## Global Production Direction
-
-Berlaku untuk keseluruhan carousel.
-
-Contoh:
-
-```text
-- jangan generate typography utama di dalam image;
-- pertahankan treatment visual yang cohesive;
-- gunakan master canvas yang sama;
-- jaga readability;
-- gunakan visual hierarchy yang konsisten.
-```
-
-## Per-Slide Production Instructions
+Output hanya menyimpan per-slide production instructions. Aturan global berasal dari resolved context dan visual grammar internal, lalu diterapkan langsung pada visual, copy, prompt, dan instruksi slide tanpa ringkasan terpisah.
 
 Instruksi spesifik untuk setiap slide.
 

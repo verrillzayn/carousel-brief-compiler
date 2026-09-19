@@ -24,7 +24,6 @@
         "narrative",
         "claims",
         "assets",
-        "production",
         "slides",
         "caption",
         "warnings",
@@ -34,7 +33,7 @@
       "properties": {
         "schema_version": {
           "type": "string",
-          "const": "0.3.0"
+          "const": "0.4.0"
         },
 
         "status": {
@@ -65,10 +64,6 @@
           "items": {
             "$ref": "#/$defs/asset"
           }
-        },
-
-        "production": {
-          "$ref": "#/$defs/globalProduction"
         },
 
         "slides": {
@@ -119,7 +114,7 @@
       "properties": {
         "schema_version": {
           "type": "string",
-          "const": "0.3.0"
+          "const": "0.4.0"
         },
 
         "status": {
@@ -916,140 +911,14 @@
       "additionalProperties": false,
 
       "required": [
-        "prompt_spec",
         "prompt"
       ],
 
       "properties": {
-        "prompt_spec": {
-          "$ref": "#/$defs/promptSpec"
-        },
-
         "prompt": {
           "type": "string",
           "minLength": 1,
           "description": "Final ready-to-copy image generation prompt. Default to realistic/photorealistic imagery unless the input explicitly requests another style; education alone is not a style override."
-        }
-      }
-    },
-
-    "promptSpec": {
-      "type": "object",
-      "additionalProperties": false,
-
-      "required": [
-        "subject",
-        "composition"
-      ],
-
-      "properties": {
-        "subject": {
-          "type": "string",
-          "minLength": 1
-        },
-
-        "action": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-
-        "scene": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-
-        "composition": {
-          "type": "string",
-          "minLength": 1
-        },
-
-        "framing": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-
-        "camera": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-
-        "background": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-
-        "lighting": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-
-        "negative_space": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-
-        "text_safe_area": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-
-        "visual_treatment": {
-          "description": "Default is photorealistic, like a real photograph, unless input explicitly requests another style. Never infer illustration/cartoon/infographic style from an educational topic.",
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-
-        "constraints": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "minLength": 1
-          }
-        },
-
-        "avoid": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "minLength": 1
-          }
-        }
-      }
-    },
-
-    "globalProduction": {
-      "type": "object",
-      "additionalProperties": false,
-
-      "required": [
-        "global_instructions"
-      ],
-
-      "properties": {
-        "global_instructions": {
-          "type": "array",
-          "minItems": 1,
-          "items": {
-            "$ref": "#/$defs/productionInstruction"
-          }
         }
       }
     },

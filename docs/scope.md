@@ -704,27 +704,11 @@ OPERATIONALLY SPECIFIC
 
 ---
 
-# 27. Global vs Local Production Scope
+# 27. Per-Slide Production Scope
 
-Engine dapat memberikan dua jenis production instruction.
+Output hanya menyimpan production instruction yang berlaku untuk slide tertentu. Aturan post-level seperti canvas, typography behavior, common visual treatment, image-generation rules, dan cohesion rules berasal dari resolved context dan visual grammar internal. Terapkan aturan tersebut pada field slide yang relevan tanpa menyalinnya ke global production instructions.
 
-## Global
-
-Berlaku pada keseluruhan carousel.
-
-Contoh:
-
-* canvas;
-* typography behavior;
-* common visual treatment;
-* image-generation rules;
-* cohesion rules.
-
-## Per Slide
-
-Berlaku hanya untuk slide tertentu.
-
-Contoh:
+Contoh instruksi per slide:
 
 * asset yang harus dibuat;
 * positioning;
