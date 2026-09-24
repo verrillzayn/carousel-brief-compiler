@@ -1,0 +1,1067 @@
+[
+  {
+    "analysis": {
+      "canvas": {
+        "aspect_ratio": "4:5",
+        "orientation": "portrait",
+        "estimated_width": 512,
+        "estimated_height": 640
+      },
+      "full_text": {
+        "plain_text": "GLIMPSE.INC Jika anda telusuri lebih dalam, baik DAP/NP/NPK itu perlu dua bahan dasar, yaitu (1) Ammonia dan (2) Sulfur. Yang jadi masalah, supply sulfur saat ini terganggu. Hampir 50% supply sulfur di seaborne market itu lewat Hormuz. Gak kaget kalau terganggu. SULFUR CAUTION HAZARDOUS MATERIAL Like kalau suka Komen pendapatmu Bagikan konten ini Simpan kalau bermanfaat",
+        "reading_order_text": "GLIMPSE.INC | Jika anda telusuri lebih dalam, baik DAP/NP/NPK itu perlu dua bahan dasar, yaitu (1) Ammonia dan (2) Sulfur. Yang jadi masalah, supply sulfur saat ini terganggu. | Hampir 50% supply sulfur di seaborne market itu lewat Hormuz. Gak kaget kalau terganggu. | SULFUR / CAUTION HAZARDOUS MATERIAL | Like kalau suka | Komen pendapatmu | Bagikan konten ini | Simpan kalau bermanfaat",
+        "transcription_confidence": 0.94
+      },
+      "text_blocks": [
+        {
+          "id": "text_01",
+          "semantic_role": "brand",
+          "reading_order": 1,
+          "attention_priority": 4,
+          "text": "GLIMPSE.INC",
+          "lines": [
+            "GLIMPSE.INC"
+          ],
+          "position": "top_left",
+          "bounding_box": {
+            "x": 13,
+            "y": 5,
+            "width": 22,
+            "height": 4
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "semibold",
+            "font_style": "normal",
+            "size_category": "small",
+            "approximate_font_size_relative_to_canvas_height": 0.02,
+            "text_color": "#4A4A4A",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "slightly_tight"
+          },
+          "spans": [
+            {
+              "text": "GLIMPSE.INC",
+              "style": {
+                "font_weight": "semibold",
+                "font_style": "normal",
+                "color": "#4A4A4A",
+                "color_estimated": true,
+                "emphasis": [
+                  "uppercase"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [],
+            "same_alignment_axis_as": [
+              "text_02",
+              "text_03"
+            ],
+            "spacing_notes": "Isolated at the very top, separated from the body copy by a large whitespace gap. Accompanied by a small circular logo mark to its left."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_1"
+            ],
+            "relationship": [
+              "text_right_of_visual",
+              "text_and_visual_share_horizontal_axis"
+            ],
+            "description": "A small circular brand mark (visual_object_1) sits immediately to the left of the brand text, sharing the same horizontal axis in the top-left region."
+          },
+          "confidence": 0.9
+        },
+        {
+          "id": "text_02",
+          "semantic_role": "body",
+          "reading_order": 2,
+          "attention_priority": 1,
+          "text": "Jika anda telusuri lebih dalam, baik DAP/NP/NPK itu perlu dua bahan dasar, yaitu (1) Ammonia dan (2) Sulfur. Yang jadi masalah, supply sulfur saat ini terganggu.",
+          "lines": [
+            "Jika anda telusuri lebih dalam, baik",
+            "DAP/NP/NPK itu perlu dua bahan",
+            "dasar, yaitu (1) Ammonia dan (2)",
+            "Sulfur. Yang jadi masalah, supply",
+            "sulfur saat ini terganggu."
+          ],
+          "position": "center",
+          "bounding_box": {
+            "x": 12,
+            "y": 17,
+            "width": 76,
+            "height": 24
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "regular",
+            "font_style": "normal",
+            "size_category": "medium",
+            "approximate_font_size_relative_to_canvas_height": 0.033,
+            "text_color": "#2B2B2B",
+            "text_color_estimated": true,
+            "line_height": "loose",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Jika anda telusuri lebih dalam, baik ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "DAP/NP/NPK",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1E1E1E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": " itu perlu dua bahan dasar, yaitu (1) ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "Ammonia",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1E1E1E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": " dan (2) ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "Sulfur.",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1E1E1E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": " Yang jadi masalah, ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "supply",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "italic",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic"
+                ]
+              }
+            },
+            {
+              "text": " ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "sulfur",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1E1E1E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": " saat ini ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "terganggu.",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#C62828",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "accent_color"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_03"
+            ],
+            "same_alignment_axis_as": [
+              "text_01",
+              "text_03"
+            ],
+            "spacing_notes": "Upper of two body paragraphs, separated from text_03 below by a clear blank-line gap. Shares left edge with text_03 and the brand block above."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_2",
+              "visual_object_3"
+            ],
+            "relationship": [
+              "text_above_visual",
+              "text_inside_negative_space"
+            ],
+            "description": "Sits in the upper light-toned negative space of the canvas, well above the lower visual clusters. Clear vertical separation prevents overlap."
+          },
+          "confidence": 0.93
+        },
+        {
+          "id": "text_03",
+          "semantic_role": "body",
+          "reading_order": 3,
+          "attention_priority": 2,
+          "text": "Hampir 50% supply sulfur di seaborne market itu lewat Hormuz. Gak kaget kalau terganggu.",
+          "lines": [
+            "Hampir 50% supply sulfur di",
+            "seaborne market itu lewat Hormuz.",
+            "Gak kaget kalau terganggu."
+          ],
+          "position": "center",
+          "bounding_box": {
+            "x": 12,
+            "y": 46,
+            "width": 76,
+            "height": 15
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "regular",
+            "font_style": "normal",
+            "size_category": "medium",
+            "approximate_font_size_relative_to_canvas_height": 0.033,
+            "text_color": "#2B2B2B",
+            "text_color_estimated": true,
+            "line_height": "loose",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Hampir ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "50%",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1E1E1E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": " supply sulfur di ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "seaborne market",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "italic",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic"
+                ]
+              }
+            },
+            {
+              "text": " itu lewat ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "Hormuz.",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1E1E1E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": " Gak kaget ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "kalau terganggu.",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1E1E1E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_02"
+            ],
+            "same_alignment_axis_as": [
+              "text_01",
+              "text_02"
+            ],
+            "spacing_notes": "Second body paragraph, shares left alignment axis with text_02 above. Sits just above the transition into the lower visual region."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_2",
+              "visual_object_3"
+            ],
+            "relationship": [
+              "text_above_visual",
+              "visual_below_text"
+            ],
+            "description": "The paragraph ends roughly at the 61% vertical mark, above the large lower visual clusters that begin near 63-65% of canvas height, creating a clear text-above-visual arrangement."
+          },
+          "confidence": 0.92
+        },
+        {
+          "id": "text_04",
+          "semantic_role": "label",
+          "reading_order": 4,
+          "attention_priority": 3,
+          "text": "SULFUR",
+          "lines": [
+            "SULFUR"
+          ],
+          "position": "center_left",
+          "bounding_box": {
+            "x": 15,
+            "y": 76,
+            "width": 30,
+            "height": 6
+          },
+          "alignment": "center",
+          "typography": {
+            "font_category": "slab_serif",
+            "font_weight": "bold",
+            "font_style": "normal",
+            "size_category": "large",
+            "approximate_font_size_relative_to_canvas_height": 0.045,
+            "text_color": "#2A2018",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "wide"
+          },
+          "spans": [
+            {
+              "text": "SULFUR",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#2A2018",
+                "color_estimated": true,
+                "emphasis": [
+                  "uppercase",
+                  "bold"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_05",
+              "text_06"
+            ],
+            "same_alignment_axis_as": [],
+            "spacing_notes": "Stenciled label text physically integrated onto the surface of visual_object_2 in the lower-left region."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_2"
+            ],
+            "relationship": [
+              "text_over_visual"
+            ],
+            "description": "Text appears printed directly on the front face of visual_object_2, following its surface perspective."
+          },
+          "confidence": 0.85
+        },
+        {
+          "id": "text_05",
+          "semantic_role": "label",
+          "reading_order": 5,
+          "attention_priority": 3,
+          "text": "SULFUR",
+          "lines": [
+            "SULFUR"
+          ],
+          "position": "center_right",
+          "bounding_box": {
+            "x": 55,
+            "y": 76,
+            "width": 30,
+            "height": 6
+          },
+          "alignment": "center",
+          "typography": {
+            "font_category": "slab_serif",
+            "font_weight": "bold",
+            "font_style": "normal",
+            "size_category": "large",
+            "approximate_font_size_relative_to_canvas_height": 0.045,
+            "text_color": "#2A2018",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "wide"
+          },
+          "spans": [
+            {
+              "text": "SULFUR",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#2A2018",
+                "color_estimated": true,
+                "emphasis": [
+                  "uppercase",
+                  "bold"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_04",
+              "text_07"
+            ],
+            "same_alignment_axis_as": [],
+            "spacing_notes": "Mirror label to text_04, stenciled onto visual_object_3 in the lower-right region."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_3"
+            ],
+            "relationship": [
+              "text_over_visual"
+            ],
+            "description": "Printed directly on the front face of visual_object_3, following its surface perspective."
+          },
+          "confidence": 0.85
+        },
+        {
+          "id": "text_06",
+          "semantic_role": "disclaimer",
+          "reading_order": 6,
+          "attention_priority": 5,
+          "text": "CAUTION HAZARDOUS MATERIAL",
+          "lines": [
+            "CAUTION",
+            "HAZARDOUS MATERIAL"
+          ],
+          "position": "bottom_left",
+          "bounding_box": {
+            "x": 17,
+            "y": 84,
+            "width": 25,
+            "height": 5
+          },
+          "alignment": "center",
+          "typography": {
+            "font_category": "sans_serif",
+            "font_weight": "regular",
+            "font_style": "normal",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.012,
+            "text_color": "#3A2E22",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "CAUTION HAZARDOUS MATERIAL",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#3A2E22",
+                "color_estimated": true,
+                "emphasis": [
+                  "uppercase"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_04"
+            ],
+            "same_alignment_axis_as": [],
+            "spacing_notes": "Small stenciled microcopy beneath the SULFUR label on visual_object_2."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_2"
+            ],
+            "relationship": [
+              "text_over_visual"
+            ],
+            "description": "Faint microtext printed on the lower front face of visual_object_2, partially low-contrast against the surface."
+          },
+          "confidence": 0.6
+        },
+        {
+          "id": "text_07",
+          "semantic_role": "disclaimer",
+          "reading_order": 7,
+          "attention_priority": 5,
+          "text": "CAUTION HAZARDOUS MATERIAL",
+          "lines": [
+            "CAUTION",
+            "HAZARDOUS MATERIAL"
+          ],
+          "position": "bottom_right",
+          "bounding_box": {
+            "x": 57,
+            "y": 84,
+            "width": 25,
+            "height": 5
+          },
+          "alignment": "center",
+          "typography": {
+            "font_category": "sans_serif",
+            "font_weight": "regular",
+            "font_style": "normal",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.012,
+            "text_color": "#3A2E22",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "CAUTION HAZARDOUS MATERIAL",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#3A2E22",
+                "color_estimated": true,
+                "emphasis": [
+                  "uppercase"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_05"
+            ],
+            "same_alignment_axis_as": [],
+            "spacing_notes": "Mirror microcopy of text_06, beneath the SULFUR label on visual_object_3."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_3"
+            ],
+            "relationship": [
+              "text_over_visual"
+            ],
+            "description": "Faint microtext printed on the lower front face of visual_object_3, low-contrast against the surface."
+          },
+          "confidence": 0.6
+        },
+        {
+          "id": "text_08",
+          "semantic_role": "CTA",
+          "reading_order": 8,
+          "attention_priority": 4,
+          "text": "Like kalau suka",
+          "lines": [
+            "Like kalau",
+            "suka"
+          ],
+          "position": "bottom_left",
+          "bounding_box": {
+            "x": 5,
+            "y": 92,
+            "width": 16,
+            "height": 5
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "regular",
+            "font_style": "normal",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.017,
+            "text_color": "#E8E8E8",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Like",
+              "style": {
+                "font_weight": "semibold",
+                "font_style": "normal",
+                "color": "#FFFFFF",
+                "color_estimated": true,
+                "emphasis": [
+                  "semibold"
+                ]
+              }
+            },
+            {
+              "text": " kalau suka",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#CFCFCF",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_09",
+              "text_10",
+              "text_11"
+            ],
+            "same_alignment_axis_as": [
+              "text_09",
+              "text_10",
+              "text_11"
+            ],
+            "spacing_notes": "First of four engagement CTA items arranged in a horizontal row along the bottom footer strip."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_4"
+            ],
+            "relationship": [
+              "text_over_visual",
+              "text_and_visual_share_horizontal_axis"
+            ],
+            "description": "Sits within a dark footer band, above a small pointer/arrow visual element in the very bottom margin."
+          },
+          "confidence": 0.85
+        },
+        {
+          "id": "text_09",
+          "semantic_role": "CTA",
+          "reading_order": 9,
+          "attention_priority": 4,
+          "text": "Komen pendapatmu",
+          "lines": [
+            "Komen",
+            "pendapatmu"
+          ],
+          "position": "bottom_center",
+          "bounding_box": {
+            "x": 23,
+            "y": 92,
+            "width": 18,
+            "height": 5
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "regular",
+            "font_style": "normal",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.017,
+            "text_color": "#E8E8E8",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Komen",
+              "style": {
+                "font_weight": "semibold",
+                "font_style": "normal",
+                "color": "#FFFFFF",
+                "color_estimated": true,
+                "emphasis": [
+                  "semibold"
+                ]
+              }
+            },
+            {
+              "text": " pendapatmu",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#CFCFCF",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_08",
+              "text_10",
+              "text_11"
+            ],
+            "same_alignment_axis_as": [
+              "text_08",
+              "text_10",
+              "text_11"
+            ],
+            "spacing_notes": "Second engagement CTA item in the bottom footer row."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_4"
+            ],
+            "relationship": [
+              "text_over_visual",
+              "text_and_visual_share_horizontal_axis"
+            ],
+            "description": "Within the dark footer band, aligned with a small pointer/arrow visual beneath it."
+          },
+          "confidence": 0.85
+        },
+        {
+          "id": "text_10",
+          "semantic_role": "CTA",
+          "reading_order": 10,
+          "attention_priority": 4,
+          "text": "Bagikan konten ini",
+          "lines": [
+            "Bagikan",
+            "konten ini"
+          ],
+          "position": "bottom_center",
+          "bounding_box": {
+            "x": 43,
+            "y": 92,
+            "width": 17,
+            "height": 5
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "regular",
+            "font_style": "normal",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.017,
+            "text_color": "#E8E8E8",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Bagikan",
+              "style": {
+                "font_weight": "semibold",
+                "font_style": "normal",
+                "color": "#FFFFFF",
+                "color_estimated": true,
+                "emphasis": [
+                  "semibold"
+                ]
+              }
+            },
+            {
+              "text": " konten ini",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#CFCFCF",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_08",
+              "text_09",
+              "text_11"
+            ],
+            "same_alignment_axis_as": [
+              "text_08",
+              "text_09",
+              "text_11"
+            ],
+            "spacing_notes": "Third engagement CTA item in the bottom footer row."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_4"
+            ],
+            "relationship": [
+              "text_over_visual",
+              "text_and_visual_share_horizontal_axis"
+            ],
+            "description": "Within the dark footer band, with a small pointer/arrow visual directly beneath."
+          },
+          "confidence": 0.85
+        },
+        {
+          "id": "text_11",
+          "semantic_role": "CTA",
+          "reading_order": 11,
+          "attention_priority": 4,
+          "text": "Simpan kalau bermanfaat",
+          "lines": [
+            "Simpan kalau",
+            "bermanfaat"
+          ],
+          "position": "bottom_right",
+          "bounding_box": {
+            "x": 74,
+            "y": 92,
+            "width": 21,
+            "height": 5
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "regular",
+            "font_style": "normal",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.017,
+            "text_color": "#E8E8E8",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Simpan",
+              "style": {
+                "font_weight": "semibold",
+                "font_style": "normal",
+                "color": "#FFFFFF",
+                "color_estimated": true,
+                "emphasis": [
+                  "semibold"
+                ]
+              }
+            },
+            {
+              "text": " kalau bermanfaat",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#CFCFCF",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_08",
+              "text_09",
+              "text_10"
+            ],
+            "same_alignment_axis_as": [
+              "text_08",
+              "text_09",
+              "text_10"
+            ],
+            "spacing_notes": "Fourth and rightmost engagement CTA item, set apart with extra horizontal gap from the first three."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_4"
+            ],
+            "relationship": [
+              "text_over_visual",
+              "text_and_visual_share_horizontal_axis"
+            ],
+            "description": "Within the dark footer band, with a small pointer/arrow visual directly beneath it."
+          },
+          "confidence": 0.85
+        }
+      ],
+      "visual_layout_context": {
+        "visual_elements": [
+          {
+            "id": "visual_object_1",
+            "position": "top_left",
+            "bounding_box": {
+              "x": 8,
+              "y": 4,
+              "width": 5,
+              "height": 5
+            },
+            "relationship_to_text": "Small circular mark sitting immediately left of the brand text, sharing its horizontal axis."
+          },
+          {
+            "id": "visual_object_2",
+            "position": "bottom_left",
+            "bounding_box": {
+              "x": 0,
+              "y": 63,
+              "width": 50,
+              "height": 30
+            },
+            "relationship_to_text": "Large lower-left cluster bearing label text_04 and disclaimer text_06 on its front surface; positioned below the body paragraphs."
+          },
+          {
+            "id": "visual_object_3",
+            "position": "bottom_right",
+            "bounding_box": {
+              "x": 50,
+              "y": 63,
+              "width": 50,
+              "height": 30
+            },
+            "relationship_to_text": "Large lower-right cluster mirroring visual_object_2, bearing label text_05 and disclaimer text_07; sits below the body paragraphs."
+          },
+          {
+            "id": "visual_object_4",
+            "position": "bottom_center",
+            "bounding_box": {
+              "x": 0,
+              "y": 96,
+              "width": 100,
+              "height": 4
+            },
+            "relationship_to_text": "Row of small pointer/arrow marks along the very bottom edge, aligned beneath each CTA text item."
+          },
+          {
+            "id": "background_visual",
+            "position": "center",
+            "bounding_box": {
+              "x": 0,
+              "y": 0,
+              "width": 100,
+              "height": 92
+            },
+            "relationship_to_text": "Light gradient upper field transitioning to a darker lower area; provides high-contrast backdrop for the dark body text at the top and the light CTA text at the bottom."
+          }
+        ]
+      },
+      "global_text_layout": {
+        "reading_direction": "left_to_right_top_to_bottom",
+        "reading_sequence": [
+          "text_01",
+          "text_02",
+          "text_03",
+          "text_04",
+          "text_05",
+          "text_06",
+          "text_07",
+          "text_08",
+          "text_09",
+          "text_10",
+          "text_11"
+        ],
+        "primary_alignment": "left",
+        "primary_alignment_axis_description": "The brand block and both body paragraphs share a common left margin at roughly x=12-13, forming the dominant vertical alignment axis. The lower label and CTA texts break from this axis and are distributed horizontally.",
+        "hierarchy_description": "The upper body paragraph (text_02) dominates through size, position and a red accent word ('terganggu'), giving it top priority. The second paragraph (text_03) is secondary. Embedded surface labels ('SULFUR') form a mid-level tier, while the brand mark, disclaimers, and footer CTAs act as microcopy tiers.",
+        "text_density": "medium",
+        "estimated_text_area_percentage": 38,
+        "estimated_visual_area_percentage": 45,
+        "whitespace_distribution": "Generous whitespace in the upper half around the two body paragraphs; the lower half is dense with visual mass and integrated label/CTA microtext, leaving little breathing room.",
+        "composition_description": "A top-heavy editorial layout: two left-aligned dark body paragraphs occupy the light upper field, separated by a blank-line gap, with select words bolded and one red accent word driving emphasis. A brand lockup anchors the top-left. The lower portion is filled by two mirrored visual clusters carrying stenciled surface labels and micro-disclaimers, while a dark footer strip holds four evenly distributed light-colored engagement CTAs, each paired with a small pointer mark beneath. Text flows clearly from top reading matter downward into the visual anchor and finally the CTA row."
+      }
+    },
+    "slideIndex": 9
+  }
+]

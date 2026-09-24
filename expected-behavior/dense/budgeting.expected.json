@@ -58,7 +58,7 @@
     },
     {
       "id": "DENSE_009",
-      "assertion": "Copy tidak boleh menyelesaikan density problem dengan memasukkan paragraf panjang."
+      "assertion": "Copy tidak dinilai dari jumlah kata atau paragraf. Engine harus menjaga semantic sufficiency, hierarchy, readability, dan kecocokan dengan composition tanpa menerapkan batas panjang konten."
     }
   ],
 

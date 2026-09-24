@@ -1,0 +1,748 @@
+[
+  {
+    "analysis": {
+      "canvas": {
+        "aspect_ratio": "4:5",
+        "orientation": "portrait",
+        "estimated_width": 512,
+        "estimated_height": 640
+      },
+      "full_text": {
+        "plain_text": "GLIMPSE.INC Dalam sebulan terakhir, rupanya harga amonia turun terus. 650 600 550 500 450 Price 03 Aug 10 Aug 17 Aug 24 Aug 31 Aug 07 Sep Apa penyebabnya? Like kalau suka Komen pendapatmu Bagikan konten ini Simpan kalau bermanfaat",
+        "reading_order_text": "GLIMPSE.INC | Dalam sebulan terakhir, rupanya harga amonia turun terus. | Apa penyebabnya? | Like kalau suka | Komen pendapatmu | Bagikan konten ini | Simpan kalau bermanfaat",
+        "transcription_confidence": 0.95
+      },
+      "text_blocks": [
+        {
+          "id": "text_01",
+          "semantic_role": "brand",
+          "reading_order": 1,
+          "attention_priority": 4,
+          "text": "GLIMPSE.INC",
+          "lines": [
+            "GLIMPSE.INC"
+          ],
+          "position": "top_left",
+          "bounding_box": {
+            "x": 14,
+            "y": 4,
+            "width": 22,
+            "height": 4
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "medium",
+            "font_style": "normal",
+            "size_category": "small",
+            "approximate_font_size_relative_to_canvas_height": 0.02,
+            "text_color": "#4A4A4A",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "slightly_wide"
+          },
+          "spans": [
+            {
+              "text": "GLIMPSE.INC",
+              "style": {
+                "font_weight": "medium",
+                "font_style": "normal",
+                "color": "#4A4A4A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [],
+            "same_alignment_axis_as": [
+              "text_02"
+            ],
+            "spacing_notes": "Sits isolated at the very top-left, separated from the headline by a large vertical gap of roughly 15% of canvas height."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_1"
+            ],
+            "relationship": [
+              "text_right_of_visual"
+            ],
+            "description": "A small circular badge (visual_object_1) sits immediately to the left of the brand text, sharing the same horizontal axis."
+          },
+          "confidence": 0.9
+        },
+        {
+          "id": "text_02",
+          "semantic_role": "headline",
+          "reading_order": 2,
+          "attention_priority": 1,
+          "text": "Dalam sebulan terakhir, rupanya harga amonia turun terus.",
+          "lines": [
+            "Dalam sebulan terakhir,",
+            "rupanya harga amonia turun terus."
+          ],
+          "position": "top_center",
+          "bounding_box": {
+            "x": 9,
+            "y": 19,
+            "width": 82,
+            "height": 12
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "mixed",
+            "font_style": "normal",
+            "size_category": "large",
+            "approximate_font_size_relative_to_canvas_height": 0.04,
+            "text_color": "#3A3A3A",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Dalam ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#3A3A3A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "sebulan terakhir,",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#2E2E2E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": "rupanya ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#3A3A3A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "harga amonia ",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#2E2E2E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": "turun terus.",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#C0392B",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "accent_color"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_01"
+            ],
+            "same_alignment_axis_as": [
+              "text_01",
+              "text_03"
+            ],
+            "spacing_notes": "Shares the same left margin as the brand text above and the question below. Sits directly above visual_object_2."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_2"
+            ],
+            "relationship": [
+              "text_above_visual",
+              "visual_below_text"
+            ],
+            "description": "The headline ends roughly 4% of canvas height above visual_object_2, connecting the statement to the graphic region below while remaining clearly separated."
+          },
+          "confidence": 0.96
+        },
+        {
+          "id": "text_03",
+          "semantic_role": "supporting_text",
+          "reading_order": 3,
+          "attention_priority": 5,
+          "text": "650 600 550 500 450 Price 03 Aug 10 Aug 17 Aug 24 Aug 31 Aug 07 Sep",
+          "lines": [
+            "650",
+            "600",
+            "550",
+            "500",
+            "450",
+            "Price",
+            "03 Aug   10 Aug   17 Aug   24 Aug   31 Aug   07 Sep"
+          ],
+          "position": "center",
+          "bounding_box": {
+            "x": 9,
+            "y": 33,
+            "width": 82,
+            "height": 37
+          },
+          "alignment": "mixed",
+          "typography": {
+            "font_category": "sans_serif",
+            "font_weight": "regular",
+            "font_style": "normal",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.018,
+            "text_color": "#555555",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "650 / 600 / 550 / 500 / 450",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#555555",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "Price",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#555555",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "03 Aug 10 Aug 17 Aug 24 Aug 31 Aug 07 Sep",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#555555",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [],
+            "same_alignment_axis_as": [],
+            "spacing_notes": "These labels are embedded within visual_object_2 as axis annotations; the vertical numbers align to the left axis and the date labels run along the bottom axis."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_2"
+            ],
+            "relationship": [
+              "text_over_visual",
+              "visual_frames_text"
+            ],
+            "description": "This microcopy functions as axis labels inside visual_object_2. The 'Price' label is rotated vertically on the left edge, numeric values run down the y-axis, and date labels span the x-axis at the bottom."
+          },
+          "confidence": 0.9
+        },
+        {
+          "id": "text_04",
+          "semantic_role": "question",
+          "reading_order": 4,
+          "attention_priority": 2,
+          "text": "Apa penyebabnya?",
+          "lines": [
+            "Apa penyebabnya?"
+          ],
+          "position": "center_left",
+          "bounding_box": {
+            "x": 9,
+            "y": 74,
+            "width": 60,
+            "height": 7
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "mixed",
+            "font_style": "normal",
+            "size_category": "very_large",
+            "approximate_font_size_relative_to_canvas_height": 0.05,
+            "text_color": "#2E2E2E",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Apa ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#2E2E2E",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "penyebab",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1E1E1E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": "nya?",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#2E2E2E",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [],
+            "same_alignment_axis_as": [
+              "text_02"
+            ],
+            "spacing_notes": "Shares the left alignment axis with the headline. Positioned below visual_object_2 with clear whitespace above and below."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_2"
+            ],
+            "relationship": [
+              "text_below_visual"
+            ],
+            "description": "This question sits directly beneath visual_object_2, acting as a closing prompt in the vertical reading flow."
+          },
+          "confidence": 0.96
+        },
+        {
+          "id": "text_05",
+          "semantic_role": "CTA",
+          "reading_order": 5,
+          "attention_priority": 5,
+          "text": "Like kalau suka",
+          "lines": [
+            "Like kalau",
+            "suka"
+          ],
+          "position": "bottom_left",
+          "bounding_box": {
+            "x": 3,
+            "y": 92,
+            "width": 16,
+            "height": 5
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "sans_serif",
+            "font_weight": "regular",
+            "font_style": "italic",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.016,
+            "text_color": "#5A5A5A",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Like",
+              "style": {
+                "font_weight": "semibold",
+                "font_style": "italic",
+                "color": "#4A4A4A",
+                "color_estimated": true,
+                "emphasis": [
+                  "semibold",
+                  "italic"
+                ]
+              }
+            },
+            {
+              "text": " kalau suka",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "italic",
+                "color": "#5A5A5A",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_06",
+              "text_07",
+              "text_08"
+            ],
+            "same_alignment_axis_as": [
+              "text_06",
+              "text_07",
+              "text_08"
+            ],
+            "spacing_notes": "First item in a horizontal footer row of engagement CTAs along the bottom edge."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_3"
+            ],
+            "relationship": [
+              "text_above_visual"
+            ],
+            "description": "Sits above a small arrow/marker (visual_object_3) in the footer strip."
+          },
+          "confidence": 0.9
+        },
+        {
+          "id": "text_06",
+          "semantic_role": "CTA",
+          "reading_order": 6,
+          "attention_priority": 5,
+          "text": "Komen pendapatmu",
+          "lines": [
+            "Komen",
+            "pendapatmu"
+          ],
+          "position": "bottom_center",
+          "bounding_box": {
+            "x": 22,
+            "y": 92,
+            "width": 16,
+            "height": 5
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "sans_serif",
+            "font_weight": "regular",
+            "font_style": "italic",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.016,
+            "text_color": "#5A5A5A",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Komen",
+              "style": {
+                "font_weight": "semibold",
+                "font_style": "italic",
+                "color": "#4A4A4A",
+                "color_estimated": true,
+                "emphasis": [
+                  "semibold",
+                  "italic"
+                ]
+              }
+            },
+            {
+              "text": " pendapatmu",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "italic",
+                "color": "#5A5A5A",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_05",
+              "text_07",
+              "text_08"
+            ],
+            "same_alignment_axis_as": [
+              "text_05",
+              "text_07",
+              "text_08"
+            ],
+            "spacing_notes": "Second item in the horizontal footer CTA row."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_3"
+            ],
+            "relationship": [
+              "text_above_visual"
+            ],
+            "description": "Sits above a small arrow/marker in the footer strip."
+          },
+          "confidence": 0.9
+        },
+        {
+          "id": "text_07",
+          "semantic_role": "CTA",
+          "reading_order": 7,
+          "attention_priority": 5,
+          "text": "Bagikan konten ini",
+          "lines": [
+            "Bagikan",
+            "konten ini"
+          ],
+          "position": "bottom_center",
+          "bounding_box": {
+            "x": 40,
+            "y": 92,
+            "width": 15,
+            "height": 5
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "sans_serif",
+            "font_weight": "regular",
+            "font_style": "italic",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.016,
+            "text_color": "#5A5A5A",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Bagikan",
+              "style": {
+                "font_weight": "semibold",
+                "font_style": "italic",
+                "color": "#4A4A4A",
+                "color_estimated": true,
+                "emphasis": [
+                  "semibold",
+                  "italic"
+                ]
+              }
+            },
+            {
+              "text": " konten ini",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "italic",
+                "color": "#5A5A5A",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_05",
+              "text_06",
+              "text_08"
+            ],
+            "same_alignment_axis_as": [
+              "text_05",
+              "text_06",
+              "text_08"
+            ],
+            "spacing_notes": "Third item in the horizontal footer CTA row."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_3"
+            ],
+            "relationship": [
+              "text_above_visual"
+            ],
+            "description": "Sits above a small arrow/marker in the footer strip."
+          },
+          "confidence": 0.9
+        },
+        {
+          "id": "text_08",
+          "semantic_role": "CTA",
+          "reading_order": 8,
+          "attention_priority": 5,
+          "text": "Simpan kalau bermanfaat",
+          "lines": [
+            "Simpan kalau",
+            "bermanfaat"
+          ],
+          "position": "bottom_right",
+          "bounding_box": {
+            "x": 78,
+            "y": 92,
+            "width": 20,
+            "height": 5
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "sans_serif",
+            "font_weight": "regular",
+            "font_style": "italic",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.016,
+            "text_color": "#5A5A5A",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Simpan",
+              "style": {
+                "font_weight": "semibold",
+                "font_style": "italic",
+                "color": "#4A4A4A",
+                "color_estimated": true,
+                "emphasis": [
+                  "semibold",
+                  "italic"
+                ]
+              }
+            },
+            {
+              "text": " kalau bermanfaat",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "italic",
+                "color": "#5A5A5A",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_05",
+              "text_06",
+              "text_07"
+            ],
+            "same_alignment_axis_as": [
+              "text_05",
+              "text_06",
+              "text_07"
+            ],
+            "spacing_notes": "Rightmost item in the footer CTA row, separated from the other three by a larger horizontal gap."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_4"
+            ],
+            "relationship": [
+              "text_above_visual"
+            ],
+            "description": "Sits above a small arrow/marker (visual_object_4) at the far bottom-right of the footer strip."
+          },
+          "confidence": 0.9
+        }
+      ],
+      "visual_layout_context": {
+        "visual_elements": [
+          {
+            "id": "visual_object_1",
+            "position": "top_left",
+            "bounding_box": {
+              "x": 8,
+              "y": 3,
+              "width": 5,
+              "height": 5
+            },
+            "relationship_to_text": "Circular badge immediately left of the brand text, sharing its horizontal axis."
+          },
+          {
+            "id": "visual_object_2",
+            "position": "center",
+            "bounding_box": {
+              "x": 8,
+              "y": 33,
+              "width": 84,
+              "height": 37
+            },
+            "relationship_to_text": "Large central chart region positioned between the headline above and the question below; contains embedded axis label microcopy (text_03) and acts as the dominant anchor separating the two main text blocks."
+          },
+          {
+            "id": "visual_object_3",
+            "position": "bottom_left",
+            "bounding_box": {
+              "x": 4,
+              "y": 96,
+              "width": 52,
+              "height": 4
+            },
+            "relationship_to_text": "Row of small triangular markers beneath the first three footer CTA items."
+          },
+          {
+            "id": "visual_object_4",
+            "position": "bottom_right",
+            "bounding_box": {
+              "x": 80,
+              "y": 96,
+              "width": 8,
+              "height": 4
+            },
+            "relationship_to_text": "Small triangular marker beneath the rightmost footer CTA item."
+          }
+        ]
+      },
+      "global_text_layout": {
+        "reading_direction": "left_to_right_top_to_bottom",
+        "reading_sequence": [
+          "text_01",
+          "text_02",
+          "text_03",
+          "text_04",
+          "text_05",
+          "text_06",
+          "text_07",
+          "text_08"
+        ],
+        "primary_alignment": "left",
+        "primary_alignment_axis_description": "The brand text, headline, and question all share a common left margin at approximately x=9, forming a strong vertical alignment axis on the left side of the canvas. The footer CTAs form a separate horizontal band aligned to the bottom edge.",
+        "hierarchy_description": "The headline (text_02) carries the highest visual priority via its size and the red accent on 'turun terus.'. The large question (text_04) is the second focal point. The chart axis microcopy (text_03) and footer CTAs (text_05–08) are the lowest-priority microcopy. The brand mark is secondary supporting text at the top.",
+        "text_density": "low_to_medium",
+        "estimated_text_area_percentage": 25,
+        "estimated_visual_area_percentage": 40,
+        "whitespace_distribution": "Generous whitespace throughout, especially between the brand mark and headline and around the central chart. The layout breathes with a light, airy feel and clear vertical rhythm.",
+        "composition_description": "A vertically stacked composition: brand mark top-left, a two-line headline statement, a large central chart region with embedded axis labels, a bold closing question below it, and a horizontal footer strip of four engagement CTAs. The eye moves top-to-bottom along a consistent left axis, with the central visual acting as the primary anchor separating the headline and the question."
+      }
+    },
+    "slideIndex": 4
+  }
+]

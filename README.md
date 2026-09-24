@@ -51,7 +51,7 @@ Sistem harus mampu menentukan:
 * apa yang perlu dibuang;
 * bagaimana materi disusun menjadi narrative;
 * apa pesan utama setiap slide;
-* bagaimana pesan tersebut ditulis secara ringkas;
+* bagaimana pesan tersebut ditulis dengan jelas dan lengkap sesuai kebutuhan;
 * bagaimana pesan tersebut divisualisasikan;
 * jenis asset apa yang paling sesuai;
 * bagaimana asset tersebut diproduksi;
@@ -423,27 +423,24 @@ Sistem kemudian memberikan rekomendasi untuk mempersempit objective atau scope r
 
 # Information Density
 
-Kepadatan slide tidak dinilai hanya berdasarkan jumlah kata.
+Panjang copy bukan kriteria kelulusan tersendiri.
 
 Prioritas evaluasinya adalah:
 
 ```text
 1. Conceptual Density
 2. Visual / Text-area Density
-3. Word Count
 ```
 
-Word count digunakan sebagai **guardrail**, bukan hukum absolut.
-
-Target utama adalah menghindari carousel yang berubah menjadi kumpulan paragraf.
-
-Kegagalan density juga dapat terjadi ke arah sebaliknya. Slide terlalu tipis jika hanya menyisakan punchline, sementara alasan, implication, contoh, atau langkah yang membuatnya dapat dipahami sudah hilang. Ringkas berarti tidak boros kata, bukan selalu memakai kata sesedikit mungkin.
+Engine tidak memakai batas jumlah kata, block, atau paragraf. Copy dinilai dari kejelasan pesan, beban konsep, hierarchy, readability, dan kecocokannya dengan komposisi. Slide terlalu tipis jika hanya menyisakan punchline, sementara alasan, implication, contoh, atau langkah yang membuatnya dapat dipahami sudah hilang.
 
 ---
 
 # Display Copy
 
 Copy carousel ditulis untuk dilihat di dalam komposisi, bukan sebagai ringkasan artikel atau potongan caption.
+
+`docs/copy-composition.md` merangkum pola dari 16 contoh di `_example/copy/`. Playbook tersebut memberi baseline untuk panjang relatif antar-block, hierarchy, line break, text zone, dan spacing. Angkanya bersifat observasional, bukan batas konten. Tone, materi, CTA, dan identitas contoh tidak ikut diwariskan.
 
 Setiap slide memiliki `core_message` dan satu atau lebih display-copy blocks. Block dapat berfungsi sebagai context, focal statement, explanation, label, list, transition, atau CTA. Fungsi tersebut fleksibel dan tidak membentuk template wajib.
 

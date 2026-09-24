@@ -150,17 +150,18 @@ MUST:
 - penjelasan mempertahankan bridge yang diperlukan, seperti alasan, mekanisme, implication, contoh, kontras, atau langkah;
 - setiap perpindahan slide memiliki dependency yang dapat dijelaskan, bukan hanya kesamaan topik;
 - heading pada slide dengan list atau supporting points menjelaskan hubungan antar-poin;
-- ritme panjang copy bervariasi mengikuti fungsi slide.
+- panjang copy mengikuti kebutuhan pesan tanpa target numerik;
+- block structure, line break, text zone, dan spacing memakai `docs/copy-composition.md` sebagai baseline observasional.
 
 MUST_NOT:
 
-- menilai copy baik hanya karena jumlah katanya rendah;
-- memaksa semua slide ke panjang cover;
+- menilai copy berdasarkan jumlah kata, block, atau paragraf;
+- menjadikan angka hasil observasi `_example/copy/` sebagai batas kelulusan;
 - memindahkan reasoning penting ke caption;
 - memakai heading generik yang membuat list di bawahnya ambigu;
-- menambah filler untuk mengejar rentang kata.
+- memotong atau menambah copy hanya untuk mengejar panjang tertentu.
 
-Rentang kata dalam `docs/principles.md` adalah alarm untuk review, bukan assertion numerik kaku.
+Evaluator menilai semantic sufficiency, hierarchy, readability, dan kecocokan composition tanpa batas panjang konten.
 
 ## Visual language regression checks
 

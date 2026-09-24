@@ -13,6 +13,8 @@ references/visuals/004.md
 
 Pelajari prinsip, hubungan copy dan gambar, komposisi, hierarki, ritme, dan treatment. Jangan menyalin subjek, properti, wording, identitas kreator, metadata, atau tampilan UI platform.
 
+Gunakan `docs/copy-composition.md` untuk baseline panjang relatif antar-block, line break, text zone, dan spacing yang diturunkan dari `_example/copy/`. Dokumen ini tetap mengatur visual family dan hubungan image dengan copy.
+
 Jika detail referensi bertentangan dengan `SYSTEM.md`, schema, atau batas produksi V0, aturan yang lebih tinggi tetap berlaku. Contohnya, badge dekoratif pada referensi 03 tidak mengizinkan engine merencanakan graphic component baru.
 
 ---
@@ -89,7 +91,7 @@ satu objek dominan dan paling banyak satu objek pendukung
 scene sederhana tetapi sedikit tidak biasa
 silhouette mudah dibaca dalam kurang dari satu detik
 negative space besar
-headline kuat dengan body pendek yang cukup menjelaskan
+headline kuat dengan body yang cukup menjelaskan
 komposisi text-left dan object-right atau kebalikannya
 ```
 

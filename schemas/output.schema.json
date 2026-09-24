@@ -429,7 +429,7 @@
         "blocks": {
           "type": "array",
           "minItems": 1,
-          "description": "Resolved display-copy blocks in reading order. Do not force every slide into a headline plus supporting-line pattern. Informational slides must remain understandable without core_message, caption, or production notes; concise does not mean under-explained.",
+          "description": "Resolved display-copy blocks in reading order. Do not force every slide into a headline plus supporting-line pattern. Informational slides must remain understandable without core_message, caption, or production notes. Content length has no independent word, block, or paragraph limit.",
           "items": {
             "$ref": "#/$defs/copyBlock"
           }

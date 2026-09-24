@@ -1,0 +1,729 @@
+[
+  {
+    "analysis": {
+      "canvas": {
+        "aspect_ratio": "4:5",
+        "orientation": "portrait",
+        "estimated_width": 480,
+        "estimated_height": 600
+      },
+      "full_text": {
+        "plain_text": "GLIMPSE.INC Kapan Beli ESSA? Ya waktu sulfur turun. Lho kok bisa? Mari kita belajar pelan2 dari awal tentang bagaimana pembentukan harga amonia, hingga kaitannya dengan sulfur. Like kalau suka Komen pendapatmu Bagikan konten ini Simpan kalau bermanfaat",
+        "reading_order_text": "GLIMPSE.INC | Kapan Beli ESSA? | Ya waktu sulfur turun. Lho kok bisa? Mari kita belajar pelan2 dari awal tentang bagaimana pembentukan harga amonia, hingga kaitannya dengan sulfur. | Like kalau suka | Komen pendapatmu | Bagikan konten ini | Simpan kalau bermanfaat",
+        "transcription_confidence": 0.92
+      },
+      "text_blocks": [
+        {
+          "id": "text_01",
+          "semantic_role": "brand",
+          "reading_order": 1,
+          "attention_priority": 4,
+          "text": "GLIMPSE.INC",
+          "lines": [
+            "GLIMPSE.INC"
+          ],
+          "position": "top_left",
+          "bounding_box": {
+            "x": 8,
+            "y": 4,
+            "width": 28,
+            "height": 5
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "medium",
+            "font_style": "normal",
+            "size_category": "small",
+            "approximate_font_size_relative_to_canvas_height": 0.022,
+            "text_color": "#4A4A4A",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "GLIMPSE.INC",
+              "style": {
+                "font_weight": "medium",
+                "font_style": "normal",
+                "color": "#4A4A4A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [],
+            "same_alignment_axis_as": [
+              "text_02",
+              "text_03"
+            ],
+            "spacing_notes": "Isolated at the very top-left, accompanied by a small circular visual mark to its left. Separated from headline by generous whitespace."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_1"
+            ],
+            "relationship": [
+              "text_right_of_visual",
+              "text_and_visual_share_horizontal_axis"
+            ],
+            "description": "A small circular visual mark (visual_object_1) sits immediately to the left of the brand text, sharing the same horizontal baseline."
+          },
+          "confidence": 0.85
+        },
+        {
+          "id": "text_02",
+          "semantic_role": "headline",
+          "reading_order": 2,
+          "attention_priority": 1,
+          "text": "Kapan Beli ESSA?",
+          "lines": [
+            "Kapan Beli ESSA?"
+          ],
+          "position": "top_center",
+          "bounding_box": {
+            "x": 8,
+            "y": 19,
+            "width": 70,
+            "height": 8
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "mixed",
+            "font_style": "normal",
+            "size_category": "very_large",
+            "approximate_font_size_relative_to_canvas_height": 0.058,
+            "text_color": "#2A2E35",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Kapan ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#2A2E35",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "Beli",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1A1D22",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": " ESSA",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#3A4250",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "uppercase"
+                ]
+              }
+            },
+            {
+              "text": "?",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#2A2E35",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_03"
+            ],
+            "same_alignment_axis_as": [
+              "text_01",
+              "text_03"
+            ],
+            "spacing_notes": "Largest text on canvas. Sits below brand text with clear whitespace above and moderate spacing to the body paragraph below."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_cluster_1"
+            ],
+            "relationship": [
+              "text_above_visual"
+            ],
+            "description": "Positioned in the upper portion of the canvas, well above the lower visual cluster with substantial separation."
+          },
+          "confidence": 0.94
+        },
+        {
+          "id": "text_03",
+          "semantic_role": "body",
+          "reading_order": 3,
+          "attention_priority": 2,
+          "text": "Ya waktu sulfur turun. Lho kok bisa? Mari kita belajar pelan2 dari awal tentang bagaimana pembentukan harga amonia, hingga kaitannya dengan sulfur.",
+          "lines": [
+            "Ya waktu sulfur turun. Lho kok bisa?",
+            "Mari kita belajar pelan2 dari awal",
+            "tentang bagaimana pembentukan",
+            "harga amonia, hingga kaitannya",
+            "dengan sulfur."
+          ],
+          "position": "center_left",
+          "bounding_box": {
+            "x": 8,
+            "y": 29,
+            "width": 80,
+            "height": 25
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "mixed",
+            "font_style": "normal",
+            "size_category": "medium",
+            "approximate_font_size_relative_to_canvas_height": 0.036,
+            "text_color": "#3A3F47",
+            "text_color_estimated": true,
+            "line_height": "loose",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Ya waktu ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#3A3F47",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "sulfur",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#2A2E35",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": " ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#3A3F47",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "turun",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#C62828",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "accent_color"
+                ]
+              }
+            },
+            {
+              "text": ". Lho kok bisa? Mari kita belajar pelan2 dari awal tentang bagaimana ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#3A3F47",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "pembentukan harga amonia",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#2A2E35",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": ", hingga kaitannya dengan ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#3A3F47",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "sulfur",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#2A2E35",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": ".",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#3A3F47",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_02"
+            ],
+            "same_alignment_axis_as": [
+              "text_01",
+              "text_02"
+            ],
+            "spacing_notes": "Multi-line paragraph directly below the headline, sharing the same left alignment axis. Loose line spacing improves legibility."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_cluster_1"
+            ],
+            "relationship": [
+              "text_above_visual"
+            ],
+            "description": "Occupies the middle band of the canvas. Its lower edge ends above the large lower visual cluster, creating clear vertical separation between text region and visual region."
+          },
+          "confidence": 0.9
+        },
+        {
+          "id": "text_04",
+          "semantic_role": "CTA",
+          "reading_order": 4,
+          "attention_priority": 5,
+          "text": "Like kalau suka",
+          "lines": [
+            "Like kalau",
+            "suka"
+          ],
+          "position": "bottom_left",
+          "bounding_box": {
+            "x": 4,
+            "y": 93,
+            "width": 20,
+            "height": 5
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "mixed",
+            "font_style": "mixed",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.018,
+            "text_color": "#E8E8E8",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Like",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "italic",
+                "color": "#FFFFFF",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "italic"
+                ]
+              }
+            },
+            {
+              "text": " kalau suka",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "italic",
+                "color": "#CFCFCF",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_05",
+              "text_06",
+              "text_07"
+            ],
+            "same_alignment_axis_as": [
+              "text_05",
+              "text_06",
+              "text_07"
+            ],
+            "spacing_notes": "First item in a horizontal row of footer microcopy CTA items along the bottom edge."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_2"
+            ],
+            "relationship": [
+              "text_over_visual",
+              "text_and_visual_share_vertical_axis"
+            ],
+            "description": "Small downward-pointing marker (visual_object_2) sits below the label. Text overlays the dark lower background region."
+          },
+          "confidence": 0.82
+        },
+        {
+          "id": "text_05",
+          "semantic_role": "CTA",
+          "reading_order": 5,
+          "attention_priority": 5,
+          "text": "Komen pendapatmu",
+          "lines": [
+            "Komen",
+            "pendapatmu"
+          ],
+          "position": "bottom_left",
+          "bounding_box": {
+            "x": 23,
+            "y": 93,
+            "width": 20,
+            "height": 5
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "mixed",
+            "font_style": "mixed",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.018,
+            "text_color": "#E8E8E8",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Komen",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "italic",
+                "color": "#FFFFFF",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "italic"
+                ]
+              }
+            },
+            {
+              "text": " pendapatmu",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "italic",
+                "color": "#CFCFCF",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_04",
+              "text_06",
+              "text_07"
+            ],
+            "same_alignment_axis_as": [
+              "text_04",
+              "text_06",
+              "text_07"
+            ],
+            "spacing_notes": "Second item in the horizontal footer CTA row."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_2"
+            ],
+            "relationship": [
+              "text_over_visual",
+              "text_and_visual_share_vertical_axis"
+            ],
+            "description": "Downward-pointing marker positioned below the label; text overlays dark lower background."
+          },
+          "confidence": 0.82
+        },
+        {
+          "id": "text_06",
+          "semantic_role": "CTA",
+          "reading_order": 6,
+          "attention_priority": 5,
+          "text": "Bagikan konten ini",
+          "lines": [
+            "Bagikan",
+            "konten ini"
+          ],
+          "position": "bottom_center",
+          "bounding_box": {
+            "x": 42,
+            "y": 93,
+            "width": 20,
+            "height": 5
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "mixed",
+            "font_style": "mixed",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.018,
+            "text_color": "#E8E8E8",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Bagikan",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "italic",
+                "color": "#FFFFFF",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "italic"
+                ]
+              }
+            },
+            {
+              "text": " konten ini",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "italic",
+                "color": "#CFCFCF",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_04",
+              "text_05",
+              "text_07"
+            ],
+            "same_alignment_axis_as": [
+              "text_04",
+              "text_05",
+              "text_07"
+            ],
+            "spacing_notes": "Third item in the horizontal footer CTA row, near horizontal center."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_2"
+            ],
+            "relationship": [
+              "text_over_visual",
+              "text_and_visual_share_vertical_axis"
+            ],
+            "description": "Downward-pointing marker below the label; text overlays dark lower background."
+          },
+          "confidence": 0.82
+        },
+        {
+          "id": "text_07",
+          "semantic_role": "CTA",
+          "reading_order": 7,
+          "attention_priority": 5,
+          "text": "Simpan kalau bermanfaat",
+          "lines": [
+            "Simpan kalau",
+            "bermanfaat"
+          ],
+          "position": "bottom_right",
+          "bounding_box": {
+            "x": 72,
+            "y": 93,
+            "width": 24,
+            "height": 5
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "mixed",
+            "font_style": "mixed",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.018,
+            "text_color": "#E8E8E8",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Simpan",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "italic",
+                "color": "#FFFFFF",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "italic"
+                ]
+              }
+            },
+            {
+              "text": " kalau bermanfaat",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "italic",
+                "color": "#CFCFCF",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_04",
+              "text_05",
+              "text_06"
+            ],
+            "same_alignment_axis_as": [
+              "text_04",
+              "text_05",
+              "text_06"
+            ],
+            "spacing_notes": "Right-most item in the horizontal footer CTA row, separated from the other three by a wider gap."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_3"
+            ],
+            "relationship": [
+              "text_over_visual",
+              "text_and_visual_share_vertical_axis"
+            ],
+            "description": "A downward-pointing marker (visual_object_3) sits below this label; text overlays the dark lower background."
+          },
+          "confidence": 0.82
+        }
+      ],
+      "visual_layout_context": {
+        "visual_elements": [
+          {
+            "id": "visual_object_1",
+            "position": "top_left",
+            "bounding_box": {
+              "x": 3,
+              "y": 4,
+              "width": 5,
+              "height": 5
+            },
+            "relationship_to_text": "Small circular mark immediately left of the brand text, sharing its horizontal axis."
+          },
+          {
+            "id": "visual_cluster_1",
+            "position": "bottom_center",
+            "bounding_box": {
+              "x": 0,
+              "y": 58,
+              "width": 100,
+              "height": 34
+            },
+            "relationship_to_text": "Large full-width visual band occupying the lower portion of the canvas, below all primary text blocks. Acts as an anchor beneath the headline and body copy."
+          },
+          {
+            "id": "visual_object_2",
+            "position": "bottom_left",
+            "bounding_box": {
+              "x": 6,
+              "y": 96,
+              "width": 40,
+              "height": 3
+            },
+            "relationship_to_text": "Row of small downward-pointing markers below the left-side footer CTA labels."
+          },
+          {
+            "id": "visual_object_3",
+            "position": "bottom_right",
+            "bounding_box": {
+              "x": 74,
+              "y": 96,
+              "width": 12,
+              "height": 3
+            },
+            "relationship_to_text": "Downward-pointing marker below the right-side footer CTA label."
+          }
+        ]
+      },
+      "global_text_layout": {
+        "reading_direction": "left-to-right, top-to-bottom",
+        "reading_sequence": [
+          "text_01",
+          "text_02",
+          "text_03",
+          "text_04",
+          "text_05",
+          "text_06",
+          "text_07"
+        ],
+        "primary_alignment": "left",
+        "primary_alignment_axis_description": "Brand, headline, and body copy all share a common left alignment axis near x=8. Footer CTA items are distributed horizontally along the bottom edge, each left-aligned within its own column.",
+        "hierarchy_description": "Clear three-tier hierarchy: the headline 'Kapan Beli ESSA?' dominates as the largest, boldest element (priority 1); the body paragraph provides supporting explanation at medium size with selective bold and one accent-colored word (priority 2); brand text and footer CTA microcopy sit at the lowest priority (4-5). Emphasis within body and headline is driven by bold weight and a single red accent word 'turun'.",
+        "text_density": "medium",
+        "estimated_text_area_percentage": 32,
+        "estimated_visual_area_percentage": 45,
+        "whitespace_distribution": "Concentrated in the upper-middle region where the light background provides ample breathing room around the headline and paragraph. The lower third is dense with visual content, and the very bottom edge carries a thin band of microcopy.",
+        "composition_description": "The composition follows a top-loaded editorial structure: brand mark at top-left, a bold headline, then a multi-line body paragraph, all left-aligned on a light background occupying roughly the top 55% of the canvas. A full-width darker visual band anchors the lower portion beneath the text, and a horizontal strip of four footer CTA microcopy items with directional markers runs along the very bottom. Text and visual regions are cleanly separated vertically, with typography reading top-to-bottom before the eye reaches the anchoring visual band."
+      }
+    },
+    "slideIndex": 3
+  }
+]

@@ -20,6 +20,7 @@ Baca hanya dokumen yang relevan dengan perubahan:
 - Kontrak runtime dan aturan yang selalu berlaku pada kompilasi: `SYSTEM.md`.
 - Scope atau boundary engine: `docs/scope.md`.
 - Aturan editorial dan standar kualitas: `docs/principles.md`.
+- Struktur copy, panjang relatif antar-block, line break, text zone, dan spacing: `docs/copy-composition.md`.
 - Urutan proses dan dependency antartahap: `docs/pipeline.md`.
 - Sistem visual dan pemilihan visual family: `docs/visual-language.md`. Buka `references/visuals/` hanya saat tugas menyentuh sumber referensi visual atau derivasi playbook.
 - Struktur input, output, atau profil context: schema terkait di `schemas/`.

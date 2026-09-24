@@ -1,0 +1,721 @@
+[
+  {
+    "analysis": {
+      "canvas": {
+        "aspect_ratio": "4:5",
+        "orientation": "portrait",
+        "estimated_width": 512,
+        "estimated_height": 640
+      },
+      "full_text": {
+        "plain_text": "GLIMPSE.INC -8.21% -5.87% -12.34% -5.67% -9.18% AMMONIA NH3 Kalau gak ada yang order, ya jelas harga amonia turun. Sampai sini sudah dapat logikanya? Like kalau suka Komen pendapatmu Bagikan konten ini Simpan kalau bermanfaat",
+        "reading_order_text": "GLIMPSE.INC | AMMONIA NH3 | -8.21% -5.87% -12.34% -5.67% -9.18% | Kalau gak ada yang order, ya jelas harga amonia turun. | Sampai sini sudah dapat logikanya? | Like kalau suka | Komen pendapatmu | Bagikan konten ini | Simpan kalau bermanfaat",
+        "transcription_confidence": 0.93
+      },
+      "text_blocks": [
+        {
+          "id": "text_01",
+          "semantic_role": "brand",
+          "reading_order": 1,
+          "attention_priority": 4,
+          "text": "GLIMPSE.INC",
+          "lines": [
+            "GLIMPSE.INC"
+          ],
+          "position": "top_left",
+          "bounding_box": {
+            "x": 8,
+            "y": 5,
+            "width": 22,
+            "height": 4
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "bold",
+            "font_style": "normal",
+            "size_category": "small",
+            "approximate_font_size_relative_to_canvas_height": 0.022,
+            "text_color": "#4A4A4A",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "slightly_tight"
+          },
+          "spans": [
+            {
+              "text": "GLIMPSE.INC",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#4A4A4A",
+                "color_estimated": true,
+                "emphasis": [
+                  "uppercase"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [],
+            "same_alignment_axis_as": [
+              "text_04",
+              "text_05"
+            ],
+            "spacing_notes": "Isolated in the top-left corner, accompanied by a circular visual mark to its left."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_1"
+            ],
+            "relationship": [
+              "text_right_of_visual",
+              "text_and_visual_share_horizontal_axis"
+            ],
+            "description": "The brand text sits immediately to the right of a small circular logo mark (visual_object_1), sharing the same horizontal baseline."
+          },
+          "confidence": 0.9
+        },
+        {
+          "id": "text_02",
+          "semantic_role": "label",
+          "reading_order": 2,
+          "attention_priority": 3,
+          "text": "AMMONIA NH3",
+          "lines": [
+            "AMMONIA",
+            "NH3"
+          ],
+          "position": "center",
+          "bounding_box": {
+            "x": 40,
+            "y": 24,
+            "width": 20,
+            "height": 6
+          },
+          "alignment": "center",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "bold",
+            "font_style": "normal",
+            "size_category": "small",
+            "approximate_font_size_relative_to_canvas_height": 0.025,
+            "text_color": "#2B2B2B",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "AMMONIA",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": [
+                  "uppercase"
+                ]
+              }
+            },
+            {
+              "text": "NH3",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": [
+                  "uppercase",
+                  "smaller_size"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [],
+            "same_alignment_axis_as": [],
+            "spacing_notes": "Printed directly on the curved surface of the central cylindrical visual object."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_2"
+            ],
+            "relationship": [
+              "text_over_visual"
+            ],
+            "description": "This label text is rendered as a surface graphic on the large central cylindrical visual object, following its curvature."
+          },
+          "confidence": 0.92
+        },
+        {
+          "id": "text_03",
+          "semantic_role": "callout",
+          "reading_order": 3,
+          "attention_priority": 3,
+          "text": "-8.21% -5.87% -12.34% -5.67% -9.18%",
+          "lines": [
+            "-8.21%",
+            "-5.87%",
+            "-12.34%",
+            "-5.67%",
+            "-9.18%"
+          ],
+          "position": "center",
+          "bounding_box": {
+            "x": 12,
+            "y": 16,
+            "width": 76,
+            "height": 34
+          },
+          "alignment": "mixed",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "bold",
+            "font_style": "normal",
+            "size_category": "small",
+            "approximate_font_size_relative_to_canvas_height": 0.028,
+            "text_color": "#FF1E1E",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "-8.21%",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#FF1E1E",
+                "color_estimated": true,
+                "emphasis": [
+                  "accent_color",
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": "-5.87%",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#FF1E1E",
+                "color_estimated": true,
+                "emphasis": [
+                  "accent_color",
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": "-12.34%",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#FF1E1E",
+                "color_estimated": true,
+                "emphasis": [
+                  "accent_color",
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": "-5.67%",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#FF1E1E",
+                "color_estimated": true,
+                "emphasis": [
+                  "accent_color",
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": "-9.18%",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#FF1E1E",
+                "color_estimated": true,
+                "emphasis": [
+                  "accent_color",
+                  "bold"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [],
+            "same_alignment_axis_as": [],
+            "spacing_notes": "Numeric callouts are distributed around a curved ribbon-like visual arrangement that encircles the central object."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_2",
+              "visual_cluster_1"
+            ],
+            "relationship": [
+              "text_over_visual",
+              "visual_frames_text"
+            ],
+            "description": "The percentage callouts are overlaid on the dark curved panels (visual_cluster_1) that wrap around and frame the central cylindrical visual object. Each value appears near a downward-trending graphic motif."
+          },
+          "confidence": 0.9
+        },
+        {
+          "id": "text_04",
+          "semantic_role": "headline",
+          "reading_order": 4,
+          "attention_priority": 1,
+          "text": "Kalau gak ada yang order, ya jelas harga amonia turun.",
+          "lines": [
+            "Kalau gak ada yang order,",
+            "ya jelas harga amonia turun."
+          ],
+          "position": "center",
+          "bounding_box": {
+            "x": 8,
+            "y": 58,
+            "width": 84,
+            "height": 12
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "mixed",
+            "font_style": "mixed",
+            "size_category": "large",
+            "approximate_font_size_relative_to_canvas_height": 0.05,
+            "text_color": "#1A1A1A",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Kalau ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#1A1A1A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "gak ada",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#E8140C",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "accent_color"
+                ]
+              }
+            },
+            {
+              "text": " yang ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#1A1A1A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "order",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "italic",
+                "color": "#1A1A1A",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic"
+                ]
+              }
+            },
+            {
+              "text": ", ya jelas ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#1A1A1A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "harga amonia",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1A1A1A",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": " ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#1A1A1A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "turun",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#E8140C",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "accent_color"
+                ]
+              }
+            },
+            {
+              "text": ".",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#1A1A1A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_05"
+            ],
+            "same_alignment_axis_as": [
+              "text_01",
+              "text_05"
+            ],
+            "spacing_notes": "Positioned below the central visual grouping with generous whitespace above; the subheadline sits directly beneath on the same left axis."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_2",
+              "visual_cluster_1"
+            ],
+            "relationship": [
+              "text_below_visual",
+              "visual_below_text"
+            ],
+            "description": "The headline begins in the lower-middle region, roughly 8% of canvas height below the encircling visual cluster, creating clear separation while remaining visually anchored beneath it."
+          },
+          "confidence": 0.95
+        },
+        {
+          "id": "text_05",
+          "semantic_role": "question",
+          "reading_order": 5,
+          "attention_priority": 2,
+          "text": "Sampai sini sudah dapat logikanya?",
+          "lines": [
+            "Sampai sini sudah dapat logikanya?"
+          ],
+          "position": "center",
+          "bounding_box": {
+            "x": 8,
+            "y": 72,
+            "width": 70,
+            "height": 5
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "mixed",
+            "font_style": "normal",
+            "size_category": "medium",
+            "approximate_font_size_relative_to_canvas_height": 0.032,
+            "text_color": "#5A5A5A",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Sampai sini sudah ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#5A5A5A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "dapat logika",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#3A3A3A",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": "nya?",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#5A5A5A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_04"
+            ],
+            "same_alignment_axis_as": [
+              "text_01",
+              "text_04"
+            ],
+            "spacing_notes": "Directly below the headline, sharing the same left margin; slightly smaller and lighter, acting as a follow-up prompt."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [],
+            "relationship": [
+              "text_inside_negative_space"
+            ],
+            "description": "Sits in the lower whitespace region of the canvas with no adjacent visual element, providing a clean supporting line beneath the headline."
+          },
+          "confidence": 0.94
+        },
+        {
+          "id": "text_06",
+          "semantic_role": "CTA",
+          "reading_order": 6,
+          "attention_priority": 5,
+          "text": "Like kalau suka Komen pendapatmu Bagikan konten ini Simpan kalau bermanfaat",
+          "lines": [
+            "Like kalau suka",
+            "Komen pendapatmu",
+            "Bagikan konten ini",
+            "Simpan kalau bermanfaat"
+          ],
+          "position": "bottom_center",
+          "bounding_box": {
+            "x": 4,
+            "y": 92,
+            "width": 92,
+            "height": 6
+          },
+          "alignment": "mixed",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "mixed",
+            "font_style": "italic",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.018,
+            "text_color": "#4A4A4A",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Like",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "italic",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "italic"
+                ]
+              }
+            },
+            {
+              "text": " kalau suka",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#6A6A6A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "Komen",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "italic",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "italic"
+                ]
+              }
+            },
+            {
+              "text": " pendapatmu",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#6A6A6A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "Bagikan",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "italic",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "italic"
+                ]
+              }
+            },
+            {
+              "text": " konten ini",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#6A6A6A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "Simpan",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "italic",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "italic"
+                ]
+              }
+            },
+            {
+              "text": " kalau bermanfaat",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#6A6A6A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [],
+            "same_alignment_axis_as": [],
+            "spacing_notes": "A horizontal row of four micro CTA items along the bottom edge, each with a leading bold word followed by lighter supporting text, accompanied by small pointer visual markers."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_cluster_2"
+            ],
+            "relationship": [
+              "text_above_visual",
+              "text_and_visual_share_horizontal_axis"
+            ],
+            "description": "The CTA row sits above a set of small repeating pointer/arrow-like visual markers (visual_cluster_2) at the bottom of the canvas, forming a footer band."
+          },
+          "confidence": 0.88
+        }
+      ],
+      "visual_layout_context": {
+        "visual_elements": [
+          {
+            "id": "visual_object_1",
+            "position": "top_left",
+            "bounding_box": {
+              "x": 3,
+              "y": 4,
+              "width": 5,
+              "height": 5
+            },
+            "relationship_to_text": "Small circular mark to the left of the brand text (text_01)."
+          },
+          {
+            "id": "visual_object_2",
+            "position": "center",
+            "bounding_box": {
+              "x": 30,
+              "y": 18,
+              "width": 42,
+              "height": 30
+            },
+            "relationship_to_text": "Large central cylindrical object carrying the surface label text (text_02); acts as the focal anchor of the upper composition."
+          },
+          {
+            "id": "visual_cluster_1",
+            "position": "center",
+            "bounding_box": {
+              "x": 10,
+              "y": 15,
+              "width": 80,
+              "height": 38
+            },
+            "relationship_to_text": "Dark curved ribbon-like panels encircling visual_object_2, framing and hosting the percentage callouts (text_03)."
+          },
+          {
+            "id": "visual_cluster_2",
+            "position": "bottom_center",
+            "bounding_box": {
+              "x": 4,
+              "y": 95,
+              "width": 92,
+              "height": 5
+            },
+            "relationship_to_text": "Row of small repeating pointer markers beneath the CTA text (text_06)."
+          }
+        ]
+      },
+      "global_text_layout": {
+        "reading_direction": "left_to_right_top_to_bottom",
+        "reading_sequence": [
+          "text_01",
+          "text_02",
+          "text_03",
+          "text_04",
+          "text_05",
+          "text_06"
+        ],
+        "primary_alignment": "left",
+        "primary_alignment_axis_description": "The brand mark, headline, and subheadline share a common left margin at roughly x=8, establishing the dominant left alignment axis for the lower half of the canvas.",
+        "hierarchy_description": "The headline (text_04) dominates with the largest size, mixed weights, and dual accent-color highlights ('gak ada', 'turun'). The question line (text_05) is the secondary layer, followed by the framed percentage callouts and central label as supporting mid-composition elements, with the brand mark and CTA footer as the lowest-priority microcopy.",
+        "text_density": "medium",
+        "estimated_text_area_percentage": 25,
+        "estimated_visual_area_percentage": 45,
+        "whitespace_distribution": "Generous whitespace separates the upper visual grouping from the lower text block; the central band around y=52-58 is largely empty, and margins on left/right of the headline provide breathing room. The bottom footer is compact.",
+        "composition_description": "The composition splits into an upper visual zone (encircled central object with percentage callouts) and a lower text zone. The viewer's eye moves from the top-left brand mark, into the central object and its framed numeric callouts, then down to the large left-aligned headline and its supporting question, ending at the micro CTA footer. Typography and visuals are stacked vertically, with the visual cluster acting as an anchor above the primary headline."
+      }
+    },
+    "slideIndex": 11
+  }
+]

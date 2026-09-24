@@ -460,16 +460,16 @@ Kepadatan dinilai berdasarkan:
 ```text
 1. conceptual density
 2. visual/text-area density
-3. word count
 ```
+
+Engine tidak menetapkan batas jumlah kata, block, atau paragraf. Panjang copy bukan kriteria kelulusan tersendiri.
 
 Engine tidak boleh menyelesaikan masalah kepadatan hanya dengan:
 
 * mengecilkan teks;
-* membuat paragraph panjang;
 * memasukkan terlalu banyak sub-points.
 
-Engine juga tidak boleh menyebut slide berhasil hanya karena jumlah katanya rendah. Under-explanation, slogan tanpa bridge, dan langkah yang kehilangan konteks adalah kegagalan clarity.
+Engine tidak boleh menyebut slide berhasil hanya karena copy-nya pendek. Under-explanation, slogan tanpa bridge, dan langkah yang kehilangan konteks adalah kegagalan clarity.
 
 Strategi yang lebih diutamakan:
 

@@ -1,0 +1,932 @@
+[
+  {
+    "analysis": {
+      "canvas": {
+        "aspect_ratio": "4:5",
+        "orientation": "portrait",
+        "estimated_width": 512,
+        "estimated_height": 640
+      },
+      "full_text": {
+        "plain_text": "GLIMPSE.INC Valuasi ESSA hari ini PER 10.9x PBV 1.5x Div. (%) 3.5% ESSA Like kalau suka Komen pendapatmu Bagikan konten ini Simpan kalau bermanfaat",
+        "reading_order_text": "GLIMPSE.INC | Valuasi ESSA hari ini | PER → 10.9x | PBV → 1.5x | Div. (%) → 3.5% | ESSA | Like kalau suka | Komen pendapatmu | Bagikan konten ini | Simpan kalau bermanfaat",
+        "transcription_confidence": 0.9
+      },
+      "text_blocks": [
+        {
+          "id": "text_01",
+          "semantic_role": "brand",
+          "reading_order": 1,
+          "attention_priority": 4,
+          "text": "GLIMPSE.INC",
+          "lines": [
+            "GLIMPSE.INC"
+          ],
+          "position": "top_left",
+          "bounding_box": {
+            "x": 10,
+            "y": 5,
+            "width": 25,
+            "height": 4
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "bold",
+            "font_style": "normal",
+            "size_category": "small",
+            "approximate_font_size_relative_to_canvas_height": 0.022,
+            "text_color": "#2A2A2A",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "GLIMPSE.INC",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#2A2A2A",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [],
+            "same_alignment_axis_as": [
+              "text_02"
+            ],
+            "spacing_notes": "Positioned in the top-left corner, well separated from the headline below by generous whitespace."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_1"
+            ],
+            "relationship": [
+              "text_right_of_visual"
+            ],
+            "description": "The brand text sits to the right of a small circular visual_object_1 which serves as a logo mark anchor."
+          },
+          "confidence": 0.85
+        },
+        {
+          "id": "text_02",
+          "semantic_role": "headline",
+          "reading_order": 2,
+          "attention_priority": 1,
+          "text": "Valuasi ESSA hari ini",
+          "lines": [
+            "Valuasi ESSA hari ini"
+          ],
+          "position": "top_center",
+          "bounding_box": {
+            "x": 10,
+            "y": 20,
+            "width": 70,
+            "height": 8
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "bold",
+            "font_style": "normal",
+            "size_category": "very_large",
+            "approximate_font_size_relative_to_canvas_height": 0.055,
+            "text_color": "#1A1A2E",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Valuasi ",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1A1A2E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": "ESSA",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1A1A2E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "different_font"
+                ]
+              }
+            },
+            {
+              "text": " hari ini",
+              "style": {
+                "font_weight": "medium",
+                "font_style": "normal",
+                "color": "#4A4A5E",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_03",
+              "text_04",
+              "text_05"
+            ],
+            "same_alignment_axis_as": [
+              "text_01",
+              "text_03",
+              "text_04",
+              "text_05"
+            ],
+            "spacing_notes": "Sits above the three data pill rows with clear separation; shares the left alignment axis with the pills."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_2"
+            ],
+            "relationship": [
+              "text_above_visual"
+            ],
+            "description": "The headline occupies the upper-middle region above the pill-shaped data blocks and the lower dimensional lettering visual."
+          },
+          "confidence": 0.95
+        },
+        {
+          "id": "text_03",
+          "semantic_role": "callout",
+          "reading_order": 3,
+          "attention_priority": 2,
+          "text": "PER 10.9x",
+          "lines": [
+            "PER 10.9x"
+          ],
+          "position": "center",
+          "bounding_box": {
+            "x": 10,
+            "y": 30,
+            "width": 80,
+            "height": 8
+          },
+          "alignment": "mixed",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "bold",
+            "font_style": "normal",
+            "size_category": "large",
+            "approximate_font_size_relative_to_canvas_height": 0.035,
+            "text_color": "#1A1A2E",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "PER",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1A1A2E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": "10.9x",
+              "style": {
+                "font_weight": "semibold",
+                "font_style": "normal",
+                "color": "#2A2A3E",
+                "color_estimated": true,
+                "emphasis": [
+                  "semibold"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_04",
+              "text_05"
+            ],
+            "same_alignment_axis_as": [
+              "text_02",
+              "text_04",
+              "text_05"
+            ],
+            "spacing_notes": "First of three equally spaced pill rows; label on the left region, value on the right region within a gradient pill container."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_3",
+              "visual_object_4"
+            ],
+            "relationship": [
+              "text_right_of_visual",
+              "text_over_visual"
+            ],
+            "description": "Label text sits to the right of a small icon (visual_object_3) and an arrow indicator; the entire text row is placed over a gradient pill background (visual_object_4)."
+          },
+          "confidence": 0.9
+        },
+        {
+          "id": "text_04",
+          "semantic_role": "callout",
+          "reading_order": 4,
+          "attention_priority": 2,
+          "text": "PBV 1.5x",
+          "lines": [
+            "PBV 1.5x"
+          ],
+          "position": "center",
+          "bounding_box": {
+            "x": 10,
+            "y": 41,
+            "width": 80,
+            "height": 8
+          },
+          "alignment": "mixed",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "bold",
+            "font_style": "normal",
+            "size_category": "large",
+            "approximate_font_size_relative_to_canvas_height": 0.035,
+            "text_color": "#1A1A2E",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "PBV",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1A1A2E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": "1.5x",
+              "style": {
+                "font_weight": "semibold",
+                "font_style": "normal",
+                "color": "#2A2A3E",
+                "color_estimated": true,
+                "emphasis": [
+                  "semibold"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_03",
+              "text_05"
+            ],
+            "same_alignment_axis_as": [
+              "text_02",
+              "text_03",
+              "text_05"
+            ],
+            "spacing_notes": "Second pill row, identical structure and spacing to the row above."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_5",
+              "visual_object_4"
+            ],
+            "relationship": [
+              "text_right_of_visual",
+              "text_over_visual"
+            ],
+            "description": "Label text sits right of a small icon and arrow indicator; placed over a gradient pill background."
+          },
+          "confidence": 0.9
+        },
+        {
+          "id": "text_05",
+          "semantic_role": "callout",
+          "reading_order": 5,
+          "attention_priority": 2,
+          "text": "Div. (%) 3.5%",
+          "lines": [
+            "Div. (%) 3.5%"
+          ],
+          "position": "center",
+          "bounding_box": {
+            "x": 10,
+            "y": 52,
+            "width": 80,
+            "height": 8
+          },
+          "alignment": "mixed",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "bold",
+            "font_style": "normal",
+            "size_category": "large",
+            "approximate_font_size_relative_to_canvas_height": 0.035,
+            "text_color": "#1A1A2E",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Div. (%)",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1A1A2E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": "3.5%",
+              "style": {
+                "font_weight": "semibold",
+                "font_style": "normal",
+                "color": "#2A2A3E",
+                "color_estimated": true,
+                "emphasis": [
+                  "semibold"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_03",
+              "text_04"
+            ],
+            "same_alignment_axis_as": [
+              "text_02",
+              "text_03",
+              "text_04"
+            ],
+            "spacing_notes": "Third and last pill row, consistent with the two rows above."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_6",
+              "visual_object_4"
+            ],
+            "relationship": [
+              "text_right_of_visual",
+              "text_over_visual"
+            ],
+            "description": "Label text sits right of a small icon and arrow indicator; placed over a gradient pill background."
+          },
+          "confidence": 0.9
+        },
+        {
+          "id": "text_06",
+          "semantic_role": "decorative_text",
+          "reading_order": 6,
+          "attention_priority": 1,
+          "text": "ESSA",
+          "lines": [
+            "ESSA"
+          ],
+          "position": "bottom_center",
+          "bounding_box": {
+            "x": 22,
+            "y": 63,
+            "width": 56,
+            "height": 20
+          },
+          "alignment": "center",
+          "typography": {
+            "font_category": "serif",
+            "font_weight": "bold",
+            "font_style": "normal",
+            "size_category": "dominant",
+            "approximate_font_size_relative_to_canvas_height": 0.14,
+            "text_color": "#7A6A3A",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "wide"
+          },
+          "spans": [
+            {
+              "text": "ESSA",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#7A6A3A",
+                "color_estimated": true,
+                "emphasis": [
+                  "larger_size",
+                  "uppercase",
+                  "different_font"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [],
+            "same_alignment_axis_as": [],
+            "spacing_notes": "Large three-dimensional lettering rendered as a foreground visual element in the lower portion; visually distinct from the flat UI text above."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "background_visual",
+              "visual_object_7"
+            ],
+            "relationship": [
+              "text_over_visual",
+              "visual_below_text"
+            ],
+            "description": "This dimensional lettering rests atop a busy document-style background_visual occupying the lower third of the canvas; it acts as a foreground anchor beneath the data pills."
+          },
+          "confidence": 0.85
+        },
+        {
+          "id": "text_07",
+          "semantic_role": "CTA",
+          "reading_order": 7,
+          "attention_priority": 3,
+          "text": "Like kalau suka",
+          "lines": [
+            "Like kalau",
+            "suka"
+          ],
+          "position": "bottom_left",
+          "bounding_box": {
+            "x": 3,
+            "y": 92,
+            "width": 18,
+            "height": 6
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "mixed",
+            "font_style": "italic",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.018,
+            "text_color": "#3A3A4E",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Like",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "italic",
+                "color": "#2A2A3E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "italic"
+                ]
+              }
+            },
+            {
+              "text": "kalau suka",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "italic",
+                "color": "#4A4A5E",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_08",
+              "text_09",
+              "text_10"
+            ],
+            "same_alignment_axis_as": [
+              "text_08",
+              "text_09",
+              "text_10"
+            ],
+            "spacing_notes": "First of four microcopy CTA items in a horizontal footer row."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_8"
+            ],
+            "relationship": [
+              "text_above_visual"
+            ],
+            "description": "Microcopy positioned above a small icon marker at the bottom edge of the canvas."
+          },
+          "confidence": 0.85
+        },
+        {
+          "id": "text_08",
+          "semantic_role": "CTA",
+          "reading_order": 8,
+          "attention_priority": 3,
+          "text": "Komen pendapatmu",
+          "lines": [
+            "Komen",
+            "pendapatmu"
+          ],
+          "position": "bottom_left",
+          "bounding_box": {
+            "x": 22,
+            "y": 92,
+            "width": 20,
+            "height": 6
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "mixed",
+            "font_style": "italic",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.018,
+            "text_color": "#3A3A4E",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Komen",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "italic",
+                "color": "#2A2A3E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "italic"
+                ]
+              }
+            },
+            {
+              "text": "pendapatmu",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "italic",
+                "color": "#4A4A5E",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_07",
+              "text_09",
+              "text_10"
+            ],
+            "same_alignment_axis_as": [
+              "text_07",
+              "text_09",
+              "text_10"
+            ],
+            "spacing_notes": "Second CTA microcopy item in the footer row."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_9"
+            ],
+            "relationship": [
+              "text_above_visual"
+            ],
+            "description": "Microcopy positioned above a small icon marker at the bottom edge."
+          },
+          "confidence": 0.85
+        },
+        {
+          "id": "text_09",
+          "semantic_role": "CTA",
+          "reading_order": 9,
+          "attention_priority": 3,
+          "text": "Bagikan konten ini",
+          "lines": [
+            "Bagikan",
+            "konten ini"
+          ],
+          "position": "bottom_center",
+          "bounding_box": {
+            "x": 43,
+            "y": 92,
+            "width": 18,
+            "height": 6
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "mixed",
+            "font_style": "italic",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.018,
+            "text_color": "#3A3A4E",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Bagikan",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "italic",
+                "color": "#2A2A3E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "italic"
+                ]
+              }
+            },
+            {
+              "text": "konten ini",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "italic",
+                "color": "#4A4A5E",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_07",
+              "text_08",
+              "text_10"
+            ],
+            "same_alignment_axis_as": [
+              "text_07",
+              "text_08",
+              "text_10"
+            ],
+            "spacing_notes": "Third CTA microcopy item in the footer row."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_10"
+            ],
+            "relationship": [
+              "text_above_visual"
+            ],
+            "description": "Microcopy positioned above a small icon marker at the bottom edge."
+          },
+          "confidence": 0.85
+        },
+        {
+          "id": "text_10",
+          "semantic_role": "CTA",
+          "reading_order": 10,
+          "attention_priority": 3,
+          "text": "Simpan kalau bermanfaat",
+          "lines": [
+            "Simpan kalau",
+            "bermanfaat"
+          ],
+          "position": "bottom_right",
+          "bounding_box": {
+            "x": 74,
+            "y": 92,
+            "width": 24,
+            "height": 6
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "mixed",
+            "font_style": "italic",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.018,
+            "text_color": "#3A3A4E",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Simpan",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "italic",
+                "color": "#2A2A3E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "italic"
+                ]
+              }
+            },
+            {
+              "text": "kalau bermanfaat",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "italic",
+                "color": "#4A4A5E",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_07",
+              "text_08",
+              "text_09"
+            ],
+            "same_alignment_axis_as": [
+              "text_07",
+              "text_08",
+              "text_09"
+            ],
+            "spacing_notes": "Fourth and rightmost CTA microcopy item, separated from the left three by a larger gap."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [],
+            "relationship": [],
+            "description": "Positioned at the bottom-right, no adjacent icon marker directly beneath in this item."
+          },
+          "confidence": 0.85
+        }
+      ],
+      "visual_layout_context": {
+        "visual_elements": [
+          {
+            "id": "visual_object_1",
+            "position": "top_left",
+            "bounding_box": {
+              "x": 5,
+              "y": 4,
+              "width": 5,
+              "height": 5
+            },
+            "relationship_to_text": "Small circular logo mark to the left of the brand text (text_01)."
+          },
+          {
+            "id": "visual_object_4",
+            "position": "center",
+            "bounding_box": {
+              "x": 10,
+              "y": 29,
+              "width": 80,
+              "height": 32
+            },
+            "relationship_to_text": "Three stacked gradient pill-shaped containers that frame and hold the callout text rows (text_03, text_04, text_05)."
+          },
+          {
+            "id": "visual_object_3",
+            "position": "center_left",
+            "bounding_box": {
+              "x": 13,
+              "y": 30,
+              "width": 8,
+              "height": 6
+            },
+            "relationship_to_text": "Icon element to the left of PER label; text_right_of_visual."
+          },
+          {
+            "id": "visual_object_5",
+            "position": "center_left",
+            "bounding_box": {
+              "x": 13,
+              "y": 41,
+              "width": 8,
+              "height": 6
+            },
+            "relationship_to_text": "Icon element to the left of PBV label."
+          },
+          {
+            "id": "visual_object_6",
+            "position": "center_left",
+            "bounding_box": {
+              "x": 13,
+              "y": 52,
+              "width": 8,
+              "height": 6
+            },
+            "relationship_to_text": "Icon element to the left of Div. (%) label."
+          },
+          {
+            "id": "visual_object_7",
+            "position": "bottom_center",
+            "bounding_box": {
+              "x": 22,
+              "y": 63,
+              "width": 56,
+              "height": 22
+            },
+            "relationship_to_text": "Large dimensional lettering foreground element containing the decorative text (text_06)."
+          },
+          {
+            "id": "background_visual",
+            "position": "bottom_center",
+            "bounding_box": {
+              "x": 0,
+              "y": 62,
+              "width": 100,
+              "height": 38
+            },
+            "relationship_to_text": "Busy document/chart-style background occupying the lower third; visual_below_text relative to the pill callouts and behind text_06."
+          },
+          {
+            "id": "visual_object_8",
+            "position": "bottom_left",
+            "bounding_box": {
+              "x": 8,
+              "y": 97,
+              "width": 6,
+              "height": 3
+            },
+            "relationship_to_text": "Small icon marker beneath CTA text_07."
+          },
+          {
+            "id": "visual_object_9",
+            "position": "bottom_left",
+            "bounding_box": {
+              "x": 28,
+              "y": 97,
+              "width": 6,
+              "height": 3
+            },
+            "relationship_to_text": "Small icon marker beneath CTA text_08."
+          },
+          {
+            "id": "visual_object_10",
+            "position": "bottom_center",
+            "bounding_box": {
+              "x": 48,
+              "y": 97,
+              "width": 6,
+              "height": 3
+            },
+            "relationship_to_text": "Small icon marker beneath CTA text_09."
+          }
+        ]
+      },
+      "global_text_layout": {
+        "reading_direction": "left_to_right_top_to_bottom",
+        "reading_sequence": [
+          "text_01",
+          "text_02",
+          "text_03",
+          "text_04",
+          "text_05",
+          "text_06",
+          "text_07",
+          "text_08",
+          "text_09",
+          "text_10"
+        ],
+        "primary_alignment": "left",
+        "primary_alignment_axis_description": "The brand mark, headline, and the three data pill rows share a common left alignment axis at approximately x=10; the numeric values are right-anchored within their pills creating a secondary right column.",
+        "hierarchy_description": "The headline (text_02) and the large dimensional lettering (text_06) compete for top visual priority; the headline leads the flat UI hierarchy, while the three data callouts form a clearly grouped middle tier. The brand mark and footer CTA microcopy are the lowest-priority supporting text.",
+        "text_density": "medium",
+        "estimated_text_area_percentage": 30,
+        "estimated_visual_area_percentage": 45,
+        "whitespace_distribution": "Generous whitespace in the upper half around the headline and pills; the lower third is visually dense due to the background and dimensional lettering; the footer strip is compact microcopy.",
+        "composition_description": "A structured top-down layout: brand identifier at top, a bold headline, three neatly grouped gradient pill callouts presenting key-value metrics, a large foreground lettering anchor over a document-style background in the lower third, and a four-item CTA microcopy row along the bottom edge. Typography flows from flat, high-contrast UI text at the top into a dimensional, textured focal element at the bottom."
+      }
+    },
+    "slideIndex": 15
+  }
+]

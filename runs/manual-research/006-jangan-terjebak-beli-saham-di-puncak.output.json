@@ -1,0 +1,942 @@
+{
+  "schema_version": "0.4.0",
+  "status": "NEEDS_REVIEW",
+  "editorial": {
+    "objective": "Membantu investor ritel pemula mengenali informational cascade dan memakai thesis serta jeda keputusan agar tidak membeli saham hanya karena keramaian.",
+    "central_takeaway": "Keramaian bukan pengganti analisis. Sebelum membeli saham, investor pemula perlu menulis thesis sendiri dan memberi jeda agar keputusan tidak lahir dari FOMO.",
+    "selected_angle": "Masalahnya bukan semata-mata harga sedang di puncak, tetapi keputusan masuk yang cuma menyalin kerumunan.",
+    "angle_rationale": "Angle ini mempertahankan mekanisme informational cascade, memberi langkah yang dapat dilakukan hari ini, dan menyimpan nuansa bahwa titik tertinggi baru tidak otomatis membuat pembelian salah. Taktik membaca broker ritel dihapus karena sumber tidak memberi data atau verifikasi yang cukup.",
+    "selected_material_ids": [
+      "mat_01",
+      "mat_02",
+      "mat_03",
+      "mat_04",
+      "mat_05",
+      "mat_07",
+      "mat_08"
+    ],
+    "omitted_material": [
+      {
+        "material_ids": ["mat_06"],
+        "reason": "Klaim tentang kode broker ritel, smart money, dan exit liquidity tidak memiliki data, definisi, atau verifikasi yang cukup untuk diajarkan sebagai sinyal transaksi kepada pemula."
+      }
+    ]
+  },
+  "narrative": {
+    "type": "hook FOMO, mekanisme kerumunan, pemeriksaan thesis, jeda keputusan, nuansa harga, tindakan",
+    "summary": "Carousel membuka dengan dorongan ikut membeli, menjelaskan bagaimana kerumunan dapat saling meniru, meminta audiens menulis thesis sendiri, memperkenalkan pembelian bertahap sebagai praktik pribadi pembicara, meluruskan bahwa harga tertinggi bukan otomatis salah, lalu menutup dengan cek refleks FOMO sebelum mengambil keputusan.",
+    "opening_function": "Membuat audiens mengenali momen ketika rasa takut ketinggalan menyamar sebagai alasan investasi.",
+    "ending_function": "Memberi tiga pertanyaan tertulis yang dapat dipakai hari ini untuk memisahkan thesis pribadi dari dorongan kerumunan.",
+    "slide_sequence": [
+      "slide_01",
+      "slide_02",
+      "slide_03",
+      "slide_04",
+      "slide_05",
+      "slide_06"
+    ]
+  },
+  "claims": [
+    {
+      "id": "claim_01",
+      "text": "Pembicara menjelaskan informational cascade sebagai pola ketika seseorang melihat banyak orang membeli, menganggap mereka tidak mungkin salah, lalu meninggalkan analisis sendiri untuk mengikuti mayoritas.",
+      "claim_type": "FACT",
+      "source_ids": ["src_transcript"],
+      "material_ids": ["mat_01"]
+    },
+    {
+      "id": "claim_02",
+      "text": "Menurut pembicara, keputusan mayoritas dapat terbentuk dari orang-orang yang saling mengikuti, bukan dari analisis independen setiap orang.",
+      "claim_type": "FACT",
+      "source_ids": ["src_transcript"],
+      "material_ids": ["mat_02"]
+    },
+    {
+      "id": "claim_03",
+      "text": "Pembicara menyarankan investor memiliki thesis sendiri dan mengetahui apakah alasan masuknya berasal dari kondisi makro, fundamental bisnis, valuasi, atau momentum.",
+      "claim_type": "FACT",
+      "source_ids": ["src_transcript"],
+      "material_ids": ["mat_03"]
+    },
+    {
+      "id": "claim_04",
+      "text": "Sebagai praktik pribadi, pembicara membeli secara bertahap dan tidak langsung all-in di awal.",
+      "claim_type": "FACT",
+      "source_ids": ["src_transcript"],
+      "material_ids": ["mat_04"]
+    },
+    {
+      "id": "claim_05",
+      "text": "Berdasarkan pengalaman pribadinya, pembicara merasa keputusan yang dibagi selama beberapa hari memberi lebih banyak ruang untuk berpikir dan mengurangi dorongan FOMO.",
+      "claim_type": "FACT",
+      "source_ids": ["src_transcript"],
+      "material_ids": ["mat_05"],
+      "notes": "Harus tetap dibaca sebagai pengalaman pribadi, bukan efek psikologis yang pasti berlaku untuk semua investor."
+    },
+    {
+      "id": "claim_06",
+      "text": "Pembicara menyatakan bahwa membeli saat harga mencetak titik tertinggi tidak selalu salah karena saham yang terus naik dapat membentuk puncak baru.",
+      "claim_type": "FACT",
+      "source_ids": ["src_transcript"],
+      "material_ids": ["mat_07"]
+    },
+    {
+      "id": "claim_07",
+      "text": "Risiko utama yang dibahas material bukan posisi harga semata, melainkan keputusan masuk tanpa thesis mandiri dan tanpa waktu untuk menilai ulang.",
+      "claim_type": "DERIVED",
+      "material_ids": ["mat_01", "mat_02", "mat_03", "mat_04", "mat_05", "mat_07"],
+      "derived_from_material_ids": ["mat_01", "mat_02", "mat_03", "mat_04", "mat_05", "mat_07"],
+      "derivation": "Kesimpulan ini menyatukan penjelasan tentang informational cascade, kebutuhan thesis, praktik masuk bertahap, dan nuansa mengenai harga tertinggi."
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset_01",
+      "type": "AI_GENERATED",
+      "description": "Foto konseptual seorang dewasa muda Indonesia yang hampir ikut naik ke eskalator ramai, tetapi masih berhenti satu langkah sebelum masuk.",
+      "subject": "Satu dewasa muda Indonesia usia awal 20-an dengan overshirt forest green, memegang ponsel dalam posisi turun.",
+      "requirements": [
+        "Komposisi vertikal 4:5 dengan subjek di kanan bawah dan bidang gelap bersih selebar sekitar 58 persen di kiri.",
+        "Kerumunan cukup terbaca sebagai arus orang tanpa menjadi scene yang ramai atau kacau.",
+        "Tidak ada layar trading, grafik candlestick, logo, tulisan, uang, atau ekspresi panik berlebihan."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt": "Vertical 4:5 photorealistic editorial photograph. A modern indoor transit hall with one upward escalator beginning in the lower right. One Indonesian young adult in their early twenties, wearing a forest-green overshirt and dark neutral trousers, stands one step before the escalator with a phone lowered at their side. Eight to ten softly blurred commuters are already moving upward, all facing away. Keep the main subject sharp and still, with a clear gap between their shoes and the first moving step. Camera at waist height, medium-wide 35mm view. Reserve the entire left 58 percent as a dark, quiet text-safe wall with low detail. Controlled cool lighting with a small emerald cue, realistic skin and fabric, restrained cinematic contrast. No visible phone screen, no trading interface, no candlestick chart, no money, no logos, no text, no signs, no exaggerated panic."
+      }
+    },
+    {
+      "id": "asset_02",
+      "type": "AI_GENERATED",
+      "description": "Foto konseptual tentang orang-orang yang mengikuti arah kerumunan menuju tikungan, ditempatkan sebagai visual anchor pada bagian bawah slide.",
+      "subject": "Satu baris dewasa muda Indonesia bergerak menuju tikungan koridor, dengan tokoh berovershirt forest green berada paling belakang.",
+      "requirements": [
+        "Komposisi vertikal dengan jalur manusia memenuhi bagian bawah sekitar 42 persen canvas dan bergerak menuju tikungan kanan.",
+        "Tujuan di balik tikungan tidak terlihat agar hubungan ikut-ikutan terbaca.",
+        "Tidak ada simbol panah, diagram, teks, bursa, uang, atau layar trading."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt": "Vertical 4:5 photorealistic conceptual editorial image inside a simple concrete corridor. Seven Indonesian young adults walk in a single loose line across the lower 42 percent of the frame from left toward a sharp corner on the lower right; the destination beyond the corner is completely hidden. The last person wears the same forest-green overshirt and looks toward the people ahead rather than toward any sign. Bodies are separated and silhouettes are easy to read. High overhead camera, moderate wide lens, quiet warm-gray concrete, soft directional daylight. Keep the upper 55 percent as a calm, lightly textured concrete wall with no people or objects so three left-aligned text blocks can span most of the width. The scene must look physically real and minimally staged. No arrows, no diagram, no signs, no text, no logos, no money, no phone screens, no stock charts, no duplicated faces."
+      }
+    },
+    {
+      "id": "asset_03",
+      "type": "AI_GENERATED",
+      "description": "Foto lifestyle seorang investor pemula menulis alasan keputusan di notebook pada bagian bawah slide sementara kerumunan berlalu sebagai latar kabur.",
+      "subject": "Dewasa muda Indonesia yang sama duduk di kanan bawah dengan notebook terbuka dan ponsel tertelungkup.",
+      "requirements": [
+        "Subjek ditempatkan di kanan bawah dengan meja dan notebook terbaca tanpa tulisan yang dihasilkan AI.",
+        "Latar manusia kabur memberi konteks kerumunan tetapi tidak mengambil perhatian.",
+        "Bidang atas selebar sekitar 78 persen cukup tenang untuk tiga blok copy."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt": "Vertical 4:5 realistic lifestyle editorial photograph in a quiet public-library corner. The same Indonesian young adult in a forest-green overshirt sits in the lower right, leaning slightly over an open blank notebook with a pen touching the page. A smartphone lies face down beside the notebook. Four to five people pass in the distant lower background as soft motion blur. Medium shot from a slightly elevated angle with a natural 50mm lens. Keep the upper 58 percent and left 78 percent as a plain warm wall with gentle tonal variation for three wide text blocks. Soft morning window light, forest green, warm white, charcoal, clean editorial grade. The notebook pages must be blank. No readable writing, no charts, no trading screen, no money, no logos, no text inside the image."
+      }
+    },
+    {
+      "id": "asset_04",
+      "type": "AI_GENERATED",
+      "description": "Close-up langkah kaki yang berpindah melalui tiga pijakan batu pada bagian bawah slide, sebagai metafora keputusan bertahap.",
+      "subject": "Sepasang kaki bersepatu netral milik tokoh yang sama sedang menapak pijakan kedua dari tiga batu lebar.",
+      "requirements": [
+        "Hanya tiga pijakan, satu pasang kaki, dan permukaan sederhana agar metafora langsung terbaca.",
+        "Ruang copy lebar pada bagian atas tanpa detail yang mengganggu.",
+        "Tidak ada angka, label, simbol uang, atau elemen diagram."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt": "Vertical 4:5 photorealistic conceptual object and human detail. Three large flat stone pavers form a short sequence across the lower 38 percent of a matte concrete floor from lower left toward lower right. Only one pair of neutral sneakers and the hem of dark trousers are visible; one foot is firmly on the second stone while the other is lifting from the first. The third stone remains clearly ahead. Close overhead three-quarter camera, crisp physical contact and realistic shadows. Keep the upper 58 percent as a smooth forest-green painted floor with no objects for four left-aligned text blocks. Controlled soft studio daylight, restrained warm-white and forest palette. Exactly three stones and one pair of feet. No numbers, no labels, no arrows, no coins, no graphs, no screens, no text."
+      }
+    },
+    {
+      "id": "asset_05",
+      "type": "AI_GENERATED",
+      "description": "Foto sinematik seorang pendaki muda di satu punggung bukit dengan puncak lain yang lebih tinggi, sebagai visual zone pada bagian atas slide.",
+      "subject": "Dewasa muda Indonesia yang sama berdiri tenang di punggung bukit pertama, bukan merayakan kemenangan.",
+      "requirements": [
+        "Dua punggung bukit terbaca jelas tanpa suasana ekstrem atau heroik berlebihan.",
+        "Subjek kecil di kiri atas dan ruang tenang selebar canvas pada bagian bawah untuk copy.",
+        "Tidak ada bendera, papan angka, grafik, atau simbol pasar."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt": "Vertical 4:5 photorealistic restrained cinematic landscape at early morning. The same Indonesian young adult in a forest-green overshirt stands small on the first rounded ridge in the upper left third, facing a second, slightly higher ridge across a shallow valley in the upper middle distance. Their posture is calm and observant, arms relaxed, no victory pose. Wide camera from behind and slightly above, natural perspective, muted blue-gray air and warm light on the ridges. Keep the lower 48 percent as a smooth dark blue-gray foreground with low detail for three wide left-aligned text blocks. One person, two readable ridges, minimal terrain detail. No flag, no summit marker, no numbers, no chart shape, no money, no signs, no text, no dramatic fantasy lighting."
+      }
+    },
+    {
+      "id": "asset_06",
+      "type": "AI_GENERATED",
+      "description": "Foto overhead meja dengan objek terkumpul di kanan bawah untuk momen cek refleks FOMO sebelum menekan tombol beli.",
+      "subject": "Tangan dewasa muda Indonesia menahan ponsel tetap tertelungkup sambil mulai menulis pada notebook kosong.",
+      "requirements": [
+        "Meja hanya berisi notebook, pena, ponsel tertelungkup, dan satu cangkir sederhana.",
+        "Area kiri dan atas cukup lebar untuk daftar tiga pertanyaan dengan text zone sekitar 72 persen canvas.",
+        "Tidak ada tulisan di notebook atau layar yang terlihat."
+      ],
+      "source_status": "NOT_APPLICABLE",
+      "generation": {
+        "prompt": "Vertical 4:5 photorealistic overhead lifestyle editorial photograph of a warm-white desk. In the lower right quadrant, the forearms of the same Indonesian young adult in a forest-green overshirt enter the frame. One hand keeps a smartphone face down; the other holds a pen above an open blank notebook. Add one plain ceramic cup near the far right edge, with no other objects. Keep the upper 62 percent and left 72 percent as clear desk surface for a heading, a three-item text list, and a closing line. Soft window light from the top, gentle realistic shadows, warm white, charcoal, and forest green palette, clean clinical editorial treatment. Notebook pages blank, phone screen hidden. No text, no logo, no money, no calculator, no stock chart, no trading interface."
+      }
+    }
+  ],
+  "slides": [
+    {
+      "id": "slide_01",
+      "index": 1,
+      "role": "hook",
+      "purpose": "Membuat audiens mengenali dorongan ikut membeli saat harga dan keramaian sedang naik.",
+      "core_message": "Rasa takut ketinggalan dapat membuat keramaian terlihat seperti alasan investasi.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "context",
+            "text": "BANYAK YANG BELI.\nHARGA LAGI NAIK.",
+            "reading_order": 1,
+            "attention_priority": 2,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "SEMIBOLD",
+              "alignment": "LEFT",
+              "color": "warm white",
+              "notes": "Neutral sans, uppercase, line height rapat."
+            },
+            "placement": "Mulai sekitar x 10 persen dan y 16 persen, lebar sekitar 55 persen canvas.",
+            "relation_to_visual": "Berada pada dinding gelap di samping arus eskalator."
+          },
+          {
+            "role": "focal_statement",
+            "text": "LO IKUT MASUK\nKARENA TAKUT\nKETINGGALAN?",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {
+              "scale": "HERO",
+              "weight": "BOLD",
+              "alignment": "LEFT",
+              "color": "warm white",
+              "notes": "Condensed bold sans. Beri accent emerald hanya pada kata KETINGGALAN."
+            },
+            "placement": "Mulai sekitar x 10 persen dan y 29 persen, lebar sekitar 60 persen canvas. Sisakan gap sekitar 3 persen tinggi canvas dari block context.",
+            "relation_to_visual": "Massa copy menahan bobot visual subjek dan eskalator di kanan.",
+            "accent_segments": [
+              {
+                "text": "KETINGGALAN?",
+                "treatment": "Emerald terang, tetap bold tanpa outline atau shadow."
+              }
+            ]
+          }
+        ]
+      },
+      "claim_ids": ["claim_01", "claim_07"],
+      "visual": {
+        "function": "ATTRACT_ATTENTION",
+        "primary": {
+          "concept": "Tokoh berhenti sesaat sebelum ikut naik ke eskalator yang dipenuhi arus orang.",
+          "subject": "Dewasa muda Indonesia dengan overshirt forest green, memegang ponsel dalam posisi turun.",
+          "scene": "Transit hall modern dengan satu eskalator naik dan kerumunan bergerak menjauh.",
+          "composition": "Subjek dan awal eskalator membentuk massa visual di kanan bawah. Dinding kiri selebar sekitar 58 persen menjadi bidang dua block copy, sementara diagonal eskalator mengarahkan mata ke atas.",
+          "framing": "Medium-wide dari ketinggian pinggang, lensa natural 35mm.",
+          "background": "Dinding charcoal tenang di kiri dan arsitektur transit yang redup di kanan.",
+          "lighting": "Cahaya dingin terkontrol dengan aksen hijau kecil pada wardrobe.",
+          "negative_space": "Sekitar 58 persen sisi kiri harus bebas detail dan cukup gelap untuk copy putih.",
+          "text_zone": "Kiri atas sampai kiri tengah, mulai x 10 persen dengan lebar 55 sampai 60 persen, tidak melintasi kepala atau garis eskalator.",
+          "visual_hierarchy": "Headline lebih dulu, lalu tokoh yang berhenti, kemudian arus kerumunan di eskalator.",
+          "editing_treatment": "Turunkan saturasi latar dan kerumunan. Pertahankan forest green pada overshirt sebagai anchor brand.",
+          "rationale": "Eskalator membuat dorongan ikut arus terlihat tanpa memakai layar trading atau grafik pasar."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_01"],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Generate asset_01 dengan canvas 4:5 dan pertahankan sekitar 58 persen sisi kiri sebagai text-safe area."
+        },
+        {
+          "step": 2,
+          "action": "SELECT",
+          "instruction": "Pilih hasil yang menunjukkan jarak jelas antara kaki tokoh dan anak tangga pertama, dengan kerumunan tetap sekunder."
+        },
+        {
+          "step": 3,
+          "action": "IMPORT",
+          "instruction": "Import gambar pada 1080 x 1350 px dan crop agar subjek berada di kanan bawah tanpa memotong tangan atau ponsel."
+        },
+        {
+          "step": 4,
+          "action": "ADD_TEXT",
+          "instruction": "Tambahkan context pada x 10 persen, y 16 persen dan focal statement pada x 10 persen, y 29 persen. Gunakan line height rapat pada headline dan gap sekitar 3 persen tinggi canvas antarblok."
+        },
+        {
+          "step": 5,
+          "action": "REVIEW",
+          "instruction": "Pastikan copy terbaca pada preview ponsel dan gambar tidak menyerupai dokumentasi peristiwa nyata."
+        }
+      ]
+    },
+    {
+      "id": "slide_02",
+      "index": 2,
+      "role": "explanation",
+      "purpose": "Menjelaskan informational cascade dan mengapa jumlah orang tidak membuktikan kualitas analisis mereka.",
+      "core_message": "Kerumunan dapat terlihat yakin meskipun keputusan anggotanya berasal dari saling meniru.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "label",
+            "text": "INFORMATIONAL CASCADE",
+            "reading_order": 1,
+            "attention_priority": 2,
+            "typography": {
+              "scale": "SMALL",
+              "weight": "SEMIBOLD",
+              "alignment": "LEFT",
+              "color": "emerald green",
+              "notes": "Neutral sans dengan tracking longgar."
+            },
+            "placement": "Mulai sekitar x 10 persen dan y 15 persen, lebar sekitar 72 persen canvas.",
+            "relation_to_visual": "Label menjadi nama mekanisme, bukan bagian dari gambar."
+          },
+          {
+            "role": "explanation",
+            "text": "Lo melihat banyak orang membeli, lalu menganggap mereka gak mungkin salah.\n\nMasalahnya, mereka bisa saja ikut karena melihat orang lain melakukan hal yang sama.",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {
+              "scale": "LARGE",
+              "weight": "SEMIBOLD",
+              "alignment": "LEFT",
+              "color": "charcoal",
+              "notes": "Neutral sans. Bedakan dua paragraf lewat jarak, bukan kotak."
+            },
+            "placement": "Mulai sekitar x 10 persen dan y 22 persen, lebar sekitar 80 persen canvas. Dua paragraf memakai line height normal dan gap sekitar 3 persen tinggi canvas.",
+            "relation_to_visual": "Copy memenuhi bidang dinding di atas jalur orang tanpa menimpa kepala atau tikungan."
+          },
+          {
+            "role": "focal_statement",
+            "text": "RAMAI BELUM TENTU\nHASIL ANALISIS MANDIRI.",
+            "reading_order": 3,
+            "attention_priority": 2,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "BOLD",
+              "alignment": "LEFT",
+              "color": "forest green",
+              "notes": "Condensed bold sans."
+            },
+            "placement": "Mulai sekitar x 10 persen dan y 49 persen, lebar sekitar 78 persen canvas. Sisakan gap sekitar 4 persen dari explanation.",
+            "relation_to_visual": "Menjadi simpulan tepat sebelum mata turun mengikuti antrean ke tikungan."
+          }
+        ]
+      },
+      "claim_ids": ["claim_01", "claim_02"],
+      "visual": {
+        "function": "EXPLAIN",
+        "primary": {
+          "concept": "Satu baris orang mengikuti tikungan yang menyembunyikan tujuan, sementara orang terakhir hanya melihat punggung orang di depannya.",
+          "subject": "Tujuh dewasa muda Indonesia dalam satu arus, dengan tokoh forest green berada paling belakang.",
+          "scene": "Koridor beton sederhana dengan satu tikungan tajam.",
+          "composition": "Tiga block copy tersusun pada bidang atas selebar 78 sampai 80 persen. Jalur manusia bergerak melintang pada bagian bawah sekitar 42 persen canvas dan berakhir di tikungan kanan.",
+          "framing": "High-angle wide shot dengan siluet tubuh terpisah jelas.",
+          "background": "Beton warm gray yang bersih, tanpa signage.",
+          "lighting": "Daylight lembut dari ujung koridor, kontras sedang.",
+          "negative_space": "Bagian atas sekitar 55 persen berupa dinding beton tenang tanpa manusia atau detail tinggi.",
+          "text_zone": "Mulai x 10 persen dan y 15 persen dengan lebar 78 sampai 80 persen; berakhir sebelum visual band bawah.",
+          "visual_hierarchy": "Explanation menjadi massa teks utama, focal statement menutup reasoning, lalu jalur orang dan tikungan tersembunyi menjadi bukti visual.",
+          "editing_treatment": "Warm white dan warm gray dominan, forest green hanya pada tokoh terakhir dan label.",
+          "rationale": "Tujuan yang tidak terlihat membuat pola mengikuti orang lain terbaca tanpa diagram."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_02"],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Generate asset_02 dan pastikan semua orang bergerak menuju tikungan yang menutup tujuan dari pandangan."
+        },
+        {
+          "step": 2,
+          "action": "SELECT",
+          "instruction": "Pilih hasil dengan tujuh siluet terpisah di bagian bawah dan bidang atas selebar minimal 78 persen yang cukup tenang untuk tiga block copy."
+        },
+        {
+          "step": 3,
+          "action": "CROP",
+          "instruction": "Crop agar antrean tetap berada pada bagian bawah sekitar 42 persen dan tidak memasuki bidang copy di atas."
+        },
+        {
+          "step": 4,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang label pada y 15 persen, explanation pada y 22 persen, dan simpulan pada y 49 persen. Gunakan lebar 78 sampai 80 persen, line height normal, dan gap 3 sampai 4 persen antarkelompok."
+        },
+        {
+          "step": 5,
+          "action": "REVIEW",
+          "instruction": "Pastikan slide tetap menjelaskan mekanisme ketika core_message dan caption disembunyikan."
+        }
+      ]
+    },
+    {
+      "id": "slide_03",
+      "index": 3,
+      "role": "diagnosis",
+      "purpose": "Mengubah penjelasan mekanisme menjadi pemeriksaan sederhana terhadap alasan masuk.",
+      "core_message": "Investor perlu dapat menjelaskan thesis masuknya tanpa bersandar pada keramaian.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "diagnostic_question",
+            "text": "Kalau lo diminta jelasin alasan beli sekarang, jawaban lo apa?",
+            "reading_order": 1,
+            "attention_priority": 2,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "MEDIUM",
+              "alignment": "LEFT",
+              "color": "charcoal",
+              "notes": "Neutral sans dengan line height normal."
+            },
+            "placement": "Mulai sekitar x 12 persen dan y 17 persen, lebar sekitar 76 persen canvas.",
+            "relation_to_visual": "Menjadi setup pada dinding tenang di atas tokoh yang sedang menulis."
+          },
+          {
+            "role": "focal_statement",
+            "text": "SEBELUM MASUK,\nPUNYA THESIS SENDIRI.",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {
+              "scale": "HERO",
+              "weight": "BOLD",
+              "alignment": "LEFT",
+              "color": "forest green",
+              "notes": "Condensed bold sans dengan line height rapat."
+            },
+            "placement": "Mulai sekitar x 12 persen dan y 28 persen, lebar sekitar 78 persen canvas. Sisakan gap sekitar 3 persen dari pertanyaan.",
+            "relation_to_visual": "Menjadi jawaban visual utama sebelum mata bergerak ke notebook di kanan bawah."
+          },
+          {
+            "role": "explanation",
+            "text": "Tulis sumbernya: kondisi makro, fundamental bisnis, valuasi, atau momentum. Kalau jawabannya cuma \"semua orang juga beli\", lo sedang menyalin kerumunan.",
+            "reading_order": 3,
+            "attention_priority": 3,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "REGULAR",
+              "alignment": "LEFT",
+              "color": "charcoal",
+              "notes": "Neutral sans dengan line height normal. Beri emphasis semibold hanya pada frasa semua orang juga beli."
+            },
+            "placement": "Mulai sekitar x 12 persen dan y 46 persen, lebar sekitar 76 persen canvas. Sisakan gap sekitar 4 persen dari focal statement.",
+            "relation_to_visual": "Berakhir sebelum area tokoh, notebook, dan ponsel pada bagian bawah.",
+            "accent_segments": [
+              {
+                "text": "semua orang juga beli",
+                "treatment": "Semibold dengan warna forest green, tanpa highlight box."
+              }
+            ]
+          }
+        ]
+      },
+      "claim_ids": ["claim_03", "claim_07"],
+      "visual": {
+        "function": "DEMONSTRATE",
+        "primary": {
+          "concept": "Tokoh menulis alasan keputusan di notebook dan sengaja meletakkan ponsel tertelungkup sementara orang lain berlalu di belakang.",
+          "subject": "Dewasa muda Indonesia yang sama, notebook kosong, pena, dan ponsel tertelungkup.",
+          "scene": "Sudut perpustakaan publik dengan latar manusia bergerak samar.",
+          "composition": "Tiga block copy membentuk question-pivot-answer pada bidang atas selebar 76 sampai 78 persen. Tokoh, notebook, dan motion blur menjadi visual anchor di kanan bawah.",
+          "framing": "Medium shot dari sedikit atas dengan lensa 50mm.",
+          "background": "Warm wall dengan detail rendah pada bagian atas, rak redup dan manusia bergerak samar pada bagian bawah.",
+          "lighting": "Cahaya jendela pagi yang lembut.",
+          "negative_space": "Bagian atas sekitar 58 persen dan bidang kiri selebar 78 persen harus cukup rata untuk tiga block copy.",
+          "text_zone": "Mulai x 12 persen dan y 17 persen, lebar 76 sampai 78 persen, berakhir sebelum visual anchor bawah.",
+          "visual_hierarchy": "Focal statement, pertanyaan pembuka, tokoh dan pena, lalu explanation serta ponsel tertelungkup.",
+          "editing_treatment": "Foto full-bleed dengan warm wall terang di atas. Gunakan gradient warm-white tipis hanya jika motion blur mengganggu copy.",
+          "rationale": "Notebook membuat tindakan menulis thesis terlihat. Ponsel tertelungkup menunjukkan jeda tanpa menampilkan layar trading."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_03"],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Generate asset_03 dengan notebook kosong, ponsel tertelungkup, subjek di kanan bawah, dan bidang atas yang tenang."
+        },
+        {
+          "step": 2,
+          "action": "SELECT",
+          "instruction": "Pilih hasil yang tangannya terbaca alami dan tidak memiliki tulisan acak pada notebook."
+        },
+        {
+          "step": 3,
+          "action": "IMPORT",
+          "instruction": "Import full-bleed lalu pertahankan bagian atas sekitar 58 persen sebagai text-safe area."
+        },
+        {
+          "step": 4,
+          "action": "LAYER",
+          "instruction": "Tambahkan gradient warm-white ringan hanya bila latar manusia mengganggu contrast explanation."
+        },
+        {
+          "step": 5,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang pertanyaan pada y 17 persen, focal statement pada y 28 persen, dan explanation pada y 46 persen. Gunakan alignment kiri, lebar 76 sampai 78 persen, serta gap 3 sampai 4 persen antarkelompok."
+        },
+        {
+          "step": 6,
+          "action": "REVIEW",
+          "instruction": "Pastikan empat sumber thesis terbaca sebagai pertanyaan pemeriksaan, bukan rekomendasi saham tertentu."
+        }
+      ]
+    },
+    {
+      "id": "slide_04",
+      "index": 4,
+      "role": "risk-control practice",
+      "purpose": "Memperkenalkan jeda dan keputusan bertahap sebagai praktik pribadi pembicara, bukan jaminan hasil.",
+      "core_message": "Membagi keputusan dapat memberi ruang untuk mengecek ulang thesis, tetapi tidak menjamin harga lebih baik atau mencegah rugi.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "label",
+            "text": "RESEP JEDA",
+            "reading_order": 1,
+            "attention_priority": 2,
+            "typography": {
+              "scale": "SMALL",
+              "weight": "SEMIBOLD",
+              "alignment": "LEFT",
+              "color": "warm white",
+              "notes": "Neutral sans, uppercase."
+            },
+            "placement": "Mulai sekitar x 10 persen dan y 15 persen, lebar sekitar 70 persen canvas pada bidang forest green.",
+            "relation_to_visual": "Menamai fungsi slide, bukan elemen dalam foto."
+          },
+          {
+            "role": "focal_statement",
+            "text": "JANGAN LANGSUNG\nALL-IN.",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {
+              "scale": "HERO",
+              "weight": "BOLD",
+              "alignment": "LEFT",
+              "color": "warm white",
+              "notes": "Condensed bold sans."
+            },
+            "placement": "Mulai sekitar x 10 persen dan y 22 persen, lebar sekitar 72 persen canvas. Sisakan gap sekitar 3 persen dari label.",
+            "relation_to_visual": "Berada di atas arah langkah menuju pijakan ketiga."
+          },
+          {
+            "role": "explanation",
+            "text": "Praktik pribadi pembicara: masuk bertahap selama beberapa hari. Jeda itu memberinya ruang untuk mengecek ulang thesis saat FOMO mulai mengambil alih.",
+            "reading_order": 3,
+            "attention_priority": 3,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "REGULAR",
+              "alignment": "LEFT",
+              "color": "warm white",
+              "notes": "Neutral sans. Pertahankan attribution di awal kalimat."
+            },
+            "placement": "Mulai sekitar x 10 persen dan y 39 persen, lebar sekitar 80 persen canvas. Gunakan line height normal.",
+            "relation_to_visual": "Berakhir sebelum sepatu dan tiga pijakan pada visual band bawah."
+          },
+          {
+            "role": "caveat",
+            "text": "Bertahap tidak menjamin harga lebih baik atau mencegah rugi.",
+            "reading_order": 4,
+            "attention_priority": 4,
+            "typography": {
+              "scale": "SMALL",
+              "weight": "MEDIUM",
+              "alignment": "LEFT",
+              "color": "warm white",
+              "notes": "Neutral sans, opacity tetap penuh. Jangan diperkecil sampai sulit dibaca."
+            },
+            "placement": "Mulai sekitar x 10 persen dan y 58 persen, lebar sekitar 80 persen canvas. Sisakan gap sekitar 4 persen dari explanation.",
+            "relation_to_visual": "Menutup reasoning sebelum visual band bawah sebagai batas klaim."
+          }
+        ]
+      },
+      "claim_ids": ["claim_04", "claim_05"],
+      "visual": {
+        "function": "SYMBOLIZE",
+        "primary": {
+          "concept": "Kaki berpindah melalui tiga pijakan batu satu per satu, bukan melompat langsung ke ujung.",
+          "subject": "Satu pasang kaki dengan sepatu netral di pijakan kedua dari tiga batu.",
+          "scene": "Tiga batu datar di atas lantai matte sederhana.",
+          "composition": "Empat block copy tersusun pada bidang forest green di bagian atas. Tiga pijakan dan kaki membentuk visual band pada bagian bawah sekitar 38 persen canvas.",
+          "framing": "Close overhead three-quarter shot.",
+          "background": "Bidang forest green tenang di atas dan lantai matte warm gray pada visual band bawah.",
+          "lighting": "Soft studio daylight dengan bayangan kontak yang nyata.",
+          "negative_space": "Bagian atas sekitar 58 persen kosong dan berwarna forest green.",
+          "text_zone": "Mulai x 10 persen dan y 15 persen dengan lebar 70 sampai 80 persen, rata kiri.",
+          "visual_hierarchy": "Headline, explanation, kaki di pijakan kedua, urutan tiga batu, lalu caveat sebagai batas klaim.",
+          "editing_treatment": "Kontras bersih tanpa outline, ikon, atau panah.",
+          "rationale": "Urutan pijakan menunjukkan keputusan bertahap dengan satu metafora fisik yang langsung terbaca."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_04"],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Generate asset_04 dengan tepat tiga pijakan dan satu pasang kaki pada pijakan kedua."
+        },
+        {
+          "step": 2,
+          "action": "SELECT",
+          "instruction": "Pilih hasil dengan kontak kaki dan bayangan alami, serta bagian atas sekitar 58 persen benar-benar kosong."
+        },
+        {
+          "step": 3,
+          "action": "CROP",
+          "instruction": "Crop agar ketiga pijakan tetap berada pada visual band bawah dan tidak memasuki bidang copy."
+        },
+        {
+          "step": 4,
+          "action": "ADD_TEXT",
+          "instruction": "Pasang label pada y 15 persen, headline pada y 22 persen, explanation pada y 39 persen, dan caveat pada y 58 persen. Gunakan alignment kiri, lebar 70 sampai 80 persen, dan gap 3 sampai 4 persen."
+        },
+        {
+          "step": 5,
+          "action": "REVIEW",
+          "instruction": "Pertahankan frasa Praktik pembicara dan caveat. Jangan mengubah slide menjadi janji hasil investasi."
+        }
+      ]
+    },
+    {
+      "id": "slide_05",
+      "index": 5,
+      "role": "nuance",
+      "purpose": "Mencegah audiens menyimpulkan bahwa setiap harga tertinggi pasti merupakan keputusan beli yang salah.",
+      "core_message": "Harga tertinggi baru tidak otomatis salah; yang perlu diperiksa adalah dasar keputusan dan ruang untuk menilai ulang.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "question",
+            "text": "Berarti beli di harga tertinggi selalu salah?",
+            "reading_order": 1,
+            "attention_priority": 2,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "MEDIUM",
+              "alignment": "LEFT",
+              "color": "warm white",
+              "notes": "Neutral sans dengan line height normal."
+            },
+            "placement": "Mulai sekitar x 10 persen dan y 55 persen, lebar sekitar 78 persen canvas.",
+            "relation_to_visual": "Muncul setelah pembaca melihat dua punggung bukit pada visual zone atas."
+          },
+          {
+            "role": "focal_statement",
+            "text": "NGGAK OTOMATIS.",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {
+              "scale": "HERO",
+              "weight": "BOLD",
+              "alignment": "LEFT",
+              "color": "emerald green",
+              "notes": "Condensed bold sans dengan line height rapat."
+            },
+            "placement": "Mulai sekitar x 10 persen dan y 63 persen, lebar sekitar 80 persen canvas. Sisakan gap sekitar 2 persen dari pertanyaan.",
+            "relation_to_visual": "Menjadi jawaban utama pada bidang gelap di bawah punggung bukit."
+          },
+          {
+            "role": "explanation",
+            "text": "Menurut pembicara, saham yang terus naik bisa membentuk puncak baru. Masalahnya adalah ikut masuk tanpa thesis sendiri dan tanpa waktu untuk menilai ulang.",
+            "reading_order": 3,
+            "attention_priority": 3,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "REGULAR",
+              "alignment": "LEFT",
+              "color": "warm white",
+              "notes": "Neutral sans dengan line height normal. Pertahankan attribution dan kata bisa."
+            },
+            "placement": "Mulai sekitar x 10 persen dan y 74 persen, lebar sekitar 80 persen canvas. Sisakan gap sekitar 3 persen dari jawaban.",
+            "relation_to_visual": "Berada penuh pada bidang gelap bawah dan tidak menutup garis punggung bukit."
+          }
+        ]
+      },
+      "claim_ids": ["claim_06", "claim_07"],
+      "visual": {
+        "function": "SYMBOLIZE",
+        "primary": {
+          "concept": "Tokoh berdiri di satu punggung bukit dan melihat punggung bukit kedua yang sedikit lebih tinggi.",
+          "subject": "Dewasa muda Indonesia yang sama, kecil dalam frame, berdiri tenang tanpa pose kemenangan.",
+          "scene": "Dua punggung bukit membulat dalam lanskap pagi yang minimal.",
+          "composition": "Dua punggung bukit dan tokoh mengisi visual zone atas sekitar 48 persen. Question-pivot-answer memakai bidang gelap selebar 80 persen pada bagian bawah.",
+          "framing": "Wide landscape shot dari belakang dan sedikit atas.",
+          "background": "Langit biru abu redup dan lembah sederhana di atas, lalu foreground biru abu gelap dengan detail rendah di bawah.",
+          "lighting": "Cahaya pagi lembut, bukan golden-hour yang dramatis.",
+          "negative_space": "Bagian bawah sekitar 48 persen berupa foreground gelap dengan detail rendah untuk tiga block copy.",
+          "text_zone": "Mulai x 10 persen dan y 55 persen dengan lebar 78 sampai 80 persen, alignment kiri.",
+          "visual_hierarchy": "Punggung kedua dan tokoh membangun pertanyaan, focal statement memberi jawaban, lalu explanation menjaga nuansa.",
+          "editing_treatment": "Color grade restrained blue-gray dengan forest green kecil pada wardrobe.",
+          "rationale": "Dua punggung bukit membuat kemungkinan puncak baru terlihat tanpa menggambar chart atau menjanjikan kenaikan."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_05"],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Generate asset_05 dengan dua punggung bukit dan tokoh kecil pada visual zone atas, serta foreground gelap bersih pada bagian bawah."
+        },
+        {
+          "step": 2,
+          "action": "SELECT",
+          "instruction": "Pilih hasil yang tenang, tidak heroik, dan tidak membuat kontur bukit menyerupai chart buatan."
+        },
+        {
+          "step": 3,
+          "action": "CROP",
+          "instruction": "Pertahankan kedua garis punggung pada bagian atas dan foreground bawah sebagai text-safe area selebar canvas."
+        },
+        {
+          "step": 4,
+          "action": "ADD_TEXT",
+          "instruction": "Tambahkan question pada y 55 persen, jawaban pada y 63 persen, dan explanation pada y 74 persen. Gunakan alignment kiri, lebar 78 sampai 80 persen, dan gap 2 sampai 3 persen. Jangan hilangkan attribution atau kata bisa."
+        },
+        {
+          "step": 5,
+          "action": "REVIEW",
+          "instruction": "Pastikan slide memberi nuansa, bukan ajakan membeli saham yang sedang mencetak harga tertinggi."
+        }
+      ]
+    },
+    {
+      "id": "slide_06",
+      "index": 6,
+      "role": "action",
+      "purpose": "Memberi checklist tertulis yang dapat dipakai sebelum keputusan beli berikutnya.",
+      "core_message": "Jika thesis, dasar analisis, dan rencana masuk belum jelas, investor tidak perlu memaksa keputusan hari ini.",
+      "copy": {
+        "blocks": [
+          {
+            "role": "label",
+            "text": "CEK REFLEKS FOMO",
+            "reading_order": 1,
+            "attention_priority": 2,
+            "typography": {
+              "scale": "SMALL",
+              "weight": "SEMIBOLD",
+              "alignment": "LEFT",
+              "color": "emerald green",
+              "notes": "Neutral sans, uppercase."
+            },
+            "placement": "Mulai sekitar x 10 persen dan y 14 persen, lebar sekitar 72 persen canvas.",
+            "relation_to_visual": "Berada di bidang meja kosong."
+          },
+          {
+            "role": "focal_statement",
+            "text": "SEBELUM KLIK BELI,\nTULIS 3 JAWABAN:",
+            "reading_order": 2,
+            "attention_priority": 1,
+            "typography": {
+              "scale": "LARGE",
+              "weight": "BOLD",
+              "alignment": "LEFT",
+              "color": "forest green",
+              "notes": "Condensed bold sans."
+            },
+            "placement": "Mulai sekitar x 10 persen dan y 21 persen, lebar sekitar 76 persen canvas. Sisakan gap sekitar 3 persen dari label.",
+            "relation_to_visual": "Memimpin sebelum mata bergerak ke notebook di kanan."
+          },
+          {
+            "role": "list",
+            "text": "1. Thesis gue apa?\n2. Dasarnya makro, fundamental, valuasi, atau momentum?\n3. Gue masuk bertahap atau sedang all-in karena panik ketinggalan?",
+            "reading_order": 3,
+            "attention_priority": 3,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "MEDIUM",
+              "alignment": "LEFT",
+              "color": "charcoal",
+              "notes": "Neutral sans. Pisahkan item dengan jarak, tanpa kotak atau ikon."
+            },
+            "placement": "Mulai sekitar x 10 persen dan y 37 persen, lebar sekitar 76 persen canvas. Gunakan line height normal dan jarak antarpoin yang konsisten.",
+            "relation_to_visual": "Daftar berada di meja kosong dan berakhir sebelum tangan serta notebook di kanan bawah."
+          },
+          {
+            "role": "closing",
+            "text": "Kalau belum bisa jawab, jangan paksa ambil keputusan hari ini.",
+            "reading_order": 4,
+            "attention_priority": 4,
+            "typography": {
+              "scale": "MEDIUM",
+              "weight": "SEMIBOLD",
+              "alignment": "LEFT",
+              "color": "forest green",
+              "notes": "Editorial serif dapat dipakai untuk ritme penutup yang lebih tenang."
+            },
+            "placement": "Mulai sekitar x 10 persen dan y 68 persen, lebar sekitar 72 persen canvas. Sisakan gap sekitar 4 persen dari daftar.",
+            "relation_to_visual": "Menutup daftar di sebelah kiri visual anchor tangan dan notebook."
+          }
+        ]
+      },
+      "claim_ids": ["claim_03", "claim_04", "claim_05", "claim_07"],
+      "visual": {
+        "function": "DEMONSTRATE",
+        "primary": {
+          "concept": "Tangan menahan ponsel tetap tertelungkup dan mulai menulis di notebook, sementara daftar pertanyaan ditempatkan pada meja kosong di kiri.",
+          "subject": "Tangan tokoh yang sama, notebook kosong, pena, ponsel tertelungkup, dan satu cangkir polos.",
+          "scene": "Meja rumah yang sederhana dalam cahaya pagi.",
+          "composition": "Flat lay asimetris. Heading dan daftar memakai bidang atas serta kiri selebar 72 sampai 76 persen. Tangan, notebook, ponsel, dan cangkir terkumpul di kanan bawah.",
+          "framing": "Overhead close-wide shot dengan garis meja lurus.",
+          "background": "Permukaan warm white matte.",
+          "lighting": "Soft window light dari atas dengan bayangan lembut.",
+          "negative_space": "Bagian atas sekitar 62 persen dan sisi kiri sekitar 72 persen kosong untuk empat block copy.",
+          "text_zone": "Mulai x 10 persen dan y 14 persen dengan lebar 72 sampai 76 persen, terpisah dari tangan dan notebook di kanan bawah.",
+          "visual_hierarchy": "Headline dan daftar, tangan yang menulis, ponsel tertelungkup, lalu closing.",
+          "editing_treatment": "Clean clinical editorial, satu accent emerald pada label dan wardrobe.",
+          "rationale": "Flat lay menunjukkan tindakan yang dapat dilakukan hari ini dan mengubah jeda menjadi perilaku konkret."
+        }
+      },
+      "asset_strategy": "AI_SYNTHETIC",
+      "asset_ids": ["asset_06"],
+      "production_instructions": [
+        {
+          "step": 1,
+          "action": "GENERATE",
+          "instruction": "Generate asset_06 dengan semua objek terkumpul di kanan bawah, bagian atas sekitar 62 persen tenang, dan sisi kiri sekitar 72 persen tetap kosong."
+        },
+        {
+          "step": 2,
+          "action": "SELECT",
+          "instruction": "Pilih hasil tanpa tulisan acak, layar ponsel terlihat, atau jari yang tidak natural."
+        },
+        {
+          "step": 3,
+          "action": "IMPORT",
+          "instruction": "Import full-bleed dan jaga bidang atas serta kiri sesuai text-safe area 72 sampai 76 persen."
+        },
+        {
+          "step": 4,
+          "action": "ADD_TEXT",
+          "instruction": "Tambahkan label pada y 14 persen, heading pada y 21 persen, daftar pada y 37 persen, dan closing pada y 68 persen. Gunakan alignment kiri, line height normal, serta gap 3 sampai 4 persen. Jangan membuat daftar sebagai graphic component terpisah."
+        },
+        {
+          "step": 5,
+          "action": "REVIEW",
+          "instruction": "Uji pada preview 360 px. Jika padat, perlebar text zone atau sesuaikan line break tanpa menghapus satu pun pertanyaan."
+        },
+        {
+          "step": 6,
+          "action": "EXPORT",
+          "instruction": "Setelah human review menyetujui seluruh carousel, export slide pada 1080 x 1350 px dengan urutan yang ditetapkan."
+        }
+      ]
+    }
+  ],
+  "caption": {
+    "text": "Harga naik bukan bukti bahwa semua orang sudah melakukan analisis. Sebelum ikut masuk, tulis alasan lo dan kasih jarak dari FOMO. Kalau alasannya masih \"karena ramai\", itu belum thesis.\n\nBukan Saran Keuangan Profesional (Not Financial Advice).",
+    "function": "MIXED"
+  },
+  "warnings": [
+    {
+      "code": "PROVENANCE_INCOMPLETE",
+      "severity": "WARNING",
+      "message": "Material hanya berupa transcript pendek. Identitas pembicara, platform, URL, dan tanggal tidak tersedia.",
+      "recommendation": "Lengkapi provenance dan pastikan hak penggunaan material sebelum brief disetujui untuk produksi."
+    },
+    {
+      "code": "THEORY_SOURCE_UNVERIFIED",
+      "severity": "WARNING",
+      "message": "Istilah informational cascade disebut oleh pembicara, tetapi input tidak menyertakan sumber riset atau definisi independen.",
+      "affected_slide_ids": ["slide_01", "slide_02"],
+      "recommendation": "Verifikasi istilah dan mekanismenya dengan sumber primer sebelum menghapus attribution atau memperluas klaim."
+    },
+    {
+      "code": "PERSONAL_EXPERIENCE_ONLY",
+      "severity": "WARNING",
+      "message": "Manfaat keputusan bertahap terhadap FOMO dan cara berpikir berasal dari pengalaman pribadi pembicara, bukan hasil riset dalam input.",
+      "affected_slide_ids": ["slide_04", "slide_06"],
+      "recommendation": "Pertahankan attribution pada slide 4 dan jangan menyatakan scale in sebagai jaminan hasil atau aturan universal."
+    },
+    {
+      "code": "BROKER_SIGNAL_OMITTED",
+      "severity": "WARNING",
+      "message": "Klaim tentang kode broker ritel, smart money, dan exit liquidity dihapus karena tidak memiliki bukti atau definisi yang cukup dalam input.",
+      "recommendation": "Jika topik ini perlu dibahas pada konten terpisah, sediakan data broker, definisi istilah, keterbatasan metode, dan sumber yang dapat diverifikasi."
+    },
+    {
+      "code": "HIGH_RISK_TOPIC_BRAND_REVIEW",
+      "severity": "WARNING",
+      "message": "Topik saham berada di luar daftar instrumen utama profil Mantri Uang. Brief membatasi diri pada edukasi perilaku dan tidak memberi rekomendasi saham.",
+      "affected_slide_ids": ["slide_01", "slide_02", "slide_03", "slide_04", "slide_05", "slide_06"],
+      "recommendation": "Reviewer brand perlu memastikan copy tetap berupa mitigasi FOMO, tidak berubah menjadi ajakan transaksi, dan disclaimer tetap tampil."
+    },
+    {
+      "code": "MOBILE_LAYOUT_VALIDATION_PENDING",
+      "severity": "WARNING",
+      "message": "Image dan layout final belum dibuat. Slide 2 sampai 6 perlu diuji pada preview lebar 360 px.",
+      "affected_slide_ids": ["slide_02", "slide_03", "slide_04", "slide_05", "slide_06"],
+      "recommendation": "Sesuaikan crop, lebar text zone, atau line break. Jangan menghapus attribution, caveat, atau pertanyaan pemeriksaan."
+    }
+  ],
+  "qa": {
+    "overall_status": "PASS_WITH_WARNING",
+    "dimensions": {
+      "objective": {
+        "status": "PASS",
+        "notes": "Carousel menjelaskan informational cascade, memisahkan keramaian dari thesis, dan memberi langkah tertulis sebelum keputusan beli."
+      },
+      "factual": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Tidak ada statistik, saham, target harga, atau klaim riset baru. Istilah teori dan pengalaman pribadi tetap diberi batas.",
+        "warning_codes": ["THEORY_SOURCE_UNVERIFIED", "PERSONAL_EXPERIENCE_ONLY"]
+      },
+      "editorial": {
+        "status": "PASS",
+        "notes": "Satu takeaway dipertahankan: keramaian bukan pengganti thesis dan jeda keputusan. Taktik broker yang tidak didukung dihapus."
+      },
+      "narrative": {
+        "status": "PASS",
+        "notes": "Alur bergerak dari FOMO, mekanisme, pemeriksaan alasan, jeda, nuansa harga, lalu tindakan."
+      },
+      "density": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Setiap slide membawa satu unit pemahaman. Slide penjelasan memakai text zone sekitar 70 sampai 80 persen, block dikelompokkan menurut fungsi, dan spacing dinyatakan dalam placement. Slide 2 sampai 6 tetap memerlukan validasi layout pada ponsel.",
+        "warning_codes": ["MOBILE_LAYOUT_VALIDATION_PENDING"]
+      },
+      "copy": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Copy menggunakan 2 sampai 4 block sesuai fungsi slide, termasuk body-led explanation dan question-pivot-answer. Bahasa sehari-hari tetap menyimpan attribution, caveat, serta kata yang mempertahankan ketidakpastian.",
+        "warning_codes": ["THEORY_SOURCE_UNVERIFIED", "PERSONAL_EXPERIENCE_ONLY", "MOBILE_LAYOUT_VALIDATION_PENDING"]
+      },
+      "visual": {
+        "status": "PASS",
+        "notes": "Primary family adalah conceptual human cinematic dengan lifestyle editorial sebagai secondary family. Kohesi datang dari tokoh yang sama, overshirt forest green, cahaya lembut, alignment kiri, dan palet warm gray. Variasi datang dari cover split composition, lower visual band, library medium shot, close-up pijakan, visual-top copy-bottom landscape, dan overhead desk."
+      },
+      "asset": {
+        "status": "PASS",
+        "notes": "Semua scene generik memakai AI-generated photorealistic image. Prompt menetapkan subjek, hubungan spasial, text-safe area, kamera, dan larangan grafik trading serta teks."
+      },
+      "production": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Instruksi per slide menetapkan generation, selection, crop, text-zone width, posisi awal block, spacing, dan checkpoint. Layout final masih perlu diuji pada ponsel.",
+        "warning_codes": ["MOBILE_LAYOUT_VALIDATION_PENDING"]
+      },
+      "source": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Semua factual claims terhubung ke transcript, tetapi provenance, sumber teori, dan verifikasi pengalaman pribadi belum lengkap.",
+        "warning_codes": ["PROVENANCE_INCOMPLETE", "THEORY_SOURCE_UNVERIFIED", "PERSONAL_EXPERIENCE_ONLY", "BROKER_SIGNAL_OMITTED"]
+      },
+      "brand": {
+        "status": "PASS_WITH_WARNING",
+        "notes": "Output memakai bahasa tongkrongan, analogi cek refleks, langkah hari ini, forest-green accent, dan disclaimer wajib. Karena saham bukan instrumen utama brand, reviewer perlu menjaga framing mitigasi FOMO.",
+        "warning_codes": ["HIGH_RISK_TOPIC_BRAND_REVIEW"]
+      }
+    }
+  }
+}

@@ -338,8 +338,8 @@ Bukan:
 
 ```text
 shrink font
-add paragraph
-reduce whitespace
+flatten hierarchy
+crowd the composition
 ```
 
 Readability tidak boleh dikorbankan hanya untuk mempertahankan slide count.
@@ -380,21 +380,18 @@ dan rekomendasikan scope yang lebih sempit.
 
 ---
 
-# 14. Density Is Conceptual Before Numerical
+# 14. Density Is Conceptual, Not a Length Limit
 
-Word count bukan satu-satunya ukuran density.
+Panjang copy bukan ukuran density.
 
 Prioritas evaluasi:
 
 ```text
 1. conceptual density
 2. visual/text-area density
-3. word count
 ```
 
-18 kata dengan tiga konsep berbeda dapat lebih berat daripada 30 kata yang menjelaskan satu ide sederhana.
-
-Word count digunakan sebagai guardrail, bukan definisi kualitas.
+Engine tidak menetapkan batas minimum atau maksimum untuk jumlah kata, block, atau paragraf. Panjang tidak boleh menjadi alasan tunggal untuk menerima, menolak, memotong, atau menambah copy.
 
 Density memiliki dua arah kegagalan:
 
@@ -405,8 +402,6 @@ too dense
 too thin
 → punchline ada, tetapi alasan, implication, contoh, atau tindakan yang dijanjikan hilang
 ```
-
-Concise berarti setiap kata bekerja. Concise bukan target untuk membuat setiap slide sesingkat cover.
 
 Slide informasional harus lolos semantic sufficiency test:
 
@@ -419,16 +414,9 @@ Apakah slide dapat dipahami tanpa membaca core_message atau caption?
 
 Tidak semua slide perlu menjawab keempat pertanyaan. Hook dan transisi boleh lebih tipis. Explanation, comparison, example, dan action slide tidak boleh hanya berisi slogan.
 
-Word-count bands dapat dipakai sebagai diagnostic, bukan quota:
+Copy boleh pendek atau panjang sesuai kebutuhan pesan. Evaluasi tetap berfokus pada semantic sufficiency, hierarchy, readability, dan kecocokan dengan komposisi.
 
-```text
-cover atau punch slide: sering kali 6 sampai 18 kata
-transition atau emotional beat: sering kali 8 sampai 24 kata
-explanation, comparison, atau example: sering kali 24 sampai 45 kata
-action atau procedure: sering kali 30 sampai 60 kata
-```
-
-Keluar dari rentang tersebut diperbolehkan jika composition dan message mendukungnya. Namun jika sebagian besar slide informasional berada di bawah rentang, engine harus memeriksa under-explanation sebelum menyebut output ringkas.
+Gunakan `docs/copy-composition.md` sebagai baseline struktur dan spacing yang diturunkan dari contoh di `_example/copy/`. Rentang yang tercatat di sana menjelaskan reference set dan tidak mengubahnya menjadi batas panjang.
 
 ---
 

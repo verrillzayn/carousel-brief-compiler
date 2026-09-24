@@ -1,0 +1,146 @@
+{
+  "schema_version": "0.1.0",
+  "context_profile": "mantri-uang",
+  "topic": "FOMO membeli saham di dekat puncak",
+  "objective": "Membantu investor ritel pemula mengenali informational cascade dan memakai thesis serta jeda keputusan agar tidak membeli saham hanya karena keramaian.",
+  "initial_angle": "Keramaian pembeli terlihat seperti bukti, padahal bisa terbentuk dari orang-orang yang saling mengikuti tanpa analisis mandiri.",
+  "raw_material": [
+    {
+      "id": "mat_01",
+      "type": "DEFINITION",
+      "label": "Informational cascade",
+      "content": "Pembicara menyebut informational cascade sebagai pola ketika seseorang melihat banyak orang membeli saham, menganggap kerumunan tidak mungkin salah, lalu meninggalkan analisisnya dan mengikuti keputusan mayoritas.",
+      "source_ids": ["src_transcript"]
+    },
+    {
+      "id": "mat_02",
+      "type": "CLAIM",
+      "label": "Kerumunan dapat saling meniru",
+      "content": "Menurut pembicara, keputusan mayoritas dapat terbentuk karena banyak orang mengikuti pilihan orang lain, bukan karena masing-masing melakukan analisis independen.",
+      "source_ids": ["src_transcript"]
+    },
+    {
+      "id": "mat_03",
+      "type": "CLAIM",
+      "label": "Thesis sebelum masuk",
+      "content": "Pembicara menyarankan investor memiliki thesis sendiri sebelum masuk dan dapat menjelaskan apakah alasannya berasal dari kondisi makro, fundamental bisnis, valuasi, atau momentum.",
+      "source_ids": ["src_transcript"]
+    },
+    {
+      "id": "mat_04",
+      "type": "EXAMPLE",
+      "label": "Masuk bertahap",
+      "content": "Sebagai praktik pribadi, pembicara masuk ke saham secara bertahap atau scale in dan tidak langsung all-in di awal.",
+      "source_ids": ["src_transcript"]
+    },
+    {
+      "id": "mat_05",
+      "type": "CLAIM",
+      "label": "Alasan memberi jeda",
+      "content": "Berdasarkan pengalaman pribadi pembicara, membagi keputusan pembelian selama beberapa hari membuatnya merasa lebih rasional, lebih sedikit dipengaruhi FOMO, lebih berorientasi jangka panjang, dan memiliki waktu untuk menilai ulang thesis.",
+      "source_ids": ["src_transcript"],
+      "notes": "Ini pengalaman pribadi pembicara, bukan hasil riset yang tercatat dalam input. Jangan menyatakannya sebagai efek psikologis yang pasti terjadi pada semua orang."
+    },
+    {
+      "id": "mat_06",
+      "type": "CLAIM",
+      "label": "Broker ritel dan exit liquidity",
+      "content": "Pembicara menyatakan bahwa ia mengamati broker yang dianggap terafiliasi dengan dana ritel. Pembelian kolektif melalui broker tersebut, menurutnya, dapat menandakan ritel menjadi exit liquidity bagi pihak yang masuk lebih awal.",
+      "source_ids": ["src_transcript"],
+      "notes": "Kode broker disebut secara tidak jelas, tidak ada data pendukung, dan istilah smart money tidak didefinisikan. Jangan menjadikannya sinyal transaksi yang dapat diandalkan."
+    },
+    {
+      "id": "mat_07",
+      "type": "CLAIM",
+      "label": "Harga tertinggi bukan otomatis salah",
+      "content": "Pembicara memberi nuansa bahwa membeli saat harga mencetak titik tertinggi tidak selalu salah karena saham yang terus naik dapat membentuk puncak baru. Risiko yang ingin dihindari adalah terjebak pada puncak yang kemudian tidak pulih.",
+      "source_ids": ["src_transcript"]
+    },
+    {
+      "id": "mat_08",
+      "type": "INTERNAL_NOTE",
+      "label": "Batas sumber",
+      "content": "Material berupa transcript pendek berbahasa Inggris. Identitas pembicara, judul asli, platform, URL, tanggal, dan sumber pendukung tidak tersedia di repository.",
+      "source_ids": ["src_transcript"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_transcript",
+      "title": "Transcript tentang informational cascade dan risiko membeli saham di puncak",
+      "source": "research-result/006-jangan-terjebak-beli-saham-di-puncak.md",
+      "type": "SOCIAL_MEDIA",
+      "notes": "Identitas pembicara, platform, URL, dan tanggal tidak tercatat. Material berisi penjelasan, opini, dan praktik pribadi yang belum diverifikasi dengan sumber lain."
+    }
+  ],
+  "content_directives": [
+    {
+      "id": "dir_core",
+      "priority": "MUST_INCLUDE",
+      "content": "Jelaskan bahwa keramaian tidak otomatis membuktikan keputusan investasi benar karena keputusan banyak orang bisa berasal dari saling mengikuti.",
+      "material_ids": ["mat_01", "mat_02"]
+    },
+    {
+      "id": "dir_action",
+      "priority": "MUST_INCLUDE",
+      "content": "Berikan langkah yang dapat dilakukan hari ini: tulis thesis sebelum membeli, cek sumber alasannya, dan hindari keputusan all-in yang didorong FOMO.",
+      "material_ids": ["mat_03", "mat_04", "mat_05"]
+    },
+    {
+      "id": "dir_nuance",
+      "priority": "MUST_INCLUDE",
+      "content": "Pertahankan nuansa bahwa harga tertinggi bukan otomatis berarti keputusan membeli salah. Fokus masalahnya adalah mengikuti kerumunan tanpa thesis sendiri.",
+      "material_ids": ["mat_07"]
+    },
+    {
+      "id": "dir_broker_signal",
+      "priority": "MUST_EXCLUDE",
+      "content": "Jangan mengajarkan kode broker, arus broker ritel, atau istilah smart money sebagai sinyal transaksi karena input tidak menyediakan data, definisi, atau verifikasi yang cukup.",
+      "material_ids": ["mat_06"]
+    },
+    {
+      "id": "dir_risk",
+      "priority": "MUST_EXCLUDE",
+      "content": "Jangan memberi rekomendasi saham, target harga, janji average price yang lebih baik, jaminan menghindari rugi, atau ajakan mengejar harga yang sedang naik."
+    }
+  ],
+  "context": {
+    "brand": {
+      "mode": "PRODUCTION",
+      "data": {
+        "run_voice": {
+          "address": "lo",
+          "tone": "dekat, tegas, tidak menghakimi investor pemula",
+          "medical_language": "gunakan analogi cek refleks FOMO dan resep jeda sebagai pengikat, tanpa memaksakan analogi medis pada setiap slide"
+        }
+      }
+    },
+    "production": {
+      "mode": "PRODUCTION",
+      "data": {
+        "format": "static carousel image + text",
+        "deliverable": "production brief untuk human review; belum membuat gambar atau desain final"
+      }
+    }
+  },
+  "constraints": {
+    "language": "id-ID",
+    "slide_count": {
+      "preferred_min": 6,
+      "preferred_max": 6,
+      "hard_max": 10
+    },
+    "canvas": {
+      "aspect_ratio": "4:5",
+      "width_px": 1080,
+      "height_px": 1350
+    },
+    "custom": [
+      "Konten harus bersifat edukasi perilaku dan mitigasi FOMO, bukan rekomendasi transaksi.",
+      "Jangan gunakan grafik candlestick, layar trading, atau kode broker sebagai visual utama.",
+      "Karena sumber hanya satu transcript tanpa provenance lengkap, output harus membawa warning untuk reviewer.",
+      "Pertahankan disclaimer wajib brand pada caption."
+    ]
+  },
+  "notes": "Disusun dari research-result/006.md. File sumber dinamai ulang berdasarkan topiknya setelah isi dipetakan."
+}

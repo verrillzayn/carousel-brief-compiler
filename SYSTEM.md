@@ -15,6 +15,7 @@ Before executing a run, read and follow:
 ```text
 docs/scope.md
 docs/principles.md
+docs/copy-composition.md
 docs/visual-language.md
 docs/pipeline.md
 schemas/input.schema.json
@@ -31,6 +32,9 @@ docs/scope.md
 
 docs/principles.md
 → decision rules and quality standards
+
+docs/copy-composition.md
+→ operational copy structure, text-zone, and spacing grammar distilled from approved references
 
 docs/visual-language.md
 → operational visual grammar distilled from approved references
@@ -57,9 +61,10 @@ If these files conflict, use this priority:
 1. SYSTEM.md
 2. schemas
 3. principles.md
-4. visual-language.md
-5. scope.md
-6. pipeline.md
+4. copy-composition.md
+5. visual-language.md
+6. scope.md
+7. pipeline.md
 ```
 
 Do not silently invent rules that are absent from these files.
@@ -282,6 +287,8 @@ Write copy for the slide composition, not as a mini-article or caption excerpt.
 
 Each slide has a `core_message` and one or more resolved display-copy blocks. Do not force every slide into a fixed headline followed by a smaller supporting line. A block may function as context, focal statement, explanation, label, list, transition, or CTA.
 
+Use `docs/copy-composition.md` as the default grammar for block length, structure, line breaks, text zones, and spacing. Treat its measurements as observations from approved references, not quotas. Do not copy the references' tone, topic, CTA, or brand identity.
+
 For every block, resolve:
 
 ```text
@@ -297,9 +304,9 @@ Reading order and attention priority may differ. Sentence fragments are allowed 
 
 Every slide must either communicate a meaningful message or perform a necessary narrative function. A definition-only slide should add relevance or implication, or be merged into another slide. A transition may carry little new information when it creates necessary tension or pacing.
 
-Concise means no wasted words, not the fewest possible words. An informational slide is incomplete if the audience can read the display copy but still needs `core_message`, the caption, or production notes to understand the claim, its relevance, or the promised action. Preserve the minimum explanation needed to make the carousel self-contained.
+An informational slide is incomplete if the audience can read the display copy but still needs `core_message`, the caption, or production notes to understand the claim, its relevance, or the promised action. Preserve the explanation needed to make the carousel self-contained.
 
-Judge density from the whole composition rather than a fixed word or block limit. Do not solve excess copy by shrinking type. Also do not solve density by deleting the bridge between a hook and its meaning. Vary hierarchy and composition across slides so the carousel does not feel templated, while preserving brand and post-level cohesion. When approved prior posts are supplied, avoid repeating their cover formula, scene, or composition too closely.
+Content length has no independent ceiling, target, or word-count band. Judge density from conceptual load, hierarchy, readability, and the whole composition rather than the number of words, blocks, or paragraphs. Adapt the composition to the explanation instead of deleting the bridge between a hook and its meaning. Vary hierarchy and composition across slides so the carousel does not feel templated, while preserving brand and post-level cohesion. When approved prior posts are supplied, avoid repeating their cover formula, scene, or composition too closely.
 
 ---
 

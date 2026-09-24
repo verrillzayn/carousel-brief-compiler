@@ -899,6 +899,8 @@ Pada tahap ini carousel secara editorial sudah terbentuk, tetapi belum productio
 
 Setelah message setiap slide resolved, engine menulis final-ish copy.
 
+Muat dan gunakan `docs/copy-composition.md`. Terapkan pola block, line break, text zone, dan spacing sebagai baseline. Abaikan tone, materi, CTA, footer engagement, serta identitas brand dari reference set.
+
 Urutan ini penting:
 
 ```text
@@ -949,7 +951,6 @@ Copy harus:
 
 ```text
 clear
-concise
 accurate
 readable
 aligned with the slide message
@@ -966,21 +967,13 @@ on-brand
 
 ---
 
-# 35. Copy Compression
+# 35. Copy Fit and Sufficiency
 
-Jika copy terlalu panjang:
+Tidak ada batas jumlah kata, block, atau paragraf pada display copy. Panjang copy tidak memicu compression secara otomatis. Sesuaikan hierarchy dan composition dengan penjelasan yang dibutuhkan.
 
-```text
-remove
-simplify
-split
-```
+Sentence fragment diperbolehkan jika lebih mudah dilihat, diingat, dan dipahami tanpa mengubah makna. Kepadatan dinilai dari keseluruhan komposisi dan beban konsep, bukan panjang copy.
 
-Engine tidak menyelesaikan masalah dengan membuat layout penuh teks.
-
-Sentence fragment diperbolehkan jika lebih mudah dilihat, diingat, dan dipahami tanpa mengubah makna. Kepadatan dinilai dari keseluruhan komposisi, bukan batas kata yang kaku.
-
-Compression berhenti ketika penghapusan berikutnya membuat pembaca kehilangan salah satu unsur yang diperlukan:
+Jika penyuntingan diperlukan untuk memperjelas pesan, pertahankan unsur yang dibutuhkan:
 
 ```text
 claim
@@ -994,16 +987,7 @@ Tidak setiap slide membutuhkan semua unsur. Tentukan unsur wajib dari role slide
 
 Engine boleh menulis bridge yang tidak muncul verbatim di source jika bridge tersebut merupakan `DERIVED` atau `CREATIVE` communication yang jujur. Bridge tidak boleh menambahkan angka, entitas, mekanisme, atau hubungan sebab-akibat baru. Gunakan material sebagai batas evidence, bukan sebagai transcript yang harus diterjemahkan kaku.
 
-Panduan diagnostic:
-
-```text
-cover atau punch slide: sering kali 6 sampai 18 kata
-transition atau emotional beat: sering kali 8 sampai 24 kata
-explanation, comparison, atau example: sering kali 24 sampai 45 kata
-action atau procedure: sering kali 30 sampai 60 kata
-```
-
-Rentang tersebut bukan target dan bukan alasan untuk menambah filler. Gunakan sebagai alarm. Jika explanation hanya menjadi satu slogan pendek, tambah bridge yang hilang. Jika procedure melewati satu komposisi yang wajar, sederhanakan atau split.
+Jika explanation hanya menjadi satu slogan pendek, tambah bridge yang hilang. Jika procedure sulit dipahami dalam composition yang dipilih, perbaiki hierarchy, composition, atau pembagian slide tanpa memakai panjang sebagai alasan tunggal.
 
 ---
 
@@ -1034,13 +1018,7 @@ Cover adalah hook slide. Ia dapat memakai beberapa block, misalnya context kecil
 
 Setiap slide harus menyampaikan message atau menjalankan fungsi naratif yang diperlukan. Definition-only slide sebaiknya menambahkan relevance atau implication, atau digabung ke slide lain. Transition slide boleh membawa sedikit informasi baru jika membangun tension atau pacing yang diperlukan.
 
-Jika display copy berubah menjadi ringkasan artikel atau membutuhkan beberapa paragraf, ada masalah pada:
-
-```text
-selection
-message
-or slide architecture
-```
+Jumlah paragraf atau panjang display copy bukan indikator masalah. Nilai apakah pesan tetap jelas, hierarchy terbaca, dan composition dapat menampung penjelasan yang dibutuhkan.
 
 Jika display copy hanya bekerja setelah reviewer membaca `core_message`, purpose, caption, atau production notes, ada masalah kebalikan:
 
@@ -1728,7 +1706,7 @@ Apakah satu slide membawa terlalu banyak konsep?
 
 Apakah copy terlalu padat?
 
-Apakah layout berpotensi menjadi paragraph-heavy?
+Apakah hierarchy dan layout membuat seluruh copy mudah dibaca?
 
 Apakah slide informasional terlalu tipis untuk dipahami tanpa core_message atau caption?
 
@@ -2097,13 +2075,7 @@ Jika upstream decision berubah, downstream decision harus dianggap potentially s
 
 # 88. Do Not Repair Downstream Symptoms Upstream Problems Create
 
-Contoh:
-
-```text
-copy terlalu panjang
-```
-
-jangan langsung diasumsikan sebagai copywriting problem.
+Contoh: copy tidak terbaca dengan hierarchy dan composition saat ini. Jangan langsung menganggap penyebabnya ada pada wording.
 
 Bisa jadi:
 
@@ -2411,7 +2383,7 @@ clear editorial decision
 +
 coherent narrative
 +
-low-density slide structure
+readable slide structure
 +
 production-ready copy
 +

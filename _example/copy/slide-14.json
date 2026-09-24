@@ -1,0 +1,1001 @@
+[
+  {
+    "analysis": {
+      "canvas": {
+        "aspect_ratio": "4:5",
+        "orientation": "portrait",
+        "estimated_width": 512,
+        "estimated_height": 640
+      },
+      "full_text": {
+        "plain_text": "GLIMPSE.INC Jadi kapan amonia naik? Ya kemungkinan besar ketika sulfur harganya turun. Kapan ESSA naik? Ya kemungkinan besar ketika harga amonia naik. SULFUR AMMONIA ESSA Like kalau suka Komen pendapatmu Bagikan konten ini Simpan kalau bermanfaat",
+        "reading_order_text": "GLIMPSE.INC | Jadi kapan amonia naik? | Ya kemungkinan besar ketika sulfur harganya turun. | Kapan ESSA naik? Ya kemungkinan besar ketika harga amonia naik. | SULFUR | AMMONIA | ESSA | Like kalau suka | Komen pendapatmu | Bagikan konten ini | Simpan kalau bermanfaat",
+        "transcription_confidence": 0.96
+      },
+      "text_blocks": [
+        {
+          "id": "text_01",
+          "semantic_role": "brand",
+          "reading_order": 1,
+          "attention_priority": 4,
+          "text": "GLIMPSE.INC",
+          "lines": [
+            "GLIMPSE.INC"
+          ],
+          "position": "top_left",
+          "bounding_box": {
+            "x": 8,
+            "y": 5,
+            "width": 22,
+            "height": 3
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "semibold",
+            "font_style": "normal",
+            "size_category": "small",
+            "approximate_font_size_relative_to_canvas_height": 0.018,
+            "text_color": "#3A3A3A",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "slightly_tight"
+          },
+          "spans": [
+            {
+              "text": "GLIMPSE.INC",
+              "style": {
+                "font_weight": "semibold",
+                "font_style": "normal",
+                "color": "#3A3A3A",
+                "color_estimated": true,
+                "emphasis": [
+                  "uppercase"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [],
+            "same_alignment_axis_as": [
+              "text_02",
+              "text_03",
+              "text_04"
+            ],
+            "spacing_notes": "Sits isolated in the top-left corner, well separated from the headline group below by significant whitespace."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_1"
+            ],
+            "relationship": [
+              "text_right_of_visual"
+            ],
+            "description": "A small circular visual_object_1 is placed immediately to the left of the brand text, sharing the same horizontal axis."
+          },
+          "confidence": 0.9
+        },
+        {
+          "id": "text_02",
+          "semantic_role": "question",
+          "reading_order": 2,
+          "attention_priority": 3,
+          "text": "Jadi kapan amonia naik?",
+          "lines": [
+            "Jadi kapan amonia naik?"
+          ],
+          "position": "center_left",
+          "bounding_box": {
+            "x": 8,
+            "y": 20,
+            "width": 55,
+            "height": 5
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "mixed",
+            "font_style": "normal",
+            "size_category": "medium",
+            "approximate_font_size_relative_to_canvas_height": 0.033,
+            "text_color": "#2B2B2B",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Jadi ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "kapan amonia naik",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1A1A1A",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": "?",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_03"
+            ],
+            "same_alignment_axis_as": [
+              "text_01",
+              "text_03",
+              "text_04"
+            ],
+            "spacing_notes": "Introductory question directly above the larger headline block, sharing the left alignment axis."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "background_visual"
+            ],
+            "relationship": [
+              "text_over_visual"
+            ],
+            "description": "Placed over the light gradient upper background region with high contrast; sits well above the lower visual cluster."
+          },
+          "confidence": 0.95
+        },
+        {
+          "id": "text_03",
+          "semantic_role": "headline",
+          "reading_order": 3,
+          "attention_priority": 1,
+          "text": "Ya kemungkinan besar ketika sulfur harganya turun.",
+          "lines": [
+            "Ya kemungkinan besar",
+            "ketika sulfur harganya turun."
+          ],
+          "position": "center_left",
+          "bounding_box": {
+            "x": 8,
+            "y": 27,
+            "width": 78,
+            "height": 12
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "mixed",
+            "font_style": "normal",
+            "size_category": "large",
+            "approximate_font_size_relative_to_canvas_height": 0.05,
+            "text_color": "#1A1A1A",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Ya kemungkinan besar ketika ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#1A1A1A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "sulfur harganya",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#111111",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": " ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#1A1A1A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "turun",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#C21A1A",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "accent_color"
+                ]
+              }
+            },
+            {
+              "text": ".",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#1A1A1A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_02"
+            ],
+            "same_alignment_axis_as": [
+              "text_01",
+              "text_02",
+              "text_04"
+            ],
+            "spacing_notes": "Largest text block, positioned directly below the introductory question with tight vertical grouping. It is the dominant headline of the composition."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "background_visual"
+            ],
+            "relationship": [
+              "text_over_visual",
+              "text_above_visual"
+            ],
+            "description": "Rendered over the upper light background, positioned clearly above the lower visual cluster which begins around 55% canvas height."
+          },
+          "confidence": 0.95
+        },
+        {
+          "id": "text_04",
+          "semantic_role": "body",
+          "reading_order": 4,
+          "attention_priority": 3,
+          "text": "Kapan ESSA naik? Ya kemungkinan besar ketika harga amonia naik.",
+          "lines": [
+            "Kapan ESSA naik? Ya kemungkinan",
+            "besar ketika harga amonia naik."
+          ],
+          "position": "center_left",
+          "bounding_box": {
+            "x": 8,
+            "y": 42,
+            "width": 72,
+            "height": 9
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "mixed",
+            "font_style": "normal",
+            "size_category": "medium",
+            "approximate_font_size_relative_to_canvas_height": 0.032,
+            "text_color": "#2B2B2B",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Kapan ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "ESSA naik",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1A1A1A",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": "? Ya kemungkinan besar ketika ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "harga amonia naik",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1A1A1A",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": ".",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [],
+            "same_alignment_axis_as": [
+              "text_01",
+              "text_02",
+              "text_03"
+            ],
+            "spacing_notes": "Secondary paragraph below the headline, smaller size, separated by a slight gap that distinguishes it as supporting copy."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "background_visual",
+              "visual_cluster_1"
+            ],
+            "relationship": [
+              "text_above_visual"
+            ],
+            "description": "Ends just above the top edge of the lower visual cluster, forming a transition between the text zone and the visual zone."
+          },
+          "confidence": 0.94
+        },
+        {
+          "id": "text_05",
+          "semantic_role": "label",
+          "reading_order": 5,
+          "attention_priority": 4,
+          "text": "SULFUR",
+          "lines": [
+            "SULFUR"
+          ],
+          "position": "center_left",
+          "bounding_box": {
+            "x": 3,
+            "y": 66,
+            "width": 20,
+            "height": 4
+          },
+          "alignment": "center",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "bold",
+            "font_style": "normal",
+            "size_category": "small",
+            "approximate_font_size_relative_to_canvas_height": 0.025,
+            "text_color": "#3A3A3A",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "wide"
+          },
+          "spans": [
+            {
+              "text": "SULFUR",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#3A3A3A",
+                "color_estimated": true,
+                "emphasis": [
+                  "uppercase",
+                  "bold"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_06",
+              "text_07"
+            ],
+            "same_alignment_axis_as": [
+              "text_06",
+              "text_07"
+            ],
+            "spacing_notes": "One of three labels sitting inside the lower visual cluster, sharing an approximate horizontal band with the AMMONIA and ESSA labels."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_2"
+            ],
+            "relationship": [
+              "text_over_visual",
+              "text_inside_negative_space"
+            ],
+            "description": "Label appears within/on a rectangular surface of visual_object_2 on the left side, with a downward accent arrow adjacent to it."
+          },
+          "confidence": 0.9
+        },
+        {
+          "id": "text_06",
+          "semantic_role": "label",
+          "reading_order": 6,
+          "attention_priority": 3,
+          "text": "AMMONIA",
+          "lines": [
+            "AMMONIA"
+          ],
+          "position": "center",
+          "bounding_box": {
+            "x": 37,
+            "y": 70,
+            "width": 22,
+            "height": 4
+          },
+          "alignment": "center",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "bold",
+            "font_style": "normal",
+            "size_category": "small",
+            "approximate_font_size_relative_to_canvas_height": 0.028,
+            "text_color": "#2B2B2B",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "wide"
+          },
+          "spans": [
+            {
+              "text": "AMMONIA",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": [
+                  "uppercase",
+                  "bold"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_05",
+              "text_07"
+            ],
+            "same_alignment_axis_as": [
+              "text_05",
+              "text_07"
+            ],
+            "spacing_notes": "Central label within the visual cluster, positioned on the cylindrical central visual_object_3."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_3"
+            ],
+            "relationship": [
+              "text_over_visual"
+            ],
+            "description": "Text is placed on the surface of the central horizontal cylindrical visual_object_3, with an upward accent arrow above/adjacent to it."
+          },
+          "confidence": 0.93
+        },
+        {
+          "id": "text_07",
+          "semantic_role": "label",
+          "reading_order": 7,
+          "attention_priority": 4,
+          "text": "ESSA",
+          "lines": [
+            "ESSA"
+          ],
+          "position": "center_right",
+          "bounding_box": {
+            "x": 80,
+            "y": 61,
+            "width": 12,
+            "height": 4
+          },
+          "alignment": "center",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "bold",
+            "font_style": "normal",
+            "size_category": "small",
+            "approximate_font_size_relative_to_canvas_height": 0.026,
+            "text_color": "#F0F0F0",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "wide"
+          },
+          "spans": [
+            {
+              "text": "ESSA",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#F0F0F0",
+                "color_estimated": true,
+                "emphasis": [
+                  "uppercase",
+                  "bold"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_05",
+              "text_06"
+            ],
+            "same_alignment_axis_as": [
+              "text_05",
+              "text_06"
+            ],
+            "spacing_notes": "Right-most label in the visual cluster, placed near the top of the right-side visual_object_4."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_4"
+            ],
+            "relationship": [
+              "text_over_visual"
+            ],
+            "description": "Light-colored label appears on the upper facade of the right-side visual_object_4, with an upward accent arrow adjacent to it."
+          },
+          "confidence": 0.9
+        },
+        {
+          "id": "text_08",
+          "semantic_role": "CTA",
+          "reading_order": 8,
+          "attention_priority": 5,
+          "text": "Like kalau suka",
+          "lines": [
+            "Like kalau",
+            "suka"
+          ],
+          "position": "bottom_left",
+          "bounding_box": {
+            "x": 4,
+            "y": 91,
+            "width": 15,
+            "height": 4
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "mixed",
+            "font_style": "normal",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.015,
+            "text_color": "#2B2B2B",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Like",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1A1A1A",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": " kalau suka",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_09",
+              "text_10",
+              "text_11"
+            ],
+            "same_alignment_axis_as": [
+              "text_09",
+              "text_10",
+              "text_11"
+            ],
+            "spacing_notes": "First of the footer microcopy items running horizontally along the bottom edge, above a small accent arrow marker."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "foreground_visual"
+            ],
+            "relationship": [
+              "text_above_visual"
+            ],
+            "description": "Sits above a small downward-pointing accent marker in the bottom footer region."
+          },
+          "confidence": 0.88
+        },
+        {
+          "id": "text_09",
+          "semantic_role": "CTA",
+          "reading_order": 9,
+          "attention_priority": 5,
+          "text": "Komen pendapatmu",
+          "lines": [
+            "Komen",
+            "pendapatmu"
+          ],
+          "position": "bottom_left",
+          "bounding_box": {
+            "x": 21,
+            "y": 91,
+            "width": 17,
+            "height": 4
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "mixed",
+            "font_style": "normal",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.015,
+            "text_color": "#2B2B2B",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Komen",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1A1A1A",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": " pendapatmu",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_08",
+              "text_10",
+              "text_11"
+            ],
+            "same_alignment_axis_as": [
+              "text_08",
+              "text_10",
+              "text_11"
+            ],
+            "spacing_notes": "Second footer microcopy item, evenly spaced to the right of the first."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "foreground_visual"
+            ],
+            "relationship": [
+              "text_above_visual"
+            ],
+            "description": "Positioned above a small accent marker in the footer band."
+          },
+          "confidence": 0.88
+        },
+        {
+          "id": "text_10",
+          "semantic_role": "CTA",
+          "reading_order": 10,
+          "attention_priority": 5,
+          "text": "Bagikan konten ini",
+          "lines": [
+            "Bagikan",
+            "konten ini"
+          ],
+          "position": "bottom_center",
+          "bounding_box": {
+            "x": 40,
+            "y": 91,
+            "width": 16,
+            "height": 4
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "mixed",
+            "font_style": "normal",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.015,
+            "text_color": "#2B2B2B",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Bagikan",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1A1A1A",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": " konten ini",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_08",
+              "text_09",
+              "text_11"
+            ],
+            "same_alignment_axis_as": [
+              "text_08",
+              "text_09",
+              "text_11"
+            ],
+            "spacing_notes": "Third footer microcopy item, centered in the lower band."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "foreground_visual"
+            ],
+            "relationship": [
+              "text_above_visual"
+            ],
+            "description": "Sits above a small accent marker in the footer band."
+          },
+          "confidence": 0.88
+        },
+        {
+          "id": "text_11",
+          "semantic_role": "CTA",
+          "reading_order": 11,
+          "attention_priority": 5,
+          "text": "Simpan kalau bermanfaat",
+          "lines": [
+            "Simpan kalau",
+            "bermanfaat"
+          ],
+          "position": "bottom_right",
+          "bounding_box": {
+            "x": 72,
+            "y": 91,
+            "width": 22,
+            "height": 4
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "mixed",
+            "font_style": "normal",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.015,
+            "text_color": "#2B2B2B",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Simpan",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1A1A1A",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": " kalau bermanfaat",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#2B2B2B",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_08",
+              "text_09",
+              "text_10"
+            ],
+            "same_alignment_axis_as": [
+              "text_08",
+              "text_09",
+              "text_10"
+            ],
+            "spacing_notes": "Right-most footer microcopy item, separated from the other three by a larger gap, sitting above a small accent marker."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "foreground_visual"
+            ],
+            "relationship": [
+              "text_above_visual"
+            ],
+            "description": "Positioned above a small accent marker at the far right of the footer band."
+          },
+          "confidence": 0.88
+        }
+      ],
+      "visual_layout_context": {
+        "visual_elements": [
+          {
+            "id": "visual_object_1",
+            "position": "top_left",
+            "bounding_box": {
+              "x": 4,
+              "y": 4,
+              "width": 4,
+              "height": 4
+            },
+            "relationship_to_text": "Small circular mark placed directly to the left of the brand text, functioning as a logo anchor."
+          },
+          {
+            "id": "background_visual",
+            "position": "top_center",
+            "bounding_box": {
+              "x": 0,
+              "y": 0,
+              "width": 100,
+              "height": 55
+            },
+            "relationship_to_text": "Light gradient region that serves as the backdrop for the brand, question, headline, and body text; provides high contrast for dark type."
+          },
+          {
+            "id": "visual_cluster_1",
+            "position": "bottom_center",
+            "bounding_box": {
+              "x": 0,
+              "y": 55,
+              "width": 100,
+              "height": 33
+            },
+            "relationship_to_text": "Occupies the lower-middle band beneath the text zone; contains three labeled sub-objects and directional accent arrows. Acts as a visual anchor below the copy."
+          },
+          {
+            "id": "visual_object_2",
+            "position": "center_left",
+            "bounding_box": {
+              "x": 0,
+              "y": 60,
+              "width": 26,
+              "height": 25
+            },
+            "relationship_to_text": "Left-side object hosting the SULFUR label, with a downward red accent arrow adjacent."
+          },
+          {
+            "id": "visual_object_3",
+            "position": "center",
+            "bounding_box": {
+              "x": 30,
+              "y": 63,
+              "width": 38,
+              "height": 22
+            },
+            "relationship_to_text": "Central horizontal cylindrical object hosting the AMMONIA label, with an upward green accent arrow adjacent."
+          },
+          {
+            "id": "visual_object_4",
+            "position": "center_right",
+            "bounding_box": {
+              "x": 68,
+              "y": 58,
+              "width": 32,
+              "height": 27
+            },
+            "relationship_to_text": "Right-side object hosting the ESSA label, with an upward green accent arrow adjacent."
+          },
+          {
+            "id": "foreground_visual",
+            "position": "bottom_center",
+            "bounding_box": {
+              "x": 0,
+              "y": 88,
+              "width": 100,
+              "height": 12
+            },
+            "relationship_to_text": "Bottom footer band containing small accent markers positioned directly below each CTA microcopy item."
+          }
+        ]
+      },
+      "global_text_layout": {
+        "reading_direction": "left_to_right_top_to_bottom",
+        "reading_sequence": [
+          "text_01",
+          "text_02",
+          "text_03",
+          "text_04",
+          "text_05",
+          "text_06",
+          "text_07",
+          "text_08",
+          "text_09",
+          "text_10",
+          "text_11"
+        ],
+        "primary_alignment": "left",
+        "primary_alignment_axis_description": "The brand, question, headline, and body copy all share a common left alignment axis at roughly 8% canvas width, creating a strong vertical anchor on the left side.",
+        "hierarchy_description": "Clear three-tier hierarchy: the large mixed-weight headline (text_03) with a red accent word 'turun' is the dominant focal point (priority 1); the introductory question (text_02) and supporting body paragraph (text_04) form the secondary tier (priority 3); the AMMONIA label and remaining in-image labels sit at supporting/secondary levels; the brand mark and footer CTA microcopy are the lowest-priority elements (priority 4-5).",
+        "text_density": "medium",
+        "estimated_text_area_percentage": 34,
+        "estimated_visual_area_percentage": 45,
+        "whitespace_distribution": "Generous whitespace in the upper region around the headline group; the middle-lower region is dense with the labeled visual cluster; the footer band is evenly spaced with small microcopy separated by consistent gaps.",
+        "composition_description": "The composition splits vertically: the upper ~55% is a light text zone with left-aligned brand, question, headline, and body copy, while the lower ~33% is a visual cluster carrying three uppercase labels and directional accent arrows. A thin footer band at the bottom holds four evenly distributed CTA microcopy items. The single red accent word 'turun' in the headline is the strongest color emphasis, contrasting against otherwise black-on-light typography. The visual cluster acts as an anchor beneath the text, with the body copy ending just above it to create a smooth transition between the two zones."
+      }
+    },
+    "slideIndex": 14
+  }
+]

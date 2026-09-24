@@ -1,0 +1,1156 @@
+[
+  {
+    "analysis": {
+      "canvas": {
+        "aspect_ratio": "4:5",
+        "orientation": "portrait",
+        "estimated_width": 512,
+        "estimated_height": 640
+      },
+      "full_text": {
+        "plain_text": "GLIMPSE.INC Untuk seaborne market, hampir 50% permintaan itu datang dari pupuk (DAP/NP/NPK). Nah inilah yang turun permintaannya. Tetapi kenapa bisa turun? Bukannya orang masih pakai pupuk ya? UREA NPK 15-15-15 NPK 16-16-16 DEMAND DECLINES Fertilizer Demand (Million Tons) -18.7% YoY Like kalau suka Komen pendapatmu Bagikan konten ini Simpan kalau bermanfaat",
+        "reading_order_text": "GLIMPSE.INC | Untuk seaborne market, hampir 50% permintaan itu datang dari pupuk (DAP/NP/NPK). | Nah inilah yang turun permintaannya. Tetapi kenapa bisa turun? Bukannya orang masih pakai pupuk ya? | [visual chart text: DEMAND DECLINES, Fertilizer Demand (Million Tons), -18.7% YoY, UREA, NPK 15-15-15, NPK 16-16-16] | Like kalau suka | Komen pendapatmu | Bagikan konten ini | Simpan kalau bermanfaat",
+        "transcription_confidence": 0.93
+      },
+      "text_blocks": [
+        {
+          "id": "text_01",
+          "semantic_role": "brand",
+          "reading_order": 1,
+          "attention_priority": 4,
+          "text": "GLIMPSE.INC",
+          "lines": [
+            "GLIMPSE.INC"
+          ],
+          "position": "top_left",
+          "bounding_box": {
+            "x": 9,
+            "y": 4,
+            "width": 25,
+            "height": 5
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "bold",
+            "font_style": "normal",
+            "size_category": "small",
+            "approximate_font_size_relative_to_canvas_height": 0.022,
+            "text_color": "#3A3A3A",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "GLIMPSE.INC",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#3A3A3A",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "uppercase"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [],
+            "same_alignment_axis_as": [
+              "text_02",
+              "text_03"
+            ],
+            "spacing_notes": "Sits isolated in the top-left corner beside a circular visual mark, well separated from the body text below."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_1"
+            ],
+            "relationship": [
+              "text_right_of_visual",
+              "text_and_visual_share_horizontal_axis"
+            ],
+            "description": "The brand text sits immediately to the right of a small circular badge (visual_object_1) at the top-left, sharing the same horizontal baseline."
+          },
+          "confidence": 0.9
+        },
+        {
+          "id": "text_02",
+          "semantic_role": "body",
+          "reading_order": 2,
+          "attention_priority": 2,
+          "text": "Untuk seaborne market, hampir 50% permintaan itu datang dari pupuk (DAP/NP/NPK).",
+          "lines": [
+            "Untuk seaborne market, hampir",
+            "50% permintaan itu datang dari",
+            "pupuk (DAP/NP/NPK)."
+          ],
+          "position": "center_left",
+          "bounding_box": {
+            "x": 13,
+            "y": 18,
+            "width": 72,
+            "height": 16
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "regular",
+            "font_style": "normal",
+            "size_category": "medium",
+            "approximate_font_size_relative_to_canvas_height": 0.038,
+            "text_color": "#4A4A4A",
+            "text_color_estimated": true,
+            "line_height": "loose",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Untuk ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#4A4A4A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "seaborne market",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "italic",
+                "color": "#4A4A4A",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic"
+                ]
+              }
+            },
+            {
+              "text": ", hampir ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#4A4A4A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "50% permintaan",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#2E2E2E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": " itu datang dari pupuk (",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#4A4A4A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "DAP/NP/NPK",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#2E2E2E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": ").",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#4A4A4A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_03"
+            ],
+            "same_alignment_axis_as": [
+              "text_01",
+              "text_03"
+            ],
+            "spacing_notes": "First body paragraph, separated from the second paragraph (text_03) by a clear blank line gap."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_cluster_1"
+            ],
+            "relationship": [
+              "text_above_visual"
+            ],
+            "description": "This paragraph occupies the upper text zone with clean whitespace; the lower visual cluster begins well below it."
+          },
+          "confidence": 0.93
+        },
+        {
+          "id": "text_03",
+          "semantic_role": "question",
+          "reading_order": 3,
+          "attention_priority": 1,
+          "text": "Nah inilah yang turun permintaannya. Tetapi kenapa bisa turun? Bukannya orang masih pakai pupuk ya?",
+          "lines": [
+            "Nah inilah yang turun",
+            "permintaannya. Tetapi kenapa",
+            "bisa turun? Bukannya orang",
+            "masih pakai pupuk ya?"
+          ],
+          "position": "center_left",
+          "bounding_box": {
+            "x": 13,
+            "y": 37,
+            "width": 73,
+            "height": 21
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "regular",
+            "font_style": "normal",
+            "size_category": "medium",
+            "approximate_font_size_relative_to_canvas_height": 0.04,
+            "text_color": "#4A4A4A",
+            "text_color_estimated": true,
+            "line_height": "loose",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Nah inilah yang ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#4A4A4A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "turun permintaan",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#C62828",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "accent_color"
+                ]
+              }
+            },
+            {
+              "text": "nya. Tetapi kenapa bisa ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#4A4A4A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "turun",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#2E2E2E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": "? Bukannya orang masih pakai ",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#4A4A4A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            },
+            {
+              "text": "pupuk",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#2E2E2E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold"
+                ]
+              }
+            },
+            {
+              "text": " ya?",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#4A4A4A",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_02"
+            ],
+            "same_alignment_axis_as": [
+              "text_01",
+              "text_02"
+            ],
+            "spacing_notes": "Second body/question paragraph, sharing the same left margin as text_02; ends just above the visual cluster."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_cluster_1"
+            ],
+            "relationship": [
+              "text_above_visual",
+              "visual_below_text"
+            ],
+            "description": "The lower edge of this paragraph terminates just above the upper boundary of the lower visual cluster, creating a natural separation while leading the eye down toward the visuals."
+          },
+          "confidence": 0.94
+        },
+        {
+          "id": "text_04",
+          "semantic_role": "decorative_text",
+          "reading_order": 4,
+          "attention_priority": 3,
+          "text": "UREA",
+          "lines": [
+            "UREA"
+          ],
+          "position": "center_right",
+          "bounding_box": {
+            "x": 39,
+            "y": 62,
+            "width": 16,
+            "height": 5
+          },
+          "alignment": "center",
+          "typography": {
+            "font_category": "sans_serif",
+            "font_weight": "bold",
+            "font_style": "normal",
+            "size_category": "small",
+            "approximate_font_size_relative_to_canvas_height": 0.028,
+            "text_color": "#2E2E2E",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "wide"
+          },
+          "spans": [
+            {
+              "text": "UREA",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#2E2E2E",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "uppercase"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_05",
+              "text_06"
+            ],
+            "same_alignment_axis_as": [],
+            "spacing_notes": "Label text printed on the surface of a foreground visual object within the lower cluster."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_cluster_1"
+            ],
+            "relationship": [
+              "text_over_visual"
+            ],
+            "description": "This text is rendered directly on the surface of a foreground object inside the lower visual cluster."
+          },
+          "confidence": 0.85
+        },
+        {
+          "id": "text_05",
+          "semantic_role": "decorative_text",
+          "reading_order": 5,
+          "attention_priority": 3,
+          "text": "NPK 15-15-15",
+          "lines": [
+            "NPK",
+            "15-15-15"
+          ],
+          "position": "bottom_right",
+          "bounding_box": {
+            "x": 62,
+            "y": 66,
+            "width": 16,
+            "height": 8
+          },
+          "alignment": "center",
+          "typography": {
+            "font_category": "sans_serif",
+            "font_weight": "bold",
+            "font_style": "normal",
+            "size_category": "small",
+            "approximate_font_size_relative_to_canvas_height": 0.03,
+            "text_color": "#1F1F1F",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "NPK 15-15-15",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1F1F1F",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "uppercase"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_04",
+              "text_06"
+            ],
+            "same_alignment_axis_as": [
+              "text_06"
+            ],
+            "spacing_notes": "Label printed on a foreground object; sits to the right of text_04 within the cluster."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_cluster_1"
+            ],
+            "relationship": [
+              "text_over_visual"
+            ],
+            "description": "Rendered on the surface of a foreground object in the right portion of the lower visual cluster."
+          },
+          "confidence": 0.82
+        },
+        {
+          "id": "text_06",
+          "semantic_role": "decorative_text",
+          "reading_order": 6,
+          "attention_priority": 3,
+          "text": "NPK 16-16-16",
+          "lines": [
+            "NPK",
+            "16-16-16"
+          ],
+          "position": "bottom_right",
+          "bounding_box": {
+            "x": 78,
+            "y": 70,
+            "width": 16,
+            "height": 8
+          },
+          "alignment": "center",
+          "typography": {
+            "font_category": "sans_serif",
+            "font_weight": "bold",
+            "font_style": "normal",
+            "size_category": "small",
+            "approximate_font_size_relative_to_canvas_height": 0.03,
+            "text_color": "#1F1F1F",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "NPK 16-16-16",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1F1F1F",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "uppercase"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_04",
+              "text_05"
+            ],
+            "same_alignment_axis_as": [
+              "text_05"
+            ],
+            "spacing_notes": "Label printed on a foreground object at the far right of the lower cluster."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_cluster_1"
+            ],
+            "relationship": [
+              "text_over_visual"
+            ],
+            "description": "Rendered on the surface of a foreground object at the right edge of the lower visual cluster."
+          },
+          "confidence": 0.8
+        },
+        {
+          "id": "text_07",
+          "semantic_role": "callout",
+          "reading_order": 7,
+          "attention_priority": 2,
+          "text": "DEMAND DECLINES",
+          "lines": [
+            "DEMAND",
+            "DECLINES"
+          ],
+          "position": "bottom_left",
+          "bounding_box": {
+            "x": 11,
+            "y": 80,
+            "width": 40,
+            "height": 9
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "bold",
+            "font_style": "normal",
+            "size_category": "large",
+            "approximate_font_size_relative_to_canvas_height": 0.045,
+            "text_color": "#1A1A1A",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "DEMAND DECLINES",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#1A1A1A",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "uppercase",
+                  "larger_size"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_08",
+              "text_09"
+            ],
+            "same_alignment_axis_as": [
+              "text_08"
+            ],
+            "spacing_notes": "Heading of a chart-like foreground element in the lower-left, above a smaller caption line."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_2"
+            ],
+            "relationship": [
+              "text_over_visual",
+              "visual_frames_text"
+            ],
+            "description": "This bold heading sits on a light foreground panel (visual_object_2) in the lower-left of the canvas."
+          },
+          "confidence": 0.9
+        },
+        {
+          "id": "text_08",
+          "semantic_role": "caption",
+          "reading_order": 8,
+          "attention_priority": 5,
+          "text": "Fertilizer Demand (Million Tons)",
+          "lines": [
+            "Fertilizer Demand (Million Tons)"
+          ],
+          "position": "bottom_left",
+          "bounding_box": {
+            "x": 11,
+            "y": 89,
+            "width": 33,
+            "height": 3
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "sans_serif",
+            "font_weight": "regular",
+            "font_style": "normal",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.016,
+            "text_color": "#333333",
+            "text_color_estimated": true,
+            "line_height": "normal",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Fertilizer Demand (Million Tons)",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#333333",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_07",
+              "text_09"
+            ],
+            "same_alignment_axis_as": [
+              "text_07"
+            ],
+            "spacing_notes": "Subtitle/caption directly beneath the DEMAND DECLINES heading."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_2"
+            ],
+            "relationship": [
+              "text_over_visual"
+            ],
+            "description": "Small caption line placed on the same foreground panel as the heading."
+          },
+          "confidence": 0.82
+        },
+        {
+          "id": "text_09",
+          "semantic_role": "callout",
+          "reading_order": 9,
+          "attention_priority": 2,
+          "text": "-18.7% YoY",
+          "lines": [
+            "-18.7%",
+            "YoY"
+          ],
+          "position": "bottom_center",
+          "bounding_box": {
+            "x": 60,
+            "y": 89,
+            "width": 15,
+            "height": 6
+          },
+          "alignment": "center",
+          "typography": {
+            "font_category": "grotesk_sans",
+            "font_weight": "bold",
+            "font_style": "normal",
+            "size_category": "medium",
+            "approximate_font_size_relative_to_canvas_height": 0.03,
+            "text_color": "#C62828",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "-18.7%",
+              "style": {
+                "font_weight": "bold",
+                "font_style": "normal",
+                "color": "#C62828",
+                "color_estimated": true,
+                "emphasis": [
+                  "bold",
+                  "accent_color"
+                ]
+              }
+            },
+            {
+              "text": "YoY",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "normal",
+                "color": "#555555",
+                "color_estimated": true,
+                "emphasis": []
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_07",
+              "text_08"
+            ],
+            "same_alignment_axis_as": [],
+            "spacing_notes": "Numeric callout positioned to the right within the chart-like foreground element."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_2"
+            ],
+            "relationship": [
+              "text_over_visual",
+              "visual_points_toward_text"
+            ],
+            "description": "A red accented percentage figure sitting on the foreground panel; a directional visual mark appears near it."
+          },
+          "confidence": 0.8
+        },
+        {
+          "id": "text_10",
+          "semantic_role": "CTA",
+          "reading_order": 10,
+          "attention_priority": 4,
+          "text": "Like kalau suka",
+          "lines": [
+            "Like kalau",
+            "suka"
+          ],
+          "position": "bottom_left",
+          "bounding_box": {
+            "x": 3,
+            "y": 94,
+            "width": 15,
+            "height": 5
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "sans_serif",
+            "font_weight": "regular",
+            "font_style": "italic",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.017,
+            "text_color": "#EAEAEA",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Like",
+              "style": {
+                "font_weight": "semibold",
+                "font_style": "italic",
+                "color": "#FFFFFF",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic",
+                  "semibold"
+                ]
+              }
+            },
+            {
+              "text": " kalau suka",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "italic",
+                "color": "#EAEAEA",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_11",
+              "text_12",
+              "text_13"
+            ],
+            "same_alignment_axis_as": [
+              "text_11",
+              "text_12",
+              "text_13"
+            ],
+            "spacing_notes": "First item in a row of footer CTA microcopy across the bottom strip."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_3"
+            ],
+            "relationship": [
+              "text_above_visual"
+            ],
+            "description": "Footer CTA text sitting above a small directional marker in the bottom strip."
+          },
+          "confidence": 0.85
+        },
+        {
+          "id": "text_11",
+          "semantic_role": "CTA",
+          "reading_order": 11,
+          "attention_priority": 4,
+          "text": "Komen pendapatmu",
+          "lines": [
+            "Komen",
+            "pendapatmu"
+          ],
+          "position": "bottom_center",
+          "bounding_box": {
+            "x": 20,
+            "y": 94,
+            "width": 16,
+            "height": 5
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "sans_serif",
+            "font_weight": "regular",
+            "font_style": "italic",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.017,
+            "text_color": "#EAEAEA",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Komen",
+              "style": {
+                "font_weight": "semibold",
+                "font_style": "italic",
+                "color": "#FFFFFF",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic",
+                  "semibold"
+                ]
+              }
+            },
+            {
+              "text": " pendapatmu",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "italic",
+                "color": "#EAEAEA",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_10",
+              "text_12",
+              "text_13"
+            ],
+            "same_alignment_axis_as": [
+              "text_10",
+              "text_12",
+              "text_13"
+            ],
+            "spacing_notes": "Second item in the footer CTA row."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_3"
+            ],
+            "relationship": [
+              "text_above_visual"
+            ],
+            "description": "Footer CTA text positioned above a small directional marker."
+          },
+          "confidence": 0.85
+        },
+        {
+          "id": "text_12",
+          "semantic_role": "CTA",
+          "reading_order": 12,
+          "attention_priority": 4,
+          "text": "Bagikan konten ini",
+          "lines": [
+            "Bagikan",
+            "konten ini"
+          ],
+          "position": "bottom_center",
+          "bounding_box": {
+            "x": 38,
+            "y": 94,
+            "width": 15,
+            "height": 5
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "sans_serif",
+            "font_weight": "regular",
+            "font_style": "italic",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.017,
+            "text_color": "#EAEAEA",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Bagikan",
+              "style": {
+                "font_weight": "semibold",
+                "font_style": "italic",
+                "color": "#FFFFFF",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic",
+                  "semibold"
+                ]
+              }
+            },
+            {
+              "text": " konten ini",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "italic",
+                "color": "#EAEAEA",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_10",
+              "text_11",
+              "text_13"
+            ],
+            "same_alignment_axis_as": [
+              "text_10",
+              "text_11",
+              "text_13"
+            ],
+            "spacing_notes": "Third item in the footer CTA row."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_3"
+            ],
+            "relationship": [
+              "text_above_visual"
+            ],
+            "description": "Footer CTA text positioned above a small directional marker."
+          },
+          "confidence": 0.85
+        },
+        {
+          "id": "text_13",
+          "semantic_role": "CTA",
+          "reading_order": 13,
+          "attention_priority": 4,
+          "text": "Simpan kalau bermanfaat",
+          "lines": [
+            "Simpan kalau",
+            "bermanfaat"
+          ],
+          "position": "bottom_right",
+          "bounding_box": {
+            "x": 74,
+            "y": 94,
+            "width": 22,
+            "height": 5
+          },
+          "alignment": "left",
+          "typography": {
+            "font_category": "sans_serif",
+            "font_weight": "regular",
+            "font_style": "italic",
+            "size_category": "micro",
+            "approximate_font_size_relative_to_canvas_height": 0.017,
+            "text_color": "#EAEAEA",
+            "text_color_estimated": true,
+            "line_height": "tight",
+            "letter_spacing": "normal"
+          },
+          "spans": [
+            {
+              "text": "Simpan",
+              "style": {
+                "font_weight": "semibold",
+                "font_style": "italic",
+                "color": "#FFFFFF",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic",
+                  "semibold"
+                ]
+              }
+            },
+            {
+              "text": " kalau bermanfaat",
+              "style": {
+                "font_weight": "regular",
+                "font_style": "italic",
+                "color": "#EAEAEA",
+                "color_estimated": true,
+                "emphasis": [
+                  "italic"
+                ]
+              }
+            }
+          ],
+          "relationship_to_other_text": {
+            "parent_block": null,
+            "visually_grouped_with": [
+              "text_10",
+              "text_11",
+              "text_12"
+            ],
+            "same_alignment_axis_as": [
+              "text_10",
+              "text_11",
+              "text_12"
+            ],
+            "spacing_notes": "Rightmost item in the footer CTA row, separated by a larger gap from the left cluster."
+          },
+          "relationship_to_visuals": {
+            "nearby_visual_elements": [
+              "visual_object_3"
+            ],
+            "relationship": [
+              "text_above_visual"
+            ],
+            "description": "Footer CTA text positioned above a small directional marker at the bottom-right."
+          },
+          "confidence": 0.85
+        }
+      ],
+      "visual_layout_context": {
+        "visual_elements": [
+          {
+            "id": "visual_object_1",
+            "position": "top_left",
+            "bounding_box": {
+              "x": 4,
+              "y": 4,
+              "width": 5,
+              "height": 5
+            },
+            "relationship_to_text": "Small circular mark serving as an anchor to the left of the brand text (text_01)."
+          },
+          {
+            "id": "visual_cluster_1",
+            "position": "bottom_center",
+            "bounding_box": {
+              "x": 30,
+              "y": 58,
+              "width": 68,
+              "height": 30
+            },
+            "relationship_to_text": "Large foreground cluster in the lower-right portion carrying label texts (text_04, text_05, text_06); sits below the main body paragraphs."
+          },
+          {
+            "id": "visual_object_2",
+            "position": "bottom_left",
+            "bounding_box": {
+              "x": 8,
+              "y": 78,
+              "width": 60,
+              "height": 20
+            },
+            "relationship_to_text": "Light foreground panel in the lower-left hosting the DEMAND DECLINES heading, caption, and percentage callout."
+          },
+          {
+            "id": "background_visual",
+            "position": "center",
+            "bounding_box": {
+              "x": 0,
+              "y": 55,
+              "width": 100,
+              "height": 45
+            },
+            "relationship_to_text": "Muted background occupying the lower half; body text sits over its lighter upper region."
+          },
+          {
+            "id": "visual_object_3",
+            "position": "bottom_center",
+            "bounding_box": {
+              "x": 3,
+              "y": 98,
+              "width": 55,
+              "height": 2
+            },
+            "relationship_to_text": "Row of small directional markers positioned directly beneath the footer CTA microcopy."
+          }
+        ]
+      },
+      "global_text_layout": {
+        "reading_direction": "left_to_right_top_to_bottom",
+        "reading_sequence": [
+          "text_01",
+          "text_02",
+          "text_03",
+          "text_07",
+          "text_08",
+          "text_09",
+          "text_04",
+          "text_05",
+          "text_06",
+          "text_10",
+          "text_11",
+          "text_12",
+          "text_13"
+        ],
+        "primary_alignment": "left",
+        "primary_alignment_axis_description": "The brand mark and both body paragraphs share a consistent left margin at roughly x=13, forming the dominant left alignment axis. The footer CTAs and chart-panel text also anchor left within their own zones.",
+        "hierarchy_description": "Primary emphasis is the second body/question paragraph (text_03) with red-accented keywords, followed by the first body paragraph (text_02). The DEMAND DECLINES heading and -18.7% figure form a secondary focal cluster in the lower region. Brand text, object labels, and footer CTA microcopy sit at the lowest tiers.",
+        "text_density": "medium",
+        "estimated_text_area_percentage": 38,
+        "estimated_visual_area_percentage": 62,
+        "whitespace_distribution": "Generous whitespace in the upper half around the body paragraphs; the lower half is visually dense with the foreground cluster and chart panel, and a thin dark footer strip contains evenly spaced microcopy.",
+        "composition_description": "The layout follows a top-to-bottom flow: brand mark top-left, two left-aligned body paragraphs occupying the airy upper-middle zone, then a dense lower visual band carrying embedded labels and a chart-like callout, closed by a dark footer strip of evenly distributed CTA microcopy. Red accent color links the key word in the question text to the -18.7% figure, tying the upper narrative to the lower data callout."
+      }
+    },
+    "slideIndex": 8
+  }
+]
